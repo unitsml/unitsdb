@@ -1,0 +1,633 @@
+---
+# Quantities
+
+NISTq172:
+  name: 1st hyperpolarizability
+
+NISTq173:
+  name: 2nd hyperpolarizability
+
+NISTq36:
+  name: absorbed dose
+
+NISTq76:
+  name: absorbed dose rate
+
+NISTq49:
+  name: acceleration
+
+NISTq108:
+  name: acceleration of free fall
+
+NISTq154:
+  name: action
+
+NISTq35:
+  name: activity referred to a radionuclide
+
+NISTq40:
+  name: ambient dose equivalent
+
+NISTq55:
+  name: amount concentration
+
+NISTq23:
+  name: amount of electricity
+
+NISTq19:
+  name: amount of heat
+
+NISTq6:
+  name: amount of substance
+
+NISTq55:
+  name: amount-of-substance concentration(amount concentration)
+
+NISTq9:
+  name: angle(plane angle)
+
+NISTq58:
+  name: angular acceleration
+
+NISTq113:
+  name: angular frequency
+
+NISTq133:
+  name: angular impulse
+
+NISTq132:
+  name: angular momentum(moment of momentum)
+
+NISTq115:
+  name: angular repetency(angular wavenumber)
+
+NISTq57:
+  name: angular velocity
+
+NISTq115:
+  name: angular wavenumber
+
+NISTq8:
+  name: area
+
+NISTq155:
+  name: area moment of inertia
+
+NISTq31:
+  name: areic mass(surface density)
+
+NISTq122:
+  name: attenuation coefficient
+
+NISTq185:
+  name: bending moment of force
+
+NISTq95:
+  name: breadth
+
+NISTq143:
+  name: bulk modulus(modulus of compression)
+
+NISTq27:
+  name: capacitance
+
+NISTq102:
+  name: cartesian coordinates
+
+NISTq44:
+  name: catalytic activity
+
+NISTq84:
+  name: catalytic activity concentration
+
+NISTq34:
+  name: Celsius temperature
+
+NISTq180:
+  name: coefficient of heat transfer
+
+NISTq139:
+  name: compressibility
+
+NISTq55:
+  name: concentration(amount concentration)
+
+NISTq157:
+  name: cubic expansion coefficient
+
+NISTq53:
+  name: current density
+
+NISTq106:
+  name: curvature
+
+NISTq120:
+  name: damping coefficient
+
+NISTq51:
+  name: density(mass density)
+
+NISTq100:
+  name: diameter
+
+NISTq41:
+  name: directional dose equivalent
+
+NISTq104:
+  name: displacement
+
+NISTq48:
+  name: distance
+
+NISTq39:
+  name: dose equivalent
+
+NISTq3:
+  name: duration(time)
+
+NISTq147:
+  name: dynamic friction factor
+
+NISTq59:
+  name: dynamic viscosity
+
+NISTq149:
+  name: efficiency
+
+NISTq169:
+  name: electric capacitance
+
+NISTq22:
+  name: electric charge
+
+NISTq69:
+  name: electric charge density
+
+NISTq29:
+  name: electric conductance
+
+NISTq4:
+  name: electric current
+
+NISTq170:
+  name: electric current intensity
+
+NISTq162:
+  name: electric dipole moment
+
+NISTq82:
+  name: electric displacement
+
+NISTq165:
+  name: electric field gradient
+
+NISTq68:
+  name: electric field strength
+
+NISTq70:
+  name: electric flux density
+
+NISTq171:
+  name: electric inductance
+
+NISTq166:
+  name: electric potential
+
+NISTq24:
+  name: electric potential difference
+
+NISTq167:
+  name: electric quadrupole moment
+
+NISTq28:
+  name: electric resistance
+
+NISTq26:
+  name: electric tension
+
+NISTq24:
+  name: electromotive force(electric potential difference)
+
+NISTq17:
+  name: energy
+
+NISTq67:
+  name: energy density
+
+NISTq79:
+  name: entropy
+
+NISTq75:
+  name: exposure (x and gamma rays)
+
+NISTq175:
+  name: Fahrenheit temperature
+
+NISTq91:
+  name: fluidity
+
+NISTq13:
+  name: force
+
+NISTq45:
+  name: frequency
+
+NISTq130:
+  name: gravitational constant
+
+NISTq117:
+  name: group speed(group velocity)
+
+NISTq117:
+  name: group velocity
+
+NISTq153:
+  name: Hamilton function
+
+NISTq19:
+  name: heat(amount of heat)
+
+NISTq63:
+  name: heat capacity
+
+NISTq62:
+  name: heat flux density
+
+NISTq96:
+  name: height
+
+NISTq92:
+  name: hydrodynamic permeability
+
+NISTq47:
+  name: illuminance
+
+NISTq129:
+  name: impulse
+
+NISTq174:
+  name: index of acidity
+
+NISTq32:
+  name: inductance
+
+NISTq25:
+  name: inverse area
+
+NISTq78:
+  name: irradiance
+
+NISTq160:
+  name: isothermal compressibility
+
+NISTq38:
+  name: kerma
+
+NISTq85:
+  name: kinematic viscosity
+
+NISTq182:
+  name: kinetic energy
+
+NISTq152:
+  name: Lagrange function
+
+NISTq1:
+  name: length
+
+NISTq101:
+  name: length of path
+
+NISTq118:
+  name: level of a field quantity
+
+NISTq119:
+  name: level of a power quantity
+
+NISTq126:
+  name: linear density
+
+NISTq156:
+  name: linear expansion coefficient
+
+NISTq136:
+  name: linear strain
+
+NISTq126:
+  name: lineic mass(linear density)
+
+NISTq121:
+  name: logarithmic decrement
+
+NISTq90:
+  name: logarithmic ratio quantities
+
+NISTq56:
+  name: luminance
+
+NISTq46:
+  name: luminous flux
+
+NISTq7:
+  name: luminous intensity
+
+NISTq164:
+  name: magnetic dipole moment
+
+NISTq87:
+  name: magnetic field
+
+NISTq54:
+  name: magnetic field strength
+
+NISTq30:
+  name: magnetic flux
+
+NISTq14:
+  name: magnetic flux density
+
+NISTq163:
+  name: magnetizability
+
+NISTq161:
+  name: magnetomotive force
+
+NISTq2:
+  name: mass
+
+NISTq33:
+  name: mass concentration
+
+NISTq51:
+  name: mass density
+
+NISTq176:
+  name: mass divided by length
+
+NISTq150:
+  name: mass flow rate
+
+NISTq127:
+  name: mass moment of inertia
+
+NISTq52:
+  name: massic volume(specific volume)
+
+NISTq183:
+  name: mechanical energy
+
+NISTq143:
+  name: modulus of compression
+
+NISTq141:
+  name: modulus of elasticity
+
+NISTq142:
+  name: modulus of rigidity
+
+NISTq179:
+  name: molality of solute B
+
+NISTq73:
+  name: molar energy
+
+NISTq74:
+  name: molar entropy
+
+NISTq83:
+  name: molar heat capacity
+
+NISTq60:
+  name: moment of force
+
+NISTq127:
+  name: moment of inertia(mass moment of inertia)
+
+NISTq132:
+  name: moment of momentum
+
+NISTq131:
+  name: momentum
+
+NISTq134:
+  name: normal stress
+
+NISTq109:
+  name: period(period duration)
+
+NISTq109:
+  name: period duration
+
+NISTq72:
+  name: permeability
+
+NISTq71:
+  name: permittivity
+
+NISTq42:
+  name: personal dose equivalent
+
+NISTq123:
+  name: phase coefficient
+
+NISTq116:
+  name: phase speed(phase velocity)
+
+NISTq116:
+  name: phase velocity
+
+NISTq9:
+  name: plane angle
+
+NISTq140:
+  name: Poisson number
+
+NISTq168:
+  name: polarizability
+
+NISTq103:
+  name: position vector
+
+NISTq24:
+  name: potential difference(electric potential difference)
+
+NISTq77:
+  name: potential energy
+
+NISTq20:
+  name: power
+
+NISTq15:
+  name: pressure
+
+NISTq159:
+  name: pressure coefficient
+
+NISTq124:
+  name: propagation coefficient
+
+NISTq99:
+  name: radial distance
+
+NISTq89:
+  name: radiance
+
+NISTq21:
+  name: radiant flux
+
+NISTq88:
+  name: radiant intensity
+
+NISTq98:
+  name: radius
+
+NISTq105:
+  name: radius of curvature
+
+NISTq91:
+  name: reciprocal of dynamic viscosity(fluidity)
+
+NISTq93:
+  name: refractive index
+
+NISTq125:
+  name: relative density(relative mass density)
+
+NISTq125:
+  name: relative mass density
+
+NISTq94:
+  name: relative permeability
+
+NISTq158:
+  name: relative pressure coefficient
+
+NISTq50:
+  name: repetency(wavenumber)
+
+NISTq111:
+  name: rotation
+
+NISTq112:
+  name: rotational frequency
+
+NISTq144:
+  name: second axial moment of area
+
+NISTq155:
+  name: second moment of area(area moment of inertia)
+
+NISTq145:
+  name: second polar moment of area
+
+NISTq146:
+  name: section modulus
+
+NISTq142:
+  name: shear modulus(modulus of rigidity)
+
+NISTq137:
+  name: shear strain
+
+NISTq135:
+  name: shear stress
+
+NISTq11:
+  name: solid angle
+
+NISTq65:
+  name: specific energy
+
+NISTq37:
+  name: specific energy imparted
+
+NISTq80:
+  name: specific entropy
+
+NISTq64:
+  name: specific heat capacity
+
+NISTq52:
+  name: specific volume
+
+NISTq12:
+  name: speed(velocity)
+
+NISTq107:
+  name: speed of propagation of waves
+
+NISTq148:
+  name: static friction factor
+
+NISTq177:
+  name: storage capacity
+
+NISTq177:
+  name: storage size(storage capacity)
+
+NISTq16:
+  name: stress
+
+NISTq81:
+  name: surface charge density
+
+NISTq181:
+  name: surface coefficient of heat transfer
+
+NISTq31:
+  name: surface density
+
+NISTq61:
+  name: surface tension
+
+NISTq66:
+  name: thermal conductivity
+
+NISTq5:
+  name: thermodynamic temperature
+
+NISTq97:
+  name: thickness
+
+NISTq3:
+  name: time
+
+NISTq110:
+  name: time constant
+
+NISTq184:
+  name: torque
+
+NISTq12:
+  name: velocity
+
+NISTq24:
+  name: voltage(electric potential difference)
+
+NISTq166:
+  name: voltage(electric potential)
+
+NISTq26:
+  name: voltage(electric tension)
+
+NISTq10:
+  name: volume
+
+NISTq151:
+  name: volume flow rate
+
+NISTq138:
+  name: volume strain
+
+NISTq114:
+  name: wavelength
+
+NISTq50:
+  name: wavenumber
+
+NISTq128:
+  name: weight
+
+NISTq18:
+  name: work
+
