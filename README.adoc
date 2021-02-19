@@ -1,0 +1,12 @@
+= UnitsDB
+
+This data repository is used in conjunction with UnitsML.
+
+Sources include:
+
+* https://www.bipm.org/en/publications/si-brochure/[BIPM SI Brochure]
+* https://www.nist.gov/pml/special-publication-811[NIST SP 811]
+* ISO 80000 series
+* (in some cases, "Encyclopaedia of Scientific Units, Weights and Measures, Their SI Equivalences and Origins" by François Cardarelli, is consulted)
+
+NOTE: Conversion factors here are not updated with the revised SI.
