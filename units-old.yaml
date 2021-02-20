@@ -1,0 +1,2140 @@
+---
+# Units
+
+# SI base units for building
+
+NISTu1:
+  name: meter
+  symbol: m
+  si: true
+  type:
+    - si-base
+  short: meter
+  root: true
+
+NISTu27:
+  name: gram
+  symbol: g
+  si: true
+  type:
+    - si-base
+  short: gram
+  root: true
+
+NISTu27p10_3:
+  name: kilogram
+  symbol: kg
+  si: true
+  type:
+    - buildable
+
+NISTu3:
+  name: second
+  symbol: s
+  si: true
+  type:
+    - si-base
+  short: second
+  root: true
+
+NISTu4:
+  name: ampere
+  symbol: A
+  si: true
+  type:
+    - si-base
+  short: ampere
+  root: true
+
+NISTu5:
+  name: kelvin
+  symbol: K
+  si: true
+  type:
+    - si-base
+  short: kelvin
+  root: true
+
+NISTu6:
+  name: mole
+  symbol: mol
+  si: true
+  type:
+    - si-base
+  short: mole
+  root: true
+
+NISTu7:
+  name: candela
+  symbol: cd
+  si: true
+  type:
+    - si-base
+  short: candela
+  root: true
+
+
+# SI special derived units:
+
+NISTu9:
+  name: radian
+  symbol: rad
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu1
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: radian
+  root: true
+
+NISTu10:
+  name: steradian
+  symbol: sr
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 1
+    - id: NISTu1
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+  short: steradian
+  root: true
+
+NISTu11:
+  name: newton
+  symbol: N
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 1
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: newton
+  root: true
+
+NISTu12:
+  name: pascal
+  symbol: Pa
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: -1
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: pascal
+  root: true
+
+NISTu13:
+  name: joule
+  symbol: J
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: joule
+  root: true
+
+NISTu14:
+  name: watt
+  symbol: W
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -3
+  type:
+    - si-derived-special
+
+NISTu15:
+  name: coulomb
+  symbol: C
+  si: true
+  bases:
+    - id: NISTu2
+      prefix:
+      power: 1
+    - id: NISTu4
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: coulomb
+  root: true
+
+NISTu16:
+  name: volt
+  symbol: V
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -3
+    - id: NISTu4
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+  root: true
+
+NISTu17:
+  name: farad
+  symbol: F
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu27
+      prefix: p10_3
+      power: -1
+    - id: NISTu3
+      prefix:
+      power: 4
+    - id: NISTu4
+      prefix:
+      power: 2
+  type:
+    - si-derived-special
+  short: farad
+  root: true
+
+NISTu18:
+  name: ohm
+  symbol: Ohm
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: 4
+    - id: NISTu4
+      prefix:
+      power: 2
+  type:
+    - si-derived-special
+  short: ohm
+  root: true
+
+NISTu19:
+  name: siemens
+  symbol: S
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu27
+      prefix: p10_3
+      power: -1
+    - id: NISTu3
+      prefix:
+      power: 3
+    - id: NISTu4
+      prefix:
+      power: 2
+  type:
+    - si-derived-special
+  short: siemens
+  root: true
+
+NISTu20:
+  name: weber
+  symbol: Wb
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+
+NISTu21:
+  name: tesla
+  symbol: T
+  si: true
+  bases:
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+  short: tesla
+  root: true
+
+NISTu22:
+  name: henry
+  symbol: H
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: henry
+  root: true
+
+NISTu23:
+  name: degree Celsius
+  symbol: degC
+  si: true
+  bases:
+    - id: NISTu5
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: degree_Celsius
+  root: true
+
+NISTu25:
+  name: becquerel
+  symbol: Bq
+  si: true
+  bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+  short: becquerel
+  root: true
+
+NISTu28:
+  name: gray
+  symbol: Gy
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu7
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: gray
+  root: true
+
+NISTu29:
+  name: sievert
+  symbol: Sv
+  si: true
+  bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu3
+      prefix:
+      power: -2
+  type:
+    - si-derived-special
+  short: sievert
+  root: true
+
+NISTu30:
+  name: katal
+  symbol: kat
+  si: true
+  bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+    - id: NISTu6
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: katal
+  root: true
+
+NISTu31:
+  name: hertz
+  symbol: Hz
+  si: true
+  bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+  type:
+    - si-derived-special
+  short: hertz
+  root: true
+
+NISTu32:
+  name: lumen
+  symbol: lm
+  si: true
+  bases:
+    - id: NISTu7
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: lumen
+  root: true
+
+NISTu33:
+  name: lux
+  symbol: lx
+  si: true
+  bases:
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu7
+      prefix:
+      power: 1
+  type:
+    - si-derived-special
+  short: lux
+  root: true
+
+
+# All SI non-special derived units:
+
+NISTu4.u1e-1_1:
+  name: ampere per meter
+  symbol: A*m^-1
+  si: true
+
+NISTu4.u1e-2_1:
+  name: ampere per square meter
+  symbol: A*m^-2
+  si: true
+
+NISTu7.u1e-2_1:
+  name: candela per square meter
+  symbol: cd*m^-2
+  si: true
+
+NISTu15.u1e-3_1:
+  name: coulomb per cubic meter
+  symbol: C*m^-3
+  si: true
+
+NISTu15.u27p10_3e-1_1:
+  name: coulomb per kilogram
+  symbol: C*kg^-1
+  si: true
+
+NISTu15.u1e-2_1:
+  name: coulomb per square meter
+  symbol: C*m^-2
+  si: true
+
+NISTu1e3_1:
+  name: cubic meter
+  symbol: m^3
+  si: true
+
+NISTu1e3_1.u27p10_3:
+  name: cubic meter per kilogram
+  symbol: m^3*kg
+  si: true
+
+NISTu1e3_1.u3e-1_1:
+  name: cubic meter per second
+  symbol: m^3*s^-1
+  si: true
+
+NISTu17.u1e-1_1:
+  name: farad per meter
+  symbol: F*m^-1
+  si: true
+
+NISTu28.u3e-1_1:
+  name: gray per second
+  symbol: Gy*s^-1
+  si: true
+
+NISTu22.u1e-1_1:
+  name: henry per meter
+  symbol: H*m^-1
+  si: true
+
+NISTu13.u1e-3_1:
+  name: joule per cubic meter
+  symbol: J*m^-3
+  si: true
+
+NISTu13.u5e-1_1:
+  name: joule per kelvin
+  symbol: J*K^-1
+  si: true
+
+NISTu13.u27p10_3e-1_1:
+  name: joule per kilogram
+  symbol: J*kg^-1
+  si: true
+
+NISTu13.u27p10_3e-1_1.u5e-1_1:
+  name: joule per kilogram kelvin
+  symbol: J*kg^-1*K^-1
+  si: true
+
+NISTu13.u6e-1_1:
+  name: joule per mole
+  symbol: J*mol^-1
+  si: true
+
+NISTu13.u6e-1_1.u5e-1_1:
+  name: joule per mole kelvin
+  symbol: J*mol^-1*K^-1
+  si: true
+
+NISTu13.u3:
+  name: joule second
+  symbol: J*s
+  si: true
+
+NISTu30.u1e-3_1:
+  name: katal per cubic meter
+  symbol: kat*m^-3
+  si: true
+
+NISTu5e-1_1:
+  name: kelvin to the power minus one
+  symbol: K^-1
+  si: true
+
+NISTu27p10_3.u1.u3e-1_1:
+  name: kilogram meter per second
+  symbol: kg*m*s^-1
+  si: true
+
+NISTu27p10_3.u1e2_1:
+  name: kilogram meter squared
+  symbol: kg*m^2
+  si: true
+
+NISTu27p10_3.u1e2_1.u3e-1_1:
+  name: kilogram meter squared per second
+  symbol: kg*m^2*s^-1
+  si: true
+
+NISTu27p10_3.u1e-3_1:
+  name: kilogram per cubic meter
+  symbol: kg*m^-3
+  si: true
+
+NISTu27p10_3.u1e-1_1:
+  name: kilogram per meter
+  symbol: kg*m^-1
+  si: true
+
+NISTu27p10_3.u3e-1_1:
+  name: kilogram per second
+  symbol: kg*s^-1
+  si: true
+
+NISTu27p10_3.u1e-2_1:
+  name: kilogram per square meter
+  symbol: kg*m^-2
+  si: true
+
+NISTu1.u3e-1_1:
+  name: meter per second
+  symbol: m*s^-1
+  si: true
+
+NISTu1.u3e-2_1:
+  name: meter per second squared
+  symbol: m*s^-2
+  si: true
+
+NISTu1e2_1.u3e-1_1:
+  name: meter squared per second
+  symbol: m^2*s^-1
+  si: true
+
+NISTu1e-1_1:
+  name: meter to the power minus one
+  symbol: m^-1
+  si: true
+
+NISTu6.u1e-3_1:
+  name: mole per cubic meter
+  symbol: mol*m^-3
+  si: true
+
+NISTu6.u27p10_3e-1_1:
+  name: mole per kilogram
+  symbol: mol*kg^-1
+  si: true
+
+NISTu11.u1:
+  name: newton meter
+  symbol: N*m
+  si: true
+
+NISTu11.u1.u3:
+  name: newton meter second
+  symbol: N*m*s
+  si: true
+
+NISTu11.u1e2_1.u27p10_3e-2_1:
+  name: newton meter squared per kilogram squared
+  symbol: N*m^2*kg^-2
+  si: true
+
+NISTu11.u1e-1_1:
+  name: newton per meter
+  symbol: N*m^-1
+  si: true
+
+NISTu11.u3:
+  name: newton second
+  symbol: N*s
+  si: true
+
+NISTu12.u5e-1_1:
+  name: pascal per kelvin
+  symbol: Pa*K^-1
+  si: true
+
+NISTu12.u3:
+  name: pascal second
+  symbol: Pa*s
+  si: true
+
+NISTu12e-1_1:
+  name: pascal to the power minus one
+  symbol: Pa^-1
+  si: true
+
+NISTu9.u1e-1_1:
+  name: radian per meter
+  symbol: rad*m^-1
+  si: true
+
+NISTu9.u3e-1_1:
+  name: radian per second
+  symbol: rad*s^-1
+  si: true
+
+NISTu9.u3e-2_1:
+  name: radian per second squared
+  symbol: rad*s^-2
+  si: true
+
+NISTu3e-1_1:
+  name: second to the power minus one
+  symbol: s^-1
+  si: true
+
+NISTu1e2_1:
+  name: square meter
+  symbol: m^2
+  si: true
+
+NISTu16.u1e-1_1:
+  name: volt per meter
+  symbol: V*m^-1
+  si: true
+
+NISTu14.u1e-1_1.u5e-1_1:
+  name: watt per meter kelvin
+  symbol: W*m^-1*K^-1
+  si: true
+
+NISTu14.u1e-2_1:
+  name: watt per square meter
+  symbol: W*m^-2
+  si: true
+
+NISTu14.u1e-2_1.u10e-1_1:
+  name: watt per square meter steradian
+  symbol: W*m^-2*sr^-1
+  si: true
+
+NISTu14.u10e-1_1:
+  name: watt per steradian
+  symbol: W*sr^-1
+  si: true
+
+NISTu14.u3:
+  name: watt second
+  symbol: W*s
+  si: true
+
+
+
+# Non-SI units (acceptable):
+
+NISTu106:
+  name: year (365 days)
+  short: year_365
+  symbol: a
+  si: false
+  acceptable: true
+
+NISTu130:
+  name: liter
+  symbol: L
+  si: false
+  acceptable: true
+  short: liter
+  root: true
+
+NISTu131:
+  name: nautical mile
+  symbol: M
+  si: false
+  acceptable: true
+  short: nautical_mile
+  root: true
+
+NISTu131.u37e-1_1:
+  short: knot
+  root: true
+
+NISTu144:
+  name: oersted
+  symbol: Oe
+  si: false
+  acceptable: true
+  short: oersted
+  root: true
+
+NISTu149:
+  short: arc_degree
+  root: true
+
+NISTu147:
+  name: minute (minute of arc)
+  symbol: "'"
+  si: false
+  acceptable: true
+  short: arc_minute
+  root: true
+
+NISTu148:
+  name: second (second of arc)
+  symbol: '"'
+  si: false
+  acceptable: true
+  short: arc_second
+  root: true
+
+NISTu154:
+  name: bel
+  symbol: B
+  si: false
+  acceptable: true
+  short: bel
+  root: true
+
+NISTu156:
+  name: conventional millimeter of mercury
+  symbol: mmHg
+  si: false
+  acceptable: true
+  short: mm_Hg
+  root: true
+
+NISTu159:
+  name: gon
+  symbol: gon
+  si: false
+  acceptable: true
+  short: gon
+  root: true
+
+NISTu183:
+  name: astronomical unit
+  symbol: ua
+  si: false
+  acceptable: true
+  short: astronomical_unit
+  root: true
+
+NISTu240:
+  name: electronvolt
+  symbol: eV
+  si: false
+  acceptable: true
+  short: electronvolt
+  root: true
+
+NISTu241:
+  name: unified atomic mass unit
+  symbol: u
+  si: false
+  acceptable: true
+  short: unified_atomic_mass_unit
+  root: true
+
+NISTu36:
+  name: minute
+  symbol: min
+  si: false
+  acceptable: true
+  short: minute
+  root: true
+
+NISTu37:
+  name: hour
+  symbol: h
+  si: false
+  acceptable: true
+  short: hour
+  root: true
+
+NISTu38:
+  name: day
+  symbol: d
+  si: false
+  acceptable: true
+  short: day
+  root: true
+
+NISTu39:
+  name: angstrom
+  symbol: Aring
+  si: false
+  acceptable: true
+  short: angstrom
+  root: true
+
+NISTu43:
+  name: barn
+  symbol: b
+  si: false
+  acceptable: true
+  short: barn
+  root: true
+
+NISTu91:
+  name: bar
+  symbol: bar
+  si: false
+  acceptable: true
+  short: bar
+  root: true
+
+
+# Non-SI units (temporarily acceptable):
+
+NISTu42:
+  name: are
+  symbol: a
+  si: false
+  acceptable: temporary
+  short: are
+  root: true
+
+NISTu44:
+  name: hectare
+  symbol: ha
+  si: false
+  acceptable: temporary
+  short: hectare
+  root: true
+
+# Non-SI units (not acceptable):
+
+NISTu47:
+  short: abampere
+  root: true
+
+NISTu48:
+  name: abcoulomb
+  symbol: abC
+  si: false
+  acceptable: false
+  short: abcoulomb
+  root: true
+
+NISTu49:
+  name: abfarad
+  symbol: abF
+  si: false
+  acceptable: false
+  short: abfarad
+  root: true
+
+NISTu50:
+  name: abhenry
+  symbol: abH
+  si: false
+  acceptable: false
+  short: abhenry
+  root: true
+
+NISTu51:
+  name: abmho
+  symbol: abS
+  si: false
+  acceptable: false
+  short: abmho
+  root: true
+
+NISTu52:
+  name: abohm
+  symbol: abohm
+  si: false
+  acceptable: false
+  short: abohm
+  root: true
+
+NISTu53:
+  name: abvolt
+  symbol: abV
+  si: false
+  acceptable: false
+  short: abvolt
+  root: true
+
+NISTu225:
+  name: abwatt
+  symbol: aW (Cardelli)
+  si: false
+  acceptable: false
+  short: abwatt
+  root: true
+
+NISTu178:
+  name: barrel (US) for petroleum
+  symbol: bbl (US)
+  si: false
+  acceptable: false
+  short: petro_barrel
+  root: true
+
+NISTu239:
+  name: barye
+  symbol: barye
+  si: false
+  acceptable: false
+  short: barye
+  root: true
+
+NISTu285:
+  short: boiler_horsepower
+  root: true
+
+NISTu350:
+  name: bit
+  symbol: bit
+  si: false
+  acceptable: false
+  short: bit
+  root: true
+
+NISTu351:
+  short: byte
+  root: true
+
+NISTu335:
+  name: British thermal unit (39 degF)
+  symbol: Btu
+  si: false
+  acceptable: false
+  short: 39F_btu
+  root: true
+
+NISTu336:
+  name: British thermal unit (59 degF)
+  symbol: Btu
+  si: false
+  acceptable: false
+  short: 59F_btu
+  root: true
+
+NISTu337:
+  name: British thermal unit (60 degF)
+  symbol: Btu
+  si: false
+  acceptable: false
+  short: 60F_btu
+  root: true
+
+NISTu334:
+  name: British thermal unit (mean)
+  symbol: Btu
+  si: false
+  acceptable: false
+  short: mean_btu
+  root: true
+
+NISTu333:
+  name: British thermal unit_IT
+  symbol: Btu
+  si: false
+  acceptable: false
+  short: table_btu
+  root: true
+
+NISTu216:
+  name: British thermal unit_th
+  symbol: Btu_th
+  si: false
+  acceptable: false
+  short: thermo_btu
+  root: true
+
+NISTu328:
+  short: 60F_in_Hg
+  root: true
+
+NISTu324:
+  short: 60F_in_water
+  root: true
+
+NISTu179:
+  name: bushel (US)
+  symbol: bu (US)
+  si: false
+  acceptable: false
+  short: us_bushel
+  root: true
+
+NISTu310:
+  name: chain (based on US survey foot)
+  symbol: ch
+  si: false
+  acceptable: false
+  short: us_survey_chain
+  root: true
+
+NISTu318:
+  name: conventional centimeter of mercury
+  symbol: cmHg
+  si: false
+  acceptable: false
+  short: cm_Hg
+  root: true
+
+NISTu321:
+  name: conventional centimeter of water
+  symbol: cmH_2O
+  si: false
+  acceptable: false
+  short: cm_water
+  root: true
+
+NISTu330:
+  name: conventional foot of mercury
+  symbol: ftHg
+  si: false
+  acceptable: false
+  short: ft_Hg
+  root: true
+
+NISTu325:
+  name: conventional foot of water
+  symbol: ftH_2O
+  si: false
+  acceptable: false
+  short: ft_water
+  root: true
+
+NISTu329:
+  name: conventional inch of mercury
+  symbol: inHg
+  si: false
+  acceptable: false
+  short: in_Hg
+  root: true
+
+NISTu322:
+  name: conventional inch of water
+  symbol: inH_2O
+  si: false
+  acceptable: false
+  short: in_water
+  root: true
+
+NISTu215:
+  name: conventional millimeter of water
+  symbol: mmH_2O
+  si: false
+  acceptable: false
+  short: mm_water
+  root: true
+
+NISTu98:
+  name: curie
+  symbol: Ci
+  si: false
+  acceptable: false
+  short: curie
+  root: true
+
+NISTu224:
+  name: debye
+  symbol: D
+  si: false
+  acceptable: false
+  short: debye
+  root: true
+
+NISTu133:
+  name: degree Fahrenheit
+  symbol: degF
+  si: false
+  acceptable: false
+  short: degree_Fahrenheit
+  root: true
+
+NISTu288:
+  name: degree Rankine
+  symbol: degR
+  si: false
+  acceptable: false
+  short: degree_Rankine
+  root: true
+
+NISTu234:
+  name: dram (apothecary)
+  symbol: dr
+  si: false
+  acceptable: false
+  short: apothecaries_dram
+  root: true
+
+NISTu275:
+  name: dram (avoirdupois)
+  symbol: dr (avdp)
+  si: false
+  acceptable: false
+  short: dram
+  root: true
+
+NISTu180:
+  name: dry pint (US)
+  symbol: dry pt (US)
+  si: false
+  acceptable: false
+  short: us_dry_pint
+  root: true
+
+NISTu301:
+  name: dry quart (US)
+  symbol: dry qt (US)
+  si: false
+  acceptable: false
+  short: us_dry_quart
+  root: true
+
+NISTu71:
+  name: dyne
+  symbol: dyn
+  si: false
+  acceptable: false
+  short: dyne
+  root: true
+
+NISTu62:
+  name: erg
+  symbol: erg
+  si: false
+  acceptable: false
+  short: erg
+  root: true
+
+NISTu282:
+  name: fathom (based on US survey foot)
+  symbol: fath
+  si: false
+  acceptable: false
+  short: us_survey_fathom
+  root: true
+
+NISTu173:
+  name: fluid ounce (UK)
+  symbol: fl oz (UK)
+  si: false
+  acceptable: false
+  short: imperial_ounce
+  root: true
+
+NISTu177:
+  name: fluid ounce (US)
+  symbol: fl oz (US)
+  si: false
+  acceptable: false
+  short: us_fluid_ounce
+  root: true
+
+NISTu78:
+  name: foot
+  symbol: ft
+  si: false
+  acceptable: false
+  short: foot
+  root: true
+
+NISTu315:
+  name: foot (based on US survey foot)
+  symbol: ft
+  si: false
+  acceptable: false
+  short: us_survey_foot
+  root: true
+
+NISTu277:
+  name: footlambert
+  symbol: ft.L
+  si: false
+  acceptable: false
+  short: footlambert
+  root: true
+
+NISTu143:
+  name: gal
+  symbol: Gal
+  si: false
+  acceptable: false
+  short: gal
+  root: true
+
+NISTu171:
+  name: gallon (UK)
+  symbol: gal (UK)
+  si: false
+  acceptable: false
+  short: imperial_gallon
+  root: true
+
+NISTu175:
+  name: gallon (US)
+  symbol: gal (US)
+  si: false
+  acceptable: false
+  short: us_gallon
+  root: true
+
+NISTu119:
+  name: gauss
+  symbol: Gs
+  si: false
+  acceptable: false
+  short: gauss
+  root: true
+
+NISTu223:
+  name: gilbert
+  symbol: Gi
+  si: false
+  acceptable: false
+  short: gilbert
+  root: true
+
+NISTu356:
+  name: gill (US)
+  symbol: gi
+  si: false
+  acceptable: false
+  short: us_gill
+  root: true
+
+NISTu86:
+  name: grain (troy or apothecary)
+  symbol: gr
+  si: false
+  acceptable: false
+  short: grain
+  root: true
+
+NISTu196:
+  name: gram-force
+  symbol: gf
+  si: false
+  acceptable: false
+  short: gram_force
+  root: true
+
+NISTu284:
+  name: horsepower
+  symbol: hp
+  si: false
+  acceptable: false
+  short: horsepower
+  root: true
+
+NISTu203:
+  name: hundredweight (long, 112 lb)
+  symbol: cwt (UK)
+  si: false
+  acceptable: false
+  short: gross_hundredweight
+  root: true
+
+NISTu230:
+  name: hundredweight (short, 100 lb)
+  symbol: cwt (US)
+  si: false
+  acceptable: false
+  short: hundredweight
+  root: true
+
+NISTu60:
+  name: I.T. calorie
+  symbol: cal_IT
+  si: false
+  acceptable: false
+  short: table_calorie
+  root: true
+
+NISTu8:
+  name: inch
+  symbol: in
+  si: false
+  acceptable: false
+  short: inch
+  root: true
+
+NISTu316:
+  name: inch (based on US survey foot)
+  symbol: in
+  si: false
+  acceptable: false
+  short: us_survey_inch
+  root: true
+
+NISTu120:
+  name: kayser
+  symbol: K
+  si: false
+  acceptable: false
+  short: kayser
+  root: true
+
+NISTu63:
+  name: kilocalorie_IT
+  symbol: kcal_IT
+  si: false
+  acceptable: false
+  short: table_kg_calorie
+  root: true
+
+NISTu64:
+  name: kilocalorie_th
+  symbol: kcal_th
+  si: false
+  acceptable: false
+  short: thermo_kg_calorie
+  root: true
+
+NISTu237:
+  name: kip
+  symbol: kip
+  si: false
+  acceptable: false
+  short: kip
+  root: true
+
+NISTu222:
+  name: lambert
+  symbol: L
+  si: false
+  acceptable: false
+  short: lambert
+  root: true
+
+NISTu378:
+  name: light minute
+  short: light_minute
+  root: true
+
+NISTu379:
+  name: light second
+  short: light_second
+  root: true
+
+NISTu377:
+  name: light hour
+  short: light_hour
+  root: true
+
+NISTu182:
+  name: light year
+  symbol: l.y.
+  si: false
+  acceptable: false
+  short: light_year
+  root: true
+
+NISTu376:
+  name: light week
+  short: light_week
+  root: true
+
+NISTu176:
+  name: liquid pint (US)
+  symbol: liq pint (US)
+  si: false
+  acceptable: false
+  short: us_pint
+  root: true
+
+NISTu302:
+  name: liquid quart (US)
+  symbol: liq qt (US)
+  si: false
+  acceptable: false
+  short: us_quart
+  root: true
+
+NISTu58:
+  name: maxwell
+  symbol: Mx
+  si: false
+  acceptable: false
+  short: maxwell
+  root: true
+
+NISTu88:
+  name: metric ton
+  symbol: t
+  si: false
+  acceptable: false
+  short: metric_ton
+  root: true
+
+NISTu218:
+  short: metric_horsepower
+  root: true
+
+NISTu83:
+  name: mile
+  symbol: mi
+  si: false
+  acceptable: false
+  short: mile
+  root: true
+
+NISTu313:
+  name: mile (based on US survey foot)
+  symbol: mi
+  si: false
+  acceptable: false
+  short: us_survey_mile
+  root: true
+
+NISTu353:
+  name: minim
+  symbol: min
+  si: false
+  acceptable: false
+  short: us_minim
+  root: true
+
+NISTu202:
+  name: ounce (avoirdupois)
+  symbol: oz
+  si: false
+  acceptable: false
+  short: ounce
+  root: true
+
+NISTu231:
+  name: ounce (troy or apothecary)
+  symbol: oz
+  si: false
+  acceptable: false
+  short: troy_ounce
+  root: true
+
+NISTu184:
+  name: parsec
+  symbol: pc
+  si: false
+  acceptable: false
+  short: parsec
+  root: true
+
+NISTu352:
+  name: peck
+  symbol: pk
+  si: false
+  acceptable: false
+  short: us_peck
+  root: true
+
+NISTu233:
+  name: pennyweight
+  symbol: dwt (troy)
+  si: false
+  acceptable: false
+  short: pennyweight
+  root: true
+
+NISTu332:
+  name: pH
+  symbol: pH
+  si: false
+  acceptable: false
+  short: pH
+  root: true
+
+NISTu85:
+  name: phot
+  symbol: ph
+  si: false
+  acceptable: false
+  short: phot
+  root: true
+
+NISTu172:
+  name: pint (UK)
+  symbol: pt (UK)
+  si: false
+  acceptable: false
+  short: imperial_pint
+  root: true
+
+NISTu128:
+  name: poise
+  symbol: P
+  si: false
+  acceptable: false
+  short: poise
+  root: true
+
+NISTu201:
+  name: pound (avoirdupois)
+  symbol: lb
+  si: false
+  acceptable: false
+  short: pound
+  root: true
+
+NISTu232:
+  name: pound (troy or apothecary)
+  symbol: lb
+  si: false
+  acceptable: false
+  short: troy_pound
+  root: true
+
+NISTu205:
+  name: pound-force
+  symbol: lbf
+  si: false
+  acceptable: false
+  short: pound_force
+  root: true
+
+NISTu348:
+  name: pound-mole
+  symbol: lbmol
+  si: false
+  acceptable: false
+  short: pound_mole
+  root: true
+
+NISTu236:
+  name: poundal
+  symbol: pdl
+  si: false
+  acceptable: false
+  short: poundal
+  root: true
+
+NISTu300:
+  name: quart (UK)
+  symbol: qt (UK)
+  si: false
+  acceptable: false
+  short: imperial_quart
+  root: true
+
+NISTu99:
+  name: rad (absorbed dose)
+  symbol: rad
+  si: false
+  acceptable: false
+  short: rad
+  root: true
+
+NISTu100:
+  name: rem
+  symbol: rem
+  si: false
+  acceptable: false
+  short: rem
+  root: true
+
+NISTu129:
+  name: rhe
+  symbol: rhe
+  si: false
+  acceptable: false
+  short: rhe
+  root: true
+
+NISTu281:
+  name: rod (based on US survey foot)
+  symbol: rd
+  si: false
+  acceptable: false
+  short: us_survey_rod
+  root: true
+
+NISTu118:
+  name: roentgen
+  symbol: R
+  si: false
+  acceptable: false
+  short: roentgen
+  root: true
+
+NISTu235:
+  name: scruple
+  symbol: scr (ap.)
+  si: false
+  acceptable: false
+  short: scruple
+  root: true
+
+NISTu226:
+  name: slug
+  symbol: slug
+  si: false
+  acceptable: false
+  short: slug
+  root: true
+
+NISTu134:
+  name: standard atmosphere
+  symbol: atm
+  si: false
+  acceptable: false
+  short: standard_atmosphere
+  root: true
+
+NISTu267:
+  name: statampere
+  short: statampere
+  root: true
+
+NISTu271:
+  name: statcoulomb
+  symbol: statcoulomb
+  si: false
+  acceptable: false
+  short: statcoulomb
+  root: true
+
+NISTu266:
+  name: statfarad
+  symbol: statF
+  si: false
+  acceptable: false
+  short: statfarad
+  root: true
+
+NISTu269:
+  name: stathenry
+  symbol: statH
+  si: false
+  acceptable: false
+  short: stathenry
+  root: true
+
+NISTu270:
+  name: statmho
+  symbol: statmho
+  si: false
+  acceptable: false
+  short: statmho
+  root: true
+
+NISTu265:
+  name: statohm
+  symbol: statohm
+  si: false
+  acceptable: false
+  short: statohm
+  root: true
+
+NISTu273:
+  name: stattesla
+  symbol: statT
+  si: false
+  acceptable: false
+  short: stattesla
+  root: true
+
+NISTu268:
+  name: statvolt
+  symbol: statV
+  si: false
+  acceptable: false
+  short: statvolt
+  root: true
+
+NISTu274:
+  name: statwatt
+  symbol: statwatt
+  si: false
+  acceptable: false
+  short: statwatt
+  root: true
+
+NISTu272:
+  name: statweber
+  symbol: statWb
+  si: false
+  acceptable: false
+  short: statweber
+  root: true
+
+NISTu124:
+  name: stilb
+  symbol: sb
+  si: false
+  acceptable: false
+  short: stilb
+  root: true
+
+NISTu142:
+  name: stokes
+  symbol: St
+  si: false
+  acceptable: false
+  short: stokes
+  root: true
+
+NISTu135:
+  name: technical atmosphere
+  symbol: at
+  si: false
+  acceptable: false
+  short: technical_atmosphere
+  root: true
+
+NISTu213:
+  name: tex
+  symbol: tex
+  si: false
+  acceptable: false
+  short: tex
+  root: true
+
+NISTu227:
+  name: thermochemical calorie
+  symbol: cal_th
+  si: false
+  acceptable: false
+  short: thermo_calorie
+  root: true
+
+NISTu238:
+  name: ton-force (2000 lb)
+  symbol: ton-force (2000 lb)
+  si: false
+  acceptable: false
+  short: ton_force
+  root: true
+
+NISTu214:
+  name: torr
+  symbol: Torr
+  si: false
+  acceptable: false
+  short: torr
+  root: true
+
+NISTu84:
+  name: yard
+  symbol: yd
+  si: false
+  acceptable: false
+
+NISTu314:
+  name: yard (based on US survey foot)
+  symbol: yd
+  si: false
+  acceptable: false
+  short: us_survey_yard
+  root: true
+
+# Enumerated Root Units
+NISTu286:
+  name: water horsepower
+  short: water_horsepower
+  root: true
+
+NISTu311:
+  short: us_survey_link
+  root: true
+
+NISTu304:
+  short: us_tablespoon
+  root: true
+
+NISTu303:
+  short: us_teaspoon
+  root: true
+
+NISTu312:
+  short: us_survey_furlong
+  root: true
+
+NISTu331:
+  short: us_therm
+  root: true
+
+NISTu307:
+  short: us_label_cup
+  root: true
+
+NISTu308:
+  short: us_label_fluid_ounce
+  root: true
+
+NISTu309:
+  short: us_label_ounce
+  root: true
+
+NISTu305:
+  short: us_label_tablespoon
+  root: true
+
+NISTu306:
+  short: us_label_teaspoon
+  root: true
+
+NISTu287:
+  short: uk_horsepower
+  root: true
+
+NISTu317:
+  short: us_acre
+  root: true
+
+NISTu354:
+  short: us_cup
+  root: true
+
+NISTu355:
+  short: us_fluid_dram
+  root: true
+
+NISTu166:
+  short: tons_of_tnt
+  root: true
+
+NISTu349:
+  short: ton_refrigeration
+  root: true
+
+NISTu338:
+  short: tropical_year
+  root: true
+
+NISTu345:
+  short: shake
+  root: true
+
+NISTu228:
+  short: short_ton
+  root: true
+
+NISTu340:
+  short: sidereal_day
+  root: true
+
+NISTu341:
+  short: sidereal_hour
+  root: true
+
+NISTu342:
+  short: sidereal_minute
+  root: true
+
+NISTu343:
+  short: sidereal_second
+  root: true
+
+NISTu339:
+  short: sidereal_year
+  root: true
+
+NISTu279:
+  short: printers_pica
+  root: true
+
+NISTu344:
+  short: printers_point
+  root: true
+
+NISTu347:
+  short: nato_mil
+  root: true
+
+NISTu243:
+  short: natural_unit_of_action
+  root: true
+
+NISTu297:
+  short: natural_unit_of_action_in_eV_s
+  root: true
+
+NISTu295:
+  short: natural_unit_of_energy
+  root: true
+
+NISTu298:
+  short: natural_unit_of_energy_in_MeV
+  root: true
+
+NISTu290:
+  short: natural_unit_of_length
+  root: true
+
+NISTu244:
+  short: natural_unit_of_mass
+  root: true
+
+NISTu296:
+  short: natural_unit_of_momentum
+  root: true
+
+NISTu299:
+  short: natural_unit_of_momentum_in_MeV_per_c
+  root: true
+
+NISTu245:
+  short: natural_unit_of_time
+  root: true
+
+NISTu242:
+  short: natural_unit_of_velocity
+  root: true
+
+NISTu153:
+  short: neper
+  root: true
+
+NISTu357:
+  short: imperial_gill
+  root: true
+
+NISTu229:
+  short: long_ton
+  root: true
+
+NISTu117:
+  short: ec_therm
+  root: true
+
+NISTu127:
+  short: electric_horsepower
+  root: true
+
+NISTu276:
+  short: footcandle
+  root: true
+
+NISTu157:
+  short: darcy
+  root: true
+
+NISTu346:
+  short: denier
+  root: true
+
+NISTu283:
+  short: circular_mil
+  root: true
+
+NISTu278:
+  short: computer_pica
+  root: true
+
+NISTu280:
+  short: computer_point
+  root: true
+
+NISTu212:
+  short: carat
+  root: true
+
+NISTu291:
+  short: atomic_unit_of_1st_hyperpolarizability
+  root: true
+
+NISTu292:
+  short: atomic_unit_of_2nd_hyperpolarizability
+  root: true
+
+NISTu248:
+  short: atomic_unit_of_action
+  root: true
+
+NISTu246:
+  short: atomic_unit_of_charge
+  root: true
+
+NISTu256:
+  short: atomic_unit_of_charge_density
+  root: true
+
+NISTu257:
+  short: atomic_unit_of_current
+  root: true
+
+NISTu258:
+  short: atomic_unit_of_electric_dipole_moment
+  root: true
+
+NISTu259:
+  short: atomic_unit_of_electric_field
+  root: true
+
+NISTu260:
+  short: atomic_unit_of_electric_field_gradient
+  root: true
+
+NISTu264:
+  short: atomic_unit_of_electric_polarizability
+  root: true
+
+NISTu261:
+  short: atomic_unit_of_electric_potential
+  root: true
+
+NISTu263:
+  short: atomic_unit_of_electric_quadrupole_moment
+  root: true
+
+NISTu250:
+  short: atomic_unit_of_energy
+  root: true
+
+NISTu262:
+  short: atomic_unit_of_force
+  root: true
+
+NISTu249:
+  short: atomic_unit_of_length
+  root: true
+
+NISTu254:
+  short: atomic_unit_of_magnetic_dipole_moment
+  root: true
+
+NISTu253:
+  short: atomic_unit_of_magnetic_flux_density
+  root: true
+
+NISTu252:
+  short: atomic_unit_of_magnetizability
+  root: true
+
+NISTu247:
+  short: atomic_unit_of_mass
+  root: true
+
+NISTu255:
+  short: atomic_unit_of_momentum
+  root: true
+
+NISTu293:
+  short: atomic_unit_of_permittivity
+  root: true
+
+NISTu251:
+  short: atomic_unit_of_time
+  root: true
+
+NISTu294:
+  short: atomic_unit_of_velocity
+  root: true
+
+NISTu319:
+  short: 0C_cm_Hg
+  root: true
+
+NISTu327:
+  short: 32F_in_Hg
+  root: true
+
+NISTu326:
+  short: 39F_ft_water
+  root: true
+
+NISTu323:
+  short: 39F_in_water
+  root: true
+
+NISTu320:
+  short: 4C_cm_water
+  root: true
