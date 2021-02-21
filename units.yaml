@@ -6244,11 +6244,13 @@
     ASCII: "h-bar*(e*a_0^2)-1"
     LaTeX: "\ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1" unit="atomic_unit_of_magnetic_flux_density"
-				/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_magnetic_flux_density"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "magnetic flux density"
-      url: "#NISTq14" #qr
+      url: "#NISTq14"
 
 "NISTu254":
   dimension_url: "#NISTd73"
@@ -6268,11 +6270,13 @@
   unit_symbol:
     LaTeX: "\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1" unit="atomic_unit_of_magnetic_dipole_moment"
-				/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_magnetic_dipole_moment"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "magnetic dipole moment"
-      url: "#NISTq164" #qr
+      url: "#NISTq164"
 
 "NISTu255":
   dimension_url: "#NISTd61"
@@ -6356,11 +6360,13 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1" unit="atomic_unit_of_electric_dipole_moment"
-				/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_dipole_moment"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "electric dipole moment"
-      url: "#NISTq162" #qr
+      url: "#NISTq162"
 
 "NISTu259":
   dimension_url: "#NISTd42"
@@ -7206,8 +7212,10 @@
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
 
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1" unit="natural_unit_of_momentum_in_MeV_per_c"
-				/>
+    enumerated_root_units:
+      - unit: "natural_unit_of_momentum_in_MeV_per_c"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "momentum"
       url: "#NISTq131" #qr
