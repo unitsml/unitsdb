@@ -1181,8 +1181,8 @@
   unit_symbol:
     ascii: "A*h"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">A&#8201;&#183;&#8201;h</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">A&#8201;&#183;&#8201;h</span>
     latex: '\ensuremath{\mathrm{A\cdot h}}'
     unicode: "A&#183;h"
   root_units:
@@ -1282,8 +1282,8 @@
   unit_symbol:
     ascii: "kW*h"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kW&#8201;&#183;&#8201;h</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kW&#8201;&#183;&#8201;h</span>
     latex: '\ensuremath{\mathrm{kW\cdot h}}'
     unicode: "kW&#183;h"
   root_units:
@@ -1433,8 +1433,8 @@
   unit_symbol:
     ascii: "W*h"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;h</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;h</span>
     latex: '\ensuremath{\mathrm{W\cdot h}}'
     unicode: "W&#183;h"
   root_units:
@@ -1469,8 +1469,8 @@
   unit_symbol:
     ascii: "W*s"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;s</span>
     latex: '\ensuremath{\mathrm{W\cdot s}}'
     unicode: "W&#183;s"
   root_units:
@@ -1570,7 +1570,7 @@
     ascii: "kcal_th*s^-1"
     html: |
       kcal <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
     latex: '\ensuremath{\mathrm{kcal_{th}}}'
   root_units:
@@ -1599,7 +1599,7 @@
     ascii: "cal_th*s^-1"
     html: |
       cal <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
     latex: '\ensuremath{\mathrm{cal_{th}}}'
   root_units:
@@ -2628,9 +2628,9 @@
   unit_symbol:
     ascii: "kgf*s^2/m"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;s
-						<sup>2</sup>/m</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;s
+            <sup>2</sup>/m</span>
     latex: '\ensuremath{\mathrm{kgf\cdot s^2/m}}'
     unicode: "kgf&#183;s&#178;m&#8315;&#185;"
   root_units:
@@ -2659,8 +2659,8 @@
   unit_symbol:
     ascii: "kgf*m"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m</span>
     latex: '\ensuremath{\mathrm{kgf\cdot m}}'
     unicode: "kgf&#183;m"
   root_units:
@@ -2968,8 +2968,8 @@
   unit_symbol:
     ascii: "J*kg^-1*K^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(kg&#8201;&#183;&#8201;K)</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(kg&#8201;&#183;&#8201;K)</span>
     latex: '\ensuremath{\mathrm{J/(kg\cdot K)}}'
     unicode: "J/(kg&#183;K)"
   root_units:
@@ -3000,8 +3000,8 @@
   unit_symbol:
     ascii: "Pa*s"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">Pa&#8201;&#183;&#8201;s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">Pa&#8201;&#183;&#8201;s</span>
     latex: '\ensuremath{\mathrm{Pa\cdot s}}'
     unicode: "Pa&#183;s"
   root_units:
@@ -3026,8 +3026,8 @@
   unit_symbol:
     ascii: "N*m"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m</span>
     latex: '\ensuremath{\mathrm{N\cdot m}}'
     unicode: "N&#183;m"
   root_units:
@@ -3105,8 +3105,8 @@
   unit_symbol:
     ascii: "W*m^-1*K^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m&#8201;&#183;&#8201;K)</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m&#8201;&#183;&#8201;K)</span>
     latex: '\ensuremath{\mathrm{W/(m\cdot K)}}'
     unicode: "W/(m&#183;K)"
   root_units:
@@ -3311,8 +3311,8 @@
   unit_symbol:
     ascii: "J*mol^-1*K^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(mol&#8201;&#183;&#8201;K)</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(mol&#8201;&#183;&#8201;K)</span>
     latex: '\ensuremath{\mathrm{J/(mol\cdot K)}}'
     unicode: "J/(mol&#183;K)"
   root_units:
@@ -3505,8 +3505,8 @@
   unit_symbol:
     ascii: "W*m^-2*sr^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m^2&#8201;&#183;&#8201;sr)</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m^2&#8201;&#183;&#8201;sr)</span>
     latex: '\ensuremath{\mathrm{W/(m^2\cdot sr)}}'
     unicode: "W/(m&#178;&#183;sr)"
   root_units:
@@ -3929,7 +3929,7 @@
     - "square mile"
   unit_symbol:
     ascii: "mi^2"
-		html: ""
+    html: ""
     latex: '\ensuremath{\mathrm{mi^2}}'
     unicode: "mi&#178;"
   root_units:
@@ -4483,8 +4483,8 @@
   unit_symbol:
     ascii: "N*s"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;s</span>
     latex: '\ensuremath{\mathrm{N\cdot s}}'
     unicode: "N&#183;s"
   root_units:
@@ -4509,10 +4509,10 @@
   unit_symbol:
     ascii: "N*m^2*kg^-2"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m
-						<sup>2</sup>/kg <sup>2</sup>
-				</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m
+            <sup>2</sup>/kg <sup>2</sup>
+        </span>
     latex: '\ensuremath{\mathrm{N\cdot m^2/kg^2}}'
     unicode: "N&#183;m&#178;/kg&#178;"
   root_units:
@@ -4541,8 +4541,8 @@
   unit_symbol:
     ascii: "kg*m*s^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m/s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m/s</span>
     latex: '\ensuremath{\mathrm{kg\cdot m/s}}'
     unicode: "N&#183;m/s"
   root_units:
@@ -4571,8 +4571,8 @@
   unit_symbol:
     ascii: "kg*m^2*s^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m^2/s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m^2/s</span>
     latex: '\ensuremath{\mathrm{kg\cdot m^2/s}}'
     unicode: "kg&#183;m&#178;/s"
   root_units:
@@ -4603,8 +4603,8 @@
   unit_symbol:
     ascii: "N*m*s"
     html: |
-			<span style="white-space:nowrap;" xmlns=""
-				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s</span>
+      <span style="white-space:nowrap;" xmlns=""
+        xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s</span>
     latex: '\ensuremath{\mathrm{N\cdot m\cdot s}}'
     unicode: "N&#183;m&#183;s"
   root_units:
@@ -4733,8 +4733,8 @@
   unit_symbol:
     ascii: "J*s"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J&#8201;&#183;&#8201;s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J&#8201;&#183;&#8201;s</span>
     latex: '\ensuremath{\mathrm{J\cdot s}}'
     unicode: "J&#183;s"
   root_units:
@@ -4876,8 +4876,8 @@
   unit_symbol:
     ascii: "ft*lbf"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf</span>
     latex: '\ensuremath{\mathrm{ft\cdot lbf}}'
     unicode: "ft&#183;lbf"
   root_units:
@@ -5022,8 +5022,8 @@
   unit_symbol:
     ascii: "ft*lbf*s^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf/s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf/s</span>
     latex: '\ensuremath{\mathrm{ft\cdot lbf/s}}'
     unicode: "ft&#183;lbf/2"
   root_units:
@@ -5122,7 +5122,7 @@
     ascii: "mmH_2O"
     html: |
       mmH <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
     latex: '\ensuremath{\mathrm{mmH_{2}O}}'
     unicode: "mmH&#8322;O"
@@ -5170,8 +5170,8 @@
   unit_symbol:
     ascii: "kgf*m*s^-1"
     html: |
-				<span style="white-space:nowrap;" xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m/s</span>
+        <span style="white-space:nowrap;" xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m/s</span>
     latex: '\ensuremath{\mathrm{kgf\cdot m/s}}'
     unicode: "kgf&#183;m/s"
   root_units:
@@ -5267,13 +5267,13 @@
   unit_symbol:
     ascii: "W*m^-2*K^-1"
     html: |
-			<span style="white-space:nowrap;" xmlns=""
-				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m
-				<sup>2</sup>&#8201;&#183;&#8201;K)</span>
+      <span style="white-space:nowrap;" xmlns=""
+        xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m
+        <sup>2</sup>&#8201;&#183;&#8201;K)</span>
     latex: '\ensuremath{\mathrm{W/(m^2\cdot K)}}'
-		unicode: |
+    unicode: |
       m <sup xmlns=""
-				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>&#183;K)
+        xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>&#183;K)
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -5748,8 +5748,8 @@
       - "c"
     html:
       - |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
       - |
         <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
     latex: '\ensuremath{\mathit{c}}'
@@ -5794,8 +5794,8 @@
   unit_symbol:
     ascii: "m_e"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
     latex: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
@@ -5816,13 +5816,13 @@
   unit_symbol:
     ascii: "h-bar*(m_e*c^2)"
     html: |
-			<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
-				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-			<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>c <sup xmlns=""
-				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
+      <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
+        xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+      <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>c <sup xmlns=""
+        xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
 
-		latex: |
-			\ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
+    latex: |
+      \ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
 
   root_units:
     enumerated_root_units:
@@ -5865,8 +5865,8 @@
   unit_symbol:
     ascii: "m_e"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
     latex: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
@@ -5909,8 +5909,8 @@
   unit_symbol:
     ascii: "a_0"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
     latex: '\ensuremath{\mathit{a}_\mathrm{0}}'
   root_units:
     enumerated_root_units:
@@ -5931,7 +5931,7 @@
   unit_symbol:
     ascii: "e_h"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>h
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>h
     latex: '\ensuremath{\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
@@ -5952,9 +5952,9 @@
   unit_symbol:
     ascii: "h-bar*(E_h)-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
     latex: '\ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
@@ -6013,9 +6013,9 @@
   unit_symbol:
     ascii: "h-bar*e*(m_e)-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;e</i>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;e</i>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
     latex: '\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
@@ -6036,9 +6036,9 @@
   unit_symbol:
     ascii: "h-bar*(a_0)-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
     latex: '\ensuremath{\mathit{\hbar}/\mathit{a}_0}'
   root_units:
     enumerated_root_units:
@@ -6098,8 +6098,8 @@
   unit_symbol:
     ascii: "e*a_0"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   root_units:
     enumerated_root_units:
@@ -6120,10 +6120,10 @@
   unit_symbol:
     ascii: "E_h*(e*a_0)"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   root_units:
     enumerated_root_units:
@@ -6144,8 +6144,8 @@
   unit_symbol:
     ascii: "E_h*(e*a_0^2)"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-					unit="atomic_unit_of_electric_field_gradient"/>
+        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
+          unit="atomic_unit_of_electric_field_gradient"/>
   quantity_reference:
     - name: "electric field gradient"
       url: "#NISTq165"
@@ -6160,9 +6160,9 @@
   unit_symbol:
     ascii: "E_h*e-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
 
   root_units:
     enumerated_root_units:
@@ -6187,10 +6187,10 @@
   unit_symbol:
     ascii: "e_h*(a_0)-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   root_units:
     enumerated_root_units:
@@ -6213,8 +6213,8 @@
   unit_symbol:
     ascii: "e*a_0^2"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-					unit="atomic_unit_of_electric_quadrupole_moment"/>
+        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
+          unit="atomic_unit_of_electric_quadrupole_moment"/>
   quantity_reference:
     - name: "electric quadrupole moment"
       url: "#NISTq167"
@@ -6229,8 +6229,8 @@
   unit_symbol:
     ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-					unit="atomic_unit_of_electric_polarizability"/>
+        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
+          unit="atomic_unit_of_electric_polarizability"/>
   quantity_reference:
     - name: "polarizability"
       url: "#NISTq168"
@@ -6768,8 +6768,8 @@
   unit_symbol:
     ascii: "e_3a_0^3*(E_h^3)"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-					unit="atomic_unit_of_1st_hyperpolarizability"/>
+        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
+          unit="atomic_unit_of_1st_hyperpolarizability"/>
   quantity_reference:
     - name: "1st hyperpolarizability"
       url: "#NISTq172"
@@ -6784,8 +6784,8 @@
   unit_symbol:
     ascii: "e_4a_0^4*(E_h^3)"
   root_units:
-				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-					unit="atomic_unit_of_2nd_hyperpolarizability"/>
+        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
+          unit="atomic_unit_of_2nd_hyperpolarizability"/>
   quantity_reference:
     - name: "2nd hyperpolarizability"
       url: "#NISTq173"
@@ -6800,12 +6800,12 @@
   unit_symbol:
     ascii: "e^2*(a_0*E_h)-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
-				<sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>/ <i xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
+        <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>/ <i xmlns=""
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
 
   root_units:
     enumerated_root_units:
@@ -6826,10 +6826,10 @@
   unit_symbol:
     ascii: "a_0*E_h*h-bar-1"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/&#295;
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_velocity"
@@ -6849,10 +6849,10 @@
   unit_symbol:
     ascii: "m_e*c^2"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
-				<sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
+        <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
 
   root_units:
     enumerated_root_units:
@@ -6873,9 +6873,9 @@
   unit_symbol:
     ascii: "m_e*c"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
 
   root_units:
     enumerated_root_units:
@@ -6915,10 +6915,10 @@
   unit_symbol:
     ascii: "m_e*c^2"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
-				<sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
+        <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
 
   root_units:
     enumerated_root_units:
@@ -6939,9 +6939,9 @@
   unit_symbol:
     ascii: "m_e*c"
     html: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
+        <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
+        <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
 
   root_units:
     enumerated_root_units:
@@ -7334,7 +7334,7 @@
     ascii: "cmH_2O"
     html: |
       cmH <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
     latex: '\ensuremath{\mathrm{cmH_{2}O}}'
     unicode: "cmH&#8322;O"
@@ -7362,7 +7362,7 @@
     ascii: "inH_2O"
     html: |
       inH <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
     latex: '\ensuremath{\mathrm{inH_{2}O}}'
     unicode: "inH&#8322;O"
@@ -7426,7 +7426,7 @@
     ascii: "ftH_2O"
     html: |
       ftH <sub xmlns=""
-					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
+          xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
     latex: '\ensuremath{\mathrm{ftH_{2}O}}'
     unicode: "ftH&#8322;O"
