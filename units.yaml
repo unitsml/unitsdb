@@ -4472,9 +4472,7 @@
   unit_symbol:
     ascii: "N*m^2*kg^-2"
     html: |
-        <span style="white-space:nowrap;">N&#8201;&#183;&#8201;m
-            <sup>2</sup>/kg <sup>2</sup>
-        </span>
+        <span style="white-space:nowrap;">N&#8201;&#183;&#8201;m <sup>2</sup>/kg <sup>2</sup></span>
     latex: \ensuremath{\mathrm{N\cdot m^2/kg^2}}
     unicode: "N&#183;m&#178;/kg&#178;"
   root_units:
@@ -4590,8 +4588,7 @@
     - "pascal to the power minus one"
   unit_symbol:
     ascii: "Pa^-1"
-    html: |
-      Pa <sup>-1</sup>
+    html: Pa <sup>-1</sup>
     latex: \ensuremath{\mathrm{Pa^{-1}}}
     unicode: "Pa&#8315;&#185;"
   root_units:
