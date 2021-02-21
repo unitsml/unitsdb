@@ -7,10 +7,10 @@
   unit_name:
     - "meter"
   unit_symbol:
-    ASCII: "m"
-    HTML: "m"
-    LaTeX: '\ensuremath{\mathrm{m}}'
-    Unicode: "m"
+    ascii: "m"
+    html: "m"
+    latex: '\ensuremath{\mathrm{m}}'
+    unicode: "m"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -54,10 +54,10 @@
   unit_name:
     - "candela"
   unit_symbol:
-    ASCII: "cd"
-    HTML: "cd"
-    LaTeX: '\ensuremath{\mathrm{cd}}'
-    Unicode: "cd"
+    ascii: "cd"
+    html: "cd"
+    latex: '\ensuremath{\mathrm{cd}}'
+    unicode: "cd"
   root_units:
     enumerated_root_units:
       - unit: "candela"
@@ -75,10 +75,10 @@
   unit_name:
     - "kilogram"
   unit_symbol:
-    ASCII: "kg"
-    HTML: "kg"
-    LaTeX: '\ensuremath{\mathrm{kg}}'
-    Unicode: "kg"
+    ascii: "kg"
+    html: "kg"
+    latex: '\ensuremath{\mathrm{kg}}'
+    unicode: "kg"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -97,10 +97,10 @@
   unit_name:
     - "second"
   unit_symbol:
-    ASCII: "s"
-    HTML: "s"
-    LaTeX: '\ensuremath{\mathrm{s}}'
-    Unicode: "s"
+    ascii: "s"
+    html: "s"
+    latex: '\ensuremath{\mathrm{s}}'
+    unicode: "s"
   root_units:
     enumerated_root_units:
       - unit: "second"
@@ -122,10 +122,10 @@
   unit_name:
     - "mole"
   unit_symbol:
-    ASCII: "mol"
-    HTML: "mol"
-    LaTeX: '\ensuremath{\mathrm{mol}}'
-    Unicode: "mol"
+    ascii: "mol"
+    html: "mol"
+    latex: '\ensuremath{\mathrm{mol}}'
+    unicode: "mol"
   root_units:
     enumerated_root_units:
       - unit: "mole"
@@ -143,10 +143,10 @@
   unit_name:
     - "ampere"
   unit_symbol:
-    ASCII: "A"
-    HTML: "A"
-    LaTeX: '\ensuremath{\mathrm{A}}'
-    Unicode: "A"
+    ascii: "A"
+    html: "A"
+    latex: '\ensuremath{\mathrm{A}}'
+    unicode: "A"
   root_units:
     enumerated_root_units:
       - unit: "ampere"
@@ -164,10 +164,10 @@
   unit_name:
     - "kelvin"
   unit_symbol:
-    ASCII: "K"
-    HTML: "K"
-    LaTeX: '\ensuremath{\mathrm{K}}'
-    Unicode: "K"
+    ascii: "K"
+    html: "K"
+    latex: '\ensuremath{\mathrm{K}}'
+    unicode: "K"
   root_units:
     enumerated_root_units:
       - unit: "kelvin"
@@ -185,10 +185,10 @@
   unit_name:
     - "inch"
   unit_symbol:
-    ASCII: "in"
-    HTML: "in"
-    LaTeX: '\ensuremath{\mathrm{in}}'
-    Unicode: "in"
+    ascii: "in"
+    html: "in"
+    latex: '\ensuremath{\mathrm{in}}'
+    unicode: "in"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -208,10 +208,10 @@
   unit_name:
     - "radian"
   unit_symbol:
-    ASCII: "rad"
-    HTML: "rad"
-    LaTeX: '\ensuremath{\mathrm{rad}}'
-    Unicode: "rad"
+    ascii: "rad"
+    html: "rad"
+    latex: '\ensuremath{\mathrm{rad}}'
+    unicode: "rad"
   root_units:
     enumerated_root_units:
       - unit: "radian"
@@ -229,10 +229,10 @@
   unit_name:
     - "steradian"
   unit_symbol:
-    ASCII: "sr"
-    HTML: "sr"
-    LaTeX: '\ensuremath{\mathrm{sr}}'
-    Unicode: "sr"
+    ascii: "sr"
+    html: "sr"
+    latex: '\ensuremath{\mathrm{sr}}'
+    unicode: "sr"
   root_units:
     enumerated_root_units:
       - unit: "steradian"
@@ -250,10 +250,10 @@
   unit_name:
     - "newton"
   unit_symbol:
-    ASCII: "N"
-    HTML: "N"
-    LaTeX: '\ensuremath{\mathrm{N}}'
-    Unicode: "N"
+    ascii: "N"
+    html: "N"
+    latex: '\ensuremath{\mathrm{N}}'
+    unicode: "N"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -271,10 +271,10 @@
   unit_name:
     - "pascal"
   unit_symbol:
-    ASCII: "Pa"
-    HTML: "Pa"
-    LaTeX: '\ensuremath{\mathrm{Pa}}'
-    Unicode: "Pa"
+    ascii: "Pa"
+    html: "Pa"
+    latex: '\ensuremath{\mathrm{Pa}}'
+    unicode: "Pa"
   root_units:
     enumerated_root_units:
       - unit: "pascal"
@@ -304,10 +304,10 @@
   unit_name:
     - "joule"
   unit_symbol:
-    ASCII: "J"
-    HTML: "J"
-    LaTeX: '\ensuremath{\mathrm{J}}'
-    Unicode: "J"
+    ascii: "J"
+    html: "J"
+    latex: '\ensuremath{\mathrm{J}}'
+    unicode: "J"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -339,10 +339,10 @@
   unit_name:
     - "watt"
   unit_symbol:
-    ASCII: "W"
-    HTML: "W"
-    LaTeX: '\ensuremath{\mathrm{W}}'
-    Unicode: "W"
+    ascii: "W"
+    html: "W"
+    latex: '\ensuremath{\mathrm{W}}'
+    unicode: "W"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -362,10 +362,10 @@
   unit_name:
     - "coulomb"
   unit_symbol:
-    ASCII: "C"
-    HTML: "C"
-    LaTeX: '\ensuremath{\mathrm{C}}'
-    Unicode: "C"
+    ascii: "C"
+    html: "C"
+    latex: '\ensuremath{\mathrm{C}}'
+    unicode: "C"
   root_units:
     enumerated_root_units:
       - unit: "coulomb"
@@ -385,10 +385,10 @@
   unit_name:
     - "volt"
   unit_symbol:
-    ASCII: "V"
-    HTML: "V"
-    LaTeX: '\ensuremath{\mathrm{V}}'
-    Unicode: "V"
+    ascii: "V"
+    html: "V"
+    latex: '\ensuremath{\mathrm{V}}'
+    unicode: "V"
   root_units:
     enumerated_root_units:
       - unit: "volt"
@@ -408,10 +408,10 @@
   unit_name:
     - "farad"
   unit_symbol:
-    ASCII: "F"
-    HTML: "F"
-    LaTeX: '\ensuremath{\mathrm{F}}'
-    Unicode: "F"
+    ascii: "F"
+    html: "F"
+    latex: '\ensuremath{\mathrm{F}}'
+    unicode: "F"
   root_units:
     enumerated_root_units:
       - unit: "farad"
@@ -429,10 +429,10 @@
   unit_name:
     - "ohm"
   unit_symbol:
-    ASCII: "Ohm"
-    HTML: "&#8486;"
-    LaTeX: '\ensuremath{\mathrm{\Omega}}'
-    Unicode: "&#8486;"
+    ascii: "Ohm"
+    html: "&#8486;"
+    latex: '\ensuremath{\mathrm{\Omega}}'
+    unicode: "&#8486;"
   root_units:
     enumerated_root_units:
       - unit: "ohm"
@@ -450,10 +450,10 @@
   unit_name:
     - "siemens"
   unit_symbol:
-    ASCII: "S"
-    HTML: "S"
-    LaTeX: '\ensuremath{\mathrm{S}}'
-    Unicode: "S"
+    ascii: "S"
+    html: "S"
+    latex: '\ensuremath{\mathrm{S}}'
+    unicode: "S"
   root_units:
     enumerated_root_units:
       - unit: "siemens"
@@ -471,10 +471,10 @@
   unit_name:
     - "weber"
   unit_symbol:
-    ASCII: "Wb"
-    HTML: "Wb"
-    LaTeX: '\ensuremath{\mathrm{Wb}}'
-    Unicode: "Wb"
+    ascii: "Wb"
+    html: "Wb"
+    latex: '\ensuremath{\mathrm{Wb}}'
+    unicode: "Wb"
   root_units:
     enumerated_root_units:
       - unit: "weber"
@@ -492,10 +492,10 @@
   unit_name:
     - "tesla"
   unit_symbol:
-    ASCII: "T"
-    HTML: "T"
-    LaTeX: '\ensuremath{\mathrm{T}}'
-    Unicode: "T"
+    ascii: "T"
+    html: "T"
+    latex: '\ensuremath{\mathrm{T}}'
+    unicode: "T"
   root_units:
     enumerated_root_units:
       - unit: "tesla"
@@ -513,10 +513,10 @@
   unit_name:
     - "henry"
   unit_symbol:
-    ASCII: "H"
-    HTML: "H"
-    LaTeX: '\ensuremath{\mathrm{H}}'
-    Unicode: "H"
+    ascii: "H"
+    html: "H"
+    latex: '\ensuremath{\mathrm{H}}'
+    unicode: "H"
   root_units:
     enumerated_root_units:
       - unit: "henry"
@@ -534,11 +534,11 @@
   unit_name:
     - "square meter"
   unit_symbol:
-    ASCII: "m^2"
-    HTML: |
+    ascii: "m^2"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{m^2}}'
-    Unicode: "m&#178;"
+    latex: '\ensuremath{\mathrm{m^2}}'
+    unicode: "m&#178;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -556,10 +556,10 @@
   unit_name:
     - "degree Celsius"
   unit_symbol:
-    ASCII: "degC"
-    HTML: "&#176;C"
-    LaTeX: '\ensuremath{\mathrm{^{\circ}C}}'
-    Unicode: "&#176;C"
+    ascii: "degC"
+    html: "&#176;C"
+    latex: '\ensuremath{\mathrm{^{\circ}C}}'
+    unicode: "&#176;C"
   root_units:
     enumerated_root_units:
       - unit: "degree_Celsius"
@@ -577,10 +577,10 @@
   unit_name:
     - "becquerel"
   unit_symbol:
-    ASCII: "Bq"
-    HTML: "Bq"
-    LaTeX: '\ensuremath{\mathrm{Bq}}'
-    Unicode: "Bq"
+    ascii: "Bq"
+    html: "Bq"
+    latex: '\ensuremath{\mathrm{Bq}}'
+    unicode: "Bq"
   root_units:
     enumerated_root_units:
       - unit: "becquerel"
@@ -598,10 +598,10 @@
   unit_name:
     - "fermi"
   unit_symbol:
-    ASCII: "fermi"
-    HTML: "fermi"
-    LaTeX: '\ensuremath{\mathrm{fermi}}'
-    Unicode: "fermi"
+    ascii: "fermi"
+    html: "fermi"
+    latex: '\ensuremath{\mathrm{fermi}}'
+    unicode: "fermi"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -622,10 +622,10 @@
   unit_name:
     - "gram"
   unit_symbol:
-    ASCII: "g"
-    HTML: "g"
-    LaTeX: '\ensuremath{\mathrm{g}}'
-    Unicode: "g"
+    ascii: "g"
+    html: "g"
+    latex: '\ensuremath{\mathrm{g}}'
+    unicode: "g"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -643,10 +643,10 @@
   unit_name:
     - "gray"
   unit_symbol:
-    ASCII: "Gy"
-    HTML: "Gy"
-    LaTeX: '\ensuremath{\mathrm{Gy}}'
-    Unicode: "Gy"
+    ascii: "Gy"
+    html: "Gy"
+    latex: '\ensuremath{\mathrm{Gy}}'
+    unicode: "Gy"
   root_units:
     enumerated_root_units:
       - unit: "gray"
@@ -668,10 +668,10 @@
   unit_name:
     - "sievert"
   unit_symbol:
-    ASCII: "Sv"
-    HTML: "Sv"
-    LaTeX: '\ensuremath{\mathrm{Sv}}'
-    Unicode: "Sv"
+    ascii: "Sv"
+    html: "Sv"
+    latex: '\ensuremath{\mathrm{Sv}}'
+    unicode: "Sv"
   root_units:
     enumerated_root_units:
       - unit: "sievert"
@@ -689,10 +689,10 @@
   unit_name:
     - "katal"
   unit_symbol:
-    ASCII: "kat"
-    HTML: "kat"
-    LaTeX: '\ensuremath{\mathrm{kat}}'
-    Unicode: "kat"
+    ascii: "kat"
+    html: "kat"
+    latex: '\ensuremath{\mathrm{kat}}'
+    unicode: "kat"
   root_units:
     enumerated_root_units:
       - unit: "katal"
@@ -710,10 +710,10 @@
   unit_name:
     - "hertz"
   unit_symbol:
-    ASCII: "Hz"
-    HTML: "Hz"
-    LaTeX: '\ensuremath{\mathrm{Hz}}'
-    Unicode: "Hz"
+    ascii: "Hz"
+    html: "Hz"
+    latex: '\ensuremath{\mathrm{Hz}}'
+    unicode: "Hz"
   root_units:
     enumerated_root_units:
       - unit: "hertz"
@@ -731,10 +731,10 @@
   unit_name:
     - "lumen"
   unit_symbol:
-    ASCII: "lm"
-    HTML: "lm"
-    LaTeX: '\ensuremath{\mathrm{lm}}'
-    Unicode: "lm"
+    ascii: "lm"
+    html: "lm"
+    latex: '\ensuremath{\mathrm{lm}}'
+    unicode: "lm"
   root_units:
     enumerated_root_units:
       - unit: "lumen"
@@ -752,10 +752,10 @@
   unit_name:
     - "lux"
   unit_symbol:
-    ASCII: "lx"
-    HTML: "lx"
-    LaTeX: '\ensuremath{\mathrm{lx}}'
-    Unicode: "lx"
+    ascii: "lx"
+    html: "lx"
+    latex: '\ensuremath{\mathrm{lx}}'
+    unicode: "lx"
   root_units:
     enumerated_root_units:
       - unit: "lux"
@@ -773,10 +773,10 @@
   unit_name:
     - "meter per second"
   unit_symbol:
-    ASCII: "m*s^-1"
-    HTML: "m/s"
-    LaTeX: '\ensuremath{\mathrm{m/s}}'
-    Unicode: "m&#183;s&#8315;&#185;"
+    ascii: "m*s^-1"
+    html: "m/s"
+    latex: '\ensuremath{\mathrm{m/s}}'
+    unicode: "m&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "second"
@@ -804,11 +804,11 @@
   unit_name:
     - "cubic meter"
   unit_symbol:
-    ASCII: "m^3"
-    HTML: |
+    ascii: "m^3"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{m^3}}'
-    Unicode: "m&#179;"
+    latex: '\ensuremath{\mathrm{m^3}}'
+    unicode: "m&#179;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -828,10 +828,10 @@
   unit_name:
     - "minute"
   unit_symbol:
-    ASCII: "min"
-    HTML: "min"
-    LaTeX: '\ensuremath{\mathrm{min}}'
-    Unicode: "min"
+    ascii: "min"
+    html: "min"
+    latex: '\ensuremath{\mathrm{min}}'
+    unicode: "min"
   root_units:
     enumerated_root_units:
       - unit: "minute"
@@ -849,10 +849,10 @@
   unit_name:
     - "hour"
   unit_symbol:
-    ASCII: "h"
-    HTML: "h"
-    LaTeX: '\ensuremath{\mathrm{h}}'
-    Unicode: "h"
+    ascii: "h"
+    html: "h"
+    latex: '\ensuremath{\mathrm{h}}'
+    unicode: "h"
   root_units:
     enumerated_root_units:
       - unit: "hour"
@@ -870,10 +870,10 @@
   unit_name:
     - "day"
   unit_symbol:
-    ASCII: "d"
-    HTML: "d"
-    LaTeX: '\ensuremath{\mathrm{d}}'
-    Unicode: "d"
+    ascii: "d"
+    html: "d"
+    latex: '\ensuremath{\mathrm{d}}'
+    unicode: "d"
   root_units:
     enumerated_root_units:
       - unit: "day"
@@ -891,10 +891,10 @@
   unit_name:
     - "angstrom"
   unit_symbol:
-    ASCII: "Aring"
-    HTML: "&#197;"
-    LaTeX: '\ensuremath{\mathrm{\AA}}'
-    Unicode: "&#8491;"
+    ascii: "Aring"
+    html: "&#197;"
+    latex: '\ensuremath{\mathrm{\AA}}'
+    unicode: "&#8491;"
   root_units:
     enumerated_root_units:
       - unit: "angstrom"
@@ -914,10 +914,10 @@
   unit_name:
     - "are"
   unit_symbol:
-    ASCII: "a"
-    HTML: "a"
-    LaTeX: '\ensuremath{\mathrm{a}}'
-    Unicode: "a"
+    ascii: "a"
+    html: "a"
+    latex: '\ensuremath{\mathrm{a}}'
+    unicode: "a"
   root_units:
     enumerated_root_units:
       - unit: "are"
@@ -935,10 +935,10 @@
   unit_name:
     - "barn"
   unit_symbol:
-    ASCII: "b"
-    HTML: "b"
-    LaTeX: '\ensuremath{\mathrm{b}}'
-    Unicode: "b"
+    ascii: "b"
+    html: "b"
+    latex: '\ensuremath{\mathrm{b}}'
+    unicode: "b"
   root_units:
     enumerated_root_units:
       - unit: "barn"
@@ -956,10 +956,10 @@
   unit_name:
     - "hectare"
   unit_symbol:
-    ASCII: "ha"
-    HTML: "ha"
-    LaTeX: '\ensuremath{\mathrm{ha}}'
-    Unicode: "ha"
+    ascii: "ha"
+    html: "ha"
+    latex: '\ensuremath{\mathrm{ha}}'
+    unicode: "ha"
   root_units:
     enumerated_root_units:
       - unit: "hectare"
@@ -977,11 +977,11 @@
   unit_name:
     - "square foot"
   unit_symbol:
-    ASCII: "ft^2"
-    HTML: |
+    ascii: "ft^2"
+    html: |
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{ft^2}}'
-    Unicode: "ft&#178;"
+    latex: '\ensuremath{\mathrm{ft^2}}'
+    unicode: "ft&#178;"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -999,11 +999,11 @@
   unit_name:
     - "square inch"
   unit_symbol:
-    ASCII: "in^2"
-    HTML: |
+    ascii: "in^2"
+    html: |
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{in^2}}'
-    Unicode: "in&#178;"
+    latex: '\ensuremath{\mathrm{in^2}}'
+    unicode: "in&#178;"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -1022,10 +1022,10 @@
     - "abampere"
     - "EMU of current"
   unit_symbol:
-    ASCII: "abA"
-    HTML: "abA"
-    LaTeX: '\ensuremath{\mathrm{abA}}'
-    Unicode: "abA"
+    ascii: "abA"
+    html: "abA"
+    latex: '\ensuremath{\mathrm{abA}}'
+    unicode: "abA"
   root_units:
     enumerated_root_units:
       - unit: "abampere"
@@ -1043,10 +1043,10 @@
   unit_name:
     - "abcoulomb"
   unit_symbol:
-    ASCII: "abC"
-    HTML: "abC"
-    LaTeX: '\ensuremath{\mathrm{abC}}'
-    Unicode: "abC"
+    ascii: "abC"
+    html: "abC"
+    latex: '\ensuremath{\mathrm{abC}}'
+    unicode: "abC"
   root_units:
     enumerated_root_units:
       - unit: "abcoulomb"
@@ -1067,10 +1067,10 @@
     - "abfarad"
     - "EMU of capacitance"
   unit_symbol:
-    ASCII: "abF"
-    HTML: "abF"
-    LaTeX: '\ensuremath{\mathrm{abF}}'
-    Unicode: "abF"
+    ascii: "abF"
+    html: "abF"
+    latex: '\ensuremath{\mathrm{abF}}'
+    unicode: "abF"
   root_units:
     enumerated_root_units:
       - unit: "abfarad"
@@ -1089,10 +1089,10 @@
     - "abhenry"
     - "EMU of inductance"
   unit_symbol:
-    ASCII: "abH"
-    HTML: "abH"
-    LaTeX: '\ensuremath{\mathrm{abH}}'
-    Unicode: "abH"
+    ascii: "abH"
+    html: "abH"
+    latex: '\ensuremath{\mathrm{abH}}'
+    unicode: "abH"
   root_units:
     enumerated_root_units:
       - unit: "abhenry"
@@ -1110,12 +1110,12 @@
   unit_name:
     - "abmho"
   unit_symbol:
-    ASCII: "abS"
-    HTML: |
+    ascii: "abS"
+    html: |
       (ab&#937;) <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
-    LaTeX: '\ensuremath{\mathrm{(ab\Omega)^{-1}}'
-    Unicode: "(ab&#937;)&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{(ab\Omega)^{-1}}'
+    unicode: "(ab&#937;)&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "abmho"
@@ -1134,10 +1134,10 @@
     - "abohm"
     - "EMU of resistance"
   unit_symbol:
-    ASCII: "abohm"
-    HTML: "ab&#937;"
-    LaTeX: '\ensuremath{\mathrm{ab\Omega}}'
-    Unicode: "ab&#937;"
+    ascii: "abohm"
+    html: "ab&#937;"
+    latex: '\ensuremath{\mathrm{ab\Omega}}'
+    unicode: "ab&#937;"
   root_units:
     enumerated_root_units:
       - unit: "abohm"
@@ -1156,10 +1156,10 @@
     - "abvolt"
     - "EMU of electric potential"
   unit_symbol:
-    ASCII: "abV"
-    HTML: "abV"
-    LaTeX: '\ensuremath{\mathrm{abV}}'
-    Unicode: "abV"
+    ascii: "abV"
+    html: "abV"
+    latex: '\ensuremath{\mathrm{abV}}'
+    unicode: "abV"
   root_units:
     enumerated_root_units:
       - unit: "abvolt"
@@ -1179,12 +1179,12 @@
   unit_name:
     - "ampere hour"
   unit_symbol:
-    ASCII: "A*h"
-    HTML: |
+    ascii: "A*h"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">A&#8201;&#183;&#8201;h</span>
-    LaTeX: '\ensuremath{\mathrm{A\cdot h}}'
-    Unicode: "A&#183;h"
+    latex: '\ensuremath{\mathrm{A\cdot h}}'
+    unicode: "A&#183;h"
   root_units:
     enumerated_root_units:
       - unit: "ampere"
@@ -1207,10 +1207,10 @@
   unit_name:
     - "biot"
   unit_symbol:
-    ASCII: "Bi"
-    HTML: "Bi"
-    LaTeX: '\ensuremath{\mathrm{Bi}}'
-    Unicode: "Bi"
+    ascii: "Bi"
+    html: "Bi"
+    latex: '\ensuremath{\mathrm{Bi}}'
+    unicode: "Bi"
   root_units:
     enumerated_root_units:
       - unit: "abampere"
@@ -1228,10 +1228,10 @@
   unit_name:
     - "maxwell"
   unit_symbol:
-    ASCII: "Mx"
-    HTML: "Mx"
-    LaTeX: '\ensuremath{\mathrm{Mx}}'
-    Unicode: "Mx"
+    ascii: "Mx"
+    html: "Mx"
+    latex: '\ensuremath{\mathrm{Mx}}'
+    unicode: "Mx"
   root_units:
     enumerated_root_units:
       - unit: "maxwell"
@@ -1249,10 +1249,10 @@
   unit_name:
     - "erg"
   unit_symbol:
-    ASCII: "erg"
-    HTML: "erg"
-    LaTeX: '\ensuremath{\mathrm{erg}}'
-    Unicode: "erg"
+    ascii: "erg"
+    html: "erg"
+    latex: '\ensuremath{\mathrm{erg}}'
+    unicode: "erg"
   root_units:
     enumerated_root_units:
       - unit: "erg"
@@ -1280,12 +1280,12 @@
   unit_name:
     - "kilowatt hour"
   unit_symbol:
-    ASCII: "kW*h"
-    HTML: |
+    ascii: "kW*h"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kW&#8201;&#183;&#8201;h</span>
-    LaTeX: '\ensuremath{\mathrm{kW\cdot h}}'
-    Unicode: "kW&#183;h"
+    latex: '\ensuremath{\mathrm{kW\cdot h}}'
+    unicode: "kW&#183;h"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -1319,11 +1319,11 @@
     - "calorie_IT"
     - "calorie"
   unit_symbol:
-    ASCII: "cal_IT"
-    HTML: |
+    ascii: "cal_IT"
+    html: |
       cal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">IT</sub>
-    LaTeX: '\ensuremath{\mathrm{cal_{IT}}}'
+    latex: '\ensuremath{\mathrm{cal_{IT}}}'
   root_units:
     enumerated_root_units:
       - unit: "table_calorie"
@@ -1351,10 +1351,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "logarithmic decrement"
       url: "#NISTq121"
@@ -1367,11 +1367,11 @@
   unit_name:
     - "kilocalorie_IT"
   unit_symbol:
-    ASCII: "kcal_IT"
-    HTML: |
+    ascii: "kcal_IT"
+    html: |
       kcal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">IT</sub>
-    LaTeX: '\ensuremath{\mathrm{kcal_{IT}}}'
+    latex: '\ensuremath{\mathrm{kcal_{IT}}}'
   root_units:
     enumerated_root_units:
       - unit: "table_kg_calorie"
@@ -1399,11 +1399,11 @@
   unit_name:
     - "kilocalorie_th"
   unit_symbol:
-    ASCII: "kcal_th"
-    HTML: |
+    ascii: "kcal_th"
+    html: |
       kcal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
-    LaTeX: '\ensuremath{\mathrm{kcal_{th}}}'
+    latex: '\ensuremath{\mathrm{kcal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_kg_calorie"
@@ -1431,12 +1431,12 @@
   unit_name:
     - "watt hour"
   unit_symbol:
-    ASCII: "W*h"
-    HTML: |
+    ascii: "W*h"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;h</span>
-    LaTeX: '\ensuremath{\mathrm{W\cdot h}}'
-    Unicode: "W&#183;h"
+    latex: '\ensuremath{\mathrm{W\cdot h}}'
+    unicode: "W&#183;h"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -1467,12 +1467,12 @@
   unit_name:
     - "watt second"
   unit_symbol:
-    ASCII: "W*s"
-    HTML: |
+    ascii: "W*s"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;s</span>
-    LaTeX: '\ensuremath{\mathrm{W\cdot s}}'
-    Unicode: "W&#183;s"
+    latex: '\ensuremath{\mathrm{W\cdot s}}'
+    unicode: "W&#183;s"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -1503,10 +1503,10 @@
   unit_name:
     - "dyne"
   unit_symbol:
-    ASCII: "dyn"
-    HTML: "dyn"
-    LaTeX: '\ensuremath{\mathrm{dyn}}'
-    Unicode: "dyn"
+    ascii: "dyn"
+    html: "dyn"
+    latex: '\ensuremath{\mathrm{dyn}}'
+    unicode: "dyn"
   root_units:
     enumerated_root_units:
       - unit: "dyne"
@@ -1524,10 +1524,10 @@
   unit_name:
     - "kilogram-force"
   unit_symbol:
-    ASCII: "kgf"
-    HTML: "kgf"
-    LaTeX: '\ensuremath{\mathrm{kgf}}'
-    Unicode: "kgf"
+    ascii: "kgf"
+    html: "kgf"
+    latex: '\ensuremath{\mathrm{kgf}}'
+    unicode: "kgf"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1546,10 +1546,10 @@
   unit_name:
     - "kilopond"
   unit_symbol:
-    ASCII: "kp"
-    HTML: "kp"
-    LaTeX: '\ensuremath{\mathrm{kp}}'
-    Unicode: "kp"
+    ascii: "kp"
+    html: "kp"
+    latex: '\ensuremath{\mathrm{kp}}'
+    unicode: "kp"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1567,12 +1567,12 @@
   unit_name:
     - "kilocalorie_th per second"
   unit_symbol:
-    ASCII: "kcal_th*s^-1"
-    HTML: |
+    ascii: "kcal_th*s^-1"
+    html: |
       kcal <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{kcal_{th}}}'
+    latex: '\ensuremath{\mathrm{kcal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -1596,12 +1596,12 @@
   unit_name:
     - "calorie_th per second"
   unit_symbol:
-    ASCII: "cal_th*s^-1"
-    HTML: |
+    ascii: "cal_th*s^-1"
+    html: |
       cal <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{cal_{th}}}'
+    latex: '\ensuremath{\mathrm{cal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -1624,10 +1624,10 @@
   unit_name:
     - "foot"
   unit_symbol:
-    ASCII: "ft"
-    HTML: "ft"
-    LaTeX: '\ensuremath{\mathrm{ft}}'
-    Unicode: "ft"
+    ascii: "ft"
+    html: "ft"
+    latex: '\ensuremath{\mathrm{ft}}'
+    unicode: "ft"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -1647,10 +1647,10 @@
   unit_name:
     - "mile"
   unit_symbol:
-    ASCII: "mi"
-    HTML: "mi"
-    LaTeX: '\ensuremath{\mathrm{mi}}'
-    Unicode: "mi"
+    ascii: "mi"
+    html: "mi"
+    latex: '\ensuremath{\mathrm{mi}}'
+    unicode: "mi"
   root_units:
     enumerated_root_units:
       - unit: "mile"
@@ -1670,10 +1670,10 @@
   unit_name:
     - "yard"
   unit_symbol:
-    ASCII: "yd"
-    HTML: "yd"
-    LaTeX: '\ensuremath{\mathrm{yd}}'
-    Unicode: "yd"
+    ascii: "yd"
+    html: "yd"
+    latex: '\ensuremath{\mathrm{yd}}'
+    unicode: "yd"
   root_units:
     enumerated_root_units:
       - unit: "yard"
@@ -1693,10 +1693,10 @@
   unit_name:
     - "phot"
   unit_symbol:
-    ASCII: "ph"
-    HTML: "ph"
-    LaTeX: '\ensuremath{\mathrm{ph}}'
-    Unicode: "ph"
+    ascii: "ph"
+    html: "ph"
+    latex: '\ensuremath{\mathrm{ph}}'
+    unicode: "ph"
   root_units:
     enumerated_root_units:
       - unit: "phot"
@@ -1717,10 +1717,10 @@
     - "apothecary grain"
     - "grain"
   unit_symbol:
-    ASCII: "gr"
-    HTML: "gr"
-    LaTeX: '\ensuremath{\mathrm{gr}}'
-    Unicode: "gr"
+    ascii: "gr"
+    html: "gr"
+    latex: '\ensuremath{\mathrm{gr}}'
+    unicode: "gr"
   root_units:
     enumerated_root_units:
       - unit: "grain"
@@ -1739,10 +1739,10 @@
     - "metric ton"
     - "ton"
   unit_symbol:
-    ASCII: "t"
-    HTML: "t"
-    LaTeX: '\ensuremath{\mathrm{t}}'
-    Unicode: "t"
+    ascii: "t"
+    html: "t"
+    latex: '\ensuremath{\mathrm{t}}'
+    unicode: "t"
   root_units:
     enumerated_root_units:
       - unit: "metric_ton"
@@ -1760,10 +1760,10 @@
   unit_name:
     - "erg per second"
   unit_symbol:
-    ASCII: "erg*s^-1"
-    HTML: "erg/s"
-    LaTeX: '\ensuremath{\mathrm{erg/s}}'
-    Unicode: "erg&#183;s&#8315;&#185;"
+    ascii: "erg*s^-1"
+    html: "erg/s"
+    latex: '\ensuremath{\mathrm{erg/s}}'
+    unicode: "erg&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "erg"
@@ -1786,10 +1786,10 @@
   unit_name:
     - "bar"
   unit_symbol:
-    ASCII: "bar"
-    HTML: "bar"
-    LaTeX: '\ensuremath{\mathrm{bar}}'
-    Unicode: "bar"
+    ascii: "bar"
+    html: "bar"
+    latex: '\ensuremath{\mathrm{bar}}'
+    unicode: "bar"
   root_units:
     enumerated_root_units:
       - unit: "bar"
@@ -1809,12 +1809,12 @@
   unit_name:
     - "dyne per square centimeter"
   unit_symbol:
-    ASCII: "dyn*cm^-2"
-    HTML: |
+    ascii: "dyn*cm^-2"
+    html: |
       dyn/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{dyn/cm^2}}'
-    Unicode: "dyn&#183;cm&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{dyn/cm^2}}'
+    unicode: "dyn&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "dyne"
@@ -1838,12 +1838,12 @@
   unit_name:
     - "gram-force per square centimeter"
   unit_symbol:
-    ASCII: "gf*cm^-2"
-    HTML: |
+    ascii: "gf*cm^-2"
+    html: |
       gf/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{gf/cm^2}}'
-    Unicode: "gf&#183;cm&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{gf/cm^2}}'
+    unicode: "gf&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1867,12 +1867,12 @@
   unit_name:
     - "kilogram-force per square centimeter"
   unit_symbol:
-    ASCII: "kgf*cm^-2"
-    HTML: |
+    ascii: "kgf*cm^-2"
+    html: |
       kgf/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{kgf/cm^2}}'
-    Unicode: "kgf&#183;cm&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{kgf/cm^2}}'
+    unicode: "kgf&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1897,12 +1897,12 @@
   unit_name:
     - "kilogram-force per square meter"
   unit_symbol:
-    ASCII: "kgf*m^-2"
-    HTML: |
+    ascii: "kgf*m^-2"
+    html: |
       kgf/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{kgf/m^2}}'
-    Unicode: "kgf&#183;m&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{kgf/m^2}}'
+    unicode: "kgf&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1926,12 +1926,12 @@
   unit_name:
     - "kilogram-force per square millimeter"
   unit_symbol:
-    ASCII: "kgf*mm^-2"
-    HTML: |
+    ascii: "kgf*mm^-2"
+    html: |
       kgf/mm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{kgf/mm^2}}'
-    Unicode: "kgf&#183;mm&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{kgf/mm^2}}'
+    unicode: "kgf&#183;mm&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -1956,10 +1956,10 @@
   unit_name:
     - "gamma"
   unit_symbol:
-    ASCII: "gamma"
-    HTML: "&#947;"
-    LaTeX: '\ensuremath{\gamma}}'
-    Unicode: "&#947;"
+    ascii: "gamma"
+    html: "&#947;"
+    latex: '\ensuremath{\gamma}}'
+    unicode: "&#947;"
   root_units:
     enumerated_root_units:
       - unit: "tesla"
@@ -1978,10 +1978,10 @@
   unit_name:
     - "curie"
   unit_symbol:
-    ASCII: "Ci"
-    HTML: "Ci"
-    LaTeX: '\ensuremath{\mathrm{Ci}}'
-    Unicode: "Ci"
+    ascii: "Ci"
+    html: "Ci"
+    latex: '\ensuremath{\mathrm{Ci}}'
+    unicode: "Ci"
   root_units:
     enumerated_root_units:
       - unit: "curie"
@@ -1999,10 +1999,10 @@
   unit_name:
     - "rad (absorbed dose)"
   unit_symbol:
-    ASCII: "rad"
-    HTML: "rad"
-    LaTeX: '\ensuremath{\mathrm{rad}}'
-    Unicode: "rad"
+    ascii: "rad"
+    html: "rad"
+    latex: '\ensuremath{\mathrm{rad}}'
+    unicode: "rad"
   root_units:
     enumerated_root_units:
       - unit: "rad"
@@ -2020,10 +2020,10 @@
   unit_name:
     - "rem"
   unit_symbol:
-    ASCII: "rem"
-    HTML: "rem"
-    LaTeX: '\ensuremath{\mathrm{rem}}'
-    Unicode: "rem"
+    ascii: "rem"
+    html: "rem"
+    latex: '\ensuremath{\mathrm{rem}}'
+    unicode: "rem"
   root_units:
     enumerated_root_units:
       - unit: "rem"
@@ -2042,10 +2042,10 @@
     - "year (365 days)"
     - "year"
   unit_symbol:
-    ASCII: "a"
-    HTML: "a"
-    LaTeX: '\ensuremath{\mathrm{a}}'
-    Unicode: "a"
+    ascii: "a"
+    html: "a"
+    latex: '\ensuremath{\mathrm{a}}'
+    unicode: "a"
   root_units:
     enumerated_root_units:
       - unit: "year_365"
@@ -2063,10 +2063,10 @@
   unit_name:
     - "foot per minute"
   unit_symbol:
-    ASCII: "ft*min^-1"
-    HTML: "ft/min"
-    LaTeX: '\ensuremath{\mathrm{ft/min}}'
-    Unicode: "ft&#183;min&#8315;&#185;"
+    ascii: "ft*min^-1"
+    html: "ft/min"
+    latex: '\ensuremath{\mathrm{ft/min}}'
+    unicode: "ft&#183;min&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -2087,10 +2087,10 @@
   unit_name:
     - "foot per second"
   unit_symbol:
-    ASCII: "ft*s^-1"
-    HTML: "ft/s"
-    LaTeX: '\ensuremath{\mathrm{ft/s}}'
-    Unicode: "ft&#183;s&#8315;&#185;"
+    ascii: "ft*s^-1"
+    html: "ft/s"
+    latex: '\ensuremath{\mathrm{ft/s}}'
+    unicode: "ft&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -2111,10 +2111,10 @@
   unit_name:
     - "inch per second"
   unit_symbol:
-    ASCII: "in*s^-1"
-    HTML: "in/s"
-    LaTeX: '\ensuremath{\mathrm{in/s}}'
-    Unicode: "in&#183;s&#8315;&#185;"
+    ascii: "in*s^-1"
+    html: "in/s"
+    latex: '\ensuremath{\mathrm{in/s}}'
+    unicode: "in&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -2135,10 +2135,10 @@
   unit_name:
     - "mile per hour"
   unit_symbol:
-    ASCII: "mi*h^-1"
-    HTML: "mi/h"
-    LaTeX: '\ensuremath{\mathrm{mi/h}}'
-    Unicode: "mi&#183;h&#8315;&#185;"
+    ascii: "mi*h^-1"
+    html: "mi/h"
+    latex: '\ensuremath{\mathrm{mi/h}}'
+    unicode: "mi&#183;h&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "mile"
@@ -2159,10 +2159,10 @@
   unit_name:
     - "mile per minute"
   unit_symbol:
-    ASCII: "mi*min^-1"
-    HTML: "mi/min"
-    LaTeX: '\ensuremath{\mathrm{mi/min}}'
-    Unicode: "mi&#183;min&#8315;&#185;"
+    ascii: "mi*min^-1"
+    html: "mi/min"
+    latex: '\ensuremath{\mathrm{mi/min}}'
+    unicode: "mi&#183;min&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "mile"
@@ -2183,10 +2183,10 @@
   unit_name:
     - "mile per second"
   unit_symbol:
-    ASCII: "mi*s^-1"
-    HTML: "mi/s"
-    LaTeX: '\ensuremath{\mathrm{mi/s}}'
-    Unicode: "mi&#183;s&#8315;&#185;"
+    ascii: "mi*s^-1"
+    html: "mi/s"
+    latex: '\ensuremath{\mathrm{mi/s}}'
+    unicode: "mi&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "mile"
@@ -2207,10 +2207,10 @@
   unit_name:
     - "stere"
   unit_symbol:
-    ASCII: "st"
-    HTML: "st"
-    LaTeX: '\ensuremath{\mathrm{st}}'
-    Unicode: "st"
+    ascii: "st"
+    html: "st"
+    latex: '\ensuremath{\mathrm{st}}'
+    unicode: "st"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -2228,12 +2228,12 @@
   unit_name:
     - "meter per second squared"
   unit_symbol:
-    ASCII: "m*s^-2"
-    HTML: |
+    ascii: "m*s^-2"
+    html: |
       m/s <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{m/s^2}}'
-    Unicode: "m&#183;s&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{m/s^2}}'
+    unicode: "m&#183;s&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -2257,11 +2257,11 @@
     - "meter to the power minus one"
     - "reciprocal meter"
   unit_symbol:
-    ASCII: "m^-1"
-    HTML: |
+    ascii: "m^-1"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
-    LaTeX: '\ensuremath{\mathrm{m^{-1}}}'
-    Unicode: "m&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{m^{-1}}}'
+    unicode: "m&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -2289,12 +2289,12 @@
   unit_name:
     - "kilogram per cubic meter"
   unit_symbol:
-    ASCII: "kg*m^-3"
-    HTML: |
+    ascii: "kg*m^-3"
+    html: |
       kg/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{kg/m^3}}'
-    Unicode: "kg&#183;m&#8315;&#179;"
+    latex: '\ensuremath{\mathrm{kg/m^3}}'
+    unicode: "kg&#183;m&#8315;&#179;"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -2318,12 +2318,12 @@
   unit_name:
     - "cubic meter per kilogram"
   unit_symbol:
-    ASCII: "m^3*kg"
-    HTML: |
+    ascii: "m^3*kg"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>/kg
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{m^3/kg}}'
-    Unicode: "m&#179;&#183;kg"
+    latex: '\ensuremath{\mathrm{m^3/kg}}'
+    unicode: "m&#179;&#183;kg"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -2345,12 +2345,12 @@
   unit_name:
     - "ampere per square meter"
   unit_symbol:
-    ASCII: "A*m^-2"
-    HTML: |
+    ascii: "A*m^-2"
+    html: |
       A/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{A/m^2}}'
-    Unicode: "A&#183;m&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{A/m^2}}'
+    unicode: "A&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "ampere"
@@ -2371,10 +2371,10 @@
   unit_name:
     - "ampere per meter"
   unit_symbol:
-    ASCII: "A*m^-1"
-    HTML: "A/m"
-    LaTeX: '\ensuremath{\mathrm{A/m}}'
-    Unicode: "A&#183;m&#8315;&#185;"
+    ascii: "A*m^-1"
+    html: "A/m"
+    latex: '\ensuremath{\mathrm{A/m}}'
+    unicode: "A&#183;m&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "ampere"
@@ -2395,12 +2395,12 @@
   unit_name:
     - "mole per cubic meter"
   unit_symbol:
-    ASCII: "mol*m^-3"
-    HTML: |
+    ascii: "mol*m^-3"
+    html: |
       mol/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{mol/m^3}}'
-    Unicode: "mol&#183;m&#8315;&#179;"
+    latex: '\ensuremath{\mathrm{mol/m^3}}'
+    unicode: "mol&#183;m&#8315;&#179;"
   root_units:
     enumerated_root_units:
       - unit: "mole"
@@ -2421,12 +2421,12 @@
   unit_name:
     - "candela per square meter"
   unit_symbol:
-    ASCII: "cd*m^-2"
-    HTML: |
+    ascii: "cd*m^-2"
+    html: |
       cd/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{cd/m^2}}'
-    Unicode: "cd&#183;m&#8315;&#178;"
+    latex: '\ensuremath{\mathrm{cd/m^2}}'
+    unicode: "cd&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
       - unit: "candela"
@@ -2473,10 +2473,10 @@
   unit_name:
     - "roentgen"
   unit_symbol:
-    ASCII: "R"
-    HTML: "R"
-    LaTeX: '\ensuremath{\mathrm{R}}'
-    Unicode: "R"
+    ascii: "R"
+    html: "R"
+    latex: '\ensuremath{\mathrm{R}}'
+    unicode: "R"
   root_units:
     enumerated_root_units:
       - unit: "roentgen"
@@ -2494,10 +2494,10 @@
   unit_name:
     - "gauss"
   unit_symbol:
-    ASCII: "Gs"
-    HTML: "Gs"
-    LaTeX: '\ensuremath{\mathrm{Gs}}'
-    Unicode: "Gs"
+    ascii: "Gs"
+    html: "Gs"
+    latex: '\ensuremath{\mathrm{Gs}}'
+    unicode: "Gs"
   root_units:
     enumerated_root_units:
       - unit: "gauss"
@@ -2515,10 +2515,10 @@
   unit_name:
     - "kayser"
   unit_symbol:
-    ASCII: "K"
-    HTML: "K"
-    LaTeX: '\ensuremath{\mathrm{K}}'
-    Unicode: "K"
+    ascii: "K"
+    html: "K"
+    latex: '\ensuremath{\mathrm{K}}'
+    unicode: "K"
   root_units:
     enumerated_root_units:
       - unit: "kayser"
@@ -2538,10 +2538,10 @@
   unit_name:
     - "centipoise"
   unit_symbol:
-    ASCII: "cP"
-    HTML: "cP"
-    LaTeX: '\ensuremath{\mathrm{cP}}'
-    Unicode: "cP"
+    ascii: "cP"
+    html: "cP"
+    latex: '\ensuremath{\mathrm{cP}}'
+    unicode: "cP"
   root_units:
     enumerated_root_units:
       - unit: "poise"
@@ -2560,10 +2560,10 @@
   unit_name:
     - "micron"
   unit_symbol:
-    ASCII: "micron"
-    HTML: "&#956;"
-    LaTeX: '\ensuremath{\mathrm{mu}}'
-    Unicode: "&#956;"
+    ascii: "micron"
+    html: "&#956;"
+    latex: '\ensuremath{\mathrm{mu}}'
+    unicode: "&#956;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -2605,10 +2605,10 @@
   unit_name:
     - "stilb"
   unit_symbol:
-    ASCII: "sb"
-    HTML: "sb"
-    LaTeX: '\ensuremath{\mathrm{sb}}'
-    Unicode: "sb"
+    ascii: "sb"
+    html: "sb"
+    latex: '\ensuremath{\mathrm{sb}}'
+    unicode: "sb"
   root_units:
     enumerated_root_units:
       - unit: "stilb"
@@ -2626,13 +2626,13 @@
   unit_name:
     - "kilogram-force second squared per meter"
   unit_symbol:
-    ASCII: "kgf*s^2/m"
-    HTML: |
+    ascii: "kgf*s^2/m"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;s
 						<sup>2</sup>/m</span>
-    LaTeX: '\ensuremath{\mathrm{kgf\cdot s^2/m}}'
-    Unicode: "kgf&#183;s&#178;m&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{kgf\cdot s^2/m}}'
+    unicode: "kgf&#183;s&#178;m&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -2657,12 +2657,12 @@
   unit_name:
     - "kilogram-force meter"
   unit_symbol:
-    ASCII: "kgf*m"
-    HTML: |
+    ascii: "kgf*m"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m</span>
-    LaTeX: '\ensuremath{\mathrm{kgf\cdot m}}'
-    Unicode: "kgf&#183;m"
+    latex: '\ensuremath{\mathrm{kgf\cdot m}}'
+    unicode: "kgf&#183;m"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -2711,10 +2711,10 @@
   unit_name:
     - "poise"
   unit_symbol:
-    ASCII: "P"
-    HTML: "P"
-    LaTeX: '\ensuremath{\mathrm{P}}'
-    Unicode: "P"
+    ascii: "P"
+    html: "P"
+    latex: '\ensuremath{\mathrm{P}}'
+    unicode: "P"
   root_units:
     enumerated_root_units:
       - unit: "poise"
@@ -2734,10 +2734,10 @@
   unit_name:
     - "rhe"
   unit_symbol:
-    ASCII: "rhe"
-    HTML: "rhe"
-    LaTeX: '\ensuremath{\mathrm{rhe}}'
-    Unicode: "rhe"
+    ascii: "rhe"
+    html: "rhe"
+    latex: '\ensuremath{\mathrm{rhe}}'
+    unicode: "rhe"
   root_units:
     enumerated_root_units:
       - unit: "rhe"
@@ -2755,16 +2755,16 @@
   unit_name:
     - "liter"
   unit_symbol:
-    ASCII:
+    ascii:
       - "L"
       - "l"
-    HTML:
+    html:
       - "L"
       - "l"
-    LaTeX:
+    latex:
       - '\ensuremath{\mathrm{L}}'
       - '\ensuremath{\mathrm{l}}'
-    Unicode:
+    unicode:
       - "l"
       - "L"
   root_units:
@@ -2784,10 +2784,10 @@
   unit_name:
     - "nautical mile"
   unit_symbol:
-    ASCII: "M"
-    HTML: "M"
-    LaTeX: '\ensuremath{\mathrm{M}}'
-    Unicode: "M"
+    ascii: "M"
+    html: "M"
+    latex: '\ensuremath{\mathrm{M}}'
+    unicode: "M"
   root_units:
     enumerated_root_units:
       - unit: "nautical_mile"
@@ -2807,10 +2807,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "refractive index"
       url: "#NISTq93"
@@ -2840,10 +2840,10 @@
   unit_name:
     - "standard atmosphere"
   unit_symbol:
-    ASCII: "atm"
-    HTML: "atm"
-    LaTeX: '\ensuremath{\mathrm{atm}}'
-    Unicode: "atm"
+    ascii: "atm"
+    html: "atm"
+    latex: '\ensuremath{\mathrm{atm}}'
+    unicode: "atm"
   root_units:
     enumerated_root_units:
       - unit: "standard_atmosphere"
@@ -2863,10 +2863,10 @@
   unit_name:
     - "technical atmosphere"
   unit_symbol:
-    ASCII: "at"
-    HTML: "at"
-    LaTeX: '\ensuremath{\mathrm{at}}'
-    Unicode: "at"
+    ascii: "at"
+    html: "at"
+    latex: '\ensuremath{\mathrm{at}}'
+    unicode: "at"
   root_units:
     enumerated_root_units:
       - unit: "technical_atmosphere"
@@ -2886,11 +2886,11 @@
   unit_name:
     - "kilogram per square meter"
   unit_symbol:
-    ASCII: "kg*m^-2"
-    HTML: |
+    ascii: "kg*m^-2"
+    html: |
       kg/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{kg/m^2}}'
+    latex: '\ensuremath{\mathrm{kg/m^2}}'
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -2912,12 +2912,12 @@
   unit_name:
     - "watt per square meter"
   unit_symbol:
-    ASCII: "W*m^-2"
-    HTML: |
+    ascii: "W*m^-2"
+    html: |
       W/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{W/m^2}}'
-    Unicode: "W/m&#178;"
+    latex: '\ensuremath{\mathrm{W/m^2}}'
+    unicode: "W/m&#178;"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -2940,10 +2940,10 @@
   unit_name:
     - "joule per kelvin"
   unit_symbol:
-    ASCII: "J*K^-1"
-    HTML: "J/K"
-    LaTeX: '\ensuremath{\mathrm{J/K}}'
-    Unicode: "J/K"
+    ascii: "J*K^-1"
+    html: "J/K"
+    latex: '\ensuremath{\mathrm{J/K}}'
+    unicode: "J/K"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -2966,12 +2966,12 @@
   unit_name:
     - "joule per kilogram kelvin"
   unit_symbol:
-    ASCII: "J*kg^-1*K^-1"
-    HTML: |
+    ascii: "J*kg^-1*K^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(kg&#8201;&#183;&#8201;K)</span>
-    LaTeX: '\ensuremath{\mathrm{J/(kg\cdot K)}}'
-    Unicode: "J/(kg&#183;K)"
+    latex: '\ensuremath{\mathrm{J/(kg\cdot K)}}'
+    unicode: "J/(kg&#183;K)"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -2998,12 +2998,12 @@
   unit_name:
     - "pascal second"
   unit_symbol:
-    ASCII: "Pa*s"
-    HTML: |
+    ascii: "Pa*s"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">Pa&#8201;&#183;&#8201;s</span>
-    LaTeX: '\ensuremath{\mathrm{Pa\cdot s}}'
-    Unicode: "Pa&#183;s"
+    latex: '\ensuremath{\mathrm{Pa\cdot s}}'
+    unicode: "Pa&#183;s"
   root_units:
     enumerated_root_units:
       - unit: "pascal"
@@ -3024,12 +3024,12 @@
   unit_name:
     - "newton meter"
   unit_symbol:
-    ASCII: "N*m"
-    HTML: |
+    ascii: "N*m"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m</span>
-    LaTeX: '\ensuremath{\mathrm{N\cdot m}}'
-    Unicode: "N&#183;m"
+    latex: '\ensuremath{\mathrm{N\cdot m}}'
+    unicode: "N&#183;m"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -3054,10 +3054,10 @@
   unit_name:
     - "newton per meter"
   unit_symbol:
-    ASCII: "N*m^-1"
-    HTML: "N/m"
-    LaTeX: '\ensuremath{\mathrm{N/m}}'
-    Unicode: "N/m"
+    ascii: "N*m^-1"
+    html: "N/m"
+    latex: '\ensuremath{\mathrm{N/m}}'
+    unicode: "N/m"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -3078,10 +3078,10 @@
   unit_name:
     - "joule per kilogram"
   unit_symbol:
-    ASCII: "J*kg^-1"
-    HTML: "J/kg"
-    LaTeX: '\ensuremath{\mathrm{J/kg}}'
-    Unicode: "J/kg"
+    ascii: "J*kg^-1"
+    html: "J/kg"
+    latex: '\ensuremath{\mathrm{J/kg}}'
+    unicode: "J/kg"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -3103,12 +3103,12 @@
   unit_name:
     - "watt per meter kelvin"
   unit_symbol:
-    ASCII: "W*m^-1*K^-1"
-    HTML: |
+    ascii: "W*m^-1*K^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m&#8201;&#183;&#8201;K)</span>
-    LaTeX: '\ensuremath{\mathrm{W/(m\cdot K)}}'
-    Unicode: "W/(m&#183;K)"
+    latex: '\ensuremath{\mathrm{W/(m\cdot K)}}'
+    unicode: "W/(m&#183;K)"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -3133,12 +3133,12 @@
   unit_name:
     - "joule per cubic meter"
   unit_symbol:
-    ASCII: "J*m^-3"
-    HTML: |
+    ascii: "J*m^-3"
+    html: |
       J/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{J/m^3}}'
-    Unicode: "J/m&#179;"
+    latex: '\ensuremath{\mathrm{J/m^3}}'
+    unicode: "J/m&#179;"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -3159,10 +3159,10 @@
   unit_name:
     - "volt per meter"
   unit_symbol:
-    ASCII: "V*m^-1"
-    HTML: "V/m"
-    LaTeX: '\ensuremath{\mathrm{V/m}}'
-    Unicode: "V/m"
+    ascii: "V*m^-1"
+    html: "V/m"
+    latex: '\ensuremath{\mathrm{V/m}}'
+    unicode: "V/m"
   root_units:
     enumerated_root_units:
       - unit: "volt"
@@ -3183,12 +3183,12 @@
   unit_name:
     - "coulomb per cubic meter"
   unit_symbol:
-    ASCII: "C*m^-3"
-    HTML: |
+    ascii: "C*m^-3"
+    html: |
       C/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{C/m^3}}'
-    Unicode: "C/m&#179;"
+    latex: '\ensuremath{\mathrm{C/m^3}}'
+    unicode: "C/m&#179;"
   root_units:
     enumerated_root_units:
       - unit: "coulomb"
@@ -3209,12 +3209,12 @@
   unit_name:
     - "coulomb per square meter"
   unit_symbol:
-    ASCII: "C*m^-2"
-    HTML: |
+    ascii: "C*m^-2"
+    html: |
       C/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{C/m^2}}'
-    Unicode: "C/m&#178;"
+    latex: '\ensuremath{\mathrm{C/m^2}}'
+    unicode: "C/m&#178;"
   root_units:
     enumerated_root_units:
       - unit: "coulomb"
@@ -3237,10 +3237,10 @@
   unit_name:
     - "farad per meter"
   unit_symbol:
-    ASCII: "F*m^-1"
-    HTML: "F/m"
-    LaTeX: '\ensuremath{\mathrm{F/m}}'
-    Unicode: "F/m"
+    ascii: "F*m^-1"
+    html: "F/m"
+    latex: '\ensuremath{\mathrm{F/m}}'
+    unicode: "F/m"
   root_units:
     enumerated_root_units:
       - unit: "farad"
@@ -3261,10 +3261,10 @@
   unit_name:
     - "henry per meter"
   unit_symbol:
-    ASCII: "H*m^-1"
-    HTML: "H/m"
-    LaTeX: '\ensuremath{\mathrm{H/m}}'
-    Unicode: "H/m"
+    ascii: "H*m^-1"
+    html: "H/m"
+    latex: '\ensuremath{\mathrm{H/m}}'
+    unicode: "H/m"
   root_units:
     enumerated_root_units:
       - unit: "henry"
@@ -3285,10 +3285,10 @@
   unit_name:
     - "joule per mole"
   unit_symbol:
-    ASCII: "J*mol^-1"
-    HTML: "J/mol"
-    LaTeX: '\ensuremath{\mathrm{J/mol}}'
-    Unicode: "J/mol"
+    ascii: "J*mol^-1"
+    html: "J/mol"
+    latex: '\ensuremath{\mathrm{J/mol}}'
+    unicode: "J/mol"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -3309,12 +3309,12 @@
   unit_name:
     - "joule per mole kelvin"
   unit_symbol:
-    ASCII: "J*mol^-1*K^-1"
-    HTML: |
+    ascii: "J*mol^-1*K^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J/(mol&#8201;&#183;&#8201;K)</span>
-    LaTeX: '\ensuremath{\mathrm{J/(mol\cdot K)}}'
-    Unicode: "J/(mol&#183;K)"
+    latex: '\ensuremath{\mathrm{J/(mol\cdot K)}}'
+    unicode: "J/(mol&#183;K)"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -3341,10 +3341,10 @@
   unit_name:
     - "coulomb per kilogram"
   unit_symbol:
-    ASCII: "C*kg^-1"
-    HTML: "C/kg"
-    LaTeX: '\ensuremath{\mathrm{C/kg}}'
-    Unicode: "C/kg"
+    ascii: "C*kg^-1"
+    html: "C/kg"
+    latex: '\ensuremath{\mathrm{C/kg}}'
+    unicode: "C/kg"
   root_units:
     enumerated_root_units:
       - unit: "coulomb"
@@ -3366,10 +3366,10 @@
   unit_name:
     - "gray per second"
   unit_symbol:
-    ASCII: "Gy*s^-1"
-    HTML: "Gy/s"
-    LaTeX: '\ensuremath{\mathrm{Gy/s}}'
-    Unicode: "Gy/s"
+    ascii: "Gy*s^-1"
+    html: "Gy/s"
+    latex: '\ensuremath{\mathrm{Gy/s}}'
+    unicode: "Gy/s"
   root_units:
     enumerated_root_units:
       - unit: "gray"
@@ -3390,12 +3390,12 @@
   unit_name:
     - "katal per cubic meter"
   unit_symbol:
-    ASCII: "kat*m^-3"
-    HTML: |
+    ascii: "kat*m^-3"
+    html: |
       kat/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{kat/m^3}}'
-    Unicode: "kat/m&#179;"
+    latex: '\ensuremath{\mathrm{kat/m^3}}'
+    unicode: "kat/m&#179;"
   root_units:
     enumerated_root_units:
       - unit: "katal"
@@ -3416,10 +3416,10 @@
   unit_name:
     - "stokes"
   unit_symbol:
-    ASCII: "St"
-    HTML: "St"
-    LaTeX: '\ensuremath{\mathrm{St}}'
-    Unicode: "St"
+    ascii: "St"
+    html: "St"
+    latex: '\ensuremath{\mathrm{St}}'
+    unicode: "St"
   root_units:
     enumerated_root_units:
       - unit: "stokes"
@@ -3437,10 +3437,10 @@
   unit_name:
     - "gal"
   unit_symbol:
-    ASCII: "Gal"
-    HTML: "Gal"
-    LaTeX: '\ensuremath{\mathrm{Gal}}'
-    Unicode: "Gal"
+    ascii: "Gal"
+    html: "Gal"
+    latex: '\ensuremath{\mathrm{Gal}}'
+    unicode: "Gal"
   root_units:
     enumerated_root_units:
       - unit: "gal"
@@ -3458,10 +3458,10 @@
   unit_name:
     - "oersted"
   unit_symbol:
-    ASCII: "Oe"
-    HTML: "Oe"
-    LaTeX: '\ensuremath{\mathrm{Oe}}'
-    Unicode: "Oe"
+    ascii: "Oe"
+    html: "Oe"
+    latex: '\ensuremath{\mathrm{Oe}}'
+    unicode: "Oe"
   root_units:
     enumerated_root_units:
       - unit: "oersted"
@@ -3479,10 +3479,10 @@
   unit_name:
     - "watt per steradian"
   unit_symbol:
-    ASCII: "W*sr^-1"
-    HTML: "W/sr"
-    LaTeX: '\ensuremath{\mathrm{W/sr}}'
-    Unicode: "W/sr"
+    ascii: "W*sr^-1"
+    html: "W/sr"
+    latex: '\ensuremath{\mathrm{W/sr}}'
+    unicode: "W/sr"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -3503,12 +3503,12 @@
   unit_name:
     - "watt per square meter steradian"
   unit_symbol:
-    ASCII: "W*m^-2*sr^-1"
-    HTML: |
+    ascii: "W*m^-2*sr^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m^2&#8201;&#183;&#8201;sr)</span>
-    LaTeX: '\ensuremath{\mathrm{W/(m^2\cdot sr)}}'
-    Unicode: "W/(m&#178;&#183;sr)"
+    latex: '\ensuremath{\mathrm{W/(m^2\cdot sr)}}'
+    unicode: "W/(m&#178;&#183;sr)"
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -3533,8 +3533,8 @@
   unit_name:
     - "degree (degree of arc)"
   unit_symbol:
-    HTML: "&#186;"
-    Unicode: "&#186;"
+    html: "&#186;"
+    unicode: "&#186;"
   root_units:
     enumerated_root_units:
       - unit: "arc_degree"
@@ -3552,10 +3552,10 @@
   unit_name:
     - "second (second of arc)"
   unit_symbol:
-    ASCII: """
-    HTML: "&#8243;"
-    LaTeX: '\ensuremath{\mathrm{''}}'
-    Unicode: "&#8243;"
+    ascii: """
+    html: "&#8243;"
+    latex: '\ensuremath{\mathrm{''}}'
+    unicode: "&#8243;"
   root_units:
     enumerated_root_units:
       - unit: "arc_second"
@@ -3573,10 +3573,10 @@
   unit_name:
     - "minute (minute of arc)"
   unit_symbol:
-    ASCII: "'"
-    HTML: "&#8242;"
-    LaTeX: '\ensuremath{\mathrm{'}}'
-    Unicode: "&#8242;"
+    ascii: "'"
+    html: "&#8242;"
+    latex: '\ensuremath{\mathrm{'}}'
+    unicode: "&#8242;"
   root_units:
     enumerated_root_units:
       - unit: "arc_minute"
@@ -3594,10 +3594,10 @@
   unit_name:
     - "radian per second"
   unit_symbol:
-    ASCII: "rad*s^-1"
-    HTML: "rad/s"
-    LaTeX: '\ensuremath{\mathrm{rad/s}}'
-    Unicode: "rad/s"
+    ascii: "rad*s^-1"
+    html: "rad/s"
+    latex: '\ensuremath{\mathrm{rad/s}}'
+    unicode: "rad/s"
   root_units:
     enumerated_root_units:
       - unit: "radian"
@@ -3620,12 +3620,12 @@
   unit_name:
     - "radian per second squared"
   unit_symbol:
-    ASCII: "rad*s^-2"
-    HTML: |
+    ascii: "rad*s^-2"
+    html: |
       rad/s <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{rad/s^2}}'
-    Unicode: "rad/s&#178;"
+    latex: '\ensuremath{\mathrm{rad/s^2}}'
+    unicode: "rad/s&#178;"
   root_units:
     enumerated_root_units:
       - unit: "radian"
@@ -3647,9 +3647,9 @@
     - "nautical mile per hour"
     - "knot"
   unit_symbol:
-    ASCII: "kn"
-    HTML: "kn"
-    Unicode: "kn"
+    ascii: "kn"
+    html: "kn"
+    unicode: "kn"
   root_units:
     enumerated_root_units:
       - unit: "knot"
@@ -3667,10 +3667,10 @@
   unit_name:
     - "neper"
   unit_symbol:
-    ASCII: "Np"
-    HTML: "Np"
-    LaTeX: '\ensuremath{\mathrm{Np}}'
-    Unicode: "Np"
+    ascii: "Np"
+    html: "Np"
+    latex: '\ensuremath{\mathrm{Np}}'
+    unicode: "Np"
   root_units:
     enumerated_root_units:
       - unit: "neper"
@@ -3694,10 +3694,10 @@
   unit_name:
     - "bel"
   unit_symbol:
-    ASCII: "B"
-    HTML: "B"
-    LaTeX: '\ensuremath{\mathrm{B}}'
-    Unicode: "B"
+    ascii: "B"
+    html: "B"
+    latex: '\ensuremath{\mathrm{B}}'
+    unicode: "B"
   root_units:
     enumerated_root_units:
       - unit: "bel"
@@ -3719,10 +3719,10 @@
   unit_name:
     - "decibel"
   unit_symbol:
-    ASCII: "dB"
-    HTML: "dB"
-    LaTeX: '\ensuremath{\mathrm{dB}}'
-    Unicode: "dB"
+    ascii: "dB"
+    html: "dB"
+    latex: '\ensuremath{\mathrm{dB}}'
+    unicode: "dB"
   root_units:
     enumerated_root_units:
       - unit: "bel"
@@ -3743,10 +3743,10 @@
     - "millimeter of mercury, conventional"
     - "millimeter of mercury"
   unit_symbol:
-    ASCII: "mmHg"
-    HTML: "mmHg"
-    LaTeX: '\ensuremath{\mathrm{mmHg}}'
-    Unicode: "mmHg"
+    ascii: "mmHg"
+    html: "mmHg"
+    latex: '\ensuremath{\mathrm{mmHg}}'
+    unicode: "mmHg"
   root_units:
     enumerated_root_units:
       - unit: "mm_Hg"
@@ -3784,10 +3784,10 @@
   unit_name:
     - "gon"
   unit_symbol:
-    ASCII: "gon"
-    HTML: "gon"
-    LaTeX: '\ensuremath{\mathrm{gon}}'
-    Unicode: "gon"
+    ascii: "gon"
+    html: "gon"
+    latex: '\ensuremath{\mathrm{gon}}'
+    unicode: "gon"
   root_units:
     enumerated_root_units:
       - unit: "gon"
@@ -3805,10 +3805,10 @@
   unit_name:
     - "kilometer per hour"
   unit_symbol:
-    ASCII: "km/h"
-    HTML: "kh/h"
-    LaTeX: '\ensuremath{\mathrm{kh/h}}'
-    Unicode: "km/h"
+    ascii: "km/h"
+    html: "kh/h"
+    latex: '\ensuremath{\mathrm{kh/h}}'
+    unicode: "km/h"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -3832,11 +3832,11 @@
   unit_name:
     - "second to the power minus one"
   unit_symbol:
-    ASCII: "s^-1"
-    HTML: |
+    ascii: "s^-1"
+    html: |
       s <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
-    LaTeX: '\ensuremath{\mathrm{s^{-1}}}'
-    Unicode: "s&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{s^{-1}}}'
+    unicode: "s&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "second"
@@ -3858,10 +3858,10 @@
   unit_name:
     - "radian per meter"
   unit_symbol:
-    ASCII: "rad*m^-1"
-    HTML: "rad/m"
-    LaTeX: '\ensuremath{\mathrm{rad/m}}'
-    Unicode: "rad/m"
+    ascii: "rad*m^-1"
+    html: "rad/m"
+    latex: '\ensuremath{\mathrm{rad/m}}'
+    unicode: "rad/m"
   root_units:
     enumerated_root_units:
       - unit: "radian"
@@ -3882,10 +3882,10 @@
   unit_name:
     - "neper per second"
   unit_symbol:
-    ASCII: "Np*s^-1"
-    HTML: "Np/s"
-    LaTeX: '\ensuremath{\mathrm{Np/s}}'
-    Unicode: "Np/s"
+    ascii: "Np*s^-1"
+    html: "Np/s"
+    latex: '\ensuremath{\mathrm{Np/s}}'
+    unicode: "Np/s"
   root_units:
     enumerated_root_units:
       - unit: "neper"
@@ -3906,11 +3906,11 @@
   unit_name:
     - "square yard"
   unit_symbol:
-    ASCII: "yd^2"
-    HTML: |
+    ascii: "yd^2"
+    html: |
       yd <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{yd^2}}'
-    Unicode: "yd&#178;"
+    latex: '\ensuremath{\mathrm{yd^2}}'
+    unicode: "yd&#178;"
   root_units:
     enumerated_root_units:
       - unit: "yard"
@@ -3928,10 +3928,10 @@
   unit_name:
     - "square mile"
   unit_symbol:
-    ASCII: "mi^2"
-		HTML: ""
-    LaTeX: '\ensuremath{\mathrm{mi^2}}'
-    Unicode: "mi&#178;"
+    ascii: "mi^2"
+		html: ""
+    latex: '\ensuremath{\mathrm{mi^2}}'
+    unicode: "mi&#178;"
   root_units:
     enumerated_root_units:
       - unit: "mile"
@@ -3967,11 +3967,11 @@
   unit_name:
     - "foot per second squared"
   unit_symbol:
-    ASCII: "ft*s^-2"
-    HTML: |
+    ascii: "ft*s^-2"
+    html: |
       ft/s <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
-    LaTeX: '\ensuremath{\mathrm{ft/s^2}}'
-    Unicode: "ft/s&#178;"
+    latex: '\ensuremath{\mathrm{ft/s^2}}'
+    unicode: "ft/s&#178;"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -3992,11 +3992,11 @@
   unit_name:
     - "cubic inch"
   unit_symbol:
-    ASCII: "in^3"
-    HTML: |
+    ascii: "in^3"
+    html: |
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{in^3}}'
-    Unicode: "in&#179;"
+    latex: '\ensuremath{\mathrm{in^3}}'
+    unicode: "in&#179;"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -4014,11 +4014,11 @@
   unit_name:
     - "cubic foot"
   unit_symbol:
-    ASCII: "ft^3"
-    HTML: |
+    ascii: "ft^3"
+    html: |
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{ft^3}}'
-    Unicode: "ft&#179;"
+    latex: '\ensuremath{\mathrm{ft^3}}'
+    unicode: "ft&#179;"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -4036,11 +4036,11 @@
   unit_name:
     - "cubic yard"
   unit_symbol:
-    ASCII: "yd^3"
-    HTML: |
+    ascii: "yd^3"
+    html: |
       yd <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{yd^3}}'
-    Unicode: "yd&#179;"
+    latex: '\ensuremath{\mathrm{yd^3}}'
+    unicode: "yd&#179;"
   root_units:
     enumerated_root_units:
       - unit: "yard"
@@ -4060,10 +4060,10 @@
     - "imperial gallon"
     - "gallon"
   unit_symbol:
-    ASCII: "gal (UK)"
-    HTML: "gal (UK)"
-    LaTeX: '\ensuremath{\mathrm{gal (UK)}}'
-    Unicode: "gal (UK)"
+    ascii: "gal (UK)"
+    html: "gal (UK)"
+    latex: '\ensuremath{\mathrm{gal (UK)}}'
+    unicode: "gal (UK)"
   root_units:
     enumerated_root_units:
       - unit: "imperial_gallon"
@@ -4082,10 +4082,10 @@
     - "pint (UK)"
     - "pint"
   unit_symbol:
-    ASCII: "pt (UK)"
-    HTML: "pt (UK)"
-    LaTeX: '\ensuremath{\mathrm{pint~{UK}}'
-    Unicode: "pt (UK)"
+    ascii: "pt (UK)"
+    html: "pt (UK)"
+    latex: '\ensuremath{\mathrm{pint~{UK}}'
+    unicode: "pt (UK)"
   root_units:
     enumerated_root_units:
       - unit: "imperial_pint"
@@ -4105,10 +4105,10 @@
     - "fluid ounce"
     - "ounce"
   unit_symbol:
-    ASCII: "fl oz (UK)"
-    HTML: "fl oz (UK)"
-    LaTeX: '\ensuremath{\mathrm{fl oz (UK)}}'
-    Unicode: "fl oz (UK)"
+    ascii: "fl oz (UK)"
+    html: "fl oz (UK)"
+    latex: '\ensuremath{\mathrm{fl oz (UK)}}'
+    unicode: "fl oz (UK)"
   root_units:
     enumerated_root_units:
       - unit: "imperial_ounce"
@@ -4126,10 +4126,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "rotation"
       url: "#NISTq111"
@@ -4143,10 +4143,10 @@
     - "gallon (US)"
     - "gallon"
   unit_symbol:
-    ASCII: "gal (US)"
-    HTML: "gal (US)"
-    LaTeX: '\ensuremath{\mathrm{gal (US)}}'
-    Unicode: "gal (US)"
+    ascii: "gal (US)"
+    html: "gal (US)"
+    latex: '\ensuremath{\mathrm{gal (US)}}'
+    unicode: "gal (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_gallon"
@@ -4165,10 +4165,10 @@
     - "liquid pint (US)"
     - "pint"
   unit_symbol:
-    ASCII: "liq pint (US)"
-    HTML: "liq pint (US)"
-    LaTeX: '\ensuremath{\mathrm{liq pint (US)}}'
-    Unicode: "liq pint (US)"
+    ascii: "liq pint (US)"
+    html: "liq pint (US)"
+    latex: '\ensuremath{\mathrm{liq pint (US)}}'
+    unicode: "liq pint (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_pint"
@@ -4188,10 +4188,10 @@
     - "fluid ounce"
     - "ounce"
   unit_symbol:
-    ASCII: "fl oz (US)"
-    HTML: "fl oz (US)"
-    LaTeX: '\ensuremath{\mathrm{fl oz (US)}}'
-    Unicode: "fl oz (US)"
+    ascii: "fl oz (US)"
+    html: "fl oz (US)"
+    latex: '\ensuremath{\mathrm{fl oz (US)}}'
+    unicode: "fl oz (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_fluid_ounce"
@@ -4210,10 +4210,10 @@
     - "barrel (US) for petroleum"
     - "barrel"
   unit_symbol:
-    ASCII: "bbl (US)"
-    HTML: "bbl (US)"
-    LaTeX: '\ensuremath{\mathrm{bbl (US)}}'
-    Unicode: "bbl (US)"
+    ascii: "bbl (US)"
+    html: "bbl (US)"
+    latex: '\ensuremath{\mathrm{bbl (US)}}'
+    unicode: "bbl (US)"
   root_units:
     enumerated_root_units:
       - unit: "petro_barrel"
@@ -4232,10 +4232,10 @@
     - "bushel (US)"
     - "bushel"
   unit_symbol:
-    ASCII: "bu (US)"
-    HTML: "bu (US)"
-    LaTeX: '\ensuremath{\mathrm{bu (US)}}'
-    Unicode: "bu (US)"
+    ascii: "bu (US)"
+    html: "bu (US)"
+    latex: '\ensuremath{\mathrm{bu (US)}}'
+    unicode: "bu (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_bushel"
@@ -4254,10 +4254,10 @@
     - "dry pint (US)"
     - "pint"
   unit_symbol:
-    ASCII: "dry pt (US)"
-    HTML: "dry pt (US)"
-    LaTeX: '\ensuremath{\mathrm{dry pt (US)}}'
-    Unicode: "dry pt (US)"
+    ascii: "dry pt (US)"
+    html: "dry pt (US)"
+    latex: '\ensuremath{\mathrm{dry pt (US)}}'
+    unicode: "dry pt (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_dry_pint"
@@ -4275,10 +4275,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "relative permeability"
       url: "#NISTq94"
@@ -4291,10 +4291,10 @@
   unit_name:
     - "light year"
   unit_symbol:
-    ASCII: "l.y."
-    HTML: "l.y."
-    LaTeX: '\ensuremath{\mathrm{l.y.}}'
-    Unicode: "l.y."
+    ascii: "l.y."
+    html: "l.y."
+    latex: '\ensuremath{\mathrm{l.y.}}'
+    unicode: "l.y."
   root_units:
     enumerated_root_units:
       - unit: "light_year"
@@ -4312,10 +4312,10 @@
   unit_name:
     - "astronomical unit"
   unit_symbol:
-    ASCII: "ua"
-    HTML: "ua"
-    LaTeX: '\ensuremath{\mathrm{ua}}'
-    Unicode: "ua"
+    ascii: "ua"
+    html: "ua"
+    latex: '\ensuremath{\mathrm{ua}}'
+    unicode: "ua"
   root_units:
     enumerated_root_units:
       - unit: "astronomical_unit"
@@ -4333,10 +4333,10 @@
   unit_name:
     - "parsec"
   unit_symbol:
-    ASCII: "pc"
-    HTML: "pc"
-    LaTeX: '\ensuremath{\mathrm{pc}}'
-    Unicode: "pc"
+    ascii: "pc"
+    html: "pc"
+    latex: '\ensuremath{\mathrm{pc}}'
+    unicode: "pc"
   root_units:
     enumerated_root_units:
       - unit: "parsec"
@@ -4354,11 +4354,11 @@
   unit_name:
     - "meter to the power four"
   unit_symbol:
-    ASCII: "m^4"
-    HTML: |
+    ascii: "m^4"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">4</sup>
-    LaTeX: '\ensuremath{\mathrm{m^4}}'
-    Unicode: "m&#8308;"
+    latex: '\ensuremath{\mathrm{m^4}}'
+    unicode: "m&#8308;"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -4380,10 +4380,10 @@
   unit_name:
     - "kilogram per meter"
   unit_symbol:
-    ASCII: "kg*m^-1"
-    HTML: "kg/m"
-    LaTeX: '\ensuremath{\mathrm{kg/m}}'
-    Unicode: "kg/m"
+    ascii: "kg*m^-1"
+    html: "kg/m"
+    latex: '\ensuremath{\mathrm{kg/m}}'
+    unicode: "kg/m"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4405,10 +4405,10 @@
   unit_name:
     - "kilogram meter squared"
   unit_symbol:
-    ASCII: "kg*m^2"
-    HTML: "kg*m^2"
-    LaTeX: 'kg*m^2'
-    Unicode: "kg*m^2"
+    ascii: "kg*m^2"
+    html: "kg*m^2"
+    latex: 'kg*m^2'
+    unicode: "kg*m^2"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4430,10 +4430,10 @@
   unit_name:
     - "kilogram per liter"
   unit_symbol:
-    ASCII: "kg*l^-1"
-    HTML: "kg/l"
-    LaTeX: '\ensuremath{\mathrm{kg/l}}'
-    Unicode: "kg/l"
+    ascii: "kg*l^-1"
+    html: "kg/l"
+    latex: '\ensuremath{\mathrm{kg/l}}'
+    unicode: "kg/l"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4455,12 +4455,12 @@
   unit_name:
     - "metric ton per cubic meter"
   unit_symbol:
-    ASCII: "t*m^-3"
-    HTML: |
+    ascii: "t*m^-3"
+    html: |
       t/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{t/m^3}}'
-    Unicode: "t/m&#179;"
+    latex: '\ensuremath{\mathrm{t/m^3}}'
+    unicode: "t/m&#179;"
   root_units:
     enumerated_root_units:
       - unit: "metric_ton"
@@ -4481,12 +4481,12 @@
   unit_name:
     - "newton second"
   unit_symbol:
-    ASCII: "N*s"
-    HTML: |
+    ascii: "N*s"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;s</span>
-    LaTeX: '\ensuremath{\mathrm{N\cdot s}}'
-    Unicode: "N&#183;s"
+    latex: '\ensuremath{\mathrm{N\cdot s}}'
+    unicode: "N&#183;s"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -4507,14 +4507,14 @@
   unit_name:
     - "newton meter squared per kilogram squared"
   unit_symbol:
-    ASCII: "N*m^2*kg^-2"
-    HTML: |
+    ascii: "N*m^2*kg^-2"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m
 						<sup>2</sup>/kg <sup>2</sup>
 				</span>
-    LaTeX: '\ensuremath{\mathrm{N\cdot m^2/kg^2}}'
-    Unicode: "N&#183;m&#178;/kg&#178;"
+    latex: '\ensuremath{\mathrm{N\cdot m^2/kg^2}}'
+    unicode: "N&#183;m&#178;/kg&#178;"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -4539,12 +4539,12 @@
   unit_name:
     - "kilogram meter per second"
   unit_symbol:
-    ASCII: "kg*m*s^-1"
-    HTML: |
+    ascii: "kg*m*s^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m/s</span>
-    LaTeX: '\ensuremath{\mathrm{kg\cdot m/s}}'
-    Unicode: "N&#183;m/s"
+    latex: '\ensuremath{\mathrm{kg\cdot m/s}}'
+    unicode: "N&#183;m/s"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4569,12 +4569,12 @@
   unit_name:
     - "kilogram meter squared per second"
   unit_symbol:
-    ASCII: "kg*m^2*s^-1"
-    HTML: |
+    ascii: "kg*m^2*s^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m^2/s</span>
-    LaTeX: '\ensuremath{\mathrm{kg\cdot m^2/s}}'
-    Unicode: "kg&#183;m&#178;/s"
+    latex: '\ensuremath{\mathrm{kg\cdot m^2/s}}'
+    unicode: "kg&#183;m&#178;/s"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4601,12 +4601,12 @@
   unit_name:
     - "newton meter second"
   unit_symbol:
-    ASCII: "N*m*s"
-    HTML: |
+    ascii: "N*m*s"
+    html: |
 			<span style="white-space:nowrap;" xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s</span>
-    LaTeX: '\ensuremath{\mathrm{N\cdot m\cdot s}}'
-    Unicode: "N&#183;m&#183;s"
+    latex: '\ensuremath{\mathrm{N\cdot m\cdot s}}'
+    unicode: "N&#183;m&#183;s"
   root_units:
     enumerated_root_units:
       - unit: "newton"
@@ -4630,11 +4630,11 @@
   unit_name:
     - "pascal to the power minus one"
   unit_symbol:
-    ASCII: "Pa^-1"
-    HTML: |
+    ascii: "Pa^-1"
+    html: |
       Pa <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
-    LaTeX: '\ensuremath{\mathrm{Pa^{-1}}}'
-    Unicode: "Pa&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{Pa^{-1}}}'
+    unicode: "Pa&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "pascal"
@@ -4654,12 +4654,12 @@
   unit_name:
     - "meter squared per second"
   unit_symbol:
-    ASCII: "m^2*s^-1"
-    HTML: |
+    ascii: "m^2*s^-1"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>/s
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{m^2/s}}'
-    Unicode: "m&#178;/s"
+    latex: '\ensuremath{\mathrm{m^2/s}}'
+    unicode: "m&#178;/s"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -4680,10 +4680,10 @@
   unit_name:
     - "kilogram per second"
   unit_symbol:
-    ASCII: "kg*s^-1"
-    HTML: "kg/s"
-    LaTeX: '\ensuremath{\mathrm{kg/s}}'
-    Unicode: "kg/s"
+    ascii: "kg*s^-1"
+    html: "kg/s"
+    latex: '\ensuremath{\mathrm{kg/s}}'
+    unicode: "kg/s"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -4705,12 +4705,12 @@
   unit_name:
     - "cubic meter per second"
   unit_symbol:
-    ASCII: "m^3*s^-1"
-    HTML: |
+    ascii: "m^3*s^-1"
+    html: |
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>/s
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{m^3/s}}'
-    Unicode: "m&#179;/s"
+    latex: '\ensuremath{\mathrm{m^3/s}}'
+    unicode: "m&#179;/s"
   root_units:
     enumerated_root_units:
       - unit: "meter"
@@ -4731,12 +4731,12 @@
   unit_name:
     - "joule second"
   unit_symbol:
-    ASCII: "J*s"
-    HTML: |
+    ascii: "J*s"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J&#8201;&#183;&#8201;s</span>
-    LaTeX: '\ensuremath{\mathrm{J\cdot s}}'
-    Unicode: "J&#183;s"
+    latex: '\ensuremath{\mathrm{J\cdot s}}'
+    unicode: "J&#183;s"
   root_units:
     enumerated_root_units:
       - unit: "joule"
@@ -4759,10 +4759,10 @@
     - "avoirdupois pound"
     - "pound"
   unit_symbol:
-    ASCII: "lb"
-    HTML: "lb"
-    LaTeX: '\ensuremath{\mathrm{lb}}'
-    Unicode: "lb"
+    ascii: "lb"
+    html: "lb"
+    latex: '\ensuremath{\mathrm{lb}}'
+    unicode: "lb"
   root_units:
     enumerated_root_units:
       - unit: "pound"
@@ -4782,10 +4782,10 @@
     - "avoirdupois ounce"
     - "ounce"
   unit_symbol:
-    ASCII: "oz"
-    HTML: "oz"
-    LaTeX: '\ensuremath{\mathrm{oz}}'
-    Unicode: "oz"
+    ascii: "oz"
+    html: "oz"
+    latex: '\ensuremath{\mathrm{oz}}'
+    unicode: "oz"
   root_units:
     enumerated_root_units:
       - unit: "ounce"
@@ -4804,10 +4804,10 @@
     - "hundredweight (long, 112 lb)"
     - "hundredweight"
   unit_symbol:
-    ASCII: "cwt (UK)"
-    HTML: "cwt (UK)"
-    LaTeX: '\ensuremath{\mathrm{cwt (UK)}}'
-    Unicode: "cwt (UK)"
+    ascii: "cwt (UK)"
+    html: "cwt (UK)"
+    latex: '\ensuremath{\mathrm{cwt (UK)}}'
+    unicode: "cwt (UK)"
   root_units:
     enumerated_root_units:
       - unit: "gross_hundredweight"
@@ -4825,12 +4825,12 @@
   unit_name:
     - "pound per cubic foot"
   unit_symbol:
-    ASCII: "lb*ft^-3"
-    HTML: |
+    ascii: "lb*ft^-3"
+    html: |
       lb/ft <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{lb/ft^3}}'
-    Unicode: "lb/ft&#179;"
+    latex: '\ensuremath{\mathrm{lb/ft^3}}'
+    unicode: "lb/ft&#179;"
   root_units:
     enumerated_root_units:
       - unit: "pound"
@@ -4851,10 +4851,10 @@
   unit_name:
     - "pound-force"
   unit_symbol:
-    ASCII: "lbf"
-    HTML: "lbf"
-    LaTeX: '\ensuremath{\mathrm{lbf}}'
-    Unicode: "lbf"
+    ascii: "lbf"
+    html: "lbf"
+    latex: '\ensuremath{\mathrm{lbf}}'
+    unicode: "lbf"
   root_units:
     enumerated_root_units:
       - unit: "pound_force"
@@ -4874,12 +4874,12 @@
   unit_name:
     - "foot pound-force"
   unit_symbol:
-    ASCII: "ft*lbf"
-    HTML: |
+    ascii: "ft*lbf"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf</span>
-    LaTeX: '\ensuremath{\mathrm{ft\cdot lbf}}'
-    Unicode: "ft&#183;lbf"
+    latex: '\ensuremath{\mathrm{ft\cdot lbf}}'
+    unicode: "ft&#183;lbf"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -4914,18 +4914,18 @@
   unit_name:
     - "pound-force per square inch"
   unit_symbol:
-    ASCII:
+    ascii:
       - "lbf*in^-2"
       - "psi"
-    HTML:
+    html:
       - |
         lbf/in <sup xmlns=""
         xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
       - "psi"
-    LaTeX:
+    latex:
       - '\ensuremath{\mathrm{lbf/in^2}}'
       - '\ensuremath{\mathrm{psi}}'
-    Unicode:
+    unicode:
       - "psi"
       - "lbf/in&#178;"
   root_units:
@@ -4948,11 +4948,11 @@
   unit_name:
     - "inch to the fourth power"
   unit_symbol:
-    ASCII: "in^4"
-    HTML: |
+    ascii: "in^4"
+    html: |
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">4</sup>
-    LaTeX: '\ensuremath{\mathrm{in^4}}'
-    Unicode: "in&#8308;"
+    latex: '\ensuremath{\mathrm{in^4}}'
+    unicode: "in&#8308;"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -4972,11 +4972,11 @@
   unit_name:
     - "inch cubed"
   unit_symbol:
-    ASCII: "in^3"
-    HTML: |
+    ascii: "in^3"
+    html: |
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
-    LaTeX: '\ensuremath{\mathrm{in^3}}'
-    Unicode: "in&#179;"
+    latex: '\ensuremath{\mathrm{in^3}}'
+    unicode: "in&#179;"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -4994,12 +4994,12 @@
   unit_name:
     - "foot squared per second"
   unit_symbol:
-    ASCII: "ft^2*s^-1"
-    HTML: |
+    ascii: "ft^2*s^-1"
+    html: |
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>/s
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{ft^2/s}}'
-    Unicode: "ft&#178;/s"
+    latex: '\ensuremath{\mathrm{ft^2/s}}'
+    unicode: "ft&#178;/s"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -5020,12 +5020,12 @@
   unit_name:
     - "foot pound-force per second"
   unit_symbol:
-    ASCII: "ft*lbf*s^-1"
-    HTML: |
+    ascii: "ft*lbf*s^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf/s</span>
-    LaTeX: '\ensuremath{\mathrm{ft\cdot lbf/s}}'
-    Unicode: "ft&#183;lbf/2"
+    latex: '\ensuremath{\mathrm{ft\cdot lbf/s}}'
+    unicode: "ft&#183;lbf/2"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -5067,10 +5067,10 @@
   unit_name:
     - "tex"
   unit_symbol:
-    ASCII: "tex"
-    HTML: "tex"
-    LaTeX: '\ensuremath{\mathrm{tex}}'
-    Unicode: "tex"
+    ascii: "tex"
+    html: "tex"
+    latex: '\ensuremath{\mathrm{tex}}'
+    unicode: "tex"
   root_units:
     enumerated_root_units:
       - unit: "tex"
@@ -5088,10 +5088,10 @@
   unit_name:
     - "torr"
   unit_symbol:
-    ASCII: "Torr"
-    HTML: "Torr"
-    LaTeX: '\ensuremath{\mathrm{torr}}'
-    Unicode: "torr"
+    ascii: "Torr"
+    html: "Torr"
+    latex: '\ensuremath{\mathrm{torr}}'
+    unicode: "torr"
   root_units:
     enumerated_root_units:
       - unit: "torr"
@@ -5119,13 +5119,13 @@
     - "millimeter of water, conventional"
     - "millimeter of water"
   unit_symbol:
-    ASCII: "mmH_2O"
-    HTML: |
+    ascii: "mmH_2O"
+    html: |
       mmH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{mmH_{2}O}}'
-    Unicode: "mmH&#8322;O"
+    latex: '\ensuremath{\mathrm{mmH_{2}O}}'
+    unicode: "mmH&#8322;O"
   root_units:
     enumerated_root_units:
       - unit: "mm_water"
@@ -5145,10 +5145,10 @@
     - "centimeter of mercury, conventional"
     - "centimeter of mercury"
   unit_symbol:
-    ASCII: "cmHg"
-    HTML: "cmHg"
-    LaTeX: '\ensuremath{\mathrm{cmHg}}'
-    Unicode: "cmHg"
+    ascii: "cmHg"
+    html: "cmHg"
+    latex: '\ensuremath{\mathrm{cmHg}}'
+    unicode: "cmHg"
   root_units:
     enumerated_root_units:
       - unit: "cm_Hg"
@@ -5168,12 +5168,12 @@
   unit_name:
     - "kilogram-force meter per second"
   unit_symbol:
-    ASCII: "kgf*m*s^-1"
-    HTML: |
+    ascii: "kgf*m*s^-1"
+    html: |
 				<span style="white-space:nowrap;" xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m/s</span>
-    LaTeX: '\ensuremath{\mathrm{kgf\cdot m/s}}'
-    Unicode: "kgf&#183;m/s"
+    latex: '\ensuremath{\mathrm{kgf\cdot m/s}}'
+    unicode: "kgf&#183;m/s"
   root_units:
     enumerated_root_units:
       - unit: "gram_force"
@@ -5215,11 +5215,11 @@
   unit_name:
     - "kelvin to the power minus one"
   unit_symbol:
-    ASCII: "K^-1"
-    HTML: |
+    ascii: "K^-1"
+    html: |
       K <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
-    LaTeX: '\ensuremath{\mathrm{K^{-1}}}'
-    Unicode: "K&#8315;&#185;"
+    latex: '\ensuremath{\mathrm{K^{-1}}}'
+    unicode: "K&#8315;&#185;"
   root_units:
     enumerated_root_units:
       - unit: "kelvin"
@@ -5241,10 +5241,10 @@
   unit_name:
     - "pascal per kelvin"
   unit_symbol:
-    ASCII: "Pa*K^-1"
-    HTML: "Pa/K"
-    LaTeX: '\ensuremath{\mathrm{Pa/K}}'
-    Unicode: "Pa/K"
+    ascii: "Pa*K^-1"
+    html: "Pa/K"
+    latex: '\ensuremath{\mathrm{Pa/K}}'
+    unicode: "Pa/K"
   root_units:
     enumerated_root_units:
       - unit: "pascal"
@@ -5265,13 +5265,13 @@
   unit_name:
     - "watt per square meter kelvin"
   unit_symbol:
-    ASCII: "W*m^-2*K^-1"
-    HTML: |
+    ascii: "W*m^-2*K^-1"
+    html: |
 			<span style="white-space:nowrap;" xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m
 				<sup>2</sup>&#8201;&#183;&#8201;K)</span>
-    LaTeX: '\ensuremath{\mathrm{W/(m^2\cdot K)}}'
-		Unicode: |
+    latex: '\ensuremath{\mathrm{W/(m^2\cdot K)}}'
+		unicode: |
       m <sup xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>&#183;K)
   root_units:
@@ -5300,10 +5300,10 @@
   unit_name:
     - "lambert"
   unit_symbol:
-    ASCII: "L"
-    HTML: "L"
-    LaTeX: '\ensuremath{\mathrm{L}}'
-    Unicode: "L"
+    ascii: "L"
+    html: "L"
+    latex: '\ensuremath{\mathrm{L}}'
+    unicode: "L"
   root_units:
     enumerated_root_units:
       - unit: "lambert"
@@ -5321,10 +5321,10 @@
   unit_name:
     - "gilbert"
   unit_symbol:
-    ASCII: "Gi"
-    HTML: "Gi"
-    LaTeX: '\ensuremath{\mathrm{Gi}}'
-    Unicode: "Gi"
+    ascii: "Gi"
+    html: "Gi"
+    latex: '\ensuremath{\mathrm{Gi}}'
+    unicode: "Gi"
   root_units:
     enumerated_root_units:
       - unit: "gilbert"
@@ -5342,10 +5342,10 @@
   unit_name:
     - "debye"
   unit_symbol:
-    ASCII: "D"
-    HTML: "D"
-    LaTeX: '\ensuremath{\mathrm{D}}'
-    Unicode: "D"
+    ascii: "D"
+    html: "D"
+    latex: '\ensuremath{\mathrm{D}}'
+    unicode: "D"
   root_units:
     enumerated_root_units:
       - unit: "debye"
@@ -5363,10 +5363,10 @@
   unit_name:
     - "abwatt"
   unit_symbol:
-    ASCII: "aW (Cardelli)"
-    HTML: "aW"
-    LaTeX: '\ensuremath{\mathrm{aW}}'
-    Unicode: "aW"
+    ascii: "aW (Cardelli)"
+    html: "aW"
+    latex: '\ensuremath{\mathrm{aW}}'
+    unicode: "aW"
   root_units:
     enumerated_root_units:
       - unit: "abwatt"
@@ -5384,10 +5384,10 @@
   unit_name:
     - "slug"
   unit_symbol:
-    ASCII: "slug"
-    HTML: "slug"
-    LaTeX: '\ensuremath{\mathrm{D}}'
-    Unicode: "slug"
+    ascii: "slug"
+    html: "slug"
+    latex: '\ensuremath{\mathrm{D}}'
+    unicode: "slug"
   root_units:
     enumerated_root_units:
       - unit: "slug"
@@ -5407,11 +5407,11 @@
     - "calorie_th"
     - "calorie"
   unit_symbol:
-    ASCII: "cal_th"
-    HTML: |
+    ascii: "cal_th"
+    html: |
       cal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
-    LaTeX: '\ensuremath{\mathrm{cal_th}}'
+    latex: '\ensuremath{\mathrm{cal_th}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -5474,10 +5474,10 @@
     - "hundredweight (short, 100 lb)"
     - "hundredweight"
   unit_symbol:
-    ASCII: "cwt (US)"
-    HTML: "cwt (US)"
-    LaTeX: '\ensuremath{\mathrm{cwt (US)}}'
-    Unicode: "cwt (US)"
+    ascii: "cwt (US)"
+    html: "cwt (US)"
+    latex: '\ensuremath{\mathrm{cwt (US)}}'
+    unicode: "cwt (US)"
   root_units:
     enumerated_root_units:
       - unit: "hundredweight"
@@ -5497,10 +5497,10 @@
     - "troy ounce"
     - "ounce"
   unit_symbol:
-    ASCII: "oz"
-    HTML: "oz"
-    LaTeX: '\ensuremath{\mathrm{oz}}'
-    Unicode: "oz"
+    ascii: "oz"
+    html: "oz"
+    latex: '\ensuremath{\mathrm{oz}}'
+    unicode: "oz"
   root_units:
     enumerated_root_units:
       - unit: "troy_ounce"
@@ -5520,10 +5520,10 @@
     - "troy pound"
     - "pound"
   unit_symbol:
-    ASCII: "lb"
-    HTML: "lb"
-    LaTeX: '\ensuremath{\mathrm{lb}}'
-    Unicode: "lb"
+    ascii: "lb"
+    html: "lb"
+    latex: '\ensuremath{\mathrm{lb}}'
+    unicode: "lb"
   root_units:
     enumerated_root_units:
       - unit: "troy_pound"
@@ -5541,10 +5541,10 @@
   unit_name:
     - "pennyweight"
   unit_symbol:
-    ASCII: "dwt (troy)"
-    HTML: "dwt (troy)"
-    LaTeX: '\ensuremath{\mathrm{dwt (troy)}}'
-    Unicode: "dwt (troy)"
+    ascii: "dwt (troy)"
+    html: "dwt (troy)"
+    latex: '\ensuremath{\mathrm{dwt (troy)}}'
+    unicode: "dwt (troy)"
   root_units:
     enumerated_root_units:
       - unit: "pennyweight"
@@ -5564,10 +5564,10 @@
     - "apothecary dram"
     - "dram"
   unit_symbol:
-    ASCII: "dr"
-    HTML: "dr"
-    LaTeX: '\ensuremath{\mathrm{dr}}'
-    Unicode: "dr"
+    ascii: "dr"
+    html: "dr"
+    latex: '\ensuremath{\mathrm{dr}}'
+    unicode: "dr"
   root_units:
     enumerated_root_units:
       - unit: "apothecaries_dram"
@@ -5586,10 +5586,10 @@
     - "scruple"
     - "apothecary scruple"
   unit_symbol:
-    ASCII: "scr (ap.)"
-    HTML: "scr (ap.)"
-    LaTeX: '\ensuremath{\mathrm{scr (ap.)}}'
-    Unicode: "scr (ap.)"
+    ascii: "scr (ap.)"
+    html: "scr (ap.)"
+    latex: '\ensuremath{\mathrm{scr (ap.)}}'
+    unicode: "scr (ap.)"
   root_units:
     enumerated_root_units:
       - unit: "scruple"
@@ -5607,10 +5607,10 @@
   unit_name:
     - "poundal"
   unit_symbol:
-    ASCII: "pdl"
-    HTML: "pdl"
-    LaTeX: '\ensuremath{\mathrm{pdl}}'
-    Unicode: "pdl"
+    ascii: "pdl"
+    html: "pdl"
+    latex: '\ensuremath{\mathrm{pdl}}'
+    unicode: "pdl"
   root_units:
     enumerated_root_units:
       - unit: "poundal"
@@ -5630,10 +5630,10 @@
   unit_name:
     - "kip"
   unit_symbol:
-    ASCII: "kip"
-    HTML: "kip"
-    LaTeX: '\ensuremath{\mathrm{kip}}'
-    Unicode: "kip"
+    ascii: "kip"
+    html: "kip"
+    latex: '\ensuremath{\mathrm{kip}}'
+    unicode: "kip"
   root_units:
     enumerated_root_units:
       - unit: "kip"
@@ -5651,10 +5651,10 @@
   unit_name:
     - "ton-force (2000 lb)"
   unit_symbol:
-    ASCII: "ton-force (2000 lb)"
-    HTML: "ton-force (2000 lb)"
-    LaTeX: '\ensuremath{\mathrm{ton-force (2000 lb)}}'
-    Unicode: "ton-force (2000 lb)"
+    ascii: "ton-force (2000 lb)"
+    html: "ton-force (2000 lb)"
+    latex: '\ensuremath{\mathrm{ton-force (2000 lb)}}'
+    unicode: "ton-force (2000 lb)"
   root_units:
     enumerated_root_units:
       - unit: "ton_force"
@@ -5674,10 +5674,10 @@
   unit_name:
     - "barye"
   unit_symbol:
-    ASCII: "barye"
-    HTML: "barye"
-    LaTeX: '\ensuremath{\mathrm{barye}}'
-    Unicode: "barye"
+    ascii: "barye"
+    html: "barye"
+    latex: '\ensuremath{\mathrm{barye}}'
+    unicode: "barye"
   root_units:
     enumerated_root_units:
       - unit: "barye"
@@ -5701,10 +5701,10 @@
   unit_name:
     - "electronvolt"
   unit_symbol:
-    ASCII: "eV"
-    HTML: "eV"
-    LaTeX: '\ensuremath{\mathrm{eV}}'
-    Unicode: "eV"
+    ascii: "eV"
+    html: "eV"
+    latex: '\ensuremath{\mathrm{eV}}'
+    unicode: "eV"
   root_units:
     enumerated_root_units:
       - unit: "electronvolt"
@@ -5722,10 +5722,10 @@
   unit_name:
     - "unified atomic mass unit"
   unit_symbol:
-    ASCII: "u"
-    HTML: "u"
-    LaTeX: '\ensuremath{\mathrm{u}}'
-    Unicode: "u"
+    ascii: "u"
+    html: "u"
+    latex: '\ensuremath{\mathrm{u}}'
+    unicode: "u"
   root_units:
     enumerated_root_units:
       - unit: "unified_atomic_mass_unit"
@@ -5743,16 +5743,16 @@
   unit_name:
     - "natural unit of velocity"
   unit_symbol:
-    ASCII:
+    ascii:
       - "c_0"
       - "c"
-    HTML:
+    html:
       - |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
       - |
         <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
-    LaTeX: '\ensuremath{\mathit{c}}'
+    latex: '\ensuremath{\mathit{c}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_velocity"
@@ -5770,11 +5770,11 @@
   unit_name:
     - "natural unit of action"
   unit_symbol:
-    ASCII: "h-bar"
-    HTML: |
+    ascii: "h-bar"
+    html: |
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>
-    LaTeX: '\ensuremath{\mathit{\hbar}}'
+    latex: '\ensuremath{\mathit{\hbar}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_action"
@@ -5792,11 +5792,11 @@
   unit_name:
     - "natural unit of mass"
   unit_symbol:
-    ASCII: "m_e"
-    HTML: |
+    ascii: "m_e"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-    LaTeX: '\ensuremath{\mathit{m}_\mathrm{e}}'
+    latex: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_mass"
@@ -5814,14 +5814,14 @@
   unit_name:
     - "natural unit of time"
   unit_symbol:
-    ASCII: "h-bar*(m_e*c^2)"
-    HTML: |
+    ascii: "h-bar*(m_e*c^2)"
+    html: |
 			<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 			<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>c <sup xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
 
-		LaTeX: |
+		latex: |
 			\ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
 
   root_units:
@@ -5841,11 +5841,11 @@
   unit_name:
     - "atomic unit of charge"
   unit_symbol:
-    ASCII: "e"
-    HTML: |
+    ascii: "e"
+    html: |
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
-    LaTeX: '\ensuremath{\mathit{e}}'
+    latex: '\ensuremath{\mathit{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_charge"
@@ -5863,11 +5863,11 @@
   unit_name:
     - "atomic unit of mass"
   unit_symbol:
-    ASCII: "m_e"
-    HTML: |
+    ascii: "m_e"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-    LaTeX: '\ensuremath{\mathit{m}_\mathrm{e}}'
+    latex: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_mass"
@@ -5885,11 +5885,11 @@
   unit_name:
     - "atomic unit of action"
   unit_symbol:
-    ASCII: "h-bar"
-    HTML: |
+    ascii: "h-bar"
+    html: |
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>
-    LaTeX: '\ensuremath{\mathit{\hbar}}'
+    latex: '\ensuremath{\mathit{\hbar}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_action"
@@ -5907,11 +5907,11 @@
   unit_name:
     - "atomic unit of length"
   unit_symbol:
-    ASCII: "a_0"
-    HTML: |
+    ascii: "a_0"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
-    LaTeX: '\ensuremath{\mathit{a}_\mathrm{0}}'
+    latex: '\ensuremath{\mathit{a}_\mathrm{0}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_length"
@@ -5929,10 +5929,10 @@
   unit_name:
     - "atomic unit of energy"
   unit_symbol:
-    ASCII: "e_h"
-    HTML: |
+    ascii: "e_h"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>h
-    LaTeX: '\ensuremath{\mathit{E}_\mathrm{h}}'
+    latex: '\ensuremath{\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_energy"
@@ -5950,12 +5950,12 @@
   unit_name:
     - "atomic unit of time"
   unit_symbol:
-    ASCII: "h-bar*(E_h)-1"
-    HTML: |
+    ascii: "h-bar*(E_h)-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
-    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}'
+    latex: '\ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_time"
@@ -5973,8 +5973,8 @@
   unit_name:
     - "atomic unit of magnetizability"
   unit_symbol:
-    ASCII: "e^2*a_0^2*m_e-1"
-    LaTeX: '\ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}'
+    ascii: "e^2*a_0^2*m_e-1"
+    latex: '\ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetizability"
@@ -5992,8 +5992,8 @@
   unit_name:
     - "atomic unit of magnetic flux density"
   unit_symbol:
-    ASCII: "h-bar*(e*a_0^2)-1"
-    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}'
+    ascii: "h-bar*(e*a_0^2)-1"
+    latex: '\ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetic_flux_density"
@@ -6011,12 +6011,12 @@
   unit_name:
     - "atomic unit of magnetic dipole moment"
   unit_symbol:
-    ASCII: "h-bar*e*(m_e)-1"
-    HTML: |
+    ascii: "h-bar*e*(m_e)-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;e</i>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
-    LaTeX: '\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}'
+    latex: '\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetic_dipole_moment"
@@ -6034,12 +6034,12 @@
   unit_name:
     - "atomic unit of momentum"
   unit_symbol:
-    ASCII: "h-bar*(a_0)-1"
-    HTML: |
+    ascii: "h-bar*(a_0)-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
-    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{a}_0}'
+    latex: '\ensuremath{\mathit{\hbar}/\mathit{a}_0}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_momentum"
@@ -6057,7 +6057,7 @@
   unit_name:
     - "atomic unit of charge density"
   unit_symbol:
-    ASCII: "e*(a_0^3)"
+    ascii: "e*(a_0^3)"
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_charge_density"
@@ -6075,8 +6075,8 @@
   unit_name:
     - "atomic unit of current"
   unit_symbol:
-    ASCII: "eE_h*h-bar^-1"
-    HTML: |
+    ascii: "eE_h*h-bar^-1"
+    html: |
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">eE</i>
       <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/&#295;
   root_units:
@@ -6096,8 +6096,8 @@
   unit_name:
     - "atomic unit of electric dipole moment"
   unit_symbol:
-    ASCII: "e*a_0"
-    HTML: |
+    ascii: "e*a_0"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
@@ -6118,8 +6118,8 @@
   unit_name:
     - "atomic unit of electric field"
   unit_symbol:
-    ASCII: "E_h*(e*a_0)"
-    HTML: |
+    ascii: "E_h*(e*a_0)"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ea</i>
@@ -6142,7 +6142,7 @@
   unit_name:
     - "atomic unit of electric field gradient"
   unit_symbol:
-    ASCII: "E_h*(e*a_0^2)"
+    ascii: "E_h*(e*a_0^2)"
   root_units:
 				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
 					unit="atomic_unit_of_electric_field_gradient"/>
@@ -6158,8 +6158,8 @@
   unit_name:
     - "atomic unit of electric potential"
   unit_symbol:
-    ASCII: "E_h*e-1"
-    HTML: |
+    ascii: "E_h*e-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
@@ -6185,8 +6185,8 @@
   unit_name:
     - "atomic unit of force"
   unit_symbol:
-    ASCII: "e_h*(a_0)-1"
-    HTML: |
+    ascii: "e_h*(a_0)-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
@@ -6211,7 +6211,7 @@
   unit_name:
     - "atomic unit of electric quadrupole moment"
   unit_symbol:
-    ASCII: "e*a_0^2"
+    ascii: "e*a_0^2"
   root_units:
 				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
 					unit="atomic_unit_of_electric_quadrupole_moment"/>
@@ -6227,7 +6227,7 @@
   unit_name:
     - "atomic unit of electric polarizability"
   unit_symbol:
-    ASCII: "e^2*a_0^2*(E_h)-1"
+    ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
 				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
 					unit="atomic_unit_of_electric_polarizability"/>
@@ -6244,10 +6244,10 @@
     - "statohm"
     - "ESU of resistance"
   unit_symbol:
-    ASCII: "statohm"
-    HTML: "statohm"
-    LaTeX: '\ensuremath{\mathrm{statohm}}'
-    Unicode: "statohm"
+    ascii: "statohm"
+    html: "statohm"
+    latex: '\ensuremath{\mathrm{statohm}}'
+    unicode: "statohm"
   root_units:
     enumerated_root_units:
       - unit: "statohm"
@@ -6266,10 +6266,10 @@
     - "statfarad"
     - "ESU of capacitance"
   unit_symbol:
-    ASCII: "statF"
-    HTML: "statF"
-    LaTeX: '\ensuremath{\mathrm{statF}}'
-    Unicode: "statF"
+    ascii: "statF"
+    html: "statF"
+    latex: '\ensuremath{\mathrm{statF}}'
+    unicode: "statF"
   root_units:
     enumerated_root_units:
       - unit: "statfarad"
@@ -6288,10 +6288,10 @@
     - "statampere"
     - "ESU of current"
   unit_symbol:
-    ASCII: "statA"
-    HTML: "statA"
-    LaTeX: '\ensuremath{\mathrm{statA}}'
-    Unicode: "statA"
+    ascii: "statA"
+    html: "statA"
+    latex: '\ensuremath{\mathrm{statA}}'
+    unicode: "statA"
   root_units:
     enumerated_root_units:
       - unit: "statampere"
@@ -6310,9 +6310,9 @@
     - "statvolt"
     - "ESU of Electric potential"
   unit_symbol:
-    ASCII: "statV"
-    HTML: "statV"
-    Unicode: "statV"
+    ascii: "statV"
+    html: "statV"
+    unicode: "statV"
   root_units:
     enumerated_root_units:
       - unit: "statvolt"
@@ -6335,10 +6335,10 @@
     - "stathenry"
     - "ESU of inductance"
   unit_symbol:
-    ASCII: "statH"
-    HTML: "statH"
-    LaTeX: '\ensuremath{\mathrm{statH}}'
-    Unicode: "statH"
+    ascii: "statH"
+    html: "statH"
+    latex: '\ensuremath{\mathrm{statH}}'
+    unicode: "statH"
   root_units:
     enumerated_root_units:
       - unit: "stathenry"
@@ -6357,10 +6357,10 @@
     - "statmho"
     - "ESU of conductance"
   unit_symbol:
-    ASCII: "statmho"
-    HTML: "statmho"
-    LaTeX: '\ensuremath{\mathrm{statmho}}'
-    Unicode: "statmho"
+    ascii: "statmho"
+    html: "statmho"
+    latex: '\ensuremath{\mathrm{statmho}}'
+    unicode: "statmho"
   root_units:
     enumerated_root_units:
       - unit: "statmho"
@@ -6379,10 +6379,10 @@
     - "statcoulomb"
     - "ESU of charge"
   unit_symbol:
-    ASCII: "statcoulomb"
-    HTML: "statcoulomb"
-    LaTeX: '\ensuremath{\mathrm{statcoulomb}}'
-    Unicode: "statcoulomb"
+    ascii: "statcoulomb"
+    html: "statcoulomb"
+    latex: '\ensuremath{\mathrm{statcoulomb}}'
+    unicode: "statcoulomb"
   root_units:
     enumerated_root_units:
       - unit: "statcoulomb"
@@ -6402,10 +6402,10 @@
   unit_name:
     - "statweber"
   unit_symbol:
-    ASCII: "statWb"
-    HTML: "statWb"
-    LaTeX: '\ensuremath{\mathrm{statWb}}'
-    Unicode: "statWb"
+    ascii: "statWb"
+    html: "statWb"
+    latex: '\ensuremath{\mathrm{statWb}}'
+    unicode: "statWb"
   root_units:
     enumerated_root_units:
       - unit: "statweber"
@@ -6423,10 +6423,10 @@
   unit_name:
     - "stattesla"
   unit_symbol:
-    ASCII: "statT"
-    HTML: "statT"
-    LaTeX: '\ensuremath{\mathrm{statT}}'
-    Unicode: "statT"
+    ascii: "statT"
+    html: "statT"
+    latex: '\ensuremath{\mathrm{statT}}'
+    unicode: "statT"
   root_units:
     enumerated_root_units:
       - unit: "stattesla"
@@ -6444,10 +6444,10 @@
   unit_name:
     - "statwatt"
   unit_symbol:
-    ASCII: "statwatt"
-    HTML: "statwatt"
-    LaTeX: '\ensuremath{\mathrm{statwatt}}'
-    Unicode: "statwatt"
+    ascii: "statwatt"
+    html: "statwatt"
+    latex: '\ensuremath{\mathrm{statwatt}}'
+    unicode: "statwatt"
   root_units:
     enumerated_root_units:
       - unit: "statwatt"
@@ -6466,10 +6466,10 @@
     - "dram (avoirdupois)"
     - "dram"
   unit_symbol:
-    ASCII: "dr (avdp)"
-    HTML: "dr (avdp)"
-    LaTeX: '\ensuremath{\mathrm{dr~(avdp)}}'
-    Unicode: "dr (avdp)"
+    ascii: "dr (avdp)"
+    html: "dr (avdp)"
+    latex: '\ensuremath{\mathrm{dr~(avdp)}}'
+    unicode: "dr (avdp)"
   root_units:
     enumerated_root_units:
       - unit: "dram"
@@ -6503,10 +6503,10 @@
   unit_name:
     - "footlambert"
   unit_symbol:
-    ASCII: "ft.L"
-    HTML: "ft.L"
-    LaTeX: '\ensuremath{\mathrm{ft.L}}'
-    Unicode: "ft.L"
+    ascii: "ft.L"
+    html: "ft.L"
+    latex: '\ensuremath{\mathrm{ft.L}}'
+    unicode: "ft.L"
   root_units:
     enumerated_root_units:
       - unit: "footlambert"
@@ -6577,9 +6577,9 @@
     - "rod (based on US survey foot)"
     - "rod"
   unit_symbol:
-    ASCII: "rd"
-    HTML: "rd"
-    Unicode: "rd"
+    ascii: "rd"
+    html: "rd"
+    unicode: "rd"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_rod"
@@ -6598,10 +6598,10 @@
     - "fathom (based on US survey foot)"
     - "fathom"
   unit_symbol:
-    ASCII: "fath"
-    HTML: "fath"
-    LaTeX: '\ensuremath{\mathrm{fath}}'
-    Unicode: "fath"
+    ascii: "fath"
+    html: "fath"
+    latex: '\ensuremath{\mathrm{fath}}'
+    unicode: "fath"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_fathom"
@@ -6635,10 +6635,10 @@
   unit_name:
     - "horsepower"
   unit_symbol:
-    ASCII: "hp"
-    HTML: "hp"
-    LaTeX: '\ensuremath{\mathrm{hp}}'
-    Unicode: "hp"
+    ascii: "hp"
+    html: "hp"
+    latex: '\ensuremath{\mathrm{hp}}'
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "horsepower"
@@ -6706,10 +6706,10 @@
   unit_name:
     - "degree Rankine"
   unit_symbol:
-    ASCII: "degR"
-    HTML: "&#176;R"
-    LaTeX: '\ensuremath{mathrm{^{\circ}R}}'
-    Unicode: "&#176;R"
+    ascii: "degR"
+    html: "&#176;R"
+    latex: '\ensuremath{mathrm{^{\circ}R}}'
+    unicode: "&#176;R"
   root_units:
     enumerated_root_units:
       - unit: "degree_Rankine"
@@ -6727,10 +6727,10 @@
   unit_name:
     - "dalton"
   unit_symbol:
-    ASCII: "Da"
-    HTML: "Da"
-    LaTeX: '\ensuremath{\mathrm{Da}}'
-    Unicode: "Da"
+    ascii: "Da"
+    html: "Da"
+    latex: '\ensuremath{\mathrm{Da}}'
+    unicode: "Da"
   root_units:
     enumerated_root_units:
       - unit: "unified_atomic_mass_unit"
@@ -6748,7 +6748,7 @@
   unit_name:
     - "natural unit of length"
   unit_symbol:
-    ASCII: "lambda-bar_C"
+    ascii: "lambda-bar_C"
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_length"
@@ -6766,7 +6766,7 @@
   unit_name:
     - "atomic unit of 1st hyperpolarizability"
   unit_symbol:
-    ASCII: "e_3a_0^3*(E_h^3)"
+    ascii: "e_3a_0^3*(E_h^3)"
   root_units:
 				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
 					unit="atomic_unit_of_1st_hyperpolarizability"/>
@@ -6782,7 +6782,7 @@
   unit_name:
     - "atomic unit of 2nd hyperpolarizability"
   unit_symbol:
-    ASCII: "e_4a_0^4*(E_h^3)"
+    ascii: "e_4a_0^4*(E_h^3)"
   root_units:
 				<EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
 					unit="atomic_unit_of_2nd_hyperpolarizability"/>
@@ -6798,8 +6798,8 @@
   unit_name:
     - "atomic unit of permittivity"
   unit_symbol:
-    ASCII: "e^2*(a_0*E_h)-1"
-    HTML: |
+    ascii: "e^2*(a_0*E_h)-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
 				<sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>/ <i xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
@@ -6824,8 +6824,8 @@
   unit_name:
     - "atomic unit of velocity"
   unit_symbol:
-    ASCII: "a_0*E_h*h-bar-1"
-    HTML: |
+    ascii: "a_0*E_h*h-bar-1"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">a</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>
@@ -6847,8 +6847,8 @@
   unit_name:
     - "natural unit of energy"
   unit_symbol:
-    ASCII: "m_e*c^2"
-    HTML: |
+    ascii: "m_e*c^2"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
@@ -6871,8 +6871,8 @@
   unit_name:
     - "natural unit of momentum"
   unit_symbol:
-    ASCII: "m_e*c"
-    HTML: |
+    ascii: "m_e*c"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
@@ -6894,8 +6894,8 @@
   unit_name:
     - "natural unit of action in eV s"
   unit_symbol:
-    ASCII: "h-bar"
-    HTML: "&#295;"
+    ascii: "h-bar"
+    html: "&#295;"
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_action_in_eV_s"
@@ -6913,8 +6913,8 @@
   unit_name:
     - "natural unit of energy in MeV"
   unit_symbol:
-    ASCII: "m_e*c^2"
-    HTML: |
+    ascii: "m_e*c^2"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
@@ -6937,8 +6937,8 @@
   unit_name:
     - "natural unit of momentum in MeV/c"
   unit_symbol:
-    ASCII: "m_e*c"
-    HTML: |
+    ascii: "m_e*c"
+    html: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">m</i>
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
@@ -6961,10 +6961,10 @@
     - "quart (UK)"
     - "quart"
   unit_symbol:
-    ASCII: "qt (UK)"
-    HTML: "qt (UK)"
-    LaTeX: '\ensuremath{\mathrm{qt (UK)}}'
-    Unicode: "qt (UK)"
+    ascii: "qt (UK)"
+    html: "qt (UK)"
+    latex: '\ensuremath{\mathrm{qt (UK)}}'
+    unicode: "qt (UK)"
   root_units:
     enumerated_root_units:
       - unit: "imperial_quart"
@@ -6983,10 +6983,10 @@
     - "dry quart (US)"
     - "quart"
   unit_symbol:
-    ASCII: "dry qt (US)"
-    HTML: "dry qt (US)"
-    LaTeX: '\ensuremath{\mathrm{dry qt (US)}}'
-    Unicode: "dry qt (US)"
+    ascii: "dry qt (US)"
+    html: "dry qt (US)"
+    latex: '\ensuremath{\mathrm{dry qt (US)}}'
+    unicode: "dry qt (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_dry_quart"
@@ -7005,10 +7005,10 @@
     - "liquid quart (US)"
     - "quart"
   unit_symbol:
-    ASCII: "liq qt (US)"
-    HTML: "liq qt (US)"
-    LaTeX: '\ensuremath{\mathrm{liq qt (US)}}'
-    Unicode: "liq qt (US)"
+    ascii: "liq qt (US)"
+    html: "liq qt (US)"
+    latex: '\ensuremath{\mathrm{liq qt (US)}}'
+    unicode: "liq qt (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_quart"
@@ -7147,10 +7147,10 @@
     - "Gunter's chain"
     - "chain"
   unit_symbol:
-    ASCII: "ch"
-    HTML: "ch"
-    LaTeX: '\ensuremath{\mathrm{ch}}'
-    Unicode: "ch"
+    ascii: "ch"
+    html: "ch"
+    latex: '\ensuremath{\mathrm{ch}}'
+    unicode: "ch"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_chain"
@@ -7206,10 +7206,10 @@
     - "survey mile"
     - "mile"
   unit_symbol:
-    ASCII: "mi"
-    HTML: "mi"
-    LaTeX: '\ensuremath{\mathrm{mi}}'
-    Unicode: "mi"
+    ascii: "mi"
+    html: "mi"
+    latex: '\ensuremath{\mathrm{mi}}'
+    unicode: "mi"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_mile"
@@ -7228,10 +7228,10 @@
     - "yard (based on US survey foot)"
     - "yard"
   unit_symbol:
-    ASCII: "yd"
-    HTML: "yd"
-    LaTeX: '\ensuremath{\mathrm{yd}}'
-    Unicode: "yd"
+    ascii: "yd"
+    html: "yd"
+    latex: '\ensuremath{\mathrm{yd}}'
+    unicode: "yd"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_yard"
@@ -7251,10 +7251,10 @@
     - "survey foot"
     - "foot"
   unit_symbol:
-    ASCII: "ft"
-    HTML: "ft"
-    LaTeX: '\ensuremath{\mathrm{ft}}'
-    Unicode: "ft"
+    ascii: "ft"
+    html: "ft"
+    latex: '\ensuremath{\mathrm{ft}}'
+    unicode: "ft"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_foot"
@@ -7273,10 +7273,10 @@
     - "inch (based on US survey foot)"
     - "inch"
   unit_symbol:
-    ASCII: "in"
-    HTML: "in"
-    LaTeX: '\ensuremath{\mathrm{in}}'
-    Unicode: "in"
+    ascii: "in"
+    html: "in"
+    latex: '\ensuremath{\mathrm{in}}'
+    unicode: "in"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_inch"
@@ -7331,13 +7331,13 @@
     - "centimeter of water, conventional"
     - "centimeter of water"
   unit_symbol:
-    ASCII: "cmH_2O"
-    HTML: |
+    ascii: "cmH_2O"
+    html: |
       cmH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{cmH_{2}O}}'
-    Unicode: "cmH&#8322;O"
+    latex: '\ensuremath{\mathrm{cmH_{2}O}}'
+    unicode: "cmH&#8322;O"
   root_units:
     enumerated_root_units:
       - unit: "cm_water"
@@ -7359,13 +7359,13 @@
     - "inch of water, conventional"
     - "inch of water"
   unit_symbol:
-    ASCII: "inH_2O"
-    HTML: |
+    ascii: "inH_2O"
+    html: |
       inH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{inH_{2}O}}'
-    Unicode: "inH&#8322;O"
+    latex: '\ensuremath{\mathrm{inH_{2}O}}'
+    unicode: "inH&#8322;O"
   root_units:
     enumerated_root_units:
       - unit: "in_water"
@@ -7423,13 +7423,13 @@
     - "foot of water, conventional"
     - "foot of water"
   unit_symbol:
-    ASCII: "ftH_2O"
-    HTML: |
+    ascii: "ftH_2O"
+    html: |
       ftH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{ftH_{2}O}}'
-    Unicode: "ftH&#8322;O"
+    latex: '\ensuremath{\mathrm{ftH_{2}O}}'
+    unicode: "ftH&#8322;O"
   root_units:
     enumerated_root_units:
       - unit: "ft_water"
@@ -7505,10 +7505,10 @@
     - "inch of mercury, conventional"
     - "inch of mercury"
   unit_symbol:
-    ASCII: "inHg"
-    HTML: "inHg"
-    LaTeX: '\ensuremath{\mathrm{inHg}}'
-    Unicode: "inHg"
+    ascii: "inHg"
+    html: "inHg"
+    latex: '\ensuremath{\mathrm{inHg}}'
+    unicode: "inHg"
   root_units:
     enumerated_root_units:
       - unit: "in_Hg"
@@ -7530,10 +7530,10 @@
     - "foot of mercury, conventional "
     - "foot of mercury"
   unit_symbol:
-    ASCII: "ftHg"
-    HTML: "ftHg"
-    LaTeX: '\ensuremath{\mathrm{ftHg}}'
-    Unicode: "ftHg"
+    ascii: "ftHg"
+    html: "ftHg"
+    latex: '\ensuremath{\mathrm{ftHg}}'
+    unicode: "ftHg"
   root_units:
     enumerated_root_units:
       - unit: "ft_Hg"
@@ -7579,10 +7579,10 @@
   unit_name:
     - "pH"
   unit_symbol:
-    ASCII: "pH"
-    HTML: "pH"
-    LaTeX: '\ensuremath{\mathrm{pH}}'
-    Unicode: "pH"
+    ascii: "pH"
+    html: "pH"
+    latex: '\ensuremath{\mathrm{pH}}'
+    unicode: "pH"
   root_units:
     enumerated_root_units:
       - unit: "pH"
@@ -7600,10 +7600,10 @@
   unit_name:
     - "degree Fahrenheit"
   unit_symbol:
-    ASCII: "degF"
-    HTML: "&#176;F"
-    LaTeX: '\ensuremath{\mathrm{^{\circ}F}}'
-    Unicode: "&#176;F"
+    ascii: "degF"
+    html: "&#176;F"
+    latex: '\ensuremath{\mathrm{^{\circ}F}}'
+    unicode: "&#176;F"
   root_units:
     enumerated_root_units:
       - unit: "degree_Fahrenheit"
@@ -7623,10 +7623,10 @@
     - "International Table Btu"
     - "British thermal unit"
   unit_symbol:
-    ASCII: "Btu"
-    HTML: "Btu"
-    LaTeX: '\ensuremath{\mathrm{Btu}}'
-    Unicode: "Btu"
+    ascii: "Btu"
+    html: "Btu"
+    latex: '\ensuremath{\mathrm{Btu}}'
+    unicode: "Btu"
   root_units:
     enumerated_root_units:
       - unit: "table_btu"
@@ -7645,11 +7645,11 @@
     - "British thermal unit_th"
     - "thermochemical Btu"
   unit_symbol:
-    ASCII: "Btu_th"
-    HTML: |
+    ascii: "Btu_th"
+    html: |
       Btu <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
-    LaTeX: '\ensuremath{\mathrm{Btu_{th}}}'
+    latex: '\ensuremath{\mathrm{Btu_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_btu"
@@ -7667,10 +7667,10 @@
   unit_name:
     - "British thermal unit (mean)"
   unit_symbol:
-    ASCII: "Btu"
-    HTML: "Btu"
-    LaTeX: '\ensuremath{\mathrm{Btu}}'
-    Unicode: "Btu"
+    ascii: "Btu"
+    html: "Btu"
+    latex: '\ensuremath{\mathrm{Btu}}'
+    unicode: "Btu"
   root_units:
     enumerated_root_units:
       - unit: "mean_btu"
@@ -7688,10 +7688,10 @@
   unit_name:
     - "British thermal unit (39 degF)"
   unit_symbol:
-    ASCII: "Btu"
-    HTML: "Btu"
-    LaTeX: '\ensuremath{\mathrm{Btu}}'
-    Unicode: "Btu"
+    ascii: "Btu"
+    html: "Btu"
+    latex: '\ensuremath{\mathrm{Btu}}'
+    unicode: "Btu"
   root_units:
     enumerated_root_units:
       - unit: "39F_btu"
@@ -7709,10 +7709,10 @@
   unit_name:
     - "British thermal unit (59 degF)"
   unit_symbol:
-    ASCII: "Btu"
-    HTML: "Btu"
-    LaTeX: '\ensuremath{\mathrm{Btu}}'
-    Unicode: "Btu"
+    ascii: "Btu"
+    html: "Btu"
+    latex: '\ensuremath{\mathrm{Btu}}'
+    unicode: "Btu"
   root_units:
     enumerated_root_units:
       - unit: "59F_btu"
@@ -7730,10 +7730,10 @@
   unit_name:
     - "British thermal unit (60 degF)"
   unit_symbol:
-    ASCII: "Btu"
-    HTML: "Btu"
-    LaTeX: '\ensuremath{\mathrm{Btu}}'
-    Unicode: "Btu"
+    ascii: "Btu"
+    html: "Btu"
+    latex: '\ensuremath{\mathrm{Btu}}'
+    unicode: "Btu"
   root_units:
     enumerated_root_units:
       - unit: "60F_btu"
@@ -7926,10 +7926,10 @@
     - "pound-mole"
     - "pound mole"
   unit_symbol:
-    ASCII: "lbmol"
-    HTML: "lbmol"
-    LaTeX: '\ensuremath{\mathrm{lbmol}}'
-    Unicode: "lbmol"
+    ascii: "lbmol"
+    html: "lbmol"
+    latex: '\ensuremath{\mathrm{lbmol}}'
+    unicode: "lbmol"
   root_units:
     enumerated_root_units:
       - unit: "pound_mole"
@@ -7965,10 +7965,10 @@
   unit_name:
     - "bit"
   unit_symbol:
-    ASCII: "bit"
-    HTML: "bit"
-    LaTeX: '\ensuremath{\mathrm{bit}}'
-    Unicode: "bit"
+    ascii: "bit"
+    html: "bit"
+    latex: '\ensuremath{\mathrm{bit}}'
+    unicode: "bit"
   root_units:
     enumerated_root_units:
       - unit: "bit"
@@ -8002,10 +8002,10 @@
   unit_name:
     - "peck"
   unit_symbol:
-    ASCII: "pk"
-    HTML: "pk"
-    LaTeX: '\ensuremath{\mathrm{pk}}'
-    Unicode: "pk"
+    ascii: "pk"
+    html: "pk"
+    latex: '\ensuremath{\mathrm{pk}}'
+    unicode: "pk"
   root_units:
     enumerated_root_units:
       - unit: "us_peck"
@@ -8023,10 +8023,10 @@
   unit_name:
     - "minim"
   unit_symbol:
-    ASCII: "min"
-    HTML: "min"
-    LaTeX: '\ensuremath{\mathrm{min}}'
-    Unicode: "min"
+    ascii: "min"
+    html: "min"
+    latex: '\ensuremath{\mathrm{min}}'
+    unicode: "min"
   root_units:
     enumerated_root_units:
       - unit: "us_minim"
@@ -8080,10 +8080,10 @@
     - "gill (US)"
     - "gill"
   unit_symbol:
-    ASCII: "gi"
-    HTML: "gi"
-    LaTeX: '\ensuremath{\mathrm{gi}}'
-    Unicode: "gi"
+    ascii: "gi"
+    html: "gi"
+    latex: '\ensuremath{\mathrm{gi}}'
+    unicode: "gi"
   root_units:
     enumerated_root_units:
       - unit: "us_gill"
@@ -8103,10 +8103,10 @@
     - "imperial gill"
     - "gill"
   unit_symbol:
-    ASCII: "gi"
-    HTML: "gi"
-    LaTeX: '\ensuremath{\mathrm{gi}}'
-    Unicode: "gi"
+    ascii: "gi"
+    html: "gi"
+    latex: '\ensuremath{\mathrm{gi}}'
+    unicode: "gi"
   root_units:
     enumerated_root_units:
       - unit: "imperial_gill"
@@ -8124,10 +8124,10 @@
   unit_name:
     - "centistokes"
   unit_symbol:
-    ASCII: "cSt"
-    HTML: "cSt"
-    LaTeX: '\ensuremath{\mathrm{cSt}}'
-    Unicode: "cSt"
+    ascii: "cSt"
+    html: "cSt"
+    latex: '\ensuremath{\mathrm{cSt}}'
+    unicode: "cSt"
   root_units:
     enumerated_root_units:
       - unit: "stokes"
@@ -8166,12 +8166,12 @@
   unit_name:
     - "cubic foot per minute"
   unit_symbol:
-    ASCII: "ft^3*min^-1"
-    HTML: |
+    ascii: "ft^3*min^-1"
+    html: |
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>/min
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{ft^3/min}}'
-    Unicode: "ft&#179;min"
+    latex: '\ensuremath{\mathrm{ft^3/min}}'
+    unicode: "ft&#179;min"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -8192,12 +8192,12 @@
   unit_name:
     - "cubic foot per second"
   unit_symbol:
-    ASCII: "ft^3*sec^-1"
-    HTML: |
+    ascii: "ft^3*sec^-1"
+    html: |
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>/sec
   unit_symbol:
-    LaTeX: '\ensuremath{\mathrm{ft^3/sec}}'
-    Unicode: "ft&#179;sec"
+    latex: '\ensuremath{\mathrm{ft^3/sec}}'
+    unicode: "ft&#179;sec"
   root_units:
     enumerated_root_units:
       - unit: "foot"
@@ -8218,11 +8218,11 @@
   unit_name:
     - "cubic inch per minute"
   unit_symbol:
-    ASCII: "in^3*min^-1"
-    HTML: |
+    ascii: "in^3*min^-1"
+    html: |
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>/min
-    LaTeX: '\ensuremath{\mathrm{in^3/min}}'
-    Unicode: "in&#179;min"
+    latex: '\ensuremath{\mathrm{in^3/min}}'
+    unicode: "in&#179;min"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -8260,10 +8260,10 @@
   unit_name:
     - "millibar"
   unit_symbol:
-    ASCII: "mbar"
-    HTML: "mbar"
-    LaTeX: '\ensuremath{\mathrm{mbar}}'
-    Unicode: "mbar"
+    ascii: "mbar"
+    html: "mbar"
+    latex: '\ensuremath{\mathrm{mbar}}'
+    unicode: "mbar"
   root_units:
     enumerated_root_units:
       - unit: "bar"
@@ -8285,16 +8285,16 @@
     - "mile per gallon (US)"
     - "mile per gallon"
   unit_symbol:
-    ASCII:
+    ascii:
       - "mpg"
       - "mi/gal"
-    HTML:
+    html:
       - "mpg"
       - "mi/gal"
-    LaTeX:
+    latex:
       - '\ensuremath{\mathrm{mpg}}'
       - '\ensuremath{\mathrm{mi/gal}}'
-    Unicode:
+    unicode:
       - "mi/gal"
       - "mpg"
   root_units:
@@ -8318,16 +8318,16 @@
     - "gallon (US) per minute"
     - "gallon per minute"
   unit_symbol:
-    ASCII:
+    ascii:
       - "gpm"
       - "gal*min^-1"
-    HTML:
+    html:
       - "gpm"
       - "gal/min"
-    LaTeX:
+    latex:
       - '\ensurement{\mathrm{gpm}}'
       - '\ensurement{\mathrm{gal/min}}'
-    Unicode:
+    unicode:
       - "gal/min"
       - "gpm"
   root_units:
@@ -8350,16 +8350,16 @@
   unit_name:
     - "milliliter"
   unit_symbol:
-    ASCII:
+    ascii:
       - "mL"
       - "ml"
-    HTML:
+    html:
       - "mL"
       - "ml"
-    LaTeX:
+    latex:
       - '\ensuremath{\mathrm{mL}}'
       - '\ensuremath{\mathrm{ml}}'
-    Unicode:
+    unicode:
       - "ml"
       - "mL"
   root_units:
@@ -8380,16 +8380,16 @@
   unit_name:
     - "mole per liter"
   unit_symbol:
-    ASCII:
+    ascii:
       - "mol*l^-1"
       - "mol*L^-1"
-    HTML:
+    html:
       - "mol/l"
       - "mol/L"
-    LaTeX:
+    latex:
       - '\ensuremath{\mathrm{mol/l}}'
       - '\ensuremath{\mathrm{mol/L}}'
-    Unicode:
+    unicode:
       - "mol/L"
       - "mol/l"
   root_units:
@@ -8412,10 +8412,10 @@
   unit_name:
     - "mole per kilogram"
   unit_symbol:
-    ASCII: "mol*kg^-1"
-    HTML: "mol/kg"
-    LaTeX: '\ensuremath{\mathrm{mol/kg}}'
-    Unicode: "mol/kg"
+    ascii: "mol*kg^-1"
+    html: "mol/kg"
+    latex: '\ensuremath{\mathrm{mol/kg}}'
+    unicode: "mol/kg"
   root_units:
     enumerated_root_units:
       - unit: "mole"
@@ -8437,10 +8437,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "relative mass density"
       url: "#NISTq125"
@@ -8453,10 +8453,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "linear strain"
       url: "#NISTq136"
@@ -8469,10 +8469,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "shear strain"
       url: "#NISTq137"
@@ -8485,10 +8485,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "volume strain"
       url: "#NISTq138"
@@ -8501,10 +8501,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "Poisson number"
       url: "#NISTq140"
@@ -8517,10 +8517,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
   quantity_reference:
     - name: "dynamic friction factor"
       url: "#NISTq147"
@@ -8533,10 +8533,10 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
 
 "NISTu375":
   dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd93"
@@ -8546,7 +8546,7 @@
   unit_name:
     - "one"
   unit_symbol:
-    ASCII: "1"
-    HTML: "1"
-    LaTeX: '\ensuremath{\mathrm{1}}'
-    Unicode: "1"
+    ascii: "1"
+    html: "1"
+    latex: '\ensuremath{\mathrm{1}}'
+    unicode: "1"
