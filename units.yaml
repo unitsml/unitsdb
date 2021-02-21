@@ -44,7 +44,7 @@
     - name: "radius"
       url: "#NISTq98"
     - name: "radial distance"
-      url: "#NISTq99" #qr
+      url: "#NISTq99"
 
 "NISTu7":
   dimension_url: "#NISTd7"
@@ -65,7 +65,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "luminous intensity"
-      url: "#NISTq7" #qr
+      url: "#NISTq7"
 
 "NISTu2":
   dimension_url: "#NISTd2"
@@ -86,7 +86,7 @@
         power_numerator: 1" prefix="k
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu3":
   dimension_url: "#NISTd3"
@@ -111,7 +111,7 @@
     - name: "time constant"
       url: "#NISTq110"
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu6":
   dimension_url: "#NISTd6"
@@ -132,7 +132,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of substance"
-      url: "#NISTq6" #qr
+      url: "#NISTq6"
 
 "NISTu4":
   dimension_url: "#NISTd4"
@@ -153,7 +153,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric current"
-      url: "#NISTq4" #qr
+      url: "#NISTq4"
 
 "NISTu5":
   dimension_url: "#NISTd5"
@@ -174,7 +174,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "thermodynamic temperature"
-      url: "#NISTq5" #qr
+      url: "#NISTq5"
 
 "NISTu8":
   dimension_url: "#NISTd1"
@@ -197,7 +197,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu9":
   dimension_url: "#NISTd9"
@@ -218,7 +218,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu10":
   dimension_url: "#NISTd9"
@@ -239,7 +239,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "solid angle"
-      url: "#NISTq11" #qr
+      url: "#NISTq11"
 
 "NISTu11":
   dimension_url: "#NISTd12"
@@ -260,7 +260,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu12":
   dimension_url: "#NISTd14"
@@ -293,7 +293,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu13":
   dimension_url: "#NISTd15"
@@ -328,7 +328,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu14":
   dimension_url: "#NISTd16"
@@ -351,7 +351,7 @@
     - name: "power"
       url: "#NISTq20"
     - name: "radiant flux"
-      url: "#NISTq21" #qr
+      url: "#NISTq21"
 
 "NISTu15":
   dimension_url: "#NISTd17"
@@ -374,7 +374,7 @@
     - name: "electric charge"
       url: "#NISTq22"
     - name: "amount of electricity"
-      url: "#NISTq23" #qr
+      url: "#NISTq23"
 
 "NISTu16":
   dimension_url: "#NISTd18"
@@ -397,7 +397,7 @@
     - name: "electric potential difference"
       url: "#NISTq24"
     - name: "electromotive force"
-      url: "#NISTq26" #qr
+      url: "#NISTq26"
 
 "NISTu17":
   dimension_url: "#NISTd19"
@@ -418,7 +418,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "capacitance"
-      url: "#NISTq27" #qr
+      url: "#NISTq27"
 
 "NISTu18":
   dimension_url: "#NISTd20"
@@ -439,7 +439,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric resistance"
-      url: "#NISTq28" #qr
+      url: "#NISTq28"
 
 "NISTu19":
   dimension_url: "#NISTd21"
@@ -460,7 +460,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric conductance"
-      url: "#NISTq29" #qr
+      url: "#NISTq29"
 
 "NISTu20":
   dimension_url: "#NISTd22"
@@ -481,7 +481,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux"
-      url: "#NISTq30" #qr
+      url: "#NISTq30"
 
 "NISTu21":
   dimension_url: "#NISTd13"
@@ -502,7 +502,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux density"
-      url: "#NISTq14" #qr
+      url: "#NISTq14"
 
 "NISTu22":
   dimension_url: "#NISTd23"
@@ -523,7 +523,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "inductance"
-      url: "#NISTq32" #qr
+      url: "#NISTq32"
 
 "NISTu1e2/1":
   dimension_url: "#NISTd8"
@@ -548,7 +548,7 @@
         power_numerator: 2
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu23":
   dimension_url: "#NISTd5"
@@ -569,7 +569,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "Celsius temperature"
-      url: "#NISTq34" #qr
+      url: "#NISTq34"
 
 "NISTu25":
   dimension_url: "#NISTd24"
@@ -590,7 +590,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "activity referred to a radionuclide"
-      url: "#NISTq35" #qr
+      url: "#NISTq35"
 
 "NISTu26":
   dimension_url: "#NISTd1"
@@ -613,7 +613,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu27":
   dimension_url: "#NISTd2"
@@ -634,7 +634,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu28":
   dimension_url: "#NISTd25"
@@ -659,7 +659,7 @@
     - name: "specific energy imparted"
       url: "#NISTq37"
     - name: "kerma"
-      url: "#NISTq38" #qr
+      url: "#NISTq38"
 
 "NISTu29":
   dimension_url: "#NISTd25"
@@ -680,7 +680,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "dose equivalent"
-      url: "#NISTq39" #qr
+      url: "#NISTq39"
 
 "NISTu30":
   dimension_url: "#NISTd26"
@@ -701,7 +701,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "catalytic activity"
-      url: "#NISTq44" #qr
+      url: "#NISTq44"
 
 "NISTu31":
   dimension_url: "#NISTd24"
@@ -722,7 +722,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "frequency"
-      url: "#NISTq45" #qr
+      url: "#NISTq45"
 
 "NISTu32":
   dimension_url: "#NISTd7"
@@ -743,7 +743,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "luminous flux"
-      url: "#NISTq46" #qr
+      url: "#NISTq46"
 
 "NISTu33":
   dimension_url: "#NISTd27"
@@ -764,7 +764,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "illuminance"
-      url: "#NISTq47" #qr
+      url: "#NISTq47"
 
 "NISTu1.u3e-1/1":
   dimension_url: "#NISTd51"
@@ -795,7 +795,7 @@
     - name: "group velocity"
       url: "#NISTq117"
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu1e3/1":
   dimension_url: "#NISTd10"
@@ -822,7 +822,7 @@
     - name: "volume"
       url: "#NISTq10"
     - name: "section modulus"
-      url: "#NISTq146" #qr
+      url: "#NISTq146"
 
 "NISTu36":
   dimension_url: "#NISTd3"
@@ -843,7 +843,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu37":
   dimension_url: "#NISTd3"
@@ -864,7 +864,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu38":
   dimension_url: "#NISTd3"
@@ -885,7 +885,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu39":
   dimension_url: "#NISTd1"
@@ -908,7 +908,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu42":
   dimension_url: "#NISTd8"
@@ -929,7 +929,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu43":
   dimension_url: "#NISTd8"
@@ -950,7 +950,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu44":
   dimension_url: "#NISTd8"
@@ -971,7 +971,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu45":
   dimension_url: "#NISTd8"
@@ -996,7 +996,7 @@
         power_numerator: 2
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu46":
   dimension_url: "#NISTd8"
@@ -1021,7 +1021,7 @@
         power_numerator: 2
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu47":
   dimension_url: "#NISTd4"
@@ -1043,7 +1043,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric current"
-      url: "#NISTq4" #qr
+      url: "#NISTq4"
 
 "NISTu48":
   dimension_url: "#NISTd17"
@@ -1066,7 +1066,7 @@
     - name: "electric charge"
       url: "#NISTq22"
     - name: "amount of electricity"
-      url: "#NISTq23" #qr
+      url: "#NISTq23"
 
 "NISTu49":
   dimension_url: "#NISTd19"
@@ -1088,7 +1088,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "capacitance"
-      url: "#NISTq27" #qr
+      url: "#NISTq27"
 
 "NISTu50":
   dimension_url: "#NISTd23"
@@ -1110,7 +1110,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "inductance"
-      url: "#NISTq32" #qr
+      url: "#NISTq32"
 
 "NISTu51":
   dimension_url: "#NISTd21"
@@ -1135,7 +1135,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric conductance"
-      url: "#NISTq29" #qr
+      url: "#NISTq29"
 
 "NISTu52":
   dimension_url: "#NISTd20"
@@ -1157,7 +1157,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric resistance"
-      url: "#NISTq28" #qr
+      url: "#NISTq28"
 
 "NISTu53":
   dimension_url: "#NISTd18"
@@ -1181,7 +1181,7 @@
     - name: "electric potential difference"
       url: "#NISTq24"
     - name: "electromotive force"
-      url: "#NISTq26" #qr
+      url: "#NISTq26"
 
 "NISTu54":
   dimension_url: "#NISTd17"
@@ -1213,7 +1213,7 @@
     - name: "electric charge"
       url: "#NISTq22"
     - name: "amount of electricity"
-      url: "#NISTq23" #qr
+      url: "#NISTq23"
 
 "NISTu55":
   dimension_url: "#NISTd4"
@@ -1234,7 +1234,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric current"
-      url: "#NISTq4" #qr
+      url: "#NISTq4"
 
 "NISTu58":
   dimension_url: "#NISTd22"
@@ -1255,7 +1255,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux"
-      url: "#NISTq30" #qr
+      url: "#NISTq30"
 
 "NISTu62":
   dimension_url: "#NISTd15"
@@ -1286,7 +1286,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu65":
   dimension_url: "#NISTd15"
@@ -1326,7 +1326,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu60":
   dimension_url: "#NISTd15"
@@ -1362,7 +1362,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu132":
   dimension_url: "#NISTd85"
@@ -1378,7 +1378,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "logarithmic decrement"
-      url: "#NISTq121" #qr
+      url: "#NISTq121"
 
 "NISTu63":
   dimension_url: "#NISTd15"
@@ -1412,7 +1412,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu64":
   dimension_url: "#NISTd15"
@@ -1446,7 +1446,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu69":
   dimension_url: "#NISTd15"
@@ -1486,7 +1486,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu14.u3":
   dimension_url: "#NISTd15"
@@ -1526,7 +1526,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu71":
   dimension_url: "#NISTd12"
@@ -1547,7 +1547,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu72":
   dimension_url: "#NISTd12"
@@ -1568,7 +1568,7 @@
         power_numerator: 1" prefix="k
   quantity_reference:
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu73":
   dimension_url: "#NISTd12"
@@ -1589,7 +1589,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu75":
   dimension_url: "#NISTd16"
@@ -1619,7 +1619,7 @@
     - name: "power"
       url: "#NISTq20"
     - name: "radiant flux"
-      url: "#NISTq21" #qr
+      url: "#NISTq21"
 
 "NISTu74":
   dimension_url: "#NISTd16"
@@ -1649,7 +1649,7 @@
     - name: "power"
       url: "#NISTq20"
     - name: "radiant flux"
-      url: "#NISTq21" #qr
+      url: "#NISTq21"
 
 "NISTu78":
   dimension_url: "#NISTd1"
@@ -1672,7 +1672,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu83":
   dimension_url: "#NISTd1"
@@ -1695,7 +1695,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu84":
   dimension_url: "#NISTd1"
@@ -1718,7 +1718,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu85":
   dimension_url: "#NISTd27"
@@ -1739,7 +1739,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "illuminance"
-      url: "#NISTq47" #qr
+      url: "#NISTq47"
 
 "NISTu86":
   dimension_url: "#NISTd2"
@@ -1763,7 +1763,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu88":
   dimension_url: "#NISTd2"
@@ -1785,7 +1785,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu89":
   dimension_url: "#NISTd16"
@@ -1812,7 +1812,7 @@
     - name: "power"
       url: "#NISTq20"
     - name: "radiant flux"
-      url: "#NISTq21" #qr
+      url: "#NISTq21"
 
 "NISTu91":
   dimension_url: "#NISTd14"
@@ -1835,7 +1835,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu92":
   dimension_url: "#NISTd14"
@@ -1866,7 +1866,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu93":
   dimension_url: "#NISTd14"
@@ -1897,7 +1897,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu94":
   dimension_url: "#NISTd14"
@@ -1928,7 +1928,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu95":
   dimension_url: "#NISTd14"
@@ -1959,7 +1959,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu96":
   dimension_url: "#NISTd14"
@@ -1990,7 +1990,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu116":
   dimension_url: "#NISTd13"
@@ -2011,7 +2011,7 @@
         power_numerator: 1" prefix="n
   quantity_reference:
     - name: "magnetic flux density"
-      url: "#NISTq14" #qr
+      url: "#NISTq14"
 
 "NISTu98":
   dimension_url: "#NISTd24"
@@ -2032,7 +2032,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "activity referred to a radionuclide"
-      url: "#NISTq35" #qr
+      url: "#NISTq35"
 
 "NISTu99":
   dimension_url: "#NISTd25"
@@ -2053,7 +2053,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "absorbed dose"
-      url: "#NISTq36" #qr
+      url: "#NISTq36"
 
 "NISTu100":
   dimension_url: "#NISTd25"
@@ -2074,7 +2074,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "dose equivalent"
-      url: "#NISTq39" #qr
+      url: "#NISTq39"
 
 "NISTu106":
   dimension_url: "#NISTd3"
@@ -2096,7 +2096,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu107":
   dimension_url: "#NISTd51"
@@ -2121,7 +2121,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu108":
   dimension_url: "#NISTd51"
@@ -2146,7 +2146,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu109":
   dimension_url: "#NISTd51"
@@ -2171,7 +2171,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu110":
   dimension_url: "#NISTd51"
@@ -2196,7 +2196,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu111":
   dimension_url: "#NISTd51"
@@ -2221,7 +2221,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu112":
   dimension_url: "#NISTd51"
@@ -2246,7 +2246,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu115":
   dimension_url: "#NISTd10"
@@ -2267,7 +2267,7 @@
         power_numerator: 3
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu1.u3e-2/1":
   dimension_url: "#NISTd28"
@@ -2298,7 +2298,7 @@
     - name: "acceleration of free fall"
       url: "#NISTq108"
     - name: "acceleration"
-      url: "#NISTq49" #qr
+      url: "#NISTq49"
 
 "NISTu1e-1/1":
   dimension_url: "#NISTd29"
@@ -2334,7 +2334,7 @@
     - name: "propagation coefficient"
       url: "#NISTq124"
     - name: "wavenumber"
-      url: "#NISTq50" #qr
+      url: "#NISTq50"
 
 "NISTu27p10'3.u1e-3/1":
   dimension_url: "#NISTd30"
@@ -2365,7 +2365,7 @@
     - name: "mass concentration"
       url: "#NISTq33"
     - name: "mass density"
-      url: "#NISTq51" #qr
+      url: "#NISTq51"
 
 "NISTu1e3/1.u27p10'3":
   dimension_url: "#NISTd31"
@@ -2394,7 +2394,7 @@
         power_numerator: -1" prefix="k
   quantity_reference:
     - name: "specific volume"
-      url: "#NISTq52" #qr
+      url: "#NISTq52"
 
 "NISTu4.u1e-2/1":
   dimension_url: "#NISTd32"
@@ -2423,7 +2423,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "current density"
-      url: "#NISTq53" #qr
+      url: "#NISTq53"
 
 "NISTu4.u1e-1/1":
   dimension_url: "#NISTd33"
@@ -2448,7 +2448,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "magnetic field strength"
-      url: "#NISTq54" #qr
+      url: "#NISTq54"
 
 "NISTu6.u1e-3/1":
   dimension_url: "#NISTd34"
@@ -2477,7 +2477,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "amount concentration"
-      url: "#NISTq55" #qr
+      url: "#NISTq55"
 
 "NISTu7.u1e-2/1":
   dimension_url: "#NISTd27"
@@ -2506,7 +2506,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "luminance"
-      url: "#NISTq56" #qr
+      url: "#NISTq56"
 
 "NISTu117":
   dimension_url: "#NISTd15"
@@ -2532,7 +2532,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu118":
   dimension_url: "#NISTd49"
@@ -2553,7 +2553,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "exposure (x and gamma rays)"
-      url: "#NISTq75" #qr
+      url: "#NISTq75"
 
 "NISTu119":
   dimension_url: "#NISTd13"
@@ -2574,7 +2574,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux density"
-      url: "#NISTq14" #qr
+      url: "#NISTq14"
 
 "NISTu120":
   dimension_url: "#NISTd29"
@@ -2597,7 +2597,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "wavenumber"
-      url: "#NISTq50" #qr
+      url: "#NISTq50"
 
 "NISTu97":
   dimension_url: "#NISTd36"
@@ -2618,7 +2618,7 @@
         power_numerator: 1" prefix="c
   quantity_reference:
     - name: "dynamic viscosity"
-      url: "#NISTq59" #qr
+      url: "#NISTq59"
 
 "NISTu122":
   dimension_url: "#NISTd1"
@@ -2641,7 +2641,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu123":
   dimension_url: "#NISTd1"
@@ -2661,7 +2661,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu124":
   dimension_url: "#NISTd27"
@@ -2682,7 +2682,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "luminance"
-      url: "#NISTq56" #qr
+      url: "#NISTq56"
 
 "NISTu125":
   dimension_url: "#NISTd2"
@@ -2717,7 +2717,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu126":
   dimension_url: "#NISTd15"
@@ -2755,7 +2755,7 @@
     - name: "bending moment of force"
       url: "#NISTq185"
     - name: "moment of force"
-      url: "#NISTq60" #qr
+      url: "#NISTq60"
 
 "NISTu127":
   dimension_url: "#NISTd16"
@@ -2774,7 +2774,7 @@
     - name: "power"
       url: "#NISTq20"
     - name: "radiant flux"
-      url: "#NISTq21" #qr
+      url: "#NISTq21"
 
 "NISTu128":
   dimension_url: "#NISTd9"
@@ -2797,7 +2797,7 @@
     - name: "solid angle"
       url: "#NISTq11"
     - name: "dynamic viscosity"
-      url: "#NISTq59" #qr
+      url: "#NISTq59"
 
 "NISTu129":
   dimension_url: "#NISTd52"
@@ -2818,7 +2818,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "fluidity"
-      url: "#NISTq91" #qr
+      url: "#NISTq91"
 
 "NISTu130":
   dimension_url: "#NISTd10"
@@ -2843,7 +2843,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu131":
   dimension_url: "#NISTd1"
@@ -2866,7 +2866,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu61":
   dimension_url: "#NISTd80"
@@ -2882,7 +2882,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "refractive index"
-      url: "#NISTq93" #qr
+      url: "#NISTq93"
 
 "NISTu166":
   dimension_url: "#NISTd15"
@@ -2899,7 +2899,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "energy"
-      url: "#NISTq17" #qr
+      url: "#NISTq17"
 
 "NISTu134":
   dimension_url: "#NISTd14"
@@ -2922,7 +2922,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu135":
   dimension_url: "#NISTd14"
@@ -2945,7 +2945,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu27p10'3.u1e-2/1":
   dimension_url: "#NISTd51"
@@ -2973,7 +2973,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "surface density"
-      url: "#NISTq31" #qr
+      url: "#NISTq31"
 
 "NISTu14.u1e-2/1":
   dimension_url: "#NISTd38"
@@ -3004,7 +3004,7 @@
     - name: "heat flux density"
       url: "#NISTq62"
     - name: "irradiance"
-      url: "#NISTq78" #qr
+      url: "#NISTq78"
 
 "NISTu13.u5e-1/1":
   dimension_url: "#NISTd39"
@@ -3031,7 +3031,7 @@
     - name: "heat capacity"
       url: "#NISTq63"
     - name: "entropy"
-      url: "#NISTq79" #qr
+      url: "#NISTq79"
 
 "NISTu13.u27p10'3e-1/1.u5e-1/1":
   dimension_url: "#NISTd40"
@@ -3068,7 +3068,7 @@
     - name: "specific heat capacity"
       url: "#NISTq64"
     - name: "specific entropy"
-      url: "#NISTq80" #qr
+      url: "#NISTq80"
 
 "NISTu12.u3":
   dimension_url: "#NISTd36"
@@ -3098,7 +3098,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "dynamic viscosity"
-      url: "#NISTq59" #qr
+      url: "#NISTq59"
 
 "NISTu11.u1":
   dimension_url: "#NISTd15"
@@ -3132,7 +3132,7 @@
     - name: "bending moment of force"
       url: "#NISTq185"
     - name: "moment of force"
-      url: "#NISTq60" #qr
+      url: "#NISTq60"
 
 "NISTu11.u1e-1/1":
   dimension_url: "#NISTd37"
@@ -3157,7 +3157,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "surface tension"
-      url: "#NISTq61" #qr
+      url: "#NISTq61"
 
 "NISTu13.u27p10'3e-1/1":
   dimension_url: "#NISTd25"
@@ -3182,7 +3182,7 @@
         power_numerator: -1" prefix="k
   quantity_reference:
     - name: "specific energy"
-      url: "#NISTq65" #qr
+      url: "#NISTq65"
 
 "NISTu14.u1e-1/1.u5e-1/1":
   dimension_url: "#NISTd41"
@@ -3217,7 +3217,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "thermal conductivity"
-      url: "#NISTq66" #qr
+      url: "#NISTq66"
 
 "NISTu13.u1e-3/1":
   dimension_url: "#NISTd14"
@@ -3246,7 +3246,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "energy density"
-      url: "#NISTq67" #qr
+      url: "#NISTq67"
 
 "NISTu16.u1e-1/1":
   dimension_url: "#NISTd42"
@@ -3271,7 +3271,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "electric field strength"
-      url: "#NISTq68" #qr
+      url: "#NISTq68"
 
 "NISTu15.u1e-3/1":
   dimension_url: "#NISTd43"
@@ -3300,7 +3300,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "electric charge density"
-      url: "#NISTq69" #qr
+      url: "#NISTq69"
 
 "NISTu15.u1e-2/1":
   dimension_url: "#NISTd32"
@@ -3331,7 +3331,7 @@
     - name: "surface charge density"
       url: "#NISTq81"
     - name: "electric displacement"
-      url: "#NISTq82" #qr
+      url: "#NISTq82"
 
 "NISTu17.u1e-1/1":
   dimension_url: "#NISTd45"
@@ -3356,7 +3356,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "permittivity"
-      url: "#NISTq71" #qr
+      url: "#NISTq71"
 
 "NISTu22.u1e-1/1":
   dimension_url: "#NISTd46"
@@ -3381,7 +3381,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "permeability"
-      url: "#NISTq72" #qr
+      url: "#NISTq72"
 
 "NISTu13.u6e-1/1":
   dimension_url: "#NISTd47"
@@ -3406,7 +3406,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "molar energy"
-      url: "#NISTq73" #qr
+      url: "#NISTq73"
 
 "NISTu13.u6e-1/1.u5e-1/1":
   dimension_url: "#NISTd48"
@@ -3443,7 +3443,7 @@
     - name: "molar entropy"
       url: "#NISTq74"
     - name: "molar heat capacity"
-      url: "#NISTq83" #qr
+      url: "#NISTq83"
 
 "NISTu15.u27p10'3e-1/1":
   dimension_url: "#NISTd49"
@@ -3468,7 +3468,7 @@
         power_numerator: -1" prefix="k
   quantity_reference:
     - name: "exposure (x and gamma rays)"
-      url: "#NISTq75" #qr
+      url: "#NISTq75"
 
 "NISTu28.u3e-1/1":
   dimension_url: "#NISTd50"
@@ -3493,7 +3493,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "absorbed dose rate"
-      url: "#NISTq76" #qr
+      url: "#NISTq76"
 
 "NISTu30.u1e-3/1":
   dimension_url: "#NISTd55"
@@ -3522,7 +3522,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "catalytic activity concentration"
-      url: "#NISTq84" #qr
+      url: "#NISTq84"
 
 "NISTu142":
   dimension_url: "#NISTd56"
@@ -3543,7 +3543,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "kinematic viscosity"
-      url: "#NISTq85" #qr
+      url: "#NISTq85"
 
 "NISTu143":
   dimension_url: "#NISTd28"
@@ -3564,7 +3564,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "acceleration"
-      url: "#NISTq49" #qr
+      url: "#NISTq49"
 
 "NISTu144":
   dimension_url: "#NISTd33"
@@ -3585,7 +3585,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic field"
-      url: "#NISTq87" #qr
+      url: "#NISTq87"
 
 "NISTu14.u10e-1/1":
   dimension_url: "#NISTd16"
@@ -3610,7 +3610,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "radiant intensity"
-      url: "#NISTq88" #qr
+      url: "#NISTq88"
 
 "NISTu14.u1e-2/1.u10e-1/1":
   dimension_url: "#NISTd38"
@@ -3645,7 +3645,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "radiance"
-      url: "#NISTq89" #qr
+      url: "#NISTq89"
 
 "NISTu149":
   dimension_url: "#NISTd9"
@@ -3664,7 +3664,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu148":
   dimension_url: "#NISTd9"
@@ -3685,7 +3685,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu147":
   dimension_url: "#NISTd9"
@@ -3706,7 +3706,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu9.u3e-1/1":
   dimension_url: "#NISTd24"
@@ -3733,7 +3733,7 @@
     - name: "angular frequency"
       url: "#NISTq113"
     - name: "angular velocity"
-      url: "#NISTq57" #qr
+      url: "#NISTq57"
 
 "NISTu9.u3e-2/1":
   dimension_url: "#NISTd35"
@@ -3762,7 +3762,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "angular acceleration"
-      url: "#NISTq58" #qr
+      url: "#NISTq58"
 
 "NISTu152":
   dimension_url: "#NISTd11"
@@ -3783,7 +3783,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu153":
   dimension_url: "#NISTd9"
@@ -3810,7 +3810,7 @@
     - name: "logarithmic decrement"
       url: "#NISTq121"
     - name: "logarithmic ratio quantities"
-      url: "#NISTq90" #qr
+      url: "#NISTq90"
 
 "NISTu154":
   dimension_url: "#NISTd9"
@@ -3835,7 +3835,7 @@
     - name: "level of a power quantity"
       url: "#NISTq119"
     - name: "logarithmic ratio quantities"
-      url: "#NISTq90" #qr
+      url: "#NISTq90"
 
 "NISTu155":
   dimension_url: "#NISTd9"
@@ -3856,7 +3856,7 @@
         power_numerator: 1" prefix="d
   quantity_reference:
     - name: "logarithmic ratio quantities"
-      url: "#NISTq90" #qr
+      url: "#NISTq90"
 
 "NISTu156":
   dimension_url: "#NISTd14"
@@ -3881,7 +3881,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu157":
   dimension_url: "#NISTd8"
@@ -3899,7 +3899,7 @@
     - name: "permeability"
       url: "#NISTq72"
     - name: "hydrodynamic permeability"
-      url: "#NISTq92" #qr
+      url: "#NISTq92"
 
 "NISTu159":
   dimension_url: "#NISTd9"
@@ -3920,7 +3920,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu160":
   dimension_url: "#NISTd11"
@@ -3947,7 +3947,7 @@
     - name: "speed of propagation of waves"
       url: "#NISTq107"
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu3e-1/1":
   dimension_url: "#NISTd24"
@@ -3976,7 +3976,7 @@
     - name: "angular frequency"
       url: "#NISTq113"
     - name: "damping coefficient"
-      url: "#NISTq120" #qr
+      url: "#NISTq120"
 
 "NISTu9.u1e-1/1":
   dimension_url: "#NISTd29"
@@ -4001,7 +4001,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "angular wavenumber"
-      url: "#NISTq115" #qr
+      url: "#NISTq115"
 
 "NISTu163":
   dimension_url: "#NISTd9"
@@ -4026,7 +4026,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "damping coefficient"
-      url: "#NISTq120" #qr
+      url: "#NISTq120"
 
 "NISTu164":
   dimension_url: "#NISTd8"
@@ -4051,7 +4051,7 @@
         power_numerator: 2
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu165":
   dimension_url: "#NISTd8"
@@ -4073,7 +4073,7 @@
         power_numerator: 2
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu319":
   dimension_url: "#NISTd14"
@@ -4091,7 +4091,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu167":
   dimension_url: "#NISTd28"
@@ -4120,7 +4120,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "acceleration"
-      url: "#NISTq49" #qr
+      url: "#NISTq49"
 
 "NISTu168":
   dimension_url: "#NISTd10"
@@ -4145,7 +4145,7 @@
         power_numerator: 3
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu169":
   dimension_url: "#NISTd10"
@@ -4170,7 +4170,7 @@
         power_numerator: 3
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu170":
   dimension_url: "#NISTd10"
@@ -4195,7 +4195,7 @@
         power_numerator: 3
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu171":
   dimension_url: "#NISTd10"
@@ -4218,7 +4218,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu172":
   dimension_url: "#NISTd10"
@@ -4240,7 +4240,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu173":
   dimension_url: "#NISTd10"
@@ -4263,7 +4263,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu181":
   dimension_url: "#NISTd82"
@@ -4279,7 +4279,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "rotation"
-      url: "#NISTq111" #qr
+      url: "#NISTq111"
 
 "NISTu175":
   dimension_url: "#NISTd10"
@@ -4301,7 +4301,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu176":
   dimension_url: "#NISTd10"
@@ -4323,7 +4323,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu177":
   dimension_url: "#NISTd10"
@@ -4346,7 +4346,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu178":
   dimension_url: "#NISTd10"
@@ -4368,7 +4368,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu179":
   dimension_url: "#NISTd10"
@@ -4390,7 +4390,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu180":
   dimension_url: "#NISTd10"
@@ -4412,7 +4412,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu174":
   dimension_url: "#NISTd81"
@@ -4428,7 +4428,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "relative permeability"
-      url: "#NISTq94" #qr
+      url: "#NISTq94"
 
 "NISTu182":
   dimension_url: "#NISTd1"
@@ -4449,7 +4449,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu183":
   dimension_url: "#NISTd1"
@@ -4470,7 +4470,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu184":
   dimension_url: "#NISTd1"
@@ -4491,7 +4491,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu185":
   dimension_url: "#NISTd57"
@@ -4520,7 +4520,7 @@
     - name: "second polar moment of area"
       url: "#NISTq145"
     - name: "mass density"
-      url: "#NISTq51" #qr
+      url: "#NISTq51"
 
 "NISTu27p10'3.u1e-1/1":
   dimension_url: "#NISTd58"
@@ -4545,7 +4545,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "linear density"
-      url: "#NISTq126" #qr
+      url: "#NISTq126"
 
 "NISTu27p10'3.u1e2/1":
   dimension_url: "#NISTd59"
@@ -4570,7 +4570,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "mass moment of inertia"
-      url: "#NISTq127" #qr
+      url: "#NISTq127"
 
 "NISTu188":
   dimension_url: "#NISTd30"
@@ -4595,7 +4595,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "mass density"
-      url: "#NISTq51" #qr
+      url: "#NISTq51"
 
 "NISTu189":
   dimension_url: "#NISTd30"
@@ -4624,7 +4624,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "mass density"
-      url: "#NISTq51" #qr
+      url: "#NISTq51"
 
 "NISTu11.u3":
   dimension_url: "#NISTd61"
@@ -4654,7 +4654,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "impulse"
-      url: "#NISTq129" #qr
+      url: "#NISTq129"
 
 "NISTu11.u1e2/1.u27p10'3e-2/1":
   dimension_url: "#NISTd62"
@@ -4690,7 +4690,7 @@
         power_numerator: -2" prefix="k
   quantity_reference:
     - name: "gravitational constant"
-      url: "#NISTq130" #qr
+      url: "#NISTq130"
 
 "NISTu27p10'3.u1.u3e-1/1":
   dimension_url: "#NISTd61"
@@ -4724,7 +4724,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "momentum"
-      url: "#NISTq131" #qr
+      url: "#NISTq131"
 
 "NISTu27p10'3.u1e2/1.u3e-1/1":
   dimension_url: "#NISTd60"
@@ -4761,7 +4761,7 @@
     - name: "angular momentum"
       url: "#NISTq132"
     - name: "moment of momentum"
-      url: "#NISTq132" #qr
+      url: "#NISTq132"
 
 "NISTu11.u1.u3":
   dimension_url: "#NISTd60"
@@ -4796,7 +4796,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "angular impulse"
-      url: "#NISTq133" #qr
+      url: "#NISTq133"
 
 "NISTu12e-1/1":
   dimension_url: "#NISTd63"
@@ -4823,7 +4823,7 @@
     - name: "compressibility"
       url: "#NISTq139"
     - name: "isothermal compressibility"
-      url: "#NISTq160" #qr
+      url: "#NISTq160"
 
 "NISTu1e2/1.u3e-1/1":
   dimension_url: "#NISTd56"
@@ -4852,7 +4852,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "kinematic viscosity"
-      url: "#NISTq85" #qr
+      url: "#NISTq85"
 
 "NISTu27p10'3.u3e-1/1":
   dimension_url: "#NISTd65"
@@ -4877,7 +4877,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "mass flow rate"
-      url: "#NISTq150" #qr
+      url: "#NISTq150"
 
 "NISTu1e3/1.u3e-1/1":
   dimension_url: "#NISTd66"
@@ -4906,7 +4906,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "volume flow rate"
-      url: "#NISTq151" #qr
+      url: "#NISTq151"
 
 "NISTu13.u3":
   dimension_url: "#NISTd60"
@@ -4936,7 +4936,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "action"
-      url: "#NISTq154" #qr
+      url: "#NISTq154"
 
 "NISTu201":
   dimension_url: "#NISTd2"
@@ -4959,7 +4959,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu202":
   dimension_url: "#NISTd2"
@@ -4982,7 +4982,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu203":
   dimension_url: "#NISTd2"
@@ -5004,7 +5004,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu204":
   dimension_url: "#NISTd30"
@@ -5033,7 +5033,7 @@
         power_numerator: -3
   quantity_reference:
     - name: "mass density"
-      url: "#NISTq51" #qr
+      url: "#NISTq51"
 
 "NISTu205":
   dimension_url: "#NISTd12"
@@ -5056,7 +5056,7 @@
     - name: "weight"
       url: "#NISTq128"
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu206":
   dimension_url: "#NISTd15"
@@ -5100,7 +5100,7 @@
     - name: "moment of force"
       url: "#NISTq60"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu207":
   dimension_url: "#NISTd14"
@@ -5133,7 +5133,7 @@
         power_numerator: -2
   quantity_reference:
     - name: "pressure"
-      url: "#NISTq15" #qr
+      url: "#NISTq15"
 
 "NISTu208":
   dimension_url: "#NISTd57"
@@ -5160,7 +5160,7 @@
     - name: "force"
       url: "#NISTq13"
     - name: "area moment of inertia"
-      url: "#NISTq155" #qr
+      url: "#NISTq155"
 
 "NISTu209":
   dimension_url: "#NISTd10"
@@ -5185,7 +5185,7 @@
         power_numerator: 3
   quantity_reference:
     - name: "section modulus"
-      url: "#NISTq146" #qr
+      url: "#NISTq146"
 
 "NISTu210":
   dimension_url: "#NISTd56"
@@ -5214,7 +5214,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "kinematic viscosity"
-      url: "#NISTq85" #qr
+      url: "#NISTq85"
 
 "NISTu211":
   dimension_url: "#NISTd16"
@@ -5249,7 +5249,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu212":
   dimension_url: "#NISTd2"
@@ -5267,7 +5267,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu213":
   dimension_url: "#NISTd58"
@@ -5288,7 +5288,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "linear density"
-      url: "#NISTq126" #qr
+      url: "#NISTq126"
 
 "NISTu214":
   dimension_url: "#NISTd14"
@@ -5317,7 +5317,7 @@
     - name: "bending moment of force"
       url: "#NISTq185"
     - name: "moment of force"
-      url: "#NISTq60" #qr
+      url: "#NISTq60"
 
 "NISTu215":
   dimension_url: "#NISTd14"
@@ -5344,7 +5344,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "pressure"
-      url: "#NISTq15" #qr
+      url: "#NISTq15"
 
 "NISTu318":
   dimension_url: "#NISTd14"
@@ -5369,7 +5369,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu217":
   dimension_url: "#NISTd16"
@@ -5404,7 +5404,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu218":
   dimension_url: "#NISTd16"
@@ -5421,7 +5421,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu5e-1/1":
   dimension_url: "#NISTd68"
@@ -5450,7 +5450,7 @@
     - name: "cubic expansion coefficient"
       url: "#NISTq157"
     - name: "relative pressure coefficient"
-      url: "#NISTq158" #qr
+      url: "#NISTq158"
 
 "NISTu12.u5e-1/1":
   dimension_url: "#NISTd69"
@@ -5475,7 +5475,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "pressure coefficient"
-      url: "#NISTq159" #qr
+      url: "#NISTq159"
 
 "NISTu221":
   dimension_url: "#NISTd71"
@@ -5513,7 +5513,7 @@
     - name: "coefficient of heat transfer"
       url: "#NISTq180"
     - name: "surface coefficient of heat transfer"
-      url: "#NISTq181" #qr
+      url: "#NISTq181"
 
 "NISTu222":
   dimension_url: "#NISTd27"
@@ -5534,7 +5534,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "luminance"
-      url: "#NISTq56" #qr
+      url: "#NISTq56"
 
 "NISTu223":
   dimension_url: "#NISTd4"
@@ -5555,7 +5555,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetomotive force (Cardelli)   (-SP811)"
-      url: "#NISTq161" #qr
+      url: "#NISTq161"
 
 "NISTu224":
   dimension_url: "#NISTd72"
@@ -5576,7 +5576,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric dipole moment"
-      url: "#NISTq162" #qr
+      url: "#NISTq162"
 
 "NISTu225":
   dimension_url: "#NISTd16"
@@ -5597,7 +5597,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu226":
   dimension_url: "#NISTd2"
@@ -5618,7 +5618,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu227":
   dimension_url: "#NISTd15"
@@ -5654,7 +5654,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu228":
   dimension_url: "#NISTd2"
@@ -5671,7 +5671,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu229":
   dimension_url: "#NISTd2"
@@ -5688,7 +5688,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu230":
   dimension_url: "#NISTd2"
@@ -5710,7 +5710,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu231":
   dimension_url: "#NISTd2"
@@ -5733,7 +5733,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu232":
   dimension_url: "#NISTd2"
@@ -5756,7 +5756,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu233":
   dimension_url: "#NISTd2"
@@ -5777,7 +5777,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu234":
   dimension_url: "#NISTd2"
@@ -5800,7 +5800,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu235":
   dimension_url: "#NISTd2"
@@ -5822,7 +5822,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu236":
   dimension_url: "#NISTd12"
@@ -5845,7 +5845,7 @@
     - name: "weight"
       url: "#NISTq128"
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu237":
   dimension_url: "#NISTd2"
@@ -5866,7 +5866,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu238":
   dimension_url: "#NISTd12"
@@ -5889,7 +5889,7 @@
     - name: "weight"
       url: "#NISTq128"
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu239":
   dimension_url: "#NISTd14"
@@ -5916,7 +5916,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu240":
   dimension_url: "#NISTd15"
@@ -5937,7 +5937,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "energy"
-      url: "#NISTq17" #qr
+      url: "#NISTq17"
 
 "NISTu241":
   dimension_url: "#NISTd2"
@@ -5958,7 +5958,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu242":
   dimension_url: "#NISTd11"
@@ -5988,7 +5988,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu243":
   dimension_url: "#NISTd60"
@@ -6012,7 +6012,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "action"
-      url: "#NISTq154" #qr
+      url: "#NISTq154"
 
 "NISTu244":
   dimension_url: "#NISTd2"
@@ -6037,7 +6037,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu245":
   dimension_url: "#NISTd3"
@@ -6065,7 +6065,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu246":
   dimension_url: "#NISTd17"
@@ -6089,7 +6089,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric charge"
-      url: "#NISTq22" #qr
+      url: "#NISTq22"
 
 "NISTu247":
   dimension_url: "#NISTd2"
@@ -6114,7 +6114,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu248":
   dimension_url: "#NISTd60"
@@ -6138,7 +6138,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "action"
-      url: "#NISTq154" #qr
+      url: "#NISTq154"
 
 "NISTu249":
   dimension_url: "#NISTd1"
@@ -6163,7 +6163,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu250":
   dimension_url: "#NISTd15"
@@ -6186,7 +6186,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "energy"
-      url: "#NISTq17" #qr
+      url: "#NISTq17"
 
 "NISTu251":
   dimension_url: "#NISTd3"
@@ -6212,7 +6212,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu252":
   dimension_url: "#NISTd54"
@@ -6231,7 +6231,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetizability"
-      url: "#NISTq163" #qr
+      url: "#NISTq163"
 
 "NISTu253":
   dimension_url: "#NISTd13"
@@ -6302,7 +6302,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "momentum"
-      url: "#NISTq131" #qr
+      url: "#NISTq131"
 
 "NISTu256":
   dimension_url: "#NISTd43"
@@ -6320,7 +6320,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric charge density"
-      url: "#NISTq69" #qr
+      url: "#NISTq69"
 
 "NISTu257":
   dimension_url: "#NISTd4"
@@ -6333,9 +6333,8 @@
     ASCII: "eE_h*h-bar^-1"
   unit_symbol:
     HTML: |
-				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">eE</i>
-				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
-				>h</sub>/&#295;
+      <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">eE</i>
+      <sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_current"
@@ -6343,7 +6342,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric current"
-      url: "#NISTq4" #qr
+      url: "#NISTq4"
 
 "NISTu258":
   dimension_url: "#NISTd72"
@@ -6391,7 +6390,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric field strength"
-      url: "#NISTq68" #qr
+      url: "#NISTq68"
 
 "NISTu260":
   dimension_url: "#NISTd74"
@@ -6407,7 +6406,7 @@
 					unit="atomic_unit_of_electric_field_gradient"/>
   quantity_reference:
     - name: "electric field gradient"
-      url: "#NISTq165" #qr
+      url: "#NISTq165"
 
 "NISTu261":
   dimension_url: "#NISTd18"
@@ -6435,7 +6434,7 @@
     - name: "electric potential difference"
       url: "#NISTq24"
     - name: "electromotive force"
-      url: "#NISTq26" #qr
+      url: "#NISTq26"
 
 "NISTu262":
   dimension_url: "#NISTd12"
@@ -6462,7 +6461,7 @@
     - name: "weight"
       url: "#NISTq128"
     - name: "force"
-      url: "#NISTq13" #qr
+      url: "#NISTq13"
 
 "NISTu263":
   dimension_url: "#NISTd75"
@@ -6478,7 +6477,7 @@
 					unit="atomic_unit_of_electric_quadrupole_moment"/>
   quantity_reference:
     - name: "electric quadrupole moment"
-      url: "#NISTq167" #qr
+      url: "#NISTq167"
 
 "NISTu264":
   dimension_url: "#NISTd76"
@@ -6494,7 +6493,7 @@
 					unit="atomic_unit_of_electric_polarizability"/>
   quantity_reference:
     - name: "polarizability"
-      url: "#NISTq168" #qr
+      url: "#NISTq168"
 
 "NISTu265":
   dimension_url: "#NISTd20"
@@ -6516,7 +6515,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric resistance"
-      url: "#NISTq28" #qr
+      url: "#NISTq28"
 
 "NISTu266":
   dimension_url: "#NISTd19"
@@ -6538,7 +6537,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric capacitance"
-      url: "#NISTq169" #qr
+      url: "#NISTq169"
 
 "NISTu267":
   dimension_url: "#NISTd4"
@@ -6560,7 +6559,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric current intensity"
-      url: "#NISTq170" #qr
+      url: "#NISTq170"
 
 "NISTu268":
   dimension_url: "#NISTd9"
@@ -6585,7 +6584,7 @@
     - name: "electric potential difference"
       url: "#NISTq24"
     - name: "electromotive force"
-      url: "#NISTq26" #qr
+      url: "#NISTq26"
 
 "NISTu269":
   dimension_url: "#NISTd23"
@@ -6607,7 +6606,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric inductance"
-      url: "#NISTq171" #qr
+      url: "#NISTq171"
 
 "NISTu270":
   dimension_url: "#NISTd21"
@@ -6629,7 +6628,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "electric conductance"
-      url: "#NISTq29" #qr
+      url: "#NISTq29"
 
 "NISTu271":
   dimension_url: "#NISTd17"
@@ -6653,7 +6652,7 @@
     - name: "electric charge"
       url: "#NISTq22"
     - name: "amount of electricity"
-      url: "#NISTq23" #qr
+      url: "#NISTq23"
 
 "NISTu272":
   dimension_url: "#NISTd22"
@@ -6674,7 +6673,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux"
-      url: "#NISTq30" #qr
+      url: "#NISTq30"
 
 "NISTu273":
   dimension_url: "#NISTd13"
@@ -6695,7 +6694,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "magnetic flux density"
-      url: "#NISTq14" #qr
+      url: "#NISTq14"
 
 "NISTu274":
   dimension_url: "#NISTd16"
@@ -6716,7 +6715,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu275":
   dimension_url: "#NISTd2"
@@ -6738,7 +6737,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu276":
   dimension_url: "#NISTd27"
@@ -6754,7 +6753,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "illuminance"
-      url: "#NISTq47" #qr
+      url: "#NISTq47"
 
 "NISTu277":
   dimension_url: "#NISTd27"
@@ -6775,7 +6774,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "luminance"
-      url: "#NISTq56" #qr
+      url: "#NISTq56"
 
 "NISTu278":
   dimension_url: "#NISTd1"
@@ -6793,7 +6792,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu279":
   dimension_url: "#NISTd1"
@@ -6809,7 +6808,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu280":
   dimension_url: "#NISTd1"
@@ -6827,7 +6826,7 @@
     - name: "length"
       url: "#NISTq1"
     - name: "distance"
-      url: "#NISTq48" #qr
+      url: "#NISTq48"
 
 "NISTu281":
   dimension_url: "#NISTd1"
@@ -6848,7 +6847,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu282":
   dimension_url: "#NISTd1"
@@ -6870,7 +6869,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu283":
   dimension_url: "#NISTd8"
@@ -6886,7 +6885,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu284":
   dimension_url: "#NISTd16"
@@ -6907,7 +6906,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu285":
   dimension_url: "#NISTd16"
@@ -6924,7 +6923,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu286":
   dimension_url: "#NISTd16"
@@ -6941,7 +6940,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu287":
   dimension_url: "#NISTd16"
@@ -6957,7 +6956,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu288":
   dimension_url: "#NISTd5"
@@ -6978,7 +6977,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "thermodynamic temperature"
-      url: "#NISTq5" #qr
+      url: "#NISTq5"
 
 "NISTu289":
   dimension_url: "#NISTd2"
@@ -6999,7 +6998,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass"
-      url: "#NISTq2" #qr
+      url: "#NISTq2"
 
 "NISTu290":
   dimension_url: "#NISTd1"
@@ -7017,7 +7016,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu291":
   dimension_url: "#NISTd77"
@@ -7033,7 +7032,7 @@
 					unit="atomic_unit_of_1st_hyperpolarizability"/>
   quantity_reference:
     - name: "1st hyperpolarizability"
-      url: "#NISTq172" #qr
+      url: "#NISTq172"
 
 "NISTu292":
   dimension_url: "#NISTd78"
@@ -7049,7 +7048,7 @@
 					unit="atomic_unit_of_2nd_hyperpolarizability"/>
   quantity_reference:
     - name: "2nd hyperpolarizability"
-      url: "#NISTq173" #qr
+      url: "#NISTq173"
 
 "NISTu293":
   dimension_url: "#NISTd45"
@@ -7076,7 +7075,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "permittivity"
-      url: "#NISTq71" #qr
+      url: "#NISTq71"
 
 "NISTu294":
   dimension_url: "#NISTd65"
@@ -7101,7 +7100,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "velocity"
-      url: "#NISTq12" #qr
+      url: "#NISTq12"
 
 "NISTu295":
   dimension_url: "#NISTd15"
@@ -7126,7 +7125,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "energy"
-      url: "#NISTq17" #qr
+      url: "#NISTq17"
 
 "NISTu296":
   dimension_url: "#NISTd61"
@@ -7150,7 +7149,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "momentum"
-      url: "#NISTq131" #qr
+      url: "#NISTq131"
 
 "NISTu297":
   dimension_url: "#NISTd60"
@@ -7169,7 +7168,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "action"
-      url: "#NISTq154" #qr
+      url: "#NISTq154"
 
 "NISTu298":
   dimension_url: "#NISTd15"
@@ -7194,7 +7193,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "energy"
-      url: "#NISTq17" #qr
+      url: "#NISTq17"
 
 "NISTu299":
   dimension_url: "#NISTd61"
@@ -7218,7 +7217,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "momentum"
-      url: "#NISTq131" #qr
+      url: "#NISTq131"
 
 "NISTu300":
   dimension_url: "#NISTd10"
@@ -7240,7 +7239,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu301":
   dimension_url: "#NISTd10"
@@ -7262,7 +7261,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu302":
   dimension_url: "#NISTd10"
@@ -7284,7 +7283,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu303":
   dimension_url: "#NISTd10"
@@ -7300,7 +7299,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu304":
   dimension_url: "#NISTd10"
@@ -7316,7 +7315,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu305":
   dimension_url: "#NISTd10"
@@ -7333,7 +7332,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu306":
   dimension_url: "#NISTd10"
@@ -7350,7 +7349,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu307":
   dimension_url: "#NISTd10"
@@ -7367,7 +7366,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu308":
   dimension_url: "#NISTd10"
@@ -7385,7 +7384,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu309":
   dimension_url: "#NISTd2"
@@ -7402,7 +7401,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu310":
   dimension_url: "#NISTd1"
@@ -7426,7 +7425,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu311":
   dimension_url: "#NISTd1"
@@ -7445,7 +7444,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu312":
   dimension_url: "#NISTd1"
@@ -7462,7 +7461,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu313":
   dimension_url: "#NISTd1"
@@ -7485,7 +7484,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu314":
   dimension_url: "#NISTd1"
@@ -7507,7 +7506,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu315":
   dimension_url: "#NISTd1"
@@ -7530,7 +7529,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu316":
   dimension_url: "#NISTd1"
@@ -7552,7 +7551,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu317":
   dimension_url: "#NISTd1"
@@ -7569,7 +7568,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "area"
-      url: "#NISTq8" #qr
+      url: "#NISTq8"
 
 "NISTu320":
   dimension_url: "#NISTd14"
@@ -7587,7 +7586,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu321":
   dimension_url: "#NISTd14"
@@ -7616,7 +7615,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu322":
   dimension_url: "#NISTd14"
@@ -7645,7 +7644,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu323":
   dimension_url: "#NISTd14"
@@ -7663,7 +7662,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu324":
   dimension_url: "#NISTd14"
@@ -7681,7 +7680,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu325":
   dimension_url: "#NISTd14"
@@ -7710,7 +7709,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu326":
   dimension_url: "#NISTd14"
@@ -7728,7 +7727,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu327":
   dimension_url: "#NISTd14"
@@ -7746,7 +7745,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu328":
   dimension_url: "#NISTd14"
@@ -7764,7 +7763,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu329":
   dimension_url: "#NISTd14"
@@ -7789,7 +7788,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu330":
   dimension_url: "#NISTd14"
@@ -7814,7 +7813,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu331":
   dimension_url: "#NISTd15"
@@ -7840,7 +7839,7 @@
     - name: "amount of heat"
       url: "#NISTq19"
     - name: "potential energy"
-      url: "#NISTq77" #qr
+      url: "#NISTq77"
 
 "NISTu332":
   dimension_url: "#NISTd9"
@@ -7861,7 +7860,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "index of acidity"
-      url: "#NISTq174" #qr
+      url: "#NISTq174"
 
 "NISTu133":
   dimension_url: "#NISTd5"
@@ -7882,7 +7881,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "Fahrenheit temperature"
-      url: "#NISTq175" #qr
+      url: "#NISTq175"
 
 "NISTu333":
   dimension_url: "#NISTd15"
@@ -7905,7 +7904,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu216":
   dimension_url: "#NISTd15"
@@ -7930,7 +7929,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu334":
   dimension_url: "#NISTd15"
@@ -7951,7 +7950,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu335":
   dimension_url: "#NISTd15"
@@ -7972,7 +7971,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu336":
   dimension_url: "#NISTd15"
@@ -7993,7 +7992,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu337":
   dimension_url: "#NISTd15"
@@ -8014,7 +8013,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of heat"
-      url: "#NISTq19" #qr
+      url: "#NISTq19"
 
 "NISTu338":
   dimension_url: "#NISTd3"
@@ -8032,7 +8031,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu339":
   dimension_url: "#NISTd3"
@@ -8050,7 +8049,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu340":
   dimension_url: "#NISTd3"
@@ -8068,7 +8067,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu341":
   dimension_url: "#NISTd3"
@@ -8086,7 +8085,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu342":
   dimension_url: "#NISTd3"
@@ -8104,7 +8103,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu343":
   dimension_url: "#NISTd3"
@@ -8122,7 +8121,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu344":
   dimension_url: "#NISTd1"
@@ -8138,7 +8137,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu345":
   dimension_url: "#NISTd3"
@@ -8154,7 +8153,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "time"
-      url: "#NISTq3" #qr
+      url: "#NISTq3"
 
 "NISTu346":
   dimension_url: "#NISTd58"
@@ -8170,7 +8169,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "mass divided by length"
-      url: "#NISTq176" #qr
+      url: "#NISTq176"
 
 "NISTu347":
   dimension_url: "#NISTd9"
@@ -8188,7 +8187,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "plane angle"
-      url: "#NISTq9" #qr
+      url: "#NISTq9"
 
 "NISTu348":
   dimension_url: "#NISTd6"
@@ -8210,7 +8209,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "amount of substance"
-      url: "#NISTq6" #qr
+      url: "#NISTq6"
 
 "NISTu349":
   dimension_url: "#NISTd16"
@@ -8228,7 +8227,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "power"
-      url: "#NISTq20" #qr
+      url: "#NISTq20"
 
 "NISTu350":
   dimension_url: "#NISTd9"
@@ -8249,7 +8248,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "storage capacity"
-      url: "#NISTq177" #qr
+      url: "#NISTq177"
 
 "NISTu351":
   dimension_url: "#NISTd9"
@@ -8265,7 +8264,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "storage capacity"
-      url: "#NISTq177" #qr
+      url: "#NISTq177"
 
 "NISTu352":
   dimension_url: "#NISTd10"
@@ -8286,7 +8285,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu353":
   dimension_url: "#NISTd10"
@@ -8307,7 +8306,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu354":
   dimension_url: "#NISTd10"
@@ -8324,7 +8323,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu355":
   dimension_url: "#NISTd10"
@@ -8342,7 +8341,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu356":
   dimension_url: "#NISTd10"
@@ -8364,7 +8363,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu357":
   dimension_url: "#NISTd10"
@@ -8387,7 +8386,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu121":
   dimension_url: "#NISTd56"
@@ -8408,7 +8407,7 @@
         power_numerator: 1" prefix="c
   quantity_reference:
     - name: "kinematic viscosity"
-      url: "#NISTq85" #qr
+      url: "#NISTq85"
 
 "NISTu57":
   dimension_url: "#NISTd10"
@@ -8429,7 +8428,7 @@
         power_numerator: 1
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu358":
   dimension_url: "#NISTd66"
@@ -8458,7 +8457,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "volume flow rate"
-      url: "#NISTq151" #qr
+      url: "#NISTq151"
 
 "NISTu359":
   dimension_url: "#NISTd66"
@@ -8487,7 +8486,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "volume flow rate"
-      url: "#NISTq151" #qr
+      url: "#NISTq151"
 
 "NISTu360":
   dimension_url: "#NISTd66"
@@ -8516,7 +8515,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "volume flow rate"
-      url: "#NISTq151" #qr
+      url: "#NISTq151"
 
 "NISTu361":
   dimension_url: "#NISTd1"
@@ -8532,7 +8531,7 @@
         power_numerator: 1" prefix="u
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu362":
   dimension_url: "#NISTd14"
@@ -8555,7 +8554,7 @@
     - name: "pressure"
       url: "#NISTq15"
     - name: "stress"
-      url: "#NISTq16" #qr
+      url: "#NISTq16"
 
 "NISTu363":
   dimension_url: "#NISTd9"
@@ -8585,7 +8584,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "length"
-      url: "#NISTq1" #qr
+      url: "#NISTq1"
 
 "NISTu364":
   dimension_url: "#NISTd66"
@@ -8615,7 +8614,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "volume flow rate"
-      url: "#NISTq151" #qr
+      url: "#NISTq151"
 
 "NISTu365":
   dimension_url: "#NISTd10"
@@ -8640,7 +8639,7 @@
         power_numerator: 1" prefix="m
   quantity_reference:
     - name: "volume"
-      url: "#NISTq10" #qr
+      url: "#NISTq10"
 
 "NISTu366":
   dimension_url: "#NISTd34"
@@ -8669,7 +8668,7 @@
         power_numerator: -1
   quantity_reference:
     - name: "amount concentration"
-      url: "#NISTq55" #qr
+      url: "#NISTq55"
 
 "NISTu6.u27p10'3e-1/1":
   dimension_url: "#NISTd79"
@@ -8694,7 +8693,7 @@
         power_numerator: -1" prefix="k
   quantity_reference:
     - name: "molality of solute B"
-      url: "#NISTq179" #qr
+      url: "#NISTq179"
 
 "NISTu368":
   dimension_url: "#NISTd86"
@@ -8710,7 +8709,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "relative mass density"
-      url: "#NISTq125" #qr
+      url: "#NISTq125"
 
 "NISTu369":
   dimension_url: "#NISTd87"
@@ -8726,7 +8725,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "linear strain"
-      url: "#NISTq136" #qr
+      url: "#NISTq136"
 
 "NISTu370":
   dimension_url: "#NISTd88"
@@ -8742,7 +8741,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "shear strain"
-      url: "#NISTq137" #qr
+      url: "#NISTq137"
 
 "NISTu371":
   dimension_url: "#NISTd89"
@@ -8758,7 +8757,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "volume strain"
-      url: "#NISTq138" #qr
+      url: "#NISTq138"
 
 "NISTu372":
   dimension_url: "#NISTd90"
@@ -8774,7 +8773,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "Poisson number"
-      url: "#NISTq140" #qr
+      url: "#NISTq140"
 
 "NISTu373":
   dimension_url: "#NISTd91"
@@ -8790,7 +8789,7 @@
     Unicode: "1"
   quantity_reference:
     - name: "dynamic friction factor"
-      url: "#NISTq147" #qr
+      url: "#NISTq147"
 
 "NISTu374":
   dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd92"
