@@ -9,7 +9,7 @@
   unit_symbol:
     ASCII: "m"
     HTML: "m"
-    LaTeX: "\ensuremath{\mathrm{m}}"
+    LaTeX: '\ensuremath{\mathrm{m}}'
     Unicode: "m"
   root_units:
     enumerated_root_units:
@@ -56,7 +56,7 @@
   unit_symbol:
     ASCII: "cd"
     HTML: "cd"
-    LaTeX: "\ensuremath{\mathrm{cd}}"
+    LaTeX: '\ensuremath{\mathrm{cd}}'
     Unicode: "cd"
   root_units:
     enumerated_root_units:
@@ -77,7 +77,7 @@
   unit_symbol:
     ASCII: "kg"
     HTML: "kg"
-    LaTeX: "\ensuremath{\mathrm{kg}}"
+    LaTeX: '\ensuremath{\mathrm{kg}}'
     Unicode: "kg"
   root_units:
     enumerated_root_units:
@@ -98,7 +98,7 @@
   unit_symbol:
     ASCII: "s"
     HTML: "s"
-    LaTeX: "\ensuremath{\mathrm{s}}"
+    LaTeX: '\ensuremath{\mathrm{s}}'
     Unicode: "s"
   root_units:
     enumerated_root_units:
@@ -123,7 +123,7 @@
   unit_symbol:
     ASCII: "mol"
     HTML: "mol"
-    LaTeX: "\ensuremath{\mathrm{mol}}"
+    LaTeX: '\ensuremath{\mathrm{mol}}'
     Unicode: "mol"
   root_units:
     enumerated_root_units:
@@ -144,7 +144,7 @@
   unit_symbol:
     ASCII: "A"
     HTML: "A"
-    LaTeX: "\ensuremath{\mathrm{A}}"
+    LaTeX: '\ensuremath{\mathrm{A}}'
     Unicode: "A"
   root_units:
     enumerated_root_units:
@@ -165,7 +165,7 @@
   unit_symbol:
     ASCII: "K"
     HTML: "K"
-    LaTeX: "\ensuremath{\mathrm{K}}"
+    LaTeX: '\ensuremath{\mathrm{K}}'
     Unicode: "K"
   root_units:
     enumerated_root_units:
@@ -186,7 +186,7 @@
   unit_symbol:
     ASCII: "in"
     HTML: "in"
-    LaTeX: "\ensuremath{\mathrm{in}}"
+    LaTeX: '\ensuremath{\mathrm{in}}'
     Unicode: "in"
   root_units:
     enumerated_root_units:
@@ -209,7 +209,7 @@
   unit_symbol:
     ASCII: "rad"
     HTML: "rad"
-    LaTeX: "\ensuremath{\mathrm{rad}}"
+    LaTeX: '\ensuremath{\mathrm{rad}}'
     Unicode: "rad"
   root_units:
     enumerated_root_units:
@@ -230,7 +230,7 @@
   unit_symbol:
     ASCII: "sr"
     HTML: "sr"
-    LaTeX: "\ensuremath{\mathrm{sr}}"
+    LaTeX: '\ensuremath{\mathrm{sr}}'
     Unicode: "sr"
   root_units:
     enumerated_root_units:
@@ -251,7 +251,7 @@
   unit_symbol:
     ASCII: "N"
     HTML: "N"
-    LaTeX: "\ensuremath{\mathrm{N}}"
+    LaTeX: '\ensuremath{\mathrm{N}}'
     Unicode: "N"
   root_units:
     enumerated_root_units:
@@ -272,7 +272,7 @@
   unit_symbol:
     ASCII: "Pa"
     HTML: "Pa"
-    LaTeX: "\ensuremath{\mathrm{Pa}}"
+    LaTeX: '\ensuremath{\mathrm{Pa}}'
     Unicode: "Pa"
   root_units:
     enumerated_root_units:
@@ -305,7 +305,7 @@
   unit_symbol:
     ASCII: "J"
     HTML: "J"
-    LaTeX: "\ensuremath{\mathrm{J}}"
+    LaTeX: '\ensuremath{\mathrm{J}}'
     Unicode: "J"
   root_units:
     enumerated_root_units:
@@ -340,7 +340,7 @@
   unit_symbol:
     ASCII: "W"
     HTML: "W"
-    LaTeX: "\ensuremath{\mathrm{W}}"
+    LaTeX: '\ensuremath{\mathrm{W}}'
     Unicode: "W"
   root_units:
     enumerated_root_units:
@@ -363,7 +363,7 @@
   unit_symbol:
     ASCII: "C"
     HTML: "C"
-    LaTeX: "\ensuremath{\mathrm{C}}"
+    LaTeX: '\ensuremath{\mathrm{C}}'
     Unicode: "C"
   root_units:
     enumerated_root_units:
@@ -386,7 +386,7 @@
   unit_symbol:
     ASCII: "V"
     HTML: "V"
-    LaTeX: "\ensuremath{\mathrm{V}}"
+    LaTeX: '\ensuremath{\mathrm{V}}'
     Unicode: "V"
   root_units:
     enumerated_root_units:
@@ -409,7 +409,7 @@
   unit_symbol:
     ASCII: "F"
     HTML: "F"
-    LaTeX: "\ensuremath{\mathrm{F}}"
+    LaTeX: '\ensuremath{\mathrm{F}}'
     Unicode: "F"
   root_units:
     enumerated_root_units:
@@ -430,7 +430,7 @@
   unit_symbol:
     ASCII: "Ohm"
     HTML: "&#8486;"
-    LaTeX: "\ensuremath{\mathrm{\Omega}}"
+    LaTeX: '\ensuremath{\mathrm{\Omega}}'
     Unicode: "&#8486;"
   root_units:
     enumerated_root_units:
@@ -451,7 +451,7 @@
   unit_symbol:
     ASCII: "S"
     HTML: "S"
-    LaTeX: "\ensuremath{\mathrm{S}}"
+    LaTeX: '\ensuremath{\mathrm{S}}'
     Unicode: "S"
   root_units:
     enumerated_root_units:
@@ -472,7 +472,7 @@
   unit_symbol:
     ASCII: "Wb"
     HTML: "Wb"
-    LaTeX: "\ensuremath{\mathrm{Wb}}"
+    LaTeX: '\ensuremath{\mathrm{Wb}}'
     Unicode: "Wb"
   root_units:
     enumerated_root_units:
@@ -493,7 +493,7 @@
   unit_symbol:
     ASCII: "T"
     HTML: "T"
-    LaTeX: "\ensuremath{\mathrm{T}}"
+    LaTeX: '\ensuremath{\mathrm{T}}'
     Unicode: "T"
   root_units:
     enumerated_root_units:
@@ -514,7 +514,7 @@
   unit_symbol:
     ASCII: "H"
     HTML: "H"
-    LaTeX: "\ensuremath{\mathrm{H}}"
+    LaTeX: '\ensuremath{\mathrm{H}}'
     Unicode: "H"
   root_units:
     enumerated_root_units:
@@ -539,7 +539,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^2}}"
+    LaTeX: '\ensuremath{\mathrm{m^2}}'
     Unicode: "m&#178;"
   root_units:
     enumerated_root_units:
@@ -560,7 +560,7 @@
   unit_symbol:
     ASCII: "degC"
     HTML: "&#176;C"
-    LaTeX: "\ensuremath{\mathrm{^{\circ}C}}"
+    LaTeX: '\ensuremath{\mathrm{^{\circ}C}}'
     Unicode: "&#176;C"
   root_units:
     enumerated_root_units:
@@ -581,7 +581,7 @@
   unit_symbol:
     ASCII: "Bq"
     HTML: "Bq"
-    LaTeX: "\ensuremath{\mathrm{Bq}}"
+    LaTeX: '\ensuremath{\mathrm{Bq}}'
     Unicode: "Bq"
   root_units:
     enumerated_root_units:
@@ -602,7 +602,7 @@
   unit_symbol:
     ASCII: "fermi"
     HTML: "fermi"
-    LaTeX: "\ensuremath{\mathrm{fermi}}"
+    LaTeX: '\ensuremath{\mathrm{fermi}}'
     Unicode: "fermi"
   root_units:
     enumerated_root_units:
@@ -625,7 +625,7 @@
   unit_symbol:
     ASCII: "g"
     HTML: "g"
-    LaTeX: "\ensuremath{\mathrm{g}}"
+    LaTeX: '\ensuremath{\mathrm{g}}'
     Unicode: "g"
   root_units:
     enumerated_root_units:
@@ -646,7 +646,7 @@
   unit_symbol:
     ASCII: "Gy"
     HTML: "Gy"
-    LaTeX: "\ensuremath{\mathrm{Gy}}"
+    LaTeX: '\ensuremath{\mathrm{Gy}}'
     Unicode: "Gy"
   root_units:
     enumerated_root_units:
@@ -671,7 +671,7 @@
   unit_symbol:
     ASCII: "Sv"
     HTML: "Sv"
-    LaTeX: "\ensuremath{\mathrm{Sv}}"
+    LaTeX: '\ensuremath{\mathrm{Sv}}'
     Unicode: "Sv"
   root_units:
     enumerated_root_units:
@@ -692,7 +692,7 @@
   unit_symbol:
     ASCII: "kat"
     HTML: "kat"
-    LaTeX: "\ensuremath{\mathrm{kat}}"
+    LaTeX: '\ensuremath{\mathrm{kat}}'
     Unicode: "kat"
   root_units:
     enumerated_root_units:
@@ -713,7 +713,7 @@
   unit_symbol:
     ASCII: "Hz"
     HTML: "Hz"
-    LaTeX: "\ensuremath{\mathrm{Hz}}"
+    LaTeX: '\ensuremath{\mathrm{Hz}}'
     Unicode: "Hz"
   root_units:
     enumerated_root_units:
@@ -734,7 +734,7 @@
   unit_symbol:
     ASCII: "lm"
     HTML: "lm"
-    LaTeX: "\ensuremath{\mathrm{lm}}"
+    LaTeX: '\ensuremath{\mathrm{lm}}'
     Unicode: "lm"
   root_units:
     enumerated_root_units:
@@ -755,7 +755,7 @@
   unit_symbol:
     ASCII: "lx"
     HTML: "lx"
-    LaTeX: "\ensuremath{\mathrm{lx}}"
+    LaTeX: '\ensuremath{\mathrm{lx}}'
     Unicode: "lx"
   root_units:
     enumerated_root_units:
@@ -776,7 +776,7 @@
   unit_symbol:
     ASCII: "m*s^-1"
     HTML: "m/s"
-    LaTeX: "\ensuremath{\mathrm{m/s}}"
+    LaTeX: '\ensuremath{\mathrm{m/s}}'
     Unicode: "m&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -811,7 +811,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^3}}"
+    LaTeX: '\ensuremath{\mathrm{m^3}}'
     Unicode: "m&#179;"
   root_units:
     enumerated_root_units:
@@ -834,7 +834,7 @@
   unit_symbol:
     ASCII: "min"
     HTML: "min"
-    LaTeX: "\ensuremath{\mathrm{min}}"
+    LaTeX: '\ensuremath{\mathrm{min}}'
     Unicode: "min"
   root_units:
     enumerated_root_units:
@@ -855,7 +855,7 @@
   unit_symbol:
     ASCII: "h"
     HTML: "h"
-    LaTeX: "\ensuremath{\mathrm{h}}"
+    LaTeX: '\ensuremath{\mathrm{h}}'
     Unicode: "h"
   root_units:
     enumerated_root_units:
@@ -876,7 +876,7 @@
   unit_symbol:
     ASCII: "d"
     HTML: "d"
-    LaTeX: "\ensuremath{\mathrm{d}}"
+    LaTeX: '\ensuremath{\mathrm{d}}'
     Unicode: "d"
   root_units:
     enumerated_root_units:
@@ -897,7 +897,7 @@
   unit_symbol:
     ASCII: "Aring"
     HTML: "&#197;"
-    LaTeX: "\ensuremath{\mathrm{\AA}}"
+    LaTeX: '\ensuremath{\mathrm{\AA}}'
     Unicode: "&#8491;"
   root_units:
     enumerated_root_units:
@@ -920,7 +920,7 @@
   unit_symbol:
     ASCII: "a"
     HTML: "a"
-    LaTeX: "\ensuremath{\mathrm{a}}"
+    LaTeX: '\ensuremath{\mathrm{a}}'
     Unicode: "a"
   root_units:
     enumerated_root_units:
@@ -941,7 +941,7 @@
   unit_symbol:
     ASCII: "b"
     HTML: "b"
-    LaTeX: "\ensuremath{\mathrm{b}}"
+    LaTeX: '\ensuremath{\mathrm{b}}'
     Unicode: "b"
   root_units:
     enumerated_root_units:
@@ -962,7 +962,7 @@
   unit_symbol:
     ASCII: "ha"
     HTML: "ha"
-    LaTeX: "\ensuremath{\mathrm{ha}}"
+    LaTeX: '\ensuremath{\mathrm{ha}}'
     Unicode: "ha"
   root_units:
     enumerated_root_units:
@@ -987,7 +987,7 @@
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft^2}}"
+    LaTeX: '\ensuremath{\mathrm{ft^2}}'
     Unicode: "ft&#178;"
   root_units:
     enumerated_root_units:
@@ -1012,7 +1012,7 @@
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{in^2}}"
+    LaTeX: '\ensuremath{\mathrm{in^2}}'
     Unicode: "in&#178;"
   root_units:
     enumerated_root_units:
@@ -1034,7 +1034,7 @@
   unit_symbol:
     ASCII: "abA"
     HTML: "abA"
-    LaTeX: "\ensuremath{\mathrm{abA}}"
+    LaTeX: '\ensuremath{\mathrm{abA}}'
     Unicode: "abA"
   root_units:
     enumerated_root_units:
@@ -1055,7 +1055,7 @@
   unit_symbol:
     ASCII: "abC"
     HTML: "abC"
-    LaTeX: "\ensuremath{\mathrm{abC}}"
+    LaTeX: '\ensuremath{\mathrm{abC}}'
     Unicode: "abC"
   root_units:
     enumerated_root_units:
@@ -1079,7 +1079,7 @@
   unit_symbol:
     ASCII: "abF"
     HTML: "abF"
-    LaTeX: "\ensuremath{\mathrm{abF}}"
+    LaTeX: '\ensuremath{\mathrm{abF}}'
     Unicode: "abF"
   root_units:
     enumerated_root_units:
@@ -1101,7 +1101,7 @@
   unit_symbol:
     ASCII: "abH"
     HTML: "abH"
-    LaTeX: "\ensuremath{\mathrm{abH}}"
+    LaTeX: '\ensuremath{\mathrm{abH}}'
     Unicode: "abH"
   root_units:
     enumerated_root_units:
@@ -1126,7 +1126,7 @@
       (ab&#937;) <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">-1</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{(ab\Omega)^{-1}}"
+    LaTeX: '\ensuremath{\mathrm{(ab\Omega)^{-1}}'
     Unicode: "(ab&#937;)&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -1148,7 +1148,7 @@
   unit_symbol:
     ASCII: "abohm"
     HTML: "ab&#937;"
-    LaTeX: "\ensuremath{\mathrm{ab\Omega}}"
+    LaTeX: '\ensuremath{\mathrm{ab\Omega}}'
     Unicode: "ab&#937;"
   root_units:
     enumerated_root_units:
@@ -1170,7 +1170,7 @@
   unit_symbol:
     ASCII: "abV"
     HTML: "abV"
-    LaTeX: "\ensuremath{\mathrm{abV}}"
+    LaTeX: '\ensuremath{\mathrm{abV}}'
     Unicode: "abV"
   root_units:
     enumerated_root_units:
@@ -1198,7 +1198,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">A&#8201;&#183;&#8201;h</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{A\cdot h}}"
+    LaTeX: '\ensuremath{\mathrm{A\cdot h}}'
     Unicode: "A&#183;h"
   root_units:
     enumerated_root_units:
@@ -1225,7 +1225,7 @@
   unit_symbol:
     ASCII: "Bi"
     HTML: "Bi"
-    LaTeX: "\ensuremath{\mathrm{Bi}}"
+    LaTeX: '\ensuremath{\mathrm{Bi}}'
     Unicode: "Bi"
   root_units:
     enumerated_root_units:
@@ -1246,7 +1246,7 @@
   unit_symbol:
     ASCII: "Mx"
     HTML: "Mx"
-    LaTeX: "\ensuremath{\mathrm{Mx}}"
+    LaTeX: '\ensuremath{\mathrm{Mx}}'
     Unicode: "Mx"
   root_units:
     enumerated_root_units:
@@ -1267,7 +1267,7 @@
   unit_symbol:
     ASCII: "erg"
     HTML: "erg"
-    LaTeX: "\ensuremath{\mathrm{erg}}"
+    LaTeX: '\ensuremath{\mathrm{erg}}'
     Unicode: "erg"
   root_units:
     enumerated_root_units:
@@ -1303,7 +1303,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kW&#8201;&#183;&#8201;h</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kW\cdot h}}"
+    LaTeX: '\ensuremath{\mathrm{kW\cdot h}}'
     Unicode: "kW&#183;h"
   root_units:
     enumerated_root_units:
@@ -1344,7 +1344,7 @@
       cal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">IT</sub>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{cal_{IT}}}"
+    LaTeX: '\ensuremath{\mathrm{cal_{IT}}}'
   root_units:
     enumerated_root_units:
       - unit: "table_calorie"
@@ -1374,7 +1374,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "logarithmic decrement"
@@ -1394,7 +1394,7 @@
       kcal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">IT</sub>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kcal_{IT}}}"
+    LaTeX: '\ensuremath{\mathrm{kcal_{IT}}}'
   root_units:
     enumerated_root_units:
       - unit: "table_kg_calorie"
@@ -1428,7 +1428,7 @@
       kcal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kcal_{th}}}"
+    LaTeX: '\ensuremath{\mathrm{kcal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_kg_calorie"
@@ -1463,7 +1463,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;h</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W\cdot h}}"
+    LaTeX: '\ensuremath{\mathrm{W\cdot h}}'
     Unicode: "W&#183;h"
   root_units:
     enumerated_root_units:
@@ -1503,7 +1503,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W&#8201;&#183;&#8201;s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W\cdot s}}"
+    LaTeX: '\ensuremath{\mathrm{W\cdot s}}'
     Unicode: "W&#183;s"
   root_units:
     enumerated_root_units:
@@ -1538,7 +1538,7 @@
   unit_symbol:
     ASCII: "dyn"
     HTML: "dyn"
-    LaTeX: "\ensuremath{\mathrm{dyn}}"
+    LaTeX: '\ensuremath{\mathrm{dyn}}'
     Unicode: "dyn"
   root_units:
     enumerated_root_units:
@@ -1559,7 +1559,7 @@
   unit_symbol:
     ASCII: "kgf"
     HTML: "kgf"
-    LaTeX: "\ensuremath{\mathrm{kgf}}"
+    LaTeX: '\ensuremath{\mathrm{kgf}}'
     Unicode: "kgf"
   root_units:
     enumerated_root_units:
@@ -1580,7 +1580,7 @@
   unit_symbol:
     ASCII: "kp"
     HTML: "kp"
-    LaTeX: "\ensuremath{\mathrm{kp}}"
+    LaTeX: '\ensuremath{\mathrm{kp}}'
     Unicode: "kp"
   root_units:
     enumerated_root_units:
@@ -1605,7 +1605,7 @@
       kcal <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kcal_{th}}}"
+    LaTeX: '\ensuremath{\mathrm{kcal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -1635,7 +1635,7 @@
       cal <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>/s
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{cal_{th}}}"
+    LaTeX: '\ensuremath{\mathrm{cal_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -1661,7 +1661,7 @@
   unit_symbol:
     ASCII: "ft"
     HTML: "ft"
-    LaTeX: "\ensuremath{\mathrm{ft}}"
+    LaTeX: '\ensuremath{\mathrm{ft}}'
     Unicode: "ft"
   root_units:
     enumerated_root_units:
@@ -1684,7 +1684,7 @@
   unit_symbol:
     ASCII: "mi"
     HTML: "mi"
-    LaTeX: "\ensuremath{\mathrm{mi}}"
+    LaTeX: '\ensuremath{\mathrm{mi}}'
     Unicode: "mi"
   root_units:
     enumerated_root_units:
@@ -1707,7 +1707,7 @@
   unit_symbol:
     ASCII: "yd"
     HTML: "yd"
-    LaTeX: "\ensuremath{\mathrm{yd}}"
+    LaTeX: '\ensuremath{\mathrm{yd}}'
     Unicode: "yd"
   root_units:
     enumerated_root_units:
@@ -1730,7 +1730,7 @@
   unit_symbol:
     ASCII: "ph"
     HTML: "ph"
-    LaTeX: "\ensuremath{\mathrm{ph}}"
+    LaTeX: '\ensuremath{\mathrm{ph}}'
     Unicode: "ph"
   root_units:
     enumerated_root_units:
@@ -1754,7 +1754,7 @@
   unit_symbol:
     ASCII: "gr"
     HTML: "gr"
-    LaTeX: "\ensuremath{\mathrm{gr}}"
+    LaTeX: '\ensuremath{\mathrm{gr}}'
     Unicode: "gr"
   root_units:
     enumerated_root_units:
@@ -1776,7 +1776,7 @@
   unit_symbol:
     ASCII: "t"
     HTML: "t"
-    LaTeX: "\ensuremath{\mathrm{t}}"
+    LaTeX: '\ensuremath{\mathrm{t}}'
     Unicode: "t"
   root_units:
     enumerated_root_units:
@@ -1797,7 +1797,7 @@
   unit_symbol:
     ASCII: "erg*s^-1"
     HTML: "erg/s"
-    LaTeX: "\ensuremath{\mathrm{erg/s}}"
+    LaTeX: '\ensuremath{\mathrm{erg/s}}'
     Unicode: "erg&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -1824,7 +1824,7 @@
   unit_symbol:
     ASCII: "bar"
     HTML: "bar"
-    LaTeX: "\ensuremath{\mathrm{bar}}"
+    LaTeX: '\ensuremath{\mathrm{bar}}'
     Unicode: "bar"
   root_units:
     enumerated_root_units:
@@ -1851,7 +1851,7 @@
       dyn/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{dyn/cm^2}}"
+    LaTeX: '\ensuremath{\mathrm{dyn/cm^2}}'
     Unicode: "dyn&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -1882,7 +1882,7 @@
       gf/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{gf/cm^2}}"
+    LaTeX: '\ensuremath{\mathrm{gf/cm^2}}'
     Unicode: "gf&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -1913,7 +1913,7 @@
       kgf/cm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf/cm^2}}"
+    LaTeX: '\ensuremath{\mathrm{kgf/cm^2}}'
     Unicode: "kgf&#183;cm&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -1944,7 +1944,7 @@
       kgf/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{kgf/m^2}}'
     Unicode: "kgf&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -1975,7 +1975,7 @@
       kgf/mm <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf/mm^2}}"
+    LaTeX: '\ensuremath{\mathrm{kgf/mm^2}}'
     Unicode: "kgf&#183;mm&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -2002,7 +2002,7 @@
   unit_symbol:
     ASCII: "gamma"
     HTML: "&#947;"
-    LaTeX: "\ensuremath{\gamma}}"
+    LaTeX: '\ensuremath{\gamma}}'
     Unicode: "&#947;"
   root_units:
     enumerated_root_units:
@@ -2023,7 +2023,7 @@
   unit_symbol:
     ASCII: "Ci"
     HTML: "Ci"
-    LaTeX: "\ensuremath{\mathrm{Ci}}"
+    LaTeX: '\ensuremath{\mathrm{Ci}}'
     Unicode: "Ci"
   root_units:
     enumerated_root_units:
@@ -2044,7 +2044,7 @@
   unit_symbol:
     ASCII: "rad"
     HTML: "rad"
-    LaTeX: "\ensuremath{\mathrm{rad}}"
+    LaTeX: '\ensuremath{\mathrm{rad}}'
     Unicode: "rad"
   root_units:
     enumerated_root_units:
@@ -2065,7 +2065,7 @@
   unit_symbol:
     ASCII: "rem"
     HTML: "rem"
-    LaTeX: "\ensuremath{\mathrm{rem}}"
+    LaTeX: '\ensuremath{\mathrm{rem}}'
     Unicode: "rem"
   root_units:
     enumerated_root_units:
@@ -2087,7 +2087,7 @@
   unit_symbol:
     ASCII: "a"
     HTML: "a"
-    LaTeX: "\ensuremath{\mathrm{a}}"
+    LaTeX: '\ensuremath{\mathrm{a}}'
     Unicode: "a"
   root_units:
     enumerated_root_units:
@@ -2108,7 +2108,7 @@
   unit_symbol:
     ASCII: "ft*min^-1"
     HTML: "ft/min"
-    LaTeX: "\ensuremath{\mathrm{ft/min}}"
+    LaTeX: '\ensuremath{\mathrm{ft/min}}'
     Unicode: "ft&#183;min&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2133,7 +2133,7 @@
   unit_symbol:
     ASCII: "ft*s^-1"
     HTML: "ft/s"
-    LaTeX: "\ensuremath{\mathrm{ft/s}}"
+    LaTeX: '\ensuremath{\mathrm{ft/s}}'
     Unicode: "ft&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2158,7 +2158,7 @@
   unit_symbol:
     ASCII: "in*s^-1"
     HTML: "in/s"
-    LaTeX: "\ensuremath{\mathrm{in/s}}"
+    LaTeX: '\ensuremath{\mathrm{in/s}}'
     Unicode: "in&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2183,7 +2183,7 @@
   unit_symbol:
     ASCII: "mi*h^-1"
     HTML: "mi/h"
-    LaTeX: "\ensuremath{\mathrm{mi/h}}"
+    LaTeX: '\ensuremath{\mathrm{mi/h}}'
     Unicode: "mi&#183;h&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2208,7 +2208,7 @@
   unit_symbol:
     ASCII: "mi*min^-1"
     HTML: "mi/min"
-    LaTeX: "\ensuremath{\mathrm{mi/min}}"
+    LaTeX: '\ensuremath{\mathrm{mi/min}}'
     Unicode: "mi&#183;min&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2233,7 +2233,7 @@
   unit_symbol:
     ASCII: "mi*s^-1"
     HTML: "mi/s"
-    LaTeX: "\ensuremath{\mathrm{mi/s}}"
+    LaTeX: '\ensuremath{\mathrm{mi/s}}'
     Unicode: "mi&#183;s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2258,7 +2258,7 @@
   unit_symbol:
     ASCII: "st"
     HTML: "st"
-    LaTeX: "\ensuremath{\mathrm{st}}"
+    LaTeX: '\ensuremath{\mathrm{st}}'
     Unicode: "st"
   root_units:
     enumerated_root_units:
@@ -2283,7 +2283,7 @@
       m/s <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m/s^2}}"
+    LaTeX: '\ensuremath{\mathrm{m/s^2}}'
     Unicode: "m&#183;s&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -2315,7 +2315,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >-1</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^{-1}}}"
+    LaTeX: '\ensuremath{\mathrm{m^{-1}}}'
     Unicode: "m&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2350,7 +2350,7 @@
       kg/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kg/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{kg/m^3}}'
     Unicode: "kg&#183;m&#8315;&#179;"
   root_units:
     enumerated_root_units:
@@ -2381,7 +2381,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>3</sup>/kg
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^3/kg}}"
+    LaTeX: '\ensuremath{\mathrm{m^3/kg}}'
     Unicode: "m&#179;&#183;kg"
   root_units:
     enumerated_root_units:
@@ -2410,7 +2410,7 @@
       A/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{A/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{A/m^2}}'
     Unicode: "A&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -2435,7 +2435,7 @@
   unit_symbol:
     ASCII: "A*m^-1"
     HTML: "A/m"
-    LaTeX: "\ensuremath{\mathrm{A/m}}"
+    LaTeX: '\ensuremath{\mathrm{A/m}}'
     Unicode: "A&#183;m&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2464,7 +2464,7 @@
       mol/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{mol/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{mol/m^3}}'
     Unicode: "mol&#183;m&#8315;&#179;"
   root_units:
     enumerated_root_units:
@@ -2493,7 +2493,7 @@
       cd/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{cd/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{cd/m^2}}'
     Unicode: "cd&#183;m&#8315;&#178;"
   root_units:
     enumerated_root_units:
@@ -2544,7 +2544,7 @@
   unit_symbol:
     ASCII: "R"
     HTML: "R"
-    LaTeX: "\ensuremath{\mathrm{R}}"
+    LaTeX: '\ensuremath{\mathrm{R}}'
     Unicode: "R"
   root_units:
     enumerated_root_units:
@@ -2565,7 +2565,7 @@
   unit_symbol:
     ASCII: "Gs"
     HTML: "Gs"
-    LaTeX: "\ensuremath{\mathrm{Gs}}"
+    LaTeX: '\ensuremath{\mathrm{Gs}}'
     Unicode: "Gs"
   root_units:
     enumerated_root_units:
@@ -2586,7 +2586,7 @@
   unit_symbol:
     ASCII: "K"
     HTML: "K"
-    LaTeX: "\ensuremath{\mathrm{K}}"
+    LaTeX: '\ensuremath{\mathrm{K}}'
     Unicode: "K"
   root_units:
     enumerated_root_units:
@@ -2609,7 +2609,7 @@
   unit_symbol:
     ASCII: "cP"
     HTML: "cP"
-    LaTeX: "\ensuremath{\mathrm{cP}}"
+    LaTeX: '\ensuremath{\mathrm{cP}}'
     Unicode: "cP"
   root_units:
     enumerated_root_units:
@@ -2630,7 +2630,7 @@
   unit_symbol:
     ASCII: "micron"
     HTML: "&#956;"
-    LaTeX: "\ensuremath{\mathrm{mu}}"
+    LaTeX: '\ensuremath{\mathrm{mu}}'
     Unicode: "&#956;"
   root_units:
     enumerated_root_units:
@@ -2673,7 +2673,7 @@
   unit_symbol:
     ASCII: "sb"
     HTML: "sb"
-    LaTeX: "\ensuremath{\mathrm{sb}}"
+    LaTeX: '\ensuremath{\mathrm{sb}}'
     Unicode: "sb"
   root_units:
     enumerated_root_units:
@@ -2700,7 +2700,7 @@
 						<sup>2</sup>/m</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf\cdot s^2/m}}"
+    LaTeX: '\ensuremath{\mathrm{kgf\cdot s^2/m}}'
     Unicode: "kgf&#183;s&#178;m&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -2734,7 +2734,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kgf&#8201;&#183;&#8201;m</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf\cdot m}}"
+    LaTeX: '\ensuremath{\mathrm{kgf\cdot m}}'
     Unicode: "kgf&#183;m"
   root_units:
     enumerated_root_units:
@@ -2786,7 +2786,7 @@
   unit_symbol:
     ASCII: "P"
     HTML: "P"
-    LaTeX: "\ensuremath{\mathrm{P}}"
+    LaTeX: '\ensuremath{\mathrm{P}}'
     Unicode: "P"
   root_units:
     enumerated_root_units:
@@ -2809,7 +2809,7 @@
   unit_symbol:
     ASCII: "rhe"
     HTML: "rhe"
-    LaTeX: "\ensuremath{\mathrm{rhe}}"
+    LaTeX: '\ensuremath{\mathrm{rhe}}'
     Unicode: "rhe"
   root_units:
     enumerated_root_units:
@@ -2832,8 +2832,8 @@
     ASCII: "l"
     HTML: "L"
     HTML: "l"
-    LaTeX: "\ensuremath{\mathrm{L}}"
-    LaTeX: "\ensuremath{\mathrm{l}}"
+    LaTeX: '\ensuremath{\mathrm{L}}'
+    LaTeX: '\ensuremath{\mathrm{l}}'
     Unicode: "l"
     Unicode: "L"
   root_units:
@@ -2855,7 +2855,7 @@
   unit_symbol:
     ASCII: "M"
     HTML: "M"
-    LaTeX: "\ensuremath{\mathrm{M}}"
+    LaTeX: '\ensuremath{\mathrm{M}}'
     Unicode: "M"
   root_units:
     enumerated_root_units:
@@ -2878,7 +2878,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "refractive index"
@@ -2911,7 +2911,7 @@
   unit_symbol:
     ASCII: "atm"
     HTML: "atm"
-    LaTeX: "\ensuremath{\mathrm{atm}}"
+    LaTeX: '\ensuremath{\mathrm{atm}}'
     Unicode: "atm"
   root_units:
     enumerated_root_units:
@@ -2934,7 +2934,7 @@
   unit_symbol:
     ASCII: "at"
     HTML: "at"
-    LaTeX: "\ensuremath{\mathrm{at}}"
+    LaTeX: '\ensuremath{\mathrm{at}}'
     Unicode: "at"
   root_units:
     enumerated_root_units:
@@ -2961,7 +2961,7 @@
       kg/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kg/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{kg/m^2}}'
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -2989,7 +2989,7 @@
       W/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{W/m^2}}'
     Unicode: "W/m&#178;"
   root_units:
     enumerated_root_units:
@@ -3016,7 +3016,7 @@
   unit_symbol:
     ASCII: "J*K^-1"
     HTML: "J/K"
-    LaTeX: "\ensuremath{\mathrm{J/K}}"
+    LaTeX: '\ensuremath{\mathrm{J/K}}'
     Unicode: "J/K"
   root_units:
     enumerated_root_units:
@@ -3049,7 +3049,7 @@
 					>J/(kg&#8201;&#183;&#8201;K)</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{J/(kg\cdot K)}}"
+    LaTeX: '\ensuremath{\mathrm{J/(kg\cdot K)}}'
     Unicode: "J/(kg&#183;K)"
   root_units:
     enumerated_root_units:
@@ -3085,7 +3085,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">Pa&#8201;&#183;&#8201;s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{Pa\cdot s}}"
+    LaTeX: '\ensuremath{\mathrm{Pa\cdot s}}'
     Unicode: "Pa&#183;s"
   root_units:
     enumerated_root_units:
@@ -3115,7 +3115,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;m</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{N\cdot m}}"
+    LaTeX: '\ensuremath{\mathrm{N\cdot m}}'
     Unicode: "N&#183;m"
   root_units:
     enumerated_root_units:
@@ -3144,7 +3144,7 @@
   unit_symbol:
     ASCII: "N*m^-1"
     HTML: "N/m"
-    LaTeX: "\ensuremath{\mathrm{N/m}}"
+    LaTeX: '\ensuremath{\mathrm{N/m}}'
     Unicode: "N/m"
   root_units:
     enumerated_root_units:
@@ -3169,7 +3169,7 @@
   unit_symbol:
     ASCII: "J*kg^-1"
     HTML: "J/kg"
-    LaTeX: "\ensuremath{\mathrm{J/kg}}"
+    LaTeX: '\ensuremath{\mathrm{J/kg}}'
     Unicode: "J/kg"
   root_units:
     enumerated_root_units:
@@ -3200,7 +3200,7 @@
 					>W/(m&#8201;&#183;&#8201;K)</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W/(m\cdot K)}}"
+    LaTeX: '\ensuremath{\mathrm{W/(m\cdot K)}}'
     Unicode: "W/(m&#183;K)"
   root_units:
     enumerated_root_units:
@@ -3233,7 +3233,7 @@
       J/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{J/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{J/m^3}}'
     Unicode: "J/m&#179;"
   root_units:
     enumerated_root_units:
@@ -3258,7 +3258,7 @@
   unit_symbol:
     ASCII: "V*m^-1"
     HTML: "V/m"
-    LaTeX: "\ensuremath{\mathrm{V/m}}"
+    LaTeX: '\ensuremath{\mathrm{V/m}}'
     Unicode: "V/m"
   root_units:
     enumerated_root_units:
@@ -3287,7 +3287,7 @@
       C/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{C/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{C/m^3}}'
     Unicode: "C/m&#179;"
   root_units:
     enumerated_root_units:
@@ -3316,7 +3316,7 @@
       C/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{C/m^2}}"
+    LaTeX: '\ensuremath{\mathrm{C/m^2}}'
     Unicode: "C/m&#178;"
   root_units:
     enumerated_root_units:
@@ -3343,7 +3343,7 @@
   unit_symbol:
     ASCII: "F*m^-1"
     HTML: "F/m"
-    LaTeX: "\ensuremath{\mathrm{F/m}}"
+    LaTeX: '\ensuremath{\mathrm{F/m}}'
     Unicode: "F/m"
   root_units:
     enumerated_root_units:
@@ -3368,7 +3368,7 @@
   unit_symbol:
     ASCII: "H*m^-1"
     HTML: "H/m"
-    LaTeX: "\ensuremath{\mathrm{H/m}}"
+    LaTeX: '\ensuremath{\mathrm{H/m}}'
     Unicode: "H/m"
   root_units:
     enumerated_root_units:
@@ -3393,7 +3393,7 @@
   unit_symbol:
     ASCII: "J*mol^-1"
     HTML: "J/mol"
-    LaTeX: "\ensuremath{\mathrm{J/mol}}"
+    LaTeX: '\ensuremath{\mathrm{J/mol}}'
     Unicode: "J/mol"
   root_units:
     enumerated_root_units:
@@ -3424,7 +3424,7 @@
 					>J/(mol&#8201;&#183;&#8201;K)</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{J/(mol\cdot K)}}"
+    LaTeX: '\ensuremath{\mathrm{J/(mol\cdot K)}}'
     Unicode: "J/(mol&#183;K)"
   root_units:
     enumerated_root_units:
@@ -3455,7 +3455,7 @@
   unit_symbol:
     ASCII: "C*kg^-1"
     HTML: "C/kg"
-    LaTeX: "\ensuremath{\mathrm{C/kg}}"
+    LaTeX: '\ensuremath{\mathrm{C/kg}}'
     Unicode: "C/kg"
   root_units:
     enumerated_root_units:
@@ -3480,7 +3480,7 @@
   unit_symbol:
     ASCII: "Gy*s^-1"
     HTML: "Gy/s"
-    LaTeX: "\ensuremath{\mathrm{Gy/s}}"
+    LaTeX: '\ensuremath{\mathrm{Gy/s}}'
     Unicode: "Gy/s"
   root_units:
     enumerated_root_units:
@@ -3509,7 +3509,7 @@
       kat/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kat/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{kat/m^3}}'
     Unicode: "kat/m&#179;"
   root_units:
     enumerated_root_units:
@@ -3534,7 +3534,7 @@
   unit_symbol:
     ASCII: "St"
     HTML: "St"
-    LaTeX: "\ensuremath{\mathrm{St}}"
+    LaTeX: '\ensuremath{\mathrm{St}}'
     Unicode: "St"
   root_units:
     enumerated_root_units:
@@ -3555,7 +3555,7 @@
   unit_symbol:
     ASCII: "Gal"
     HTML: "Gal"
-    LaTeX: "\ensuremath{\mathrm{Gal}}"
+    LaTeX: '\ensuremath{\mathrm{Gal}}'
     Unicode: "Gal"
   root_units:
     enumerated_root_units:
@@ -3576,7 +3576,7 @@
   unit_symbol:
     ASCII: "Oe"
     HTML: "Oe"
-    LaTeX: "\ensuremath{\mathrm{Oe}}"
+    LaTeX: '\ensuremath{\mathrm{Oe}}'
     Unicode: "Oe"
   root_units:
     enumerated_root_units:
@@ -3597,7 +3597,7 @@
   unit_symbol:
     ASCII: "W*sr^-1"
     HTML: "W/sr"
-    LaTeX: "\ensuremath{\mathrm{W/sr}}"
+    LaTeX: '\ensuremath{\mathrm{W/sr}}'
     Unicode: "W/sr"
   root_units:
     enumerated_root_units:
@@ -3628,7 +3628,7 @@
 					>W/(m^2&#8201;&#183;&#8201;sr)</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W/(m^2\cdot sr)}}"
+    LaTeX: '\ensuremath{\mathrm{W/(m^2\cdot sr)}}'
     Unicode: "W/(m&#178;&#183;sr)"
   root_units:
     enumerated_root_units:
@@ -3676,7 +3676,7 @@
   unit_symbol:
     ASCII: """
     HTML: "&#8243;"
-    LaTeX: "\ensuremath{\mathrm{''}}"
+    LaTeX: '\ensuremath{\mathrm{''}}'
     Unicode: "&#8243;"
   root_units:
     enumerated_root_units:
@@ -3697,7 +3697,7 @@
   unit_symbol:
     ASCII: "'"
     HTML: "&#8242;"
-    LaTeX: "\ensuremath{\mathrm{'}}"
+    LaTeX: '\ensuremath{\mathrm{'}}'
     Unicode: "&#8242;"
   root_units:
     enumerated_root_units:
@@ -3718,7 +3718,7 @@
   unit_symbol:
     ASCII: "rad*s^-1"
     HTML: "rad/s"
-    LaTeX: "\ensuremath{\mathrm{rad/s}}"
+    LaTeX: '\ensuremath{\mathrm{rad/s}}'
     Unicode: "rad/s"
   root_units:
     enumerated_root_units:
@@ -3749,7 +3749,7 @@
       rad/s <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{rad/s^2}}"
+    LaTeX: '\ensuremath{\mathrm{rad/s^2}}'
     Unicode: "rad/s&#178;"
   root_units:
     enumerated_root_units:
@@ -3795,7 +3795,7 @@
   unit_symbol:
     ASCII: "Np"
     HTML: "Np"
-    LaTeX: "\ensuremath{\mathrm{Np}}"
+    LaTeX: '\ensuremath{\mathrm{Np}}'
     Unicode: "Np"
   root_units:
     enumerated_root_units:
@@ -3822,7 +3822,7 @@
   unit_symbol:
     ASCII: "B"
     HTML: "B"
-    LaTeX: "\ensuremath{\mathrm{B}}"
+    LaTeX: '\ensuremath{\mathrm{B}}'
     Unicode: "B"
   root_units:
     enumerated_root_units:
@@ -3847,7 +3847,7 @@
   unit_symbol:
     ASCII: "dB"
     HTML: "dB"
-    LaTeX: "\ensuremath{\mathrm{dB}}"
+    LaTeX: '\ensuremath{\mathrm{dB}}'
     Unicode: "dB"
   root_units:
     enumerated_root_units:
@@ -3870,7 +3870,7 @@
   unit_symbol:
     ASCII: "mmHg"
     HTML: "mmHg"
-    LaTeX: "\ensuremath{\mathrm{mmHg}}"
+    LaTeX: '\ensuremath{\mathrm{mmHg}}'
     Unicode: "mmHg"
   root_units:
     enumerated_root_units:
@@ -3911,7 +3911,7 @@
   unit_symbol:
     ASCII: "gon"
     HTML: "gon"
-    LaTeX: "\ensuremath{\mathrm{gon}}"
+    LaTeX: '\ensuremath{\mathrm{gon}}'
     Unicode: "gon"
   root_units:
     enumerated_root_units:
@@ -3932,7 +3932,7 @@
   unit_symbol:
     ASCII: "km/h"
     HTML: "kh/h"
-    LaTeX: "\ensuremath{\mathrm{kh/h}}"
+    LaTeX: '\ensuremath{\mathrm{kh/h}}'
     Unicode: "km/h"
   root_units:
     enumerated_root_units:
@@ -3963,7 +3963,7 @@
       s <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >-1</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{s^{-1}}}"
+    LaTeX: '\ensuremath{\mathrm{s^{-1}}}'
     Unicode: "s&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -3988,7 +3988,7 @@
   unit_symbol:
     ASCII: "rad*m^-1"
     HTML: "rad/m"
-    LaTeX: "\ensuremath{\mathrm{rad/m}}"
+    LaTeX: '\ensuremath{\mathrm{rad/m}}'
     Unicode: "rad/m"
   root_units:
     enumerated_root_units:
@@ -4013,7 +4013,7 @@
   unit_symbol:
     ASCII: "Np*s^-1"
     HTML: "Np/s"
-    LaTeX: "\ensuremath{\mathrm{Np/s}}"
+    LaTeX: '\ensuremath{\mathrm{Np/s}}'
     Unicode: "Np/s"
   root_units:
     enumerated_root_units:
@@ -4042,7 +4042,7 @@
       yd <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{yd^2}}"
+    LaTeX: '\ensuremath{\mathrm{yd^2}}'
     Unicode: "yd&#178;"
   root_units:
     enumerated_root_units:
@@ -4064,7 +4064,7 @@
     ASCII: "mi^2"
 		HTML: ""
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{mi^2}}"
+    LaTeX: '\ensuremath{\mathrm{mi^2}}'
     Unicode: "mi&#178;"
   root_units:
     enumerated_root_units:
@@ -4107,7 +4107,7 @@
       ft/s <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft/s^2}}"
+    LaTeX: '\ensuremath{\mathrm{ft/s^2}}'
     Unicode: "ft/s&#178;"
   root_units:
     enumerated_root_units:
@@ -4136,7 +4136,7 @@
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{in^3}}"
+    LaTeX: '\ensuremath{\mathrm{in^3}}'
     Unicode: "in&#179;"
   root_units:
     enumerated_root_units:
@@ -4161,7 +4161,7 @@
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft^3}}"
+    LaTeX: '\ensuremath{\mathrm{ft^3}}'
     Unicode: "ft&#179;"
   root_units:
     enumerated_root_units:
@@ -4186,7 +4186,7 @@
       yd <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{yd^3}}"
+    LaTeX: '\ensuremath{\mathrm{yd^3}}'
     Unicode: "yd&#179;"
   root_units:
     enumerated_root_units:
@@ -4209,7 +4209,7 @@
   unit_symbol:
     ASCII: "gal (UK)"
     HTML: "gal (UK)"
-    LaTeX: "\ensuremath{\mathrm{gal (UK)}}"
+    LaTeX: '\ensuremath{\mathrm{gal (UK)}}'
     Unicode: "gal (UK)"
   root_units:
     enumerated_root_units:
@@ -4231,7 +4231,7 @@
   unit_symbol:
     ASCII: "pt (UK)"
     HTML: "pt (UK)"
-    LaTeX: "\ensuremath{\mathrm{pint~{UK}}"
+    LaTeX: '\ensuremath{\mathrm{pint~{UK}}'
     Unicode: "pt (UK)"
   root_units:
     enumerated_root_units:
@@ -4254,7 +4254,7 @@
   unit_symbol:
     ASCII: "fl oz (UK)"
     HTML: "fl oz (UK)"
-    LaTeX: "\ensuremath{\mathrm{fl oz (UK)}}"
+    LaTeX: '\ensuremath{\mathrm{fl oz (UK)}}'
     Unicode: "fl oz (UK)"
   root_units:
     enumerated_root_units:
@@ -4275,7 +4275,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "rotation"
@@ -4292,7 +4292,7 @@
   unit_symbol:
     ASCII: "gal (US)"
     HTML: "gal (US)"
-    LaTeX: "\ensuremath{\mathrm{gal (US)}}"
+    LaTeX: '\ensuremath{\mathrm{gal (US)}}'
     Unicode: "gal (US)"
   root_units:
     enumerated_root_units:
@@ -4314,7 +4314,7 @@
   unit_symbol:
     ASCII: "liq pint (US)"
     HTML: "liq pint (US)"
-    LaTeX: "\ensuremath{\mathrm{liq pint (US)}}"
+    LaTeX: '\ensuremath{\mathrm{liq pint (US)}}'
     Unicode: "liq pint (US)"
   root_units:
     enumerated_root_units:
@@ -4337,7 +4337,7 @@
   unit_symbol:
     ASCII: "fl oz (US)"
     HTML: "fl oz (US)"
-    LaTeX: "\ensuremath{\mathrm{fl oz (US)}}"
+    LaTeX: '\ensuremath{\mathrm{fl oz (US)}}'
     Unicode: "fl oz (US)"
   root_units:
     enumerated_root_units:
@@ -4359,7 +4359,7 @@
   unit_symbol:
     ASCII: "bbl (US)"
     HTML: "bbl (US)"
-    LaTeX: "\ensuremath{\mathrm{bbl (US)}}"
+    LaTeX: '\ensuremath{\mathrm{bbl (US)}}'
     Unicode: "bbl (US)"
   root_units:
     enumerated_root_units:
@@ -4381,7 +4381,7 @@
   unit_symbol:
     ASCII: "bu (US)"
     HTML: "bu (US)"
-    LaTeX: "\ensuremath{\mathrm{bu (US)}}"
+    LaTeX: '\ensuremath{\mathrm{bu (US)}}'
     Unicode: "bu (US)"
   root_units:
     enumerated_root_units:
@@ -4403,7 +4403,7 @@
   unit_symbol:
     ASCII: "dry pt (US)"
     HTML: "dry pt (US)"
-    LaTeX: "\ensuremath{\mathrm{dry pt (US)}}"
+    LaTeX: '\ensuremath{\mathrm{dry pt (US)}}'
     Unicode: "dry pt (US)"
   root_units:
     enumerated_root_units:
@@ -4424,7 +4424,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "relative permeability"
@@ -4440,7 +4440,7 @@
   unit_symbol:
     ASCII: "l.y."
     HTML: "l.y."
-    LaTeX: "\ensuremath{\mathrm{l.y.}}"
+    LaTeX: '\ensuremath{\mathrm{l.y.}}'
     Unicode: "l.y."
   root_units:
     enumerated_root_units:
@@ -4461,7 +4461,7 @@
   unit_symbol:
     ASCII: "ua"
     HTML: "ua"
-    LaTeX: "\ensuremath{\mathrm{ua}}"
+    LaTeX: '\ensuremath{\mathrm{ua}}'
     Unicode: "ua"
   root_units:
     enumerated_root_units:
@@ -4482,7 +4482,7 @@
   unit_symbol:
     ASCII: "pc"
     HTML: "pc"
-    LaTeX: "\ensuremath{\mathrm{pc}}"
+    LaTeX: '\ensuremath{\mathrm{pc}}'
     Unicode: "pc"
   root_units:
     enumerated_root_units:
@@ -4507,7 +4507,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >4</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^4}}"
+    LaTeX: '\ensuremath{\mathrm{m^4}}'
     Unicode: "m&#8308;"
   root_units:
     enumerated_root_units:
@@ -4532,7 +4532,7 @@
   unit_symbol:
     ASCII: "kg*m^-1"
     HTML: "kg/m"
-    LaTeX: "\ensuremath{\mathrm{kg/m}}"
+    LaTeX: '\ensuremath{\mathrm{kg/m}}'
     Unicode: "kg/m"
   root_units:
     enumerated_root_units:
@@ -4557,7 +4557,7 @@
   unit_symbol:
     ASCII: "kg*m^2"
     HTML: "kg*m^2"
-    LaTeX: "kg*m^2"
+    LaTeX: 'kg*m^2'
     Unicode: "kg*m^2"
   root_units:
     enumerated_root_units:
@@ -4582,7 +4582,7 @@
   unit_symbol:
     ASCII: "kg*l^-1"
     HTML: "kg/l"
-    LaTeX: "\ensuremath{\mathrm{kg/l}}"
+    LaTeX: '\ensuremath{\mathrm{kg/l}}'
     Unicode: "kg/l"
   root_units:
     enumerated_root_units:
@@ -4611,7 +4611,7 @@
       t/m <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{t/m^3}}"
+    LaTeX: '\ensuremath{\mathrm{t/m^3}}'
     Unicode: "t/m&#179;"
   root_units:
     enumerated_root_units:
@@ -4641,7 +4641,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">N&#8201;&#183;&#8201;s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{N\cdot s}}"
+    LaTeX: '\ensuremath{\mathrm{N\cdot s}}'
     Unicode: "N&#183;s"
   root_units:
     enumerated_root_units:
@@ -4673,7 +4673,7 @@
 				</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{N\cdot m^2/kg^2}}"
+    LaTeX: '\ensuremath{\mathrm{N\cdot m^2/kg^2}}'
     Unicode: "N&#183;m&#178;/kg&#178;"
   root_units:
     enumerated_root_units:
@@ -4707,7 +4707,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">kg&#8201;&#183;&#8201;m/s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kg\cdot m/s}}"
+    LaTeX: '\ensuremath{\mathrm{kg\cdot m/s}}'
     Unicode: "N&#183;m/s"
   root_units:
     enumerated_root_units:
@@ -4742,7 +4742,7 @@
 					>kg&#8201;&#183;&#8201;m^2/s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kg\cdot m^2/s}}"
+    LaTeX: '\ensuremath{\mathrm{kg\cdot m^2/s}}'
     Unicode: "kg&#183;m&#178;/s"
   root_units:
     enumerated_root_units:
@@ -4779,7 +4779,7 @@
 					>N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{N\cdot m\cdot s}}"
+    LaTeX: '\ensuremath{\mathrm{N\cdot m\cdot s}}'
     Unicode: "N&#183;m&#183;s"
   root_units:
     enumerated_root_units:
@@ -4812,7 +4812,7 @@
       Pa <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >-1</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{Pa^{-1}}}"
+    LaTeX: '\ensuremath{\mathrm{Pa^{-1}}}'
     Unicode: "Pa&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -4839,7 +4839,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>2</sup>/s
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^2/s}}"
+    LaTeX: '\ensuremath{\mathrm{m^2/s}}'
     Unicode: "m&#178;/s"
   root_units:
     enumerated_root_units:
@@ -4864,7 +4864,7 @@
   unit_symbol:
     ASCII: "kg*s^-1"
     HTML: "kg/s"
-    LaTeX: "\ensuremath{\mathrm{kg/s}}"
+    LaTeX: '\ensuremath{\mathrm{kg/s}}'
     Unicode: "kg/s"
   root_units:
     enumerated_root_units:
@@ -4893,7 +4893,7 @@
       m <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>3</sup>/s
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{m^3/s}}"
+    LaTeX: '\ensuremath{\mathrm{m^3/s}}'
     Unicode: "m&#179;/s"
   root_units:
     enumerated_root_units:
@@ -4923,7 +4923,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">J&#8201;&#183;&#8201;s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{J\cdot s}}"
+    LaTeX: '\ensuremath{\mathrm{J\cdot s}}'
     Unicode: "J&#183;s"
   root_units:
     enumerated_root_units:
@@ -4950,7 +4950,7 @@
   unit_symbol:
     ASCII: "lb"
     HTML: "lb"
-    LaTeX: "\ensuremath{\mathrm{lb}}"
+    LaTeX: '\ensuremath{\mathrm{lb}}'
     Unicode: "lb"
   root_units:
     enumerated_root_units:
@@ -4973,7 +4973,7 @@
   unit_symbol:
     ASCII: "oz"
     HTML: "oz"
-    LaTeX: "\ensuremath{\mathrm{oz}}"
+    LaTeX: '\ensuremath{\mathrm{oz}}'
     Unicode: "oz"
   root_units:
     enumerated_root_units:
@@ -4995,7 +4995,7 @@
   unit_symbol:
     ASCII: "cwt (UK)"
     HTML: "cwt (UK)"
-    LaTeX: "\ensuremath{\mathrm{cwt (UK)}}"
+    LaTeX: '\ensuremath{\mathrm{cwt (UK)}}'
     Unicode: "cwt (UK)"
   root_units:
     enumerated_root_units:
@@ -5020,7 +5020,7 @@
       lb/ft <sup xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{lb/ft^3}}"
+    LaTeX: '\ensuremath{\mathrm{lb/ft^3}}'
     Unicode: "lb/ft&#179;"
   root_units:
     enumerated_root_units:
@@ -5045,7 +5045,7 @@
   unit_symbol:
     ASCII: "lbf"
     HTML: "lbf"
-    LaTeX: "\ensuremath{\mathrm{lbf}}"
+    LaTeX: '\ensuremath{\mathrm{lbf}}'
     Unicode: "lbf"
   root_units:
     enumerated_root_units:
@@ -5073,7 +5073,7 @@
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">ft&#8201;&#183;&#8201;lbf</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft\cdot lbf}}"
+    LaTeX: '\ensuremath{\mathrm{ft\cdot lbf}}'
     Unicode: "ft&#183;lbf"
   root_units:
     enumerated_root_units:
@@ -5118,8 +5118,8 @@
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>
   unit_symbol:
     HTML: "psi"
-    LaTeX: "\ensuremath{\mathrm{lbf/in^2}}"
-    LaTeX: "\ensuremath{\mathrm{psi}}"
+    LaTeX: '\ensuremath{\mathrm{lbf/in^2}}'
+    LaTeX: '\ensuremath{\mathrm{psi}}'
     Unicode: "psi"
     Unicode: "lbf/in&#178;"
   root_units:
@@ -5149,7 +5149,7 @@
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >4</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{in^4}}"
+    LaTeX: '\ensuremath{\mathrm{in^4}}'
     Unicode: "in&#8308;"
   root_units:
     enumerated_root_units:
@@ -5176,7 +5176,7 @@
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >3</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{in^3}}"
+    LaTeX: '\ensuremath{\mathrm{in^3}}'
     Unicode: "in&#179;"
   root_units:
     enumerated_root_units:
@@ -5201,7 +5201,7 @@
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>2</sup>/s
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft^2/s}}"
+    LaTeX: '\ensuremath{\mathrm{ft^2/s}}'
     Unicode: "ft&#178;/s"
   root_units:
     enumerated_root_units:
@@ -5232,7 +5232,7 @@
 					>ft&#8201;&#183;&#8201;lbf/s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft\cdot lbf/s}}"
+    LaTeX: '\ensuremath{\mathrm{ft\cdot lbf/s}}'
     Unicode: "ft&#183;lbf/2"
   root_units:
     enumerated_root_units:
@@ -5279,7 +5279,7 @@
   unit_symbol:
     ASCII: "tex"
     HTML: "tex"
-    LaTeX: "\ensuremath{\mathrm{tex}}"
+    LaTeX: '\ensuremath{\mathrm{tex}}'
     Unicode: "tex"
   root_units:
     enumerated_root_units:
@@ -5300,7 +5300,7 @@
   unit_symbol:
     ASCII: "Torr"
     HTML: "Torr"
-    LaTeX: "\ensuremath{\mathrm{torr}}"
+    LaTeX: '\ensuremath{\mathrm{torr}}'
     Unicode: "torr"
   root_units:
     enumerated_root_units:
@@ -5335,7 +5335,7 @@
       mmH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{mmH_{2}O}}"
+    LaTeX: '\ensuremath{\mathrm{mmH_{2}O}}'
     Unicode: "mmH&#8322;O"
   root_units:
     enumerated_root_units:
@@ -5358,7 +5358,7 @@
   unit_symbol:
     ASCII: "cmHg"
     HTML: "cmHg"
-    LaTeX: "\ensuremath{\mathrm{cmHg}}"
+    LaTeX: '\ensuremath{\mathrm{cmHg}}'
     Unicode: "cmHg"
   root_units:
     enumerated_root_units:
@@ -5387,7 +5387,7 @@
 					>kgf&#8201;&#183;&#8201;m/s</span>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{kgf\cdot m/s}}"
+    LaTeX: '\ensuremath{\mathrm{kgf\cdot m/s}}'
     Unicode: "kgf&#183;m/s"
   root_units:
     enumerated_root_units:
@@ -5437,7 +5437,7 @@
       K <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
       >-1</sup>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{K^{-1}}}"
+    LaTeX: '\ensuremath{\mathrm{K^{-1}}}'
     Unicode: "K&#8315;&#185;"
   root_units:
     enumerated_root_units:
@@ -5462,7 +5462,7 @@
   unit_symbol:
     ASCII: "Pa*K^-1"
     HTML: "Pa/K"
-    LaTeX: "\ensuremath{\mathrm{Pa/K}}"
+    LaTeX: '\ensuremath{\mathrm{Pa/K}}'
     Unicode: "Pa/K"
   root_units:
     enumerated_root_units:
@@ -5492,7 +5492,7 @@
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">W/(m
 				<sup>2</sup>&#8201;&#183;&#8201;K)</span>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{W/(m^2\cdot K)}}"
+    LaTeX: '\ensuremath{\mathrm{W/(m^2\cdot K)}}'
 		Unicode: |
       m <sup xmlns=""
 				xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sup>&#183;K)
@@ -5525,7 +5525,7 @@
   unit_symbol:
     ASCII: "L"
     HTML: "L"
-    LaTeX: "\ensuremath{\mathrm{L}}"
+    LaTeX: '\ensuremath{\mathrm{L}}'
     Unicode: "L"
   root_units:
     enumerated_root_units:
@@ -5546,7 +5546,7 @@
   unit_symbol:
     ASCII: "Gi"
     HTML: "Gi"
-    LaTeX: "\ensuremath{\mathrm{Gi}}"
+    LaTeX: '\ensuremath{\mathrm{Gi}}'
     Unicode: "Gi"
   root_units:
     enumerated_root_units:
@@ -5567,7 +5567,7 @@
   unit_symbol:
     ASCII: "D"
     HTML: "D"
-    LaTeX: "\ensuremath{\mathrm{D}}"
+    LaTeX: '\ensuremath{\mathrm{D}}'
     Unicode: "D"
   root_units:
     enumerated_root_units:
@@ -5588,7 +5588,7 @@
   unit_symbol:
     ASCII: "aW (Cardelli)"
     HTML: "aW"
-    LaTeX: "\ensuremath{\mathrm{aW}}"
+    LaTeX: '\ensuremath{\mathrm{aW}}'
     Unicode: "aW"
   root_units:
     enumerated_root_units:
@@ -5609,7 +5609,7 @@
   unit_symbol:
     ASCII: "slug"
     HTML: "slug"
-    LaTeX: "\ensuremath{\mathrm{D}}"
+    LaTeX: '\ensuremath{\mathrm{D}}'
     Unicode: "slug"
   root_units:
     enumerated_root_units:
@@ -5636,7 +5636,7 @@
       cal <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{cal_th}}"
+    LaTeX: '\ensuremath{\mathrm{cal_th}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -5701,7 +5701,7 @@
   unit_symbol:
     ASCII: "cwt (US)"
     HTML: "cwt (US)"
-    LaTeX: "\ensuremath{\mathrm{cwt (US)}}"
+    LaTeX: '\ensuremath{\mathrm{cwt (US)}}'
     Unicode: "cwt (US)"
   root_units:
     enumerated_root_units:
@@ -5724,7 +5724,7 @@
   unit_symbol:
     ASCII: "oz"
     HTML: "oz"
-    LaTeX: "\ensuremath{\mathrm{oz}}"
+    LaTeX: '\ensuremath{\mathrm{oz}}'
     Unicode: "oz"
   root_units:
     enumerated_root_units:
@@ -5747,7 +5747,7 @@
   unit_symbol:
     ASCII: "lb"
     HTML: "lb"
-    LaTeX: "\ensuremath{\mathrm{lb}}"
+    LaTeX: '\ensuremath{\mathrm{lb}}'
     Unicode: "lb"
   root_units:
     enumerated_root_units:
@@ -5768,7 +5768,7 @@
   unit_symbol:
     ASCII: "dwt (troy)"
     HTML: "dwt (troy)"
-    LaTeX: "\ensuremath{\mathrm{dwt (troy)}}"
+    LaTeX: '\ensuremath{\mathrm{dwt (troy)}}'
     Unicode: "dwt (troy)"
   root_units:
     enumerated_root_units:
@@ -5791,7 +5791,7 @@
   unit_symbol:
     ASCII: "dr"
     HTML: "dr"
-    LaTeX: "\ensuremath{\mathrm{dr}}"
+    LaTeX: '\ensuremath{\mathrm{dr}}'
     Unicode: "dr"
   root_units:
     enumerated_root_units:
@@ -5813,7 +5813,7 @@
   unit_symbol:
     ASCII: "scr (ap.)"
     HTML: "scr (ap.)"
-    LaTeX: "\ensuremath{\mathrm{scr (ap.)}}"
+    LaTeX: '\ensuremath{\mathrm{scr (ap.)}}'
     Unicode: "scr (ap.)"
   root_units:
     enumerated_root_units:
@@ -5834,7 +5834,7 @@
   unit_symbol:
     ASCII: "pdl"
     HTML: "pdl"
-    LaTeX: "\ensuremath{\mathrm{pdl}}"
+    LaTeX: '\ensuremath{\mathrm{pdl}}'
     Unicode: "pdl"
   root_units:
     enumerated_root_units:
@@ -5857,7 +5857,7 @@
   unit_symbol:
     ASCII: "kip"
     HTML: "kip"
-    LaTeX: "\ensuremath{\mathrm{kip}}"
+    LaTeX: '\ensuremath{\mathrm{kip}}'
     Unicode: "kip"
   root_units:
     enumerated_root_units:
@@ -5878,7 +5878,7 @@
   unit_symbol:
     ASCII: "ton-force (2000 lb)"
     HTML: "ton-force (2000 lb)"
-    LaTeX: "\ensuremath{\mathrm{ton-force (2000 lb)}}"
+    LaTeX: '\ensuremath{\mathrm{ton-force (2000 lb)}}'
     Unicode: "ton-force (2000 lb)"
   root_units:
     enumerated_root_units:
@@ -5901,7 +5901,7 @@
   unit_symbol:
     ASCII: "barye"
     HTML: "barye"
-    LaTeX: "\ensuremath{\mathrm{barye}}"
+    LaTeX: '\ensuremath{\mathrm{barye}}'
     Unicode: "barye"
   root_units:
     enumerated_root_units:
@@ -5928,7 +5928,7 @@
   unit_symbol:
     ASCII: "eV"
     HTML: "eV"
-    LaTeX: "\ensuremath{\mathrm{eV}}"
+    LaTeX: '\ensuremath{\mathrm{eV}}'
     Unicode: "eV"
   root_units:
     enumerated_root_units:
@@ -5949,7 +5949,7 @@
   unit_symbol:
     ASCII: "u"
     HTML: "u"
-    LaTeX: "\ensuremath{\mathrm{u}}"
+    LaTeX: '\ensuremath{\mathrm{u}}'
     Unicode: "u"
   root_units:
     enumerated_root_units:
@@ -5980,7 +5980,7 @@
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">c</i>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{c}}"
+    LaTeX: '\ensuremath{\mathit{c}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_velocity"
@@ -6004,7 +6004,7 @@
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{\hbar}}"
+    LaTeX: '\ensuremath{\mathit{\hbar}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_action"
@@ -6029,7 +6029,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{m}_\mathrm{e}}"
+    LaTeX: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_mass"
@@ -6081,7 +6081,7 @@
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</i>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{e}}"
+    LaTeX: '\ensuremath{\mathit{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_charge"
@@ -6106,7 +6106,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{m}_\mathrm{e}}"
+    LaTeX: '\ensuremath{\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_mass"
@@ -6130,7 +6130,7 @@
 
       <i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">&#295;</i>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{\hbar}}"
+    LaTeX: '\ensuremath{\mathit{\hbar}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_action"
@@ -6155,7 +6155,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{a}_\mathrm{0}}"
+    LaTeX: '\ensuremath{\mathit{a}_\mathrm{0}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_length"
@@ -6178,7 +6178,7 @@
     HTML: |
 				<i xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">E</i>h
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{E}_\mathrm{h}}"
+    LaTeX: '\ensuremath{\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_energy"
@@ -6204,7 +6204,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">h</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}"
+    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_time"
@@ -6223,7 +6223,7 @@
     - "atomic unit of magnetizability"
   unit_symbol:
     ASCII: "e^2*a_0^2*m_e-1"
-    LaTeX: "\ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}"
+    LaTeX: '\ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetizability"
@@ -6242,7 +6242,7 @@
     - "atomic unit of magnetic flux density"
   unit_symbol:
     ASCII: "h-bar*(e*a_0^2)-1"
-    LaTeX: "\ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}"
+    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetic_flux_density"
@@ -6268,7 +6268,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">e</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}"
+    LaTeX: '\ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_magnetic_dipole_moment"
@@ -6294,7 +6294,7 @@
 				<sub xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">0</sub>
 
   unit_symbol:
-    LaTeX: "\ensuremath{\mathit{\hbar}/\mathit{a}_0}"
+    LaTeX: '\ensuremath{\mathit{\hbar}/\mathit{a}_0}'
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_momentum"
@@ -6506,7 +6506,7 @@
   unit_symbol:
     ASCII: "statohm"
     HTML: "statohm"
-    LaTeX: "\ensuremath{\mathrm{statohm}}"
+    LaTeX: '\ensuremath{\mathrm{statohm}}'
     Unicode: "statohm"
   root_units:
     enumerated_root_units:
@@ -6528,7 +6528,7 @@
   unit_symbol:
     ASCII: "statF"
     HTML: "statF"
-    LaTeX: "\ensuremath{\mathrm{statF}}"
+    LaTeX: '\ensuremath{\mathrm{statF}}'
     Unicode: "statF"
   root_units:
     enumerated_root_units:
@@ -6550,7 +6550,7 @@
   unit_symbol:
     ASCII: "statA"
     HTML: "statA"
-    LaTeX: "\ensuremath{\mathrm{statA}}"
+    LaTeX: '\ensuremath{\mathrm{statA}}'
     Unicode: "statA"
   root_units:
     enumerated_root_units:
@@ -6597,7 +6597,7 @@
   unit_symbol:
     ASCII: "statH"
     HTML: "statH"
-    LaTeX: "\ensuremath{\mathrm{statH}}"
+    LaTeX: '\ensuremath{\mathrm{statH}}'
     Unicode: "statH"
   root_units:
     enumerated_root_units:
@@ -6619,7 +6619,7 @@
   unit_symbol:
     ASCII: "statmho"
     HTML: "statmho"
-    LaTeX: "\ensuremath{\mathrm{statmho}}"
+    LaTeX: '\ensuremath{\mathrm{statmho}}'
     Unicode: "statmho"
   root_units:
     enumerated_root_units:
@@ -6641,7 +6641,7 @@
   unit_symbol:
     ASCII: "statcoulomb"
     HTML: "statcoulomb"
-    LaTeX: "\ensuremath{\mathrm{statcoulomb}}"
+    LaTeX: '\ensuremath{\mathrm{statcoulomb}}'
     Unicode: "statcoulomb"
   root_units:
     enumerated_root_units:
@@ -6664,7 +6664,7 @@
   unit_symbol:
     ASCII: "statWb"
     HTML: "statWb"
-    LaTeX: "\ensuremath{\mathrm{statWb}}"
+    LaTeX: '\ensuremath{\mathrm{statWb}}'
     Unicode: "statWb"
   root_units:
     enumerated_root_units:
@@ -6685,7 +6685,7 @@
   unit_symbol:
     ASCII: "statT"
     HTML: "statT"
-    LaTeX: "\ensuremath{\mathrm{statT}}"
+    LaTeX: '\ensuremath{\mathrm{statT}}'
     Unicode: "statT"
   root_units:
     enumerated_root_units:
@@ -6706,7 +6706,7 @@
   unit_symbol:
     ASCII: "statwatt"
     HTML: "statwatt"
-    LaTeX: "\ensuremath{\mathrm{statwatt}}"
+    LaTeX: '\ensuremath{\mathrm{statwatt}}'
     Unicode: "statwatt"
   root_units:
     enumerated_root_units:
@@ -6728,7 +6728,7 @@
   unit_symbol:
     ASCII: "dr (avdp)"
     HTML: "dr (avdp)"
-    LaTeX: "\ensuremath{\mathrm{dr~(avdp)}}"
+    LaTeX: '\ensuremath{\mathrm{dr~(avdp)}}'
     Unicode: "dr (avdp)"
   root_units:
     enumerated_root_units:
@@ -6765,7 +6765,7 @@
   unit_symbol:
     ASCII: "ft.L"
     HTML: "ft.L"
-    LaTeX: "\ensuremath{\mathrm{ft.L}}"
+    LaTeX: '\ensuremath{\mathrm{ft.L}}'
     Unicode: "ft.L"
   root_units:
     enumerated_root_units:
@@ -6860,7 +6860,7 @@
   unit_symbol:
     ASCII: "fath"
     HTML: "fath"
-    LaTeX: "\ensuremath{\mathrm{fath}}"
+    LaTeX: '\ensuremath{\mathrm{fath}}'
     Unicode: "fath"
   root_units:
     enumerated_root_units:
@@ -6897,7 +6897,7 @@
   unit_symbol:
     ASCII: "hp"
     HTML: "hp"
-    LaTeX: "\ensuremath{\mathrm{hp}}"
+    LaTeX: '\ensuremath{\mathrm{hp}}'
     Unicode: "hp"
   root_units:
     enumerated_root_units:
@@ -6968,7 +6968,7 @@
   unit_symbol:
     ASCII: "degR"
     HTML: "&#176;R"
-    LaTeX: "\ensuremath{mathrm{^{\circ}R}}"
+    LaTeX: '\ensuremath{mathrm{^{\circ}R}}'
     Unicode: "&#176;R"
   root_units:
     enumerated_root_units:
@@ -6989,7 +6989,7 @@
   unit_symbol:
     ASCII: "Da"
     HTML: "Da"
-    LaTeX: "\ensuremath{\mathrm{Da}}"
+    LaTeX: '\ensuremath{\mathrm{Da}}'
     Unicode: "Da"
   root_units:
     enumerated_root_units:
@@ -7230,7 +7230,7 @@
   unit_symbol:
     ASCII: "qt (UK)"
     HTML: "qt (UK)"
-    LaTeX: "\ensuremath{\mathrm{qt (UK)}}"
+    LaTeX: '\ensuremath{\mathrm{qt (UK)}}'
     Unicode: "qt (UK)"
   root_units:
     enumerated_root_units:
@@ -7252,7 +7252,7 @@
   unit_symbol:
     ASCII: "dry qt (US)"
     HTML: "dry qt (US)"
-    LaTeX: "\ensuremath{\mathrm{dry qt (US)}}"
+    LaTeX: '\ensuremath{\mathrm{dry qt (US)}}'
     Unicode: "dry qt (US)"
   root_units:
     enumerated_root_units:
@@ -7274,7 +7274,7 @@
   unit_symbol:
     ASCII: "liq qt (US)"
     HTML: "liq qt (US)"
-    LaTeX: "\ensuremath{\mathrm{liq qt (US)}}"
+    LaTeX: '\ensuremath{\mathrm{liq qt (US)}}'
     Unicode: "liq qt (US)"
   root_units:
     enumerated_root_units:
@@ -7416,7 +7416,7 @@
   unit_symbol:
     ASCII: "ch"
     HTML: "ch"
-    LaTeX: "\ensuremath{\mathrm{ch}}"
+    LaTeX: '\ensuremath{\mathrm{ch}}'
     Unicode: "ch"
   root_units:
     enumerated_root_units:
@@ -7475,7 +7475,7 @@
   unit_symbol:
     ASCII: "mi"
     HTML: "mi"
-    LaTeX: "\ensuremath{\mathrm{mi}}"
+    LaTeX: '\ensuremath{\mathrm{mi}}'
     Unicode: "mi"
   root_units:
     enumerated_root_units:
@@ -7497,7 +7497,7 @@
   unit_symbol:
     ASCII: "yd"
     HTML: "yd"
-    LaTeX: "\ensuremath{\mathrm{yd}}"
+    LaTeX: '\ensuremath{\mathrm{yd}}'
     Unicode: "yd"
   root_units:
     enumerated_root_units:
@@ -7520,7 +7520,7 @@
   unit_symbol:
     ASCII: "ft"
     HTML: "ft"
-    LaTeX: "\ensuremath{\mathrm{ft}}"
+    LaTeX: '\ensuremath{\mathrm{ft}}'
     Unicode: "ft"
   root_units:
     enumerated_root_units:
@@ -7542,7 +7542,7 @@
   unit_symbol:
     ASCII: "in"
     HTML: "in"
-    LaTeX: "\ensuremath{\mathrm{in}}"
+    LaTeX: '\ensuremath{\mathrm{in}}'
     Unicode: "in"
   root_units:
     enumerated_root_units:
@@ -7604,7 +7604,7 @@
       cmH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{cmH_{2}O}}"
+    LaTeX: '\ensuremath{\mathrm{cmH_{2}O}}'
     Unicode: "cmH&#8322;O"
   root_units:
     enumerated_root_units:
@@ -7633,7 +7633,7 @@
       inH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{inH_{2}O}}"
+    LaTeX: '\ensuremath{\mathrm{inH_{2}O}}'
     Unicode: "inH&#8322;O"
   root_units:
     enumerated_root_units:
@@ -7698,7 +7698,7 @@
       ftH <sub xmlns=""
 					xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">2</sub>O
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ftH_{2}O}}"
+    LaTeX: '\ensuremath{\mathrm{ftH_{2}O}}'
     Unicode: "ftH&#8322;O"
   root_units:
     enumerated_root_units:
@@ -7777,7 +7777,7 @@
   unit_symbol:
     ASCII: "inHg"
     HTML: "inHg"
-    LaTeX: "\ensuremath{\mathrm{inHg}}"
+    LaTeX: '\ensuremath{\mathrm{inHg}}'
     Unicode: "inHg"
   root_units:
     enumerated_root_units:
@@ -7802,7 +7802,7 @@
   unit_symbol:
     ASCII: "ftHg"
     HTML: "ftHg"
-    LaTeX: "\ensuremath{\mathrm{ftHg}}"
+    LaTeX: '\ensuremath{\mathrm{ftHg}}'
     Unicode: "ftHg"
   root_units:
     enumerated_root_units:
@@ -7851,7 +7851,7 @@
   unit_symbol:
     ASCII: "pH"
     HTML: "pH"
-    LaTeX: "\ensuremath{\mathrm{pH}}"
+    LaTeX: '\ensuremath{\mathrm{pH}}'
     Unicode: "pH"
   root_units:
     enumerated_root_units:
@@ -7872,7 +7872,7 @@
   unit_symbol:
     ASCII: "degF"
     HTML: "&#176;F"
-    LaTeX: "\ensuremath{\mathrm{^{\circ}F}}"
+    LaTeX: '\ensuremath{\mathrm{^{\circ}F}}'
     Unicode: "&#176;F"
   root_units:
     enumerated_root_units:
@@ -7895,7 +7895,7 @@
   unit_symbol:
     ASCII: "Btu"
     HTML: "Btu"
-    LaTeX: "\ensuremath{\mathrm{Btu}}"
+    LaTeX: '\ensuremath{\mathrm{Btu}}'
     Unicode: "Btu"
   root_units:
     enumerated_root_units:
@@ -7921,7 +7921,7 @@
       Btu <sub xmlns=""
       xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0">th</sub>
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{Btu_{th}}}"
+    LaTeX: '\ensuremath{\mathrm{Btu_{th}}}'
   root_units:
     enumerated_root_units:
       - unit: "thermo_btu"
@@ -7941,7 +7941,7 @@
   unit_symbol:
     ASCII: "Btu"
     HTML: "Btu"
-    LaTeX: "\ensuremath{\mathrm{Btu}}"
+    LaTeX: '\ensuremath{\mathrm{Btu}}'
     Unicode: "Btu"
   root_units:
     enumerated_root_units:
@@ -7962,7 +7962,7 @@
   unit_symbol:
     ASCII: "Btu"
     HTML: "Btu"
-    LaTeX: "\ensuremath{\mathrm{Btu}}"
+    LaTeX: '\ensuremath{\mathrm{Btu}}'
     Unicode: "Btu"
   root_units:
     enumerated_root_units:
@@ -7983,7 +7983,7 @@
   unit_symbol:
     ASCII: "Btu"
     HTML: "Btu"
-    LaTeX: "\ensuremath{\mathrm{Btu}}"
+    LaTeX: '\ensuremath{\mathrm{Btu}}'
     Unicode: "Btu"
   root_units:
     enumerated_root_units:
@@ -8004,7 +8004,7 @@
   unit_symbol:
     ASCII: "Btu"
     HTML: "Btu"
-    LaTeX: "\ensuremath{\mathrm{Btu}}"
+    LaTeX: '\ensuremath{\mathrm{Btu}}'
     Unicode: "Btu"
   root_units:
     enumerated_root_units:
@@ -8200,7 +8200,7 @@
   unit_symbol:
     ASCII: "lbmol"
     HTML: "lbmol"
-    LaTeX: "\ensuremath{\mathrm{lbmol}}"
+    LaTeX: '\ensuremath{\mathrm{lbmol}}'
     Unicode: "lbmol"
   root_units:
     enumerated_root_units:
@@ -8239,7 +8239,7 @@
   unit_symbol:
     ASCII: "bit"
     HTML: "bit"
-    LaTeX: "\ensuremath{\mathrm{bit}}"
+    LaTeX: '\ensuremath{\mathrm{bit}}'
     Unicode: "bit"
   root_units:
     enumerated_root_units:
@@ -8276,7 +8276,7 @@
   unit_symbol:
     ASCII: "pk"
     HTML: "pk"
-    LaTeX: "\ensuremath{\mathrm{pk}}"
+    LaTeX: '\ensuremath{\mathrm{pk}}'
     Unicode: "pk"
   root_units:
     enumerated_root_units:
@@ -8297,7 +8297,7 @@
   unit_symbol:
     ASCII: "min"
     HTML: "min"
-    LaTeX: "\ensuremath{\mathrm{min}}"
+    LaTeX: '\ensuremath{\mathrm{min}}'
     Unicode: "min"
   root_units:
     enumerated_root_units:
@@ -8354,7 +8354,7 @@
   unit_symbol:
     ASCII: "gi"
     HTML: "gi"
-    LaTeX: "\ensuremath{\mathrm{gi}}"
+    LaTeX: '\ensuremath{\mathrm{gi}}'
     Unicode: "gi"
   root_units:
     enumerated_root_units:
@@ -8377,7 +8377,7 @@
   unit_symbol:
     ASCII: "gi"
     HTML: "gi"
-    LaTeX: "\ensuremath{\mathrm{gi}}"
+    LaTeX: '\ensuremath{\mathrm{gi}}'
     Unicode: "gi"
   root_units:
     enumerated_root_units:
@@ -8398,7 +8398,7 @@
   unit_symbol:
     ASCII: "cSt"
     HTML: "cSt"
-    LaTeX: "\ensuremath{\mathrm{cSt}}"
+    LaTeX: '\ensuremath{\mathrm{cSt}}'
     Unicode: "cSt"
   root_units:
     enumerated_root_units:
@@ -8444,7 +8444,7 @@
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>3</sup>/min
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft^3/min}}"
+    LaTeX: '\ensuremath{\mathrm{ft^3/min}}'
     Unicode: "ft&#179;min"
   root_units:
     enumerated_root_units:
@@ -8473,7 +8473,7 @@
       ft <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
 					>3</sup>/sec
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{ft^3/sec}}"
+    LaTeX: '\ensuremath{\mathrm{ft^3/sec}}'
     Unicode: "ft&#179;sec"
   root_units:
     enumerated_root_units:
@@ -8502,7 +8502,7 @@
       in <sup xmlns="" xmlns:ns2="urn:oasis:names:tc:unitsml:schema:xsd:UnitsMLSchema-1.0"
     			>3</sup>/min
   unit_symbol:
-    LaTeX: "\ensuremath{\mathrm{in^3/min}}"
+    LaTeX: '\ensuremath{\mathrm{in^3/min}}'
     Unicode: "in&#179;min"
   root_units:
     enumerated_root_units:
@@ -8543,7 +8543,7 @@
   unit_symbol:
     ASCII: "mbar"
     HTML: "mbar"
-    LaTeX: "\ensuremath{\mathrm{mbar}}"
+    LaTeX: '\ensuremath{\mathrm{mbar}}'
     Unicode: "mbar"
   root_units:
     enumerated_root_units:
@@ -8569,8 +8569,8 @@
     ASCII: "mi/gal"
     HTML: "mpg"
     HTML: "mi/gal"
-    LaTeX: "\ensuremath{\mathrm{mpg}}"
-    LaTeX: "\ensuremath{\mathrm{mi/gal}}"
+    LaTeX: '\ensuremath{\mathrm{mpg}}'
+    LaTeX: '\ensuremath{\mathrm{mi/gal}}'
     Unicode: "mi/gal"
     Unicode: "mpg"
   root_units:
@@ -8599,8 +8599,8 @@
     ASCII: "gal*min^-1"
     HTML: "gpm"
     HTML: "gal/min"
-    LaTeX: "\ensurement{\mathrm{gpm}}"
-    LaTeX: "\ensurement{\mathrm{gal/min}}"
+    LaTeX: '\ensurement{\mathrm{gpm}}'
+    LaTeX: '\ensurement{\mathrm{gal/min}}'
     Unicode: "gal/min"
     Unicode: "gpm"
   root_units:
@@ -8628,8 +8628,8 @@
     ASCII: "ml"
     HTML: "mL"
     HTML: "ml"
-    LaTeX: "\ensuremath{\mathrm{mL}}"
-    LaTeX: "\ensuremath{\mathrm{ml}}"
+    LaTeX: '\ensuremath{\mathrm{mL}}'
+    LaTeX: '\ensuremath{\mathrm{ml}}'
     Unicode: "ml"
     Unicode: "mL"
   root_units:
@@ -8653,8 +8653,8 @@
     ASCII: "mol*L^-1"
     HTML: "mol/l"
     HTML: "mol/L"
-    LaTeX: "\ensuremath{\mathrm{mol/l}}"
-    LaTeX: "\ensuremath{\mathrm{mol/L}}"
+    LaTeX: '\ensuremath{\mathrm{mol/l}}'
+    LaTeX: '\ensuremath{\mathrm{mol/L}}'
     Unicode: "mol/L"
     Unicode: "mol/l"
   root_units:
@@ -8680,7 +8680,7 @@
   unit_symbol:
     ASCII: "mol*kg^-1"
     HTML: "mol/kg"
-    LaTeX: "\ensuremath{\mathrm{mol/kg}}"
+    LaTeX: '\ensuremath{\mathrm{mol/kg}}'
     Unicode: "mol/kg"
   root_units:
     enumerated_root_units:
@@ -8705,7 +8705,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "relative mass density"
@@ -8721,7 +8721,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "linear strain"
@@ -8737,7 +8737,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "shear strain"
@@ -8753,7 +8753,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "volume strain"
@@ -8769,7 +8769,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "Poisson number"
@@ -8785,7 +8785,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
   quantity_reference:
     - name: "dynamic friction factor"
@@ -8801,7 +8801,7 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
 
 "NISTu375":
@@ -8814,5 +8814,5 @@
   unit_symbol:
     ASCII: "1"
     HTML: "1"
-    LaTeX: "\ensuremath{\mathrm{1}}"
+    LaTeX: '\ensuremath{\mathrm{1}}'
     Unicode: "1"
