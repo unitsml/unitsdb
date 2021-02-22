@@ -5435,6 +5435,11 @@
   unit_name:
     - "short ton"
     - "ton"
+  unit_symbol:
+    ascii: "ton_short"
+    html: "t"
+    latex: \ensuremath{\mathrm{t}}
+    unicode: "t"
   root_units:
     enumerated_root_units:
       - unit: "short_ton"
@@ -5452,6 +5457,11 @@
   unit_name:
     - "long ton"
     - "ton"
+  unit_symbol:
+    ascii: "ton_long"
+    html: "t"
+    latex: \ensuremath{\mathrm{t}}
+    unicode: "t"
   root_units:
     enumerated_root_units:
       - unit: "long_ton"
