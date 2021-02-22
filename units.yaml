@@ -5503,7 +5503,7 @@
     - "troy ounce"
     - "ounce"
   unit_symbol:
-    ascii: "oz"
+    ascii: "oz_troy"
     html: "oz"
     latex: \ensuremath{\mathrm{oz}}
     unicode: "oz"
