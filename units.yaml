@@ -7559,7 +7559,7 @@
       - "&#8242;Hg"
     latex:
       - '\ensuremath{\mathrm{ftHg}}'
-      - "\ensuremath{\mathrm{'Hg}}"      
+      - \ensuremath{\mathrm{'Hg}}      
     unicode:
       - "ftHg"
       - "&#8242;Hg"
