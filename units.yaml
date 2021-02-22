@@ -2567,6 +2567,19 @@
     - "mil (length)"
     - "mil"
     - "thou"
+  unit_symbol:
+    ascii:
+      - "mil"
+      - "thou"
+    html:
+      - "mil"
+      - "thou"
+    latex:
+      - '\ensuremath{\mathrm{mil}}'
+      - '\ensuremath{\mathrm{thou}}'
+    unicode:
+      - "mil"
+      - "thou"
   root_units:
     enumerated_root_units:
       - unit: "inch"
