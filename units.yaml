@@ -5526,7 +5526,7 @@
     - "troy pound"
     - "pound"
   unit_symbol:
-    ascii: "lb"
+    ascii: "lb_troy"
     html: "lb"
     latex: \ensuremath{\mathrm{lb}}
     unicode: "lb"
