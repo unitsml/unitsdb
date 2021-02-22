@@ -1982,7 +1982,7 @@
   unit_name:
     - "rad (absorbed dose)"
   unit_symbol:
-    ascii: "rad"
+    ascii: "rad_radiation"
     html: "rad"
     latex: \ensuremath{\mathrm{rad}}
     unicode: "rad"
