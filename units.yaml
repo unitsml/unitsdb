@@ -4967,7 +4967,7 @@
   unit_name:
     - "inch cubed"
   unit_symbol:
-    ascii: "in^3"
+    ascii: "in_sectmod^3"
     html: |
       in <sup>3</sup>
     latex: \ensuremath{\mathrm{in^3}}
