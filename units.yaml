@@ -2821,6 +2821,11 @@
   unit_name:
     - "ton of TNT (energy equivalent)"
     - "ton"
+  unit_symbol:
+    ascii: "ton_TNT"
+    html: "ton"
+    latex: \ensuremath{\mathrm{ton}}
+    unicode: "ton"
   root_units:
     enumerated_root_units:
       - unit: "tons_of_tnt"
@@ -7919,6 +7924,11 @@
     - "ton of refrigeration (12 000 Btu_IT/h)"
     - "ton of refrigeration"
     - "ton"
+  unit_symbol:
+    ascii: "ton_refrigeration"
+    html: "ton"
+    latex: \ensuremath{\mathrm{ton}}
+    unicode: "ton"
   root_units:
     enumerated_root_units:
       - unit: "ton_refrigeration"
