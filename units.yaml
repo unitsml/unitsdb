@@ -7466,7 +7466,7 @@
       - "&#8243;Hg"
     latex:
       - '\ensuremath{\mathrm{inHg}}'
-      - "\ensuremath{\mathrm{''Hg}}"      
+      - \ensuremath{\mathrm{''Hg}}      
     unicode:
       - "inHg"
       - "&#8243;Hg"
@@ -7496,7 +7496,7 @@
       - "&#8243;Hg"
     latex:
       - '\ensuremath{\mathrm{inHg}}'
-      - "\ensuremath{\mathrm{''Hg}}"      
+      - \ensuremath{\mathrm{''Hg}}      
     unicode:
       - "inHg"
       - "&#8243;Hg"
@@ -7528,7 +7528,7 @@
       - "&#8243;Hg"
     latex:
       - '\ensuremath{\mathrm{inHg}}'
-      - "\ensuremath{\mathrm{''Hg}}"      
+      - \ensuremath{\mathrm{''Hg}}      
     unicode:
       - "inHg"
       - "&#8243;Hg"
