@@ -2423,6 +2423,11 @@
     name: "non-SI"
   unit_name:
     - "therm (EC)"
+  unit_symbol:
+    ascii: "thm (EC)"
+    html: "thm (EC)"
+    latex: \ensuremath{\mathrm{thm (EC)}}
+    unicode: "thm (EC)"
   root_units:
     enumerated_root_units:
       - unit: "ec_therm"
@@ -7476,6 +7481,11 @@
     name: "non-SI"
   unit_name:
     - "therm (US)"
+  unit_symbol:
+    ascii: "thm (US)"
+    html: "thm (US)"
+    latex: \ensuremath{\mathrm{thm (US)}}
+    unicode: "thm (US)"
   root_units:
     enumerated_root_units:
       - unit: "us_therm"
