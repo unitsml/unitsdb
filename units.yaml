@@ -3953,6 +3953,11 @@
     name: "non-SI"
   unit_name:
     - "centimeter of mercury (0 degC)"
+  unit_symbol:
+    ascii: "cmHg_0degC"
+    html: "cmHg"
+    latex: \ensuremath{\mathrm{cmHg}}
+    unicode: "cmHg"
   root_units:
     enumerated_root_units:
       - unit: "0C_cm_Hg"
@@ -7453,6 +7458,18 @@
     name: "non-SI"
   unit_name:
     - "inch of mercury (32 degF)"
+  unit_symbol:
+    ascii:
+      - "inHg_32degF"
+    html:
+      - "inHg"
+      - "&#8243;Hg"
+    latex:
+      - '\ensuremath{\mathrm{inHg}}'
+      - "\ensuremath{\mathrm{''Hg}}"      
+    unicode:
+      - "inHg"
+      - "&#8243;Hg"
   root_units:
     enumerated_root_units:
       - unit: "32F_in_Hg"
@@ -7471,6 +7488,18 @@
     name: "non-SI"
   unit_name:
     - "inch of mercury (60 degF)"
+  unit_symbol:
+    ascii:
+      - "inHg_60degF"
+    html:
+      - "inHg"
+      - "&#8243;Hg"
+    latex:
+      - '\ensuremath{\mathrm{inHg}}'
+      - "\ensuremath{\mathrm{''Hg}}"      
+    unicode:
+      - "inHg"
+      - "&#8243;Hg"
   root_units:
     enumerated_root_units:
       - unit: "60F_in_Hg"
@@ -7492,10 +7521,17 @@
     - "inch of mercury, conventional"
     - "inch of mercury"
   unit_symbol:
-    ascii: "inHg"
-    html: "inHg"
-    latex: \ensuremath{\mathrm{inHg}}
-    unicode: "inHg"
+    ascii:
+      - "inHg"
+    html:
+      - "inHg"
+      - "&#8243;Hg"
+    latex:
+      - '\ensuremath{\mathrm{inHg}}'
+      - "\ensuremath{\mathrm{''Hg}}"      
+    unicode:
+      - "inHg"
+      - "&#8243;Hg"
   root_units:
     enumerated_root_units:
       - unit: "in_Hg"
@@ -7518,9 +7554,15 @@
     - "foot of mercury"
   unit_symbol:
     ascii: "ftHg"
-    html: "ftHg"
-    latex: \ensuremath{\mathrm{ftHg}}
-    unicode: "ftHg"
+    html:
+      - "ftHg"
+      - "&#8242;Hg"
+    latex:
+      - '\ensuremath{\mathrm{ftHg}}'
+      - "\ensuremath{\mathrm{'Hg}}"      
+    unicode:
+      - "ftHg"
+      - "&#8242;Hg"
   root_units:
     enumerated_root_units:
       - unit: "ft_Hg"
