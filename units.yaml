@@ -2302,7 +2302,6 @@
     ascii: "m^3*kg"
     html: |
       m <sup>3</sup>/kg
-  unit_symbol:
     latex: \ensuremath{\mathrm{m^3/kg}}
     unicode: "m&#179;&#183;kg"
   root_units:
@@ -4611,7 +4610,6 @@
     ascii: "m^2*s^-1"
     html: |
       m <sup>2</sup>/s
-  unit_symbol:
     latex: \ensuremath{\mathrm{m^2/s}}
     unicode: "m&#178;/s"
   root_units:
@@ -4662,7 +4660,6 @@
     ascii: "m^3*s^-1"
     html: |
       m <sup>3</sup>/s
-  unit_symbol:
     latex: \ensuremath{\mathrm{m^3/s}}
     unicode: "m&#179;/s"
   root_units:
@@ -4947,7 +4944,6 @@
     ascii: "ft^2*s^-1"
     html: |
       ft <sup>2</sup>/s
-  unit_symbol:
     latex: \ensuremath{\mathrm{ft^2/s}}
     unicode: "ft&#178;/s"
   root_units:
@@ -5071,7 +5067,6 @@
     ascii: "mmH_2O"
     html: |
       mmH <sub>2</sub>O
-  unit_symbol:
     latex: \ensuremath{\mathrm{mmH_{2}O}}
     unicode: "mmH&#8322;O"
   root_units:
@@ -7269,7 +7264,6 @@
     ascii: "cmH_2O"
     html: |
       cmH <sub>2</sub>O
-  unit_symbol:
     latex: \ensuremath{\mathrm{cmH_{2}O}}
     unicode: "cmH&#8322;O"
   root_units:
@@ -7296,7 +7290,6 @@
     ascii: "inH_2O"
     html: |
       inH <sub>2</sub>O
-  unit_symbol:
     latex: \ensuremath{\mathrm{inH_{2}O}}
     unicode: "inH&#8322;O"
   root_units:
@@ -7359,7 +7352,6 @@
     ascii: "ftH_2O"
     html: |
       ftH <sub>2</sub>O
-  unit_symbol:
     latex: \ensuremath{\mathrm{ftH_{2}O}}
     unicode: "ftH&#8322;O"
   root_units:
@@ -8100,7 +8092,6 @@
     ascii: "ft^3*min^-1"
     html: |
       ft <sup>3</sup>/min
-  unit_symbol:
     latex: \ensuremath{\mathrm{ft^3/min}}
     unicode: "ft&#179;min"
   root_units:
@@ -8126,7 +8117,6 @@
     ascii: "ft^3*sec^-1"
     html: |
       ft <sup>3</sup>/sec
-  unit_symbol:
     latex: \ensuremath{\mathrm{ft^3/sec}}
     unicode: "ft&#179;sec"
   root_units:
