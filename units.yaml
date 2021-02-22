@@ -3524,7 +3524,9 @@
   unit_name:
     - "degree (degree of arc)"
   unit_symbol:
+    ascii: "deg"
     html: "&#186;"
+    latex: \ensuremath{\mathrm{^{\circ}}}
     unicode: "&#186;"
   root_units:
     enumerated_root_units:
