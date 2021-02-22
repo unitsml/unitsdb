@@ -5043,6 +5043,11 @@
     - "carat"
     - "metric carat"
     - "carat, metric"
+  unit_symbol:
+    ascii: "ct"
+    html: "ct"
+    latex: \ensuremath{\mathrm{ct}}
+    unicode: "ct"
   root_units:
     enumerated_root_units:
       - unit: "carat"
