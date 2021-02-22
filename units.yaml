@@ -2685,6 +2685,11 @@
   unit_name:
     - "horsepower, electric"
     - "electric horsepower"
+  unit_symbol:
+    ascii: "hp_electric"
+    html: "hp"
+    latex: \ensuremath{\mathrm{hp}}
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "electric_horsepower"
@@ -5158,6 +5163,11 @@
   unit_name:
     - "horsepower, metric"
     - "metric horsepower"
+  unit_symbol:
+    ascii: "hp_metric"
+    html: "hp"
+    latex: \ensuremath{\mathrm{hp}}
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "metric_horsepower"
@@ -6605,6 +6615,11 @@
   unit_name:
     - "horsepower, boiler"
     - "boiler horsepower"
+  unit_symbol:
+    ascii: "hp_boiler"
+    html: "hp"
+    latex: \ensuremath{\mathrm{hp}}
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "boiler_horsepower"
@@ -6622,6 +6637,11 @@
   unit_name:
     - "horsepower, water"
     - "water horsepower"
+  unit_symbol:
+    ascii: "hp_water"
+    html: "hp"
+    latex: \ensuremath{\mathrm{hp}}
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "water_horsepower"
@@ -6638,6 +6658,11 @@
     name: "non-SI"
   unit_name:
     - "horsepower (UK)"
+  unit_symbol:
+    ascii: "hp_UK"
+    html: "hp"
+    latex: \ensuremath{\mathrm{hp}}
+    unicode: "hp"
   root_units:
     enumerated_root_units:
       - unit: "uk_horsepower"
