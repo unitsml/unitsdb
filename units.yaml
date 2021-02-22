@@ -1562,7 +1562,6 @@
     ascii: "kcal_th*s^-1"
     html: |
       kcal <sub>th</sub>/s
-  unit_symbol:
     latex: \ensuremath{\mathrm{kcal_{th}}}
   root_units:
     enumerated_root_units:
@@ -1590,7 +1589,6 @@
     ascii: "cal_th*s^-1"
     html: |
       cal <sub>th</sub>/s
-  unit_symbol:
     latex: \ensuremath{\mathrm{cal_{th}}}
   root_units:
     enumerated_root_units:
