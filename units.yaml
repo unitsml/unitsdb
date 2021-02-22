@@ -2025,7 +2025,7 @@
     - "year (365 days)"
     - "year"
   unit_symbol:
-    ascii: "a"
+    ascii: "a_year"
     html: "a"
     latex: \ensuremath{\mathrm{a}}
     unicode: "a"
