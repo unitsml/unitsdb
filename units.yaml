@@ -3759,8 +3759,7 @@
     - "darcy"
   unit_symbol:
     ascii:
-      - "d_darcy"
-      - "D"
+      - "darcy"
     html:
       - "d"
       - "D"
