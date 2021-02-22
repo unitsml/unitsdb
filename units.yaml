@@ -2497,7 +2497,7 @@
   unit_name:
     - "kayser"
   unit_symbol:
-    ascii: "K"
+    ascii: "K_kayser"
     html: "K"
     latex: \ensuremath{\mathrm{K}}
     unicode: "K"
