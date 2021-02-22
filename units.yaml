@@ -3518,7 +3518,7 @@
   unit_name:
     - "second (second of arc)"
   unit_symbol:
-    ascii: """
+    ascii: "\""
     html: "&#8243;"
     latex: \ensuremath{\mathrm{''}}
     unicode: "&#8243;"
