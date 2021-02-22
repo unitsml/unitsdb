@@ -3757,6 +3757,19 @@
     name: "non-SI"
   unit_name:
     - "darcy"
+  unit_symbol:
+    ascii:
+      - "d"
+      - "D"
+    html:
+      - "d"
+      - "D"
+    latex:
+      - '\ensuremath{\mathrm{d}}'
+      - '\ensuremath{\mathrm{D}}'
+    unicode:
+      - "d"
+      - "D"
   root_units:
     enumerated_root_units:
       - unit: "darcy"
