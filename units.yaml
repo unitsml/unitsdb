@@ -3939,7 +3939,6 @@
       - unit: "meter"
         power_denominator: 1
         power_numerator: -2
-    enumerated_root_units:
       - unit: "steradian"
         power_denominator: 1
         power_numerator: -1
