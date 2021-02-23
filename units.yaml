@@ -5439,7 +5439,7 @@
     - id: "N*m^2*kg^-2"
       ascii: "N*m^2*kg^-2"
       html: N&#8201;&#183;&#8201;m<sup>2</sup>/kg&nbsp;<sup>2</sup>
-      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><msup><mrow><mi mathvariant='normal'>kg</mi></mrow><mrow><mn>2</mn></mrow></msup</mrow>"
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><msup><mrow><mi mathvariant='normal'>kg</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{N\cdot m^2/kg^2}}
       unicode: "N·m²/kg²"
   root_units:
