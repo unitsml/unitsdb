@@ -12,6 +12,7 @@
     - id: "m"
       ascii: "m"
       html: "m"
+      mathml: "<mi mathvariant='normal'>m</mi>"
       latex: \ensuremath{\mathrm{m}}
       unicode: "m"
   root_units:
@@ -62,6 +63,7 @@
     - id: "cd"
       ascii: "cd"
       html: "cd"
+      mathml: "<mi mathvariant='normal'>cd</mi>"
       latex: \ensuremath{\mathrm{cd}}
       unicode: "cd"
   root_units:
@@ -86,6 +88,7 @@
     - id: "kg"
       ascii: "kg"
       html: "kg"
+      mathml: "<mi mathvariant='normal'>kg</mi>"
       latex: \ensuremath{\mathrm{kg}}
       unicode: "kg"
   root_units:
@@ -111,6 +114,7 @@
     - id: "s"
       ascii: "s"
       html: "s"
+      mathml: "<mi mathvariant='normal'>s</mi>"
       latex: \ensuremath{\mathrm{s}}
       unicode: "s"
   root_units:
@@ -139,6 +143,7 @@
     - id: "mol"
       ascii: "mol"
       html: "mol"
+      mathml: "<mi mathvariant='normal'>mol</mi>"
       latex: \ensuremath{\mathrm{mol}}
       unicode: "mol"
   root_units:
@@ -163,6 +168,7 @@
     - id: "A"
       ascii: "A"
       html: "A"
+      mathml: "<mi mathvariant='normal'>A</mi>"
       latex: \ensuremath{\mathrm{A}}
       unicode: "A"
   root_units:
@@ -187,6 +193,7 @@
     - id: "K"
       ascii: "K"
       html: "K"
+      mathml: "<mi mathvariant='normal'>K</mi>"
       latex: \ensuremath{\mathrm{K}}
       unicode: "K"
   root_units:
@@ -211,6 +218,7 @@
     - id: "in"
       ascii: "in"
       html: "in"
+      mathml: "<mi mathvariant='normal'>in</mi>"
       latex: \ensuremath{\mathrm{in}}
       unicode: "in"
   root_units:
@@ -237,6 +245,7 @@
     - id: "rad"
       ascii: "rad"
       html: "rad"
+      mathml: "<mi mathvariant='normal'>rad</mi>"
       latex: \ensuremath{\mathrm{rad}}
       unicode: "rad"
   root_units:
@@ -269,6 +278,7 @@
     - id: "sr"
       ascii: "sr"
       html: "sr"
+      mathml: "<mi mathvariant='normal'>sr</mi>"
       latex: \ensuremath{\mathrm{sr}}
       unicode: "sr"
   root_units:
@@ -300,6 +310,7 @@
     - id: "N"
       ascii: "N"
       html: "N"
+      mathml: "<mi mathvariant='normal'>N</mi>"
       latex: \ensuremath{\mathrm{N}}
       unicode: "N"
   root_units:
@@ -335,6 +346,7 @@
     - id: "Pa"
       ascii: "Pa"
       html: "Pa"
+      mathml: "<mi mathvariant='normal'>Pa</mi>"
       latex: \ensuremath{\mathrm{Pa}}
       unicode: "Pa"
   root_units:
@@ -382,6 +394,7 @@
     - id: "J"
       ascii: "J"
       html: "J"
+      mathml: "<mi mathvariant='normal'>J</mi>"
       latex: \ensuremath{\mathrm{J}}
       unicode: "J"
   root_units:
@@ -431,6 +444,7 @@
     - id: "W"
       ascii: "W"
       html: "W"
+      mathml: "<mi mathvariant='normal'>W</mi>"
       latex: \ensuremath{\mathrm{W}}
       unicode: "W"
   root_units:
@@ -468,6 +482,7 @@
     - id: "C"
       ascii: "C"
       html: "C"
+      mathml: "<mi mathvariant='normal'>C</mi>"
       latex: \ensuremath{\mathrm{C}}
       unicode: "C"
   root_units:
@@ -502,6 +517,7 @@
     - id: "V"
       ascii: "V"
       html: "V"
+      mathml: "<mi mathvariant='normal'>V</mi>"
       latex: \ensuremath{\mathrm{V}}
       unicode: "V"
   root_units:
@@ -542,6 +558,7 @@
     - id: "F"
       ascii: "F"
       html: "F"
+      mathml: "<mi mathvariant='normal'>F</mi>"
       latex: \ensuremath{\mathrm{F}}
       unicode: "F"
   root_units:
@@ -580,6 +597,7 @@
     - id: "Ohm"
       ascii: "Ohm"
       html: "&#8486;"
+      mathml: "<mi mathvariant='normal'>&#8486;</mi>"
       latex: \ensuremath{\mathrm{\Omega}}
       unicode: Ω
   root_units:
@@ -618,6 +636,7 @@
     - id: "S"
       ascii: "S"
       html: "S"
+      mathml: "<mi mathvariant='normal'>S</mi>"
       latex: \ensuremath{\mathrm{S}}
       unicode: "S"
   root_units:
@@ -656,6 +675,7 @@
     - id: "Wb"
       ascii: "Wb"
       html: "Wb"
+      mathml: "<mi mathvariant='normal'>Wb</mi>"
       latex: \ensuremath{\mathrm{Wb}}
       unicode: "Wb"
   root_units:
@@ -694,6 +714,7 @@
     - id: "T"
       ascii: "T"
       html: "T"
+      mathml: "<mi mathvariant='normal'>T</mi>"
       latex: \ensuremath{\mathrm{T}}
       unicode: "T"
   root_units:
@@ -729,6 +750,7 @@
     - id: "H"
       ascii: "H"
       html: "H"
+      mathml: "<mi mathvariant='normal'>H</mi>"
       latex: \ensuremath{\mathrm{H}}
       unicode: "H"
   root_units:
@@ -767,6 +789,7 @@
     - id: "m^2"
       ascii: "m^2"
       html: m<sup>2</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{m^2}}
       unicode: "m²"
   root_units:
@@ -791,6 +814,7 @@
     - id: "degC"
       ascii: "degC"
       html: "&#176;C"
+      mathml: "<mi mathvariant='normal'>&#176;C</mi>"
       latex: \ensuremath{\mathrm{^{\circ}C}}
       unicode: "°C"
   root_units:
@@ -820,6 +844,7 @@
     - id: "Bq"
       ascii: "Bq"
       html: "Bq"
+      mathml: "<mi mathvariant='normal'>Bq</mi>"
       latex: \ensuremath{\mathrm{Bq}}
       unicode: "Bq"
   root_units:
@@ -849,6 +874,7 @@
     - id: "fermi"
       ascii: "fermi"
       html: "fermi"
+      mathml: "<mi mathvariant='normal'>fermi</mi>"
       latex: \ensuremath{\mathrm{fermi}}
       unicode: "fermi"
   root_units:
@@ -876,6 +902,7 @@
     - id: "g"
       ascii: "g"
       html: "g"
+      mathml: "<mi mathvariant='normal'>g</mi>"
       latex: \ensuremath{\mathrm{g}}
       unicode: "g"
   root_units:
@@ -900,6 +927,7 @@
     - id: "Gy"
       ascii: "Gy"
       html: "Gy"
+      mathml: "<mi mathvariant='normal'>Gy</mi>"
       latex: \ensuremath{\mathrm{Gy}}
       unicode: "Gy"
   root_units:
@@ -936,6 +964,7 @@
     - id: "Sv"
       ascii: "Sv"
       html: "Sv"
+      mathml: "<mi mathvariant='normal'>Sv</mi>"
       latex: \ensuremath{\mathrm{Sv}}
       unicode: "Sv"
   root_units:
@@ -968,6 +997,7 @@
     - id: "kat"
       ascii: "kat"
       html: "kat"
+      mathml: "<mi mathvariant='normal'>kat</mi>"
       latex: \ensuremath{\mathrm{kat}}
       unicode: "kat"
   root_units:
@@ -1000,6 +1030,7 @@
     - id: "Hz"
       ascii: "Hz"
       html: "Hz"
+      mathml: "<mi mathvariant='normal'>Hz</mi>"
       latex: \ensuremath{\mathrm{Hz}}
       unicode: "Hz"
   root_units:
@@ -1029,6 +1060,7 @@
     - id: "lm"
       ascii: "lm"
       html: "lm"
+      mathml: "<mi mathvariant='normal'>lm</mi>"
       latex: \ensuremath{\mathrm{lm}}
       unicode: "lm"
   root_units:
@@ -1058,6 +1090,7 @@
     - id: "lx"
       ascii: "lx"
       html: "lx"
+      mathml: "<mi mathvariant='normal'>lx</mi>"
       latex: \ensuremath{\mathrm{lx}}
       unicode: "lx"
   root_units:
@@ -1090,6 +1123,7 @@
     - id: "m*s^-1"
       ascii: "m*s^-1"
       html: "m/s"
+      mathml: "<mrow><mi mathvariant='normal'>m</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{m/s}}
       unicode: "m·s⁻¹"
   root_units:
@@ -1124,6 +1158,7 @@
     - id: "m^3"
       ascii: "m^3"
       html: m<sup>3</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{m^3}}
       unicode: "m³"
   root_units:
@@ -1150,6 +1185,7 @@
     - id: "min"
       ascii: "min"
       html: "min"
+      mathml: "<mi mathvariant='normal'>min</mi>"
       latex: \ensuremath{\mathrm{min}}
       unicode: "min"
   root_units:
@@ -1174,6 +1210,7 @@
     - id: "h"
       ascii: "h"
       html: "h"
+      mathml: "<mi mathvariant='normal'>h</mi>"
       latex: \ensuremath{\mathrm{h}}
       unicode: "h"
   root_units:
@@ -1198,6 +1235,7 @@
     - id: "d"
       ascii: "d"
       html: "d"
+      mathml: "<mi mathvariant='normal'>d</mi>"
       latex: \ensuremath{\mathrm{d}}
       unicode: "d"
   root_units:
@@ -1222,6 +1260,7 @@
     - id: "Aring"
       ascii: "Aring"
       html: "&#197;"
+      mathml: "<mi mathvariant='normal'>&#197;</mi>"
       latex: \ensuremath{\mathrm{\AA}}
       unicode: "Å"
   root_units:
@@ -1248,6 +1287,7 @@
     - id: "a"
       ascii: "a"
       html: "a"
+      mathml: "<mi mathvariant='normal'>a</mi>"
       latex: \ensuremath{\mathrm{a}}
       unicode: "a"
   root_units:
@@ -1272,6 +1312,7 @@
     - id: "b"
       ascii: "b"
       html: "b"
+      mathml: "<mi mathvariant='normal'>b</mi>"
       latex: \ensuremath{\mathrm{b}}
       unicode: "b"
   root_units:
@@ -1296,6 +1337,7 @@
     - id: "ha"
       ascii: "ha"
       html: "ha"
+      mathml: "<mi mathvariant='normal'>ha</mi>"
       latex: \ensuremath{\mathrm{ha}}
       unicode: "ha"
   root_units:
@@ -1320,6 +1362,7 @@
     - id: "ft^2"
       ascii: "ft^2"
       html: ft<sup>2</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>2</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{ft^2}}
       unicode: "ft²"
   root_units:
@@ -1344,6 +1387,7 @@
     - id: "in^2"
       ascii: "in^2"
       html: in<sup>2</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>2</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{in^2}}
       unicode: "in²"
   root_units:
@@ -1369,6 +1413,7 @@
     - id: "abA"
       ascii: "abA"
       html: "abA"
+      mathml: "<mi mathvariant='normal'>abA</mi>"
       latex: \ensuremath{\mathrm{abA}}
       unicode: "abA"
   root_units:
@@ -1393,6 +1438,7 @@
     - id: "abC"
       ascii: "abC"
       html: "abC"
+      mathml: "<mi mathvariant='normal'>abC</mi>"
       latex: \ensuremath{\mathrm{abC}}
       unicode: "abC"
   root_units:
@@ -1420,6 +1466,7 @@
     - id: "abF"
       ascii: "abF"
       html: "abF"
+      mathml: "<mi mathvariant='normal'>abF</mi>"
       latex: \ensuremath{\mathrm{abF}}
       unicode: "abF"
   root_units:
@@ -1445,6 +1492,7 @@
     - id: "abH"
       ascii: "abH"
       html: "abH"
+      mathml: "<mi mathvariant='normal'>abH</mi>"
       latex: \ensuremath{\mathrm{abH}}
       unicode: "abH"
   root_units:
@@ -1469,6 +1517,7 @@
     - id: "abS"
       ascii: "abS"
       html: (ab&#937;) <sup>-1</sup>
+      mathml: "<mi mathvariant='normal'>(ab&#937;) <sup>-1</sup></mi>"
       latex: \ensuremath{\mathrm{(ab\Omega)^{-1}}
       unicode: "(abΩ)⁻¹"
   root_units:
@@ -1494,6 +1543,7 @@
     - id: "abohm"
       ascii: "abohm"
       html: "ab&#937;"
+      mathml: "<mi mathvariant='normal'>ab&#937;</mi>"
       latex: \ensuremath{\mathrm{ab\Omega}}
       unicode: "abΩ"
   root_units:
@@ -1519,6 +1569,7 @@
     - id: "abV"
       ascii: "abV"
       html: "abV"
+      mathml: "<mi mathvariant='normal'>abV</mi>"
       latex: \ensuremath{\mathrm{abV}}
       unicode: "abV"
   root_units:
@@ -1545,6 +1596,7 @@
     - id: "A*h"
       ascii: "A*h"
       html: A&#8201;&#183;&#8201;h
+      mathml: "<mrow><mi mathvariant='normal'>A</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
       latex: \ensuremath{\mathrm{A\cdot h}}
       unicode: "A·h"
   root_units:
@@ -1574,6 +1626,7 @@
     - id: "Bi"
       ascii: "Bi"
       html: "Bi"
+      mathml: "<mi mathvariant='normal'>Bi</mi>"
       latex: \ensuremath{\mathrm{Bi}}
       unicode: "Bi"
   root_units:
@@ -1598,6 +1651,7 @@
     - id: "Mx"
       ascii: "Mx"
       html: "Mx"
+      mathml: "<mi mathvariant='normal'>Mx</mi>"
       latex: \ensuremath{\mathrm{Mx}}
       unicode: "Mx"
   root_units:
@@ -1622,6 +1676,7 @@
     - id: "erg"
       ascii: "erg"
       html: "erg"
+      mathml: "<mi mathvariant='normal'>erg</mi>"
       latex: \ensuremath{\mathrm{erg}}
       unicode: "erg"
   root_units:
@@ -1656,6 +1711,7 @@
     - id: "kW*h"
       ascii: "kW*h"
       html: kW&#8201;&#183;&#8201;h
+      mathml: "<mrow><mi mathvariant='normal'>kW</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
       latex: \ensuremath{\mathrm{kW\cdot h}}
       unicode: "kW·h"
   root_units:
@@ -1696,6 +1752,7 @@
     - id: "cal_IT"
       ascii: "cal_IT"
       html: cal<sub>IT</sub>
+      mathml: "<msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>IT</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{cal_{IT}}}
       unicode: cal_IT
   root_units:
@@ -1730,6 +1787,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -1749,6 +1807,7 @@
     - id: "kcal_IT"
       ascii: "kcal_IT"
       html: kcal<sub>IT</sub>
+      mathml: "<msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>IT</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{kcal_{IT}}}
       unicode: "kcal_IT"
   root_units:
@@ -1783,6 +1842,7 @@
     - id: "kcal_th"
       ascii: "kcal_th"
       html: kcal<sub>th</sub>
+      mathml: "<msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{kcal_{th}}}
       unicode: "kcal_th"
   root_units:
@@ -1817,6 +1877,7 @@
     - id: "W*h"
       ascii: "W*h"
       html: W&#8201;&#183;&#8201;h
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
       latex: \ensuremath{\mathrm{W\cdot h}}
       unicode: "W·h"
   root_units:
@@ -1854,6 +1915,7 @@
     - id: "W*s"
       ascii: "W*s"
       html: W&#8201;&#183;&#8201;s
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{W\cdot s}}
       unicode: "W·s"
   root_units:
@@ -1891,6 +1953,7 @@
     - id: "dyn"
       ascii: "dyn"
       html: "dyn"
+      mathml: "<mi mathvariant='normal'>dyn</mi>"
       latex: \ensuremath{\mathrm{dyn}}
       unicode: "dyn"
   root_units:
@@ -1915,6 +1978,7 @@
     - id: "kgf"
       ascii: "kgf"
       html: "kgf"
+      mathml: "<mi mathvariant='normal'>kgf</mi>"
       latex: \ensuremath{\mathrm{kgf}}
       unicode: "kgf"
   root_units:
@@ -1940,6 +2004,7 @@
     - id: "kp"
       ascii: "kp"
       html: "kp"
+      mathml: "<mi mathvariant='normal'>kp</mi>"
       latex: \ensuremath{\mathrm{kp}}
       unicode: "kp"
   root_units:
@@ -1964,6 +2029,7 @@
     - id: "kcal_th*s^-1"
       ascii: "kcal_th*s^-1"
       html: kcal<sub>th</sub>/s
+      mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kcal_{th}}}
       unicode: "kcal_th/s"
   root_units:
@@ -1994,6 +2060,7 @@
     - id: "cal_th*s^-1"
       ascii: "cal_th*s^-1"
       html: cal<sub>th</sub>/s
+      mathml: "<mrow><msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{cal_{th}}}
       unicode: "cal_th/s"
   root_units:
@@ -2023,6 +2090,7 @@
     - id: "ft"
       ascii: "ft"
       html: "ft"
+      mathml: "<mi mathvariant='normal'>ft</mi>"
       latex: \ensuremath{\mathrm{ft}}
       unicode: "ft"
   root_units:
@@ -2049,6 +2117,7 @@
     - id: "mi"
       ascii: "mi"
       html: "mi"
+      mathml: "<mi mathvariant='normal'>mi</mi>"
       latex: \ensuremath{\mathrm{mi}}
       unicode: "mi"
   root_units:
@@ -2075,6 +2144,7 @@
     - id: "yd"
       ascii: "yd"
       html: "yd"
+      mathml: "<mi mathvariant='normal'>yd</mi>"
       latex: \ensuremath{\mathrm{yd}}
       unicode: "yd"
   root_units:
@@ -2101,6 +2171,7 @@
     - id: "ph"
       ascii: "ph"
       html: "ph"
+      mathml: "<mi mathvariant='normal'>ph</mi>"
       latex: \ensuremath{\mathrm{ph}}
       unicode: "ph"
   root_units:
@@ -2128,6 +2199,7 @@
     - id: "gr"
       ascii: "gr"
       html: "gr"
+      mathml: "<mi mathvariant='normal'>gr</mi>"
       latex: \ensuremath{\mathrm{gr}}
       unicode: "gr"
   root_units:
@@ -2153,6 +2225,7 @@
     - id: "t"
       ascii: "t"
       html: "t"
+      mathml: "<mi mathvariant='normal'>t</mi>"
       latex: \ensuremath{\mathrm{t}}
       unicode: "t"
   root_units:
@@ -2177,6 +2250,7 @@
     - id: "erg*s^-1"
       ascii: "erg*s^-1"
       html: "erg/s"
+      mathml: "<mrow><mi mathvariant='normal'>erg</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{erg/s}}
       unicode: "erg·s⁻¹"
   root_units:
@@ -2206,6 +2280,7 @@
     - id: "bar"
       ascii: "bar"
       html: "bar"
+      mathml: "<mi mathvariant='normal'>bar</mi>"
       latex: \ensuremath{\mathrm{bar}}
       unicode: "bar"
   root_units:
@@ -2232,6 +2307,7 @@
     - id: "dyn*cm^-2"
       ascii: "dyn*cm^-2"
       html: dyn/cm<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>dyn</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{dyn/cm^2}}
       unicode: "dyn·cm⁻²"
   root_units:
@@ -2262,6 +2338,7 @@
     - id: "gf*cm^-2"
       ascii: "gf*cm^-2"
       html: gf/cm<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>gf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{gf/cm^2}}
       unicode: "gf·cm⁻²"
   root_units:
@@ -2292,6 +2369,7 @@
     - id: "kgf*cm^-2"
       ascii: "kgf*cm^-2"
       html: kgf/cm<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kgf/cm^2}}
       unicode: "kgf·cm⁻²"
   root_units:
@@ -2323,6 +2401,7 @@
     - id: "kgf*m^-2"
       ascii: "kgf*m^-2"
       html: kgf/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kgf/m^2}}
       unicode: "kgf·m⁻²"
   root_units:
@@ -2353,6 +2432,7 @@
     - id: "kgf*mm^-2"
       ascii: "kgf*mm^-2"
       html: kgf/mm<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>mm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kgf/mm^2}}
       unicode: "kgf·mm⁻²"
   root_units:
@@ -2384,6 +2464,7 @@
     - id: "gamma"
       ascii: "gamma"
       html: "&#947;"
+      mathml: "<mi mathvariant='normal'>&#947;</mi>"
       latex: \ensuremath{\gamma}}
       unicode: "γ"
   root_units:
@@ -2409,6 +2490,7 @@
     - id: "Ci"
       ascii: "Ci"
       html: "Ci"
+      mathml: "<mi mathvariant='normal'>Ci</mi>"
       latex: \ensuremath{\mathrm{Ci}}
       unicode: "Ci"
   root_units:
@@ -2433,6 +2515,7 @@
     - id: "rad_radiation"
       ascii: "rad"
       html: "rad"
+      mathml: "<mi mathvariant='normal'>rad</mi>"
       latex: \ensuremath{\mathrm{rad}}
       unicode: "rad"
   root_units:
@@ -2457,6 +2540,7 @@
     - id: "rem"
       ascii: "rem"
       html: "rem"
+      mathml: "<mi mathvariant='normal'>rem</mi>"
       latex: \ensuremath{\mathrm{rem}}
       unicode: "rem"
   root_units:
@@ -2482,6 +2566,7 @@
     - id: "a_year"
       ascii: "a"
       html: "a"
+      mathml: "<mi mathvariant='normal'>a</mi>"
       latex: \ensuremath{\mathrm{a}}
       unicode: "a"
   root_units:
@@ -2506,6 +2591,7 @@
     - id: "ft*min^-1"
       ascii: "ft*min^-1"
       html: "ft/min"
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
       latex: \ensuremath{\mathrm{ft/min}}
       unicode: "ft·min⁻¹"
   root_units:
@@ -2533,6 +2619,7 @@
     - id: "ft*s^-1"
       ascii: "ft*s^-1"
       html: "ft/s"
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{ft/s}}
       unicode: "ft·s⁻¹"
   root_units:
@@ -2560,6 +2647,7 @@
     - id: "in*s^-1"
       ascii: "in*s^-1"
       html: "in/s"
+      mathml: "<mrow><mi mathvariant='normal'>in</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{in/s}}
       unicode: "in·s⁻¹"
   root_units:
@@ -2587,6 +2675,7 @@
     - id: "mi*h^-1"
       ascii: "mi*h^-1"
       html: "mi/h"
+      mathml: "<mrow><mi mathvariant='normal'>mi</mi><mo>/</mo><mrow><mi mathvariant='normal'>h</mi></mrow>"
       latex: \ensuremath{\mathrm{mi/h}}
       unicode: "mi·h⁻¹"
   root_units:
@@ -2614,6 +2703,7 @@
     - id: "mi*min^-1"
       ascii: "mi*min^-1"
       html: "mi/min"
+      mathml: "<mrow><mi mathvariant='normal'>mi</mi><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
       latex: \ensuremath{\mathrm{mi/min}}
       unicode: "mi·min⁻¹"
   root_units:
@@ -2641,6 +2731,7 @@
     - id: "mi*s^-1"
       ascii: "mi*s^-1"
       html: "mi/s"
+      mathml: "<mrow><mi mathvariant='normal'>mi</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{mi/s}}
       unicode: "mi·s⁻¹"
   root_units:
@@ -2668,6 +2759,7 @@
     - id: "st"
       ascii: "st"
       html: "st"
+      mathml: "<mi mathvariant='normal'>st</mi>"
       latex: \ensuremath{\mathrm{st}}
       unicode: "st"
   root_units:
@@ -2692,6 +2784,7 @@
     - id: "m*s^-2"
       ascii: "m*s^-2"
       html: m/s<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>m</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{m/s^2}}
       unicode: "m·s⁻²"
   root_units:
@@ -2722,6 +2815,7 @@
     - id: "m^-1"
       ascii: "m^-1"
       html: m<sup>-1</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{m^{-1}}}
       unicode: "m⁻¹"
   root_units:
@@ -2756,6 +2850,7 @@
     - id: "kg*m^-3"
       ascii: "kg*m^-3"
       html: kg/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kg/m^3}}
       unicode: "kg·m⁻³"
   root_units:
@@ -2786,6 +2881,7 @@
     - id: "m^3*kg"
       ascii: "m^3*kg"
       html: m<sup>3</sup>/kg
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>kg</mi></mrow>"
       latex: \ensuremath{\mathrm{m^3/kg}}
       unicode: "m³·kg"
   root_units:
@@ -2814,6 +2910,7 @@
     - id: "A*m^-2"
       ascii: "A*m^-2"
       html: A/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>A</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{A/m^2}}
       unicode: "A·m⁻²"
   root_units:
@@ -2841,6 +2938,7 @@
     - id: "A*m^-1"
       ascii: "A*m^-1"
       html: "A/m"
+      mathml: "<mrow><mi mathvariant='normal'>A</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{A/m}}
       unicode: "A·m⁻¹"
   root_units:
@@ -2868,6 +2966,7 @@
     - id: "mol*m^-3"
       ascii: "mol*m^-3"
       html: mol/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{mol/m^3}}
       unicode: "mol·m⁻³"
   root_units:
@@ -2895,6 +2994,7 @@
     - id: "cd*m^-2"
       ascii: "cd*m^-2"
       html: cd/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>cd</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{cd/m^2}}
       unicode: "cd·m⁻²"
   root_units:
@@ -2922,6 +3022,7 @@
     - id: "thm (EC)"
       ascii: "thm (EC)"
       html: "thm (EC)"
+      mathml: "<mi mathvariant='normal'>thm (EC)</mi>"
       latex: \ensuremath{\mathrm{thm (EC)}}
       unicode: "thm (EC)"
   root_units:
@@ -2956,6 +3057,7 @@
     - id: "R"
       ascii: "R"
       html: "R"
+      mathml: "<mi mathvariant='normal'>R</mi>"
       latex: \ensuremath{\mathrm{R}}
       unicode: "R"
   root_units:
@@ -2980,6 +3082,7 @@
     - id: "Gs"
       ascii: "Gs"
       html: "Gs"
+      mathml: "<mi mathvariant='normal'>Gs</mi>"
       latex: \ensuremath{\mathrm{Gs}}
       unicode: "Gs"
   root_units:
@@ -3004,6 +3107,7 @@
     - id: "kayser"
       ascii: "K"
       html: "K"
+      mathml: "<mi mathvariant='normal'>K</mi>"
       latex: \ensuremath{\mathrm{K}}
       unicode: "K"
   root_units:
@@ -3030,6 +3134,7 @@
     - id: "cP"
       ascii: "cP"
       html: "cP"
+      mathml: "<mi mathvariant='normal'>cP</mi>"
       latex: \ensuremath{\mathrm{cP}}
       unicode: "cP"
   root_units:
@@ -3055,6 +3160,7 @@
     - id: "micron"
       ascii: "micron"
       html: "&#956;"
+      mathml: "<mi mathvariant='normal'>&#956;</mi>"
       latex: \ensuremath{\mathrm{mu}}
       unicode: "μ"
   root_units:
@@ -3084,11 +3190,13 @@
     - id: "mil"
       ascii: "mil"
       html: "mil"
+      mathml: "<mi mathvariant='normal'>mil</mi>"
       latex: '\ensuremath{\mathrm{mil}}'
       unicode: "mil"
     - id: "thou"
       ascii: "thou"
       html: "thou"
+      mathml: "<mi mathvariant='normal'>thou</mi>"
       latex: '\ensuremath{\mathrm{thou}}'
       unicode: "thou"
   root_units:
@@ -3116,6 +3224,7 @@
     - id: "sb"
       ascii: "sb"
       html: "sb"
+      mathml: "<mi mathvariant='normal'>sb</mi>"
       latex: \ensuremath{\mathrm{sb}}
       unicode: "sb"
   root_units:
@@ -3139,7 +3248,8 @@
   unit_symbols:
     - id: "kgf*s^2/m"
       ascii: "kgf*s^2/m"
-      html: kgf&#8201;&#183;&#8201;s&nbsp;<sup>2</sup>/m
+      html: kgf&#8201;&#183;&#8201;s<sup>2</sup>/m
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kgf\cdot s^2/m}}
       unicode: "kgf·s²m⁻¹"
   root_units:
@@ -3171,6 +3281,7 @@
     - id: "kgf*m"
       ascii: "kgf*m"
       html: kgf&#8201;&#183;&#8201;m
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{kgf\cdot m}}
       unicode: "kgf·m"
   root_units:
@@ -3208,6 +3319,7 @@
     - id: "hp_electric"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -3234,6 +3346,7 @@
     - id: "P"
       ascii: "P"
       html: "P"
+      mathml: "<mi mathvariant='normal'>P</mi>"
       latex: \ensuremath{\mathrm{P}}
       unicode: "P"
   root_units:
@@ -3260,6 +3373,7 @@
     - id: "rhe"
       ascii: "rhe"
       html: "rhe"
+      mathml: "<mi mathvariant='normal'>rhe</mi>"
       latex: \ensuremath{\mathrm{rhe}}
       unicode: "rhe"
   root_units:
@@ -3284,11 +3398,13 @@
     - id: l
       ascii: "l"
       html: "l"
+      mathml: "<mi mathvariant='normal'>l</mi>"
       latex: '\ensuremath{\mathrm{l}}'
       unicode: "l"
     - id: L
       ascii: "L"
       html: "L"
+      mathml: "<mi mathvariant='normal'>L</mi>"
       latex: '\ensuremath{\mathrm{L}}'
       unicode: "L"
   root_units:
@@ -3313,6 +3429,7 @@
     - id: "M"
       ascii: "M"
       html: "M"
+      mathml: "<mi mathvariant='normal'>M</mi>"
       latex: \ensuremath{\mathrm{M}}
       unicode: "M"
   root_units:
@@ -3339,6 +3456,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -3359,6 +3477,7 @@
     - id: "ton_TNT"
       ascii: "ton"
       html: "ton"
+      mathml: "<mi mathvariant='normal'>ton</mi>"
       latex: \ensuremath{\mathrm{ton}}
       unicode: "ton"
   root_units:
@@ -3383,6 +3502,7 @@
     - id: "atm"
       ascii: "atm"
       html: "atm"
+      mathml: "<mi mathvariant='normal'>atm</mi>"
       latex: \ensuremath{\mathrm{atm}}
       unicode: "atm"
   root_units:
@@ -3409,6 +3529,7 @@
     - id: "at"
       ascii: "at"
       html: "at"
+      mathml: "<mi mathvariant='normal'>at</mi>"
       latex: \ensuremath{\mathrm{at}}
       unicode: "at"
   root_units:
@@ -3435,6 +3556,7 @@
     - id: "kg*m^-2"
       ascii: "kg*m^-2"
       html: kg/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kg/m^2}}
       unicode: "kg/m²"
   root_units:
@@ -3463,6 +3585,7 @@
     - id: "W*m^-2"
       ascii: "W*m^-2"
       html: W/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{W/m^2}}
       unicode: "W/m²"
   root_units:
@@ -3492,6 +3615,7 @@
     - id: "J*K^-1"
       ascii: "J*K^-1"
       html: "J/K"
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mi mathvariant='normal'>K</mi></mrow>"
       latex: \ensuremath{\mathrm{J/K}}
       unicode: "J/K"
   root_units:
@@ -3521,6 +3645,7 @@
     - id: "J*kg^-1*K^-1"
       ascii: "J*kg^-1*K^-1"
       html: J/(kg&#8201;&#183;&#8201;K)
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><mi mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
       latex: \ensuremath{\mathrm{J/(kg\cdot K)}}
       unicode: "J/(kg·K)"
   root_units:
@@ -3554,6 +3679,7 @@
     - id: "Pa*s"
       ascii: "Pa*s"
       html: Pa&#8201;&#183;&#8201;s
+      mathml: "<mrow><mi mathvariant='normal'>Pa</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{Pa\cdot s}}
       unicode: "Pa·s"
   root_units:
@@ -3581,6 +3707,7 @@
     - id: "N*m"
       ascii: "N*m"
       html: N&#8201;&#183;&#8201;m
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{N\cdot m}}
       unicode: "N·m"
   root_units:
@@ -3612,6 +3739,7 @@
     - id: "N*m^-1"
       ascii: "N*m^-1"
       html: "N/m"
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{N/m}}
       unicode: "N/m"
   root_units:
@@ -3639,6 +3767,7 @@
     - id: "J*kg^-1"
       ascii: "J*kg^-1"
       html: "J/kg"
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
       latex: \ensuremath{\mathrm{J/kg}}
       unicode: "J/kg"
   root_units:
@@ -3667,6 +3796,7 @@
     - id: "W*m^-1*K^-1"
       ascii: "W*m^-1*K^-1"
       html: W/(m&#8201;&#183;&#8201;K)
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>m</mi><mo>&#183;</mo><mi mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
       latex: \ensuremath{\mathrm{W/(m\cdot K)}}
       unicode: "W/(m·K)"
   root_units:
@@ -3698,6 +3828,7 @@
     - id: "J*m^-3"
       ascii: "J*m^-3"
       html: J/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{J/m^3}}
       unicode: "J/m³"
   root_units:
@@ -3725,6 +3856,7 @@
     - id: "V*m^-1"
       ascii: "V*m^-1"
       html: "V/m"
+      mathml: "<mrow><mi mathvariant='normal'>V</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{V/m}}
       unicode: "V/m"
   root_units:
@@ -3752,6 +3884,7 @@
     - id: "C*m^-3"
       ascii: "C*m^-3"
       html: C/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>C</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{C/m^3}}
       unicode: "C/m³"
   root_units:
@@ -3779,6 +3912,7 @@
     - id: "C*m^-2"
       ascii: "C*m^-2"
       html: C/m<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>C</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{C/m^2}}
       unicode: "C/m²"
   root_units:
@@ -3808,6 +3942,7 @@
     - id: "F*m^-1"
       ascii: "F*m^-1"
       html: "F/m"
+      mathml: "<mrow><mi mathvariant='normal'>F</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{F/m}}
       unicode: "F/m"
   root_units:
@@ -3835,6 +3970,7 @@
     - id: "H*m^-1"
       ascii: "H*m^-1"
       html: "H/m"
+      mathml: "<mrow><mi mathvariant='normal'>H</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{H/m}}
       unicode: "H/m"
   root_units:
@@ -3862,6 +3998,7 @@
     - id: "J*mol^-1"
       ascii: "J*mol^-1"
       html: "J/mol"
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mi mathvariant='normal'>mol</mi></mrow>"
       latex: \ensuremath{\mathrm{J/mol}}
       unicode: "J/mol"
   root_units:
@@ -3889,6 +4026,7 @@
     - id: "J*mol^-1*K^-1"
       ascii: "J*mol^-1*K^-1"
       html: J/(mol&#8201;&#183;&#8201;K)
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>mol</mi><mo>&#183;</mo><mi mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
       latex: \ensuremath{\mathrm{J/(mol\cdot K)}}
       unicode: "J/(mol·K)"
   root_units:
@@ -3922,6 +4060,7 @@
     - id: "C*kg^-1"
       ascii: "C*kg^-1"
       html: "C/kg"
+      mathml: "<mrow><mi mathvariant='normal'>C</mi><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
       latex: \ensuremath{\mathrm{C/kg}}
       unicode: "C/kg"
   root_units:
@@ -3950,6 +4089,7 @@
     - id: "Gy*s^-1"
       ascii: "Gy*s^-1"
       html: "Gy/s"
+      mathml: "<mrow><mi mathvariant='normal'>Gy</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{Gy/s}}
       unicode: "Gy/s"
   root_units:
@@ -3977,6 +4117,7 @@
     - id: "kat*m^-3"
       ascii: "kat*m^-3"
       html: kat/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>kat</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{kat/m^3}}
       unicode: "kat/m³"
   root_units:
@@ -4004,6 +4145,7 @@
     - id: "St"
       ascii: "St"
       html: "St"
+      mathml: "<mi mathvariant='normal'>St</mi>"
       latex: \ensuremath{\mathrm{St}}
       unicode: "St"
   root_units:
@@ -4028,6 +4170,7 @@
     - id: "Gal"
       ascii: "Gal"
       html: "Gal"
+      mathml: "<mi mathvariant='normal'>Gal</mi>"
       latex: \ensuremath{\mathrm{Gal}}
       unicode: "Gal"
   root_units:
@@ -4052,6 +4195,7 @@
     - id: "Oe"
       ascii: "Oe"
       html: "Oe"
+      mathml: "<mi mathvariant='normal'>Oe</mi>"
       latex: \ensuremath{\mathrm{Oe}}
       unicode: "Oe"
   root_units:
@@ -4076,6 +4220,7 @@
     - id: "W*sr^-1"
       ascii: "W*sr^-1"
       html: "W/sr"
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mi mathvariant='normal'>sr</mi></mrow>"
       latex: \ensuremath{\mathrm{W/sr}}
       unicode: "W/sr"
   root_units:
@@ -4103,6 +4248,7 @@
     - id: "W*m^-2*sr^-1"
       ascii: "W*m^-2*sr^-1"
       html: W/(m^2&#8201;&#183;&#8201;sr)
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi mathvariant='normal'>sr</mi><mo>)</mo></mrow></mrow>"
       latex: \ensuremath{\mathrm{W/(m^2\cdot sr)}}
       unicode: "W/(m²·sr)"
   root_units:
@@ -4134,6 +4280,7 @@
     - id: "deg"
       ascii: "deg"
       html: "&#186;"
+      mathml: "<mi mathvariant='normal'>&#186;</mi>"
       latex: \ensuremath{\mathrm{^{\circ}}}
       unicode: "º"
   root_units:
@@ -4158,6 +4305,7 @@
     - id: "\""
       ascii: "\""
       html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
       latex: \ensuremath{\mathrm{''}}
       unicode: "″"
   root_units:
@@ -4182,6 +4330,7 @@
     - id: "'"
       ascii: "'"
       html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
       latex: \ensuremath{\mathrm{'}}
       unicode: "′"
   root_units:
@@ -4206,6 +4355,7 @@
     - id: "rad*s^-1"
       ascii: "rad*s^-1"
       html: "rad/s"
+      mathml: "<mrow><mi mathvariant='normal'>rad</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{rad/s}}
       unicode: "rad/s"
   root_units:
@@ -4235,6 +4385,7 @@
     - id: "rad*s^-2"
       ascii: "rad*s^-2"
       html: rad/s<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>rad</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{rad/s^2}}
       unicode: "rad/s²"
   root_units:
@@ -4264,6 +4415,7 @@
     - id: "kn"
       ascii: "kn"
       html: "kn"
+      mathml: "<mi mathvariant='normal'>kn</mi>"
       latex: \ensuremath{\mathrm{kn}}
       unicode: "kn"
   root_units:
@@ -4288,6 +4440,7 @@
     - id: "Np"
       ascii: "Np"
       html: "Np"
+      mathml: "<mi mathvariant='normal'>Np</mi>"
       latex: \ensuremath{\mathrm{Np}}
       unicode: "Np"
   root_units:
@@ -4318,6 +4471,7 @@
     - id: "B"
       ascii: "B"
       html: "B"
+      mathml: "<mi mathvariant='normal'>B</mi>"
       latex: \ensuremath{\mathrm{B}}
       unicode: "B"
   root_units:
@@ -4346,6 +4500,7 @@
     - id: "dB"
       ascii: "dB"
       html: "dB"
+      mathml: "<mi mathvariant='normal'>dB</mi>"
       latex: \ensuremath{\mathrm{dB}}
       unicode: "dB"
   root_units:
@@ -4373,6 +4528,7 @@
     - id: "mmHg"
       ascii: "mmHg"
       html: "mmHg"
+      mathml: "<mi mathvariant='normal'>mmHg</mi>"
       latex: \ensuremath{\mathrm{mmHg}}
       unicode: "mmHg"
   root_units:
@@ -4399,11 +4555,13 @@
     - id: "darcy"
       ascii: "d"
       html: "d"
+      mathml: "<mi mathvariant='normal'>d</mi>"
       latex: '\ensuremath{\mathrm{d}}'
       unicode: "d"
     - id: "Darcy"
       ascii: "D"
       html: "D"
+      mathml: "<mi mathvariant='normal'>D</mi>"
       latex: '\ensuremath{\mathrm{D}}'
       unicode: "D"
   root_units:
@@ -4430,6 +4588,7 @@
     - id: "gon"
       ascii: "gon"
       html: "gon"
+      mathml: "<mi mathvariant='normal'>gon</mi>"
       latex: \ensuremath{\mathrm{gon}}
       unicode: "gon"
   root_units:
@@ -4454,6 +4613,7 @@
     - id: "km/h"
       ascii: "km/h"
       html: "kh/h"
+      mathml: "<mrow><mi mathvariant='normal'>kh</mi><mo>/</mo><mrow><mi mathvariant='normal'>h</mi></mrow>"
       latex: \ensuremath{\mathrm{kh/h}}
       unicode: "km/h"
   root_units:
@@ -4484,6 +4644,7 @@
     - id: "s^-1"
       ascii: "s^-1"
       html: s<sup>-1</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{s^{-1}}}
       unicode: "s⁻¹"
   root_units:
@@ -4512,6 +4673,7 @@
     - id: "rad*m^-1"
       ascii: "rad*m^-1"
       html: "rad/m"
+      mathml: "<mrow><mi mathvariant='normal'>rad</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{rad/m}}
       unicode: "rad/m"
   root_units:
@@ -4539,6 +4701,7 @@
     - id: "Np*s^-1"
       ascii: "Np*s^-1"
       html: "Np/s"
+      mathml: "<mrow><mi mathvariant='normal'>Np</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{Np/s}}
       unicode: "Np/s"
   root_units:
@@ -4566,6 +4729,7 @@
     - id: "yd^2"
       ascii: "yd^2"
       html: yd<sup>2</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>yd</mi></mrow><mrow><mn>2</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{yd^2}}
       unicode: "yd²"
   root_units:
@@ -4590,6 +4754,7 @@
     - id: "mi^2"
       ascii: "mi^2"
       html: "mi<sup>2</sup>"
+      mathml: "<msup><mrow><mi mathvariant='normal'>mi</mi></mrow><mrow><mn>2</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{mi^2}}
       unicode: "mi²"
   root_units:
@@ -4614,6 +4779,7 @@
     - id: "cmHg_0degC"
       ascii: "cmHg"
       html: "cmHg"
+      mathml: "<mi mathvariant='normal'>cmHg</mi>"
       latex: \ensuremath{\mathrm{cmHg}}
       unicode: "cmHg"
   root_units:
@@ -4640,6 +4806,7 @@
     - id: "ft*s^-2"
       ascii: "ft*s^-2"
       html: ft/s<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{ft/s^2}}
       unicode: "ft/s²"
   root_units:
@@ -4667,6 +4834,7 @@
     - id: "in^3"
       ascii: "in^3"
       html: in<sup>3</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{in^3}}
       unicode: "in³"
   root_units:
@@ -4691,6 +4859,7 @@
     - id: "ft^3"
       ascii: "ft^3"
       html: ft<sup>3</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{ft^3}}
       unicode: "ft³"
   root_units:
@@ -4715,6 +4884,7 @@
     - id: "yd^3"
       ascii: "yd^3"
       html: yd<sup>3</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>yd</mi></mrow><mrow><mn>3</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{yd^3}}
       unicode: "yd³"
   root_units:
@@ -4741,6 +4911,7 @@
     - id: "gal (UK)"
       ascii: "gal (UK)"
       html: "gal (UK)"
+      mathml: "<mi mathvariant='normal'>gal (UK)</mi>"
       latex: \ensuremath{\mathrm{gal (UK)}}
       unicode: "gal (UK)"
   root_units:
@@ -4766,6 +4937,7 @@
     - id: "pt (UK)"
       ascii: "pt (UK)"
       html: "pt (UK)"
+      mathml: "<mi mathvariant='normal'>pt (UK)</mi>"
       latex: \ensuremath{\mathrm{pint~{UK}}
       unicode: "pt (UK)"
   root_units:
@@ -4792,6 +4964,7 @@
     - id: "fl oz (UK)"
       ascii: "fl oz (UK)"
       html: "fl oz (UK)"
+      mathml: "<mi mathvariant='normal'>fl oz (UK)</mi>"
       latex: \ensuremath{\mathrm{fl oz (UK)}}
       unicode: "fl oz (UK)"
   root_units:
@@ -4816,6 +4989,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -4836,6 +5010,7 @@
     - id: "gal (US)"
       ascii: "gal (US)"
       html: "gal (US)"
+      mathml: "<mi mathvariant='normal'>gal (US)</mi>"
       latex: \ensuremath{\mathrm{gal (US)}}
       unicode: "gal (US)"
   root_units:
@@ -4861,6 +5036,7 @@
     - id: "liq pint (US)"
       ascii: "liq pint (US)"
       html: "liq pint (US)"
+      mathml: "<mi mathvariant='normal'>liq pint (US)</mi>"
       latex: \ensuremath{\mathrm{liq pint (US)}}
       unicode: "liq pint (US)"
   root_units:
@@ -4887,6 +5063,7 @@
     - id: "fl oz (US)"
       ascii: "fl oz (US)"
       html: "fl oz (US)"
+      mathml: "<mi mathvariant='normal'>fl oz (US)</mi>"
       latex: \ensuremath{\mathrm{fl oz (US)}}
       unicode: "fl oz (US)"
   root_units:
@@ -4912,6 +5089,7 @@
     - id: "bbl (US)"
       ascii: "bbl (US)"
       html: "bbl (US)"
+      mathml: "<mi mathvariant='normal'>bbl (US)</mi>"
       latex: \ensuremath{\mathrm{bbl (US)}}
       unicode: "bbl (US)"
   root_units:
@@ -4937,6 +5115,7 @@
     - id: "bu (US)"
       ascii: "bu (US)"
       html: "bu (US)"
+      mathml: "<mi mathvariant='normal'>bu (US)</mi>"
       latex: \ensuremath{\mathrm{bu (US)}}
       unicode: "bu (US)"
   root_units:
@@ -4962,6 +5141,7 @@
     - id: "dry pt (US)"
       ascii: "dry pt (US)"
       html: "dry pt (US)"
+      mathml: "<mi mathvariant='normal'>dry pt (US)</mi>"
       latex: \ensuremath{\mathrm{dry pt (US)}}
       unicode: "dry pt (US)"
   root_units:
@@ -4986,6 +5166,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -5005,6 +5186,7 @@
     - id: "l.y."
       ascii: "l.y."
       html: "l.y."
+      mathml: "<mi mathvariant='normal'>l.y.</mi>"
       latex: \ensuremath{\mathrm{l.y.}}
       unicode: "l.y."
   root_units:
@@ -5029,6 +5211,7 @@
     - id: "ua"
       ascii: "ua"
       html: "ua"
+      mathml: "<mi mathvariant='normal'>ua</mi>"
       latex: \ensuremath{\mathrm{ua}}
       unicode: "ua"
   root_units:
@@ -5053,6 +5236,7 @@
     - id: "pc"
       ascii: "pc"
       html: "pc"
+      mathml: "<mi mathvariant='normal'>pc</mi>"
       latex: \ensuremath{\mathrm{pc}}
       unicode: "pc"
   root_units:
@@ -5077,6 +5261,7 @@
     - id: "m^4"
       ascii: "m^4"
       html: m<sup>4</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>4</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{m^4}}
       unicode: "m⁴"
   root_units:
@@ -5105,6 +5290,7 @@
     - id: "kg*m^-1"
       ascii: "kg*m^-1"
       html: "kg/m"
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
       latex: \ensuremath{\mathrm{kg/m}}
       unicode: "kg/m"
   root_units:
@@ -5132,9 +5318,10 @@
   unit_symbols:
     - id: "kg*m^2"
       ascii: "kg*m^2"
-      html: "kg*m^2"
-      latex: kg*m^2
-      unicode: "kg*m^2"
+      html: "kg&#8201;&#183;&#8201;m<sup>2</sup>"
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
+      latex: \ensuremath{\mathrm{kg\cdot m^2}}
+      unicode: "kg·m²"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -5161,6 +5348,7 @@
     - id: "kg*l^-1"
       ascii: "kg*l^-1"
       html: "kg/l"
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><mrow><mi mathvariant='normal'>l</mi></mrow>"
       latex: \ensuremath{\mathrm{kg/l}}
       unicode: "kg/l"
   root_units:
@@ -5189,6 +5377,7 @@
     - id: "t*m^-3"
       ascii: "t*m^-3"
       html: t/m<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>t</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{t/m^3}}
       unicode: "t/m³"
   root_units:
@@ -5216,6 +5405,7 @@
     - id: "N*s"
       ascii: "N*s"
       html: N&#8201;&#183;&#8201;s
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{N\cdot s}}
       unicode: "N·s"
   root_units:
@@ -5242,7 +5432,8 @@
   unit_symbols:
     - id: "N*m^2*kg^-2"
       ascii: "N*m^2*kg^-2"
-      html: N&#8201;&#183;&#8201;m&nbsp;<sup>2</sup>/kg&nbsp;<sup>2</sup>
+      html: N&#8201;&#183;&#8201;m<sup>2</sup>/kg&nbsp;<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><msup><mrow><mi mathvariant='normal'>kg</mi></mrow><mrow><mn>2</mn></mrow></msup</mrow>"
       latex: \ensuremath{\mathrm{N\cdot m^2/kg^2}}
       unicode: "N·m²/kg²"
   root_units:
@@ -5274,6 +5465,7 @@
     - id: "kg*m*s^-1"
       ascii: "kg*m*s^-1"
       html: kg&#8201;&#183;&#8201;m/s
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kg\cdot m/s}}
       unicode: "N·m/s"
   root_units:
@@ -5304,7 +5496,8 @@
   unit_symbols:
     - id: "kg*m^2*s^-1"
       ascii: "kg*m^2*s^-1"
-      html: kg&#8201;&#183;&#8201;m^2/s
+      html: kg&#8201;&#183;&#8201;m<sup>2</sup>/s
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kg\cdot m^2/s}}
       unicode: "kg·m²/s"
   root_units:
@@ -5338,6 +5531,7 @@
     - id: "N*m*s"
       ascii: "N*m*s"
       html: N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s
+      mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{N\cdot m\cdot s}}
       unicode: "N·m·s"
   root_units:
@@ -5368,6 +5562,7 @@
     - id: "Pa^-1"
       ascii: "Pa^-1"
       html: Pa<sup>-1</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>Pa</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{Pa^{-1}}}
       unicode: "Pa⁻¹"
   root_units:
@@ -5394,6 +5589,7 @@
     - id: "m^2*s^-1"
       ascii: "m^2*s^-1"
       html: m<sup>2</sup>/s
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{m^2/s}}
       unicode: "m²/s"
   root_units:
@@ -5421,6 +5617,7 @@
     - id: "kg*s^-1"
       ascii: "kg*s^-1"
       html: "kg/s"
+      mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kg/s}}
       unicode: "kg/s"
   root_units:
@@ -5449,6 +5646,7 @@
     - id: "m^3*s^-1"
       ascii: "m^3*s^-1"
       html: m<sup>3</sup>/s
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{m^3/s}}
       unicode: "m³/s"
   root_units:
@@ -5476,6 +5674,7 @@
     - id: "J*s"
       ascii: "J*s"
       html: J&#8201;&#183;&#8201;s
+      mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{J\cdot s}}
       unicode: "J·s"
   root_units:
@@ -5505,6 +5704,7 @@
     - id: "lb"
       ascii: "lb"
       html: "lb"
+      mathml: "<mi mathvariant='normal'>lb</mi>"
       latex: \ensuremath{\mathrm{lb}}
       unicode: "lb"
   root_units:
@@ -5531,6 +5731,7 @@
     - id: "oz"
       ascii: "oz"
       html: "oz"
+      mathml: "<mi mathvariant='normal'>oz</mi>"
       latex: \ensuremath{\mathrm{oz}}
       unicode: "oz"
   root_units:
@@ -5556,6 +5757,7 @@
     - id: "cwt (UK)"
       ascii: "cwt (UK)"
       html: "cwt (UK)"
+      mathml: "<mi mathvariant='normal'>cwt (UK)</mi>"
       latex: \ensuremath{\mathrm{cwt (UK)}}
       unicode: "cwt (UK)"
   root_units:
@@ -5580,6 +5782,7 @@
     - id: "lb*ft^-3"
       ascii: "lb*ft^-3"
       html: lb/ft<sup>3</sup>
+      mathml: "<mrow><mi mathvariant='normal'>lb</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{lb/ft^3}}
       unicode: "lb/ft³"
   root_units:
@@ -5607,6 +5810,7 @@
     - id: "lbf"
       ascii: "lbf"
       html: "lbf"
+      mathml: "<mi mathvariant='normal'>lbf</mi>"
       latex: \ensuremath{\mathrm{lbf}}
       unicode: "lbf"
   root_units:
@@ -5633,6 +5837,7 @@
     - id: "ft*lbf"
       ascii: "ft*lbf"
       html: ft&#8201;&#183;&#8201;lbf
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>&#183;</mo><mi mathvariant='normal'>lbf</mi></mrow>"
       latex: \ensuremath{\mathrm{ft\cdot lbf}}
       unicode: "ft·lbf"
   root_units:
@@ -5674,11 +5879,13 @@
     - id: "lbf*in^-2"
       ascii: "lbf*in^-2"
       html: lbf/in<sup>2</sup>
+      mathml: "<mrow><mi mathvariant='normal'>lbf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
       latex: \ensuremath{\mathrm{lbf/in^2}}
       unicode: psi
     - id: psi
       ascii: "psi"
       html: "psi"
+      mathml: "<mi mathvariant='normal'>psi</mi>"
       latex: \ensuremath{\mathrm{psi}}
       unicode: lbf/in²
   root_units:
@@ -5706,6 +5913,7 @@
     - id: "in^4"
       ascii: "in^4"
       html: in<sup>4</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>4</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{in^4}}
       unicode: "in⁴"
   root_units:
@@ -5732,6 +5940,7 @@
     - id: "in^3_section_modulus"
       ascii: "in^3"
       html: in<sup>3</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{in^3}}
       unicode: "in³"
   root_units:
@@ -5756,6 +5965,7 @@
     - id: "ft^2*s^-1"
       ascii: "ft^2*s^-1"
       html: ft<sup>2</sup>/s
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{ft^2/s}}
       unicode: "ft²/s"
   root_units:
@@ -5783,6 +5993,7 @@
     - id: "ft*lbf*s^-1"
       ascii: "ft*lbf*s^-1"
       html: ft&#8201;&#183;&#8201;lbf/s
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>&#183;</mo><mi mathvariant='normal'>lbf</mi><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{ft\cdot lbf/s}}
       unicode: "ft·lbf/2"
   root_units:
@@ -5815,6 +6026,7 @@
     - id: "ct"
       ascii: "ct"
       html: "ct"
+      mathml: "<mi mathvariant='normal'>ct</mi>"
       latex: \ensuremath{\mathrm{ct}}
       unicode: "ct"
   root_units:
@@ -5839,6 +6051,7 @@
     - id: "tex"
       ascii: "tex"
       html: "tex"
+      mathml: "<mi mathvariant='normal'>tex</mi>"
       latex: \ensuremath{\mathrm{tex}}
       unicode: "tex"
   root_units:
@@ -5863,6 +6076,7 @@
     - id: "Torr"
       ascii: "Torr"
       html: "Torr"
+      mathml: "<mi mathvariant='normal'>Torr</mi>"
       latex: \ensuremath{\mathrm{torr}}
       unicode: "torr"
   root_units:
@@ -5897,6 +6111,7 @@
     - id: "mmH_2O"
       ascii: "mmH_2O"
       html: mmH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>mm</mi><msup><mi mathvariant='normal'>H</mi><mn>2</mn></msup><mi mathvariant='normal'>O</mi></mrow>"
       latex: \ensuremath{\mathrm{mmH_{2}O}}
       unicode: "mmH₂O"
   root_units:
@@ -5923,6 +6138,7 @@
     - id: "cmHg"
       ascii: "cmHg"
       html: "cmHg"
+      mathml: "<mi mathvariant='normal'>cmHg</mi>"
       latex: \ensuremath{\mathrm{cmHg}}
       unicode: "cmHg"
   root_units:
@@ -5949,6 +6165,7 @@
     - id: "kgf*m*s^-1"
       ascii: "kgf*m*s^-1"
       html: kgf&#8201;&#183;&#8201;m/s
+      mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
       latex: \ensuremath{\mathrm{kgf\cdot m/s}}
       unicode: "kgf·m/s"
   root_units:
@@ -5981,6 +6198,7 @@
     - id: "hp_metric"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -6005,6 +6223,7 @@
     - id: "K^-1"
       ascii: "K^-1"
       html: K<sup>-1</sup>
+      mathml: "<msup><mrow><mi mathvariant='normal'>K</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
       latex: \ensuremath{\mathrm{K^{-1}}}
       unicode: "K⁻¹"
   root_units:
@@ -6033,6 +6252,7 @@
     - id: "Pa*K^-1"
       ascii: "Pa*K^-1"
       html: "Pa/K"
+      mathml: "<mrow><mi mathvariant='normal'>Pa</mi><mo>/</mo><mrow><mi mathvariant='normal'>K</mi></mrow>"
       latex: \ensuremath{\mathrm{Pa/K}}
       unicode: "Pa/K"
   root_units:
@@ -6060,6 +6280,8 @@
     - id: "W*m^-2*K^-1"
       ascii: "W*m^-2*K^-1"
       html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
+      mathml: "<mi mathvariant='normal'>W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)</mi>"
+      mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
       latex: \ensuremath{\mathrm{W/(m^2\cdot K)}}
       unicode: W/(m²·K)
   root_units:
@@ -6093,6 +6315,7 @@
     - id: "Lambert"
       ascii: "L"
       html: "L"
+      mathml: "<mi mathvariant='normal'>L</mi>"
       latex: \ensuremath{\mathrm{L}}
       unicode: "L"
   root_units:
@@ -6117,6 +6340,7 @@
     - id: "Gi"
       ascii: "Gi"
       html: "Gi"
+      mathml: "<mi mathvariant='normal'>Gi</mi>"
       latex: \ensuremath{\mathrm{Gi}}
       unicode: "Gi"
   root_units:
@@ -6141,6 +6365,7 @@
     - id: "D"
       ascii: "D"
       html: "D"
+      mathml: "<mi mathvariant='normal'>D</mi>"
       latex: \ensuremath{\mathrm{D}}
       unicode: "D"
   root_units:
@@ -6165,6 +6390,7 @@
     - id: "aW (Cardelli)"
       ascii: "aW (Cardelli)"
       html: "aW"
+      mathml: "<mi mathvariant='normal'>aW</mi>"
       latex: \ensuremath{\mathrm{aW}}
       unicode: "aW"
   root_units:
@@ -6189,6 +6415,7 @@
     - id: "slug"
       ascii: "slug"
       html: "slug"
+      mathml: "<mi mathvariant='normal'>slug</mi>"
       latex: \ensuremath{\mathrm{D}}
       unicode: "slug"
   root_units:
@@ -6215,6 +6442,7 @@
     - id: "cal_th"
       ascii: "cal_th"
       html: cal<sub>th</sub>
+      mathml: "<msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{cal_th}}
       unicode: "cal_th"
   root_units:
@@ -6250,6 +6478,7 @@
     - id: "ton_short"
       ascii: "ton"
       html: "t"
+      mathml: "<mi mathvariant='normal'>t</mi>"
       latex: \ensuremath{\mathrm{t}}
       unicode: "t"
   root_units:
@@ -6275,6 +6504,7 @@
     - id: "ton_long"
       ascii: "ton"
       html: "t"
+      mathml: "<mi mathvariant='normal'>t</mi>"
       latex: \ensuremath{\mathrm{t}}
       unicode: "t"
   root_units:
@@ -6300,6 +6530,7 @@
     - id: "cwt (US)"
       ascii: "cwt (US)"
       html: "cwt (US)"
+      mathml: "<mi mathvariant='normal'>cwt (US)</mi>"
       latex: \ensuremath{\mathrm{cwt (US)}}
       unicode: "cwt (US)"
   root_units:
@@ -6326,6 +6557,7 @@
     - id: "oz_troy"
       ascii: "oz"
       html: "oz"
+      mathml: "<mi mathvariant='normal'>oz</mi>"
       latex: \ensuremath{\mathrm{oz}}
       unicode: "oz"
   root_units:
@@ -6352,6 +6584,7 @@
     - id: "lb_troy"
       ascii: "lb"
       html: "lb"
+      mathml: "<mi mathvariant='normal'>lb</mi>"
       latex: \ensuremath{\mathrm{lb}}
       unicode: "lb"
   root_units:
@@ -6376,6 +6609,7 @@
     - id: "dwt (troy)"
       ascii: "dwt (troy)"
       html: "dwt (troy)"
+      mathml: "<mi mathvariant='normal'>dwt (troy)</mi>"
       latex: \ensuremath{\mathrm{dwt (troy)}}
       unicode: "dwt (troy)"
   root_units:
@@ -6402,6 +6636,7 @@
     - id: "dr"
       ascii: "dr"
       html: "dr"
+      mathml: "<mi mathvariant='normal'>dr</mi>"
       latex: \ensuremath{\mathrm{dr}}
       unicode: "dr"
   root_units:
@@ -6427,6 +6662,7 @@
     - id: "scr (ap.)"
       ascii: "scr (ap.)"
       html: "scr (ap.)"
+      mathml: "<mi mathvariant='normal'>scr (ap.)</mi>"
       latex: \ensuremath{\mathrm{scr (ap.)}}
       unicode: "scr (ap.)"
   root_units:
@@ -6451,6 +6687,7 @@
     - id: "pdl"
       ascii: "pdl"
       html: "pdl"
+      mathml: "<mi mathvariant='normal'>pdl</mi>"
       latex: \ensuremath{\mathrm{pdl}}
       unicode: "pdl"
   root_units:
@@ -6477,6 +6714,7 @@
     - id: "kip"
       ascii: "kip"
       html: "kip"
+      mathml: "<mi mathvariant='normal'>kip</mi>"
       latex: \ensuremath{\mathrm{kip}}
       unicode: "kip"
   root_units:
@@ -6501,6 +6739,7 @@
     - id: "ton-force (2000 lb)"
       ascii: "ton-force (2000 lb)"
       html: "ton-force (2000 lb)"
+      mathml: "<mi mathvariant='normal'>ton-force (2000 lb)</mi>"
       latex: \ensuremath{\mathrm{ton-force (2000 lb)}}
       unicode: "ton-force (2000 lb)"
   root_units:
@@ -6527,6 +6766,7 @@
     - id: "barye"
       ascii: "barye"
       html: "barye"
+      mathml: "<mi mathvariant='normal'>barye</mi>"
       latex: \ensuremath{\mathrm{barye}}
       unicode: "barye"
   root_units:
@@ -6557,6 +6797,7 @@
     - id: "eV"
       ascii: "eV"
       html: "eV"
+      mathml: "<mi mathvariant='normal'>eV</mi>"
       latex: \ensuremath{\mathrm{eV}}
       unicode: "eV"
   root_units:
@@ -6581,6 +6822,7 @@
     - id: "u"
       ascii: "u"
       html: "u"
+      mathml: "<mi mathvariant='normal'>u</mi>"
       latex: \ensuremath{\mathrm{u}}
       unicode: "u"
   root_units:
@@ -6605,11 +6847,13 @@
     - id: c_0
       ascii: "c_0"
       html: <i>c</i><sub>0</sub>
+      mathml: "<msub><mi mathvariant='italic'>c</mi><mn>0</mn></msub>"
       latex: \ensuremath{\mathit{c}_{0}}
       unicode: 𝑐₀
     - id: c
       ascii: "c"
       html: <i>c</i>
+      mathml: "<mi mathvariant='italic'>c</mi>"
       latex: \ensuremath{\mathit{c}}
       unicode: 𝑐
   root_units:
@@ -6634,6 +6878,7 @@
     - id: "h-bar"
       ascii: "h-bar"
       html: <i>&#295;</i>
+      mathml: "<mi mathvariant='italic'>&#295;</mi>"
       latex: \ensuremath{\mathit{\hbar}}
       unicode: ℏ
   root_units:
@@ -6658,6 +6903,7 @@
     - id: "m_e"
       ascii: "m_e"
       html: <i>m</i><sub>e</sub>
+      mathml: "<msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub>"
       latex: \ensuremath{\mathit{m}_\mathrm{e}}
       unicode: 𝑚ₑ
   root_units:
@@ -6682,6 +6928,7 @@
     - id: "h-bar*(m_e*c^2)"
       ascii: "h-bar*(m_e*c^2)"
       html: <i>&#295;</i>/<i>m</i><sub>e</sub><i>c</i><sup>2</sup>
+      mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msup><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msup><msup><mi mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}})
       unicode: ℏ/𝑚ₑ𝑐²
   root_units:
@@ -6706,6 +6953,7 @@
     - id: "e"
       ascii: "e"
       html: <i>e</i>
+      mathml: "<mi mathvariant='italic'>e</mi>"
       latex: \ensuremath{\mathit{e}}
       unicode: 𝑒
   root_units:
@@ -6730,6 +6978,7 @@
     - id: "m_e_atomic"
       ascii: "m_e"
       html: <i>m</i><sub>e</sub>
+      mathml: "<msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub>"
       latex: \ensuremath{\mathit{m}_\mathrm{e}}
       unicode: 𝑚ₑ
   root_units:
@@ -6754,6 +7003,7 @@
     - id: "h-bar_atomic"
       ascii: "h-bar"
       html: <i>&#295;</i>
+      mathml: "<mi mathvariant='italic'>&#295;</mi>"
       latex: \ensuremath{\mathit{\hbar}}
       unicode: ℏ
   root_units:
@@ -6778,6 +7028,7 @@
     - id: "a_0"
       ascii: "a_0"
       html: <i>a</i><sub>0</sub>
+      mathml: "<msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub>"
       latex: \ensuremath{\mathit{a}_\mathrm{0}}
       unicode: 𝑎₀
   root_units:
@@ -6802,6 +7053,7 @@
     - id: "e_h"
       ascii: "e_h"
       html: <i>E</i>h
+      mathml: "<msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub>"
       latex: \ensuremath{\mathit{E}_\mathrm{h}}
       unicode: 𝐸ₕ
   root_units:
@@ -6826,6 +7078,7 @@
     - id: "h-bar*(E_h)-1"
       ascii: "h-bar*(E_h)-1"
       html: <i>&#295;</i>/<i>E</i><sub>h</sub>
+      mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
       latex: \ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}
       unicode: ℏ/𝐸ₕ
   root_units:
@@ -6850,6 +7103,7 @@
     - id: "e^2*a_0^2*m_e-1"
       ascii: "e^2*a_0^2*m_e-1"
       html: <i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>m</m><sub>e</sub>
+      mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
       latex: \ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}
       unicode: 𝑒²𝑎₀²/𝑚ₑ
   root_units:
@@ -6874,6 +7128,7 @@
     - id: "h-bar*(e*a_0^2)-1"
       ascii: "h-bar*(e*a_0^2)-1"
       html: <i>&#295;</i>/<i>e</i><i>a</i><sub>0</sub><sup>2</sup>
+      mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{\hbar}/\mathit{e}a_0^2}
       unicode: ℏ/𝑒𝑎₀²
   root_units:
@@ -6898,6 +7153,7 @@
     - id: "h-bar*e*(m_e)-1"
       ascii: "h-bar*e*(m_e)-1"
       html: <i>&#295;e</i>/<i>m</i><sub>e</sub>
+      mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mi mathvariant='italic'>e</mi><mo>/</mo><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
       latex: \ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}
       unicode: ℏ𝑒/𝑚ₑ
   root_units:
@@ -6922,6 +7178,7 @@
     - id: "h-bar*(a_0)-1"
       ascii: "h-bar*(a_0)-1"
       html: <i>&#295;</i>/<i>a</i><sub>0</sub>
+      mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
       latex: \ensuremath{\mathit{\hbar}/\mathit{a}_0}
       unicode: ℏ/𝑎₀
   root_units:
@@ -6946,6 +7203,7 @@
     - id: "e*(a_0^3)"
       ascii: "e*(a_0^3)"
       html: <i>e</i><i>a</i><sub>0</sub><sup>3</sup>
+      mathml: "<mrow><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup></mrow>"
       latex: \ensuremath{\mathit{e}\mathit{a}_0^{3}}
       unicode: 𝑒𝑎₀³
   root_units:
@@ -6970,6 +7228,7 @@
     - id: "eE_h*h-bar^-1"
       ascii: "eE_h*h-bar^-1"
       html: <i>eE</i><sub>h</sub>/&#295;
+      mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
       latex: \ensuremath{\mathit{e}E_{h}/\mathit{\hbar}}
       unicode: 𝑒𝐸ₕ/ℏ
   root_units:
@@ -6994,6 +7253,7 @@
     - id: "e*a_0"
       ascii: "e*a_0"
       html: <i>ea</i><sub>0</sub>
+      mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
       latex: \ensuremath{\mathit{e}\mathit{a}_0}
       unicode: 𝑒𝑎₀
   root_units:
@@ -7018,6 +7278,7 @@
     - id: "E_h*(e*a_0)"
       ascii: "E_h*(e*a_0)"
       html: <i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub>
+      mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
       latex: \ensuremath{\mathit{E}_{h}/\mathit{\e}\mathit{a}_0}
       unicode: 𝐸ₕ/𝑒𝑎₀
   root_units:
@@ -7042,6 +7303,7 @@
     - id: "E_h*(e*a_0^2)"
       ascii: "E_h*(e*a_0^2)"
       html: <i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub><sup>2</sup>
+      mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{E}_{h}/\mathit{\e}\mathit{a}_0^2}
       unicode: 𝐸ₕ/𝑒𝑎₀²
   root_units:
@@ -7066,6 +7328,7 @@
     - id: "E_h*e-1"
       ascii: "E_h*e-1"
       html: <i>E</i><sub>h</sub>/<i>e</i>
+      mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>e</mi></mrow>"
       latex: \ensuremath{\mathit{E}_{h}/\mathit{\e}}
       unicode: 𝐸ₕ/𝑒
   root_units:
@@ -7094,6 +7357,7 @@
     - id: "E_h*(a_0)-1"
       ascii: "E_h*(a_0)-1"
       html: <i>E</i><sub>h</sub>/<i>a</i><sub>0</sub>
+      mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
       latex: \ensuremath{\mathit{E}_{h}/\mathit{a}_0}
       unicode: 𝐸ₕ/𝑎₀
   root_units:
@@ -7120,6 +7384,7 @@
     - id: "e*a_0^2"
       ascii: "e*a_0^2"
       html: <i>e</i><i>a</i><sub>0</sub><sup>2</sup>
+      mathml: "<mrow><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub>><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{e}\mathit{a}_0^2}
       unicode: 𝑒𝑎₀²
   root_units:
@@ -7144,6 +7409,7 @@
     - id: "e^2*a_0^2*(E_h)^-1"
       ascii: "e^2*a_0^2*(E_h)^-1"
       html: <i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>E</i><sub>h</sub>
+      mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
       latex: \ensuremath{\mathit{e}\mathit{a}_0^2/\mathit{E}_h}
       unicode: 𝑒²𝑎₀²/𝐸ₕ
   root_units:
@@ -7169,6 +7435,7 @@
     - id: "statohm"
       ascii: "statohm"
       html: "statohm"
+      mathml: "<mi mathvariant='normal'>statohm</mi>"
       latex: \ensuremath{\mathrm{statohm}}
       unicode: "statohm"
   root_units:
@@ -7194,6 +7461,7 @@
     - id: "statF"
       ascii: "statF"
       html: "statF"
+      mathml: "<mi mathvariant='normal'>statF</mi>"
       latex: \ensuremath{\mathrm{statF}}
       unicode: "statF"
   root_units:
@@ -7219,6 +7487,7 @@
     - id: "statA"
       ascii: "statA"
       html: "statA"
+      mathml: "<mi mathvariant='normal'>statA</mi>"
       latex: \ensuremath{\mathrm{statA}}
       unicode: "statA"
   root_units:
@@ -7244,6 +7513,7 @@
     - id: "statV"
       ascii: "statV"
       html: "statV"
+      mathml: "<mi mathvariant='normal'>statV</mi>"
       latex: "statV"
       unicode: "statV"
   root_units:
@@ -7273,6 +7543,7 @@
     - id: "statH"
       ascii: "statH"
       html: "statH"
+      mathml: "<mi mathvariant='normal'>statH</mi>"
       latex: \ensuremath{\mathrm{statH}}
       unicode: "statH"
   root_units:
@@ -7298,6 +7569,7 @@
     - id: "statmho"
       ascii: "statmho"
       html: "statmho"
+      mathml: "<mi mathvariant='normal'>statmho</mi>"
       latex: \ensuremath{\mathrm{statmho}}
       unicode: "statmho"
   root_units:
@@ -7323,6 +7595,7 @@
     - id: "statcoulomb"
       ascii: "statcoulomb"
       html: "statcoulomb"
+      mathml: "<mi mathvariant='normal'>statcoulomb</mi>"
       latex: \ensuremath{\mathrm{statcoulomb}}
       unicode: "statcoulomb"
   root_units:
@@ -7349,6 +7622,7 @@
     - id: "statWb"
       ascii: "statWb"
       html: "statWb"
+      mathml: "<mi mathvariant='normal'>statWb</mi>"
       latex: \ensuremath{\mathrm{statWb}}
       unicode: "statWb"
   root_units:
@@ -7373,6 +7647,7 @@
     - id: "statT"
       ascii: "statT"
       html: "statT"
+      mathml: "<mi mathvariant='normal'>statT</mi>"
       latex: \ensuremath{\mathrm{statT}}
       unicode: "statT"
   root_units:
@@ -7397,6 +7672,7 @@
     - id: "statwatt"
       ascii: "statwatt"
       html: "statwatt"
+      mathml: "<mi mathvariant='normal'>statwatt</mi>"
       latex: \ensuremath{\mathrm{statwatt}}
       unicode: "statwatt"
   root_units:
@@ -7422,6 +7698,7 @@
     - id: "dr (avdp)"
       ascii: "dr (avdp)"
       html: "dr (avdp)"
+      mathml: "<mi mathvariant='normal'>dr (avdp)</mi>"
       latex: \ensuremath{\mathrm{dr~(avdp)}}
       unicode: "dr (avdp)"
   root_units:
@@ -7464,6 +7741,7 @@
     - id: "ft.L"
       ascii: "ft.L"
       html: "ft.L"
+      mathml: "<mi mathvariant='normal'>ft.L</mi>"
       latex: \ensuremath{\mathrm{ft.L}}
       unicode: "ft.L"
   root_units:
@@ -7547,6 +7825,7 @@
     - id: "rd"
       ascii: "rd"
       html: "rd"
+      mathml: "<mi mathvariant='normal'>rd</mi>"
       latex: "rd"
       unicode: "rd"
   root_units:
@@ -7572,6 +7851,7 @@
     - id: "fath"
       ascii: "fath"
       html: "fath"
+      mathml: "<mi mathvariant='normal'>fath</mi>"
       latex: \ensuremath{\mathrm{fath}}
       unicode: "fath"
   root_units:
@@ -7614,6 +7894,7 @@
     - id: "hp"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -7639,6 +7920,7 @@
     - id: "hp_boiler"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -7664,6 +7946,7 @@
     - id: "hp_water"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -7688,6 +7971,7 @@
     - id: "hp_UK"
       ascii: "hp"
       html: "hp"
+      mathml: "<mi mathvariant='normal'>hp</mi>"
       latex: \ensuremath{\mathrm{hp}}
       unicode: "hp"
   root_units:
@@ -7712,6 +7996,7 @@
     - id: "degR"
       ascii: "degR"
       html: "&#176;R"
+      mathml: "<mi mathvariant='normal'>&#176;R</mi>"
       latex: \ensuremath{mathrm{^{\circ}R}}
       unicode: "°R"
   root_units:
@@ -7736,6 +8021,7 @@
     - id: "Da"
       ascii: "Da"
       html: "Da"
+      mathml: "<mi mathvariant='normal'>Da</mi>"
       latex: \ensuremath{\mathrm{Da}}
       unicode: "Da"
   root_units:
@@ -7760,6 +8046,7 @@
     - id: "lambda-bar_C"
       ascii: "lambda-bar_C"
       html: "&#x19b;<sub>C</sub>"
+      mathml: "<msub><mi mathvariant='normal'>&#x19b;</mi><mi mathvariant='normal'>C</mi></msub>"
       latex: \ensuremath{\lambdabar_C}
       unicode: "ƛ_C"
   root_units:
@@ -7784,6 +8071,7 @@
     - id: "e^3a_0^3*(E_h^3)"
       ascii: "e^3a_0^3*(E_h^3)"
       html: <i>e</i><sup>3</sup><i>a</i><sub>0</sub><sup>3</sup><i>E</i><sub>h</sub><sup>3</sup>
+      mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
       latex: \ensuremath{\mathit{e}^3/\mathit(a}_0^3\mathit{E}_h^3}
       unicode: 𝑒³𝑎₀³𝐸ₕ³
   root_units:
@@ -7808,6 +8096,7 @@
     - id: "e^4a_0^4*(E_h^3)"
       ascii: "e^4a_0^4*(E_h^3)"
       html: <i>e</i><sup>4</sup><i>a</i><sub>0</sub><sup>4</sup><i>E</i><sub>h</sub><sup>3</sup>
+      mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
       latex: \ensuremath{\mathit{e}^4/\mathit(a}_0^4\mathit{E}_h^3}
       unicode: 𝑒⁴𝑎₀⁴𝐸ₕ⁴
   root_units:
@@ -7832,6 +8121,7 @@
     - id: "e^2*(a_0*E_h)-1"
       ascii: "e^2*(a_0*E_h)-1"
       html: <i>e</i><sup>2</sup>/<i>a</i><sub>0</sub><i>E</i><sub>h</sub>
+      mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
       latex: \ensuremath{\mathit{e}^2/\mathit(a}_0\mathit{E}_h}
       unicode: 𝑒²/𝑎₀𝐸ₕ
   root_units: 
@@ -7856,8 +8146,9 @@
     - id: "a_0*E_h*h-bar-1"
       ascii: "a_0*E_h*h-bar-1"
       html: <i>a</i><sub>0</sub><i>E</i><sub>h</sub>/&#295;
-      latex: \ensuremath{\mathit{a}_\mathrm{0}\mathit{e}E_{h}/\mathit{\hbar}}
-      unicode: 𝑎₀𝑒𝐸ₕ/ℏ
+      mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
+      latex: \ensuremath{\mathit{a}_\mathrm{0}\mathit{E}_{h}/\mathit{\hbar}}
+      unicode: 𝑎₀𝐸ₕ/ℏ
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_velocity"
@@ -7880,6 +8171,7 @@
     - id: "m_e*c^2"
       ascii: "m_e*c^2"
       html: <i>m</i><sub>e</sub><i>c</i><sup>2</sup>
+      mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><msup><mi mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{m}_e\mathit{c}^2}
       unicode: 𝑚ₑ𝑐²
   root_units:
@@ -7904,6 +8196,7 @@
     - id: "m_e*c"
       ascii: "m_e*c"
       html: <i>m</i><sub>e</sub><i>c</i>
+      mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
       latex: \ensuremath{\mathit{m}_e\mathit{c}}
       unicode: 𝑚ₑ𝑐
   root_units:
@@ -7928,6 +8221,7 @@
     - id: "h-bar_eV_s"
       ascii: "h-bar"
       html: "&#295;"
+      mathml: "<mi mathvariant='italic'>&#295;</mi>"
       latex: \ensuremath{mathrm{\hbar}}
       unicode: ℏ
   root_units:
@@ -7952,6 +8246,7 @@
     - id: "m_e*c^2_MeV"
       ascii: "m_e*c^2"
       html: <i>m</i><sub>e</sub><i>c</i><sup>2</sup>
+      mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><msup><mi mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
       latex: \ensuremath{\mathit{m}_e\mathit{c}^2}
       unicode: 𝑚ₑ𝑐²
   root_units:
@@ -7976,6 +8271,7 @@
     - id: "m_e*c_MeV/C"
       ascii: "m_e*c"
       html: <i>m</i><sub>e</sub><i>c</i>
+      mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
       latex: \ensuremath{\mathit{m}_e\mathit{c}}
       unicode: 𝑚ₑ𝑐
   root_units:
@@ -8001,6 +8297,7 @@
     - id: "qt (UK)"
       ascii: "qt (UK)"
       html: "qt (UK)"
+      mathml: "<mi mathvariant='normal'>qt (UK)</mi>"
       latex: \ensuremath{\mathrm{qt (UK)}}
       unicode: "qt (UK)"
   root_units:
@@ -8026,6 +8323,7 @@
     - id: "dry qt (US)"
       ascii: "dry qt (US)"
       html: "dry qt (US)"
+      mathml: "<mi mathvariant='normal'>dry qt (US)</mi>"
       latex: \ensuremath{\mathrm{dry qt (US)}}
       unicode: "dry qt (US)"
   root_units:
@@ -8051,6 +8349,7 @@
     - id: "liq qt (US)"
       ascii: "liq qt (US)"
       html: "liq qt (US)"
+      mathml: "<mi mathvariant='normal'>liq qt (US)</mi>"
       latex: \ensuremath{\mathrm{liq qt (US)}}
       unicode: "liq qt (US)"
   root_units:
@@ -8210,6 +8509,7 @@
     - id: "ch"
       ascii: "ch"
       html: "ch"
+      mathml: "<mi mathvariant='normal'>ch</mi>"
       latex: \ensuremath{\mathrm{ch}}
       unicode: "ch"
   root_units:
@@ -8276,6 +8576,7 @@
     - id: "mi_US_survey"
       ascii: "mi"
       html: "mi"
+      mathml: "<mi mathvariant='normal'>mi</mi>"
       latex: \ensuremath{\mathrm{mi}}
       unicode: "mi"
   root_units:
@@ -8301,6 +8602,7 @@
     - id: "yd_US_survey"
       ascii: "yd"
       html: "yd"
+      mathml: "<mi mathvariant='normal'>yd</mi>"
       latex: \ensuremath{\mathrm{yd}}
       unicode: "yd"
   root_units:
@@ -8327,6 +8629,7 @@
     - id: "ft_US_survey"
       ascii: "ft"
       html: "ft"
+      mathml: "<mi mathvariant='normal'>ft</mi>"
       latex: \ensuremath{\mathrm{ft}}
       unicode: "ft"
   root_units:
@@ -8352,6 +8655,7 @@
     - id: "in_US_survey"
       ascii: "in"
       html: "in"
+      mathml: "<mi mathvariant='normal'>in</mi>"
       latex: \ensuremath{\mathrm{in}}
       unicode: "in"
   root_units:
@@ -8417,6 +8721,7 @@
     - id: "cmH_2O"
       ascii: "cmH_2O"
       html: cmH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>cm</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
       latex: \ensuremath{\mathrm{cmH_{2}O}}
       unicode: "cmH₂O"
   root_units:
@@ -8445,6 +8750,7 @@
     - id: "inH_2O"
       ascii: "inH_2O"
       html: inH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
       latex: \ensuremath{\mathrm{inH_{2}O}}
       unicode: "inH₂O"
   root_units:
@@ -8513,6 +8819,7 @@
     - id: "ftH_2O"
       ascii: "ftH_2O"
       html: ftH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
       latex: \ensuremath{\mathrm{ftH_{2}O}}
       unicode: "ftH₂O"
   root_units:
@@ -8559,11 +8866,13 @@
     - id: "inHg_32degF"
       ascii: "inHg"
       html: "inHg"
+      mathml: "<mi mathvariant='normal'>inHg</mi>"
       latex: '\ensuremath{\mathrm{inHg}}'
       unicode: "inHg"
     - id: "\"Hg_32degF"
       ascii: "\"Hg"
       html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
       latex: \ensuremath{\mathrm{''Hg}}
       unicode: "″Hg"
   root_units:
@@ -8590,11 +8899,13 @@
     - id: "inHg_60degF"
       ascii: "inHg"
       html: "inHg"
+      mathml: "<mi mathvariant='normal'>inHg</mi>"
       latex: '\ensuremath{\mathrm{inHg}}'
       unicode: "inHg"
     - id: "\"Hg_60degF"
       ascii: "\"Hg"
       html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
       latex: \ensuremath{\mathrm{''Hg}}
       unicode: "″Hg"
   root_units:
@@ -8623,11 +8934,13 @@
     - id: "inHg"
       ascii: "inHg"
       html: "inHg"
+      mathml: "<mi mathvariant='normal'>inHg</mi>"
       latex: '\ensuremath{\mathrm{inHg}}'
       unicode: "inHg"
     - id: "\"Hg"
       ascii: "\"Hg"
       html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
       latex: \ensuremath{\mathrm{''Hg}}
       unicode: "″Hg"
   root_units:
@@ -8656,11 +8969,13 @@
     - id: "ftHg"
       ascii: "ftHg"
       html: "ftHg"
+      mathml: "<mi mathvariant='normal'>ftHg</mi>"
       latex: '\ensuremath{\mathrm{ftnHg}}'
       unicode: "ftHg"
     - id: "'Hg"
       ascii: "'Hg"
       html: "&#8242;Hg"
+      mathml: "<mi mathvariant='normal'>&#8242;Hg</mi>"
       latex: \ensuremath{\mathrm{'Hg}}
       unicode: "′Hg"
   root_units:
@@ -8687,6 +9002,7 @@
     - id: "thm (US)"
       ascii: "thm (US)"
       html: "thm (US)"
+      mathml: "<mi mathvariant='normal'>thm (US)</mi>"
       latex: \ensuremath{\mathrm{thm (US)}}
       unicode: "thm (US)"
   root_units:
@@ -8721,6 +9037,7 @@
     - id: "pH"
       ascii: "pH"
       html: "pH"
+      mathml: "<mi mathvariant='normal'>pH</mi>"
       latex: \ensuremath{\mathrm{pH}}
       unicode: "pH"
   root_units:
@@ -8745,6 +9062,7 @@
     - id: "degF"
       ascii: "degF"
       html: "&#176;F"
+      mathml: "<mi mathvariant='normal'>&#176;F</mi>"
       latex: \ensuremath{\mathrm{^{\circ}F}}
       unicode: "°F"
   root_units:
@@ -8771,6 +9089,7 @@
     - id: "Btu"
       ascii: "Btu"
       html: "Btu"
+      mathml: "<mi mathvariant='normal'>Btu</mi>"
       latex: \ensuremath{\mathrm{Btu}}
       unicode: "Btu"
   root_units:
@@ -8796,6 +9115,7 @@
     - id: "Btu_th"
       ascii: "Btu_th"
       html: Btu<sub>th</sub>
+      mathml: "<msub><mrow><mi mathvariant='normal'>Btu</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{Btu_{th}}}
       unicode: "Btu_th"
   root_units:
@@ -8820,6 +9140,7 @@
     - id: "Btu_mean"
       ascii: "Btu"
       html: "Btu"
+      mathml: "<mi mathvariant='normal'>Btu</mi>"
       latex: \ensuremath{\mathrm{Btu}}
       unicode: "Btu"
   root_units:
@@ -8844,6 +9165,7 @@
     - id: "Btu_39degF"
       ascii: "Btu"
       html: "Btu"
+      mathml: "<mi mathvariant='normal'>Btu</mi>"
       latex: \ensuremath{\mathrm{Btu}}
       unicode: "Btu"
   root_units:
@@ -8868,6 +9190,7 @@
     - id: "Btu_59degF"
       ascii: "Btu"
       html: "Btu"
+      mathml: "<mi mathvariant='normal'>Btu</mi>"
       latex: \ensuremath{\mathrm{Btu}}
       unicode: "Btu"
   root_units:
@@ -8892,6 +9215,7 @@
     - id: "Btu_60degF"
       ascii: "Btu"
       html: "Btu"
+      mathml: "<mi mathvariant='normal'>Btu</mi>"
       latex: \ensuremath{\mathrm{Btu}}
       unicode: "Btu"
   root_units:
@@ -9111,6 +9435,7 @@
     - id: "lbmol"
       ascii: "lbmol"
       html: "lbmol"
+      mathml: "<mi mathvariant='normal'>lbmol</mi>"
       latex: \ensuremath{\mathrm{lbmol}}
       unicode: "lbmol"
   root_units:
@@ -9137,6 +9462,7 @@
     - id: "ton_refrigeration"
       ascii: "ton"
       html: "ton"
+      mathml: "<mi mathvariant='normal'>ton</mi>"
       latex: \ensuremath{\mathrm{ton}}
       unicode: "ton"
   root_units:
@@ -9161,6 +9487,7 @@
     - id: "bit"
       ascii: "bit"
       html: "bit"
+      mathml: "<mi mathvariant='normal'>bit</mi>"
       latex: \ensuremath{\mathrm{bit}}
       unicode: "bit"
   root_units:
@@ -9203,6 +9530,7 @@
     - id: "pk"
       ascii: "pk"
       html: "pk"
+      mathml: "<mi mathvariant='normal'>pk</mi>"
       latex: \ensuremath{\mathrm{pk}}
       unicode: "pk"
   root_units:
@@ -9227,6 +9555,7 @@
     - id: "minim"
       ascii: "min"
       html: "min"
+      mathml: "<mi mathvariant='normal'>min</mi>"
       latex: \ensuremath{\mathrm{min}}
       unicode: "min"
   root_units:
@@ -9291,6 +9620,7 @@
     - id: "gi"
       ascii: "gi"
       html: "gi"
+      mathml: "<mi mathvariant='normal'>gi</mi>"
       latex: \ensuremath{\mathrm{gi}}
       unicode: "gi"
   root_units:
@@ -9317,6 +9647,7 @@
     - id: "gi_imperial"
       ascii: "gi"
       html: "gi"
+      mathml: "<mi mathvariant='normal'>gi</mi>"
       latex: \ensuremath{\mathrm{gi}}
       unicode: "gi"
   root_units:
@@ -9341,6 +9672,7 @@
     - id: "cSt"
       ascii: "cSt"
       html: "cSt"
+      mathml: "<mi mathvariant='normal'>cSt</mi>"
       latex: \ensuremath{\mathrm{cSt}}
       unicode: "cSt"
   root_units:
@@ -9367,6 +9699,7 @@
     - id: "ac*ft"
       ascii: "ac*ft"
       html: ac&#8201;&#183;&#8201;ft
+      mathml: "<mrow><mi mathvariant='normal'>ac</mi><mo>&#183;</mo><mi mathvariant='normal'>ft</mi></mrow>"
       latex: \ensuremath{\mathrm{ac\cdot ft}}
       unicode: "ac·ft"
   root_units:
@@ -9394,6 +9727,7 @@
     - id: "ft^3*min^-1"
       ascii: "ft^3*min^-1"
       html: ft<sup>3</sup>/min
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>min</mi></mrow>"
       latex: \ensuremath{\mathrm{ft^3/min}}
       unicode: "ft³min"
   root_units:
@@ -9421,6 +9755,7 @@
     - id: "ft^3*sec^-1"
       ascii: "ft^3*sec^-1"
       html: ft<sup>3</sup>/sec
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>sec</mi></mrow>"
       latex: \ensuremath{\mathrm{ft^3/sec}}
       unicode: "ft³sec"
   root_units:
@@ -9448,6 +9783,7 @@
     - id: "in^3*min^-1"
       ascii: "in^3*min^-1"
       html: in<sup>3</sup>/min
+      mathml: "<mrow><msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi mathvariant='normal'>min</mi></mrow>"
       latex: \ensuremath{\mathrm{in^3/min}}
       unicode: "in³min"
   root_units:
@@ -9475,6 +9811,7 @@
     - id: "uin"
       ascii: "uin"
       html: "&#956;in"
+      mathml: "<mi mathvariant='normal'>&#956;in</mi>"
       latex: \ensuremath{\mathrm{mu}in}
       unicode: "μin"
   root_units:
@@ -9500,6 +9837,7 @@
     - id: "mbar"
       ascii: "mbar"
       html: "mbar"
+      mathml: "<mi mathvariant='normal'>mbar</mi>"
       latex: \ensuremath{\mathrm{mbar}}
       unicode: "mbar"
   root_units:
@@ -9528,11 +9866,13 @@
     - id: "mpg"
       ascii: "mpg"
       html: "mpg"
+      mathml: "<mi mathvariant='normal'>mpg</mi>"
       latex: '\ensuremath{\mathrm{mpg}}'
       unicode: "mpg"
     - id: "mi/gal"
       ascii: "mi/gal"
       html: "mi/gal"
+      mathml: "<mrow><mi mathvariant='normal'>mi</mi><mo>/</mo><mrow><mi mathvariant='normal'>gal</mi></mrow>"
       latex: '\ensuremath{\mathrm{mi/gal}}'
       unicode: "mi/gal"
   root_units:
@@ -9561,11 +9901,13 @@
     - id: "gpm"
       ascii: "gpm"
       html: "gpm"
+      mathml: "<mi mathvariant='normal'>gpm</mi>"
       latex: '\ensurement{\mathrm{gpm}}'
       unicode: "gal/min"
     - id: "gal*min^-1"
       ascii: "gal*min^-1"
       html: "gal/min"
+      mathml: "<mrow><mi mathvariant='normal'>gal</mi><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
       latex: '\ensurement{\mathrm{gal/min}}'
       unicode: "gpm"
   root_units:
@@ -9593,11 +9935,13 @@
     - id: mL
       ascii: "mL"
       html: "mL"
+      mathml: "<mi mathvariant='normal'>mL</mi>"
       latex: '\ensuremath{\mathrm{mL}}'
       unicode: "mL"
     - id: ml
       ascii: "ml"
       html: "ml"
+      mathml: "<mi mathvariant='normal'>ml</mi>"
       latex: '\ensuremath{\mathrm{ml}}'
       unicode: "ml"
   root_units:
@@ -9623,11 +9967,13 @@
     - id: "mol*L^-1"
       ascii: "mol*L^-1"
       html: "mol/L"
+      mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><mrow><mi mathvariant='normal'>L</mi></mrow>"
       latex: '\ensuremath{\mathrm{mol/L}}'
       unicode: "mol/L"
     - id: "mol*l^-1"
       ascii: "mol*l^-1"
       html: "mol/l"
+      mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><mrow><mi mathvariant='normal'>l</mi></mrow>"
       latex: '\ensuremath{\mathrm{mol/l}}'
       unicode: "mol/l"
   root_units:
@@ -9655,6 +10001,7 @@
     - id: "mol*kg^-1"
       ascii: "mol*kg^-1"
       html: "mol/kg"
+      mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
       latex: \ensuremath{\mathrm{mol/kg}}
       unicode: "mol/kg"
   root_units:
@@ -9683,6 +10030,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9702,6 +10050,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9721,6 +10070,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9740,6 +10090,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9759,6 +10110,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9778,6 +10130,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
   quantity_reference:
@@ -9797,6 +10150,7 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
 
@@ -9813,5 +10167,6 @@
     - id: "1"
       ascii: "1"
       html: "1"
+      mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
