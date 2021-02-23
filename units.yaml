@@ -8,7 +8,7 @@
     name: "SI"
   unit_name:
     - "meter"
-  unit_symbol:
+  unit_symbols:
     id: "m"
     ascii: "m"
     html: "m"
@@ -58,7 +58,7 @@
     name: "SI"
   unit_name:
     - "candela"
-  unit_symbol:
+  unit_symbols:
     id: "cd"
     ascii: "cd"
     html: "cd"
@@ -82,7 +82,7 @@
     name: "SI"
   unit_name:
     - "kilogram"
-  unit_symbol:
+  unit_symbols:
     id: "kg"
     ascii: "kg"
     html: "kg"
@@ -107,7 +107,7 @@
     name: "SI"
   unit_name:
     - "second"
-  unit_symbol:
+  unit_symbols:
     id: "s"
     ascii: "s"
     html: "s"
@@ -135,7 +135,7 @@
     name: "SI"
   unit_name:
     - "mole"
-  unit_symbol:
+  unit_symbols:
     id: "mol"
     ascii: "mol"
     html: "mol"
@@ -159,7 +159,7 @@
     name: "SI"
   unit_name:
     - "ampere"
-  unit_symbol:
+  unit_symbols:
     id: "A"
     ascii: "A"
     html: "A"
@@ -183,7 +183,7 @@
     name: "SI"
   unit_name:
     - "kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "K"
     ascii: "K"
     html: "K"
@@ -207,7 +207,7 @@
     name: "non-SI"
   unit_name:
     - "inch"
-  unit_symbol:
+  unit_symbols:
     id: "in"
     ascii: "in"
     html: "in"
@@ -233,7 +233,7 @@
     name: "SI"
   unit_name:
     - "radian"
-  unit_symbol:
+  unit_symbols:
     id: "rad"
     ascii: "rad"
     html: "rad"
@@ -265,7 +265,7 @@
     name: "SI"
   unit_name:
     - "steradian"
-  unit_symbol:
+  unit_symbols:
     id: "sr"
     ascii: "sr"
     html: "sr"
@@ -296,7 +296,7 @@
     name: "SI"
   unit_name:
     - "newton"
-  unit_symbol:
+  unit_symbols:
     id: "N"
     ascii: "N"
     html: "N"
@@ -331,7 +331,7 @@
     name: "SI"
   unit_name:
     - "pascal"
-  unit_symbol:
+  unit_symbols:
     id: "Pa"
     ascii: "Pa"
     html: "Pa"
@@ -378,7 +378,7 @@
     name: "SI"
   unit_name:
     - "joule"
-  unit_symbol:
+  unit_symbols:
     id: "J"
     ascii: "J"
     html: "J"
@@ -427,7 +427,7 @@
     name: "SI"
   unit_name:
     - "watt"
-  unit_symbol:
+  unit_symbols:
     id: "W"
     ascii: "W"
     html: "W"
@@ -464,7 +464,7 @@
     name: "SI"
   unit_name:
     - "coulomb"
-  unit_symbol:
+  unit_symbols:
     id: "C"
     ascii: "C"
     html: "C"
@@ -498,7 +498,7 @@
     name: "SI"
   unit_name:
     - "volt"
-  unit_symbol:
+  unit_symbols:
     id: "V"
     ascii: "V"
     html: "V"
@@ -538,7 +538,7 @@
     name: "SI"
   unit_name:
     - "farad"
-  unit_symbol:
+  unit_symbols:
     id: "F"
     ascii: "F"
     html: "F"
@@ -576,7 +576,7 @@
     name: "SI"
   unit_name:
     - "ohm"
-  unit_symbol:
+  unit_symbols:
     id: "Ohm"
     ascii: "Ohm"
     html: "&#8486;"
@@ -614,7 +614,7 @@
     name: "SI"
   unit_name:
     - "siemens"
-  unit_symbol:
+  unit_symbols:
     id: "S"
     ascii: "S"
     html: "S"
@@ -652,7 +652,7 @@
     name: "SI"
   unit_name:
     - "weber"
-  unit_symbol:
+  unit_symbols:
     id: "Wb"
     ascii: "Wb"
     html: "Wb"
@@ -690,7 +690,7 @@
     name: "SI"
   unit_name:
     - "tesla"
-  unit_symbol:
+  unit_symbols:
     id: "T"
     ascii: "T"
     html: "T"
@@ -725,7 +725,7 @@
     name: "SI"
   unit_name:
     - "henry"
-  unit_symbol:
+  unit_symbols:
     id: "H"
     ascii: "H"
     html: "H"
@@ -763,7 +763,7 @@
     name: "SI"
   unit_name:
     - "square meter"
-  unit_symbol:
+  unit_symbols:
     id: "m^2"
     ascii: "m^2"
     html: m<sup>2</sup>
@@ -787,7 +787,7 @@
     name: "SI"
   unit_name:
     - "degree Celsius"
-  unit_symbol:
+  unit_symbols:
     id: "degC"
     ascii: "degC"
     html: "&#176;C"
@@ -816,7 +816,7 @@
     name: "SI"
   unit_name:
     - "becquerel"
-  unit_symbol:
+  unit_symbols:
     id: "Bq"
     ascii: "Bq"
     html: "Bq"
@@ -845,7 +845,7 @@
     name: "non-SI"
   unit_name:
     - "fermi"
-  unit_symbol:
+  unit_symbols:
     id: "fermi"
     ascii: "fermi"
     html: "fermi"
@@ -872,7 +872,7 @@
     name: "SI"
   unit_name:
     - "gram"
-  unit_symbol:
+  unit_symbols:
     id: "g"
     ascii: "g"
     html: "g"
@@ -896,7 +896,7 @@
     name: "SI"
   unit_name:
     - "gray"
-  unit_symbol:
+  unit_symbols:
     id: "Gy"
     ascii: "Gy"
     html: "Gy"
@@ -932,7 +932,7 @@
     name: "SI"
   unit_name:
     - "sievert"
-  unit_symbol:
+  unit_symbols:
     id: "Sv"
     ascii: "Sv"
     html: "Sv"
@@ -964,7 +964,7 @@
     name: "SI"
   unit_name:
     - "katal"
-  unit_symbol:
+  unit_symbols:
     id: "kat"
     ascii: "kat"
     html: "kat"
@@ -996,7 +996,7 @@
     name: "SI"
   unit_name:
     - "hertz"
-  unit_symbol:
+  unit_symbols:
     id: "Hz"
     ascii: "Hz"
     html: "Hz"
@@ -1025,7 +1025,7 @@
     name: "SI"
   unit_name:
     - "lumen"
-  unit_symbol:
+  unit_symbols:
     id: "lm"
     ascii: "lm"
     html: "lm"
@@ -1054,7 +1054,7 @@
     name: "SI"
   unit_name:
     - "lux"
-  unit_symbol:
+  unit_symbols:
     id: "lx"
     ascii: "lx"
     html: "lx"
@@ -1086,7 +1086,7 @@
     name: "SI"
   unit_name:
     - "meter per second"
-  unit_symbol:
+  unit_symbols:
     id: "m*s^-1"
     ascii: "m*s^-1"
     html: "m/s"
@@ -1120,7 +1120,7 @@
     name: "SI"
   unit_name:
     - "cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "m^3"
     ascii: "m^3"
     html: m<sup>3</sup>
@@ -1146,7 +1146,7 @@
     name: "non-SI"
   unit_name:
     - "minute"
-  unit_symbol:
+  unit_symbols:
     id: "min"
     ascii: "min"
     html: "min"
@@ -1170,7 +1170,7 @@
     name: "non-SI"
   unit_name:
     - "hour"
-  unit_symbol:
+  unit_symbols:
     id: "h"
     ascii: "h"
     html: "h"
@@ -1194,7 +1194,7 @@
     name: "non-SI"
   unit_name:
     - "day"
-  unit_symbol:
+  unit_symbols:
     id: "d"
     ascii: "d"
     html: "d"
@@ -1218,7 +1218,7 @@
     name: "non-SI"
   unit_name:
     - "angstrom"
-  unit_symbol:
+  unit_symbols:
     id: "Aring"
     ascii: "Aring"
     html: "&#197;"
@@ -1244,7 +1244,7 @@
     name: "non-SI"
   unit_name:
     - "are"
-  unit_symbol:
+  unit_symbols:
     id: "a"
     ascii: "a"
     html: "a"
@@ -1268,7 +1268,7 @@
     name: "non-SI"
   unit_name:
     - "barn"
-  unit_symbol:
+  unit_symbols:
     id: "b"
     ascii: "b"
     html: "b"
@@ -1292,7 +1292,7 @@
     name: "non-SI"
   unit_name:
     - "hectare"
-  unit_symbol:
+  unit_symbols:
     id: "ha"
     ascii: "ha"
     html: "ha"
@@ -1316,7 +1316,7 @@
     name: "non-SI"
   unit_name:
     - "square foot"
-  unit_symbol:
+  unit_symbols:
     id: "ft^2"
     ascii: "ft^2"
     html: ft<sup>2</sup>
@@ -1340,7 +1340,7 @@
     name: "non-SI"
   unit_name:
     - "square inch"
-  unit_symbol:
+  unit_symbols:
     id: "in^2"
     ascii: "in^2"
     html: in<sup>2</sup>
@@ -1365,7 +1365,7 @@
   unit_name:
     - "abampere"
     - "EMU of current"
-  unit_symbol:
+  unit_symbols:
     id: "abA"
     ascii: "abA"
     html: "abA"
@@ -1389,7 +1389,7 @@
     name: "non-SI"
   unit_name:
     - "abcoulomb"
-  unit_symbol:
+  unit_symbols:
     id: "abC"
     ascii: "abC"
     html: "abC"
@@ -1416,7 +1416,7 @@
   unit_name:
     - "abfarad"
     - "EMU of capacitance"
-  unit_symbol:
+  unit_symbols:
     id: "abF"
     ascii: "abF"
     html: "abF"
@@ -1441,7 +1441,7 @@
   unit_name:
     - "abhenry"
     - "EMU of inductance"
-  unit_symbol:
+  unit_symbols:
     id: "abH"
     ascii: "abH"
     html: "abH"
@@ -1465,7 +1465,7 @@
     name: "non-SI"
   unit_name:
     - "abmho"
-  unit_symbol:
+  unit_symbols:
     id: "abS"
     ascii: "abS"
     html: (ab&#937;) <sup>-1</sup>
@@ -1490,7 +1490,7 @@
   unit_name:
     - "abohm"
     - "EMU of resistance"
-  unit_symbol:
+  unit_symbols:
     id: "abohm"
     ascii: "abohm"
     html: "ab&#937;"
@@ -1515,7 +1515,7 @@
   unit_name:
     - "abvolt"
     - "EMU of electric potential"
-  unit_symbol:
+  unit_symbols:
     id: "abV"
     ascii: "abV"
     html: "abV"
@@ -1541,7 +1541,7 @@
     name: "non-SI"
   unit_name:
     - "ampere hour"
-  unit_symbol:
+  unit_symbols:
     id: "A*h"
     ascii: "A*h"
     html: A&#8201;&#183;&#8201;h
@@ -1570,7 +1570,7 @@
     name: "non-SI"
   unit_name:
     - "biot"
-  unit_symbol:
+  unit_symbols:
     id: "Bi"
     ascii: "Bi"
     html: "Bi"
@@ -1594,7 +1594,7 @@
     name: "non-SI"
   unit_name:
     - "maxwell"
-  unit_symbol:
+  unit_symbols:
     id: "Mx"
     ascii: "Mx"
     html: "Mx"
@@ -1618,7 +1618,7 @@
     name: "non-SI"
   unit_name:
     - "erg"
-  unit_symbol:
+  unit_symbols:
     id: "erg"
     ascii: "erg"
     html: "erg"
@@ -1652,7 +1652,7 @@
     name: "non-SI"
   unit_name:
     - "kilowatt hour"
-  unit_symbol:
+  unit_symbols:
     id: "kW*h"
     ascii: "kW*h"
     html: kW&#8201;&#183;&#8201;h
@@ -1692,7 +1692,7 @@
     - "I.T. calorie"
     - "calorie_IT"
     - "calorie"
-  unit_symbol:
+  unit_symbols:
     id: "cal_IT"
     ascii: "cal_IT"
     html: cal<sub>IT</sub>
@@ -1725,7 +1725,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -1744,7 +1744,7 @@
     name: "non-SI"
   unit_name:
     - "kilocalorie_IT"
-  unit_symbol:
+  unit_symbols:
     id: "kcal_IT"
     ascii: "kcal_IT"
     html: kcal<sub>IT</sub>
@@ -1777,7 +1777,7 @@
     name: "non-SI"
   unit_name:
     - "kilocalorie_th"
-  unit_symbol:
+  unit_symbols:
     id: "kcal_th"
     ascii: "kcal_th"
     html: kcal<sub>th</sub>
@@ -1810,7 +1810,7 @@
     name: "non-SI"
   unit_name:
     - "watt hour"
-  unit_symbol:
+  unit_symbols:
     id: "W*h"
     ascii: "W*h"
     html: W&#8201;&#183;&#8201;h
@@ -1847,7 +1847,7 @@
     name: "SI"
   unit_name:
     - "watt second"
-  unit_symbol:
+  unit_symbols:
     id: "W*s"
     ascii: "W*s"
     html: W&#8201;&#183;&#8201;s
@@ -1884,7 +1884,7 @@
     name: "non-SI"
   unit_name:
     - "dyne"
-  unit_symbol:
+  unit_symbols:
     id: "dyn"
     ascii: "dyn"
     html: "dyn"
@@ -1908,7 +1908,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force"
-  unit_symbol:
+  unit_symbols:
     id: "kgf"
     ascii: "kgf"
     html: "kgf"
@@ -1933,7 +1933,7 @@
     name: "non-SI"
   unit_name:
     - "kilopond"
-  unit_symbol:
+  unit_symbols:
     id: "kp"
     ascii: "kp"
     html: "kp"
@@ -1957,7 +1957,7 @@
     name: "non-SI"
   unit_name:
     - "kilocalorie_th per second"
-  unit_symbol:
+  unit_symbols:
     id: "kcal_th*s^-1"
     ascii: "kcal_th*s^-1"
     html: kcal<sub>th</sub>/s
@@ -1986,7 +1986,7 @@
     name: "non-SI"
   unit_name:
     - "calorie_th per second"
-  unit_symbol:
+  unit_symbols:
     id: "cal_th*s^-1"
     ascii: "cal_th*s^-1"
     html: cal<sub>th</sub>/s
@@ -2014,7 +2014,7 @@
     name: "non-SI"
   unit_name:
     - "foot"
-  unit_symbol:
+  unit_symbols:
     id: "ft"
     ascii: "ft"
     html: "ft"
@@ -2040,7 +2040,7 @@
     name: "non-SI"
   unit_name:
     - "mile"
-  unit_symbol:
+  unit_symbols:
     id: "mi"
     ascii: "mi"
     html: "mi"
@@ -2066,7 +2066,7 @@
     name: "non-SI"
   unit_name:
     - "yard"
-  unit_symbol:
+  unit_symbols:
     id: "yd"
     ascii: "yd"
     html: "yd"
@@ -2092,7 +2092,7 @@
     name: "non-SI"
   unit_name:
     - "phot"
-  unit_symbol:
+  unit_symbols:
     id: "ph"
     ascii: "ph"
     html: "ph"
@@ -2119,7 +2119,7 @@
     - "troy grain"
     - "apothecary grain"
     - "grain"
-  unit_symbol:
+  unit_symbols:
     id: "gr"
     ascii: "gr"
     html: "gr"
@@ -2144,7 +2144,7 @@
   unit_name:
     - "metric ton"
     - "ton"
-  unit_symbol:
+  unit_symbols:
     id: "t"
     ascii: "t"
     html: "t"
@@ -2168,7 +2168,7 @@
     name: "non-SI"
   unit_name:
     - "erg per second"
-  unit_symbol:
+  unit_symbols:
     id: "erg*s^-1"
     ascii: "erg*s^-1"
     html: "erg/s"
@@ -2197,7 +2197,7 @@
     name: "non-SI"
   unit_name:
     - "bar"
-  unit_symbol:
+  unit_symbols:
     id: "bar"
     ascii: "bar"
     html: "bar"
@@ -2223,7 +2223,7 @@
     name: "non-SI"
   unit_name:
     - "dyne per square centimeter"
-  unit_symbol:
+  unit_symbols:
     id: "dyn*cm^-2"
     ascii: "dyn*cm^-2"
     html: dyn/cm<sup>2</sup>
@@ -2253,7 +2253,7 @@
     name: "non-SI"
   unit_name:
     - "gram-force per square centimeter"
-  unit_symbol:
+  unit_symbols:
     id: "gf*cm^-2"
     ascii: "gf*cm^-2"
     html: gf/cm<sup>2</sup>
@@ -2283,7 +2283,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force per square centimeter"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*cm^-2"
     ascii: "kgf*cm^-2"
     html: kgf/cm<sup>2</sup>
@@ -2314,7 +2314,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*m^-2"
     ascii: "kgf*m^-2"
     html: kgf/m<sup>2</sup>
@@ -2344,7 +2344,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force per square millimeter"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*mm^-2"
     ascii: "kgf*mm^-2"
     html: kgf/mm<sup>2</sup>
@@ -2375,7 +2375,7 @@
     name: "non-SI"
   unit_name:
     - "gamma"
-  unit_symbol:
+  unit_symbols:
     id: "gamma"
     ascii: "gamma"
     html: "&#947;"
@@ -2400,7 +2400,7 @@
     name: "non-SI"
   unit_name:
     - "curie"
-  unit_symbol:
+  unit_symbols:
     id: "Ci"
     ascii: "Ci"
     html: "Ci"
@@ -2424,7 +2424,7 @@
     name: "non-SI"
   unit_name:
     - "rad (absorbed dose)"
-  unit_symbol:
+  unit_symbols:
     id: "rad_radiation"
     ascii: "rad"
     html: "rad"
@@ -2448,7 +2448,7 @@
     name: "non-SI"
   unit_name:
     - "rem"
-  unit_symbol:
+  unit_symbols:
     id: "rem"
     ascii: "rem"
     html: "rem"
@@ -2473,7 +2473,7 @@
   unit_name:
     - "year (365 days)"
     - "year"
-  unit_symbol:
+  unit_symbols:
     id: "a_year"
     ascii: "a"
     html: "a"
@@ -2497,7 +2497,7 @@
     name: "non-SI"
   unit_name:
     - "foot per minute"
-  unit_symbol:
+  unit_symbols:
     id: "ft*min^-1"
     ascii: "ft*min^-1"
     html: "ft/min"
@@ -2524,7 +2524,7 @@
     name: "non-SI"
   unit_name:
     - "foot per second"
-  unit_symbol:
+  unit_symbols:
     id: "ft*s^-1"
     ascii: "ft*s^-1"
     html: "ft/s"
@@ -2551,7 +2551,7 @@
     name: "non-SI"
   unit_name:
     - "inch per second"
-  unit_symbol:
+  unit_symbols:
     id: "in*s^-1"
     ascii: "in*s^-1"
     html: "in/s"
@@ -2578,7 +2578,7 @@
     name: "non-SI"
   unit_name:
     - "mile per hour"
-  unit_symbol:
+  unit_symbols:
     id: "mi*h^-1"
     ascii: "mi*h^-1"
     html: "mi/h"
@@ -2605,7 +2605,7 @@
     name: "non-SI"
   unit_name:
     - "mile per minute"
-  unit_symbol:
+  unit_symbols:
     id: "mi*min^-1"
     ascii: "mi*min^-1"
     html: "mi/min"
@@ -2632,7 +2632,7 @@
     name: "non-SI"
   unit_name:
     - "mile per second"
-  unit_symbol:
+  unit_symbols:
     id: "mi*s^-1"
     ascii: "mi*s^-1"
     html: "mi/s"
@@ -2659,7 +2659,7 @@
     name: "non-SI"
   unit_name:
     - "stere"
-  unit_symbol:
+  unit_symbols:
     id: "st"
     ascii: "st"
     html: "st"
@@ -2683,7 +2683,7 @@
     name: "SI"
   unit_name:
     - "meter per second squared"
-  unit_symbol:
+  unit_symbols:
     id: "m*s^-2"
     ascii: "m*s^-2"
     html: m/s<sup>2</sup>
@@ -2713,7 +2713,7 @@
   unit_name:
     - "meter to the power minus one"
     - "reciprocal meter"
-  unit_symbol:
+  unit_symbols:
     id: "m^-1"
     ascii: "m^-1"
     html: m<sup>-1</sup>
@@ -2747,7 +2747,7 @@
     name: "SI"
   unit_name:
     - "kilogram per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m^-3"
     ascii: "kg*m^-3"
     html: kg/m<sup>3</sup>
@@ -2777,7 +2777,7 @@
     name: "SI"
   unit_name:
     - "cubic meter per kilogram"
-  unit_symbol:
+  unit_symbols:
     id: "m^3*kg"
     ascii: "m^3*kg"
     html: m<sup>3</sup>/kg
@@ -2805,7 +2805,7 @@
     name: "SI"
   unit_name:
     - "ampere per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "A*m^-2"
     ascii: "A*m^-2"
     html: A/m<sup>2</sup>
@@ -2832,7 +2832,7 @@
     name: "SI"
   unit_name:
     - "ampere per meter"
-  unit_symbol:
+  unit_symbols:
     id: "A*m^-1"
     ascii: "A*m^-1"
     html: "A/m"
@@ -2859,7 +2859,7 @@
     name: "SI"
   unit_name:
     - "mole per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "mol*m^-3"
     ascii: "mol*m^-3"
     html: mol/m<sup>3</sup>
@@ -2886,7 +2886,7 @@
     name: "SI"
   unit_name:
     - "candela per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "cd*m^-2"
     ascii: "cd*m^-2"
     html: cd/m<sup>2</sup>
@@ -2913,7 +2913,7 @@
     name: "non-SI"
   unit_name:
     - "therm (EC)"
-  unit_symbol:
+  unit_symbols:
     id: "thm (EC)"
     ascii: "thm (EC)"
     html: "thm (EC)"
@@ -2947,7 +2947,7 @@
     name: "non-SI"
   unit_name:
     - "roentgen"
-  unit_symbol:
+  unit_symbols:
     id: "R"
     ascii: "R"
     html: "R"
@@ -2971,7 +2971,7 @@
     name: "non-SI"
   unit_name:
     - "gauss"
-  unit_symbol:
+  unit_symbols:
     id: "Gs"
     ascii: "Gs"
     html: "Gs"
@@ -2995,7 +2995,7 @@
     name: "non-SI"
   unit_name:
     - "kayser"
-  unit_symbol:
+  unit_symbols:
     id: "kayser"
     ascii: "K"
     html: "K"
@@ -3021,7 +3021,7 @@
     name: "non-SI"
   unit_name:
     - "centipoise"
-  unit_symbol:
+  unit_symbols:
     id: "cP"
     ascii: "cP"
     html: "cP"
@@ -3046,7 +3046,7 @@
     name: "non-SI"
   unit_name:
     - "micron"
-  unit_symbol:
+  unit_symbols:
     id: "micron"
     ascii: "micron"
     html: "&#956;"
@@ -3075,7 +3075,7 @@
     - "mil (length)"
     - "mil"
     - "thou"
-  unit_symbol:
+  unit_symbols:
     id:
       - "mil"
       - "thou"
@@ -3112,7 +3112,7 @@
     name: "non-SI"
   unit_name:
     - "stilb"
-  unit_symbol:
+  unit_symbols:
     id: "sb"
     ascii: "sb"
     html: "sb"
@@ -3136,7 +3136,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force second squared per meter"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*s^2/m"
     ascii: "kgf*s^2/m"
     html: kgf&#8201;&#183;&#8201;s&nbsp;<sup>2</sup>/m
@@ -3167,7 +3167,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force meter"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*m"
     ascii: "kgf*m"
     html: kgf&#8201;&#183;&#8201;m
@@ -3204,7 +3204,7 @@
   unit_name:
     - "horsepower, electric"
     - "electric horsepower"
-  unit_symbol:
+  unit_symbols:
     id: "hp_electric"
     ascii: "hp"
     html: "hp"
@@ -3230,7 +3230,7 @@
     name: "non-SI"
   unit_name:
     - "poise"
-  unit_symbol:
+  unit_symbols:
     id: "P"
     ascii: "P"
     html: "P"
@@ -3256,7 +3256,7 @@
     name: "non-SI"
   unit_name:
     - "rhe"
-  unit_symbol:
+  unit_symbols:
     id: "rhe"
     ascii: "rhe"
     html: "rhe"
@@ -3280,7 +3280,7 @@
     name: "non-SI"
   unit_name:
     - "liter"
-  unit_symbol:
+  unit_symbols:
     id:
       - "L"
       - "l"
@@ -3314,7 +3314,7 @@
     name: "non-SI"
   unit_name:
     - "nautical mile"
-  unit_symbol:
+  unit_symbols:
     id: "M"
     ascii: "M"
     html: "M"
@@ -3340,7 +3340,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -3360,7 +3360,7 @@
   unit_name:
     - "ton of TNT (energy equivalent)"
     - "ton"
-  unit_symbol:
+  unit_symbols:
     id: "ton_TNT"
     ascii: "ton"
     html: "ton"
@@ -3384,7 +3384,7 @@
     name: "non-SI"
   unit_name:
     - "standard atmosphere"
-  unit_symbol:
+  unit_symbols:
     id: "atm"
     ascii: "atm"
     html: "atm"
@@ -3410,7 +3410,7 @@
     name: "non-SI"
   unit_name:
     - "technical atmosphere"
-  unit_symbol:
+  unit_symbols:
     id: "at"
     ascii: "at"
     html: "at"
@@ -3436,7 +3436,7 @@
     name: "SI"
   unit_name:
     - "kilogram per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m^-2"
     ascii: "kg*m^-2"
     html: kg/m<sup>2</sup>
@@ -3463,7 +3463,7 @@
     name: "SI"
   unit_name:
     - "watt per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "W*m^-2"
     ascii: "W*m^-2"
     html: W/m<sup>2</sup>
@@ -3492,7 +3492,7 @@
     name: "SI"
   unit_name:
     - "joule per kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "J*K^-1"
     ascii: "J*K^-1"
     html: "J/K"
@@ -3521,7 +3521,7 @@
     name: "SI"
   unit_name:
     - "joule per kilogram kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "J*kg^-1*K^-1"
     ascii: "J*kg^-1*K^-1"
     html: J/(kg&#8201;&#183;&#8201;K)
@@ -3554,7 +3554,7 @@
     name: "SI"
   unit_name:
     - "pascal second"
-  unit_symbol:
+  unit_symbols:
     id: "Pa*s"
     ascii: "Pa*s"
     html: Pa&#8201;&#183;&#8201;s
@@ -3581,7 +3581,7 @@
     name: "SI"
   unit_name:
     - "newton meter"
-  unit_symbol:
+  unit_symbols:
     id: "N*m"
     ascii: "N*m"
     html: N&#8201;&#183;&#8201;m
@@ -3612,7 +3612,7 @@
     name: "SI"
   unit_name:
     - "newton per meter"
-  unit_symbol:
+  unit_symbols:
     id: "N*m^-1"
     ascii: "N*m^-1"
     html: "N/m"
@@ -3639,7 +3639,7 @@
     name: "SI"
   unit_name:
     - "joule per kilogram"
-  unit_symbol:
+  unit_symbols:
     id: "J*kg^-1"
     ascii: "J*kg^-1"
     html: "J/kg"
@@ -3667,7 +3667,7 @@
     name: "SI"
   unit_name:
     - "watt per meter kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "W*m^-1*K^-1"
     ascii: "W*m^-1*K^-1"
     html: W/(m&#8201;&#183;&#8201;K)
@@ -3698,7 +3698,7 @@
     name: "SI"
   unit_name:
     - "joule per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "J*m^-3"
     ascii: "J*m^-3"
     html: J/m<sup>3</sup>
@@ -3725,7 +3725,7 @@
     name: "SI"
   unit_name:
     - "volt per meter"
-  unit_symbol:
+  unit_symbols:
     id: "V*m^-1"
     ascii: "V*m^-1"
     html: "V/m"
@@ -3752,7 +3752,7 @@
     name: "SI"
   unit_name:
     - "coulomb per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "C*m^-3"
     ascii: "C*m^-3"
     html: C/m<sup>3</sup>
@@ -3779,7 +3779,7 @@
     name: "SI"
   unit_name:
     - "coulomb per square meter"
-  unit_symbol:
+  unit_symbols:
     id: "C*m^-2"
     ascii: "C*m^-2"
     html: C/m<sup>2</sup>
@@ -3808,7 +3808,7 @@
     name: "SI"
   unit_name:
     - "farad per meter"
-  unit_symbol:
+  unit_symbols:
     id: "F*m^-1"
     ascii: "F*m^-1"
     html: "F/m"
@@ -3835,7 +3835,7 @@
     name: "SI"
   unit_name:
     - "henry per meter"
-  unit_symbol:
+  unit_symbols:
     id: "H*m^-1"
     ascii: "H*m^-1"
     html: "H/m"
@@ -3862,7 +3862,7 @@
     name: "SI"
   unit_name:
     - "joule per mole"
-  unit_symbol:
+  unit_symbols:
     id: "J*mol^-1"
     ascii: "J*mol^-1"
     html: "J/mol"
@@ -3889,7 +3889,7 @@
     name: "SI"
   unit_name:
     - "joule per mole kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "J*mol^-1*K^-1"
     ascii: "J*mol^-1*K^-1"
     html: J/(mol&#8201;&#183;&#8201;K)
@@ -3922,7 +3922,7 @@
     name: "SI"
   unit_name:
     - "coulomb per kilogram"
-  unit_symbol:
+  unit_symbols:
     id: "C*kg^-1"
     ascii: "C*kg^-1"
     html: "C/kg"
@@ -3950,7 +3950,7 @@
     name: "SI"
   unit_name:
     - "gray per second"
-  unit_symbol:
+  unit_symbols:
     id: "Gy*s^-1"
     ascii: "Gy*s^-1"
     html: "Gy/s"
@@ -3977,7 +3977,7 @@
     name: "SI"
   unit_name:
     - "katal per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "kat*m^-3"
     ascii: "kat*m^-3"
     html: kat/m<sup>3</sup>
@@ -4004,7 +4004,7 @@
     name: "non-SI"
   unit_name:
     - "stokes"
-  unit_symbol:
+  unit_symbols:
     id: "St"
     ascii: "St"
     html: "St"
@@ -4028,7 +4028,7 @@
     name: "non-SI"
   unit_name:
     - "gal"
-  unit_symbol:
+  unit_symbols:
     id: "Gal"
     ascii: "Gal"
     html: "Gal"
@@ -4052,7 +4052,7 @@
     name: ""
   unit_name:
     - "oersted"
-  unit_symbol:
+  unit_symbols:
     id: "Oe"
     ascii: "Oe"
     html: "Oe"
@@ -4076,7 +4076,7 @@
     name: "SI"
   unit_name:
     - "watt per steradian"
-  unit_symbol:
+  unit_symbols:
     id: "W*sr^-1"
     ascii: "W*sr^-1"
     html: "W/sr"
@@ -4103,7 +4103,7 @@
     name: "SI"
   unit_name:
     - "watt per square meter steradian"
-  unit_symbol:
+  unit_symbols:
     id: "W*m^-2*sr^-1"
     ascii: "W*m^-2*sr^-1"
     html: W/(m^2&#8201;&#183;&#8201;sr)
@@ -4134,7 +4134,7 @@
     name: "non-SI"
   unit_name:
     - "degree (degree of arc)"
-  unit_symbol:
+  unit_symbols:
     id: "deg"
     ascii: "deg"
     html: "&#186;"
@@ -4158,7 +4158,7 @@
     name: "non-SI"
   unit_name:
     - "second (second of arc)"
-  unit_symbol:
+  unit_symbols:
     id: "\""
     ascii: "\""
     html: "&#8243;"
@@ -4182,7 +4182,7 @@
     name: "non-SI"
   unit_name:
     - "minute (minute of arc)"
-  unit_symbol:
+  unit_symbols:
     id: "'"
     ascii: "'"
     html: "&#8242;"
@@ -4206,7 +4206,7 @@
     name: "SI"
   unit_name:
     - "radian per second"
-  unit_symbol:
+  unit_symbols:
     id: "rad*s^-1"
     ascii: "rad*s^-1"
     html: "rad/s"
@@ -4235,7 +4235,7 @@
     name: "SI"
   unit_name:
     - "radian per second squared"
-  unit_symbol:
+  unit_symbols:
     id: "rad*s^-2"
     ascii: "rad*s^-2"
     html: rad/s<sup>2</sup>
@@ -4264,7 +4264,7 @@
   unit_name:
     - "nautical mile per hour"
     - "knot"
-  unit_symbol:
+  unit_symbols:
     id: "kn"
     ascii: "kn"
     html: "kn"
@@ -4287,7 +4287,7 @@
     name: "non-SI"
   unit_name:
     - "neper"
-  unit_symbol:
+  unit_symbols:
     id: "Np"
     ascii: "Np"
     html: "Np"
@@ -4317,7 +4317,7 @@
     name: "non-SI"
   unit_name:
     - "bel"
-  unit_symbol:
+  unit_symbols:
     id: "B"
     ascii: "B"
     html: "B"
@@ -4345,7 +4345,7 @@
     name: "non-SI"
   unit_name:
     - "decibel"
-  unit_symbol:
+  unit_symbols:
     id: "dB"
     ascii: "dB"
     html: "dB"
@@ -4372,7 +4372,7 @@
     - "conventional millimeter of mercury"
     - "millimeter of mercury, conventional"
     - "millimeter of mercury"
-  unit_symbol:
+  unit_symbols:
     id: "mmHg"
     ascii: "mmHg"
     html: "mmHg"
@@ -4398,7 +4398,7 @@
     name: "non-SI"
   unit_name:
     - "darcy"
-  unit_symbol:
+  unit_symbols:
     id:
       - "darcy"
     ascii:
@@ -4433,7 +4433,7 @@
     name: "non-SI"
   unit_name:
     - "gon"
-  unit_symbol:
+  unit_symbols:
     id: "gon"
     ascii: "gon"
     html: "gon"
@@ -4457,7 +4457,7 @@
     name: "non-SI"
   unit_name:
     - "kilometer per hour"
-  unit_symbol:
+  unit_symbols:
     id: "km/h"
     ascii: "km/h"
     html: "kh/h"
@@ -4487,7 +4487,7 @@
     name: "SI"
   unit_name:
     - "second to the power minus one"
-  unit_symbol:
+  unit_symbols:
     id: "s^-1"
     ascii: "s^-1"
     html: s<sup>-1</sup>
@@ -4515,7 +4515,7 @@
     name: "SI"
   unit_name:
     - "radian per meter"
-  unit_symbol:
+  unit_symbols:
     id: "rad*m^-1"
     ascii: "rad*m^-1"
     html: "rad/m"
@@ -4542,7 +4542,7 @@
     name: "non-SI"
   unit_name:
     - "neper per second"
-  unit_symbol:
+  unit_symbols:
     id: "Np*s^-1"
     ascii: "Np*s^-1"
     html: "Np/s"
@@ -4569,7 +4569,7 @@
     name: "non-SI"
   unit_name:
     - "square yard"
-  unit_symbol:
+  unit_symbols:
     id: "yd^2"
     ascii: "yd^2"
     html: yd<sup>2</sup>
@@ -4593,7 +4593,7 @@
     name: "non-SI"
   unit_name:
     - "square mile"
-  unit_symbol:
+  unit_symbols:
     id: "mi^2"
     ascii: "mi^2"
     html: ""
@@ -4617,7 +4617,7 @@
     name: "non-SI"
   unit_name:
     - "centimeter of mercury (0 degC)"
-  unit_symbol:
+  unit_symbols:
     id: "cmHg_0degC"
     ascii: "cmHg"
     html: "cmHg"
@@ -4643,7 +4643,7 @@
     name: "non-SI"
   unit_name:
     - "foot per second squared"
-  unit_symbol:
+  unit_symbols:
     id: "ft*s^-2"
     ascii: "ft*s^-2"
     html: ft/s<sup>2</sup>
@@ -4670,7 +4670,7 @@
     name: "non-SI"
   unit_name:
     - "cubic inch"
-  unit_symbol:
+  unit_symbols:
     id: "in^3"
     ascii: "in^3"
     html: in<sup>3</sup>
@@ -4694,7 +4694,7 @@
     name: "non-SI"
   unit_name:
     - "cubic foot"
-  unit_symbol:
+  unit_symbols:
     id: "ft^3"
     ascii: "ft^3"
     html: ft<sup>3</sup>
@@ -4718,7 +4718,7 @@
     name: "non-SI"
   unit_name:
     - "cubic yard"
-  unit_symbol:
+  unit_symbols:
     id: "yd^3"
     ascii: "yd^3"
     html: yd<sup>3</sup>
@@ -4744,7 +4744,7 @@
     - "gallon (UK)"
     - "imperial gallon"
     - "gallon"
-  unit_symbol:
+  unit_symbols:
     id: "gal (UK)"
     ascii: "gal (UK)"
     html: "gal (UK)"
@@ -4769,7 +4769,7 @@
   unit_name:
     - "pint (UK)"
     - "pint"
-  unit_symbol:
+  unit_symbols:
     id: "pt (UK)"
     ascii: "pt (UK)"
     html: "pt (UK)"
@@ -4795,7 +4795,7 @@
     - "fluid ounce (UK)"
     - "fluid ounce"
     - "ounce"
-  unit_symbol:
+  unit_symbols:
     id: "fl oz (UK)"
     ascii: "fl oz (UK)"
     html: "fl oz (UK)"
@@ -4819,7 +4819,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -4839,7 +4839,7 @@
   unit_name:
     - "gallon (US)"
     - "gallon"
-  unit_symbol:
+  unit_symbols:
     id: "gal (US)"
     ascii: "gal (US)"
     html: "gal (US)"
@@ -4864,7 +4864,7 @@
   unit_name:
     - "liquid pint (US)"
     - "pint"
-  unit_symbol:
+  unit_symbols:
     id: "liq pint (US)"
     ascii: "liq pint (US)"
     html: "liq pint (US)"
@@ -4890,7 +4890,7 @@
     - "fluid ounce (US)"
     - "fluid ounce"
     - "ounce"
-  unit_symbol:
+  unit_symbols:
     id: "fl oz (US)"
     ascii: "fl oz (US)"
     html: "fl oz (US)"
@@ -4915,7 +4915,7 @@
   unit_name:
     - "barrel (US) for petroleum"
     - "barrel"
-  unit_symbol:
+  unit_symbols:
     id: "bbl (US)"
     ascii: "bbl (US)"
     html: "bbl (US)"
@@ -4940,7 +4940,7 @@
   unit_name:
     - "bushel (US)"
     - "bushel"
-  unit_symbol:
+  unit_symbols:
     id: "bu (US)"
     ascii: "bu (US)"
     html: "bu (US)"
@@ -4965,7 +4965,7 @@
   unit_name:
     - "dry pint (US)"
     - "pint"
-  unit_symbol:
+  unit_symbols:
     id: "dry pt (US)"
     ascii: "dry pt (US)"
     html: "dry pt (US)"
@@ -4989,7 +4989,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -5008,7 +5008,7 @@
     name: "non-SI"
   unit_name:
     - "light year"
-  unit_symbol:
+  unit_symbols:
     id: "l.y."
     ascii: "l.y."
     html: "l.y."
@@ -5032,7 +5032,7 @@
     name: "non-SI"
   unit_name:
     - "astronomical unit"
-  unit_symbol:
+  unit_symbols:
     id: "ua"
     ascii: "ua"
     html: "ua"
@@ -5056,7 +5056,7 @@
     name: "non-SI"
   unit_name:
     - "parsec"
-  unit_symbol:
+  unit_symbols:
     id: "pc"
     ascii: "pc"
     html: "pc"
@@ -5080,7 +5080,7 @@
     name: "non-SI"
   unit_name:
     - "meter to the power four"
-  unit_symbol:
+  unit_symbols:
     id: "m^4"
     ascii: "m^4"
     html: m<sup>4</sup>
@@ -5108,7 +5108,7 @@
     name: "SI"
   unit_name:
     - "kilogram per meter"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m^-1"
     ascii: "kg*m^-1"
     html: "kg/m"
@@ -5136,7 +5136,7 @@
     name: "SI"
   unit_name:
     - "kilogram meter squared"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m^2"
     ascii: "kg*m^2"
     html: "kg*m^2"
@@ -5164,7 +5164,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram per liter"
-  unit_symbol:
+  unit_symbols:
     id: "kg*l^-1"
     ascii: "kg*l^-1"
     html: "kg/l"
@@ -5192,7 +5192,7 @@
     name: "non-SI"
   unit_name:
     - "metric ton per cubic meter"
-  unit_symbol:
+  unit_symbols:
     id: "t*m^-3"
     ascii: "t*m^-3"
     html: t/m<sup>3</sup>
@@ -5219,7 +5219,7 @@
     name: "SI"
   unit_name:
     - "newton second"
-  unit_symbol:
+  unit_symbols:
     id: "N*s"
     ascii: "N*s"
     html: N&#8201;&#183;&#8201;s
@@ -5246,7 +5246,7 @@
     name: "SI"
   unit_name:
     - "newton meter squared per kilogram squared"
-  unit_symbol:
+  unit_symbols:
     id: "N*m^2*kg^-2"
     ascii: "N*m^2*kg^-2"
     html: N&#8201;&#183;&#8201;m&nbsp;<sup>2</sup>/kg&nbsp;<sup>2</sup>
@@ -5277,7 +5277,7 @@
     name: "SI"
   unit_name:
     - "kilogram meter per second"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m*s^-1"
     ascii: "kg*m*s^-1"
     html: kg&#8201;&#183;&#8201;m/s
@@ -5308,7 +5308,7 @@
     name: "SI"
   unit_name:
     - "kilogram meter squared per second"
-  unit_symbol:
+  unit_symbols:
     id: "kg*m^2*s^-1"
     ascii: "kg*m^2*s^-1"
     html: kg&#8201;&#183;&#8201;m^2/s
@@ -5341,7 +5341,7 @@
     name: "SI"
   unit_name:
     - "newton meter second"
-  unit_symbol:
+  unit_symbols:
     id: "N*m*s"
     ascii: "N*m*s"
     html: N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s
@@ -5371,7 +5371,7 @@
     name: "SI"
   unit_name:
     - "pascal to the power minus one"
-  unit_symbol:
+  unit_symbols:
     id: "Pa^-1"
     ascii: "Pa^-1"
     html: Pa<sup>-1</sup>
@@ -5397,7 +5397,7 @@
     name: "SI"
   unit_name:
     - "meter squared per second"
-  unit_symbol:
+  unit_symbols:
     id: "m^2*s^-1"
     ascii: "m^2*s^-1"
     html: m<sup>2</sup>/s
@@ -5424,7 +5424,7 @@
     name: "SI"
   unit_name:
     - "kilogram per second"
-  unit_symbol:
+  unit_symbols:
     id: "kg*s^-1"
     ascii: "kg*s^-1"
     html: "kg/s"
@@ -5452,7 +5452,7 @@
     name: "SI"
   unit_name:
     - "cubic meter per second"
-  unit_symbol:
+  unit_symbols:
     id: "m^3*s^-1"
     ascii: "m^3*s^-1"
     html: m<sup>3</sup>/s
@@ -5479,7 +5479,7 @@
     name: "SI"
   unit_name:
     - "joule second"
-  unit_symbol:
+  unit_symbols:
     id: "J*s"
     ascii: "J*s"
     html: J&#8201;&#183;&#8201;s
@@ -5508,7 +5508,7 @@
     - "pound (avoirdupois)"
     - "avoirdupois pound"
     - "pound"
-  unit_symbol:
+  unit_symbols:
     id: "lb"
     ascii: "lb"
     html: "lb"
@@ -5534,7 +5534,7 @@
     - "ounce (avoirdupois)"
     - "avoirdupois ounce"
     - "ounce"
-  unit_symbol:
+  unit_symbols:
     id: "oz"
     ascii: "oz"
     html: "oz"
@@ -5559,7 +5559,7 @@
   unit_name:
     - "hundredweight (long, 112 lb)"
     - "hundredweight"
-  unit_symbol:
+  unit_symbols:
     id: "cwt (UK)"
     ascii: "cwt (UK)"
     html: "cwt (UK)"
@@ -5583,7 +5583,7 @@
     name: "non-SI"
   unit_name:
     - "pound per cubic foot"
-  unit_symbol:
+  unit_symbols:
     id: "lb*ft^-3"
     ascii: "lb*ft^-3"
     html: lb/ft<sup>3</sup>
@@ -5610,7 +5610,7 @@
     name: "non-SI"
   unit_name:
     - "pound-force"
-  unit_symbol:
+  unit_symbols:
     id: "lbf"
     ascii: "lbf"
     html: "lbf"
@@ -5636,7 +5636,7 @@
     name: "non-SI"
   unit_name:
     - "foot pound-force"
-  unit_symbol:
+  unit_symbols:
     id: "ft*lbf"
     ascii: "ft*lbf"
     html: ft&#8201;&#183;&#8201;lbf
@@ -5677,7 +5677,7 @@
     name: "non-SI"
   unit_name:
     - "pound-force per square inch"
-  unit_symbol:
+  unit_symbols:
     id:
       - "lbf*in^-2"
       - "psi"
@@ -5715,7 +5715,7 @@
     name: "non-SI"
   unit_name:
     - "inch to the fourth power"
-  unit_symbol:
+  unit_symbols:
     id: "in^4"
     ascii: "in^4"
     html: in<sup>4</sup>
@@ -5741,7 +5741,7 @@
     name: "non-SI"
   unit_name:
     - "inch cubed"
-  unit_symbol:
+  unit_symbols:
     id: "in^3_section_modulus"
     ascii: "in^3"
     html: in<sup>3</sup>
@@ -5765,7 +5765,7 @@
     name: "non-SI"
   unit_name:
     - "foot squared per second"
-  unit_symbol:
+  unit_symbols:
     id: "ft^2*s^-1"
     ascii: "ft^2*s^-1"
     html: ft<sup>2</sup>/s
@@ -5792,7 +5792,7 @@
     name: "non-SI"
   unit_name:
     - "foot pound-force per second"
-  unit_symbol:
+  unit_symbols:
     id: "ft*lbf*s^-1"
     ascii: "ft*lbf*s^-1"
     html: ft&#8201;&#183;&#8201;lbf/s
@@ -5824,7 +5824,7 @@
     - "carat"
     - "metric carat"
     - "carat, metric"
-  unit_symbol:
+  unit_symbols:
     id: "ct"
     ascii: "ct"
     html: "ct"
@@ -5848,7 +5848,7 @@
     name: "non-SI"
   unit_name:
     - "tex"
-  unit_symbol:
+  unit_symbols:
     id: "tex"
     ascii: "tex"
     html: "tex"
@@ -5872,7 +5872,7 @@
     name: "non-SI"
   unit_name:
     - "torr"
-  unit_symbol:
+  unit_symbols:
     id: "Torr"
     ascii: "Torr"
     html: "Torr"
@@ -5906,7 +5906,7 @@
     - "conventional millimeter of water"
     - "millimeter of water, conventional"
     - "millimeter of water"
-  unit_symbol:
+  unit_symbols:
     id: "mmH_2O"
     ascii: "mmH_2O"
     html: mmH<sub>2</sub>O
@@ -5932,7 +5932,7 @@
     - "conventional centimeter of mercury"
     - "centimeter of mercury, conventional"
     - "centimeter of mercury"
-  unit_symbol:
+  unit_symbols:
     id: "cmHg"
     ascii: "cmHg"
     html: "cmHg"
@@ -5958,7 +5958,7 @@
     name: "non-SI"
   unit_name:
     - "kilogram-force meter per second"
-  unit_symbol:
+  unit_symbols:
     id: "kgf*m*s^-1"
     ascii: "kgf*m*s^-1"
     html: kgf&#8201;&#183;&#8201;m/s
@@ -5990,7 +5990,7 @@
   unit_name:
     - "horsepower, metric"
     - "metric horsepower"
-  unit_symbol:
+  unit_symbols:
     id: "hp_metric"
     ascii: "hp"
     html: "hp"
@@ -6014,7 +6014,7 @@
     name: "SI"
   unit_name:
     - "kelvin to the power minus one"
-  unit_symbol:
+  unit_symbols:
     id: "K^-1"
     ascii: "K^-1"
     html: K<sup>-1</sup>
@@ -6042,7 +6042,7 @@
     name: "SI"
   unit_name:
     - "pascal per kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "Pa*K^-1"
     ascii: "Pa*K^-1"
     html: "Pa/K"
@@ -6069,7 +6069,7 @@
     name: "non-SI"
   unit_name:
     - "watt per square meter kelvin"
-  unit_symbol:
+  unit_symbols:
     id: "W*m^-2*K^-1"
     ascii: "W*m^-2*K^-1"
     html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
@@ -6102,7 +6102,7 @@
     name: "non-SI"
   unit_name:
     - "lambert"
-  unit_symbol:
+  unit_symbols:
     id: "Lambert"
     ascii: "L"
     html: "L"
@@ -6126,7 +6126,7 @@
     name: "non-SI"
   unit_name:
     - "gilbert"
-  unit_symbol:
+  unit_symbols:
     id: "Gi"
     ascii: "Gi"
     html: "Gi"
@@ -6150,7 +6150,7 @@
     name: "non-SI"
   unit_name:
     - "debye"
-  unit_symbol:
+  unit_symbols:
     id: "D"
     ascii: "D"
     html: "D"
@@ -6174,7 +6174,7 @@
     name: "non-SI"
   unit_name:
     - "abwatt"
-  unit_symbol:
+  unit_symbols:
     id: "aW (Cardelli)"
     ascii: "aW (Cardelli)"
     html: "aW"
@@ -6198,7 +6198,7 @@
     name: "non-SI"
   unit_name:
     - "slug"
-  unit_symbol:
+  unit_symbols:
     id: "slug"
     ascii: "slug"
     html: "slug"
@@ -6224,7 +6224,7 @@
     - "thermochemical calorie"
     - "calorie_th"
     - "calorie"
-  unit_symbol:
+  unit_symbols:
     id: "cal_th"
     ascii: "cal_th"
     html: cal<sub>th</sub>
@@ -6258,7 +6258,7 @@
   unit_name:
     - "short ton"
     - "ton"
-  unit_symbol:
+  unit_symbols:
     id: "ton_short"
     ascii: "ton"
     html: "t"
@@ -6283,7 +6283,7 @@
   unit_name:
     - "long ton"
     - "ton"
-  unit_symbol:
+  unit_symbols:
     id: "ton_long"
     ascii: "ton"
     html: "t"
@@ -6308,7 +6308,7 @@
   unit_name:
     - "hundredweight (short, 100 lb)"
     - "hundredweight"
-  unit_symbol:
+  unit_symbols:
     id: "cwt (US)"
     ascii: "cwt (US)"
     html: "cwt (US)"
@@ -6334,7 +6334,7 @@
     - "ounce (troy or apothecary)"
     - "troy ounce"
     - "ounce"
-  unit_symbol:
+  unit_symbols:
     id: "oz_troy"
     ascii: "oz"
     html: "oz"
@@ -6360,7 +6360,7 @@
     - "pound (troy or apothecary)"
     - "troy pound"
     - "pound"
-  unit_symbol:
+  unit_symbols:
     id: "lb_troy"
     ascii: "lb"
     html: "lb"
@@ -6384,7 +6384,7 @@
     name: "non-SI"
   unit_name:
     - "pennyweight"
-  unit_symbol:
+  unit_symbols:
     id: "dwt (troy)"
     ascii: "dwt (troy)"
     html: "dwt (troy)"
@@ -6410,7 +6410,7 @@
     - "dram (apothecary)"
     - "apothecary dram"
     - "dram"
-  unit_symbol:
+  unit_symbols:
     id: "dr"
     ascii: "dr"
     html: "dr"
@@ -6435,7 +6435,7 @@
   unit_name:
     - "scruple"
     - "apothecary scruple"
-  unit_symbol:
+  unit_symbols:
     id: "scr (ap.)"
     ascii: "scr (ap.)"
     html: "scr (ap.)"
@@ -6459,7 +6459,7 @@
     name: "non-SI"
   unit_name:
     - "poundal"
-  unit_symbol:
+  unit_symbols:
     id: "pdl"
     ascii: "pdl"
     html: "pdl"
@@ -6485,7 +6485,7 @@
     name: "non-SI"
   unit_name:
     - "kip"
-  unit_symbol:
+  unit_symbols:
     id: "kip"
     ascii: "kip"
     html: "kip"
@@ -6509,7 +6509,7 @@
     name: "non-SI"
   unit_name:
     - "ton-force (2000 lb)"
-  unit_symbol:
+  unit_symbols:
     id: "ton-force (2000 lb)"
     ascii: "ton-force (2000 lb)"
     html: "ton-force (2000 lb)"
@@ -6535,7 +6535,7 @@
     name: "non-SI"
   unit_name:
     - "barye"
-  unit_symbol:
+  unit_symbols:
     id: "barye"
     ascii: "barye"
     html: "barye"
@@ -6565,7 +6565,7 @@
     name: "non-SI"
   unit_name:
     - "electronvolt"
-  unit_symbol:
+  unit_symbols:
     id: "eV"
     ascii: "eV"
     html: "eV"
@@ -6589,7 +6589,7 @@
     name: "non-SI"
   unit_name:
     - "unified atomic mass unit"
-  unit_symbol:
+  unit_symbols:
     id: "u"
     ascii: "u"
     html: "u"
@@ -6613,7 +6613,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of velocity"
-  unit_symbol:
+  unit_symbols:
     id:
       - "c_0"
       - "c"
@@ -6642,7 +6642,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of action"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar"
     ascii: "h-bar"
     html: <i>&#295;</i>
@@ -6665,7 +6665,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of mass"
-  unit_symbol:
+  unit_symbols:
     id: "m_e"
     ascii: "m_e"
     html: <i>m</i><sub>e</sub>
@@ -6688,7 +6688,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of time"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar*(m_e*c^2)"
     ascii: "h-bar*(m_e*c^2)"
     html: <i>&#295;</i>/ <i>m</i><sub>e</sub>c<sup>2</sup>
@@ -6711,7 +6711,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of charge"
-  unit_symbol:
+  unit_symbols:
     id: "e"
     ascii: "e"
     html: <i>e</i>
@@ -6734,7 +6734,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of mass"
-  unit_symbol:
+  unit_symbols:
     id: "m_e"
     ascii: "m_e"
     html: <i>m</i><sub>e</sub>
@@ -6757,7 +6757,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of action"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar"
     ascii: "h-bar"
     html: <i>&#295;</i>
@@ -6780,7 +6780,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of length"
-  unit_symbol:
+  unit_symbols:
     id: "a_0"
     ascii: "a_0"
     html: <i>a</i> <sub>0</sub>
@@ -6803,7 +6803,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of energy"
-  unit_symbol:
+  unit_symbols:
     id: "e_h"
     ascii: "e_h"
     html: <i>E</i>h
@@ -6826,7 +6826,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of time"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar*(E_h)-1"
     ascii: "h-bar*(E_h)-1"
     html: <i>&#295;</i>/ <i>E</i> <sub>h</sub>
@@ -6849,7 +6849,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of magnetizability"
-  unit_symbol:
+  unit_symbols:
     id: "e^2*a_0^2*m_e-1"
     ascii: "e^2*a_0^2*m_e-1"
     latex: \ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}
@@ -6871,7 +6871,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of magnetic flux density"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar*(e*a_0^2)-1"
     ascii: "h-bar*(e*a_0^2)-1"
     latex: \ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}
@@ -6893,7 +6893,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of magnetic dipole moment"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar*e*(m_e)-1"
     ascii: "h-bar*e*(m_e)-1"
     html: <i>&#295;e</i>/ <i>m</i> <sub>e</sub>
@@ -6916,7 +6916,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of momentum"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar*(a_0)-1"
     ascii: "h-bar*(a_0)-1"
     html: <i>&#295;</i>/ <i>a</i> <sub>0</sub>
@@ -6939,7 +6939,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of charge density"
-  unit_symbol:
+  unit_symbols:
     id: "e*(a_0^3)"
     ascii: "e*(a_0^3)"
   root_units:
@@ -6960,7 +6960,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of current"
-  unit_symbol:
+  unit_symbols:
     id: "eE_h*h-bar^-1"
     ascii: "eE_h*h-bar^-1"
     html: <i>eE</i> <sub>h</sub>/&#295;
@@ -6982,7 +6982,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric dipole moment"
-  unit_symbol:
+  unit_symbols:
     id: "e*a_0"
     ascii: "e*a_0"
     html: <i>ea</i> <sub>0</sub>
@@ -7004,7 +7004,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric field"
-  unit_symbol:
+  unit_symbols:
     id: "E_h*(e*a_0)"
     ascii: "E_h*(e*a_0)"
     html: <i>E</i> <sub>h</sub>/ <i>ea</i> <sub>0</sub>
@@ -7026,7 +7026,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric field gradient"
-  unit_symbol:
+  unit_symbols:
     id: "E_h*(e*a_0^2)"
     ascii: "E_h*(e*a_0^2)"
   root_units:
@@ -7047,7 +7047,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric potential"
-  unit_symbol:
+  unit_symbols:
     id: "E_h*e-1"
     ascii: "E_h*e-1"
     html: <i>E</i> <sub>h</sub>/ <i>e</i>
@@ -7074,7 +7074,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of force"
-  unit_symbol:
+  unit_symbols:
     id: "e_h*(a_0)-1"
     ascii: "e_h*(a_0)-1"
     html: <i>E</i> <sub>h</sub>/ <i>a</i> <sub>0</sub>
@@ -7099,7 +7099,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric quadrupole moment"
-  unit_symbol:
+  unit_symbols:
     id: "e*a_0^2"
     ascii: "e*a_0^2"
   root_units:
@@ -7120,7 +7120,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of electric polarizability"
-  unit_symbol:
+  unit_symbols:
     id: "e^2*a_0^2*(E_h)-1"
     ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
@@ -7142,7 +7142,7 @@
   unit_name:
     - "statohm"
     - "ESU of resistance"
-  unit_symbol:
+  unit_symbols:
     id: "statohm"
     ascii: "statohm"
     html: "statohm"
@@ -7167,7 +7167,7 @@
   unit_name:
     - "statfarad"
     - "ESU of capacitance"
-  unit_symbol:
+  unit_symbols:
     id: "statF"
     ascii: "statF"
     html: "statF"
@@ -7192,7 +7192,7 @@
   unit_name:
     - "statampere"
     - "ESU of current"
-  unit_symbol:
+  unit_symbols:
     id: "statA"
     ascii: "statA"
     html: "statA"
@@ -7217,7 +7217,7 @@
   unit_name:
     - "statvolt"
     - "ESU of Electric potential"
-  unit_symbol:
+  unit_symbols:
     id: "statV"
     ascii: "statV"
     html: "statV"
@@ -7245,7 +7245,7 @@
   unit_name:
     - "stathenry"
     - "ESU of inductance"
-  unit_symbol:
+  unit_symbols:
     id: "statH"
     ascii: "statH"
     html: "statH"
@@ -7270,7 +7270,7 @@
   unit_name:
     - "statmho"
     - "ESU of conductance"
-  unit_symbol:
+  unit_symbols:
     id: "statmho"
     ascii: "statmho"
     html: "statmho"
@@ -7295,7 +7295,7 @@
   unit_name:
     - "statcoulomb"
     - "ESU of charge"
-  unit_symbol:
+  unit_symbols:
     id: "statcoulomb"
     ascii: "statcoulomb"
     html: "statcoulomb"
@@ -7321,7 +7321,7 @@
     name: "non-SI"
   unit_name:
     - "statweber"
-  unit_symbol:
+  unit_symbols:
     id: "statWb"
     ascii: "statWb"
     html: "statWb"
@@ -7345,7 +7345,7 @@
     name: "non-SI"
   unit_name:
     - "stattesla"
-  unit_symbol:
+  unit_symbols:
     id: "statT"
     ascii: "statT"
     html: "statT"
@@ -7369,7 +7369,7 @@
     name: "non-SI"
   unit_name:
     - "statwatt"
-  unit_symbol:
+  unit_symbols:
     id: "statwatt"
     ascii: "statwatt"
     html: "statwatt"
@@ -7394,7 +7394,7 @@
   unit_name:
     - "dram (avoirdupois)"
     - "dram"
-  unit_symbol:
+  unit_symbols:
     id: "dr (avdp)"
     ascii: "dr (avdp)"
     html: "dr (avdp)"
@@ -7436,7 +7436,7 @@
     name: "non-SI"
   unit_name:
     - "footlambert"
-  unit_symbol:
+  unit_symbols:
     id: "ft.L"
     ascii: "ft.L"
     html: "ft.L"
@@ -7519,7 +7519,7 @@
   unit_name:
     - "rod (based on US survey foot)"
     - "rod"
-  unit_symbol:
+  unit_symbols:
     id: "rd"
     ascii: "rd"
     html: "rd"
@@ -7543,7 +7543,7 @@
   unit_name:
     - "fathom (based on US survey foot)"
     - "fathom"
-  unit_symbol:
+  unit_symbols:
     id: "fath"
     ascii: "fath"
     html: "fath"
@@ -7585,7 +7585,7 @@
     name: "non-SI"
   unit_name:
     - "horsepower"
-  unit_symbol:
+  unit_symbols:
     id: "hp"
     ascii: "hp"
     html: "hp"
@@ -7610,7 +7610,7 @@
   unit_name:
     - "horsepower, boiler"
     - "boiler horsepower"
-  unit_symbol:
+  unit_symbols:
     id: "hp_boiler"
     ascii: "hp"
     html: "hp"
@@ -7635,7 +7635,7 @@
   unit_name:
     - "horsepower, water"
     - "water horsepower"
-  unit_symbol:
+  unit_symbols:
     id: "hp_water"
     ascii: "hp"
     html: "hp"
@@ -7659,7 +7659,7 @@
     name: "non-SI"
   unit_name:
     - "horsepower (UK)"
-  unit_symbol:
+  unit_symbols:
     id: "hp_UK"
     ascii: "hp"
     html: "hp"
@@ -7683,7 +7683,7 @@
     name: "non-SI"
   unit_name:
     - "degree Rankine"
-  unit_symbol:
+  unit_symbols:
     id: "degR"
     ascii: "degR"
     html: "&#176;R"
@@ -7707,7 +7707,7 @@
     name: "non-SI"
   unit_name:
     - "dalton"
-  unit_symbol:
+  unit_symbols:
     id: "Da"
     ascii: "Da"
     html: "Da"
@@ -7731,7 +7731,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of length"
-  unit_symbol:
+  unit_symbols:
     id: "lambda-bar_C"
     ascii: "lambda-bar_C"
   root_units:
@@ -7752,7 +7752,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of 1st hyperpolarizability"
-  unit_symbol:
+  unit_symbols:
     id: "e_3a_0^3*(E_h^3)"
     ascii: "e_3a_0^3*(E_h^3)"
   root_units:
@@ -7773,7 +7773,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of 2nd hyperpolarizability"
-  unit_symbol:
+  unit_symbols:
     id: "e_4a_0^4*(E_h^3)"
     ascii: "e_4a_0^4*(E_h^3)"
   root_units:
@@ -7794,7 +7794,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of permittivity"
-  unit_symbol:
+  unit_symbols:
     id: "e^2*(a_0*E_h)-1"
     ascii: "e^2*(a_0*E_h)-1"
     html: <i>e</i> <sup>2</sup>/ <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>
@@ -7817,7 +7817,7 @@
     name: "non-SI"
   unit_name:
     - "atomic unit of velocity"
-  unit_symbol:
+  unit_symbols:
     id: "a_0*E_h*h-bar-1"
     ascii: "a_0*E_h*h-bar-1"
     html: <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>/&#295;
@@ -7839,7 +7839,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of energy"
-  unit_symbol:
+  unit_symbols:
     id: "m_e*c^2"
     ascii: "m_e*c^2"
     html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
@@ -7862,7 +7862,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of momentum"
-  unit_symbol:
+  unit_symbols:
     id: "m_e*c"
     ascii: "m_e*c"
     html: <i>m</i> <sub>e</sub> <i>c</i>
@@ -7885,7 +7885,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of action in eV s"
-  unit_symbol:
+  unit_symbols:
     id: "h-bar"
     ascii: "h-bar"
     html: "&#295;"
@@ -7907,7 +7907,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of energy in MeV"
-  unit_symbol:
+  unit_symbols:
     id: "m_e*c^2"
     ascii: "m_e*c^2"
     html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
@@ -7930,7 +7930,7 @@
     name: "non-SI"
   unit_name:
     - "natural unit of momentum in MeV/c"
-  unit_symbol:
+  unit_symbols:
     id: "m_e*c"
     ascii: "m_e*c"
     html: <i>m</i> <sub>e</sub> <i>c</i>
@@ -7954,7 +7954,7 @@
   unit_name:
     - "quart (UK)"
     - "quart"
-  unit_symbol:
+  unit_symbols:
     id: "qt (UK)"
     ascii: "qt (UK)"
     html: "qt (UK)"
@@ -7979,7 +7979,7 @@
   unit_name:
     - "dry quart (US)"
     - "quart"
-  unit_symbol:
+  unit_symbols:
     id: "dry qt (US)"
     ascii: "dry qt (US)"
     html: "dry qt (US)"
@@ -8004,7 +8004,7 @@
   unit_name:
     - "liquid quart (US)"
     - "quart"
-  unit_symbol:
+  unit_symbols:
     id: "liq qt (US)"
     ascii: "liq qt (US)"
     html: "liq qt (US)"
@@ -8163,7 +8163,7 @@
     - "surveyors chain"
     - "Gunter's chain"
     - "chain"
-  unit_symbol:
+  unit_symbols:
     id: "ch"
     ascii: "ch"
     html: "ch"
@@ -8229,7 +8229,7 @@
     - "mile (based on US survey foot)"
     - "survey mile"
     - "mile"
-  unit_symbol:
+  unit_symbols:
     id: "mi"
     ascii: "mi"
     html: "mi"
@@ -8254,7 +8254,7 @@
   unit_name:
     - "yard (based on US survey foot)"
     - "yard"
-  unit_symbol:
+  unit_symbols:
     id: "yd"
     ascii: "yd"
     html: "yd"
@@ -8280,7 +8280,7 @@
     - "foot (based on US survey foot)"
     - "survey foot"
     - "foot"
-  unit_symbol:
+  unit_symbols:
     id: "ft"
     ascii: "ft"
     html: "ft"
@@ -8305,7 +8305,7 @@
   unit_name:
     - "inch (based on US survey foot)"
     - "inch"
-  unit_symbol:
+  unit_symbols:
     id: "in"
     ascii: "in"
     html: "in"
@@ -8370,7 +8370,7 @@
     - "conventional centimeter of water"
     - "centimeter of water, conventional"
     - "centimeter of water"
-  unit_symbol:
+  unit_symbols:
     id: "cmH_2O"
     ascii: "cmH_2O"
     html: cmH<sub>2</sub>O
@@ -8398,7 +8398,7 @@
     - "conventional inch of water"
     - "inch of water, conventional"
     - "inch of water"
-  unit_symbol:
+  unit_symbols:
     id: "inH_2O"
     ascii: "inH_2O"
     html: inH<sub>2</sub>O
@@ -8466,7 +8466,7 @@
     - "conventional foot of water"
     - "foot of water, conventional"
     - "foot of water"
-  unit_symbol:
+  unit_symbols:
     id: "ftH_2O"
     ascii: "ftH_2O"
     html: ftH<sub>2</sub>O
@@ -8512,7 +8512,7 @@
     name: "non-SI"
   unit_name:
     - "inch of mercury (32 degF)"
-  unit_symbol:
+  unit_symbols:
     id:
       - "inHg_32degF"
     ascii:
@@ -8546,7 +8546,7 @@
     name: "non-SI"
   unit_name:
     - "inch of mercury (60 degF)"
-  unit_symbol:
+  unit_symbols:
     id:
       - "inHg_60degF"
     ascii:
@@ -8582,7 +8582,7 @@
     - "conventional inch of mercury"
     - "inch of mercury, conventional"
     - "inch of mercury"
-  unit_symbol:
+  unit_symbols:
     id:
       - "inHg"
     ascii:
@@ -8618,7 +8618,7 @@
     - "conventional foot of mercury"
     - "foot of mercury, conventional "
     - "foot of mercury"
-  unit_symbol:
+  unit_symbols:
     id: "ftHg"
     ascii: "ftHg"
     html:
@@ -8650,7 +8650,7 @@
     name: "non-SI"
   unit_name:
     - "therm (US)"
-  unit_symbol:
+  unit_symbols:
     id: "thm (US)"
     ascii: "thm (US)"
     html: "thm (US)"
@@ -8684,7 +8684,7 @@
     name: "non-SI"
   unit_name:
     - "pH"
-  unit_symbol:
+  unit_symbols:
     id: "pH"
     ascii: "pH"
     html: "pH"
@@ -8708,7 +8708,7 @@
     name: "non-SI"
   unit_name:
     - "degree Fahrenheit"
-  unit_symbol:
+  unit_symbols:
     id: "degF"
     ascii: "degF"
     html: "&#176;F"
@@ -8734,7 +8734,7 @@
     - "British thermal unit_IT"
     - "International Table Btu"
     - "British thermal unit"
-  unit_symbol:
+  unit_symbols:
     id: "Btu"
     ascii: "Btu"
     html: "Btu"
@@ -8759,7 +8759,7 @@
   unit_name:
     - "British thermal unit_th"
     - "thermochemical Btu"
-  unit_symbol:
+  unit_symbols:
     id: "Btu_th"
     ascii: "Btu_th"
     html: Btu<sub>th</sub>
@@ -8782,7 +8782,7 @@
     name: "non-SI"
   unit_name:
     - "British thermal unit (mean)"
-  unit_symbol:
+  unit_symbols:
     id: "Btu"
     ascii: "Btu"
     html: "Btu"
@@ -8806,7 +8806,7 @@
     name: "non-SI"
   unit_name:
     - "British thermal unit (39 degF)"
-  unit_symbol:
+  unit_symbols:
     id: "Btu"
     ascii: "Btu"
     html: "Btu"
@@ -8830,7 +8830,7 @@
     name: "non-SI"
   unit_name:
     - "British thermal unit (59 degF)"
-  unit_symbol:
+  unit_symbols:
     id: "Btu"
     ascii: "Btu"
     html: "Btu"
@@ -8854,7 +8854,7 @@
     name: "non-SI"
   unit_name:
     - "British thermal unit (60 degF)"
-  unit_symbol:
+  unit_symbols:
     id: "Btu"
     ascii: "Btu"
     html: "Btu"
@@ -9073,7 +9073,7 @@
   unit_name:
     - "pound-mole"
     - "pound mole"
-  unit_symbol:
+  unit_symbols:
     id: "lbmol"
     ascii: "lbmol"
     html: "lbmol"
@@ -9099,7 +9099,7 @@
     - "ton of refrigeration (12 000 Btu_IT/h)"
     - "ton of refrigeration"
     - "ton"
-  unit_symbol:
+  unit_symbols:
     id: "ton_refrigeration"
     ascii: "ton"
     html: "ton"
@@ -9123,7 +9123,7 @@
     name: "non-SI"
   unit_name:
     - "bit"
-  unit_symbol:
+  unit_symbols:
     id: "bit"
     ascii: "bit"
     html: "bit"
@@ -9165,7 +9165,7 @@
     name: "non-SI"
   unit_name:
     - "peck"
-  unit_symbol:
+  unit_symbols:
     id: "pk"
     ascii: "pk"
     html: "pk"
@@ -9189,7 +9189,7 @@
     name: "non-SI"
   unit_name:
     - "minim"
-  unit_symbol:
+  unit_symbols:
     id: "min"
     ascii: "min"
     html: "min"
@@ -9253,7 +9253,7 @@
   unit_name:
     - "gill (US)"
     - "gill"
-  unit_symbol:
+  unit_symbols:
     id: "gi"
     ascii: "gi"
     html: "gi"
@@ -9279,7 +9279,7 @@
     - "gill [Canadian and UK (Imperial)]"
     - "imperial gill"
     - "gill"
-  unit_symbol:
+  unit_symbols:
     id: "gi"
     ascii: "gi"
     html: "gi"
@@ -9303,7 +9303,7 @@
     name: "non-SI"
   unit_name:
     - "centistokes"
-  unit_symbol:
+  unit_symbols:
     id: "cSt"
     ascii: "cSt"
     html: "cSt"
@@ -9350,7 +9350,7 @@
     name: "non-SI"
   unit_name:
     - "cubic foot per minute"
-  unit_symbol:
+  unit_symbols:
     id: "ft^3*min^-1"
     ascii: "ft^3*min^-1"
     html: ft<sup>3</sup>/min
@@ -9377,7 +9377,7 @@
     name: "non-SI"
   unit_name:
     - "cubic foot per second"
-  unit_symbol:
+  unit_symbols:
     id: "ft^3*sec^-1"
     ascii: "ft^3*sec^-1"
     html: ft<sup>3</sup>/sec
@@ -9404,7 +9404,7 @@
     name: "non-SI"
   unit_name:
     - "cubic inch per minute"
-  unit_symbol:
+  unit_symbols:
     id: "in^3*min^-1"
     ascii: "in^3*min^-1"
     html: in<sup>3</sup>/min
@@ -9450,7 +9450,7 @@
     name: "non-SI"
   unit_name:
     - "millibar"
-  unit_symbol:
+  unit_symbols:
     id: "mbar"
     ascii: "mbar"
     html: "mbar"
@@ -9478,7 +9478,7 @@
   unit_name:
     - "mile per gallon (US)"
     - "mile per gallon"
-  unit_symbol:
+  unit_symbols:
     id:
       - "mpg"
       - "mi/gal"
@@ -9516,7 +9516,7 @@
   unit_name:
     - "gallon (US) per minute"
     - "gallon per minute"
-  unit_symbol:
+  unit_symbols:
     id:
       - "gpm"
       - "gal*min^-1"
@@ -9553,7 +9553,7 @@
     name: "non-SI"
   unit_name:
     - "milliliter"
-  unit_symbol:
+  unit_symbols:
     id:
       - "mL"
       - "ml"
@@ -9588,7 +9588,7 @@
     name: "non-SI"
   unit_name:
     - "mole per liter"
-  unit_symbol:
+  unit_symbols:
     id:
       - "mol*l^-1"
       - "mol*L^-1"
@@ -9625,7 +9625,7 @@
     name: "SI"
   unit_name:
     - "mole per kilogram"
-  unit_symbol:
+  unit_symbols:
     id: "mol*kg^-1"
     ascii: "mol*kg^-1"
     html: "mol/kg"
@@ -9653,7 +9653,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9672,7 +9672,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9691,7 +9691,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9710,7 +9710,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9729,7 +9729,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9748,7 +9748,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9767,7 +9767,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
@@ -9783,7 +9783,7 @@
     name: "SI"
   unit_name:
     - "one"
-  unit_symbol:
+  unit_symbols:
     id: "1"
     ascii: "1"
     html: "1"
