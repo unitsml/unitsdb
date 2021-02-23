@@ -6077,8 +6077,10 @@
   unit_symbol:
     ascii: "E_h*(e*a_0^2)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_field_gradient"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_field_gradient"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "electric field gradient"
       url: "#NISTq165"
@@ -6144,8 +6146,10 @@
   unit_symbol:
     ascii: "e*a_0^2"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_quadrupole_moment"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_quadrupole_moment"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "electric quadrupole moment"
       url: "#NISTq167"
@@ -6160,8 +6164,10 @@
   unit_symbol:
     ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_polarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_polarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "polarizability"
       url: "#NISTq168"
@@ -6699,8 +6705,10 @@
   unit_symbol:
     ascii: "e_3a_0^3*(E_h^3)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_1st_hyperpolarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_1st_hyperpolarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "1st hyperpolarizability"
       url: "#NISTq172"
@@ -6715,8 +6723,10 @@
   unit_symbol:
     ascii: "e_4a_0^4*(E_h^3)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_2nd_hyperpolarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_2nd_hyperpolarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "2nd hyperpolarizability"
       url: "#NISTq173"
