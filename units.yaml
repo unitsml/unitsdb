@@ -9,6 +9,7 @@
   unit_name:
     - "meter"
   unit_symbol:
+    id: "m"
     ascii: "m"
     html: "m"
     latex: \ensuremath{\mathrm{m}}
@@ -58,6 +59,7 @@
   unit_name:
     - "candela"
   unit_symbol:
+    id: "cd"
     ascii: "cd"
     html: "cd"
     latex: \ensuremath{\mathrm{cd}}
@@ -81,6 +83,7 @@
   unit_name:
     - "kilogram"
   unit_symbol:
+    id: "kg"
     ascii: "kg"
     html: "kg"
     latex: \ensuremath{\mathrm{kg}}
@@ -105,6 +108,7 @@
   unit_name:
     - "second"
   unit_symbol:
+    id: "s"
     ascii: "s"
     html: "s"
     latex: \ensuremath{\mathrm{s}}
@@ -132,6 +136,7 @@
   unit_name:
     - "mole"
   unit_symbol:
+    id: "mol"
     ascii: "mol"
     html: "mol"
     latex: \ensuremath{\mathrm{mol}}
@@ -155,6 +160,7 @@
   unit_name:
     - "ampere"
   unit_symbol:
+    id: "A"
     ascii: "A"
     html: "A"
     latex: \ensuremath{\mathrm{A}}
@@ -178,6 +184,7 @@
   unit_name:
     - "kelvin"
   unit_symbol:
+    id: "K"
     ascii: "K"
     html: "K"
     latex: \ensuremath{\mathrm{K}}
@@ -201,6 +208,7 @@
   unit_name:
     - "inch"
   unit_symbol:
+    id: "in"
     ascii: "in"
     html: "in"
     latex: \ensuremath{\mathrm{in}}
@@ -226,6 +234,7 @@
   unit_name:
     - "radian"
   unit_symbol:
+    id: "rad"
     ascii: "rad"
     html: "rad"
     latex: \ensuremath{\mathrm{rad}}
@@ -257,6 +266,7 @@
   unit_name:
     - "steradian"
   unit_symbol:
+    id: "sr"
     ascii: "sr"
     html: "sr"
     latex: \ensuremath{\mathrm{sr}}
@@ -287,6 +297,7 @@
   unit_name:
     - "newton"
   unit_symbol:
+    id: "N"
     ascii: "N"
     html: "N"
     latex: \ensuremath{\mathrm{N}}
@@ -321,6 +332,7 @@
   unit_name:
     - "pascal"
   unit_symbol:
+    id: "Pa"
     ascii: "Pa"
     html: "Pa"
     latex: \ensuremath{\mathrm{Pa}}
@@ -367,6 +379,7 @@
   unit_name:
     - "joule"
   unit_symbol:
+    id: "J"
     ascii: "J"
     html: "J"
     latex: \ensuremath{\mathrm{J}}
@@ -415,6 +428,7 @@
   unit_name:
     - "watt"
   unit_symbol:
+    id: "W"
     ascii: "W"
     html: "W"
     latex: \ensuremath{\mathrm{W}}
@@ -451,6 +465,7 @@
   unit_name:
     - "coulomb"
   unit_symbol:
+    id: "C"
     ascii: "C"
     html: "C"
     latex: \ensuremath{\mathrm{C}}
@@ -484,6 +499,7 @@
   unit_name:
     - "volt"
   unit_symbol:
+    id: "V"
     ascii: "V"
     html: "V"
     latex: \ensuremath{\mathrm{V}}
@@ -523,6 +539,7 @@
   unit_name:
     - "farad"
   unit_symbol:
+    id: "F"
     ascii: "F"
     html: "F"
     latex: \ensuremath{\mathrm{F}}
@@ -560,6 +577,7 @@
   unit_name:
     - "ohm"
   unit_symbol:
+    id: "Ohm"
     ascii: "Ohm"
     html: "&#8486;"
     latex: \ensuremath{\mathrm{\Omega}}
@@ -597,6 +615,7 @@
   unit_name:
     - "siemens"
   unit_symbol:
+    id: "S"
     ascii: "S"
     html: "S"
     latex: \ensuremath{\mathrm{S}}
@@ -634,6 +653,7 @@
   unit_name:
     - "weber"
   unit_symbol:
+    id: "Wb"
     ascii: "Wb"
     html: "Wb"
     latex: \ensuremath{\mathrm{Wb}}
@@ -671,6 +691,7 @@
   unit_name:
     - "tesla"
   unit_symbol:
+    id: "T"
     ascii: "T"
     html: "T"
     latex: \ensuremath{\mathrm{T}}
@@ -705,6 +726,7 @@
   unit_name:
     - "henry"
   unit_symbol:
+    id: "H"
     ascii: "H"
     html: "H"
     latex: \ensuremath{\mathrm{H}}
@@ -742,6 +764,7 @@
   unit_name:
     - "square meter"
   unit_symbol:
+    id: "m^2"
     ascii: "m^2"
     html: m<sup>2</sup>
     latex: \ensuremath{\mathrm{m^2}}
@@ -765,6 +788,7 @@
   unit_name:
     - "degree Celsius"
   unit_symbol:
+    id: "degC"
     ascii: "degC"
     html: "&#176;C"
     latex: \ensuremath{\mathrm{^{\circ}C}}
@@ -793,6 +817,7 @@
   unit_name:
     - "becquerel"
   unit_symbol:
+    id: "Bq"
     ascii: "Bq"
     html: "Bq"
     latex: \ensuremath{\mathrm{Bq}}
@@ -821,6 +846,7 @@
   unit_name:
     - "fermi"
   unit_symbol:
+    id: "fermi"
     ascii: "fermi"
     html: "fermi"
     latex: \ensuremath{\mathrm{fermi}}
@@ -847,6 +873,7 @@
   unit_name:
     - "gram"
   unit_symbol:
+    id: "g"
     ascii: "g"
     html: "g"
     latex: \ensuremath{\mathrm{g}}
@@ -870,6 +897,7 @@
   unit_name:
     - "gray"
   unit_symbol:
+    id: "Gy"
     ascii: "Gy"
     html: "Gy"
     latex: \ensuremath{\mathrm{Gy}}
@@ -905,6 +933,7 @@
   unit_name:
     - "sievert"
   unit_symbol:
+    id: "Sv"
     ascii: "Sv"
     html: "Sv"
     latex: \ensuremath{\mathrm{Sv}}
@@ -936,6 +965,7 @@
   unit_name:
     - "katal"
   unit_symbol:
+    id: "kat"
     ascii: "kat"
     html: "kat"
     latex: \ensuremath{\mathrm{kat}}
@@ -967,6 +997,7 @@
   unit_name:
     - "hertz"
   unit_symbol:
+    id: "Hz"
     ascii: "Hz"
     html: "Hz"
     latex: \ensuremath{\mathrm{Hz}}
@@ -995,6 +1026,7 @@
   unit_name:
     - "lumen"
   unit_symbol:
+    id: "lm"
     ascii: "lm"
     html: "lm"
     latex: \ensuremath{\mathrm{lm}}
@@ -1023,6 +1055,7 @@
   unit_name:
     - "lux"
   unit_symbol:
+    id: "lx"
     ascii: "lx"
     html: "lx"
     latex: \ensuremath{\mathrm{lx}}
@@ -1054,6 +1087,7 @@
   unit_name:
     - "meter per second"
   unit_symbol:
+    id: "m*s^-1"
     ascii: "m*s^-1"
     html: "m/s"
     latex: \ensuremath{\mathrm{m/s}}
@@ -1087,6 +1121,7 @@
   unit_name:
     - "cubic meter"
   unit_symbol:
+    id: "m^3"
     ascii: "m^3"
     html: m<sup>3</sup>
     latex: \ensuremath{\mathrm{m^3}}
@@ -1112,6 +1147,7 @@
   unit_name:
     - "minute"
   unit_symbol:
+    id: "min"
     ascii: "min"
     html: "min"
     latex: \ensuremath{\mathrm{min}}
@@ -1135,6 +1171,7 @@
   unit_name:
     - "hour"
   unit_symbol:
+    id: "h"
     ascii: "h"
     html: "h"
     latex: \ensuremath{\mathrm{h}}
@@ -1158,6 +1195,7 @@
   unit_name:
     - "day"
   unit_symbol:
+    id: "d"
     ascii: "d"
     html: "d"
     latex: \ensuremath{\mathrm{d}}
@@ -1181,6 +1219,7 @@
   unit_name:
     - "angstrom"
   unit_symbol:
+    id: "Aring"
     ascii: "Aring"
     html: "&#197;"
     latex: \ensuremath{\mathrm{\AA}}
@@ -1206,6 +1245,7 @@
   unit_name:
     - "are"
   unit_symbol:
+    id: "a"
     ascii: "a"
     html: "a"
     latex: \ensuremath{\mathrm{a}}
@@ -1229,6 +1269,7 @@
   unit_name:
     - "barn"
   unit_symbol:
+    id: "b"
     ascii: "b"
     html: "b"
     latex: \ensuremath{\mathrm{b}}
@@ -1252,6 +1293,7 @@
   unit_name:
     - "hectare"
   unit_symbol:
+    id: "ha"
     ascii: "ha"
     html: "ha"
     latex: \ensuremath{\mathrm{ha}}
@@ -1275,6 +1317,7 @@
   unit_name:
     - "square foot"
   unit_symbol:
+    id: "ft^2"
     ascii: "ft^2"
     html: ft<sup>2</sup>
     latex: \ensuremath{\mathrm{ft^2}}
@@ -1298,6 +1341,7 @@
   unit_name:
     - "square inch"
   unit_symbol:
+    id: "in^2"
     ascii: "in^2"
     html: in<sup>2</sup>
     latex: \ensuremath{\mathrm{in^2}}
@@ -1322,6 +1366,7 @@
     - "abampere"
     - "EMU of current"
   unit_symbol:
+    id: "abA"
     ascii: "abA"
     html: "abA"
     latex: \ensuremath{\mathrm{abA}}
@@ -1345,6 +1390,7 @@
   unit_name:
     - "abcoulomb"
   unit_symbol:
+    id: "abC"
     ascii: "abC"
     html: "abC"
     latex: \ensuremath{\mathrm{abC}}
@@ -1371,6 +1417,7 @@
     - "abfarad"
     - "EMU of capacitance"
   unit_symbol:
+    id: "abF"
     ascii: "abF"
     html: "abF"
     latex: \ensuremath{\mathrm{abF}}
@@ -1395,6 +1442,7 @@
     - "abhenry"
     - "EMU of inductance"
   unit_symbol:
+    id: "abH"
     ascii: "abH"
     html: "abH"
     latex: \ensuremath{\mathrm{abH}}
@@ -1418,6 +1466,7 @@
   unit_name:
     - "abmho"
   unit_symbol:
+    id: "abS"
     ascii: "abS"
     html: (ab&#937;) <sup>-1</sup>
     latex: \ensuremath{\mathrm{(ab\Omega)^{-1}}
@@ -1442,6 +1491,7 @@
     - "abohm"
     - "EMU of resistance"
   unit_symbol:
+    id: "abohm"
     ascii: "abohm"
     html: "ab&#937;"
     latex: \ensuremath{\mathrm{ab\Omega}}
@@ -1466,6 +1516,7 @@
     - "abvolt"
     - "EMU of electric potential"
   unit_symbol:
+    id: "abV"
     ascii: "abV"
     html: "abV"
     latex: \ensuremath{\mathrm{abV}}
@@ -1491,6 +1542,7 @@
   unit_name:
     - "ampere hour"
   unit_symbol:
+    id: "A*h"
     ascii: "A*h"
     html: A&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{A\cdot h}}
@@ -1519,6 +1571,7 @@
   unit_name:
     - "biot"
   unit_symbol:
+    id: "Bi"
     ascii: "Bi"
     html: "Bi"
     latex: \ensuremath{\mathrm{Bi}}
@@ -1542,6 +1595,7 @@
   unit_name:
     - "maxwell"
   unit_symbol:
+    id: "Mx"
     ascii: "Mx"
     html: "Mx"
     latex: \ensuremath{\mathrm{Mx}}
@@ -1565,6 +1619,7 @@
   unit_name:
     - "erg"
   unit_symbol:
+    id: "erg"
     ascii: "erg"
     html: "erg"
     latex: \ensuremath{\mathrm{erg}}
@@ -1598,6 +1653,7 @@
   unit_name:
     - "kilowatt hour"
   unit_symbol:
+    id: "kW*h"
     ascii: "kW*h"
     html: kW&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{kW\cdot h}}
@@ -1637,6 +1693,7 @@
     - "calorie_IT"
     - "calorie"
   unit_symbol:
+    id: "cal_IT"
     ascii: "cal_IT"
     html: cal<sub>IT</sub>
     latex: \ensuremath{\mathrm{cal_{IT}}}
@@ -1669,6 +1726,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -1687,6 +1745,7 @@
   unit_name:
     - "kilocalorie_IT"
   unit_symbol:
+    id: "kcal_IT"
     ascii: "kcal_IT"
     html: kcal<sub>IT</sub>
     latex: \ensuremath{\mathrm{kcal_{IT}}}
@@ -1719,6 +1778,7 @@
   unit_name:
     - "kilocalorie_th"
   unit_symbol:
+    id: "kcal_th"
     ascii: "kcal_th"
     html: kcal<sub>th</sub>
     latex: \ensuremath{\mathrm{kcal_{th}}}
@@ -1751,6 +1811,7 @@
   unit_name:
     - "watt hour"
   unit_symbol:
+    id: "W*h"
     ascii: "W*h"
     html: W&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{W\cdot h}}
@@ -1787,6 +1848,7 @@
   unit_name:
     - "watt second"
   unit_symbol:
+    id: "W*s"
     ascii: "W*s"
     html: W&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{W\cdot s}}
@@ -1823,6 +1885,7 @@
   unit_name:
     - "dyne"
   unit_symbol:
+    id: "dyn"
     ascii: "dyn"
     html: "dyn"
     latex: \ensuremath{\mathrm{dyn}}
@@ -1846,6 +1909,7 @@
   unit_name:
     - "kilogram-force"
   unit_symbol:
+    id: "kgf"
     ascii: "kgf"
     html: "kgf"
     latex: \ensuremath{\mathrm{kgf}}
@@ -1870,6 +1934,7 @@
   unit_name:
     - "kilopond"
   unit_symbol:
+    id: "kp"
     ascii: "kp"
     html: "kp"
     latex: \ensuremath{\mathrm{kp}}
@@ -1893,6 +1958,7 @@
   unit_name:
     - "kilocalorie_th per second"
   unit_symbol:
+    id: "kcal_th*s^-1"
     ascii: "kcal_th*s^-1"
     html: kcal<sub>th</sub>/s
     latex: \ensuremath{\mathrm{kcal_{th}}}
@@ -1921,6 +1987,7 @@
   unit_name:
     - "calorie_th per second"
   unit_symbol:
+    id: "cal_th*s^-1"
     ascii: "cal_th*s^-1"
     html: cal<sub>th</sub>/s
     latex: \ensuremath{\mathrm{cal_{th}}}
@@ -1948,6 +2015,7 @@
   unit_name:
     - "foot"
   unit_symbol:
+    id: "ft"
     ascii: "ft"
     html: "ft"
     latex: \ensuremath{\mathrm{ft}}
@@ -1973,6 +2041,7 @@
   unit_name:
     - "mile"
   unit_symbol:
+    id: "mi"
     ascii: "mi"
     html: "mi"
     latex: \ensuremath{\mathrm{mi}}
@@ -1998,6 +2067,7 @@
   unit_name:
     - "yard"
   unit_symbol:
+    id: "yd"
     ascii: "yd"
     html: "yd"
     latex: \ensuremath{\mathrm{yd}}
@@ -2023,6 +2093,7 @@
   unit_name:
     - "phot"
   unit_symbol:
+    id: "ph"
     ascii: "ph"
     html: "ph"
     latex: \ensuremath{\mathrm{ph}}
@@ -2049,6 +2120,7 @@
     - "apothecary grain"
     - "grain"
   unit_symbol:
+    id: "gr"
     ascii: "gr"
     html: "gr"
     latex: \ensuremath{\mathrm{gr}}
@@ -2073,6 +2145,7 @@
     - "metric ton"
     - "ton"
   unit_symbol:
+    id: "t"
     ascii: "t"
     html: "t"
     latex: \ensuremath{\mathrm{t}}
@@ -2096,6 +2169,7 @@
   unit_name:
     - "erg per second"
   unit_symbol:
+    id: "erg*s^-1"
     ascii: "erg*s^-1"
     html: "erg/s"
     latex: \ensuremath{\mathrm{erg/s}}
@@ -2124,6 +2198,7 @@
   unit_name:
     - "bar"
   unit_symbol:
+    id: "bar"
     ascii: "bar"
     html: "bar"
     latex: \ensuremath{\mathrm{bar}}
@@ -2149,6 +2224,7 @@
   unit_name:
     - "dyne per square centimeter"
   unit_symbol:
+    id: "dyn*cm^-2"
     ascii: "dyn*cm^-2"
     html: dyn/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{dyn/cm^2}}
@@ -2178,6 +2254,7 @@
   unit_name:
     - "gram-force per square centimeter"
   unit_symbol:
+    id: "gf*cm^-2"
     ascii: "gf*cm^-2"
     html: gf/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{gf/cm^2}}
@@ -2207,6 +2284,7 @@
   unit_name:
     - "kilogram-force per square centimeter"
   unit_symbol:
+    id: "kgf*cm^-2"
     ascii: "kgf*cm^-2"
     html: kgf/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/cm^2}}
@@ -2237,6 +2315,7 @@
   unit_name:
     - "kilogram-force per square meter"
   unit_symbol:
+    id: "kgf*m^-2"
     ascii: "kgf*m^-2"
     html: kgf/m<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/m^2}}
@@ -2266,6 +2345,7 @@
   unit_name:
     - "kilogram-force per square millimeter"
   unit_symbol:
+    id: "kgf*mm^-2"
     ascii: "kgf*mm^-2"
     html: kgf/mm<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/mm^2}}
@@ -2296,6 +2376,7 @@
   unit_name:
     - "gamma"
   unit_symbol:
+    id: "gamma"
     ascii: "gamma"
     html: "&#947;"
     latex: \ensuremath{\gamma}}
@@ -2320,6 +2401,7 @@
   unit_name:
     - "curie"
   unit_symbol:
+    id: "Ci"
     ascii: "Ci"
     html: "Ci"
     latex: \ensuremath{\mathrm{Ci}}
@@ -2343,7 +2425,8 @@
   unit_name:
     - "rad (absorbed dose)"
   unit_symbol:
-    ascii: "rad_radiation"
+    id: "rad_radiation"
+    ascii: "rad"
     html: "rad"
     latex: \ensuremath{\mathrm{rad}}
     unicode: "rad"
@@ -2366,6 +2449,7 @@
   unit_name:
     - "rem"
   unit_symbol:
+    id: "rem"
     ascii: "rem"
     html: "rem"
     latex: \ensuremath{\mathrm{rem}}
@@ -2390,7 +2474,8 @@
     - "year (365 days)"
     - "year"
   unit_symbol:
-    ascii: "a_year"
+    id: "a_year"
+    ascii: "a"
     html: "a"
     latex: \ensuremath{\mathrm{a}}
     unicode: "a"
@@ -2413,6 +2498,7 @@
   unit_name:
     - "foot per minute"
   unit_symbol:
+    id: "ft*min^-1"
     ascii: "ft*min^-1"
     html: "ft/min"
     latex: \ensuremath{\mathrm{ft/min}}
@@ -2439,6 +2525,7 @@
   unit_name:
     - "foot per second"
   unit_symbol:
+    id: "ft*s^-1"
     ascii: "ft*s^-1"
     html: "ft/s"
     latex: \ensuremath{\mathrm{ft/s}}
@@ -2465,6 +2552,7 @@
   unit_name:
     - "inch per second"
   unit_symbol:
+    id: "in*s^-1"
     ascii: "in*s^-1"
     html: "in/s"
     latex: \ensuremath{\mathrm{in/s}}
@@ -2491,6 +2579,7 @@
   unit_name:
     - "mile per hour"
   unit_symbol:
+    id: "mi*h^-1"
     ascii: "mi*h^-1"
     html: "mi/h"
     latex: \ensuremath{\mathrm{mi/h}}
@@ -2517,6 +2606,7 @@
   unit_name:
     - "mile per minute"
   unit_symbol:
+    id: "mi*min^-1"
     ascii: "mi*min^-1"
     html: "mi/min"
     latex: \ensuremath{\mathrm{mi/min}}
@@ -2543,6 +2633,7 @@
   unit_name:
     - "mile per second"
   unit_symbol:
+    id: "mi*s^-1"
     ascii: "mi*s^-1"
     html: "mi/s"
     latex: \ensuremath{\mathrm{mi/s}}
@@ -2569,6 +2660,7 @@
   unit_name:
     - "stere"
   unit_symbol:
+    id: "st"
     ascii: "st"
     html: "st"
     latex: \ensuremath{\mathrm{st}}
@@ -2592,6 +2684,7 @@
   unit_name:
     - "meter per second squared"
   unit_symbol:
+    id: "m*s^-2"
     ascii: "m*s^-2"
     html: m/s<sup>2</sup>
     latex: \ensuremath{\mathrm{m/s^2}}
@@ -2621,6 +2714,7 @@
     - "meter to the power minus one"
     - "reciprocal meter"
   unit_symbol:
+    id: "m^-1"
     ascii: "m^-1"
     html: m<sup>-1</sup>
     latex: \ensuremath{\mathrm{m^{-1}}}
@@ -2654,6 +2748,7 @@
   unit_name:
     - "kilogram per cubic meter"
   unit_symbol:
+    id: "kg*m^-3"
     ascii: "kg*m^-3"
     html: kg/m<sup>3</sup>
     latex: \ensuremath{\mathrm{kg/m^3}}
@@ -2683,6 +2778,7 @@
   unit_name:
     - "cubic meter per kilogram"
   unit_symbol:
+    id: "m^3*kg"
     ascii: "m^3*kg"
     html: m<sup>3</sup>/kg
     latex: \ensuremath{\mathrm{m^3/kg}}
@@ -2710,6 +2806,7 @@
   unit_name:
     - "ampere per square meter"
   unit_symbol:
+    id: "A*m^-2"
     ascii: "A*m^-2"
     html: A/m<sup>2</sup>
     latex: \ensuremath{\mathrm{A/m^2}}
@@ -2736,6 +2833,7 @@
   unit_name:
     - "ampere per meter"
   unit_symbol:
+    id: "A*m^-1"
     ascii: "A*m^-1"
     html: "A/m"
     latex: \ensuremath{\mathrm{A/m}}
@@ -2762,6 +2860,7 @@
   unit_name:
     - "mole per cubic meter"
   unit_symbol:
+    id: "mol*m^-3"
     ascii: "mol*m^-3"
     html: mol/m<sup>3</sup>
     latex: \ensuremath{\mathrm{mol/m^3}}
@@ -2788,6 +2887,7 @@
   unit_name:
     - "candela per square meter"
   unit_symbol:
+    id: "cd*m^-2"
     ascii: "cd*m^-2"
     html: cd/m<sup>2</sup>
     latex: \ensuremath{\mathrm{cd/m^2}}
@@ -2814,6 +2914,7 @@
   unit_name:
     - "therm (EC)"
   unit_symbol:
+    id: "thm (EC)"
     ascii: "thm (EC)"
     html: "thm (EC)"
     latex: \ensuremath{\mathrm{thm (EC)}}
@@ -2847,6 +2948,7 @@
   unit_name:
     - "roentgen"
   unit_symbol:
+    id: "R"
     ascii: "R"
     html: "R"
     latex: \ensuremath{\mathrm{R}}
@@ -2870,6 +2972,7 @@
   unit_name:
     - "gauss"
   unit_symbol:
+    id: "Gs"
     ascii: "Gs"
     html: "Gs"
     latex: \ensuremath{\mathrm{Gs}}
@@ -2893,7 +2996,8 @@
   unit_name:
     - "kayser"
   unit_symbol:
-    ascii: "kayser"
+    id: "kayser"
+    ascii: "K"
     html: "K"
     latex: \ensuremath{\mathrm{K}}
     unicode: "K"
@@ -2918,6 +3022,7 @@
   unit_name:
     - "centipoise"
   unit_symbol:
+    id: "cP"
     ascii: "cP"
     html: "cP"
     latex: \ensuremath{\mathrm{cP}}
@@ -2942,6 +3047,7 @@
   unit_name:
     - "micron"
   unit_symbol:
+    id: "micron"
     ascii: "micron"
     html: "&#956;"
     latex: \ensuremath{\mathrm{mu}}
@@ -2970,6 +3076,9 @@
     - "mil"
     - "thou"
   unit_symbol:
+    id:
+      - "mil"
+      - "thou"
     ascii:
       - "mil"
       - "thou"
@@ -3004,6 +3113,7 @@
   unit_name:
     - "stilb"
   unit_symbol:
+    id: "sb"
     ascii: "sb"
     html: "sb"
     latex: \ensuremath{\mathrm{sb}}
@@ -3027,6 +3137,7 @@
   unit_name:
     - "kilogram-force second squared per meter"
   unit_symbol:
+    id: "kgf*s^2/m"
     ascii: "kgf*s^2/m"
     html: kgf&#8201;&#183;&#8201;s&nbsp;<sup>2</sup>/m
     latex: \ensuremath{\mathrm{kgf\cdot s^2/m}}
@@ -3057,6 +3168,7 @@
   unit_name:
     - "kilogram-force meter"
   unit_symbol:
+    id: "kgf*m"
     ascii: "kgf*m"
     html: kgf&#8201;&#183;&#8201;m
     latex: \ensuremath{\mathrm{kgf\cdot m}}
@@ -3093,7 +3205,8 @@
     - "horsepower, electric"
     - "electric horsepower"
   unit_symbol:
-    ascii: "hp_electric"
+    id: "hp_electric"
+    ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
     unicode: "hp"
@@ -3118,6 +3231,7 @@
   unit_name:
     - "poise"
   unit_symbol:
+    id: "P"
     ascii: "P"
     html: "P"
     latex: \ensuremath{\mathrm{P}}
@@ -3143,6 +3257,7 @@
   unit_name:
     - "rhe"
   unit_symbol:
+    id: "rhe"
     ascii: "rhe"
     html: "rhe"
     latex: \ensuremath{\mathrm{rhe}}
@@ -3166,6 +3281,9 @@
   unit_name:
     - "liter"
   unit_symbol:
+    id:
+      - "L"
+      - "l"
     ascii:
       - "L"
       - "l"
@@ -3197,6 +3315,7 @@
   unit_name:
     - "nautical mile"
   unit_symbol:
+    id: "M"
     ascii: "M"
     html: "M"
     latex: \ensuremath{\mathrm{M}}
@@ -3222,6 +3341,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -3241,7 +3361,8 @@
     - "ton of TNT (energy equivalent)"
     - "ton"
   unit_symbol:
-    ascii: "ton_TNT"
+    id: "ton_TNT"
+    ascii: "ton"
     html: "ton"
     latex: \ensuremath{\mathrm{ton}}
     unicode: "ton"
@@ -3264,6 +3385,7 @@
   unit_name:
     - "standard atmosphere"
   unit_symbol:
+    id: "atm"
     ascii: "atm"
     html: "atm"
     latex: \ensuremath{\mathrm{atm}}
@@ -3289,6 +3411,7 @@
   unit_name:
     - "technical atmosphere"
   unit_symbol:
+    id: "at"
     ascii: "at"
     html: "at"
     latex: \ensuremath{\mathrm{at}}
@@ -3314,6 +3437,7 @@
   unit_name:
     - "kilogram per square meter"
   unit_symbol:
+    id: "kg*m^-2"
     ascii: "kg*m^-2"
     html: kg/m<sup>2</sup>
     latex: \ensuremath{\mathrm{kg/m^2}}
@@ -3340,6 +3464,7 @@
   unit_name:
     - "watt per square meter"
   unit_symbol:
+    id: "W*m^-2"
     ascii: "W*m^-2"
     html: W/m<sup>2</sup>
     latex: \ensuremath{\mathrm{W/m^2}}
@@ -3368,6 +3493,7 @@
   unit_name:
     - "joule per kelvin"
   unit_symbol:
+    id: "J*K^-1"
     ascii: "J*K^-1"
     html: "J/K"
     latex: \ensuremath{\mathrm{J/K}}
@@ -3396,6 +3522,7 @@
   unit_name:
     - "joule per kilogram kelvin"
   unit_symbol:
+    id: "J*kg^-1*K^-1"
     ascii: "J*kg^-1*K^-1"
     html: J/(kg&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{J/(kg\cdot K)}}
@@ -3428,6 +3555,7 @@
   unit_name:
     - "pascal second"
   unit_symbol:
+    id: "Pa*s"
     ascii: "Pa*s"
     html: Pa&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{Pa\cdot s}}
@@ -3454,6 +3582,7 @@
   unit_name:
     - "newton meter"
   unit_symbol:
+    id: "N*m"
     ascii: "N*m"
     html: N&#8201;&#183;&#8201;m
     latex: \ensuremath{\mathrm{N\cdot m}}
@@ -3484,6 +3613,7 @@
   unit_name:
     - "newton per meter"
   unit_symbol:
+    id: "N*m^-1"
     ascii: "N*m^-1"
     html: "N/m"
     latex: \ensuremath{\mathrm{N/m}}
@@ -3510,6 +3640,7 @@
   unit_name:
     - "joule per kilogram"
   unit_symbol:
+    id: "J*kg^-1"
     ascii: "J*kg^-1"
     html: "J/kg"
     latex: \ensuremath{\mathrm{J/kg}}
@@ -3537,6 +3668,7 @@
   unit_name:
     - "watt per meter kelvin"
   unit_symbol:
+    id: "W*m^-1*K^-1"
     ascii: "W*m^-1*K^-1"
     html: W/(m&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{W/(m\cdot K)}}
@@ -3567,6 +3699,7 @@
   unit_name:
     - "joule per cubic meter"
   unit_symbol:
+    id: "J*m^-3"
     ascii: "J*m^-3"
     html: J/m<sup>3</sup>
     latex: \ensuremath{\mathrm{J/m^3}}
@@ -3593,6 +3726,7 @@
   unit_name:
     - "volt per meter"
   unit_symbol:
+    id: "V*m^-1"
     ascii: "V*m^-1"
     html: "V/m"
     latex: \ensuremath{\mathrm{V/m}}
@@ -3619,6 +3753,7 @@
   unit_name:
     - "coulomb per cubic meter"
   unit_symbol:
+    id: "C*m^-3"
     ascii: "C*m^-3"
     html: C/m<sup>3</sup>
     latex: \ensuremath{\mathrm{C/m^3}}
@@ -3645,6 +3780,7 @@
   unit_name:
     - "coulomb per square meter"
   unit_symbol:
+    id: "C*m^-2"
     ascii: "C*m^-2"
     html: C/m<sup>2</sup>
     latex: \ensuremath{\mathrm{C/m^2}}
@@ -3673,6 +3809,7 @@
   unit_name:
     - "farad per meter"
   unit_symbol:
+    id: "F*m^-1"
     ascii: "F*m^-1"
     html: "F/m"
     latex: \ensuremath{\mathrm{F/m}}
@@ -3699,6 +3836,7 @@
   unit_name:
     - "henry per meter"
   unit_symbol:
+    id: "H*m^-1"
     ascii: "H*m^-1"
     html: "H/m"
     latex: \ensuremath{\mathrm{H/m}}
@@ -3725,6 +3863,7 @@
   unit_name:
     - "joule per mole"
   unit_symbol:
+    id: "J*mol^-1"
     ascii: "J*mol^-1"
     html: "J/mol"
     latex: \ensuremath{\mathrm{J/mol}}
@@ -3751,6 +3890,7 @@
   unit_name:
     - "joule per mole kelvin"
   unit_symbol:
+    id: "J*mol^-1*K^-1"
     ascii: "J*mol^-1*K^-1"
     html: J/(mol&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{J/(mol\cdot K)}}
@@ -3783,6 +3923,7 @@
   unit_name:
     - "coulomb per kilogram"
   unit_symbol:
+    id: "C*kg^-1"
     ascii: "C*kg^-1"
     html: "C/kg"
     latex: \ensuremath{\mathrm{C/kg}}
@@ -3810,6 +3951,7 @@
   unit_name:
     - "gray per second"
   unit_symbol:
+    id: "Gy*s^-1"
     ascii: "Gy*s^-1"
     html: "Gy/s"
     latex: \ensuremath{\mathrm{Gy/s}}
@@ -3836,6 +3978,7 @@
   unit_name:
     - "katal per cubic meter"
   unit_symbol:
+    id: "kat*m^-3"
     ascii: "kat*m^-3"
     html: kat/m<sup>3</sup>
     latex: \ensuremath{\mathrm{kat/m^3}}
@@ -3862,6 +4005,7 @@
   unit_name:
     - "stokes"
   unit_symbol:
+    id: "St"
     ascii: "St"
     html: "St"
     latex: \ensuremath{\mathrm{St}}
@@ -3885,6 +4029,7 @@
   unit_name:
     - "gal"
   unit_symbol:
+    id: "Gal"
     ascii: "Gal"
     html: "Gal"
     latex: \ensuremath{\mathrm{Gal}}
@@ -3908,6 +4053,7 @@
   unit_name:
     - "oersted"
   unit_symbol:
+    id: "Oe"
     ascii: "Oe"
     html: "Oe"
     latex: \ensuremath{\mathrm{Oe}}
@@ -3931,6 +4077,7 @@
   unit_name:
     - "watt per steradian"
   unit_symbol:
+    id: "W*sr^-1"
     ascii: "W*sr^-1"
     html: "W/sr"
     latex: \ensuremath{\mathrm{W/sr}}
@@ -3957,6 +4104,7 @@
   unit_name:
     - "watt per square meter steradian"
   unit_symbol:
+    id: "W*m^-2*sr^-1"
     ascii: "W*m^-2*sr^-1"
     html: W/(m^2&#8201;&#183;&#8201;sr)
     latex: \ensuremath{\mathrm{W/(m^2\cdot sr)}}
@@ -3987,6 +4135,7 @@
   unit_name:
     - "degree (degree of arc)"
   unit_symbol:
+    id: "deg"
     ascii: "deg"
     html: "&#186;"
     latex: \ensuremath{\mathrm{^{\circ}}}
@@ -4010,6 +4159,7 @@
   unit_name:
     - "second (second of arc)"
   unit_symbol:
+    id: "\""
     ascii: "\""
     html: "&#8243;"
     latex: \ensuremath{\mathrm{''}}
@@ -4033,6 +4183,7 @@
   unit_name:
     - "minute (minute of arc)"
   unit_symbol:
+    id: "'"
     ascii: "'"
     html: "&#8242;"
     latex: \ensuremath{\mathrm{'}}
@@ -4056,6 +4207,7 @@
   unit_name:
     - "radian per second"
   unit_symbol:
+    id: "rad*s^-1"
     ascii: "rad*s^-1"
     html: "rad/s"
     latex: \ensuremath{\mathrm{rad/s}}
@@ -4084,6 +4236,7 @@
   unit_name:
     - "radian per second squared"
   unit_symbol:
+    id: "rad*s^-2"
     ascii: "rad*s^-2"
     html: rad/s<sup>2</sup>
     latex: \ensuremath{\mathrm{rad/s^2}}
@@ -4112,6 +4265,7 @@
     - "nautical mile per hour"
     - "knot"
   unit_symbol:
+    id: "kn"
     ascii: "kn"
     html: "kn"
     unicode: "kn"
@@ -4134,6 +4288,7 @@
   unit_name:
     - "neper"
   unit_symbol:
+    id: "Np"
     ascii: "Np"
     html: "Np"
     latex: \ensuremath{\mathrm{Np}}
@@ -4163,6 +4318,7 @@
   unit_name:
     - "bel"
   unit_symbol:
+    id: "B"
     ascii: "B"
     html: "B"
     latex: \ensuremath{\mathrm{B}}
@@ -4190,6 +4346,7 @@
   unit_name:
     - "decibel"
   unit_symbol:
+    id: "dB"
     ascii: "dB"
     html: "dB"
     latex: \ensuremath{\mathrm{dB}}
@@ -4216,6 +4373,7 @@
     - "millimeter of mercury, conventional"
     - "millimeter of mercury"
   unit_symbol:
+    id: "mmHg"
     ascii: "mmHg"
     html: "mmHg"
     latex: \ensuremath{\mathrm{mmHg}}
@@ -4241,8 +4399,11 @@
   unit_name:
     - "darcy"
   unit_symbol:
-    ascii:
+    id:
       - "darcy"
+    ascii:
+      - "d"
+      - "D"
     html:
       - "d"
       - "D"
@@ -4273,6 +4434,7 @@
   unit_name:
     - "gon"
   unit_symbol:
+    id: "gon"
     ascii: "gon"
     html: "gon"
     latex: \ensuremath{\mathrm{gon}}
@@ -4296,6 +4458,7 @@
   unit_name:
     - "kilometer per hour"
   unit_symbol:
+    id: "km/h"
     ascii: "km/h"
     html: "kh/h"
     latex: \ensuremath{\mathrm{kh/h}}
@@ -4325,6 +4488,7 @@
   unit_name:
     - "second to the power minus one"
   unit_symbol:
+    id: "s^-1"
     ascii: "s^-1"
     html: s<sup>-1</sup>
     latex: \ensuremath{\mathrm{s^{-1}}}
@@ -4352,6 +4516,7 @@
   unit_name:
     - "radian per meter"
   unit_symbol:
+    id: "rad*m^-1"
     ascii: "rad*m^-1"
     html: "rad/m"
     latex: \ensuremath{\mathrm{rad/m}}
@@ -4378,6 +4543,7 @@
   unit_name:
     - "neper per second"
   unit_symbol:
+    id: "Np*s^-1"
     ascii: "Np*s^-1"
     html: "Np/s"
     latex: \ensuremath{\mathrm{Np/s}}
@@ -4404,6 +4570,7 @@
   unit_name:
     - "square yard"
   unit_symbol:
+    id: "yd^2"
     ascii: "yd^2"
     html: yd<sup>2</sup>
     latex: \ensuremath{\mathrm{yd^2}}
@@ -4427,6 +4594,7 @@
   unit_name:
     - "square mile"
   unit_symbol:
+    id: "mi^2"
     ascii: "mi^2"
     html: ""
     latex: \ensuremath{\mathrm{mi^2}}
@@ -4450,7 +4618,8 @@
   unit_name:
     - "centimeter of mercury (0 degC)"
   unit_symbol:
-    ascii: "cmHg_0degC"
+    id: "cmHg_0degC"
+    ascii: "cmHg"
     html: "cmHg"
     latex: \ensuremath{\mathrm{cmHg}}
     unicode: "cmHg"
@@ -4475,6 +4644,7 @@
   unit_name:
     - "foot per second squared"
   unit_symbol:
+    id: "ft*s^-2"
     ascii: "ft*s^-2"
     html: ft/s<sup>2</sup>
     latex: \ensuremath{\mathrm{ft/s^2}}
@@ -4501,6 +4671,7 @@
   unit_name:
     - "cubic inch"
   unit_symbol:
+    id: "in^3"
     ascii: "in^3"
     html: in<sup>3</sup>
     latex: \ensuremath{\mathrm{in^3}}
@@ -4524,6 +4695,7 @@
   unit_name:
     - "cubic foot"
   unit_symbol:
+    id: "ft^3"
     ascii: "ft^3"
     html: ft<sup>3</sup>
     latex: \ensuremath{\mathrm{ft^3}}
@@ -4547,6 +4719,7 @@
   unit_name:
     - "cubic yard"
   unit_symbol:
+    id: "yd^3"
     ascii: "yd^3"
     html: yd<sup>3</sup>
     latex: \ensuremath{\mathrm{yd^3}}
@@ -4572,6 +4745,7 @@
     - "imperial gallon"
     - "gallon"
   unit_symbol:
+    id: "gal (UK)"
     ascii: "gal (UK)"
     html: "gal (UK)"
     latex: \ensuremath{\mathrm{gal (UK)}}
@@ -4596,6 +4770,7 @@
     - "pint (UK)"
     - "pint"
   unit_symbol:
+    id: "pt (UK)"
     ascii: "pt (UK)"
     html: "pt (UK)"
     latex: \ensuremath{\mathrm{pint~{UK}}
@@ -4621,6 +4796,7 @@
     - "fluid ounce"
     - "ounce"
   unit_symbol:
+    id: "fl oz (UK)"
     ascii: "fl oz (UK)"
     html: "fl oz (UK)"
     latex: \ensuremath{\mathrm{fl oz (UK)}}
@@ -4644,6 +4820,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -4663,6 +4840,7 @@
     - "gallon (US)"
     - "gallon"
   unit_symbol:
+    id: "gal (US)"
     ascii: "gal (US)"
     html: "gal (US)"
     latex: \ensuremath{\mathrm{gal (US)}}
@@ -4687,6 +4865,7 @@
     - "liquid pint (US)"
     - "pint"
   unit_symbol:
+    id: "liq pint (US)"
     ascii: "liq pint (US)"
     html: "liq pint (US)"
     latex: \ensuremath{\mathrm{liq pint (US)}}
@@ -4712,6 +4891,7 @@
     - "fluid ounce"
     - "ounce"
   unit_symbol:
+    id: "fl oz (US)"
     ascii: "fl oz (US)"
     html: "fl oz (US)"
     latex: \ensuremath{\mathrm{fl oz (US)}}
@@ -4736,6 +4916,7 @@
     - "barrel (US) for petroleum"
     - "barrel"
   unit_symbol:
+    id: "bbl (US)"
     ascii: "bbl (US)"
     html: "bbl (US)"
     latex: \ensuremath{\mathrm{bbl (US)}}
@@ -4760,6 +4941,7 @@
     - "bushel (US)"
     - "bushel"
   unit_symbol:
+    id: "bu (US)"
     ascii: "bu (US)"
     html: "bu (US)"
     latex: \ensuremath{\mathrm{bu (US)}}
@@ -4784,6 +4966,7 @@
     - "dry pint (US)"
     - "pint"
   unit_symbol:
+    id: "dry pt (US)"
     ascii: "dry pt (US)"
     html: "dry pt (US)"
     latex: \ensuremath{\mathrm{dry pt (US)}}
@@ -4807,6 +4990,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -4825,6 +5009,7 @@
   unit_name:
     - "light year"
   unit_symbol:
+    id: "l.y."
     ascii: "l.y."
     html: "l.y."
     latex: \ensuremath{\mathrm{l.y.}}
@@ -4848,6 +5033,7 @@
   unit_name:
     - "astronomical unit"
   unit_symbol:
+    id: "ua"
     ascii: "ua"
     html: "ua"
     latex: \ensuremath{\mathrm{ua}}
@@ -4871,6 +5057,7 @@
   unit_name:
     - "parsec"
   unit_symbol:
+    id: "pc"
     ascii: "pc"
     html: "pc"
     latex: \ensuremath{\mathrm{pc}}
@@ -4894,6 +5081,7 @@
   unit_name:
     - "meter to the power four"
   unit_symbol:
+    id: "m^4"
     ascii: "m^4"
     html: m<sup>4</sup>
     latex: \ensuremath{\mathrm{m^4}}
@@ -4921,6 +5109,7 @@
   unit_name:
     - "kilogram per meter"
   unit_symbol:
+    id: "kg*m^-1"
     ascii: "kg*m^-1"
     html: "kg/m"
     latex: \ensuremath{\mathrm{kg/m}}
@@ -4948,6 +5137,7 @@
   unit_name:
     - "kilogram meter squared"
   unit_symbol:
+    id: "kg*m^2"
     ascii: "kg*m^2"
     html: "kg*m^2"
     latex: kg*m^2
@@ -4975,6 +5165,7 @@
   unit_name:
     - "kilogram per liter"
   unit_symbol:
+    id: "kg*l^-1"
     ascii: "kg*l^-1"
     html: "kg/l"
     latex: \ensuremath{\mathrm{kg/l}}
@@ -5002,6 +5193,7 @@
   unit_name:
     - "metric ton per cubic meter"
   unit_symbol:
+    id: "t*m^-3"
     ascii: "t*m^-3"
     html: t/m<sup>3</sup>
     latex: \ensuremath{\mathrm{t/m^3}}
@@ -5028,6 +5220,7 @@
   unit_name:
     - "newton second"
   unit_symbol:
+    id: "N*s"
     ascii: "N*s"
     html: N&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{N\cdot s}}
@@ -5054,6 +5247,7 @@
   unit_name:
     - "newton meter squared per kilogram squared"
   unit_symbol:
+    id: "N*m^2*kg^-2"
     ascii: "N*m^2*kg^-2"
     html: N&#8201;&#183;&#8201;m&nbsp;<sup>2</sup>/kg&nbsp;<sup>2</sup>
     latex: \ensuremath{\mathrm{N\cdot m^2/kg^2}}
@@ -5084,6 +5278,7 @@
   unit_name:
     - "kilogram meter per second"
   unit_symbol:
+    id: "kg*m*s^-1"
     ascii: "kg*m*s^-1"
     html: kg&#8201;&#183;&#8201;m/s
     latex: \ensuremath{\mathrm{kg\cdot m/s}}
@@ -5114,6 +5309,7 @@
   unit_name:
     - "kilogram meter squared per second"
   unit_symbol:
+    id: "kg*m^2*s^-1"
     ascii: "kg*m^2*s^-1"
     html: kg&#8201;&#183;&#8201;m^2/s
     latex: \ensuremath{\mathrm{kg\cdot m^2/s}}
@@ -5146,6 +5342,7 @@
   unit_name:
     - "newton meter second"
   unit_symbol:
+    id: "N*m*s"
     ascii: "N*m*s"
     html: N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{N\cdot m\cdot s}}
@@ -5175,6 +5372,7 @@
   unit_name:
     - "pascal to the power minus one"
   unit_symbol:
+    id: "Pa^-1"
     ascii: "Pa^-1"
     html: Pa<sup>-1</sup>
     latex: \ensuremath{\mathrm{Pa^{-1}}}
@@ -5200,6 +5398,7 @@
   unit_name:
     - "meter squared per second"
   unit_symbol:
+    id: "m^2*s^-1"
     ascii: "m^2*s^-1"
     html: m<sup>2</sup>/s
     latex: \ensuremath{\mathrm{m^2/s}}
@@ -5226,6 +5425,7 @@
   unit_name:
     - "kilogram per second"
   unit_symbol:
+    id: "kg*s^-1"
     ascii: "kg*s^-1"
     html: "kg/s"
     latex: \ensuremath{\mathrm{kg/s}}
@@ -5253,6 +5453,7 @@
   unit_name:
     - "cubic meter per second"
   unit_symbol:
+    id: "m^3*s^-1"
     ascii: "m^3*s^-1"
     html: m<sup>3</sup>/s
     latex: \ensuremath{\mathrm{m^3/s}}
@@ -5279,6 +5480,7 @@
   unit_name:
     - "joule second"
   unit_symbol:
+    id: "J*s"
     ascii: "J*s"
     html: J&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{J\cdot s}}
@@ -5307,6 +5509,7 @@
     - "avoirdupois pound"
     - "pound"
   unit_symbol:
+    id: "lb"
     ascii: "lb"
     html: "lb"
     latex: \ensuremath{\mathrm{lb}}
@@ -5332,6 +5535,7 @@
     - "avoirdupois ounce"
     - "ounce"
   unit_symbol:
+    id: "oz"
     ascii: "oz"
     html: "oz"
     latex: \ensuremath{\mathrm{oz}}
@@ -5356,6 +5560,7 @@
     - "hundredweight (long, 112 lb)"
     - "hundredweight"
   unit_symbol:
+    id: "cwt (UK)"
     ascii: "cwt (UK)"
     html: "cwt (UK)"
     latex: \ensuremath{\mathrm{cwt (UK)}}
@@ -5379,6 +5584,7 @@
   unit_name:
     - "pound per cubic foot"
   unit_symbol:
+    id: "lb*ft^-3"
     ascii: "lb*ft^-3"
     html: lb/ft<sup>3</sup>
     latex: \ensuremath{\mathrm{lb/ft^3}}
@@ -5405,6 +5611,7 @@
   unit_name:
     - "pound-force"
   unit_symbol:
+    id: "lbf"
     ascii: "lbf"
     html: "lbf"
     latex: \ensuremath{\mathrm{lbf}}
@@ -5430,6 +5637,7 @@
   unit_name:
     - "foot pound-force"
   unit_symbol:
+    id: "ft*lbf"
     ascii: "ft*lbf"
     html: ft&#8201;&#183;&#8201;lbf
     latex: \ensuremath{\mathrm{ft\cdot lbf}}
@@ -5470,6 +5678,9 @@
   unit_name:
     - "pound-force per square inch"
   unit_symbol:
+    id:
+      - "lbf*in^-2"
+      - "psi"
     ascii:
       - "lbf*in^-2"
       - "psi"
@@ -5505,6 +5716,7 @@
   unit_name:
     - "inch to the fourth power"
   unit_symbol:
+    id: "in^4"
     ascii: "in^4"
     html: in<sup>4</sup>
     latex: \ensuremath{\mathrm{in^4}}
@@ -5530,6 +5742,7 @@
   unit_name:
     - "inch cubed"
   unit_symbol:
+    id: "in^3_section_modulus"
     ascii: "in^3"
     html: in<sup>3</sup>
     latex: \ensuremath{\mathrm{in^3}}
@@ -5553,6 +5766,7 @@
   unit_name:
     - "foot squared per second"
   unit_symbol:
+    id: "ft^2*s^-1"
     ascii: "ft^2*s^-1"
     html: ft<sup>2</sup>/s
     latex: \ensuremath{\mathrm{ft^2/s}}
@@ -5579,6 +5793,7 @@
   unit_name:
     - "foot pound-force per second"
   unit_symbol:
+    id: "ft*lbf*s^-1"
     ascii: "ft*lbf*s^-1"
     html: ft&#8201;&#183;&#8201;lbf/s
     latex: \ensuremath{\mathrm{ft\cdot lbf/s}}
@@ -5610,6 +5825,7 @@
     - "metric carat"
     - "carat, metric"
   unit_symbol:
+    id: "ct"
     ascii: "ct"
     html: "ct"
     latex: \ensuremath{\mathrm{ct}}
@@ -5633,6 +5849,7 @@
   unit_name:
     - "tex"
   unit_symbol:
+    id: "tex"
     ascii: "tex"
     html: "tex"
     latex: \ensuremath{\mathrm{tex}}
@@ -5656,6 +5873,7 @@
   unit_name:
     - "torr"
   unit_symbol:
+    id: "Torr"
     ascii: "Torr"
     html: "Torr"
     latex: \ensuremath{\mathrm{torr}}
@@ -5689,6 +5907,7 @@
     - "millimeter of water, conventional"
     - "millimeter of water"
   unit_symbol:
+    id: "mmH_2O"
     ascii: "mmH_2O"
     html: mmH<sub>2</sub>O
     latex: \ensuremath{\mathrm{mmH_{2}O}}
@@ -5714,6 +5933,7 @@
     - "centimeter of mercury, conventional"
     - "centimeter of mercury"
   unit_symbol:
+    id: "cmHg"
     ascii: "cmHg"
     html: "cmHg"
     latex: \ensuremath{\mathrm{cmHg}}
@@ -5739,6 +5959,7 @@
   unit_name:
     - "kilogram-force meter per second"
   unit_symbol:
+    id: "kgf*m*s^-1"
     ascii: "kgf*m*s^-1"
     html: kgf&#8201;&#183;&#8201;m/s
     latex: \ensuremath{\mathrm{kgf\cdot m/s}}
@@ -5770,7 +5991,8 @@
     - "horsepower, metric"
     - "metric horsepower"
   unit_symbol:
-    ascii: "hp_metric"
+    id: "hp_metric"
+    ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
     unicode: "hp"
@@ -5793,6 +6015,7 @@
   unit_name:
     - "kelvin to the power minus one"
   unit_symbol:
+    id: "K^-1"
     ascii: "K^-1"
     html: K<sup>-1</sup>
     latex: \ensuremath{\mathrm{K^{-1}}}
@@ -5820,6 +6043,7 @@
   unit_name:
     - "pascal per kelvin"
   unit_symbol:
+    id: "Pa*K^-1"
     ascii: "Pa*K^-1"
     html: "Pa/K"
     latex: \ensuremath{\mathrm{Pa/K}}
@@ -5846,6 +6070,7 @@
   unit_name:
     - "watt per square meter kelvin"
   unit_symbol:
+    id: "W*m^-2*K^-1"
     ascii: "W*m^-2*K^-1"
     html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{W/(m^2\cdot K)}}
@@ -5878,7 +6103,8 @@
   unit_name:
     - "lambert"
   unit_symbol:
-    ascii: "Lambert"
+    id: "Lambert"
+    ascii: "L"
     html: "L"
     latex: \ensuremath{\mathrm{L}}
     unicode: "L"
@@ -5901,6 +6127,7 @@
   unit_name:
     - "gilbert"
   unit_symbol:
+    id: "Gi"
     ascii: "Gi"
     html: "Gi"
     latex: \ensuremath{\mathrm{Gi}}
@@ -5924,6 +6151,7 @@
   unit_name:
     - "debye"
   unit_symbol:
+    id: "D"
     ascii: "D"
     html: "D"
     latex: \ensuremath{\mathrm{D}}
@@ -5947,6 +6175,7 @@
   unit_name:
     - "abwatt"
   unit_symbol:
+    id: "aW (Cardelli)"
     ascii: "aW (Cardelli)"
     html: "aW"
     latex: \ensuremath{\mathrm{aW}}
@@ -5970,6 +6199,7 @@
   unit_name:
     - "slug"
   unit_symbol:
+    id: "slug"
     ascii: "slug"
     html: "slug"
     latex: \ensuremath{\mathrm{D}}
@@ -5995,6 +6225,7 @@
     - "calorie_th"
     - "calorie"
   unit_symbol:
+    id: "cal_th"
     ascii: "cal_th"
     html: cal<sub>th</sub>
     latex: \ensuremath{\mathrm{cal_th}}
@@ -6028,7 +6259,8 @@
     - "short ton"
     - "ton"
   unit_symbol:
-    ascii: "ton_short"
+    id: "ton_short"
+    ascii: "ton"
     html: "t"
     latex: \ensuremath{\mathrm{t}}
     unicode: "t"
@@ -6052,7 +6284,8 @@
     - "long ton"
     - "ton"
   unit_symbol:
-    ascii: "ton_long"
+    id: "ton_long"
+    ascii: "ton"
     html: "t"
     latex: \ensuremath{\mathrm{t}}
     unicode: "t"
@@ -6076,6 +6309,7 @@
     - "hundredweight (short, 100 lb)"
     - "hundredweight"
   unit_symbol:
+    id: "cwt (US)"
     ascii: "cwt (US)"
     html: "cwt (US)"
     latex: \ensuremath{\mathrm{cwt (US)}}
@@ -6101,7 +6335,8 @@
     - "troy ounce"
     - "ounce"
   unit_symbol:
-    ascii: "oz_troy"
+    id: "oz_troy"
+    ascii: "oz"
     html: "oz"
     latex: \ensuremath{\mathrm{oz}}
     unicode: "oz"
@@ -6126,7 +6361,8 @@
     - "troy pound"
     - "pound"
   unit_symbol:
-    ascii: "lb_troy"
+    id: "lb_troy"
+    ascii: "lb"
     html: "lb"
     latex: \ensuremath{\mathrm{lb}}
     unicode: "lb"
@@ -6149,6 +6385,7 @@
   unit_name:
     - "pennyweight"
   unit_symbol:
+    id: "dwt (troy)"
     ascii: "dwt (troy)"
     html: "dwt (troy)"
     latex: \ensuremath{\mathrm{dwt (troy)}}
@@ -6174,6 +6411,7 @@
     - "apothecary dram"
     - "dram"
   unit_symbol:
+    id: "dr"
     ascii: "dr"
     html: "dr"
     latex: \ensuremath{\mathrm{dr}}
@@ -6198,6 +6436,7 @@
     - "scruple"
     - "apothecary scruple"
   unit_symbol:
+    id: "scr (ap.)"
     ascii: "scr (ap.)"
     html: "scr (ap.)"
     latex: \ensuremath{\mathrm{scr (ap.)}}
@@ -6221,6 +6460,7 @@
   unit_name:
     - "poundal"
   unit_symbol:
+    id: "pdl"
     ascii: "pdl"
     html: "pdl"
     latex: \ensuremath{\mathrm{pdl}}
@@ -6246,6 +6486,7 @@
   unit_name:
     - "kip"
   unit_symbol:
+    id: "kip"
     ascii: "kip"
     html: "kip"
     latex: \ensuremath{\mathrm{kip}}
@@ -6269,6 +6510,7 @@
   unit_name:
     - "ton-force (2000 lb)"
   unit_symbol:
+    id: "ton-force (2000 lb)"
     ascii: "ton-force (2000 lb)"
     html: "ton-force (2000 lb)"
     latex: \ensuremath{\mathrm{ton-force (2000 lb)}}
@@ -6294,6 +6536,7 @@
   unit_name:
     - "barye"
   unit_symbol:
+    id: "barye"
     ascii: "barye"
     html: "barye"
     latex: \ensuremath{\mathrm{barye}}
@@ -6323,6 +6566,7 @@
   unit_name:
     - "electronvolt"
   unit_symbol:
+    id: "eV"
     ascii: "eV"
     html: "eV"
     latex: \ensuremath{\mathrm{eV}}
@@ -6346,6 +6590,7 @@
   unit_name:
     - "unified atomic mass unit"
   unit_symbol:
+    id: "u"
     ascii: "u"
     html: "u"
     latex: \ensuremath{\mathrm{u}}
@@ -6369,12 +6614,15 @@
   unit_name:
     - "natural unit of velocity"
   unit_symbol:
+    id:
+      - "c_0"
+      - "c"
     ascii:
       - "c_0"
       - "c"
     html:
-      - | <i>c</i> <sub>0</sub>
-      - | <i>c</i>
+      - "<i>c</i> <sub>0</sub>"
+      - "<i>c</i>"
     latex: \ensuremath{\mathit{c}}
   root_units:
     enumerated_root_units:
@@ -6395,6 +6643,7 @@
   unit_name:
     - "natural unit of action"
   unit_symbol:
+    id: "h-bar"
     ascii: "h-bar"
     html: <i>&#295;</i>
     latex: \ensuremath{\mathit{\hbar}}
@@ -6417,6 +6666,7 @@
   unit_name:
     - "natural unit of mass"
   unit_symbol:
+    id: "m_e"
     ascii: "m_e"
     html: <i>m</i><sub>e</sub>
     latex: \ensuremath{\mathit{m}_\mathrm{e}}
@@ -6439,6 +6689,7 @@
   unit_name:
     - "natural unit of time"
   unit_symbol:
+    id: "h-bar*(m_e*c^2)"
     ascii: "h-bar*(m_e*c^2)"
     html: <i>&#295;</i>/ <i>m</i><sub>e</sub>c<sup>2</sup>
     latex: \ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
@@ -6461,6 +6712,7 @@
   unit_name:
     - "atomic unit of charge"
   unit_symbol:
+    id: "e"
     ascii: "e"
     html: <i>e</i>
     latex: \ensuremath{\mathit{e}}
@@ -6483,6 +6735,7 @@
   unit_name:
     - "atomic unit of mass"
   unit_symbol:
+    id: "m_e"
     ascii: "m_e"
     html: <i>m</i><sub>e</sub>
     latex: \ensuremath{\mathit{m}_\mathrm{e}}
@@ -6505,6 +6758,7 @@
   unit_name:
     - "atomic unit of action"
   unit_symbol:
+    id: "h-bar"
     ascii: "h-bar"
     html: <i>&#295;</i>
     latex: \ensuremath{\mathit{\hbar}}
@@ -6527,6 +6781,7 @@
   unit_name:
     - "atomic unit of length"
   unit_symbol:
+    id: "a_0"
     ascii: "a_0"
     html: <i>a</i> <sub>0</sub>
     latex: \ensuremath{\mathit{a}_\mathrm{0}}
@@ -6549,6 +6804,7 @@
   unit_name:
     - "atomic unit of energy"
   unit_symbol:
+    id: "e_h"
     ascii: "e_h"
     html: <i>E</i>h
     latex: \ensuremath{\mathit{E}_\mathrm{h}}
@@ -6571,6 +6827,7 @@
   unit_name:
     - "atomic unit of time"
   unit_symbol:
+    id: "h-bar*(E_h)-1"
     ascii: "h-bar*(E_h)-1"
     html: <i>&#295;</i>/ <i>E</i> <sub>h</sub>
     latex: \ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}
@@ -6593,6 +6850,7 @@
   unit_name:
     - "atomic unit of magnetizability"
   unit_symbol:
+    id: "e^2*a_0^2*m_e-1"
     ascii: "e^2*a_0^2*m_e-1"
     latex: \ensuremath{\mathit{e}^2\mathit{a}_0^2/\mathit{m}_\mathrm{e}}
   root_units:
@@ -6614,6 +6872,7 @@
   unit_name:
     - "atomic unit of magnetic flux density"
   unit_symbol:
+    id: "h-bar*(e*a_0^2)-1"
     ascii: "h-bar*(e*a_0^2)-1"
     latex: \ensuremath{\mathit{\hbar}/\mathit{ea}_0^2}
   root_units:
@@ -6635,6 +6894,7 @@
   unit_name:
     - "atomic unit of magnetic dipole moment"
   unit_symbol:
+    id: "h-bar*e*(m_e)-1"
     ascii: "h-bar*e*(m_e)-1"
     html: <i>&#295;e</i>/ <i>m</i> <sub>e</sub>
     latex: \ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}
@@ -6657,6 +6917,7 @@
   unit_name:
     - "atomic unit of momentum"
   unit_symbol:
+    id: "h-bar*(a_0)-1"
     ascii: "h-bar*(a_0)-1"
     html: <i>&#295;</i>/ <i>a</i> <sub>0</sub>
     latex: \ensuremath{\mathit{\hbar}/\mathit{a}_0}
@@ -6679,6 +6940,7 @@
   unit_name:
     - "atomic unit of charge density"
   unit_symbol:
+    id: "e*(a_0^3)"
     ascii: "e*(a_0^3)"
   root_units:
     enumerated_root_units:
@@ -6699,6 +6961,7 @@
   unit_name:
     - "atomic unit of current"
   unit_symbol:
+    id: "eE_h*h-bar^-1"
     ascii: "eE_h*h-bar^-1"
     html: <i>eE</i> <sub>h</sub>/&#295;
   root_units:
@@ -6720,6 +6983,7 @@
   unit_name:
     - "atomic unit of electric dipole moment"
   unit_symbol:
+    id: "e*a_0"
     ascii: "e*a_0"
     html: <i>ea</i> <sub>0</sub>
   root_units:
@@ -6741,6 +7005,7 @@
   unit_name:
     - "atomic unit of electric field"
   unit_symbol:
+    id: "E_h*(e*a_0)"
     ascii: "E_h*(e*a_0)"
     html: <i>E</i> <sub>h</sub>/ <i>ea</i> <sub>0</sub>
   root_units:
@@ -6762,6 +7027,7 @@
   unit_name:
     - "atomic unit of electric field gradient"
   unit_symbol:
+    id: "E_h*(e*a_0^2)"
     ascii: "E_h*(e*a_0^2)"
   root_units:
     enumerated_root_units:
@@ -6782,6 +7048,7 @@
   unit_name:
     - "atomic unit of electric potential"
   unit_symbol:
+    id: "E_h*e-1"
     ascii: "E_h*e-1"
     html: <i>E</i> <sub>h</sub>/ <i>e</i>
 
@@ -6808,6 +7075,7 @@
   unit_name:
     - "atomic unit of force"
   unit_symbol:
+    id: "e_h*(a_0)-1"
     ascii: "e_h*(a_0)-1"
     html: <i>E</i> <sub>h</sub>/ <i>a</i> <sub>0</sub>
 
@@ -6832,6 +7100,7 @@
   unit_name:
     - "atomic unit of electric quadrupole moment"
   unit_symbol:
+    id: "e*a_0^2"
     ascii: "e*a_0^2"
   root_units:
     enumerated_root_units:
@@ -6852,6 +7121,7 @@
   unit_name:
     - "atomic unit of electric polarizability"
   unit_symbol:
+    id: "e^2*a_0^2*(E_h)-1"
     ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
     enumerated_root_units:
@@ -6873,6 +7143,7 @@
     - "statohm"
     - "ESU of resistance"
   unit_symbol:
+    id: "statohm"
     ascii: "statohm"
     html: "statohm"
     latex: \ensuremath{\mathrm{statohm}}
@@ -6897,6 +7168,7 @@
     - "statfarad"
     - "ESU of capacitance"
   unit_symbol:
+    id: "statF"
     ascii: "statF"
     html: "statF"
     latex: \ensuremath{\mathrm{statF}}
@@ -6921,6 +7193,7 @@
     - "statampere"
     - "ESU of current"
   unit_symbol:
+    id: "statA"
     ascii: "statA"
     html: "statA"
     latex: \ensuremath{\mathrm{statA}}
@@ -6945,6 +7218,7 @@
     - "statvolt"
     - "ESU of Electric potential"
   unit_symbol:
+    id: "statV"
     ascii: "statV"
     html: "statV"
     unicode: "statV"
@@ -6972,6 +7246,7 @@
     - "stathenry"
     - "ESU of inductance"
   unit_symbol:
+    id: "statH"
     ascii: "statH"
     html: "statH"
     latex: \ensuremath{\mathrm{statH}}
@@ -6996,6 +7271,7 @@
     - "statmho"
     - "ESU of conductance"
   unit_symbol:
+    id: "statmho"
     ascii: "statmho"
     html: "statmho"
     latex: \ensuremath{\mathrm{statmho}}
@@ -7020,6 +7296,7 @@
     - "statcoulomb"
     - "ESU of charge"
   unit_symbol:
+    id: "statcoulomb"
     ascii: "statcoulomb"
     html: "statcoulomb"
     latex: \ensuremath{\mathrm{statcoulomb}}
@@ -7045,6 +7322,7 @@
   unit_name:
     - "statweber"
   unit_symbol:
+    id: "statWb"
     ascii: "statWb"
     html: "statWb"
     latex: \ensuremath{\mathrm{statWb}}
@@ -7068,6 +7346,7 @@
   unit_name:
     - "stattesla"
   unit_symbol:
+    id: "statT"
     ascii: "statT"
     html: "statT"
     latex: \ensuremath{\mathrm{statT}}
@@ -7091,6 +7370,7 @@
   unit_name:
     - "statwatt"
   unit_symbol:
+    id: "statwatt"
     ascii: "statwatt"
     html: "statwatt"
     latex: \ensuremath{\mathrm{statwatt}}
@@ -7115,6 +7395,7 @@
     - "dram (avoirdupois)"
     - "dram"
   unit_symbol:
+    id: "dr (avdp)"
     ascii: "dr (avdp)"
     html: "dr (avdp)"
     latex: \ensuremath{\mathrm{dr~(avdp)}}
@@ -7156,6 +7437,7 @@
   unit_name:
     - "footlambert"
   unit_symbol:
+    id: "ft.L"
     ascii: "ft.L"
     html: "ft.L"
     latex: \ensuremath{\mathrm{ft.L}}
@@ -7238,6 +7520,7 @@
     - "rod (based on US survey foot)"
     - "rod"
   unit_symbol:
+    id: "rd"
     ascii: "rd"
     html: "rd"
     unicode: "rd"
@@ -7261,6 +7544,7 @@
     - "fathom (based on US survey foot)"
     - "fathom"
   unit_symbol:
+    id: "fath"
     ascii: "fath"
     html: "fath"
     latex: \ensuremath{\mathrm{fath}}
@@ -7302,6 +7586,7 @@
   unit_name:
     - "horsepower"
   unit_symbol:
+    id: "hp"
     ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
@@ -7326,7 +7611,8 @@
     - "horsepower, boiler"
     - "boiler horsepower"
   unit_symbol:
-    ascii: "hp_boiler"
+    id: "hp_boiler"
+    ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
     unicode: "hp"
@@ -7350,7 +7636,8 @@
     - "horsepower, water"
     - "water horsepower"
   unit_symbol:
-    ascii: "hp_water"
+    id: "hp_water"
+    ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
     unicode: "hp"
@@ -7373,7 +7660,8 @@
   unit_name:
     - "horsepower (UK)"
   unit_symbol:
-    ascii: "hp_UK"
+    id: "hp_UK"
+    ascii: "hp"
     html: "hp"
     latex: \ensuremath{\mathrm{hp}}
     unicode: "hp"
@@ -7396,6 +7684,7 @@
   unit_name:
     - "degree Rankine"
   unit_symbol:
+    id: "degR"
     ascii: "degR"
     html: "&#176;R"
     latex: \ensuremath{mathrm{^{\circ}R}}
@@ -7419,6 +7708,7 @@
   unit_name:
     - "dalton"
   unit_symbol:
+    id: "Da"
     ascii: "Da"
     html: "Da"
     latex: \ensuremath{\mathrm{Da}}
@@ -7442,6 +7732,7 @@
   unit_name:
     - "natural unit of length"
   unit_symbol:
+    id: "lambda-bar_C"
     ascii: "lambda-bar_C"
   root_units:
     enumerated_root_units:
@@ -7462,6 +7753,7 @@
   unit_name:
     - "atomic unit of 1st hyperpolarizability"
   unit_symbol:
+    id: "e_3a_0^3*(E_h^3)"
     ascii: "e_3a_0^3*(E_h^3)"
   root_units:
     enumerated_root_units:
@@ -7482,6 +7774,7 @@
   unit_name:
     - "atomic unit of 2nd hyperpolarizability"
   unit_symbol:
+    id: "e_4a_0^4*(E_h^3)"
     ascii: "e_4a_0^4*(E_h^3)"
   root_units:
     enumerated_root_units:
@@ -7502,6 +7795,7 @@
   unit_name:
     - "atomic unit of permittivity"
   unit_symbol:
+    id: "e^2*(a_0*E_h)-1"
     ascii: "e^2*(a_0*E_h)-1"
     html: <i>e</i> <sup>2</sup>/ <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>
 
@@ -7524,6 +7818,7 @@
   unit_name:
     - "atomic unit of velocity"
   unit_symbol:
+    id: "a_0*E_h*h-bar-1"
     ascii: "a_0*E_h*h-bar-1"
     html: <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>/&#295;
   root_units:
@@ -7545,6 +7840,7 @@
   unit_name:
     - "natural unit of energy"
   unit_symbol:
+    id: "m_e*c^2"
     ascii: "m_e*c^2"
     html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
 
@@ -7567,6 +7863,7 @@
   unit_name:
     - "natural unit of momentum"
   unit_symbol:
+    id: "m_e*c"
     ascii: "m_e*c"
     html: <i>m</i> <sub>e</sub> <i>c</i>
 
@@ -7589,6 +7886,7 @@
   unit_name:
     - "natural unit of action in eV s"
   unit_symbol:
+    id: "h-bar"
     ascii: "h-bar"
     html: "&#295;"
   root_units:
@@ -7610,6 +7908,7 @@
   unit_name:
     - "natural unit of energy in MeV"
   unit_symbol:
+    id: "m_e*c^2"
     ascii: "m_e*c^2"
     html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
 
@@ -7632,6 +7931,7 @@
   unit_name:
     - "natural unit of momentum in MeV/c"
   unit_symbol:
+    id: "m_e*c"
     ascii: "m_e*c"
     html: <i>m</i> <sub>e</sub> <i>c</i>
 
@@ -7655,6 +7955,7 @@
     - "quart (UK)"
     - "quart"
   unit_symbol:
+    id: "qt (UK)"
     ascii: "qt (UK)"
     html: "qt (UK)"
     latex: \ensuremath{\mathrm{qt (UK)}}
@@ -7679,6 +7980,7 @@
     - "dry quart (US)"
     - "quart"
   unit_symbol:
+    id: "dry qt (US)"
     ascii: "dry qt (US)"
     html: "dry qt (US)"
     latex: \ensuremath{\mathrm{dry qt (US)}}
@@ -7703,6 +8005,7 @@
     - "liquid quart (US)"
     - "quart"
   unit_symbol:
+    id: "liq qt (US)"
     ascii: "liq qt (US)"
     html: "liq qt (US)"
     latex: \ensuremath{\mathrm{liq qt (US)}}
@@ -7861,6 +8164,7 @@
     - "Gunter's chain"
     - "chain"
   unit_symbol:
+    id: "ch"
     ascii: "ch"
     html: "ch"
     latex: \ensuremath{\mathrm{ch}}
@@ -7926,6 +8230,7 @@
     - "survey mile"
     - "mile"
   unit_symbol:
+    id: "mi"
     ascii: "mi"
     html: "mi"
     latex: \ensuremath{\mathrm{mi}}
@@ -7950,6 +8255,7 @@
     - "yard (based on US survey foot)"
     - "yard"
   unit_symbol:
+    id: "yd"
     ascii: "yd"
     html: "yd"
     latex: \ensuremath{\mathrm{yd}}
@@ -7975,6 +8281,7 @@
     - "survey foot"
     - "foot"
   unit_symbol:
+    id: "ft"
     ascii: "ft"
     html: "ft"
     latex: \ensuremath{\mathrm{ft}}
@@ -7999,6 +8306,7 @@
     - "inch (based on US survey foot)"
     - "inch"
   unit_symbol:
+    id: "in"
     ascii: "in"
     html: "in"
     latex: \ensuremath{\mathrm{in}}
@@ -8063,6 +8371,7 @@
     - "centimeter of water, conventional"
     - "centimeter of water"
   unit_symbol:
+    id: "cmH_2O"
     ascii: "cmH_2O"
     html: cmH<sub>2</sub>O
     latex: \ensuremath{\mathrm{cmH_{2}O}}
@@ -8090,6 +8399,7 @@
     - "inch of water, conventional"
     - "inch of water"
   unit_symbol:
+    id: "inH_2O"
     ascii: "inH_2O"
     html: inH<sub>2</sub>O
     latex: \ensuremath{\mathrm{inH_{2}O}}
@@ -8157,6 +8467,7 @@
     - "foot of water, conventional"
     - "foot of water"
   unit_symbol:
+    id: "ftH_2O"
     ascii: "ftH_2O"
     html: ftH<sub>2</sub>O
     latex: \ensuremath{\mathrm{ftH_{2}O}}
@@ -8202,8 +8513,10 @@
   unit_name:
     - "inch of mercury (32 degF)"
   unit_symbol:
-    ascii:
+    id:
       - "inHg_32degF"
+    ascii:
+      - "inHg"
     html:
       - "inHg"
       - "&#8243;Hg"
@@ -8234,8 +8547,10 @@
   unit_name:
     - "inch of mercury (60 degF)"
   unit_symbol:
-    ascii:
+    id:
       - "inHg_60degF"
+    ascii:
+      - "inHg"
     html:
       - "inHg"
       - "&#8243;Hg"
@@ -8268,6 +8583,8 @@
     - "inch of mercury, conventional"
     - "inch of mercury"
   unit_symbol:
+    id:
+      - "inHg"
     ascii:
       - "inHg"
     html:
@@ -8302,6 +8619,7 @@
     - "foot of mercury, conventional "
     - "foot of mercury"
   unit_symbol:
+    id: "ftHg"
     ascii: "ftHg"
     html:
       - "ftHg"
@@ -8333,6 +8651,7 @@
   unit_name:
     - "therm (US)"
   unit_symbol:
+    id: "thm (US)"
     ascii: "thm (US)"
     html: "thm (US)"
     latex: \ensuremath{\mathrm{thm (US)}}
@@ -8366,6 +8685,7 @@
   unit_name:
     - "pH"
   unit_symbol:
+    id: "pH"
     ascii: "pH"
     html: "pH"
     latex: \ensuremath{\mathrm{pH}}
@@ -8389,6 +8709,7 @@
   unit_name:
     - "degree Fahrenheit"
   unit_symbol:
+    id: "degF"
     ascii: "degF"
     html: "&#176;F"
     latex: \ensuremath{\mathrm{^{\circ}F}}
@@ -8414,6 +8735,7 @@
     - "International Table Btu"
     - "British thermal unit"
   unit_symbol:
+    id: "Btu"
     ascii: "Btu"
     html: "Btu"
     latex: \ensuremath{\mathrm{Btu}}
@@ -8438,6 +8760,7 @@
     - "British thermal unit_th"
     - "thermochemical Btu"
   unit_symbol:
+    id: "Btu_th"
     ascii: "Btu_th"
     html: Btu<sub>th</sub>
     latex: \ensuremath{\mathrm{Btu_{th}}}
@@ -8460,6 +8783,7 @@
   unit_name:
     - "British thermal unit (mean)"
   unit_symbol:
+    id: "Btu"
     ascii: "Btu"
     html: "Btu"
     latex: \ensuremath{\mathrm{Btu}}
@@ -8483,6 +8807,7 @@
   unit_name:
     - "British thermal unit (39 degF)"
   unit_symbol:
+    id: "Btu"
     ascii: "Btu"
     html: "Btu"
     latex: \ensuremath{\mathrm{Btu}}
@@ -8506,6 +8831,7 @@
   unit_name:
     - "British thermal unit (59 degF)"
   unit_symbol:
+    id: "Btu"
     ascii: "Btu"
     html: "Btu"
     latex: \ensuremath{\mathrm{Btu}}
@@ -8529,6 +8855,7 @@
   unit_name:
     - "British thermal unit (60 degF)"
   unit_symbol:
+    id: "Btu"
     ascii: "Btu"
     html: "Btu"
     latex: \ensuremath{\mathrm{Btu}}
@@ -8747,6 +9074,7 @@
     - "pound-mole"
     - "pound mole"
   unit_symbol:
+    id: "lbmol"
     ascii: "lbmol"
     html: "lbmol"
     latex: \ensuremath{\mathrm{lbmol}}
@@ -8772,7 +9100,8 @@
     - "ton of refrigeration"
     - "ton"
   unit_symbol:
-    ascii: "ton_refrigeration"
+    id: "ton_refrigeration"
+    ascii: "ton"
     html: "ton"
     latex: \ensuremath{\mathrm{ton}}
     unicode: "ton"
@@ -8795,6 +9124,7 @@
   unit_name:
     - "bit"
   unit_symbol:
+    id: "bit"
     ascii: "bit"
     html: "bit"
     latex: \ensuremath{\mathrm{bit}}
@@ -8836,6 +9166,7 @@
   unit_name:
     - "peck"
   unit_symbol:
+    id: "pk"
     ascii: "pk"
     html: "pk"
     latex: \ensuremath{\mathrm{pk}}
@@ -8859,6 +9190,7 @@
   unit_name:
     - "minim"
   unit_symbol:
+    id: "min"
     ascii: "min"
     html: "min"
     latex: \ensuremath{\mathrm{min}}
@@ -8922,6 +9254,7 @@
     - "gill (US)"
     - "gill"
   unit_symbol:
+    id: "gi"
     ascii: "gi"
     html: "gi"
     latex: \ensuremath{\mathrm{gi}}
@@ -8947,6 +9280,7 @@
     - "imperial gill"
     - "gill"
   unit_symbol:
+    id: "gi"
     ascii: "gi"
     html: "gi"
     latex: \ensuremath{\mathrm{gi}}
@@ -8970,6 +9304,7 @@
   unit_name:
     - "centistokes"
   unit_symbol:
+    id: "cSt"
     ascii: "cSt"
     html: "cSt"
     latex: \ensuremath{\mathrm{cSt}}
@@ -9016,6 +9351,7 @@
   unit_name:
     - "cubic foot per minute"
   unit_symbol:
+    id: "ft^3*min^-1"
     ascii: "ft^3*min^-1"
     html: ft<sup>3</sup>/min
     latex: \ensuremath{\mathrm{ft^3/min}}
@@ -9042,6 +9378,7 @@
   unit_name:
     - "cubic foot per second"
   unit_symbol:
+    id: "ft^3*sec^-1"
     ascii: "ft^3*sec^-1"
     html: ft<sup>3</sup>/sec
     latex: \ensuremath{\mathrm{ft^3/sec}}
@@ -9068,6 +9405,7 @@
   unit_name:
     - "cubic inch per minute"
   unit_symbol:
+    id: "in^3*min^-1"
     ascii: "in^3*min^-1"
     html: in<sup>3</sup>/min
     latex: \ensuremath{\mathrm{in^3/min}}
@@ -9113,6 +9451,7 @@
   unit_name:
     - "millibar"
   unit_symbol:
+    id: "mbar"
     ascii: "mbar"
     html: "mbar"
     latex: \ensuremath{\mathrm{mbar}}
@@ -9140,6 +9479,9 @@
     - "mile per gallon (US)"
     - "mile per gallon"
   unit_symbol:
+    id:
+      - "mpg"
+      - "mi/gal"
     ascii:
       - "mpg"
       - "mi/gal"
@@ -9175,6 +9517,9 @@
     - "gallon (US) per minute"
     - "gallon per minute"
   unit_symbol:
+    id:
+      - "gpm"
+      - "gal*min^-1"
     ascii:
       - "gpm"
       - "gal*min^-1"
@@ -9209,6 +9554,9 @@
   unit_name:
     - "milliliter"
   unit_symbol:
+    id:
+      - "mL"
+      - "ml"
     ascii:
       - "mL"
       - "ml"
@@ -9241,6 +9589,9 @@
   unit_name:
     - "mole per liter"
   unit_symbol:
+    id:
+      - "mol*l^-1"
+      - "mol*L^-1"
     ascii:
       - "mol*l^-1"
       - "mol*L^-1"
@@ -9275,6 +9626,7 @@
   unit_name:
     - "mole per kilogram"
   unit_symbol:
+    id: "mol*kg^-1"
     ascii: "mol*kg^-1"
     html: "mol/kg"
     latex: \ensuremath{\mathrm{mol/kg}}
@@ -9302,6 +9654,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9320,6 +9673,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9338,6 +9692,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9356,6 +9711,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9374,6 +9730,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9392,6 +9749,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9410,6 +9768,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
@@ -9425,6 +9784,7 @@
   unit_name:
     - "one"
   unit_symbol:
+    id: "1"
     ascii: "1"
     html: "1"
     latex: \ensuremath{\mathrm{1}}
