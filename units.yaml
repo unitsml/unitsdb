@@ -535,8 +535,7 @@
     - "square meter"
   unit_symbol:
     ascii: "m^2"
-    html: |
-      m <sup>2</sup>
+    html: m<sup>2</sup>
     latex: \ensuremath{\mathrm{m^2}}
     unicode: "m&#178;"
   root_units:
@@ -805,8 +804,7 @@
     - "cubic meter"
   unit_symbol:
     ascii: "m^3"
-    html: |
-      m <sup>3</sup>
+    html: m<sup>3</sup>
     latex: \ensuremath{\mathrm{m^3}}
     unicode: "m&#179;"
   root_units:
@@ -978,8 +976,7 @@
     - "square foot"
   unit_symbol:
     ascii: "ft^2"
-    html: |
-      ft <sup>2</sup>
+    html: ft<sup>2</sup>
     latex: \ensuremath{\mathrm{ft^2}}
     unicode: "ft&#178;"
   root_units:
@@ -1000,8 +997,7 @@
     - "square inch"
   unit_symbol:
     ascii: "in^2"
-    html: |
-      in <sup>2</sup>
+    html: in<sup>2</sup>
     latex: \ensuremath{\mathrm{in^2}}
     unicode: "in&#178;"
   root_units:
@@ -1111,8 +1107,7 @@
     - "abmho"
   unit_symbol:
     ascii: "abS"
-    html: |
-      (ab&#937;) <sup>-1</sup>
+    html: (ab&#937;) <sup>-1</sup>
     latex: \ensuremath{\mathrm{(ab\Omega)^{-1}}
     unicode: "(ab&#937;)&#8315;&#185;"
   root_units:
@@ -1179,8 +1174,7 @@
     - "ampere hour"
   unit_symbol:
     ascii: "A*h"
-    html: |
-        <span style="white-space:nowrap;">A&#8201;&#183;&#8201;h</span>
+    html: A&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{A\cdot h}}
     unicode: "A&#183;h"
   root_units:
@@ -1279,8 +1273,7 @@
     - "kilowatt hour"
   unit_symbol:
     ascii: "kW*h"
-    html: |
-        <span style="white-space:nowrap;">kW&#8201;&#183;&#8201;h</span>
+    html: kW&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{kW\cdot h}}
     unicode: "kW&#183;h"
   root_units:
@@ -1317,8 +1310,7 @@
     - "calorie"
   unit_symbol:
     ascii: "cal_IT"
-    html: |
-      cal <sub>IT</sub>
+    html: cal<sub>IT</sub>
     latex: \ensuremath{\mathrm{cal_{IT}}}
   root_units:
     enumerated_root_units:
@@ -1364,8 +1356,7 @@
     - "kilocalorie_IT"
   unit_symbol:
     ascii: "kcal_IT"
-    html: |
-      kcal <sub>IT</sub>
+    html: kcal<sub>IT</sub>
     latex: \ensuremath{\mathrm{kcal_{IT}}}
   root_units:
     enumerated_root_units:
@@ -1395,8 +1386,7 @@
     - "kilocalorie_th"
   unit_symbol:
     ascii: "kcal_th"
-    html: |
-      kcal <sub>th</sub>
+    html: kcal<sub>th</sub>
     latex: \ensuremath{\mathrm{kcal_{th}}}
   root_units:
     enumerated_root_units:
@@ -1426,8 +1416,7 @@
     - "watt hour"
   unit_symbol:
     ascii: "W*h"
-    html: |
-        <span style="white-space:nowrap;">W&#8201;&#183;&#8201;h</span>
+    html: W&#8201;&#183;&#8201;h
     latex: \ensuremath{\mathrm{W\cdot h}}
     unicode: "W&#183;h"
   root_units:
@@ -1461,8 +1450,7 @@
     - "watt second"
   unit_symbol:
     ascii: "W*s"
-    html: |
-        <span style="white-space:nowrap;">W&#8201;&#183;&#8201;s</span>
+    html: W&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{W\cdot s}}
     unicode: "W&#183;s"
   root_units:
@@ -1560,8 +1548,7 @@
     - "kilocalorie_th per second"
   unit_symbol:
     ascii: "kcal_th*s^-1"
-    html: |
-      kcal <sub>th</sub>/s
+    html: kcal<sub>th</sub>/s
     latex: \ensuremath{\mathrm{kcal_{th}}}
   root_units:
     enumerated_root_units:
@@ -1587,8 +1574,7 @@
     - "calorie_th per second"
   unit_symbol:
     ascii: "cal_th*s^-1"
-    html: |
-      cal <sub>th</sub>/s
+    html: cal<sub>th</sub>/s
     latex: \ensuremath{\mathrm{cal_{th}}}
   root_units:
     enumerated_root_units:
@@ -1798,8 +1784,7 @@
     - "dyne per square centimeter"
   unit_symbol:
     ascii: "dyn*cm^-2"
-    html: |
-      dyn/cm <sup>2</sup>
+    html: dyn/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{dyn/cm^2}}
     unicode: "dyn&#183;cm&#8315;&#178;"
   root_units:
@@ -1826,8 +1811,7 @@
     - "gram-force per square centimeter"
   unit_symbol:
     ascii: "gf*cm^-2"
-    html: |
-      gf/cm <sup>2</sup>
+    html: gf/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{gf/cm^2}}
     unicode: "gf&#183;cm&#8315;&#178;"
   root_units:
@@ -1854,8 +1838,7 @@
     - "kilogram-force per square centimeter"
   unit_symbol:
     ascii: "kgf*cm^-2"
-    html: |
-      kgf/cm <sup>2</sup>
+    html: kgf/cm<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/cm^2}}
     unicode: "kgf&#183;cm&#8315;&#178;"
   root_units:
@@ -1883,8 +1866,7 @@
     - "kilogram-force per square meter"
   unit_symbol:
     ascii: "kgf*m^-2"
-    html: |
-      kgf/m <sup>2</sup>
+    html: kgf/m<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/m^2}}
     unicode: "kgf&#183;m&#8315;&#178;"
   root_units:
@@ -1911,8 +1893,7 @@
     - "kilogram-force per square millimeter"
   unit_symbol:
     ascii: "kgf*mm^-2"
-    html: |
-      kgf/mm <sup>2</sup>
+    html: kgf/mm<sup>2</sup>
     latex: \ensuremath{\mathrm{kgf/mm^2}}
     unicode: "kgf&#183;mm&#8315;&#178;"
   root_units:
@@ -2212,8 +2193,7 @@
     - "meter per second squared"
   unit_symbol:
     ascii: "m*s^-2"
-    html: |
-      m/s <sup>2</sup>
+    html: m/s<sup>2</sup>
     latex: \ensuremath{\mathrm{m/s^2}}
     unicode: "m&#183;s&#8315;&#178;"
   root_units:
@@ -2240,8 +2220,7 @@
     - "reciprocal meter"
   unit_symbol:
     ascii: "m^-1"
-    html: |
-      m <sup>-1</sup>
+    html: m<sup>-1</sup>
     latex: \ensuremath{\mathrm{m^{-1}}}
     unicode: "m&#8315;&#185;"
   root_units:
@@ -2272,8 +2251,7 @@
     - "kilogram per cubic meter"
   unit_symbol:
     ascii: "kg*m^-3"
-    html: |
-      kg/m <sup>3</sup>
+    html: kg/m<sup>3</sup>
     latex: \ensuremath{\mathrm{kg/m^3}}
     unicode: "kg&#183;m&#8315;&#179;"
   root_units:
@@ -2300,8 +2278,7 @@
     - "cubic meter per kilogram"
   unit_symbol:
     ascii: "m^3*kg"
-    html: |
-      m <sup>3</sup>/kg
+    html: m<sup>3</sup>/kg
     latex: \ensuremath{\mathrm{m^3/kg}}
     unicode: "m&#179;&#183;kg"
   root_units:
@@ -2326,8 +2303,7 @@
     - "ampere per square meter"
   unit_symbol:
     ascii: "A*m^-2"
-    html: |
-      A/m <sup>2</sup>
+    html: A/m<sup>2</sup>
     latex: \ensuremath{\mathrm{A/m^2}}
     unicode: "A&#183;m&#8315;&#178;"
   root_units:
@@ -2375,8 +2351,7 @@
     - "mole per cubic meter"
   unit_symbol:
     ascii: "mol*m^-3"
-    html: |
-      mol/m <sup>3</sup>
+    html: mol/m<sup>3</sup>
     latex: \ensuremath{\mathrm{mol/m^3}}
     unicode: "mol&#183;m&#8315;&#179;"
   root_units:
@@ -2400,8 +2375,7 @@
     - "candela per square meter"
   unit_symbol:
     ascii: "cd*m^-2"
-    html: |
-      cd/m <sup>2</sup>
+    html: cd/m<sup>2</sup>
     latex: \ensuremath{\mathrm{cd/m^2}}
     unicode: "cd&#183;m&#8315;&#178;"
   root_units:
@@ -2622,9 +2596,7 @@
     - "kilogram-force second squared per meter"
   unit_symbol:
     ascii: "kgf*s^2/m"
-    html: |
-        <span style="white-space:nowrap;">kgf&#8201;&#183;&#8201;s
-            <sup>2</sup>/m</span>
+    html: kgf&#8201;&#183;&#8201;s&nbsp;<sup>2</sup>/m
     latex: \ensuremath{\mathrm{kgf\cdot s^2/m}}
     unicode: "kgf&#183;s&#178;m&#8315;&#185;"
   root_units:
@@ -2652,8 +2624,7 @@
     - "kilogram-force meter"
   unit_symbol:
     ascii: "kgf*m"
-    html: |
-        <span style="white-space:nowrap;">kgf&#8201;&#183;&#8201;m</span>
+    html: kgf&#8201;&#183;&#8201;m
     latex: \ensuremath{\mathrm{kgf\cdot m}}
     unicode: "kgf&#183;m"
   root_units:
@@ -2890,8 +2861,7 @@
     - "kilogram per square meter"
   unit_symbol:
     ascii: "kg*m^-2"
-    html: |
-      kg/m <sup>2</sup>
+    html: kg/m<sup>2</sup>
     latex: \ensuremath{\mathrm{kg/m^2}}
   root_units:
     enumerated_root_units:
@@ -2915,8 +2885,7 @@
     - "watt per square meter"
   unit_symbol:
     ascii: "W*m^-2"
-    html: |
-      W/m <sup>2</sup>
+    html: W/m<sup>2</sup>
     latex: \ensuremath{\mathrm{W/m^2}}
     unicode: "W/m&#178;"
   root_units:
@@ -2968,8 +2937,7 @@
     - "joule per kilogram kelvin"
   unit_symbol:
     ascii: "J*kg^-1*K^-1"
-    html: |
-        <span style="white-space:nowrap;">J/(kg&#8201;&#183;&#8201;K)</span>
+    html: J/(kg&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{J/(kg\cdot K)}}
     unicode: "J/(kg&#183;K)"
   root_units:
@@ -2999,8 +2967,7 @@
     - "pascal second"
   unit_symbol:
     ascii: "Pa*s"
-    html: |
-        <span style="white-space:nowrap;">Pa&#8201;&#183;&#8201;s</span>
+    html: Pa&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{Pa\cdot s}}
     unicode: "Pa&#183;s"
   root_units:
@@ -3024,8 +2991,7 @@
     - "newton meter"
   unit_symbol:
     ascii: "N*m"
-    html: |
-        <span style="white-space:nowrap;">N&#8201;&#183;&#8201;m</span>
+    html: N&#8201;&#183;&#8201;m
     latex: \ensuremath{\mathrm{N\cdot m}}
     unicode: "N&#183;m"
   root_units:
@@ -3102,8 +3068,7 @@
     - "watt per meter kelvin"
   unit_symbol:
     ascii: "W*m^-1*K^-1"
-    html: |
-        <span style="white-space:nowrap;">W/(m&#8201;&#183;&#8201;K)</span>
+    html: W/(m&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{W/(m\cdot K)}}
     unicode: "W/(m&#183;K)"
   root_units:
@@ -3131,8 +3096,7 @@
     - "joule per cubic meter"
   unit_symbol:
     ascii: "J*m^-3"
-    html: |
-      J/m <sup>3</sup>
+    html: J/m<sup>3</sup>
     latex: \ensuremath{\mathrm{J/m^3}}
     unicode: "J/m&#179;"
   root_units:
@@ -3180,8 +3144,7 @@
     - "coulomb per cubic meter"
   unit_symbol:
     ascii: "C*m^-3"
-    html: |
-      C/m <sup>3</sup>
+    html: C/m<sup>3</sup>
     latex: \ensuremath{\mathrm{C/m^3}}
     unicode: "C/m&#179;"
   root_units:
@@ -3205,8 +3168,7 @@
     - "coulomb per square meter"
   unit_symbol:
     ascii: "C*m^-2"
-    html: |
-      C/m <sup>2</sup>
+    html: C/m<sup>2</sup>
     latex: \ensuremath{\mathrm{C/m^2}}
     unicode: "C/m&#178;"
   root_units:
@@ -3304,8 +3266,7 @@
     - "joule per mole kelvin"
   unit_symbol:
     ascii: "J*mol^-1*K^-1"
-    html: |
-        <span style="white-space:nowrap;">J/(mol&#8201;&#183;&#8201;K)</span>
+    html: J/(mol&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{J/(mol\cdot K)}}
     unicode: "J/(mol&#183;K)"
   root_units:
@@ -3384,8 +3345,7 @@
     - "katal per cubic meter"
   unit_symbol:
     ascii: "kat*m^-3"
-    html: |
-      kat/m <sup>3</sup>
+    html: kat/m<sup>3</sup>
     latex: \ensuremath{\mathrm{kat/m^3}}
     unicode: "kat/m&#179;"
   root_units:
@@ -3496,8 +3456,7 @@
     - "watt per square meter steradian"
   unit_symbol:
     ascii: "W*m^-2*sr^-1"
-    html: |
-        <span style="white-space:nowrap;">W/(m^2&#8201;&#183;&#8201;sr)</span>
+    html: W/(m^2&#8201;&#183;&#8201;sr)
     latex: \ensuremath{\mathrm{W/(m^2\cdot sr)}}
     unicode: "W/(m&#178;&#183;sr)"
   root_units:
@@ -3614,8 +3573,7 @@
     - "radian per second squared"
   unit_symbol:
     ascii: "rad*s^-2"
-    html: |
-      rad/s <sup>2</sup>
+    html: rad/s<sup>2</sup>
     latex: \ensuremath{\mathrm{rad/s^2}}
     unicode: "rad/s&#178;"
   root_units:
@@ -3837,8 +3795,7 @@
     - "second to the power minus one"
   unit_symbol:
     ascii: "s^-1"
-    html: |
-      s <sup>-1</sup>
+    html: s<sup>-1</sup>
     latex: \ensuremath{\mathrm{s^{-1}}}
     unicode: "s&#8315;&#185;"
   root_units:
@@ -3911,8 +3868,7 @@
     - "square yard"
   unit_symbol:
     ascii: "yd^2"
-    html: |
-      yd <sup>2</sup>
+    html: yd<sup>2</sup>
     latex: \ensuremath{\mathrm{yd^2}}
     unicode: "yd&#178;"
   root_units:
@@ -3977,8 +3933,7 @@
     - "foot per second squared"
   unit_symbol:
     ascii: "ft*s^-2"
-    html: |
-      ft/s <sup>2</sup>
+    html: ft/s<sup>2</sup>
     latex: \ensuremath{\mathrm{ft/s^2}}
     unicode: "ft/s&#178;"
   root_units:
@@ -4002,8 +3957,7 @@
     - "cubic inch"
   unit_symbol:
     ascii: "in^3"
-    html: |
-      in <sup>3</sup>
+    html: in<sup>3</sup>
     latex: \ensuremath{\mathrm{in^3}}
     unicode: "in&#179;"
   root_units:
@@ -4024,8 +3978,7 @@
     - "cubic foot"
   unit_symbol:
     ascii: "ft^3"
-    html: |
-      ft <sup>3</sup>
+    html: ft<sup>3</sup>
     latex: \ensuremath{\mathrm{ft^3}}
     unicode: "ft&#179;"
   root_units:
@@ -4046,8 +3999,7 @@
     - "cubic yard"
   unit_symbol:
     ascii: "yd^3"
-    html: |
-      yd <sup>3</sup>
+    html: yd<sup>3</sup>
     latex: \ensuremath{\mathrm{yd^3}}
     unicode: "yd&#179;"
   root_units:
@@ -4364,8 +4316,7 @@
     - "meter to the power four"
   unit_symbol:
     ascii: "m^4"
-    html: |
-      m <sup>4</sup>
+    html: m<sup>4</sup>
     latex: \ensuremath{\mathrm{m^4}}
     unicode: "m&#8308;"
   root_units:
@@ -4465,8 +4416,7 @@
     - "metric ton per cubic meter"
   unit_symbol:
     ascii: "t*m^-3"
-    html: |
-      t/m <sup>3</sup>
+    html: t/m<sup>3</sup>
     latex: \ensuremath{\mathrm{t/m^3}}
     unicode: "t/m&#179;"
   root_units:
@@ -4490,8 +4440,7 @@
     - "newton second"
   unit_symbol:
     ascii: "N*s"
-    html: |
-        <span style="white-space:nowrap;">N&#8201;&#183;&#8201;s</span>
+    html: N&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{N\cdot s}}
     unicode: "N&#183;s"
   root_units:
@@ -4515,8 +4464,7 @@
     - "newton meter squared per kilogram squared"
   unit_symbol:
     ascii: "N*m^2*kg^-2"
-    html: |
-        <span style="white-space:nowrap;">N&#8201;&#183;&#8201;m <sup>2</sup>/kg <sup>2</sup></span>
+    html: N&#8201;&#183;&#8201;m&nbsp;<sup>2</sup>/kg&nbsp;<sup>2</sup>
     latex: \ensuremath{\mathrm{N\cdot m^2/kg^2}}
     unicode: "N&#183;m&#178;/kg&#178;"
   root_units:
@@ -4544,8 +4492,7 @@
     - "kilogram meter per second"
   unit_symbol:
     ascii: "kg*m*s^-1"
-    html: |
-        <span style="white-space:nowrap;">kg&#8201;&#183;&#8201;m/s</span>
+    html: kg&#8201;&#183;&#8201;m/s
     latex: \ensuremath{\mathrm{kg\cdot m/s}}
     unicode: "N&#183;m/s"
   root_units:
@@ -4573,8 +4520,7 @@
     - "kilogram meter squared per second"
   unit_symbol:
     ascii: "kg*m^2*s^-1"
-    html: |
-        <span style="white-space:nowrap;">kg&#8201;&#183;&#8201;m^2/s</span>
+    html: kg&#8201;&#183;&#8201;m^2/s
     latex: \ensuremath{\mathrm{kg\cdot m^2/s}}
     unicode: "kg&#183;m&#178;/s"
   root_units:
@@ -4604,8 +4550,7 @@
     - "newton meter second"
   unit_symbol:
     ascii: "N*m*s"
-    html: |
-      <span style="white-space:nowrap;">N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s</span>
+    html: N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{N\cdot m\cdot s}}
     unicode: "N&#183;m&#183;s"
   root_units:
@@ -4632,7 +4577,7 @@
     - "pascal to the power minus one"
   unit_symbol:
     ascii: "Pa^-1"
-    html: Pa <sup>-1</sup>
+    html: Pa<sup>-1</sup>
     latex: \ensuremath{\mathrm{Pa^{-1}}}
     unicode: "Pa&#8315;&#185;"
   root_units:
@@ -4655,8 +4600,7 @@
     - "meter squared per second"
   unit_symbol:
     ascii: "m^2*s^-1"
-    html: |
-      m <sup>2</sup>/s
+    html: m<sup>2</sup>/s
     latex: \ensuremath{\mathrm{m^2/s}}
     unicode: "m&#178;/s"
   root_units:
@@ -4705,8 +4649,7 @@
     - "cubic meter per second"
   unit_symbol:
     ascii: "m^3*s^-1"
-    html: |
-      m <sup>3</sup>/s
+    html: m<sup>3</sup>/s
     latex: \ensuremath{\mathrm{m^3/s}}
     unicode: "m&#179;/s"
   root_units:
@@ -4730,8 +4673,7 @@
     - "joule second"
   unit_symbol:
     ascii: "J*s"
-    html: |
-        <span style="white-space:nowrap;">J&#8201;&#183;&#8201;s</span>
+    html: J&#8201;&#183;&#8201;s
     latex: \ensuremath{\mathrm{J\cdot s}}
     unicode: "J&#183;s"
   root_units:
@@ -4823,8 +4765,7 @@
     - "pound per cubic foot"
   unit_symbol:
     ascii: "lb*ft^-3"
-    html: |
-      lb/ft <sup>3</sup>
+    html: lb/ft<sup>3</sup>
     latex: \ensuremath{\mathrm{lb/ft^3}}
     unicode: "lb/ft&#179;"
   root_units:
@@ -4871,8 +4812,7 @@
     - "foot pound-force"
   unit_symbol:
     ascii: "ft*lbf"
-    html: |
-        <span style="white-space:nowrap;">ft&#8201;&#183;&#8201;lbf</span>
+    html: ft&#8201;&#183;&#8201;lbf
     latex: \ensuremath{\mathrm{ft\cdot lbf}}
     unicode: "ft&#183;lbf"
   root_units:
@@ -4914,7 +4854,7 @@
       - "psi"
     html:
       - |
-        lbf/in <sup>2</sup>
+        lbf/in<sup>2</sup>
       - "psi"
     latex:
       - '\ensuremath{\mathrm{lbf/in^2}}'
@@ -4943,8 +4883,7 @@
     - "inch to the fourth power"
   unit_symbol:
     ascii: "in^4"
-    html: |
-      in <sup>4</sup>
+    html: in<sup>4</sup>
     latex: \ensuremath{\mathrm{in^4}}
     unicode: "in&#8308;"
   root_units:
@@ -4966,9 +4905,8 @@
   unit_name:
     - "inch cubed"
   unit_symbol:
-    ascii: "in_sectmod^3"
-    html: |
-      in <sup>3</sup>
+    ascii: "in^3"
+    html: in<sup>3</sup>
     latex: \ensuremath{\mathrm{in^3}}
     unicode: "in&#179;"
   root_units:
@@ -4989,8 +4927,7 @@
     - "foot squared per second"
   unit_symbol:
     ascii: "ft^2*s^-1"
-    html: |
-      ft <sup>2</sup>/s
+    html: ft<sup>2</sup>/s
     latex: \ensuremath{\mathrm{ft^2/s}}
     unicode: "ft&#178;/s"
   root_units:
@@ -5014,8 +4951,7 @@
     - "foot pound-force per second"
   unit_symbol:
     ascii: "ft*lbf*s^-1"
-    html: |
-        <span style="white-space:nowrap;">ft&#8201;&#183;&#8201;lbf/s</span>
+    html: ft&#8201;&#183;&#8201;lbf/s
     latex: \ensuremath{\mathrm{ft\cdot lbf/s}}
     unicode: "ft&#183;lbf/2"
   root_units:
@@ -5117,8 +5053,7 @@
     - "millimeter of water"
   unit_symbol:
     ascii: "mmH_2O"
-    html: |
-      mmH <sub>2</sub>O
+    html: mmH<sub>2</sub>O
     latex: \ensuremath{\mathrm{mmH_{2}O}}
     unicode: "mmH&#8322;O"
   root_units:
@@ -5164,8 +5099,7 @@
     - "kilogram-force meter per second"
   unit_symbol:
     ascii: "kgf*m*s^-1"
-    html: |
-        <span style="white-space:nowrap;">kgf&#8201;&#183;&#8201;m/s</span>
+    html: kgf&#8201;&#183;&#8201;m/s
     latex: \ensuremath{\mathrm{kgf\cdot m/s}}
     unicode: "kgf&#183;m/s"
   root_units:
@@ -5215,8 +5149,7 @@
     - "kelvin to the power minus one"
   unit_symbol:
     ascii: "K^-1"
-    html: |
-      K <sup>-1</sup>
+    html: K<sup>-1</sup>
     latex: \ensuremath{\mathrm{K^{-1}}}
     unicode: "K&#8315;&#185;"
   root_units:
@@ -5265,12 +5198,9 @@
     - "watt per square meter kelvin"
   unit_symbol:
     ascii: "W*m^-2*K^-1"
-    html: |
-      <span style="white-space:nowrap;">W/(m
-        <sup>2</sup>&#8201;&#183;&#8201;K)</span>
+    html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
     latex: \ensuremath{\mathrm{W/(m^2\cdot K)}}
-    unicode: |
-      m <sup>2</sup>&#183;K)
+    unicode: m<sup>2</sup>&#183;K)
   root_units:
     enumerated_root_units:
       - unit: "watt"
@@ -5405,8 +5335,7 @@
     - "calorie"
   unit_symbol:
     ascii: "cal_th"
-    html: |
-      cal <sub>th</sub>
+    html: cal<sub>th</sub>
     latex: \ensuremath{\mathrm{cal_th}}
   root_units:
     enumerated_root_units:
@@ -5753,11 +5682,8 @@
       - "c_0"
       - "c"
     html:
-      - |
-        <i>c</i>
-        <sub>0</sub>
-      - |
-        <i>c</i>
+      - | <i>c</i> <sub>0</sub>
+      - | <i>c</i>
     latex: \ensuremath{\mathit{c}}
   root_units:
     enumerated_root_units:
@@ -5777,9 +5703,7 @@
     - "natural unit of action"
   unit_symbol:
     ascii: "h-bar"
-    html: |
-
-      <i>&#295;</i>
+    html: <i>&#295;</i>
     latex: \ensuremath{\mathit{\hbar}}
   root_units:
     enumerated_root_units:
@@ -5799,9 +5723,7 @@
     - "natural unit of mass"
   unit_symbol:
     ascii: "m_e"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
+    html: <i>m</i><sub>e</sub>
     latex: \ensuremath{\mathit{m}_\mathrm{e}}
   root_units:
     enumerated_root_units:
@@ -5821,13 +5743,8 @@
     - "natural unit of time"
   unit_symbol:
     ascii: "h-bar*(m_e*c^2)"
-    html: |
-      <i>&#295;</i>/ <i>m</i>
-      <sub>e</sub>c <sup>2</sup>
-
-    latex: |
-      \ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
-
+    html: <i>&#295;</i>/ <i>m</i><sub>e</sub>c<sup>2</sup>
+    latex: \ensuremath{\mathit{\hbar}/(\mathit{m}_\mathrm{e}\mathit{c}^\mathrm{2}}
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_time"
@@ -5846,9 +5763,7 @@
     - "atomic unit of charge"
   unit_symbol:
     ascii: "e"
-    html: |
-
-      <i>e</i>
+    html: <i>e</i>
     latex: \ensuremath{\mathit{e}}
   root_units:
     enumerated_root_units:
@@ -5868,9 +5783,7 @@
     - "atomic unit of mass"
   unit_symbol:
     ascii: "m_e"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
+    html: <i>m</i><sub>e</sub>
     latex: \ensuremath{\mathit{m}_\mathrm{e}}
   root_units:
     enumerated_root_units:
@@ -5890,9 +5803,7 @@
     - "atomic unit of action"
   unit_symbol:
     ascii: "h-bar"
-    html: |
-
-      <i>&#295;</i>
+    html: <i>&#295;</i>
     latex: \ensuremath{\mathit{\hbar}}
   root_units:
     enumerated_root_units:
@@ -5912,9 +5823,7 @@
     - "atomic unit of length"
   unit_symbol:
     ascii: "a_0"
-    html: |
-        <i>a</i>
-        <sub>0</sub>
+    html: <i>a</i> <sub>0</sub>
     latex: \ensuremath{\mathit{a}_\mathrm{0}}
   root_units:
     enumerated_root_units:
@@ -5934,8 +5843,7 @@
     - "atomic unit of energy"
   unit_symbol:
     ascii: "e_h"
-    html: |
-        <i>E</i>h
+    html: <i>E</i>h
     latex: \ensuremath{\mathit{E}_\mathrm{h}}
   root_units:
     enumerated_root_units:
@@ -5955,9 +5863,7 @@
     - "atomic unit of time"
   unit_symbol:
     ascii: "h-bar*(E_h)-1"
-    html: |
-        <i>&#295;</i>/ <i>E</i>
-        <sub>h</sub>
+    html: <i>&#295;</i>/ <i>E</i> <sub>h</sub>
     latex: \ensuremath{\mathit{\hbar}/\mathit{E}_\mathrm{h}}
   root_units:
     enumerated_root_units:
@@ -6015,9 +5921,7 @@
     - "atomic unit of magnetic dipole moment"
   unit_symbol:
     ascii: "h-bar*e*(m_e)-1"
-    html: |
-        <i>&#295;e</i>/ <i>m</i>
-        <sub>e</sub>
+    html: <i>&#295;e</i>/ <i>m</i> <sub>e</sub>
     latex: \ensuremath{\mathit{\hbar e}/\mathit{m}_\mathrm{e}}
   root_units:
     enumerated_root_units:
@@ -6037,9 +5941,7 @@
     - "atomic unit of momentum"
   unit_symbol:
     ascii: "h-bar*(a_0)-1"
-    html: |
-        <i>&#295;</i>/ <i>a</i>
-        <sub>0</sub>
+    html: <i>&#295;</i>/ <i>a</i> <sub>0</sub>
     latex: \ensuremath{\mathit{\hbar}/\mathit{a}_0}
   root_units:
     enumerated_root_units:
@@ -6077,9 +5979,7 @@
     - "atomic unit of current"
   unit_symbol:
     ascii: "eE_h*h-bar^-1"
-    html: |
-      <i>eE</i>
-      <sub>h</sub>/&#295;
+    html: <i>eE</i> <sub>h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_current"
@@ -6098,10 +5998,7 @@
     - "atomic unit of electric dipole moment"
   unit_symbol:
     ascii: "e*a_0"
-    html: |
-        <i>ea</i>
-        <sub>0</sub>
-
+    html: <i>ea</i> <sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_dipole_moment"
@@ -6120,11 +6017,7 @@
     - "atomic unit of electric field"
   unit_symbol:
     ascii: "E_h*(e*a_0)"
-    html: |
-        <i>E</i>
-        <sub>h</sub>/ <i>ea</i>
-        <sub>0</sub>
-
+    html: <i>E</i> <sub>h</sub>/ <i>ea</i> <sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_field"
@@ -6144,8 +6037,10 @@
   unit_symbol:
     ascii: "E_h*(e*a_0^2)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_field_gradient"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_field_gradient"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "electric field gradient"
       url: "#NISTq165"
@@ -6159,9 +6054,7 @@
     - "atomic unit of electric potential"
   unit_symbol:
     ascii: "E_h*e-1"
-    html: |
-        <i>E</i>
-        <sub>h</sub>/ <i>e</i>
+    html: <i>E</i> <sub>h</sub>/ <i>e</i>
 
   root_units:
     enumerated_root_units:
@@ -6185,10 +6078,7 @@
     - "atomic unit of force"
   unit_symbol:
     ascii: "e_h*(a_0)-1"
-    html: |
-        <i>E</i>
-        <sub>h</sub>/ <i>a</i>
-        <sub>0</sub>
+    html: <i>E</i> <sub>h</sub>/ <i>a</i> <sub>0</sub>
 
   root_units:
     enumerated_root_units:
@@ -6211,8 +6101,10 @@
   unit_symbol:
     ascii: "e*a_0^2"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_quadrupole_moment"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_quadrupole_moment"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "electric quadrupole moment"
       url: "#NISTq167"
@@ -6227,8 +6119,10 @@
   unit_symbol:
     ascii: "e^2*a_0^2*(E_h)-1"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_electric_polarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_electric_polarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "polarizability"
       url: "#NISTq168"
@@ -6781,8 +6675,10 @@
   unit_symbol:
     ascii: "e_3a_0^3*(E_h^3)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_1st_hyperpolarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_1st_hyperpolarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "1st hyperpolarizability"
       url: "#NISTq172"
@@ -6797,8 +6693,10 @@
   unit_symbol:
     ascii: "e_4a_0^4*(E_h^3)"
   root_units:
-        <EnumeratedRootUnit powerDenominator="1" powerNumerator="1"
-          unit="atomic_unit_of_2nd_hyperpolarizability"/>
+    enumerated_root_units:
+      - unit: "atomic_unit_of_2nd_hyperpolarizability"
+        power_denominator: 1
+        power_numerator: 1
   quantity_reference:
     - name: "2nd hyperpolarizability"
       url: "#NISTq173"
@@ -6812,12 +6710,7 @@
     - "atomic unit of permittivity"
   unit_symbol:
     ascii: "e^2*(a_0*E_h)-1"
-    html: |
-        <i>e</i>
-        <sup>2</sup>/ <i>a</i>
-        <sub>0</sub>
-        <i>E</i>
-        <sub>h</sub>
+    html: <i>e</i> <sup>2</sup>/ <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>
 
   root_units:
     enumerated_root_units:
@@ -6837,11 +6730,7 @@
     - "atomic unit of velocity"
   unit_symbol:
     ascii: "a_0*E_h*h-bar-1"
-    html: |
-        <i>a</i>
-        <sub>0</sub>
-        <i>E</i>
-        <sub>h</sub>/&#295;
+    html: <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_velocity"
@@ -6860,11 +6749,7 @@
     - "natural unit of energy"
   unit_symbol:
     ascii: "m_e*c^2"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
-        <i>c</i>
-        <sup>2</sup>
+    html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
 
   root_units:
     enumerated_root_units:
@@ -6884,10 +6769,7 @@
     - "natural unit of momentum"
   unit_symbol:
     ascii: "m_e*c"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
-        <i>c</i>
+    html: <i>m</i> <sub>e</sub> <i>c</i>
 
   root_units:
     enumerated_root_units:
@@ -6926,11 +6808,7 @@
     - "natural unit of energy in MeV"
   unit_symbol:
     ascii: "m_e*c^2"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
-        <i>c</i>
-        <sup>2</sup>
+    html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
 
   root_units:
     enumerated_root_units:
@@ -6950,10 +6828,7 @@
     - "natural unit of momentum in MeV/c"
   unit_symbol:
     ascii: "m_e*c"
-    html: |
-        <i>m</i>
-        <sub>e</sub>
-        <i>c</i>
+    html: <i>m</i> <sub>e</sub> <i>c</i>
 
   root_units:
     enumerated_root_units:
@@ -7344,8 +7219,7 @@
     - "centimeter of water"
   unit_symbol:
     ascii: "cmH_2O"
-    html: |
-      cmH <sub>2</sub>O
+    html: cmH<sub>2</sub>O
     latex: \ensuremath{\mathrm{cmH_{2}O}}
     unicode: "cmH&#8322;O"
   root_units:
@@ -7370,8 +7244,7 @@
     - "inch of water"
   unit_symbol:
     ascii: "inH_2O"
-    html: |
-      inH <sub>2</sub>O
+    html: inH<sub>2</sub>O
     latex: \ensuremath{\mathrm{inH_{2}O}}
     unicode: "inH&#8322;O"
   root_units:
@@ -7432,8 +7305,7 @@
     - "foot of water"
   unit_symbol:
     ascii: "ftH_2O"
-    html: |
-      ftH <sub>2</sub>O
+    html: ftH<sub>2</sub>O
     latex: \ensuremath{\mathrm{ftH_{2}O}}
     unicode: "ftH&#8322;O"
   root_units:
@@ -7694,8 +7566,7 @@
     - "thermochemical Btu"
   unit_symbol:
     ascii: "Btu_th"
-    html: |
-      Btu <sub>th</sub>
+    html: Btu<sub>th</sub>
     latex: \ensuremath{\mathrm{Btu_{th}}}
   root_units:
     enumerated_root_units:
@@ -8219,8 +8090,7 @@
     - "cubic foot per minute"
   unit_symbol:
     ascii: "ft^3*min^-1"
-    html: |
-      ft <sup>3</sup>/min
+    html: ft<sup>3</sup>/min
     latex: \ensuremath{\mathrm{ft^3/min}}
     unicode: "ft&#179;min"
   root_units:
@@ -8244,8 +8114,7 @@
     - "cubic foot per second"
   unit_symbol:
     ascii: "ft^3*sec^-1"
-    html: |
-      ft <sup>3</sup>/sec
+    html: ft<sup>3</sup>/sec
     latex: \ensuremath{\mathrm{ft^3/sec}}
     unicode: "ft&#179;sec"
   root_units:
@@ -8269,8 +8138,7 @@
     - "cubic inch per minute"
   unit_symbol:
     ascii: "in^3*min^-1"
-    html: |
-      in <sup>3</sup>/min
+    html: in<sup>3</sup>/min
     latex: \ensuremath{\mathrm{in^3/min}}
     unicode: "in&#179;min"
   root_units:
