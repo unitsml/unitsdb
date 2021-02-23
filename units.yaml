@@ -6675,7 +6675,7 @@
     - "atomic unit of electric dipole moment"
   unit_symbols:
     - ascii: "e*a_0"
-      html: <i>ea</i> <sub>0</sub>
+      html: <i>ea</i><sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_dipole_moment"
@@ -6696,7 +6696,7 @@
     - "atomic unit of electric field"
   unit_symbols:
     - ascii: "E_h*(e*a_0)"
-      html: <i>E</i> <sub>h</sub>/ <i>ea</i> <sub>0</sub>
+      html: <i>E</i><sub>h</sub>/ <i>ea</i><sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_field"
@@ -6737,7 +6737,7 @@
     - "atomic unit of electric potential"
   unit_symbols:
     - ascii: "E_h*e-1"
-      html: <i>E</i> <sub>h</sub>/ <i>e</i>
+      html: <i>E</i><sub>h</sub>/ <i>e</i>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_potential"
@@ -6762,7 +6762,7 @@
     - "atomic unit of force"
   unit_symbols:
     - ascii: "e_h*(a_0)-1"
-      html: <i>E</i> <sub>h</sub>/ <i>a</i> <sub>0</sub>
+      html: <i>E</i><sub>h</sub>/ <i>a</i><sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_force"
@@ -7442,7 +7442,7 @@
     - "atomic unit of permittivity"
   unit_symbols:
     - ascii: "e^2*(a_0*E_h)-1"
-      html: <i>e</i> <sup>2</sup>/ <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>
+      html: <i>e</i><sup>2</sup>/ <i>a</i><sub>0</sub><i>E</i><sub>h</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_permittivity"
@@ -7463,7 +7463,7 @@
     - "atomic unit of velocity"
   unit_symbols:
     - ascii: "a_0*E_h*h-bar-1"
-      html: <i>a</i> <sub>0</sub> <i>E</i> <sub>h</sub>/&#295;
+      html: <i>a</i><sub>0</sub><i>E</i><sub>h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_velocity"
@@ -7484,7 +7484,7 @@
     - "natural unit of energy"
   unit_symbols:
     - ascii: "m_e*c^2"
-      html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
+      html: <i>m</i><sub>e</sub><i>c</i><sup>2</sup>
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_energy"
@@ -7505,7 +7505,7 @@
     - "natural unit of momentum"
   unit_symbols:
     - ascii: "m_e*c"
-      html: <i>m</i> <sub>e</sub> <i>c</i>
+      html: <i>m</i><sub>e</sub><i>c</i>
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_momentum"
@@ -7549,7 +7549,7 @@
     - "natural unit of energy in MeV"
   unit_symbols:
     - ascii: "m_e*c^2"
-      html: <i>m</i> <sub>e</sub> <i>c</i> <sup>2</sup>
+      html: <i>m</i><sub>e</sub><i>c</i><sup>2</sup>
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_energy_in_MeV"
@@ -7570,7 +7570,7 @@
     - "natural unit of momentum in MeV/c"
   unit_symbols:
     - ascii: "m_e*c"
-      html: <i>m</i> <sub>e</sub> <i>c</i>
+      html: <i>m</i><sub>e</sub><i>c</i>
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_momentum_in_MeV_per_c"
