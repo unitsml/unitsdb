@@ -1697,6 +1697,7 @@
       ascii: "cal_IT"
       html: cal<sub>IT</sub>
       latex: \ensuremath{\mathrm{cal_{IT}}}
+      unicode: cal_IT
   root_units:
     enumerated_root_units:
       - unit: "table_calorie"
@@ -1749,6 +1750,7 @@
       ascii: "kcal_IT"
       html: kcal<sub>IT</sub>
       latex: \ensuremath{\mathrm{kcal_{IT}}}
+      unicode: "kcal_IT"
   root_units:
     enumerated_root_units:
       - unit: "table_kg_calorie"
@@ -1782,6 +1784,7 @@
       ascii: "kcal_th"
       html: kcal<sub>th</sub>
       latex: \ensuremath{\mathrm{kcal_{th}}}
+      unicode: "kcal_th"
   root_units:
     enumerated_root_units:
       - unit: "thermo_kg_calorie"
@@ -1962,6 +1965,7 @@
       ascii: "kcal_th*s^-1"
       html: kcal<sub>th</sub>/s
       latex: \ensuremath{\mathrm{kcal_{th}}}
+      unicode: "kcal_th/s"
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -1991,6 +1995,7 @@
       ascii: "cal_th*s^-1"
       html: cal<sub>th</sub>/s
       latex: \ensuremath{\mathrm{cal_{th}}}
+      unicode: "cal_th/s"
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -3431,6 +3436,7 @@
       ascii: "kg*m^-2"
       html: kg/m<sup>2</sup>
       latex: \ensuremath{\mathrm{kg/m^2}}
+      unicode: "kg/m²"
   root_units:
     enumerated_root_units:
       - unit: "gram"
@@ -6210,6 +6216,7 @@
       ascii: "cal_th"
       html: cal<sub>th</sub>
       latex: \ensuremath{\mathrm{cal_th}}
+      unicode: "cal_th"
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -7084,8 +7091,8 @@
   unit_name:
     - "atomic unit of force"
   unit_symbols:
-    - id: "e_h*(a_0)-1"
-      ascii: "e_h*(a_0)-1"
+    - id: "E_h*(a_0)-1"
+      ascii: "E_h*(a_0)-1"
       html: <i>E</i><sub>h</sub>/<i>a</i><sub>0</sub>
       latex: \ensuremath{\mathit{E}_{h}/\mathit{a}_0}
       unicode: 𝐸ₕ/𝑎₀
@@ -7134,8 +7141,11 @@
   unit_name:
     - "atomic unit of electric polarizability"
   unit_symbols:
-    - id: "e^2*a_0^2*(E_h)-1"
-      ascii: "e^2*a_0^2*(E_h)-1"
+    - id: "e^2*a_0^2*(E_h)^-1"
+      ascii: "e^2*a_0^2*(E_h)^-1"
+      html: <i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>E</i><sub>h</sub>
+      latex: \ensuremath{\mathit{e}\mathit{a}_0^2/\mathit{E}_h}
+      unicode: 𝑒²𝑎₀²/𝐸ₕ
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_polarizability"
@@ -7749,6 +7759,9 @@
   unit_symbols:
     - id: "lambda-bar_C"
       ascii: "lambda-bar_C"
+      html: "&#x19b;<sub>C</sub>"
+      latex: \ensuremath{\lambdabar_C}
+      unicode: "ƛ_C"
   root_units:
     enumerated_root_units:
       - unit: "natural_unit_of_length"
@@ -7768,8 +7781,11 @@
   unit_name:
     - "atomic unit of 1st hyperpolarizability"
   unit_symbols:
-    - id: "e_3a_0^3*(E_h^3)"
-      ascii: "e_3a_0^3*(E_h^3)"
+    - id: "e^3a_0^3*(E_h^3)"
+      ascii: "e^3a_0^3*(E_h^3)"
+      html: <i>e</i><sup>3</sup><i>a</i><sub>0</sub><sup>3</sup><i>E</i><sub>h</sub><sup>3</sup>
+      latex: \ensuremath{\mathit{e}^3/\mathit(a}_0^3\mathit{E}_h^3}
+      unicode: 𝑒³𝑎₀³𝐸ₕ³
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_1st_hyperpolarizability"
@@ -7789,8 +7805,11 @@
   unit_name:
     - "atomic unit of 2nd hyperpolarizability"
   unit_symbols:
-    - id: "e_4a_0^4*(E_h^3)"
-      ascii: "e_4a_0^4*(E_h^3)"
+    - id: "e^4a_0^4*(E_h^3)"
+      ascii: "e^4a_0^4*(E_h^3)"
+      html: <i>e</i><sup>4</sup><i>a</i><sub>0</sub><sup>4</sup><i>E</i><sub>h</sub><sup>3</sup>
+      latex: \ensuremath{\mathit{e}^4/\mathit(a}_0^4\mathit{E}_h^3}
+      unicode: 𝑒⁴𝑎₀⁴𝐸ₕ⁴
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_2nd_hyperpolarizability"
@@ -7815,7 +7834,7 @@
       html: <i>e</i><sup>2</sup>/<i>a</i><sub>0</sub><i>E</i><sub>h</sub>
       latex: \ensuremath{\mathit{e}^2/\mathit(a}_0\mathit{E}_h}
       unicode: 𝑒²/𝑎₀𝐸ₕ
-  root_units:
+  root_units: 
     enumerated_root_units:
       - unit: "atomic_unit_of_permittivity"
         power_denominator: 1
@@ -8778,6 +8797,7 @@
       ascii: "Btu_th"
       html: Btu<sub>th</sub>
       latex: \ensuremath{\mathrm{Btu_{th}}}
+      unicode: "Btu_th"
   root_units:
     enumerated_root_units:
       - unit: "thermo_btu"
