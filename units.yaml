@@ -1,6 +1,8 @@
 ---
 "NISTu1":
   dimension_url: "#NISTd1"
+  short: meter
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -48,6 +50,8 @@
 
 "NISTu7":
   dimension_url: "#NISTd7"
+  short: candela
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -69,6 +73,8 @@
 
 "NISTu2":
   dimension_url: "#NISTd2"
+  short:
+  root: false
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -91,6 +97,8 @@
 
 "NISTu3":
   dimension_url: "#NISTd3"
+  short: second
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -116,6 +124,8 @@
 
 "NISTu6":
   dimension_url: "#NISTd6"
+  short: mole
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -137,6 +147,8 @@
 
 "NISTu4":
   dimension_url: "#NISTd4"
+  short: ampere
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -158,6 +170,8 @@
 
 "NISTu5":
   dimension_url: "#NISTd5"
+  short: kelvin
+  root: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -179,6 +193,8 @@
 
 "NISTu8":
   dimension_url: "#NISTd1"
+  short: inch
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -202,6 +218,8 @@
 
 "NISTu9":
   dimension_url: "#NISTd9"
+  short: radian
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -220,9 +238,19 @@
   quantity_reference:
     - name: "plane angle"
       url: "#NISTq9"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu1
+      prefix:
+      power: -2
+
 
 "NISTu10":
   dimension_url: "#NISTd9"
+  short: steradian
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -241,9 +269,18 @@
   quantity_reference:
     - name: "solid angle"
       url: "#NISTq11"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 1
+    - id: NISTu1
+      prefix:
+      power: -1
 
 "NISTu11":
   dimension_url: "#NISTd12"
+  short: newton
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -262,9 +299,22 @@
   quantity_reference:
     - name: "force"
       url: "#NISTq13"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 1
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+
 
 "NISTu12":
   dimension_url: "#NISTd14"
+  short: pascal
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -295,9 +345,22 @@
       url: "#NISTq15"
     - name: "stress"
       url: "#NISTq16"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: -1
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+
 
 "NISTu13":
   dimension_url: "#NISTd15"
+  short: joule
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -330,9 +393,22 @@
       url: "#NISTq19"
     - name: "potential energy"
       url: "#NISTq77"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+
 
 "NISTu14":
   dimension_url: "#NISTd16"
+  short: watt
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -353,9 +429,22 @@
       url: "#NISTq20"
     - name: "radiant flux"
       url: "#NISTq21"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -3
+
 
 "NISTu15":
   dimension_url: "#NISTd17"
+  short: coulomb
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -376,9 +465,19 @@
       url: "#NISTq22"
     - name: "amount of electricity"
       url: "#NISTq23"
+  si_derived_bases:
+    - id: NISTu2
+      prefix:
+      power: 1
+    - id: NISTu4
+      prefix:
+      power: 1
+
 
 "NISTu16":
   dimension_url: "#NISTd18"
+  short: volt
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -399,9 +498,25 @@
       url: "#NISTq24"
     - name: "electromotive force"
       url: "#NISTq26"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -3
+    - id: NISTu4
+      prefix:
+      power: -1
+
 
 "NISTu17":
   dimension_url: "#NISTd19"
+  short: farad
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -420,9 +535,25 @@
   quantity_reference:
     - name: "capacitance"
       url: "#NISTq27"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu27
+      prefix: p10_3
+      power: -1
+    - id: NISTu3
+      prefix:
+      power: 4
+    - id: NISTu4
+      prefix:
+      power: 2
+
 
 "NISTu18":
   dimension_url: "#NISTd20"
+  short: ohm
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -441,9 +572,25 @@
   quantity_reference:
     - name: "electric resistance"
       url: "#NISTq28"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: 4
+    - id: NISTu4
+      prefix:
+      power: 2
+
 
 "NISTu19":
   dimension_url: "#NISTd21"
+  short: siemens
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -462,9 +609,25 @@
   quantity_reference:
     - name: "electric conductance"
       url: "#NISTq29"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu27
+      prefix: p10_3
+      power: -1
+    - id: NISTu3
+      prefix:
+      power: 3
+    - id: NISTu4
+      prefix:
+      power: 2
+
 
 "NISTu20":
   dimension_url: "#NISTd22"
+  short: weber
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -483,9 +646,25 @@
   quantity_reference:
     - name: "magnetic flux"
       url: "#NISTq30"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -1
+
 
 "NISTu21":
   dimension_url: "#NISTd13"
+  short: tesla
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -504,9 +683,22 @@
   quantity_reference:
     - name: "magnetic flux density"
       url: "#NISTq14"
+  si_derived_bases:
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -1
+
 
 "NISTu22":
   dimension_url: "#NISTd23"
+  short: henry
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -525,9 +717,25 @@
   quantity_reference:
     - name: "inductance"
       url: "#NISTq32"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu4
+      prefix:
+      power: -2
+
 
 "NISTu1e2/1":
   dimension_url: "#NISTd8"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -549,6 +757,8 @@
 
 "NISTu23":
   dimension_url: "#NISTd5"
+  short: degree_Celsius
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -567,9 +777,16 @@
   quantity_reference:
     - name: "Celsius temperature"
       url: "#NISTq34"
+  si_derived_bases:
+    - id: NISTu5
+      prefix:
+      power: 1
+
 
 "NISTu25":
   dimension_url: "#NISTd24"
+  short: becquerel
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -588,9 +805,16 @@
   quantity_reference:
     - name: "activity referred to a radionuclide"
       url: "#NISTq35"
+  si_derived_bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+
 
 "NISTu26":
   dimension_url: "#NISTd1"
+  short: fermi
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -615,6 +839,8 @@
 
 "NISTu27":
   dimension_url: "#NISTd2"
+  short: gram
+  root: true
   unit_system:
     type: "SI_multiples_and_sub"
     name: "SI"
@@ -636,6 +862,8 @@
 
 "NISTu28":
   dimension_url: "#NISTd25"
+  short: gray
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -658,9 +886,19 @@
       url: "#NISTq37"
     - name: "kerma"
       url: "#NISTq38"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: -2
+    - id: NISTu7
+      prefix:
+      power: 1
+
 
 "NISTu29":
   dimension_url: "#NISTd25"
+  short: sievert
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -679,9 +917,19 @@
   quantity_reference:
     - name: "dose equivalent"
       url: "#NISTq39"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu3
+      prefix:
+      power: -2
+
 
 "NISTu30":
   dimension_url: "#NISTd26"
+  short: katal
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -700,9 +948,19 @@
   quantity_reference:
     - name: "catalytic activity"
       url: "#NISTq44"
+  si_derived_bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+    - id: NISTu6
+      prefix:
+      power: 1
+
 
 "NISTu31":
   dimension_url: "#NISTd24"
+  short: hertz
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -721,9 +979,16 @@
   quantity_reference:
     - name: "frequency"
       url: "#NISTq45"
+  si_derived_bases:
+    - id: NISTu3
+      prefix:
+      power: -1
+
 
 "NISTu32":
   dimension_url: "#NISTd7"
+  short: lumen
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -742,9 +1007,16 @@
   quantity_reference:
     - name: "luminous flux"
       url: "#NISTq46"
+  si_derived_bases:
+    - id: NISTu7
+      prefix:
+      power: 1
+
 
 "NISTu33":
   dimension_url: "#NISTd27"
+  short: lux
+  root: true
   unit_system:
     type: "SI_derived_special"
     name: "SI"
@@ -763,9 +1035,19 @@
   quantity_reference:
     - name: "illuminance"
       url: "#NISTq47"
+  si_derived_bases:
+    - id: NISTu3
+      prefix:
+      power: -2
+    - id: NISTu7
+      prefix:
+      power: 1
+
 
 "NISTu1.u3e-1/1":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -797,6 +1079,8 @@
 
 "NISTu1e3/1":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -820,6 +1104,8 @@
 
 "NISTu36":
   dimension_url: "#NISTd3"
+  short: minute
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -841,6 +1127,8 @@
 
 "NISTu37":
   dimension_url: "#NISTd3"
+  short: hour
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -862,6 +1150,8 @@
 
 "NISTu38":
   dimension_url: "#NISTd3"
+  short: day
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -883,6 +1173,8 @@
 
 "NISTu39":
   dimension_url: "#NISTd1"
+  short: angstrom
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -906,6 +1198,8 @@
 
 "NISTu42":
   dimension_url: "#NISTd8"
+  short: are
+  root: true
   unit_system:
     type: "non-SI_temporarily_acceptable"
     name: "non-SI"
@@ -927,6 +1221,8 @@
 
 "NISTu43":
   dimension_url: "#NISTd8"
+  short: barn
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -948,6 +1244,8 @@
 
 "NISTu44":
   dimension_url: "#NISTd8"
+  short: hectare
+  root: true
   unit_system:
     type: "non-SI_temporarily_acceptable"
     name: "non-SI"
@@ -969,6 +1267,8 @@
 
 "NISTu45":
   dimension_url: "#NISTd8"
+  short: foot
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -990,6 +1290,8 @@
 
 "NISTu46":
   dimension_url: "#NISTd8"
+  short: inch
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1011,6 +1313,8 @@
 
 "NISTu47":
   dimension_url: "#NISTd4"
+  short: abampere
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1033,6 +1337,8 @@
 
 "NISTu48":
   dimension_url: "#NISTd17"
+  short: abcoulomb
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1056,6 +1362,8 @@
 
 "NISTu49":
   dimension_url: "#NISTd19"
+  short: abfarad
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1078,6 +1386,8 @@
 
 "NISTu50":
   dimension_url: "#NISTd23"
+  short: abhenry
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1100,6 +1410,8 @@
 
 "NISTu51":
   dimension_url: "#NISTd21"
+  short: abmho
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1121,6 +1433,8 @@
 
 "NISTu52":
   dimension_url: "#NISTd20"
+  short: abohm
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1143,6 +1457,8 @@
 
 "NISTu53":
   dimension_url: "#NISTd18"
+  short: abvolt
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1167,6 +1483,8 @@
 
 "NISTu54":
   dimension_url: "#NISTd17"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -1193,6 +1511,8 @@
 
 "NISTu55":
   dimension_url: "#NISTd4"
+  short: biot
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1214,6 +1534,8 @@
 
 "NISTu58":
   dimension_url: "#NISTd22"
+  short: maxwell
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1235,6 +1557,8 @@
 
 "NISTu62":
   dimension_url: "#NISTd15"
+  short: erg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1266,6 +1590,8 @@
 
 "NISTu65":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -1301,6 +1627,8 @@
 
 "NISTu60":
   dimension_url: "#NISTd15"
+  short: table_calorie
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1333,6 +1661,8 @@
 
 "NISTu132":
   dimension_url: "#NISTd85"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -1349,6 +1679,8 @@
 
 "NISTu63":
   dimension_url: "#NISTd15"
+  short: table_kg_calorie
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1379,6 +1711,8 @@
 
 "NISTu64":
   dimension_url: "#NISTd15"
+  short: thermo_kg_calorie
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1409,6 +1743,8 @@
 
 "NISTu69":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -1443,6 +1779,8 @@
 
 "NISTu14.u3":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -1477,6 +1815,8 @@
 
 "NISTu71":
   dimension_url: "#NISTd12"
+  short: dyne
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1498,6 +1838,8 @@
 
 "NISTu72":
   dimension_url: "#NISTd12"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1520,6 +1862,8 @@
 
 "NISTu73":
   dimension_url: "#NISTd12"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1541,6 +1885,8 @@
 
 "NISTu75":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1567,6 +1913,8 @@
 
 "NISTu74":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1592,6 +1940,8 @@
 
 "NISTu78":
   dimension_url: "#NISTd1"
+  short: foot
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1615,6 +1965,8 @@
 
 "NISTu83":
   dimension_url: "#NISTd1"
+  short: mile
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1638,6 +1990,8 @@
 
 "NISTu84":
   dimension_url: "#NISTd1"
+  short: yard
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1661,6 +2015,8 @@
 
 "NISTu85":
   dimension_url: "#NISTd27"
+  short: phot
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1682,6 +2038,8 @@
 
 "NISTu86":
   dimension_url: "#NISTd2"
+  short: grain
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1706,6 +2064,8 @@
 
 "NISTu88":
   dimension_url: "#NISTd2"
+  short: metric_ton
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1728,6 +2088,8 @@
 
 "NISTu89":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1754,6 +2116,8 @@
 
 "NISTu91":
   dimension_url: "#NISTd14"
+  short: bar
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -1777,6 +2141,8 @@
 
 "NISTu92":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1804,6 +2170,8 @@
 
 "NISTu93":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1831,6 +2199,8 @@
 
 "NISTu94":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1859,6 +2229,8 @@
 
 "NISTu95":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1886,6 +2258,8 @@
 
 "NISTu96":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1914,6 +2288,8 @@
 
 "NISTu116":
   dimension_url: "#NISTd13"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1936,6 +2312,8 @@
 
 "NISTu98":
   dimension_url: "#NISTd24"
+  short: curie
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1957,6 +2335,8 @@
 
 "NISTu99":
   dimension_url: "#NISTd25"
+  short: rad
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1978,6 +2358,8 @@
 
 "NISTu100":
   dimension_url: "#NISTd25"
+  short: rem
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1999,6 +2381,8 @@
 
 "NISTu106":
   dimension_url: "#NISTd3"
+  short: year_365
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -2021,6 +2405,8 @@
 
 "NISTu107":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2045,6 +2431,8 @@
 
 "NISTu108":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2069,6 +2457,8 @@
 
 "NISTu109":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2093,6 +2483,8 @@
 
 "NISTu110":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2117,6 +2509,8 @@
 
 "NISTu111":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2141,6 +2535,8 @@
 
 "NISTu112":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2165,6 +2561,8 @@
 
 "NISTu115":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2186,6 +2584,8 @@
 
 "NISTu1.u3e-2/1":
   dimension_url: "#NISTd28"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2212,6 +2612,8 @@
 
 "NISTu1e-1/1":
   dimension_url: "#NISTd29"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2244,6 +2646,8 @@
 
 "NISTu27p10'3.u1e-3/1":
   dimension_url: "#NISTd30"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2271,6 +2675,8 @@
 
 "NISTu1e3/1.u27p10'3":
   dimension_url: "#NISTd31"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2296,6 +2702,8 @@
 
 "NISTu4.u1e-2/1":
   dimension_url: "#NISTd32"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2320,6 +2728,8 @@
 
 "NISTu4.u1e-1/1":
   dimension_url: "#NISTd33"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2344,6 +2754,8 @@
 
 "NISTu6.u1e-3/1":
   dimension_url: "#NISTd34"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2368,6 +2780,8 @@
 
 "NISTu7.u1e-2/1":
   dimension_url: "#NISTd27"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2392,6 +2806,8 @@
 
 "NISTu117":
   dimension_url: "#NISTd15"
+  short: ec_therm
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2423,6 +2839,8 @@
 
 "NISTu118":
   dimension_url: "#NISTd49"
+  short: roentgen
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2444,6 +2862,8 @@
 
 "NISTu119":
   dimension_url: "#NISTd13"
+  short: gauss
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2465,6 +2885,8 @@
 
 "NISTu120":
   dimension_url: "#NISTd29"
+  short: kayser
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2488,6 +2910,8 @@
 
 "NISTu97":
   dimension_url: "#NISTd36"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2510,6 +2934,8 @@
 
 "NISTu122":
   dimension_url: "#NISTd1"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2534,6 +2960,8 @@
 
 "NISTu123":
   dimension_url: "#NISTd1"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2568,6 +2996,8 @@
 
 "NISTu124":
   dimension_url: "#NISTd27"
+  short: stilb
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2589,6 +3019,8 @@
 
 "NISTu125":
   dimension_url: "#NISTd2"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2617,6 +3049,8 @@
 
 "NISTu126":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2650,6 +3084,8 @@
 
 "NISTu127":
   dimension_url: "#NISTd16"
+  short: electric_horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2674,6 +3110,8 @@
 
 "NISTu128":
   dimension_url: "#NISTd9"
+  short: poise
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2697,6 +3135,8 @@
 
 "NISTu129":
   dimension_url: "#NISTd52"
+  short: rhe
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2718,6 +3158,8 @@
 
 "NISTu130":
   dimension_url: "#NISTd10"
+  short: liter
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -2747,6 +3189,8 @@
 
 "NISTu131":
   dimension_url: "#NISTd1"
+  short: nautical_mile
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -2770,6 +3214,8 @@
 
 "NISTu61":
   dimension_url: "#NISTd80"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2786,6 +3232,8 @@
 
 "NISTu166":
   dimension_url: "#NISTd15"
+  short: tons_of_tnt
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2808,6 +3256,8 @@
 
 "NISTu134":
   dimension_url: "#NISTd14"
+  short: standard_atmosphere
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2831,6 +3281,8 @@
 
 "NISTu135":
   dimension_url: "#NISTd14"
+  short: technical_atmosphere
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2854,6 +3306,8 @@
 
 "NISTu27p10'3.u1e-2/1":
   dimension_url: "#NISTd51"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2878,6 +3332,8 @@
 
 "NISTu14.u1e-2/1":
   dimension_url: "#NISTd38"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2904,6 +3360,8 @@
 
 "NISTu13.u5e-1/1":
   dimension_url: "#NISTd39"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2930,6 +3388,8 @@
 
 "NISTu13.u27p10'3e-1/1.u5e-1/1":
   dimension_url: "#NISTd40"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2960,6 +3420,8 @@
 
 "NISTu12.u3":
   dimension_url: "#NISTd36"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -2984,6 +3446,8 @@
 
 "NISTu11.u1":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3012,6 +3476,8 @@
 
 "NISTu11.u1e-1/1":
   dimension_url: "#NISTd37"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3036,6 +3502,8 @@
 
 "NISTu13.u27p10'3e-1/1":
   dimension_url: "#NISTd25"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3061,6 +3529,8 @@
 
 "NISTu14.u1e-1/1.u5e-1/1":
   dimension_url: "#NISTd41"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3089,6 +3559,8 @@
 
 "NISTu13.u1e-3/1":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3113,6 +3585,8 @@
 
 "NISTu16.u1e-1/1":
   dimension_url: "#NISTd42"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3137,6 +3611,8 @@
 
 "NISTu15.u1e-3/1":
   dimension_url: "#NISTd43"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3161,6 +3637,8 @@
 
 "NISTu15.u1e-2/1":
   dimension_url: "#NISTd32"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3187,6 +3665,8 @@
 
 "NISTu17.u1e-1/1":
   dimension_url: "#NISTd45"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3211,6 +3691,8 @@
 
 "NISTu22.u1e-1/1":
   dimension_url: "#NISTd46"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3235,6 +3717,8 @@
 
 "NISTu13.u6e-1/1":
   dimension_url: "#NISTd47"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3259,6 +3743,8 @@
 
 "NISTu13.u6e-1/1.u5e-1/1":
   dimension_url: "#NISTd48"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3289,6 +3775,8 @@
 
 "NISTu15.u27p10'3e-1/1":
   dimension_url: "#NISTd49"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3314,6 +3802,8 @@
 
 "NISTu28.u3e-1/1":
   dimension_url: "#NISTd50"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3338,6 +3828,8 @@
 
 "NISTu30.u1e-3/1":
   dimension_url: "#NISTd55"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3362,6 +3854,8 @@
 
 "NISTu142":
   dimension_url: "#NISTd56"
+  short: stokes
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3383,6 +3877,8 @@
 
 "NISTu143":
   dimension_url: "#NISTd28"
+  short: gal
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3404,6 +3900,8 @@
 
 "NISTu144":
   dimension_url: "#NISTd33"
+  short: oersted
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: ""
@@ -3425,6 +3923,8 @@
 
 "NISTu14.u10e-1/1":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3449,6 +3949,8 @@
 
 "NISTu14.u1e-2/1.u10e-1/1":
   dimension_url: "#NISTd38"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3477,6 +3979,8 @@
 
 "NISTu149":
   dimension_url: "#NISTd9"
+  short: arc_degree
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3498,6 +4002,8 @@
 
 "NISTu148":
   dimension_url: "#NISTd9"
+  short: arc_second
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3519,6 +4025,8 @@
 
 "NISTu147":
   dimension_url: "#NISTd9"
+  short: arc_minute
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3540,6 +4048,8 @@
 
 "NISTu9.u3e-1/1":
   dimension_url: "#NISTd24"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3566,6 +4076,8 @@
 
 "NISTu9.u3e-2/1":
   dimension_url: "#NISTd35"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3588,8 +4100,11 @@
     - name: "angular acceleration"
       url: "#NISTq58"
 
+# FIXME: also NISTu131.u37e-1_1 ?
 "NISTu152":
   dimension_url: "#NISTd11"
+  short: knot
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3611,6 +4126,8 @@
 
 "NISTu153":
   dimension_url: "#NISTd9"
+  short: neper
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3638,6 +4155,8 @@
 
 "NISTu154":
   dimension_url: "#NISTd9"
+  short: bel
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3663,6 +4182,8 @@
 
 "NISTu155":
   dimension_url: "#NISTd9"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3685,6 +4206,8 @@
 
 "NISTu156":
   dimension_url: "#NISTd14"
+  short: mm_Hg
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3710,6 +4233,8 @@
 
 "NISTu157":
   dimension_url: "#NISTd8"
+  short: darcy
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3740,6 +4265,8 @@
 
 "NISTu159":
   dimension_url: "#NISTd9"
+  short: gon
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3761,6 +4288,8 @@
 
 "NISTu160":
   dimension_url: "#NISTd11"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -3788,6 +4317,8 @@
 
 "NISTu3e-1/1":
   dimension_url: "#NISTd24"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3813,6 +4344,8 @@
 
 "NISTu9.u1e-1/1":
   dimension_url: "#NISTd29"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -3837,6 +4370,8 @@
 
 "NISTu163":
   dimension_url: "#NISTd9"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3861,6 +4396,8 @@
 
 "NISTu164":
   dimension_url: "#NISTd8"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3882,6 +4419,8 @@
 
 "NISTu165":
   dimension_url: "#NISTd8"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3903,6 +4442,8 @@
 
 "NISTu319":
   dimension_url: "#NISTd14"
+  short: 0C_cm_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3926,6 +4467,8 @@
 
 "NISTu167":
   dimension_url: "#NISTd28"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3950,6 +4493,8 @@
 
 "NISTu168":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3971,6 +4516,8 @@
 
 "NISTu169":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3992,6 +4539,8 @@
 
 "NISTu170":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4013,6 +4562,8 @@
 
 "NISTu171":
   dimension_url: "#NISTd10"
+  short: imperial_gallon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4036,6 +4587,8 @@
 
 "NISTu172":
   dimension_url: "#NISTd10"
+  short: imperial_pint
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4058,6 +4611,8 @@
 
 "NISTu173":
   dimension_url: "#NISTd10"
+  short: imperial_ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4081,6 +4636,8 @@
 
 "NISTu181":
   dimension_url: "#NISTd82"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4097,6 +4654,8 @@
 
 "NISTu175":
   dimension_url: "#NISTd10"
+  short: us_gallon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4119,6 +4678,8 @@
 
 "NISTu176":
   dimension_url: "#NISTd10"
+  short: us_pint
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4141,6 +4702,8 @@
 
 "NISTu177":
   dimension_url: "#NISTd10"
+  short: us_fluid_ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4164,6 +4727,8 @@
 
 "NISTu178":
   dimension_url: "#NISTd10"
+  short: petro_barrel
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4186,6 +4751,8 @@
 
 "NISTu179":
   dimension_url: "#NISTd10"
+  short: us_bushel
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4208,6 +4775,8 @@
 
 "NISTu180":
   dimension_url: "#NISTd10"
+  short: us_dry_pint
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4230,6 +4799,8 @@
 
 "NISTu174":
   dimension_url: "#NISTd81"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4246,6 +4817,8 @@
 
 "NISTu182":
   dimension_url: "#NISTd1"
+  short: light_year
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4267,6 +4840,8 @@
 
 "NISTu183":
   dimension_url: "#NISTd1"
+  short: astronomical_unit
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -4288,6 +4863,8 @@
 
 "NISTu184":
   dimension_url: "#NISTd1"
+  short: parsec
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4309,6 +4886,8 @@
 
 "NISTu185":
   dimension_url: "#NISTd57"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4334,6 +4913,8 @@
 
 "NISTu27p10'3.u1e-1/1":
   dimension_url: "#NISTd58"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4359,6 +4940,8 @@
 
 "NISTu27p10'3.u1e2/1":
   dimension_url: "#NISTd59"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4384,6 +4967,8 @@
 
 "NISTu188":
   dimension_url: "#NISTd30"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -4409,6 +4994,8 @@
 
 "NISTu189":
   dimension_url: "#NISTd30"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -4433,6 +5020,8 @@
 
 "NISTu11.u3":
   dimension_url: "#NISTd61"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4457,6 +5046,8 @@
 
 "NISTu11.u1e2/1.u27p10'3e-2/1":
   dimension_url: "#NISTd62"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4485,6 +5076,8 @@
 
 "NISTu27p10'3.u1.u3e-1/1":
   dimension_url: "#NISTd61"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4513,6 +5106,8 @@
 
 "NISTu27p10'3.u1e2/1.u3e-1/1":
   dimension_url: "#NISTd60"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4543,6 +5138,8 @@
 
 "NISTu11.u1.u3":
   dimension_url: "#NISTd60"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4570,6 +5167,8 @@
 
 "NISTu12e-1/1":
   dimension_url: "#NISTd63"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4593,6 +5192,8 @@
 
 "NISTu1e2/1.u3e-1/1":
   dimension_url: "#NISTd56"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4617,6 +5218,8 @@
 
 "NISTu27p10'3.u3e-1/1":
   dimension_url: "#NISTd65"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4642,6 +5245,8 @@
 
 "NISTu1e3/1.u3e-1/1":
   dimension_url: "#NISTd66"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4666,6 +5271,8 @@
 
 "NISTu13.u3":
   dimension_url: "#NISTd60"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -4690,6 +5297,8 @@
 
 "NISTu201":
   dimension_url: "#NISTd2"
+  short: pound
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4713,6 +5322,8 @@
 
 "NISTu202":
   dimension_url: "#NISTd2"
+  short: ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4736,6 +5347,8 @@
 
 "NISTu203":
   dimension_url: "#NISTd2"
+  short: gross_hundredweight
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4758,6 +5371,8 @@
 
 "NISTu204":
   dimension_url: "#NISTd30"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4782,6 +5397,8 @@
 
 "NISTu205":
   dimension_url: "#NISTd12"
+  short: pound_force
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4805,6 +5422,8 @@
 
 "NISTu206":
   dimension_url: "#NISTd15"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4843,6 +5462,8 @@
 
 "NISTu207":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4876,6 +5497,8 @@
 
 "NISTu208":
   dimension_url: "#NISTd57"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4899,6 +5522,8 @@
 
 "NISTu209":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4920,6 +5545,8 @@
 
 "NISTu210":
   dimension_url: "#NISTd56"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4944,6 +5571,8 @@
 
 "NISTu211":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4971,6 +5600,8 @@
 
 "NISTu212":
   dimension_url: "#NISTd2"
+  short: carat
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4994,6 +5625,8 @@
 
 "NISTu213":
   dimension_url: "#NISTd58"
+  short: tex
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5015,6 +5648,8 @@
 
 "NISTu214":
   dimension_url: "#NISTd14"
+  short: torr
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5044,6 +5679,8 @@
 
 "NISTu215":
   dimension_url: "#NISTd14"
+  short: mm_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5067,6 +5704,8 @@
 
 "NISTu318":
   dimension_url: "#NISTd14"
+  short: cm_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5092,6 +5731,8 @@
 
 "NISTu217":
   dimension_url: "#NISTd16"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5120,6 +5761,8 @@
 
 "NISTu218":
   dimension_url: "#NISTd16"
+  short: metric_horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5142,6 +5785,8 @@
 
 "NISTu5e-1/1":
   dimension_url: "#NISTd68"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -5167,6 +5812,8 @@
 
 "NISTu12.u5e-1/1":
   dimension_url: "#NISTd69"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -5191,6 +5838,8 @@
 
 "NISTu221":
   dimension_url: "#NISTd71"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5221,6 +5870,8 @@
 
 "NISTu222":
   dimension_url: "#NISTd27"
+  short: lambert
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5242,6 +5893,8 @@
 
 "NISTu223":
   dimension_url: "#NISTd4"
+  short: gilbert
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5263,6 +5916,8 @@
 
 "NISTu224":
   dimension_url: "#NISTd72"
+  short: debye
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5284,6 +5939,8 @@
 
 "NISTu225":
   dimension_url: "#NISTd16"
+  short: abwatt
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5305,6 +5962,8 @@
 
 "NISTu226":
   dimension_url: "#NISTd2"
+  short: slug
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5326,6 +5985,8 @@
 
 "NISTu227":
   dimension_url: "#NISTd15"
+  short: thermo_calorie
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5358,6 +6019,8 @@
 
 "NISTu228":
   dimension_url: "#NISTd2"
+  short: short_ton
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5380,6 +6043,8 @@
 
 "NISTu229":
   dimension_url: "#NISTd2"
+  short: long_ton
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5402,6 +6067,8 @@
 
 "NISTu230":
   dimension_url: "#NISTd2"
+  short: hundredweight
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5424,6 +6091,8 @@
 
 "NISTu231":
   dimension_url: "#NISTd2"
+  short: troy_ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5447,6 +6116,8 @@
 
 "NISTu232":
   dimension_url: "#NISTd2"
+  short: troy_pound
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5470,6 +6141,8 @@
 
 "NISTu233":
   dimension_url: "#NISTd2"
+  short: pennyweight
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5491,6 +6164,8 @@
 
 "NISTu234":
   dimension_url: "#NISTd2"
+  short: apothecaries_dram
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5514,6 +6189,8 @@
 
 "NISTu235":
   dimension_url: "#NISTd2"
+  short: scruple
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5536,6 +6213,8 @@
 
 "NISTu236":
   dimension_url: "#NISTd12"
+  short: poundal
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5559,6 +6238,8 @@
 
 "NISTu237":
   dimension_url: "#NISTd2"
+  short: kip
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5580,6 +6261,8 @@
 
 "NISTu238":
   dimension_url: "#NISTd12"
+  short: ton_force
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5603,6 +6286,8 @@
 
 "NISTu239":
   dimension_url: "#NISTd14"
+  short: barye
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5630,6 +6315,8 @@
 
 "NISTu240":
   dimension_url: "#NISTd15"
+  short: electronvolt
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -5651,6 +6338,8 @@
 
 "NISTu241":
   dimension_url: "#NISTd2"
+  short: unified_atomic_mass_unit
+  root: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -5672,6 +6361,8 @@
 
 "NISTu242":
   dimension_url: "#NISTd11"
+  short: natural_unit_of_velocity
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5696,6 +6387,8 @@
 
 "NISTu243":
   dimension_url: "#NISTd60"
+  short: natural_unit_of_action
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5716,6 +6409,8 @@
 
 "NISTu244":
   dimension_url: "#NISTd2"
+  short: natural_unit_of_mass
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5736,6 +6431,8 @@
 
 "NISTu245":
   dimension_url: "#NISTd3"
+  short: natural_unit_of_time
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5756,6 +6453,8 @@
 
 "NISTu246":
   dimension_url: "#NISTd17"
+  short: atomic_unit_of_charge
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5776,6 +6475,8 @@
 
 "NISTu247":
   dimension_url: "#NISTd2"
+  short: atomic_unit_of_mass
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5796,6 +6497,8 @@
 
 "NISTu248":
   dimension_url: "#NISTd60"
+  short: atomic_unit_of_action
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5816,6 +6519,8 @@
 
 "NISTu249":
   dimension_url: "#NISTd1"
+  short: atomic_unit_of_length
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5836,6 +6541,8 @@
 
 "NISTu250":
   dimension_url: "#NISTd15"
+  short: atomic_unit_of_energy
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5856,6 +6563,8 @@
 
 "NISTu251":
   dimension_url: "#NISTd3"
+  short: atomic_unit_of_time
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5876,6 +6585,8 @@
 
 "NISTu252":
   dimension_url: "#NISTd54"
+  short: atomic_unit_of_magnetizability
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5895,6 +6606,8 @@
 
 "NISTu253":
   dimension_url: "#NISTd13"
+  short: atomic_unit_of_magnetic_flux_density
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5914,6 +6627,8 @@
 
 "NISTu254":
   dimension_url: "#NISTd73"
+  short: atomic_unit_of_magnetic_dipole_moment
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5934,6 +6649,8 @@
 
 "NISTu255":
   dimension_url: "#NISTd61"
+  short: atomic_unit_of_momentum
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5954,6 +6671,8 @@
 
 "NISTu256":
   dimension_url: "#NISTd43"
+  short: atomic_unit_of_charge_density
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5972,6 +6691,8 @@
 
 "NISTu257":
   dimension_url: "#NISTd4"
+  short: atomic_unit_of_current
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -5991,6 +6712,8 @@
 
 "NISTu258":
   dimension_url: "#NISTd72"
+  short: atomic_unit_of_electric_dipole_moment
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6010,6 +6733,8 @@
 
 "NISTu259":
   dimension_url: "#NISTd42"
+  short: atomic_unit_of_electric_field
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6029,6 +6754,8 @@
 
 "NISTu260":
   dimension_url: "#NISTd74"
+  short: atomic_unit_of_electric_field_gradient
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6047,6 +6774,8 @@
 
 "NISTu261":
   dimension_url: "#NISTd18"
+  short: atomic_unit_of_electric_potential
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6071,6 +6800,8 @@
 
 "NISTu262":
   dimension_url: "#NISTd12"
+  short: atomic_unit_of_force
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6093,6 +6824,8 @@
 
 "NISTu263":
   dimension_url: "#NISTd75"
+  short: atomic_unit_of_electric_quadrupole_moment
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6111,6 +6844,8 @@
 
 "NISTu264":
   dimension_url: "#NISTd76"
+  short: atomic_unit_of_electric_polarizability
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6129,6 +6864,8 @@
 
 "NISTu265":
   dimension_url: "#NISTd20"
+  short: statohm
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6151,6 +6888,8 @@
 
 "NISTu266":
   dimension_url: "#NISTd19"
+  short: statfarad
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6173,6 +6912,8 @@
 
 "NISTu267":
   dimension_url: "#NISTd4"
+  short: statampere
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6195,6 +6936,8 @@
 
 "NISTu268":
   dimension_url: "#NISTd9"
+  short: statvolt
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6220,6 +6963,8 @@
 
 "NISTu269":
   dimension_url: "#NISTd23"
+  short: stathenry
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6242,6 +6987,8 @@
 
 "NISTu270":
   dimension_url: "#NISTd21"
+  short: statmho
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6264,6 +7011,8 @@
 
 "NISTu271":
   dimension_url: "#NISTd17"
+  short: statcoulomb
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6288,6 +7037,8 @@
 
 "NISTu272":
   dimension_url: "#NISTd22"
+  short: statweber
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6309,6 +7060,8 @@
 
 "NISTu273":
   dimension_url: "#NISTd13"
+  short: stattesla
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6330,6 +7083,8 @@
 
 "NISTu274":
   dimension_url: "#NISTd16"
+  short: statwatt
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6351,6 +7106,8 @@
 
 "NISTu275":
   dimension_url: "#NISTd2"
+  short: dram
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6373,6 +7130,8 @@
 
 "NISTu276":
   dimension_url: "#NISTd27"
+  short: footcandle
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6389,6 +7148,8 @@
 
 "NISTu277":
   dimension_url: "#NISTd27"
+  short: footlambert
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6410,6 +7171,8 @@
 
 "NISTu278":
   dimension_url: "#NISTd1"
+  short: computer_pica
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6428,6 +7191,8 @@
 
 "NISTu279":
   dimension_url: "#NISTd1"
+  short: printers_pica
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6444,6 +7209,8 @@
 
 "NISTu280":
   dimension_url: "#NISTd1"
+  short: computer_point
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6462,6 +7229,8 @@
 
 "NISTu281":
   dimension_url: "#NISTd1"
+  short: us_survey_rod
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6483,6 +7252,8 @@
 
 "NISTu282":
   dimension_url: "#NISTd1"
+  short: us_survey_fathom
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6505,6 +7276,8 @@
 
 "NISTu283":
   dimension_url: "#NISTd8"
+  short: circular_mil
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6521,6 +7294,8 @@
 
 "NISTu284":
   dimension_url: "#NISTd16"
+  short: horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6542,6 +7317,8 @@
 
 "NISTu285":
   dimension_url: "#NISTd16"
+  short: boiler_horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6564,6 +7341,8 @@
 
 "NISTu286":
   dimension_url: "#NISTd16"
+  short: water_horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6586,6 +7365,8 @@
 
 "NISTu287":
   dimension_url: "#NISTd16"
+  short: uk_horsepower
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6607,6 +7388,8 @@
 
 "NISTu288":
   dimension_url: "#NISTd5"
+  short: degree_Rankine
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6628,6 +7411,8 @@
 
 "NISTu289":
   dimension_url: "#NISTd2"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -6649,6 +7434,8 @@
 
 "NISTu290":
   dimension_url: "#NISTd1"
+  short: natural_unit_of_length
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6667,6 +7454,8 @@
 
 "NISTu291":
   dimension_url: "#NISTd77"
+  short: atomic_unit_of_1st_hyperpolarizability
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6685,6 +7474,8 @@
 
 "NISTu292":
   dimension_url: "#NISTd78"
+  short: atomic_unit_of_2nd_hyperpolarizability
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6703,6 +7494,8 @@
 
 "NISTu293":
   dimension_url: "#NISTd45"
+  short: atomic_unit_of_permittivity
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6723,6 +7516,8 @@
 
 "NISTu294":
   dimension_url: "#NISTd65"
+  short: atomic_unit_of_velocity
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6742,6 +7537,8 @@
 
 "NISTu295":
   dimension_url: "#NISTd15"
+  short: natural_unit_of_energy
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6762,6 +7559,8 @@
 
 "NISTu296":
   dimension_url: "#NISTd61"
+  short: natural_unit_of_momentum
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6782,6 +7581,8 @@
 
 "NISTu297":
   dimension_url: "#NISTd60"
+  short: natural_unit_of_action_in_eV_s
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6801,6 +7602,8 @@
 
 "NISTu298":
   dimension_url: "#NISTd15"
+  short: natural_unit_of_energy_in_MeV
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6821,6 +7624,8 @@
 
 "NISTu299":
   dimension_url: "#NISTd61"
+  short: natural_unit_of_momentum_in_MeV_per_c
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6841,6 +7646,8 @@
 
 "NISTu300":
   dimension_url: "#NISTd10"
+  short: imperial_quart
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6863,6 +7670,8 @@
 
 "NISTu301":
   dimension_url: "#NISTd10"
+  short: us_dry_quart
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6885,6 +7694,8 @@
 
 "NISTu302":
   dimension_url: "#NISTd10"
+  short: us_quart
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6907,6 +7718,8 @@
 
 "NISTu303":
   dimension_url: "#NISTd10"
+  short: us_teaspoon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6923,6 +7736,8 @@
 
 "NISTu304":
   dimension_url: "#NISTd10"
+  short: us_tablespoon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6939,6 +7754,8 @@
 
 "NISTu305":
   dimension_url: "#NISTd10"
+  short: us_label_tablespoon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6956,6 +7773,8 @@
 
 "NISTu306":
   dimension_url: "#NISTd10"
+  short: us_label_teaspoon
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6973,6 +7792,8 @@
 
 "NISTu307":
   dimension_url: "#NISTd10"
+  short: us_label_cup
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -6990,6 +7811,8 @@
 
 "NISTu308":
   dimension_url: "#NISTd10"
+  short: us_label_fluid_ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7008,6 +7831,8 @@
 
 "NISTu309":
   dimension_url: "#NISTd2"
+  short: us_label_ounce
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7025,6 +7850,8 @@
 
 "NISTu310":
   dimension_url: "#NISTd1"
+  short: us_survey_chain
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7049,6 +7876,8 @@
 
 "NISTu311":
   dimension_url: "#NISTd1"
+  short: us_survey_link
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7068,6 +7897,8 @@
 
 "NISTu312":
   dimension_url: "#NISTd1"
+  short: us_survey_furlong
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7085,6 +7916,8 @@
 
 "NISTu313":
   dimension_url: "#NISTd1"
+  short: us_survey_mile
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7108,6 +7941,8 @@
 
 "NISTu314":
   dimension_url: "#NISTd1"
+  short: us_survey_yard
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7130,6 +7965,8 @@
 
 "NISTu315":
   dimension_url: "#NISTd1"
+  short: us_survey_foot
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7153,6 +7990,8 @@
 
 "NISTu316":
   dimension_url: "#NISTd1"
+  short: us_survey_inch
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7175,6 +8014,8 @@
 
 "NISTu317":
   dimension_url: "#NISTd1"
+  short: us_acre
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7192,6 +8033,8 @@
 
 "NISTu320":
   dimension_url: "#NISTd14"
+  short: 4C_cm_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7210,6 +8053,8 @@
 
 "NISTu321":
   dimension_url: "#NISTd14"
+  short: cm_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7235,6 +8080,8 @@
 
 "NISTu322":
   dimension_url: "#NISTd14"
+  short: in_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7260,6 +8107,8 @@
 
 "NISTu323":
   dimension_url: "#NISTd14"
+  short: 39F_in_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7278,6 +8127,8 @@
 
 "NISTu324":
   dimension_url: "#NISTd14"
+  short: 60F_in_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7296,6 +8147,8 @@
 
 "NISTu325":
   dimension_url: "#NISTd14"
+  short: ft_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7321,6 +8174,8 @@
 
 "NISTu326":
   dimension_url: "#NISTd14"
+  short: 39F_ft_water
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7339,6 +8194,8 @@
 
 "NISTu327":
   dimension_url: "#NISTd14"
+  short: 32F_in_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7369,6 +8226,8 @@
 
 "NISTu328":
   dimension_url: "#NISTd14"
+  short: 60F_in_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7399,6 +8258,8 @@
 
 "NISTu329":
   dimension_url: "#NISTd14"
+  short: in_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7431,6 +8292,8 @@
 
 "NISTu330":
   dimension_url: "#NISTd14"
+  short: ft_Hg
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7462,6 +8325,8 @@
 
 "NISTu331":
   dimension_url: "#NISTd15"
+  short: us_therm
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7493,6 +8358,8 @@
 
 "NISTu332":
   dimension_url: "#NISTd9"
+  short: pH
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7514,6 +8381,8 @@
 
 "NISTu133":
   dimension_url: "#NISTd5"
+  short: degree_Fahrenheit
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7535,6 +8404,8 @@
 
 "NISTu333":
   dimension_url: "#NISTd15"
+  short: table_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7558,6 +8429,8 @@
 
 "NISTu216":
   dimension_url: "#NISTd15"
+  short: thermo_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7579,6 +8452,8 @@
 
 "NISTu334":
   dimension_url: "#NISTd15"
+  short: mean_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7600,6 +8475,8 @@
 
 "NISTu335":
   dimension_url: "#NISTd15"
+  short: 39F_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7621,6 +8498,8 @@
 
 "NISTu336":
   dimension_url: "#NISTd15"
+  short: 59F_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7642,6 +8521,8 @@
 
 "NISTu337":
   dimension_url: "#NISTd15"
+  short: 60F_btu
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7663,6 +8544,8 @@
 
 "NISTu338":
   dimension_url: "#NISTd3"
+  short: tropical_year
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7681,6 +8564,8 @@
 
 "NISTu339":
   dimension_url: "#NISTd3"
+  short: sidereal_year
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7699,6 +8584,8 @@
 
 "NISTu340":
   dimension_url: "#NISTd3"
+  short: sidereal_day
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7717,6 +8604,8 @@
 
 "NISTu341":
   dimension_url: "#NISTd3"
+  short: sidereal_hour
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7735,6 +8624,8 @@
 
 "NISTu342":
   dimension_url: "#NISTd3"
+  short: sidereal_minute
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7753,6 +8644,8 @@
 
 "NISTu343":
   dimension_url: "#NISTd3"
+  short: sidereal_second
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7771,6 +8664,8 @@
 
 "NISTu344":
   dimension_url: "#NISTd1"
+  short: printers_point
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7787,6 +8682,8 @@
 
 "NISTu345":
   dimension_url: "#NISTd3"
+  short: shake
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7803,6 +8700,8 @@
 
 "NISTu346":
   dimension_url: "#NISTd58"
+  short: denier
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7819,6 +8718,8 @@
 
 "NISTu347":
   dimension_url: "#NISTd9"
+  short: nato_mil
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7837,6 +8738,8 @@
 
 "NISTu348":
   dimension_url: "#NISTd6"
+  short: pound_mole
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7859,6 +8762,8 @@
 
 "NISTu349":
   dimension_url: "#NISTd16"
+  short: ton_refrigeration
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7882,6 +8787,8 @@
 
 "NISTu350":
   dimension_url: "#NISTd9"
+  short: bit
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7903,6 +8810,8 @@
 
 "NISTu351":
   dimension_url: "#NISTd9"
+  short: byte
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7919,6 +8828,8 @@
 
 "NISTu352":
   dimension_url: "#NISTd10"
+  short: us_peck
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7940,6 +8851,8 @@
 
 "NISTu353":
   dimension_url: "#NISTd10"
+  short: us_minim
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7961,6 +8874,8 @@
 
 "NISTu354":
   dimension_url: "#NISTd10"
+  short: us_cup
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7978,6 +8893,8 @@
 
 "NISTu355":
   dimension_url: "#NISTd10"
+  short: us_fluid_dram
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -7996,6 +8913,8 @@
 
 "NISTu356":
   dimension_url: "#NISTd10"
+  short: us_gill
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8018,6 +8937,8 @@
 
 "NISTu357":
   dimension_url: "#NISTd10"
+  short: imperial_gill
+  root: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8041,6 +8962,8 @@
 
 "NISTu121":
   dimension_url: "#NISTd56"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8063,6 +8986,8 @@
 
 "NISTu57":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8083,6 +9008,8 @@
 
 "NISTu358":
   dimension_url: "#NISTd66"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8107,6 +9034,8 @@
 
 "NISTu359":
   dimension_url: "#NISTd66"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8131,6 +9060,8 @@
 
 "NISTu360":
   dimension_url: "#NISTd66"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8155,6 +9086,8 @@
 
 "NISTu361":
   dimension_url: "#NISTd1"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8172,6 +9105,8 @@
 
 "NISTu362":
   dimension_url: "#NISTd14"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8196,6 +9131,8 @@
 
 "NISTu363":
   dimension_url: "#NISTd9"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8229,6 +9166,8 @@
 
 "NISTu364":
   dimension_url: "#NISTd66"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8262,6 +9201,8 @@
 
 "NISTu365":
   dimension_url: "#NISTd10"
+  short:
+  root: false
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -8292,6 +9233,8 @@
 
 "NISTu366":
   dimension_url: "#NISTd34"
+  short:
+  root: false
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -8324,6 +9267,8 @@
 
 "NISTu6.u27p10'3e-1/1":
   dimension_url: "#NISTd79"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8349,6 +9294,8 @@
 
 "NISTu368":
   dimension_url: "#NISTd86"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8365,6 +9312,8 @@
 
 "NISTu369":
   dimension_url: "#NISTd87"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8381,6 +9330,8 @@
 
 "NISTu370":
   dimension_url: "#NISTd88"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8397,6 +9348,8 @@
 
 "NISTu371":
   dimension_url: "#NISTd89"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8413,6 +9366,8 @@
 
 "NISTu372":
   dimension_url: "#NISTd90"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8429,6 +9384,8 @@
 
 "NISTu373":
   dimension_url: "#NISTd91"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8445,6 +9402,8 @@
 
 "NISTu374":
   dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd92"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
@@ -8458,6 +9417,8 @@
 
 "NISTu375":
   dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd93"
+  short:
+  root: false
   unit_system:
     type: "SI_derived_non-special"
     name: "SI"
