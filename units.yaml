@@ -5970,9 +5970,7 @@
     - "atomic unit of momentum"
   unit_symbol:
     ascii: "h-bar*(a_0)-1"
-    html: |
-        <i>&#295;</i>/ <i>a</i>
-        <sub>0</sub>
+    html: <i>&#295;</i>/ <i>a</i> <sub>0</sub>
     latex: \ensuremath{\mathit{\hbar}/\mathit{a}_0}
   root_units:
     enumerated_root_units:
@@ -6010,9 +6008,7 @@
     - "atomic unit of current"
   unit_symbol:
     ascii: "eE_h*h-bar^-1"
-    html: |
-      <i>eE</i>
-      <sub>h</sub>/&#295;
+    html: <i>eE</i> <sub>h</sub>/&#295;
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_current"
@@ -6031,10 +6027,7 @@
     - "atomic unit of electric dipole moment"
   unit_symbol:
     ascii: "e*a_0"
-    html: |
-        <i>ea</i>
-        <sub>0</sub>
-
+    html: <i>ea</i> <sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_dipole_moment"
@@ -6053,11 +6046,7 @@
     - "atomic unit of electric field"
   unit_symbol:
     ascii: "E_h*(e*a_0)"
-    html: |
-        <i>E</i>
-        <sub>h</sub>/ <i>ea</i>
-        <sub>0</sub>
-
+    html: <i>E</i> <sub>h</sub>/ <i>ea</i> <sub>0</sub>
   root_units:
     enumerated_root_units:
       - unit: "atomic_unit_of_electric_field"
