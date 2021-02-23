@@ -196,6 +196,12 @@
       mathml: "<mi mathvariant='normal'>K</mi>"
       latex: \ensuremath{\mathrm{K}}
       unicode: "K"
+    - id: "degK"
+      ascii: "degK"
+      html: "&#176;K"
+      mathml: "<mi mathvariant='normal'>&#176;K</mi>"
+      latex: \ensuremath{\mathrm{^{\circ}K}}
+      unicode: "°K"
   root_units:
     enumerated_root_units:
       - unit: "kelvin"
