@@ -9306,7 +9306,7 @@
       url: "#NISTq147"
 
 "NISTu374":
-  dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd92"
+  dimension_url: "#NISTd92"
   short:
   root: false
   unit_system:
@@ -9321,7 +9321,7 @@
       unicode: "1"
 
 "NISTu375":
-  dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd93"
+  dimension_url: "#NISTd93"
   short:
   root: false
   unit_system:
