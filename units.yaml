@@ -5250,7 +5250,7 @@
 
 "NISTu201":
   dimension_url: "#NISTd2"
-  short: pound
+  short: av_pound
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -5266,7 +5266,7 @@
       unicode: "lb"
   root_units:
     enumerated_root_units:
-      - unit: "pound"
+      - unit: "av_pound"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
@@ -5275,7 +5275,7 @@
 
 "NISTu202":
   dimension_url: "#NISTd2"
-  short: ounce
+  short: av_ounce
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -5291,7 +5291,7 @@
       unicode: "oz"
   root_units:
     enumerated_root_units:
-      - unit: "ounce"
+      - unit: "av_ounce"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
@@ -5338,7 +5338,7 @@
       unicode: "lb/ft³"
   root_units:
     enumerated_root_units:
-      - unit: "pound"
+      - unit: "av_pound"
         power_denominator: 1
         power_numerator: 1
       - unit: "foot"
@@ -7058,7 +7058,7 @@
 
 "NISTu275":
   dimension_url: "#NISTd2"
-  short: dram
+  short: av_dram
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -7073,7 +7073,7 @@
       unicode: "dr (avdp)"
   root_units:
     enumerated_root_units:
-      - unit: "dram"
+      - unit: "av_dram"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
