@@ -1945,6 +1945,8 @@ NISTq13:
       url: "#NISTu262"
     - name: dyne
       url: "#NISTu71"
+    - name: gram-force
+      url: "#NISTu196"
     - name: kilogram-force
       url: "#NISTu72"
     - name: kilopond

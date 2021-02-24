@@ -5248,6 +5248,31 @@
     - name: "action"
       url: "#NISTq154"
 
+"NISTu196":
+  dimension_url: "#NISTd12"
+  short: gram_force
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "gram-force"
+  unit_symbols:
+    - ascii: "gf"
+      html: "gf"
+      latex: \ensuremath{\mathrm{gf}}
+      unicode: "gf"
+  root_units:
+    enumerated_root_units:
+      - unit: "gram_force"
+        power_denominator: 1
+        power_numerator: 1
+        prefix: k
+  quantity_reference:
+    - name: "force"
+      url: "#NISTq13"
+
+
 "NISTu201":
   dimension_url: "#NISTd2"
   short: av_pound
