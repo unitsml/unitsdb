@@ -9309,3 +9309,96 @@
       html: "1"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
+
+"NISTu376":
+  dimension_url: "#NISTd1"
+  short: light_week
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light week"
+  unit_symbols:
+    - ascii: "l.w."
+      html: "l.w."
+      latex: \ensuremath{\mathrm{l.w.}}
+      unicode: "l.w."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_week"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu377":
+  dimension_url: "#NISTd1"
+  short: light_hour
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light hour"
+  unit_symbols:
+    - ascii: "l.h."
+      html: "l.h."
+      latex: \ensuremath{\mathrm{l.h.}}
+      unicode: "l.h."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_hour"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu378":
+  dimension_url: "#NISTd1"
+  short: light_minute
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light minute"
+  unit_symbols:
+    - ascii: "l.m."
+      html: "l.m."
+      latex: \ensuremath{\mathrm{l.m.}}
+      unicode: "l.m."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_minute"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu379":
+  dimension_url: "#NISTd1"
+  short: light_second
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light second"
+  unit_symbols:
+    - ascii: "l.s."
+      html: "l.s."
+      latex: \ensuremath{\mathrm{l.s.}}
+      unicode: "l.s."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_second"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
