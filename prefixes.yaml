@@ -273,3 +273,22 @@ NISTp2_60:
   base: 2
   power: 60
 
+NISTp2_70:
+  name: zebi
+  symbol:
+    ascii: Zi
+    html: Zi
+    latex: Zi
+    unicode: Zi
+  base: 2
+  power: 70
+
+NISTp2_80:
+  name: yobi
+  symbol:
+    ascii: Yi
+    html: Yi
+    latex: Yi
+    unicode: Yi
+  base: 2
+  power: 80
