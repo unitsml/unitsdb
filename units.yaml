@@ -4473,7 +4473,7 @@
   unit_name:
     - "bel"
   unit_symbols:
-    - id: "bel"
+    - id: "bel_B"
       ascii: "B"
       html: "B"
       mathml: "<mi mathvariant='normal'>B</mi>"
@@ -9744,7 +9744,7 @@
   unit_name:
     - "byte"
   unit_symbols:
-    - id: "byte"
+    - id: "byte_B"
       ascii: "B"
       html: "B"
       mathml: "<mi mathvariant='normal'>B</mi>"
