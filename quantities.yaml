@@ -1344,8 +1344,8 @@ NISTq77:
       url: "#NISTu331"
     - name: I.T. calorie
       url: "#NISTu60"
-    - name: calorie_th
-      url: "#NISTu61"
+    - name: thermo_calorie
+      url: "#NISTu227"
     - name: erg
       url: "#NISTu62"
     - name: kilocalorie_IT
@@ -1945,6 +1945,8 @@ NISTq13:
       url: "#NISTu262"
     - name: dyne
       url: "#NISTu71"
+    - name: gram-force
+      url: "#NISTu196"
     - name: kilogram-force
       url: "#NISTu72"
     - name: kilopond
@@ -2160,8 +2162,8 @@ NISTq17:
       url: "#NISTu331"
     - name: I.T. calorie
       url: "#NISTu60"
-    # - name: calorie_th
-    #   url: "#NISTu61"
+    - name: thermo_calorie
+      url: "#NISTu227"
     - name: erg
       url: "#NISTu62"
     - name: kilocalorie_IT
@@ -2299,8 +2301,8 @@ NISTq18:
       url: "#NISTu331"
     - name: I.T. calorie
       url: "#NISTu60"
-    # - name: calorie_th
-    #   url: "#NISTu61"
+    - name: thermo_calorie
+      url: "#NISTu227"
     - name: erg
       url: "#NISTu62"
     - name: kilocalorie_IT
@@ -2362,8 +2364,8 @@ NISTq19:
       url: "#NISTu337"
     - name: I.T. calorie
       url: "#NISTu60"
-    # - name: calorie_th
-    #   url: "#NISTu61"
+    - name: thermo_calorie
+      url: "#NISTu227"
     - name: erg
       url: "#NISTu62"
     - name: kilocalorie_IT

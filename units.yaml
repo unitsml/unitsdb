@@ -4265,7 +4265,6 @@
       - unit: "meter"
         power_denominator: 1
         power_numerator: -2
-    enumerated_root_units:
       - unit: "steradian"
         power_denominator: 1
         power_numerator: -1
@@ -5695,9 +5694,34 @@
     - name: "action"
       url: "#NISTq154"
 
+"NISTu196":
+  dimension_url: "#NISTd12"
+  short: gram_force
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "gram-force"
+  unit_symbols:
+    - ascii: "gf"
+      html: "gf"
+      latex: \ensuremath{\mathrm{gf}}
+      unicode: "gf"
+  root_units:
+    enumerated_root_units:
+      - unit: "gram_force"
+        power_denominator: 1
+        power_numerator: 1
+        prefix: k
+  quantity_reference:
+    - name: "force"
+      url: "#NISTq13"
+
+
 "NISTu201":
   dimension_url: "#NISTd2"
-  short: pound
+  short: av_pound
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -5715,7 +5739,7 @@
       unicode: "lb"
   root_units:
     enumerated_root_units:
-      - unit: "pound"
+      - unit: "av_pound"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
@@ -5724,7 +5748,7 @@
 
 "NISTu202":
   dimension_url: "#NISTd2"
-  short: ounce
+  short: av_ounce
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -5742,7 +5766,7 @@
       unicode: "oz"
   root_units:
     enumerated_root_units:
-      - unit: "ounce"
+      - unit: "av_ounce"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
@@ -5793,7 +5817,7 @@
       unicode: "lb/ft³"
   root_units:
     enumerated_root_units:
-      - unit: "pound"
+      - unit: "av_pound"
         power_denominator: 1
         power_numerator: 1
       - unit: "foot"
@@ -7692,7 +7716,7 @@
 
 "NISTu275":
   dimension_url: "#NISTd2"
-  short: dram
+  short: av_dram
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -7709,7 +7733,7 @@
       unicode: "dr (avdp)"
   root_units:
     enumerated_root_units:
-      - unit: "dram"
+      - unit: "av_dram"
         power_denominator: 1
         power_numerator: 1
   quantity_reference:
@@ -10144,7 +10168,7 @@
       url: "#NISTq147"
 
 "NISTu374":
-  dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd92"
+  dimension_url: "#NISTd92"
   short:
   root: false
   unit_system:
@@ -10161,7 +10185,7 @@
       unicode: "1"
 
 "NISTu375":
-  dimension_url: "http://ecsed/UnitsML/dimension/id/NISTd93"
+  dimension_url: "#NISTd93"
   short:
   root: false
   unit_system:
@@ -10176,3 +10200,96 @@
       mathml: "<mi mathvariant='normal'>1</mi>"
       latex: \ensuremath{\mathrm{1}}
       unicode: "1"
+
+"NISTu376":
+  dimension_url: "#NISTd1"
+  short: light_week
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light week"
+  unit_symbols:
+    - ascii: "l.w."
+      html: "l.w."
+      latex: \ensuremath{\mathrm{l.w.}}
+      unicode: "l.w."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_week"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu377":
+  dimension_url: "#NISTd1"
+  short: light_hour
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light hour"
+  unit_symbols:
+    - ascii: "l.h."
+      html: "l.h."
+      latex: \ensuremath{\mathrm{l.h.}}
+      unicode: "l.h."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_hour"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu378":
+  dimension_url: "#NISTd1"
+  short: light_minute
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light minute"
+  unit_symbols:
+    - ascii: "l.m."
+      html: "l.m."
+      latex: \ensuremath{\mathrm{l.m.}}
+      unicode: "l.m."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_minute"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
+"NISTu379":
+  dimension_url: "#NISTd1"
+  short: light_second
+  root: true
+  unit_system:
+    type: "non-SI_not_acceptable"
+    name: "non-SI"
+  unit_name:
+    - "light second"
+  unit_symbols:
+    - ascii: "l.s."
+      html: "l.s."
+      latex: \ensuremath{\mathrm{l.s.}}
+      unicode: "l.s."
+  root_units:
+    enumerated_root_units:
+      - unit: "light_second"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "length"
+      url: "#NISTq1"
+
