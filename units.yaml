@@ -1315,7 +1315,7 @@
   unit_name:
     - "barn"
   unit_symbols:
-    - id: "b"
+    - id: "barn"
       ascii: "b"
       html: "b"
       mathml: "<mi mathvariant='normal'>b</mi>"
@@ -4473,7 +4473,7 @@
   unit_name:
     - "bel"
   unit_symbols:
-    - id: "B"
+    - id: "bel"
       ascii: "B"
       html: "B"
       mathml: "<mi mathvariant='normal'>B</mi>"
@@ -7751,6 +7751,13 @@
     name: "non-SI"
   unit_name:
     - "footcandle"
+  unit_symbols:
+    - id: "ft.c"
+      ascii: "ft.c"
+      html: "ft.c"
+      mathml: "<mi mathvariant='normal'>ft.c</mi>"
+      latex: \ensuremath{\mathrm{ft.c}}
+      unicode: "ft.c"
   root_units:
     enumerated_root_units:
       - unit: "footcandle"
@@ -7794,6 +7801,13 @@
     name: "non-SI"
   unit_name:
     - "pica (computer)"
+  unit_symbols:
+    - id: "pica_computer"
+      ascii: "pc"
+      html: "pc"
+      mathml: "<mi mathvariant='normal'>pc</mi>"
+      latex: \ensuremath{\mathrm{pc}}
+      unicode: "pc"
   root_units:
     enumerated_root_units:
       - unit: "computer_pica"
@@ -7814,6 +7828,13 @@
     name: "non-SI"
   unit_name:
     - "pica (printer's)"
+  unit_symbols:
+    - id: "pica_printer"
+      ascii: "pc"
+      html: "pc"
+      mathml: "<mi mathvariant='normal'>pc</mi>"
+      latex: \ensuremath{\mathrm{pc}}
+      unicode: "pc"
   root_units:
     enumerated_root_units:
       - unit: "printers_pica"
@@ -7832,6 +7853,13 @@
     name: "non-SI"
   unit_name:
     - "point (computer)"
+  unit_symbols:
+    - id: "pt_computer"
+      ascii: "pt"
+      html: "pt"
+      mathml: "<mi mathvariant='normal'>pt</mi>"
+      latex: \ensuremath{\mathrm{pt}}
+      unicode: "pt"
   root_units:
     enumerated_root_units:
       - unit: "computer_point"
@@ -7904,6 +7932,13 @@
     name: "non-SI"
   unit_name:
     - "circular mil"
+  unit_symbols:
+    - id: "cmil"
+      ascii: "cmil"
+      html: "cmil"
+      mathml: "<mi mathvariant='normal'>cmil</mi>"
+      latex: \ensuremath{\mathrm{cmil}}
+      unicode: "cmil"
   root_units:
     enumerated_root_units:
       - unit: "circular_mil"
@@ -8402,6 +8437,13 @@
     name: "non-SI"
   unit_name:
     - "teaspoon"
+  unit_symbols:
+    - id: "tsp"
+      ascii: "tsp"
+      html: "tsp"
+      mathml: "<mi mathvariant='normal'>tsp</mi>"
+      latex: \ensuremath{\mathrm{tsp}}
+      unicode: "tsp"
   root_units:
     enumerated_root_units:
       - unit: "us_teaspoon"
@@ -8420,6 +8462,13 @@
     name: "non-SI"
   unit_name:
     - "tablespoon"
+  unit_symbols:
+    - id: "tbsp"
+      ascii: "tbsp"
+      html: "tbsp"
+      mathml: "<mi mathvariant='normal'>tbsp</mi>"
+      latex: \ensuremath{\mathrm{tbsp}}
+      unicode: "tbsp"
   root_units:
     enumerated_root_units:
       - unit: "us_tablespoon"
@@ -8439,6 +8488,13 @@
   unit_name:
     - "tablespoon (FDA)"
     - "teaspoon"
+  unit_symbols:
+    - id: "tbsp_label"
+      ascii: "tbsp"
+      html: "tbsp"
+      mathml: "<mi mathvariant='normal'>tbsp</mi>"
+      latex: \ensuremath{\mathrm{tbsp}}
+      unicode: "tbsp"
   root_units:
     enumerated_root_units:
       - unit: "us_label_tablespoon"
@@ -8458,6 +8514,13 @@
   unit_name:
     - "teaspoon (FDA)"
     - "teaspoon"
+  unit_symbols:
+    - id: "tsp_label"
+      ascii: "tsp"
+      html: "tsp"
+      mathml: "<mi mathvariant='normal'>tsp</mi>"
+      latex: \ensuremath{\mathrm{tsp}}
+      unicode: "tsp"
   root_units:
     enumerated_root_units:
       - unit: "us_label_teaspoon"
@@ -8477,6 +8540,13 @@
   unit_name:
     - "cup (FDA)"
     - "cup"
+  unit_symbols:
+    - id: "cup_label"
+      ascii: "cup"
+      html: "cup"
+      mathml: "<mi mathvariant='normal'>cup</mi>"
+      latex: \ensuremath{\mathrm{cup}}
+      unicode: "cup"
   root_units:
     enumerated_root_units:
       - unit: "us_label_cup"
@@ -8497,6 +8567,13 @@
     - "fluid ounce (FDA)"
     - "fluid ounce"
     - "ounce"
+  unit_symbols:
+    - id: "fl oz (US label)"
+      ascii: "fl oz (US label)"
+      html: "fl oz (US label)"
+      mathml: "<mi mathvariant='normal'>fl oz (US label)</mi>"
+      latex: \ensuremath{\mathrm{fl oz (US label)}}
+      unicode: "fl oz (US label)"
   root_units:
     enumerated_root_units:
       - unit: "us_label_fluid_ounce"
@@ -8516,6 +8593,13 @@
   unit_name:
     - "ounce (FDA)"
     - "ounce"
+  unit_symbols:
+    - id: "oz (US label)"
+      ascii: "oz (US label)"
+      html: "oz (US label)"
+      mathml: "<mi mathvariant='normal'>oz (US label)</mi>"
+      latex: \ensuremath{\mathrm{oz (US label)}}
+      unicode: "oz (US label)"
   root_units:
     enumerated_root_units:
       - unit: "us_label_ounce"
@@ -8565,6 +8649,13 @@
     - "surveyors link"
     - "Gunter's link"
     - "link"
+  unit_symbols:
+    - id: "lnk"
+      ascii: "lnk"
+      html: "lnk"
+      mathml: "<mi mathvariant='normal'>lnk</mi>"
+      latex: \ensuremath{\mathrm{lnk}}
+      unicode: "lnk"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_link"
@@ -8584,6 +8675,13 @@
   unit_name:
     - "furlong (based on US survey foot)"
     - "furlong"
+  unit_symbols:
+    - id: "fur"
+      ascii: "fur"
+      html: "fur"
+      mathml: "<mi mathvariant='normal'>fur</mi>"
+      latex: \ensuremath{\mathrm{fur}}
+      unicode: "fur"
   root_units:
     enumerated_root_units:
       - unit: "us_survey_furlong"
@@ -8709,6 +8807,13 @@
   unit_name:
     - "acre (based on US survey foot)"
     - "acre"
+  unit_symbols:
+    - id: "ac"
+      ascii: "ac"
+      html: "ac"
+      mathml: "<mi mathvariant='normal'>ac</mi>"
+      latex: \ensuremath{\mathrm{ac}}
+      unicode: "ac"
   root_units:
     enumerated_root_units:
       - unit: "us_acre"
@@ -8727,6 +8832,13 @@
     name: "non-SI"
   unit_name:
     - "centimeter of water (4 degC)"
+  unit_symbols:
+    - id: "cmH_2O_4degC"
+      ascii: "cmH_2O"
+      html: cmH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>cm</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
+      latex: \ensuremath{\mathrm{cmH_{2}O}}
+      unicode: "cmH₂O"
   root_units:
     enumerated_root_units:
       - unit: "4C_cm_water"
@@ -8805,6 +8917,13 @@
     name: "non-SI"
   unit_name:
     - "inch of water (39.2 degF)"
+  unit_symbols:
+    - id: "inH_2O_39degF"
+      ascii: "inH_2O"
+      html: inH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
+      latex: \ensuremath{\mathrm{inH_{2}O}}
+      unicode: "inH₂O"
   root_units:
     enumerated_root_units:
       - unit: "39F_in_water"
@@ -8825,6 +8944,13 @@
     name: "non-SI"
   unit_name:
     - "inch of water (60 degF)"
+  unit_symbols:
+    - id: "inH_2O_60degF"
+      ascii: "inH_2O"
+      html: inH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
+      latex: \ensuremath{\mathrm{inH_{2}O}}
+      unicode: "inH₂O"
   root_units:
     enumerated_root_units:
       - unit: "60F_in_water"
@@ -8874,6 +9000,13 @@
     name: "non-SI"
   unit_name:
     - "foot of water (39.2 degF)"
+  unit_symbols:
+    - id: "ftH_2O_39degF"
+      ascii: "ftH_2O"
+      html: ftH<sub>2</sub>O
+      mathml: "<mrow><mi mathvariant='normal'>ft</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi mathvariant='normal'>O</mi></mrow>"
+      latex: \ensuremath{\mathrm{ftH_{2}O}}
+      unicode: "ftH₂O"
   root_units:
     enumerated_root_units:
       - unit: "39F_ft_water"
@@ -9270,6 +9403,13 @@
     - "year, tropical"
     - "tropical year"
     - "year"
+  unit_symbols:
+    - id: "a_tropical_year"
+      ascii: "a"
+      html: "a"
+      mathml: "<mi mathvariant='normal'>a</mi>"
+      latex: \ensuremath{\mathrm{a}}
+      unicode: "a"
   root_units:
     enumerated_root_units:
       - unit: "tropical_year"
@@ -9290,6 +9430,13 @@
     - "year, sidereal"
     - "sidereal year"
     - "year"
+  unit_symbols:
+    - id: "a_sidereal_year"
+      ascii: "a"
+      html: "a"
+      mathml: "<mi mathvariant='normal'>a</mi>"
+      latex: \ensuremath{\mathrm{a}}
+      unicode: "a"
   root_units:
     enumerated_root_units:
       - unit: "sidereal_year"
@@ -9310,6 +9457,13 @@
     - "day, sidereal"
     - "sidereal day"
     - "day"
+  unit_symbols:
+    - id: "d_sidereal"
+      ascii: "d"
+      html: "d"
+      mathml: "<mi mathvariant='normal'>d</mi>"
+      latex: \ensuremath{\mathrm{d}}
+      unicode: "d"
   root_units:
     enumerated_root_units:
       - unit: "sidereal_day"
@@ -9330,6 +9484,13 @@
     - "hour, sidereal"
     - "sidereal hour"
     - "hour"
+  unit_symbols:
+    - id: "h_sidereal"
+      ascii: "h"
+      html: "h"
+      mathml: "<mi mathvariant='normal'>h</mi>"
+      latex: \ensuremath{\mathrm{h}}
+      unicode: "h"
   root_units:
     enumerated_root_units:
       - unit: "sidereal_hour"
@@ -9350,6 +9511,13 @@
     - "minute, sidereal"
     - "sidereal minute"
     - "minute"
+  unit_symbols:
+    - id: "min_sidereal"
+      ascii: "min"
+      html: "min"
+      mathml: "<mi mathvariant='normal'>min</mi>"
+      latex: \ensuremath{\mathrm{min}}
+      unicode: "min"
   root_units:
     enumerated_root_units:
       - unit: "sidereal_minute"
@@ -9370,6 +9538,13 @@
     - "second, sidereal"
     - "sidereal second"
     - "second"
+  unit_symbols:
+    - id: "s_sidereal"
+      ascii: "s"
+      html: "s"
+      mathml: "<mi mathvariant='normal'>s</mi>"
+      latex: \ensuremath{\mathrm{s}}
+      unicode: "s"
   root_units:
     enumerated_root_units:
       - unit: "sidereal_second"
@@ -9388,6 +9563,13 @@
     name: "non-SI"
   unit_name:
     - "point (printer's)"
+  unit_symbols:
+    - id: "pt_printer"
+      ascii: "pt"
+      html: "pt"
+      mathml: "<mi mathvariant='normal'>pt</mi>"
+      latex: \ensuremath{\mathrm{pt}}
+      unicode: "pt"
   root_units:
     enumerated_root_units:
       - unit: "printers_point"
@@ -9406,6 +9588,13 @@
     name: "non-SI"
   unit_name:
     - "shake"
+  unit_symbols:
+    - id: "shake"
+      ascii: "shake"
+      html: "shake"
+      mathml: "<mi mathvariant='normal'>shake</mi>"
+      latex: \ensuremath{\mathrm{shake}}
+      unicode: "shake"
   root_units:
     enumerated_root_units:
       - unit: "shake"
@@ -9424,6 +9613,13 @@
     name: "non-SI"
   unit_name:
     - "denier"
+  unit_symbols:
+    - id: "den"
+      ascii: "den"
+      html: "den"
+      mathml: "<mi mathvariant='normal'>den</mi>"
+      latex: \ensuremath{\mathrm{den}}
+      unicode: "den"
   root_units:
     enumerated_root_units:
       - unit: "denier"
@@ -9444,6 +9640,13 @@
     - "angular mil (NATO)"
     - "angular mil"
     - "mil"
+  unit_symbols:
+    - id: "mil_nato"
+      ascii: "mil"
+      html: "mil"
+      mathml: "<mi mathvariant='normal'>mil</mi>"
+      latex: \ensuremath{\mathrm{mil}}
+      unicode: "mil"
   root_units:
     enumerated_root_units:
       - unit: "nato_mil"
@@ -9540,6 +9743,13 @@
     name: "non-SI"
   unit_name:
     - "byte"
+  unit_symbols:
+    - id: "byte"
+      ascii: "B"
+      html: "B"
+      mathml: "<mi mathvariant='normal'>B</mi>"
+      latex: \ensuremath{\mathrm{B}}
+      unicode: "B"
   root_units:
     enumerated_root_units:
       - unit: "byte"
@@ -9609,6 +9819,13 @@
   unit_name:
     - "cup (US)"
     - "cup"
+  unit_symbols:
+    - id: "cup"
+      ascii: "cup"
+      html: "cup"
+      mathml: "<mi mathvariant='normal'>cup</mi>"
+      latex: \ensuremath{\mathrm{cup}}
+      unicode: "cup"
   root_units:
     enumerated_root_units:
       - unit: "us_cup"
@@ -9629,6 +9846,13 @@
     - "fluid dram"
     - "dram, fluid"
     - "dram"
+  unit_symbols:
+    - id: "fl dr"
+      ascii: "fl dr"
+      html: "fl dr"
+      mathml: "<mi mathvariant='normal'>fl dr</mi>"
+      latex: \ensuremath{\mathrm{fl dr}}
+      unicode: "fl dr"
   root_units:
     enumerated_root_units:
       - unit: "us_fluid_dram"
