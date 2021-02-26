@@ -1740,9 +1740,9 @@ NISTq24:
 NISTq25:
   dimension_url: "#NISTd18"
   quantity_type: derived
-quantity_name:
+  quantity_name:
     - potential difference
-unit_reference:
+  unit_reference:
     - name: volt
       url: "#NISTu16"
     - name: abvolt
