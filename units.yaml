@@ -10266,7 +10266,7 @@
     - id: "l.m."
       ascii: "l.m."
       html: "l.m."
-      mahtml: "l.m."
+      mathml: "l.m."
       latex: \ensuremath{\mathrm{l.m.}}
       unicode: "l.m."
   root_units:
