@@ -1523,8 +1523,8 @@
   unit_symbols:
     - id: "abS"
       ascii: "abS"
-      html: (ab&#937;) <sup>-1</sup>
-      mathml: "<mi mathvariant='normal'>(ab&#937;) <sup>-1</sup></mi>"
+      html: (ab&#937;)<sup>-1</sup>
+      mathml: "<mrow><msup><mi mathvariant='normal'>(ab&#937;)</mi><mn>-1</mn></mrow>"
       latex: \ensuremath{\mathrm{(ab\Omega)^{-1}}
       unicode: "(abΩ)⁻¹"
   root_units:
