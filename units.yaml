@@ -7090,7 +7090,7 @@
   unit_symbols:
     - id: "e_h"
       ascii: "e_h"
-      html: <i>E</i>h
+      html: <i>E</i><sub>h</sub>
       mathml: "<msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub>"
       latex: \ensuremath{\mathit{E}_\mathrm{h}}
       unicode: 𝐸ₕ
