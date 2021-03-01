@@ -79,6 +79,7 @@
   dimension_url: "#NISTd2"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "SI_base"
     name: "SI"
@@ -1804,6 +1805,7 @@
   dimension_url: "#NISTd15"
   short: table_kg_calorie
   root: true
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1839,6 +1841,7 @@
   dimension_url: "#NISTd15"
   short: thermo_kg_calorie
   root: true
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -1975,6 +1978,7 @@
   dimension_url: "#NISTd12"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -3131,6 +3135,7 @@
   dimension_url: "#NISTd36"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -4496,6 +4501,7 @@
   dimension_url: "#NISTd9"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -10058,6 +10064,7 @@
   dimension_url: "#NISTd1"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -10084,6 +10091,7 @@
   dimension_url: "#NISTd14"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -10180,7 +10188,8 @@
 
 "NISTu365":
   dimension_url: "#NISTd10"
-  short: mililiter
+  short: milliliter
+  prefixed: true
   root: false
   unit_system:
     type: "non-SI_acceptable"
