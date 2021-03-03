@@ -228,6 +228,12 @@
       mathml: "<mi mathvariant='normal'>in</mi>"
       latex: \ensuremath{\mathrm{in}}
       unicode: "in"
+    - id: "dprime_in"
+      ascii: "in"
+      html: "in"
+      mathml: "<mi mathvariant='normal'>in</mi>"
+      latex: \ensuremath{\mathrm{in}}
+      unicode: "in"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -2098,6 +2104,12 @@
     - "foot"
   unit_symbols:
     - id: "ft"
+      ascii: "ft"
+      html: "ft"
+      mathml: "<mi mathvariant='normal'>ft</mi>"
+      latex: \ensuremath{\mathrm{ft}}
+      unicode: "ft"
+    - id: "prime_ft"
       ascii: "ft"
       html: "ft"
       mathml: "<mi mathvariant='normal'>ft</mi>"
@@ -4318,6 +4330,12 @@
       mathml: "<mi mathvariant='normal'>&#8243;</mi>"
       latex: \ensuremath{\mathrm{''}}
       unicode: "″"
+    - id: "dprime"
+      ascii: "\""
+      html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+      latex: \ensuremath{\mathrm{''}}
+      unicode: "″"
   root_units:
     enumerated_root_units:
       - unit: "arc_second"
@@ -4338,6 +4356,12 @@
     - "minute (minute of arc)"
   unit_symbols:
     - id: "'"
+      ascii: "'"
+      html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+      latex: \ensuremath{\mathrm{'}}
+      unicode: "′"
+    - id: "prime"
       ascii: "'"
       html: "&#8242;"
       mathml: "<mi mathvariant='normal'>&#8242;</mi>"
@@ -9046,6 +9070,12 @@
       mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
       latex: \ensuremath{\mathrm{''Hg}}
       unicode: "″Hg"
+    - id: "dprime_Hg_32degF"
+      ascii: "\"Hg"
+      html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
+      latex: \ensuremath{\mathrm{''Hg}}
+      unicode: "″Hg"
   root_units:
     enumerated_root_units:
       - unit: "32F_in_Hg"
@@ -9074,6 +9104,12 @@
       latex: '\ensuremath{\mathrm{inHg}}'
       unicode: "inHg"
     - id: "\"Hg_60degF"
+      ascii: "\"Hg"
+      html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
+      latex: \ensuremath{\mathrm{''Hg}}
+      unicode: "″Hg"
+    - id: "dprime_Hg_60degF"
       ascii: "\"Hg"
       html: "&#8243;Hg"
       mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
@@ -9114,6 +9150,12 @@
       mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
       latex: \ensuremath{\mathrm{''Hg}}
       unicode: "″Hg"
+    - id: "dprime_Hg"
+      ascii: "\"Hg"
+      html: "&#8243;Hg"
+      mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
+      latex: \ensuremath{\mathrm{''Hg}}
+      unicode: "″Hg"
   root_units:
     enumerated_root_units:
       - unit: "in_Hg"
@@ -9144,6 +9186,12 @@
       latex: '\ensuremath{\mathrm{ftnHg}}'
       unicode: "ftHg"
     - id: "'Hg"
+      ascii: "'Hg"
+      html: "&#8242;Hg"
+      mathml: "<mi mathvariant='normal'>&#8242;Hg</mi>"
+      latex: \ensuremath{\mathrm{'Hg}}
+      unicode: "′Hg"
+    - id: "prime_Hg"
       ascii: "'Hg"
       html: "&#8242;Hg"
       mathml: "<mi mathvariant='normal'>&#8242;Hg</mi>"
