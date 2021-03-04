@@ -118,6 +118,18 @@
       mathml: "<mi mathvariant='normal'>s</mi>"
       latex: \ensuremath{\mathrm{s}}
       unicode: "s"
+    - id: "\"_s"
+      ascii: "s"
+      html: "s"
+      mathml: "<mi mathvariant='normal'>s</mi>"
+      latex: \ensuremath{\mathrm{s}}
+      unicode: "s"
+    - id: "dprime_s"
+      ascii: "s"
+      html: "s"
+      mathml: "<mi mathvariant='normal'>s</mi>"
+      latex: \ensuremath{\mathrm{s}}
+      unicode: "s"
   root_units:
     enumerated_root_units:
       - unit: "second"
@@ -1196,6 +1208,18 @@
     - "minute"
   unit_symbols:
     - id: "min"
+      ascii: "min"
+      html: "min"
+      mathml: "<mi mathvariant='normal'>min</mi>"
+      latex: \ensuremath{\mathrm{min}}
+      unicode: "min"
+    - id: "'_min"
+      ascii: "min"
+      html: "min"
+      mathml: "<mi mathvariant='normal'>min</mi>"
+      latex: \ensuremath{\mathrm{min}}
+      unicode: "min"
+    - id: "prime_min"
       ascii: "min"
       html: "min"
       mathml: "<mi mathvariant='normal'>min</mi>"
