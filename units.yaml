@@ -119,17 +119,17 @@
       latex: \ensuremath{\mathrm{s}}
       unicode: "s"
     - id: "\"_s"
-      ascii: "s"
-      html: "s"
-      mathml: "<mi mathvariant='normal'>s</mi>"
-      latex: \ensuremath{\mathrm{s}}
-      unicode: "s"
+      ascii: "\""
+      html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+      latex: \ensuremath{\mathrm{''}}
+      unicode: "″"
     - id: "dprime_s"
-      ascii: "s"
-      html: "s"
-      mathml: "<mi mathvariant='normal'>s</mi>"
-      latex: \ensuremath{\mathrm{s}}
-      unicode: "s"
+      ascii: "\""
+      html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+      latex: \ensuremath{\mathrm{''}}
+      unicode: "″"
   root_units:
     enumerated_root_units:
       - unit: "second"
@@ -241,11 +241,11 @@
       latex: \ensuremath{\mathrm{in}}
       unicode: "in"
     - id: "dprime_in"
-      ascii: "in"
-      html: "in"
-      mathml: "<mi mathvariant='normal'>in</mi>"
-      latex: \ensuremath{\mathrm{in}}
-      unicode: "in"
+      ascii: "\""
+      html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+      latex: \ensuremath{\mathrm{''}}
+      unicode: "″"
   root_units:
     enumerated_root_units:
       - unit: "inch"
@@ -1220,11 +1220,11 @@
       latex: \ensuremath{\mathrm{min}}
       unicode: "min"
     - id: "prime_min"
-      ascii: "min"
-      html: "min"
-      mathml: "<mi mathvariant='normal'>min</mi>"
-      latex: \ensuremath{\mathrm{min}}
-      unicode: "min"
+      ascii: "'"
+      html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+      latex: \ensuremath{\mathrm{'}}
+      unicode: "′"
   root_units:
     enumerated_root_units:
       - unit: "minute"
@@ -2134,11 +2134,11 @@
       latex: \ensuremath{\mathrm{ft}}
       unicode: "ft"
     - id: "prime_ft"
-      ascii: "ft"
-      html: "ft"
-      mathml: "<mi mathvariant='normal'>ft</mi>"
-      latex: \ensuremath{\mathrm{ft}}
-      unicode: "ft"
+      ascii: "'"
+      html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+      latex: \ensuremath{\mathrm{'}}
+      unicode: "′"
   root_units:
     enumerated_root_units:
       - unit: "foot"
