@@ -240,6 +240,12 @@
       mathml: "<mi mathvariant='normal'>in</mi>"
       latex: \ensuremath{\mathrm{in}}
       unicode: "in"
+    - id: "\"_in"
+      ascii: "\""
+      html: "&#8243;"
+      mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+      latex: \ensuremath{\mathrm{''}}
+      unicode: "″"
     - id: "dprime_in"
       ascii: "\""
       html: "&#8243;"
@@ -1214,11 +1220,11 @@
       latex: \ensuremath{\mathrm{min}}
       unicode: "min"
     - id: "'_min"
-      ascii: "min"
-      html: "min"
-      mathml: "<mi mathvariant='normal'>min</mi>"
-      latex: \ensuremath{\mathrm{min}}
-      unicode: "min"
+      ascii: "'"
+      html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+      latex: \ensuremath{\mathrm{'}}
+      unicode: "′"
     - id: "prime_min"
       ascii: "'"
       html: "&#8242;"
@@ -2133,6 +2139,12 @@
       mathml: "<mi mathvariant='normal'>ft</mi>"
       latex: \ensuremath{\mathrm{ft}}
       unicode: "ft"
+    - id: "'_ft"
+      ascii: "'"
+      html: "&#8242;"
+      mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+      latex: \ensuremath{\mathrm{'}}
+      unicode: "′"
     - id: "prime_ft"
       ascii: "'"
       html: "&#8242;"
