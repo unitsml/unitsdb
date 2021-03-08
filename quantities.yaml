@@ -2437,3 +2437,14 @@ NISTq43:
   quantity_type: derived
   quantity_name:
     - organ dose equivalent
+
+NISTq1000:
+  dimension_url: "#NISTd85"
+  quantity_type: derived
+  quantity_name:
+    - mass fraction
+    - mole fraction
+  unit_reference:
+    - name: parts per million
+      url: "#NISTu400"
+
