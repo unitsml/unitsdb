@@ -2448,3 +2448,13 @@ NISTq1000:
     - name: parts per million
       url: "#NISTu400"
 
+NISTq1001:
+  dimension_url: "#NISTd16"
+  quantity_type: derived
+  quantity_name:
+    - apparent power
+  unit_reference:
+    - name: var
+      url: "#NISTu401"
+
+
