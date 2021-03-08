@@ -10636,4 +10636,6 @@
       mathml: "<mi mathvariant='normal'>ppm</mi>"
       latex: \ensuremath{\mathrm{ppm}}
       unicode: "ppm"
-      
+  quantity_reference:    
+    - name: "mass quantity"
+      url: "#NISTq1000"
