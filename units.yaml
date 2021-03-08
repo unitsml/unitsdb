@@ -6549,6 +6549,12 @@
       mathml: "<msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{cal_th}}
       unicode: "cal_th"
+    - id: "cal"
+      ascii: "cal"
+      html: "cal"
+      mathml: "<mi mathvariant='normal'>cal</mi>"
+      latex: \ensuremath{\mathrm{cal}}
+      unicode: "cal"
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
