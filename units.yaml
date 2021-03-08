@@ -10620,3 +10620,20 @@
     - name: "length"
       url: "#NISTq1"
 
+"NISTu400":
+  dimension_url: "#NISTd85"
+  short:
+  root: false
+  unit_system:
+    type: "SI_derived_non-special"
+    name: "SI"
+  unit_name:
+    - "parts per million"
+  unit_symbols:
+    - id: "ppm"
+      ascii: "ppm"
+      html: "ppm"
+      mathml: "<mi mathvariant='normal'>ppm</mi>"
+      latex: \ensuremath{\mathrm{ppm}}
+      unicode: "ppm"
+      
