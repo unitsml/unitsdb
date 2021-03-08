@@ -4372,6 +4372,12 @@
       mathml: "<mi mathvariant='normal'>&#8243;</mi>"
       latex: \ensuremath{\mathrm{''}}
       unicode: "″"
+    - id: "as"
+      ascii: "as"
+      html: "as"
+      mathml: "<mi mathvariant='normal'>as</mi>"
+      latex: \ensuremath{\mathrm{as}}
+      unicode: "as"
   root_units:
     enumerated_root_units:
       - unit: "arc_second"
