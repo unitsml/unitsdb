@@ -4372,6 +4372,12 @@
       mathml: "<mi mathvariant='normal'>&#8243;</mi>"
       latex: \ensuremath{\mathrm{''}}
       unicode: "″"
+    - id: "as"
+      ascii: "as"
+      html: "as"
+      mathml: "<mi mathvariant='normal'>as</mi>"
+      latex: \ensuremath{\mathrm{as}}
+      unicode: "as"
   root_units:
     enumerated_root_units:
       - unit: "arc_second"
@@ -6543,6 +6549,12 @@
       mathml: "<msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
       latex: \ensuremath{\mathrm{cal_th}}
       unicode: "cal_th"
+    - id: "cal"
+      ascii: "cal"
+      html: "cal"
+      mathml: "<mi mathvariant='normal'>cal</mi>"
+      latex: \ensuremath{\mathrm{cal}}
+      unicode: "cal"
   root_units:
     enumerated_root_units:
       - unit: "thermo_calorie"
@@ -10619,4 +10631,62 @@
   quantity_reference:
     - name: "length"
       url: "#NISTq1"
+
+"NISTu400":
+  dimension_url: "#NISTd85"
+  short:
+  root: false
+  unit_system:
+    type: "SI_derived_non-special"
+    name: "SI"
+  unit_name:
+    - "parts per million"
+  unit_symbols:
+    - id: "ppm"
+      ascii: "ppm"
+      html: "ppm"
+      mathml: "<mi mathvariant='normal'>ppm</mi>"
+      latex: \ensuremath{\mathrm{ppm}}
+      unicode: "ppm"
+  quantity_reference:    
+    - name: "mass quantity"
+      url: "#NISTq1000"
+
+"NISTu401":
+  dimension_url: "#NISTd16"
+  short: var
+  root: true
+  unit_system:
+    type: "SI_derived_non-special"
+    name: "SI"
+  unit_name:
+    - "var"
+  unit_symbols:
+    - id: "var"
+      ascii: "var"
+      html: "var"
+      mathml: "<mi mathvariant='normal'>var</mi>"
+      latex: \ensuremath{\mathrm{var}}
+      unicode: "var"
+  root_units:
+    enumerated_root_units:
+      - unit: "volt"
+        power_denominator: 1
+        power_numerator: 1
+      - unit: "ampere"
+        power_denominator: 1
+        power_numerator: 1
+  quantity_reference:
+    - name: "apparent power"
+      url: "#NISTq1001"
+  si_derived_bases:
+    - id: NISTu1
+      prefix:
+      power: 2
+    - id: NISTu27
+      prefix: p10_3
+      power: 1
+    - id: NISTu3
+      prefix:
+      power: -3
 
