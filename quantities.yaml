@@ -1153,13 +1153,13 @@ NISTq88:
       url: "#NISTu14.u10e-1/1"
 
 NISTq111:
-  dimension_url: "#NISTd82"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - rotation
   unit_reference:
     - name: one
-      url: "#NISTu181"
+      url: "#NISTu61"
 
 NISTq112:
   dimension_url: "#NISTd24"
@@ -1234,13 +1234,13 @@ NISTq118:
       url: "#NISTu154"
 
 NISTq121:
-  dimension_url: "#NISTd85"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - logarithmic decrement
   unit_reference:
     - name: one
-      url: "#NISTu132"
+      url: "#NISTu61"
     - name: neper
       url: "#NISTu153"
 
@@ -1385,14 +1385,14 @@ NISTq124:
       url: "#NISTu1e-1/1"
 
 NISTq125:
-  dimension_url: "#NISTd86"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - relative mass density
     - relative density
   unit_reference:
     - name: one
-      url: "#NISTu368"
+      url: "#NISTu61"
 
 NISTq122:
   dimension_url: "#NISTd29"
@@ -1546,22 +1546,22 @@ NISTq71:
       url: "#NISTu293"
 
 NISTq137:
-  dimension_url: "#NISTd88"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - shear strain
   unit_reference:
     - name: one
-      url: "#NISTu370"
+      url: "#NISTu61"
 
 NISTq138:
-  dimension_url: "#NISTd89"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - volume strain
   unit_reference:
     - name: one
-      url: "#NISTu371"
+      url: "#NISTu61"
 
 NISTq139:
   dimension_url: "#NISTd63"
@@ -1637,13 +1637,13 @@ NISTq135:
       url: "#NISTu12"
 
 NISTq136:
-  dimension_url: "#NISTd87"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - linear strain
   unit_reference:
     - name: one
-      url: "#NISTu369"
+      url: "#NISTu61"
 
 NISTq21:
   dimension_url: "#NISTd16"
@@ -1672,13 +1672,13 @@ NISTq141:
       url: "#NISTu12"
 
 NISTq140:
-  dimension_url: "#NISTd90"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - Poisson number
   unit_reference:
     - name: one
-      url: "#NISTu372"
+      url: "#NISTu61"
 
 NISTq22:
   dimension_url: "#NISTd17"
@@ -1840,13 +1840,13 @@ NISTq146:
       url: "#NISTu209"
 
 NISTq147:
-  dimension_url: "#NISTd91"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - dynamic friction factor
   unit_reference:
     - name: one
-      url: "#NISTu373"
+      url: "#NISTu61"
 
 NISTq144:
   dimension_url: "#NISTd57"
@@ -2387,13 +2387,13 @@ NISTq95:
       url: "#NISTu1"
 
 NISTq94:
-  dimension_url: "#NISTd81"
+  dimension_url: "#NISTd80"
   quantity_type: derived
   quantity_name:
     - relative permeability
   unit_reference:
     - name: one
-      url: "#NISTu174"
+      url: "#NISTu61"
 
 NISTq97:
   dimension_url: "#NISTd1"
@@ -2412,7 +2412,6 @@ NISTq96:
   unit_reference:
     - name: meter
       url: "#NISTu1"
-
 
 NISTq40:
   dimension_url: "#NISTd25"
@@ -2457,4 +2456,12 @@ NISTq1001:
     - name: var
       url: "#NISTu401"
 
+NISTq1002:
+  dimension_url: "#NISTd80"
+  quantity_type: derived
+  quantity_name:
+    - nil
+  unit_reference:
+    - name: one
+      url: "#NISTu61"
 

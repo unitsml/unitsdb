@@ -1817,26 +1817,6 @@
     - name: "potential energy"
       url: "#NISTq77"
 
-"NISTu132":
-  dimension_url: "#NISTd85"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "logarithmic decrement"
-      url: "#NISTq121"
-
 "NISTu63":
   dimension_url: "#NISTd15"
   short: table_kg_calorie
@@ -3521,6 +3501,26 @@
   quantity_reference:
     - name: "refractive index"
       url: "#NISTq93"
+    - name: "rotation"
+      url: "#NISTq111"
+    - name: "relative permeability"
+      url: "#NISTq94"
+    - name: "relative mass density"
+      url: "#NISTq125"
+    - name: "linear strain"
+      url: "#NISTq136"
+    - name: "shear strain"
+      url: "#NISTq137"
+    - name: "volume strain"
+      url: "#NISTq138"
+    - name: "Poisson number"
+      url: "#NISTq140"
+    - name: "dynamic friction factor"
+      url: "#NISTq147"
+    - name: "logarithmic decrement"
+      url: "#NISTq121"
+    - name: "nil"
+      url: "#NISTq1002"
 
 "NISTu166":
   dimension_url: "#NISTd15"
@@ -5053,26 +5053,6 @@
     - name: "volume"
       url: "#NISTq10"
 
-"NISTu181":
-  dimension_url: "#NISTd82"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "rotation"
-      url: "#NISTq111"
-
 "NISTu175":
   dimension_url: "#NISTd10"
   short: us_gallon
@@ -5229,26 +5209,6 @@
   quantity_reference:
     - name: "volume"
       url: "#NISTq10"
-
-"NISTu174":
-  dimension_url: "#NISTd81"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "relative permeability"
-      url: "#NISTq94"
 
 "NISTu182":
   dimension_url: "#NISTd1"
@@ -10377,160 +10337,6 @@
   quantity_reference:
     - name: "molality of solute B"
       url: "#NISTq179"
-
-"NISTu368":
-  dimension_url: "#NISTd86"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "relative mass density"
-      url: "#NISTq125"
-
-"NISTu369":
-  dimension_url: "#NISTd87"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "linear strain"
-      url: "#NISTq136"
-
-"NISTu370":
-  dimension_url: "#NISTd88"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "shear strain"
-      url: "#NISTq137"
-
-"NISTu371":
-  dimension_url: "#NISTd89"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "volume strain"
-      url: "#NISTq138"
-
-"NISTu372":
-  dimension_url: "#NISTd90"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "Poisson number"
-      url: "#NISTq140"
-
-"NISTu373":
-  dimension_url: "#NISTd91"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-  quantity_reference:
-    - name: "dynamic friction factor"
-      url: "#NISTq147"
-
-"NISTu374":
-  dimension_url: "#NISTd92"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
-
-"NISTu375":
-  dimension_url: "#NISTd93"
-  short:
-  root: false
-  unit_system:
-    type: "SI_derived_non-special"
-    name: "SI"
-  unit_name:
-    - "one"
-  unit_symbols:
-    - id: "1"
-      ascii: "1"
-      html: "1"
-      mathml: "<mi mathvariant='normal'>1</mi>"
-      latex: \ensuremath{\mathrm{1}}
-      unicode: "1"
 
 "NISTu376":
   dimension_url: "#NISTd1"
