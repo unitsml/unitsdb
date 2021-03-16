@@ -1745,6 +1745,7 @@
   dimension_url: "#NISTd15"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_acceptable"
     name: "non-SI"
@@ -2046,6 +2047,7 @@
   dimension_url: "#NISTd16"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -2398,6 +2400,7 @@
   dimension_url: "#NISTd14"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
@@ -9981,6 +9984,7 @@
   dimension_url: "#NISTd56"
   short:
   root: false
+  prefixed: true
   unit_system:
     type: "non-SI_not_acceptable"
     name: "non-SI"
