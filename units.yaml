@@ -4340,8 +4340,8 @@
   unit_symbols:
     - id: "deg"
       ascii: "deg"
-      html: "&#186;"
-      mathml: "<mi mathvariant='normal'>&#186;</mi>"
+      html: "&#176;"
+      mathml: "<mi mathvariant='normal'>&#176;</mi>"
       latex: \ensuremath{\mathrm{^{\circ}}}
       unicode: "º"
   root_units:
