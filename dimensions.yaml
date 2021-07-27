@@ -3,36 +3,86 @@ NISTd1:
   length:
     powerNumerator: 1
     symbol: L
+    dim_symbols:
+    - id: "dim_L"
+      ascii: "L"
+      html: "&#x1D5AB;"
+      mathml: "<mi mathvariant='sans-serif'>L</mi>"
+      latex: \ensuremath{\mathsf{L}}
+      unicode: "𝖫"
+
 
 NISTd2:
   mass:
     powerNumerator: 1
     symbol: M
+    dim_symbols:
+    - id: "dim_M"
+      ascii: "M"
+      html: "&#x1D5AC;"
+      mathml: "<mi mathvariant='sans-serif'>M</mi>"
+      latex: \ensuremath{\mathsf{M}}
+      unicode: "𝖬"
 
 NISTd3:
   time:
     powerNumerator: 1
     symbol: T
+    dim_symbols:
+    - id: "dim_T"
+      ascii: "T"
+      html: "&#x1D5B3;"
+      mathml: "<mi mathvariant='sans-serif'>T</mi>"
+      latex: \ensuremath{\mathsf{T}}
+      unicode: "𝖳"
 
 NISTd4:
   electric_current:
     powerNumerator: 1
     symbol: I
+    dim_symbols:
+    - id: "dim_T"
+      ascii: "T"
+      html: "&#x1D5A8;"
+      mathml: "<mi mathvariant='sans-serif'>T</mi>"
+      latex: \ensuremath{\mathsf{T}}
+      unicode: "𝖨"
 
 NISTd5:
   thermodynamic_temperature:
     powerNumerator: 1
-    symbol:
+    symbol: Theta
+    dim_symbols:
+    - id: "dim_Theta"
+      ascii: "Theta"
+      html: "&#x1D760;"
+      mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
+      latex: \ensuremath{\mathsf{\Theta}}
+      unicode: "𝝧"
 
 NISTd6:
   amount_of_substance:
     powerNumerator: 1
     symbol: N
+    dim_symbols:
+    - id: "dim_N"
+      ascii: "N"
+      html: "&#x1D5AD;"
+      mathml: "<mi mathvariant='sans-serif'>N</mi>"
+      latex: \ensuremath{\mathsf{N}}
+      unicode: "𝖭"
 
 NISTd7:
   luminous_intensity:
     powerNumerator: 1
     symbol: J
+    dim_symbols:
+    - id: "dim_J"
+      ascii: "J"
+      html: "&#x1D5A9;"
+      mathml: "<mi mathvariant='sans-serif'>J</mi>"
+      latex: \ensuremath{\mathsf{J}}
+      unicode: "𝖩"
 
 NISTd8:
   length:
@@ -44,6 +94,13 @@ NISTd9:
   plane_angle:
     powerNumerator: 1
     symbol: phi
+    dim_symbols:
+    - id: "dim_phi"
+      ascii: "phi"
+      html: "&#x1D785;"
+      mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
+      latex: \ensuremath{\mathsf{\phi}}
+      unicode: "𝞅"
 
 NISTd10:
   length:
@@ -312,7 +369,7 @@ NISTd39:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd36:
   length:
@@ -367,7 +424,7 @@ NISTd40:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd41:
   length:
@@ -381,7 +438,7 @@ NISTd41:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd46:
   length:
@@ -475,7 +532,7 @@ NISTd48:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
   amount_of_substance:
     powerNumerator: -1
     symbol: N
@@ -603,7 +660,7 @@ NISTd60:
 NISTd68:
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd69:
   length:
@@ -617,7 +674,7 @@ NISTd69:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd70:
   length:
@@ -639,7 +696,7 @@ NISTd71:
     symbol: T
   thermodynamic_temperature:
     powerNumerator: -1
-    symbol:
+    symbol: Theta
 
 NISTd64:
   dimensionless: true
