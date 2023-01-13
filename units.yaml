@@ -1394,7 +1394,7 @@
 
 "NISTu45":
   dimension_url: "#NISTd8"
-  short: foot
+  short:
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
@@ -1419,7 +1419,7 @@
 
 "NISTu46":
   dimension_url: "#NISTd8"
-  short: inch
+  short:
   root: true
   unit_system:
     type: "non-SI_not_acceptable"
