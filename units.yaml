@@ -10301,6 +10301,13 @@
       mathml: "<mrow><mi mathvariant='normal'>mol</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>l</mi></mrow>"
       latex: '\ensuremath{\mathrm{mol/l}}'
       unicode: "mol/l"
+    - id: "mol*L^-1"
+      ascii: "mol*L^-1"
+      html: "mol/L"
+      mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><mrow><mi mathvariant='normal'>L</mi></mrow>"
+      latex: '\ensuremath{\mathrm{mol/L}}'
+      unicode: "mol/L"
+
   root_units:
     enumerated_root_units:
       - unit: "mole"
