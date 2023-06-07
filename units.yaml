@@ -3126,6 +3126,12 @@
       mathml: "<mi mathvariant='normal'>Gs</mi>"
       latex: \ensuremath{\mathrm{Gs}}
       unicode: "Gs"
+    - id: "G"
+      ascii: "G"
+      html: "G"
+      mathml: "<mi mathvariant='normal'>G</mi>"
+      latex: \ensuremath{\mathrm{G}}
+      unicode: "G"
   root_units:
     enumerated_root_units:
       - unit: "gauss"
