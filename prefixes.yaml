@@ -1,4 +1,24 @@
 ---
+NISTp10_30:
+  name: quetta
+  symbol:
+    ascii: Q
+    html: Q
+    latex: Q
+    unicode: Q
+  base: 10
+  power: 30
+
+NISTp10_27:
+  name: ronna
+  symbol:
+    ascii: R
+    html: R
+    latex: R
+    unicode: R
+  base: 10
+  power: 27
+
 NISTp10_24:
   name: yotta
   symbol:
@@ -210,6 +230,25 @@ NISTp10_-24:
   base: 10
   power: -24
 
+NISTp10_-27:
+  name: ronto
+  symbol:
+    ascii: r
+    html: r
+    latex: r
+    unicode: r
+  base: 10
+  power: -27
+
+NISTp10_-30:
+  name: quecto
+  symbol:
+    ascii: q
+    html: q
+    latex: q
+    unicode: q
+  base: 10
+  power: -30
 
 # Binary Prefixes:
 
