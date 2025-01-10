@@ -1,5 +1,7 @@
 = UnitsDB
 
+== Purpose
+
 This data repository is used in conjunction with UnitsML.
 
 Sources include:
@@ -10,3 +12,67 @@ Sources include:
 * (in some cases, "Encyclopaedia of Scientific Units, Weights and Measures, Their SI Equivalences and Origins" by François Cardarelli, is consulted)
 
 NOTE: Conversion factors here are not updated with the revised SI.
+
+== Structure
+
+This repository contains the following YAML files:
+
+`dimensions.yaml`:: Contains the base dimensions and their symbols.
+
+`prefixes.yaml`:: Contains the SI prefixes and their symbols.
+
+`units.yaml`:: Contains the units and their symbols.
+
+`unit_systems.yaml`:: Contains the unit systems and their symbols.
+
+`quantities.yaml`:: Contains the quantities and their symbols.
+
+
+== Notes on prefixes
+
+Decimal prefixes are keyed by their power of 10, e.g. `NISTp10_1`
+
+The prefix `NISTp10_0` is a placeholder for unity.
+
+Binary prefixes are keyed by their power of 2, e.g. `NISTp2_10`
+
+== Notes on dimensions
+
+The following dimensions are identified by NIST but they are excluded from
+`dimensions.yaml` since they are unused:
+
+[source,yaml]
+----
+NISTd87:
+  dimensionless: true
+
+NISTd86:
+  dimensionless: true
+
+NISTd81:
+  dimensionless: true
+
+NISTd82:
+  dimensionless: true
+
+NISTd83:
+  dimensionless: true
+
+NISTd89:
+  dimensionless: true
+
+NISTd88:
+  dimensionless: true
+
+NISTd91:
+  dimensionless: true
+
+NISTd90:
+  dimensionless: true
+
+NISTd92:
+  dimensionless: true
+
+NISTd93:
+  dimensionless: true
+----
