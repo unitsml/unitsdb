@@ -1,0 +1,74 @@
+= AsciiMath Support
+
+== Classes
+
+=== Fonts
+
+* `mathfrak`
+* `mathcal`
+* `mathbb`
+* `mathsf`
+* `mathtt`
+* `mathbf`
+* `bbb`
+* `bb`
+* `fr`
+* `cc`
+* `sf`
+* `tt`
+
+=== Functions
+
+* `stackrel`
+* `underset`
+* `overset`
+* `cancel`
+* `obrace`
+* `ubrace`
+* `arctan`
+* `arcsin`
+* `arccos`
+* `color`
+* `floor`
+* `tilde`
+* `oint`
+* `root`
+* `frac`
+* `prod`
+* `text`
+* `norm`
+* `sqrt`
+* `cosh`
+* `tanh`
+* `sinh`
+* `sech`
+* `csch`
+* `coth`
+* `ddot`
+* `ceil`
+* `log`
+* `mod`
+* `sum`
+* `int`
+* `vec`
+* `hat`
+* `dot`
+* `bar`
+* `abs`
+* `min`
+* `max`
+* `dim`
+* `det`
+* `csc`
+* `cot`
+* `lub`
+* `lcm`
+* `glb`
+* `gcd`
+* `exp`
+* `cos`
+* `tan`
+* `sin`
+* `sec`
+* `ln`
+* `ul`

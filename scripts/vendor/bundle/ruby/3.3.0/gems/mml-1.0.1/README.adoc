@@ -1,0 +1,9 @@
+= Plurimath MathML library
+
+== Purpose
+
+Mml is the MathML library used by Plurimath.
+
+== Copyright and License
+
+Copyright (c) 2024 Ribose Inc.

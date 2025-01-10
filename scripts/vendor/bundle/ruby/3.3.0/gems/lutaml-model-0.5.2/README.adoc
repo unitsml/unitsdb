@@ -1,0 +1,4028 @@
+= LutaML Ruby modeller
+
+https://github.com/lutaml/lutaml-model[image:https://img.shields.io/github/stars/lutaml/lutaml-model.svg?style=social[GitHub Stars]]
+https://github.com/lutaml/lutaml-model[image:https://img.shields.io/github/forks/lutaml/lutaml-model.svg?style=social[GitHub Forks]]
+image:https://img.shields.io/github/license/lutaml/lutaml-model.svg[License]
+image:https://img.shields.io/github/actions/workflow/status/lutaml/lutaml-model/test.yml?branch=main[Build Status]
+image:https://img.shields.io/gem/v/lutaml-model.svg[RubyGems Version]
+
+== Purpose
+
+Lutaml::Model is a lightweight library for serializing and deserializing Ruby
+objects to and from various formats such as JSON, XML, YAML, and TOML. It uses
+an adapter pattern to support multiple libraries for each format, providing
+flexibility and extensibility for your data modeling needs.
+
+NOTE: Lutaml::Model is designed to be mostly compatible with the data modeling
+API of https://www.shalerb.org[Shale], an impressive Ruby data modeller.
+Lutaml::Model is meant to address advanced needs not currently addressed by
+Shale.
+
+NOTE: Instructions on how to migrate from Shale to Lutaml::Model are provided in
+<<migrate-from-shale>>.
+
+
+== Features
+
+* Define models with attributes and types
+* Serialize and deserialize models to/from JSON, XML, YAML, and TOML
+* Support for multiple serialization libraries (e.g., `toml-rb`, `tomlib`)
+* Configurable adapters for different serialization formats
+* Support for collections and default values
+* Custom serialization/deserialization methods
+* XML namespaces and mappings
+
+
+== Data modeling in a nutshell
+
+Data modeling is the process of creating a data model for the data to be stored
+in a database or used in an application. It helps in defining the structure,
+relationships, and constraints of the data, making it easier to manage and use.
+
+Lutaml::Model simplifies data modeling in Ruby by allowing you to define models
+with attributes and serialize/deserialize them to/from various serialization
+formats seamlessly.
+
+The Lutaml::Model data modelling approach is as follows:
+
+.Modeling relationships of a LutaML Model
+[source]
+----
+                       Lutaml Model
+                             │
+                    Has many attributes
+                             │
+                             ▼
+                        Attribute
+                             │
+                        Has type of
+                             │
+                  ┌──────────┴──────────┐
+                  │                     │
+                Model              Value (Leaf)
+                  │                     │
+       Has many attributes    Contains one basic value
+                  │                     │
+          ┌───────┴─────┐        ┌──────┴──────┐
+          │             │        │             │
+        Model      Value (Leaf)  String       Integer
+          │                      Date         Boolean
+          │                      Time         Float
+  Has many attributes            ...          ...
+          │
+          ▼
+  (Recursive pattern continues...)
+----
+
+.Example of LutaML Model instance with assigned values
+====
+[source]
+----
+Studio (Model)
+ ├── name (Value: String) = "Pottery Studio"
+ ├── address (Model)
+ │    ├── street (Value: String) = "123 Clay St"
+ │    ├── city (Value: String) = "Ceramics City"
+ │    └── postcode (Value: String) = "12345"
+ ├── established (Value: Date) = 2020-01-01
+ └── kilns (Model)
+      ├── count (Value: Integer) = 3
+      └── temperature (Value: Float) = 1200.0
+----
+====
+
+
+.Modeling relationships of a LutaML Model to serialization models
+[source]
+----
+    Core Model                  Serialization Model
+    ==========                  ===================
+        │                           (mapping)
+        │                               │
+        ▼                               ▼
+      Model                         XML Model
+        │                               │
+  ┌─────┴─────┐                  ┌──────┴──────┐
+  │           │                  │             │
+Models   Value Types ────┬──►  Models     Value Types
+  │           │          │       │             │
+  │           │          │       │             │
+  │    ┌──────┴──┐       │  ┌────┴────┐      ┌─┴─┐
+  │    │         │       │  │         │      │   │
+  │   String  Integer    │ Element  Value  xs:string
+  │   Date    Float      │ Attribute Type  xs:date
+  │   Time    Boolean    │                 xs:boolean
+  │                      │                 xs:anyURI
+  └──────┐               │
+         │               │         JSON Model
+    Contains             │              │
+    more Models          │       ┌──────┴──────┐
+    (recursive)          │       │             │
+                         └──►  Models     Value Types
+                                 │             │
+                                 │             │
+                            ┌────┴────┐      ┌─┴─┐
+                            │         │      │   │
+                           object  array  number string
+                           value          boolean null
+----
+
+.Example of LutaML Model instance transformed into a serialization model and serialized to JSON
+====
+[source]
+----
+Studio (Core Model)          JSON Model                Serialized JSON
+    │                            │                            │
+    ▼                            ▼                            ▼
+name: "Studio 1"     ┌─► { "name": "...",         {
+address:             │     "address": {             "name": "Studio 1",
+  ├── street: "..."  │       "street": "...",       "address": {
+  └── city: "..."    │       "city": "..."    ──►     "street": "...",
+kilns:               │     },                         "city": "..."
+  ├── count: 3       │    "kilnsCount": ...,        },
+  └── temp: 1200     │    "kilnsTemp": ...          "kilnsCount": 3,
+                     └─► }                          "kilnsTemp": 1200
+                                                  }
+----
+====
+
+
+
+== Installation
+
+Add this line to your application's Gemfile:
+
+[source,ruby]
+----
+gem 'lutaml-model'
+----
+
+And then execute:
+
+[source,shell]
+----
+bundle install
+----
+
+Or install it yourself as:
+
+[source,shell]
+----
+gem install lutaml-model
+----
+
+== Data model class
+
+=== Definition
+
+==== General
+
+There are two ways to define a data model in Lutaml::Model:
+
+* Inheriting from the `Lutaml::Model::Serializable` class
+* Including the `Lutaml::Model::Serialize` module
+
+[[define-through-inheritance]]
+==== Definition through inheritance
+
+The simplest way to define a model is to create a class that inherits from
+`Lutaml::Model::Serializable`.
+
+The `attribute` class method is used to define attributes.
+
+[source,ruby]
+----
+require 'lutaml/model'
+
+class Kiln < Lutaml::Model::Serializable
+  attribute :brand, :string
+  attribute :capacity, :integer
+  attribute :temperature, :integer
+end
+----
+
+[[define-through-inclusion]]
+==== Definition through inclusion
+
+If the model class already has a super class that it inherits from, the model
+can be extended using the `Lutaml::Model::Serialize` module.
+
+[source,ruby]
+----
+require 'lutaml/model'
+
+class Kiln < SomeSuperClass
+  include Lutaml::Model::Serialize
+
+  attribute :brand, :string
+  attribute :capacity, :integer
+  attribute :temperature, :integer
+end
+----
+
+
+=== Comparison
+
+A `Serialize` / `Serializable` object can be compared with another object of the
+same class using the `==` operator. This is implemented through the
+`ComparableModel` module.
+
+Two objects are considered equal if they have the same class and all their
+attributes are equal. This behavior differs from the typical Ruby behavior,
+where two objects are considered equal only if they have the same object ID.
+
+NOTE: Two `Serialize` objects will have the same `hash` value if they have the
+same class and all their attributes are equal.
+
+[source,ruby]
+----
+> a = Kiln.new(brand: 'Kiln 1', capacity: 100, temperature: 1050)
+> b = Kiln.new(brand: 'Kiln 1', capacity: 100, temperature: 1050)
+> a == b
+> # true
+> a.hash == b.hash
+> # true
+----
+
+
+
+== Defining attributes
+
+=== Supported attribute value types
+
+==== General types
+
+Lutaml::Model supports the following attribute types, they can be
+referred by a string, a symbol, or their class constant.
+
+Every type has a corresponding Ruby class and a serialization format type.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, {symbol | string | class}
+----
+
+.Mapping between Lutaml::Model::Type classes, Ruby equivalents and serialization format types
+|===
+| Lutaml::Model::Type   | Ruby class               | XML               | JSON      | YAML        | Example value
+
+| `:string`             | `String`                 | `xs:string`       | `string`  | `string`  | `"text"`
+| `:integer`            | `Integer`                | `xs:integer`      | `number`  | `integer` | `42`
+| `:float`              | `Float`                  | `xs:decimal`      | `number`  | `float`   | `3.14`
+| `:boolean`            | `TrueClass`/`FalseClass` | `xs:boolean`      | `boolean` | `boolean` | `true`, `false`
+| `:date`               | `Date`                   | `xs:date`         | `string`  | `string`  | `2024-01-01` (JSON/YAML `"2024-01-01"`)
+| `:time_without_date`  | `Time`                   | `xs:time`         | `string`  | `string`  | `"12:34:56"`
+| `:date_time`          | `DateTime`               | `xs:dateTime`     | `string`  | `string`  | `"2024-01-01T12:00:00+00:00"`
+| `:time`               | `Time`                   | `xs:dateTime`     | `string`  | `string`  | `"2024-01-01T12:00:00+00:00"`
+| `:decimal` (optional) | `BigDecimal`             | `xs:decimal`      | `number`  | `float`   | `123.45`
+| `:hash`               | `Hash`                   | complex element   | object    | map       | `{key: "value"}`
+// | `class`               | Custom class             | complex element   | object    | map       | `CustomObject`
+// | `collection: true`    | `Array` of type          | repeated elements | array     | sequence  | `[obj1, obj2]`
+// | `any`
+
+|===
+
+
+.Defining attributes with supported types via symbol, string and class
+[example]
+====
+[source,ruby]
+----
+class Studio < Lutaml::Model::Serializable
+  # The following are equivalent
+  attribute :location, :string
+  attribute :potter, "String"
+  attribute :kiln, :string
+end
+----
+
+[source,ruby]
+----
+> s = Studio.new(location: 'London', potter: 'John Doe', kiln: 'Kiln 1')
+> # <Studio:0x0000000104ac7240 @location="London", @potter="John Doe", @kiln="Kiln 1">
+> s.location
+> # "London"
+> s.potter
+> # "John Doe"
+> s.kiln
+> # "Kiln 1"
+----
+====
+
+==== Decimal type
+
+The Decimal type is an optional type that is disabled by default.
+
+NOTE: The reason why the Decimal type is disalbed by default is that the
+`BigDecimal` class became optional to the standard Ruby library from Ruby 3.4
+onwards. The `Decimal` type is only enabled when the `bigdecimal` library is
+loaded.
+
+The following code needs to be run before using (and parsing) the Decimal
+type:
+
+[source,ruby]
+----
+require 'bigdecimal'
+----
+
+If the `bigdecimal` library is not loaded, usage of the `Decimal` type will
+raise a `Lutaml::Model::TypeNotSupportedError`.
+
+
+==== Custom type
+
+A custom class can be used as an attribute type. The custom class must inherit
+from `Lutaml::Model::Type::Value` or a class that inherits from it.
+
+A class inheriting from the `Value` class carries the attribute `value` which
+stores the one-and-only "true" value that is independent of serialization
+formats.
+
+The minimum requirement for a custom class is to implement the following
+methods:
+
+`self.cast(value)`:: Assignment of an external value to the `Value` class to be
+set as `value`. Casts the value to the custom type.
+
+`self.serialize(value)`:: Serializes the custom type to an object (e.g. a
+string). Takes the internal `value` and converts it into an output suitable for
+serialization.
+
+
+.Using a custom value type to normalize a postcode with minimal methods
+[example]
+====
+[source,ruby]
+----
+class FiveDigitPostCode < Lutaml::Model::Type::String
+  def self.cast(value)
+    value = value.to_s if value.is_a?(Integer)
+
+    unless value.is_a?(::String)
+      raise Lutaml::Model::InvalidValueError, "Invalid value for type 'FiveDigitPostCode'"
+    end
+
+    # Pad zeros to the left
+    value.rjust(5, '0')
+  end
+
+  def self.serialize(value)
+    value
+  end
+end
+
+class Studio < Lutaml::Model::Serializable
+  attribute :postcode, FiveDigitPostCode
+end
+----
+====
+
+
+==== Serialization of custom types
+
+The serialization of custom types can be made to differ per serialization format
+by defining methods in the class definitions. This requires additional methods
+than the minimum required for a custom class (i.e. `self.cast(value)` and
+`self.serialize(value)`).
+
+This is useful in the case when different serialization formats of the same
+model expect differentiated value representations.
+
+The methods that can be overridden are named:
+
+`self.from_{format}(serialized_string)`:: Deserializes a string of the
+serialization format and returns the object to be assigned to the `Value` class'
+`value`.
+
+`to_{format}`:: Serializes the object to a string of the serialization format.
+
+The `{format}` part of the method name is the serialization format in lowercase
+(e.g. `json`, `xml`, `yaml`, `toml`).
+
+.Using custom serialization methods to handle a high-precision date-time type
+[example]
+====
+Suppose in XML we handle a high-precision date-time type that requires custom
+serialization methods, but other formats such as JSON do not support this type.
+
+For instance, in the normal DateTime class, the serialized string is
+`2012-04-07T01:51:37+02:00`, and the high-precision format is
+`2012-04-07T01:51:37.112+02:00`.
+
+We create `HighPrecisionDateTime` class is a custom class that inherits
+from `Lutaml::Model::Type::DateTime`.
+
+[source,ruby]
+----
+class HighPrecisionDateTime < Lutaml::Model::Type::DateTime
+  # Inherit the `self.cast(value)` and `self.serialize(value)` methods
+  # from Lutaml::Model::Type::DateTime
+
+  # The format looks like this `2012-04-07T01:51:37.112+02:00`
+  def self.from_xml(xml_string)
+    ::DateTime.parse(xml_string)
+  end
+
+  # The %L adds milliseconds to the time
+  def to_xml
+    value.strftime('%Y-%m-%dT%H:%M:%S.%L%:z')
+  end
+end
+
+class Ceramic < Lutaml::Model::Serializable
+  attribute :kiln_firing_time, HighPrecisionDateTime
+  xml do
+    root 'ceramic'
+    map_element 'kilnFiringTime', to: :kiln_firing_time
+    # ...
+  end
+end
+----
+
+An XML snippet with the high-precision date-time type:
+
+[source,xml]
+----
+<ceramic>
+  <kilnFiringTime>2012-04-07T01:51:37.112+02:00</kilnFiringTime>
+  <!-- ... -->
+</ceramic>
+----
+
+When loading the XML snippet, the `HighPrecisionDateTime` class will be used to
+parse the high-precision date-time string.
+
+However, when serializing to JSON, the value will have the high-precision
+part lost due to the inability of JSON to handle high-precision date-time.
+
+[source,ruby]
+----
+> c = Ceramic.from_xml(xml)
+> #<Ceramic:0x0000000104ac7240 @kiln_firing_time=#<HighPrecisionDateTime:0x0000000104ac7240 @value=2012-04-07 01:51:37.112000000 +0200>>
+> c.to_json
+> # {"kilnFiringTime":"2012-04-07T01:51:37+02:00"}
+----
+====
+
+
+=== Attribute as a collection
+
+Define attributes as collections (arrays or hashes) to store multiple values
+using the `collection` option.
+
+`collection` can be set to:
+
+`true`:::
+The attribute contains an unbounded collection of objects of the declared class.
+
+`{min}..{max}`:::
+The attribute contains a collection of objects of the declared class with a
+count within the specified range.
+If the number of objects is out of this numbered range,
+`CollectionCountOutOfRangeError` will be raised.
++
+[example]
+====
+When set to `0..1`, it means that the attribute is optional, it could be empty
+or contain one object of the declared class.
+====
++
+[example]
+====
+When set to `1..` (equivalent to `1..Infinity`), it means that the
+attribute must contain at least one object of the declared class and can contain
+any number of objects.
+====
++
+[example]
+====
+When set to 5..10` means that there is a minimum of 5 and a maximum of 10
+objects of the declared class. If the count of values for the attribute is less
+then 5 or greater then 10, the `CollectionCountOutOfRangeError` will be raised.
+====
+
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, Type, collection: true
+attribute :name_of_attribute, Type, collection: {min}..{max}
+attribute :name_of_attribute, Type, collection: {min}..
+----
+
+.Using the `collection` option to define a collection attribute
+[example]
+====
+[source,ruby]
+----
+class Studio < Lutaml::Model::Serializable
+  attribute :location, :string
+  attribute :potters, :string, collection: true
+  attribute :address, :string, collection: 1..2
+  attribute :hobbies, :string, collection: 0..
+end
+----
+
+[source,ruby]
+----
+> Studio.new
+> # address count is `0`, must be between 1 and 2  (Lutaml::Model::CollectionCountOutOfRangeError)
+> Studio.new({ address: ["address 1", "address 2", "address 3"] })
+> # address count is `3`, must be between 1 and 2  (Lutaml::Model::CollectionCountOutOfRangeError)
+> Studio.new({ address: ["address 1"] }).potters
+> # []
+> Studio.new({ address: ["address 1"] }).address
+> # ["address 1"]
+> Studio.new(address: ["address 1"], potters: ['John Doe', 'Jane Doe']).potters
+> # ['John Doe', 'Jane Doe']
+----
+====
+
+
+=== Attribute value validation
+
+==== General
+
+There are several mechanisms to validate attribute values in Lutaml::Model.
+
+
+[[attribute-enumeration]]
+==== Values of an enumeration
+
+An attribute can be defined as an enumeration by using the `values` directive.
+
+The `values` directive is used to define acceptable values in an attribute. If
+any other value is given, a `Lutaml::Model::InvalidValueError` will be raised.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, Type, values: [value1, value2, ...]
+----
+
+The values set inside the `values:` option can be of any type, but they must
+match the type of the attribute. The values are compared using the `==` operator,
+so the type must implement the `==` method.
+
+Also, If all the elements in `values` directive are strings then `lutaml-model` add some enum convenience methods, for each of the value the following three methods are added
+
+* `value1`: will return value if set
+* `value1?`: will return true if value is set, false otherwise
+* `value1=`: will set the value of `name_of_attribute` equal to `value1` if truthy value is given, and remove it otherwise.
+
+.Using the `values` directive to define acceptable values for an attribute (basic types)
+[example]
+====
+[source,ruby]
+----
+class GlazeTechnique < Lutaml::Model::Serializable
+  attribute :name, :string, values: ["Celadon", "Raku", "Majolica"]
+end
+----
+
+[source,ruby]
+----
+> GlazeTechnique.new(name: "Celadon").name
+> # "Celadon"
+> GlazeTechnique.new(name: "Raku").name
+> # "Raku"
+> GlazeTechnique.new(name: "Majolica").name
+> # "Majolica"
+> GlazeTechnique.new(name: "Earthenware").name
+> # Lutaml::Model::InvalidValueError: Invalid value for attribute 'name'
+----
+====
+
+The values can be Serialize objects, which are compared using the `==`
+and the `hash` methods through the Lutaml::Model::ComparableModel module.
+
+
+.Using the `values` directive to define acceptable values for an attribute (Serializable objects)
+[example]
+====
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :firing_temperature, :integer
+end
+
+class CeramicCollection < Lutaml::Model::Serializable
+  attribute :featured_piece,
+            Ceramic,
+            values: [
+              Ceramic.new(type: "Porcelain", firing_temperature: 1300),
+              Ceramic.new(type: "Stoneware", firing_temperature: 1200),
+              Ceramic.new(type: "Earthenware", firing_temperature: 1000),
+            ]
+end
+----
+
+[source,ruby]
+----
+> CeramicCollection.new(featured_piece: Ceramic.new(type: "Porcelain", firing_temperature: 1300)).featured_piece
+> # Ceramic:0x0000000104ac7240 @type="Porcelain", @firing_temperature=1300
+> CeramicCollection.new(featured_piece: Ceramic.new(type: "Bone China", firing_temperature: 1300)).featured_piece
+> # Lutaml::Model::InvalidValueError: Invalid value for attribute 'featured_piece'
+----
+====
+
+Serialize provides a `validate` method that checks if all its attributes have
+valid values. This is necessary for the case when a value is valid at the
+component level, but not accepted at the aggregation level.
+
+If a change has been made at the component level (a nested attribute has
+changed), the aggregation level needs to call the `validate` method to verify
+acceptance of the newly updated component.
+
+.Using the `validate` method to check if all attributes have valid values
+[example]
+====
+[source,ruby]
+----
+> collection = CeramicCollection.new(featured_piece: Ceramic.new(type: "Porcelain", firing_temperature: 1300))
+> collection.featured_piece.firing_temperature = 1400
+> # No error raised in changed nested attribute
+> collection.validate
+> # Lutaml::Model::InvalidValueError: Invalid value for attribute 'featured_piece'
+----
+====
+
+
+==== String values restricted to patterns
+
+An attribute that accepts a string value accepts value validation using regular
+expressions.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, :string, pattern: /regex/
+----
+
+.Using the `pattern` option to restrict the value of an attribute
+[example]
+====
+In this example, the `color` attribute takes hex color values such as `#ccddee`.
+
+A regular expression can be used to validate values assigned to the attribute.
+In this case, it is `/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/`.
+
+[source,ruby]
+----
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string, pattern: /\A#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})\z/
+end
+----
+
+[source,ruby]
+----
+> Glaze.new(color: '#ff0000').color
+> # "#ff0000"
+> Glaze.new(color: '#ff000').color
+> # Lutaml::Model::InvalidValueError: Invalid value for attribute 'color'
+----
+====
+
+
+
+=== Attribute value default and rendering defaults
+
+Specify default values for attributes using the `default` option.
+The `default` option can be set to a value or a lambda that returns a value.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, Type, default: -> { value }
+----
+
+
+.Using the `default` option to set a default value for an attribute
+[example]
+====
+[source,ruby]
+----
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string, default: -> { 'Clear' }
+  attribute :temperature, :integer, default: -> { 1050 }
+end
+----
+
+[source,ruby]
+----
+> Glaze.new.color
+> # "Clear"
+> Glaze.new.temperature
+> # 1050
+----
+====
+
+The "default behavior" (pun intended) is to not render a default value if
+the current value is the same as the default value.
+
+In certain cases, it is necessary to render the default value even if the
+current value is the same as the default value. This can be achieved by setting
+the `render_default` option to `true`.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, Type, default: -> { value }, render_default: true
+----
+
+.Using the `render_default` option to force encoding the default value
+[example]
+====
+[source,ruby]
+----
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string, default: -> { 'Clear' }
+  attribute :opacity, :string, default: -> { 'Opaque' }
+  attribute :temperature, :integer, default: -> { 1050 }
+  attribute :firing_time, :integer, default: -> { 60 }
+
+  xml do
+    root "glaze"
+    map_element 'color', to: :color
+    map_element 'opacity', to: :opacity, render_default: true
+    map_attribute 'temperature', to: :temperature
+    map_attribute 'firingTime', to: :firing_time, render_default: true
+  end
+
+  json do
+    map 'color', to: :color
+    map 'opacity', to: :opacity, render_default: true
+    map 'temperature', to: :temperature
+    map 'firingTime', to: :firing_time, render_default: true
+  end
+end
+----
+====
+
+.Attributes with `render_default: true` are rendered when the value is identical to the default
+[example]
+====
+[source,ruby]
+----
+> glaze_new = Glaze.new
+> puts glaze_new.to_xml
+# <glaze firingTime="60">
+#   <opacity>Opaque</opacity>
+# </glaze>
+> puts glaze_new.to_json
+# {"firingTime":60,"opacity":"Opaque"}
+----
+====
+
+.Attributes with `render_default: true` with non-default values are rendered
+[example]
+====
+[source,ruby]
+----
+> glaze = Glaze.new(color: 'Celadon', opacity: 'Semitransparent', temperature: 1300, firing_time: 90)
+> puts glaze.to_xml
+# <glaze color="Celadon" temperature="1300" firingTime="90">
+#   <opacity>Semitransparent</opacity>
+# </glaze>
+> puts glaze.to_json
+# {"color":"Celadon","temperature":1300,"firingTime":90,"opacity":"Semitransparent"}
+----
+====
+
+
+
+=== Attribute as raw string
+
+An attribute can be set to read the value as raw string for XML, by using the `raw: true` option.
+
+Syntax:
+
+[source,ruby]
+----
+attribute :name_of_attribute, :string, raw: true
+----
+
+.Using the `raw` option to read raw value for an XML attribute
+[example]
+====
+[source,ruby]
+----
+class Person < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :description, :string, raw: true
+end
+----
+
+For the following XML snippet:
+
+[source,xml]
+----
+<Person>
+  <name>John Doe</name>
+  <description>
+    A <b>fictional person</b> commonly used as a <i>placeholder name</i>.
+  </description>
+</Person>
+----
+
+[source,ruby]
+----
+> Person.from_xml(xml)
+> # <Person:0x0000000107a3ca70
+    @description="\n    A <b>fictional person</b> commonly used as a <i>placeholder name</i>.\n  ",
+    @element_order=["text", "name", "text", "description", "text"],
+    @name="John Doe",
+    @ordered=nil>
+----
+====
+
+== Serialization model mappings
+
+=== General
+
+Lutaml::Model allows you to translate a data model into serialization models of
+various serialization formats including XML, JSON, YAML, and TOML.
+
+Depending on the serialization format, different methods are supported for
+defining serialization and deserialization mappings.
+
+Serialization model mappings are defined under the `xml`, `json`, `yaml`, and
+`toml` blocks.
+
+.Using the `xml`, `json`, `yaml`, and `toml` blocks to define serialization mappings
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  xml do
+    # ...
+  end
+
+  json do
+    # ...
+  end
+
+  yaml do
+    # ...
+  end
+
+  toml do
+    # ...
+  end
+end
+----
+
+
+=== XML
+
+==== Setting root element name
+
+The `root` method sets the root element tag name of the XML document.
+
+If `root` is not given, then the snake-cased class name will be used as the
+root.
+
+[example]
+Sets the tag name for `<example>` in XML `<example>...</example>`.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  root 'xml_element_name'
+end
+----
+
+.Setting the root element name to `example`
+[example]
+====
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  xml do
+    root 'example'
+  end
+end
+----
+
+[source,ruby]
+----
+> Example.new.to_xml
+> #<example></example>
+----
+====
+
+
+==== Mapping all content (XML only)
+
+WARNING: This feature is only applicable to XML (for now).
+
+The `map_all` tag in XML mapping captures and maps all content within an XML
+element into a single attribute in the target Ruby object.
+
+The use case for `map_all` is to tell Lutaml::Model to not parse the content of
+the XML element at all, and instead handle it as an XML string.
+
+This is useful in the case where the content of an XML element is not to be
+handled by a Lutaml::Model::Serializable object.
+
+This feature is commonly used with custom methods or a custom model object to
+handle the content.
+
+This includes:
+
+* nested tags
+* attributes
+* text nodes
+
+The `map_all` tag is **exclusive** and cannot be combined with other mappings (`map_element`, `map_content`) except for `map_attribute` for the same element, ensuring
+it captures the entire inner XML content.
+
+NOTE: An error is raised if `map_all` is defined alongside any other mapping in
+the same XML mapping context.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_all to: :name_of_attribute
+end
+----
+
+.Mapping all the content using `map_all`
+[example]
+====
+[source,ruby]
+----
+class ExampleMapping < Lutaml::Model::Serializable
+  attribute :description, :string
+
+  xml do
+    map_all to: :description
+  end
+end
+----
+
+[source,xml]
+----
+<ExampleMapping>Content with <b>tags</b> and <i>formatting</i>.</ExampleMapping>
+----
+
+[source,ruby]
+----
+> parsed = ExampleMapping.from_xml(xml)
+> puts parsed.all_content
+# "Content with <b>tags</b> and <i>formatting</i>."
+----
+====
+
+
+==== Mapping elements
+
+The `map_element` method maps an XML element to a data model attribute.
+
+[example]
+To handle the `<name>` tag in `<example><name>John Doe</name></example>`.
+The value will be set to `John Doe`.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_element 'xml_element_name', to: :name_of_attribute
+end
+----
+
+.Mapping the `name` tag to the `name` attribute
+[example]
+====
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+
+  xml do
+    root 'example'
+    map_element 'name', to: :name
+  end
+end
+----
+
+[source,xml]
+----
+<example><name>John Doe</name></example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @name="John Doe">
+> Example.new(name: "John Doe").to_xml
+> #<example><name>John Doe</name></example>
+----
+====
+
+If an element is mapped to a model object with the XML `root` tag name set, the
+mapped tag name will be used as the root name, overriding the root name.
+
+.The mapped tag name is used as the root name
+[example]
+====
+[source,ruby]
+----
+class RecordDate < Lutaml::Model::Serializable
+  attribute :content, :string
+
+  xml do
+    root "recordDate"
+    map_content to: :content
+  end
+end
+
+class OriginInfo < Lutaml::Model::Serializable
+  attribute :date_issued, RecordDate, collection: true
+
+  xml do
+    root "originInfo"
+    map_element "dateIssued", to: :date_issued
+  end
+end
+----
+
+[source,ruby]
+----
+> RecordDate.new(date: "2021-01-01").to_xml
+> #<recordDate>2021-01-01</recordDate>
+> OriginInfo.new(date_issued: [RecordDate.new(date: "2021-01-01")]).to_xml
+> #<originInfo><dateIssued>2021-01-01</dateIssued></originInfo>
+----
+====
+
+==== Mapping attributes
+
+The `map_attribute` method maps an XML attribute to a data model attribute.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_attribute 'xml_attribute_name', to: :name_of_attribute
+end
+----
+
+.Using `map_attribute` to map the `value` attribute
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :value, :integer
+
+  xml do
+    root 'example'
+    map_attribute 'value', to: :value
+  end
+end
+----
+
+[source,xml]
+----
+<example value="12"><name>John Doe</name></example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @value=12>
+> Example.new(value: 12).to_xml
+> #<example value="12"></example>
+----
+====
+
+The `map_attribute` method does not inherit the root element's namespace.
+To specify a namespace for an attribute, please explicitly declare the
+*namespace* and *prefix* in the `map_attribute` method.
+
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Attribute < Lutaml::Model::Serializable
+  attribute :value, :integer
+
+  xml do
+    root 'example'
+    map_attribute 'value', to: :value, namespace: "http://www.tech.co/XMI", prefix: "xl"
+  end
+end
+----
+
+[source,xml]
+----
+<example xl:value="20" xmlns:xl="http://www.tech.co/XMI"></example>
+----
+
+[source,ruby]
+----
+> Attribute.from_xml(xml)
+> #<Attribute:0x0000000109436db8 @value=20>
+> Attribute.new(value: 20).to_xml
+> #<example xmlns:xl=\"http://www.tech.co/XMI\" xl:value=\"20\"/>
+----
+====
+
+
+==== Mapping content
+
+Content represents the text inside an XML element, inclusive of whitespace.
+
+The `map_content` method maps an XML element's content to a data model
+attribute.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_content to: :name_of_attribute
+end
+----
+
+.Using `map_content` to map content of the `description` tag
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :description, :string
+
+  xml do
+    root 'example'
+    map_content to: :description
+  end
+end
+----
+
+[source,xml]
+----
+<example>John Doe is my moniker.</example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @description="John Doe is my moniker.">
+> Example.new(description: "John Doe is my moniker.").to_xml
+> #<example>John Doe is my moniker.</example>
+----
+====
+
+
+==== CDATA nodes
+
+CDATA is an XML feature that allows the inclusion of text that may contain
+characters that are unescaped in XML.
+
+While CDATA is not preferred in XML, it is sometimes necessary to handle CDATA
+nodes for both input and output.
+
+NOTE: The W3C XML Recommendation explicitly encourages escaping characters over
+usage of CDATA.
+
+Lutaml::Model supports the handling of CDATA nodes in XML in the following
+behavior:
+
+. When an attribute contains a CDATA node with no text:
+** On reading: The node (CDATA or text) is read as its value.
+** On writing: The value is written as its native type.
+
+. When an XML mapping sets `cdata: true` on `map_element` or `map_content`:
+** On reading: The node (CDATA or text) is read as its value.
+** On writing: The value is written as a CDATA node.
+
+. When an XML mapping sets `cdata: false` on `map_element` or `map_content`:
+** On reading: The node (CDATA or text) is read as its value.
+** On writing: The value is written as a text node (string).
+
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_content to: :name_of_attribute, cdata: (true | false)
+  map_element :name, to: :name, cdata: (true | false)
+end
+----
+
+.Using `cdata` to map CDATA content
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :description, :string
+  attribute :title, :string
+  attribute :note, :string
+
+  xml do
+    root 'example'
+    map_element :name, to: :name, cdata: true
+    map_content to: :description, cdata: true
+    map_element :title, to: :title, cdata: false
+    map_element :note, to: :note, cdata: false
+  end
+end
+----
+
+[source,xml]
+----
+<example><name><![CDATA[John]]></name><![CDATA[here is the description]]><title><![CDATA[Lutaml]]></title><note>Careful</note></example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @name="John" @description="here is the description" @title="Lutaml" @note="Careful">
+> Example.new(name: "John", description: "here is the description", title: "Lutaml", note: "Careful").to_xml
+> #<example><name><![CDATA[John]]></name><![CDATA[here is the description]]><title>Lutaml</title><note>Careful</note></example>
+----
+====
+
+
+==== Example for mapping
+
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :description, :string
+  attribute :value, :integer
+
+  xml do
+    root 'example'
+    map_element 'name', to: :name
+    map_attribute 'value', to: :value
+    map_content to: :description
+  end
+end
+----
+
+[source,xml]
+----
+<example value="12"><name>John Doe</name> is my moniker.</example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @name="John Doe", @description=" is my moniker.", @value=12>
+> Example.new(name: "John Doe", description: " is my moniker.", value: 12).to_xml
+> #<example value="12"><name>John Doe</name> is my moniker.</example>
+----
+====
+
+
+==== Encoding Options in XmlAdapter
+
+XmlAdapter supports the encoding in the following ways:
+
+. When encoding is not passed in to_xml:
+** Default encoding is UTF-8.
+
+. When encoding is explicitly passed nil:
+** Encoding will be nil, show the HexCode(Nokogiri) or ASCII-8bit(Ox).
+
+. When encoding is passed with some option:
+** Encoding option will be selected as passed.
+
+
+Syntax:
+
+[source,ruby]
+----
+Example.new(description: " ∑ is my ∏ moniker µ.").to_xml
+Example.new(description: " ∑ is my ∏ moniker µ.").to_xml(encoding: nil)
+Example.new(description: " ∑ is my ∏ moniker µ.").to_xml(encoding: "ASCII")
+----
+
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :description, :string
+  attribute :value, :integer
+
+  xml do
+    root 'example'
+    map_element 'name', to: :name
+    map_content to: :description
+  end
+end
+----
+
+[source,xml]
+----
+<example><name>John &#x0026; Doe</name> &#x2211; is my &#x220F; moniker &#xB5;.</example>
+----
+
+[source,ruby]
+----
+> Example.from_xml(xml)
+> #<Example:0x0000000104ac7240 @name="John & Doe", @description=" ∑ is my ∏ moniker µ.">
+> Example.new(name: "John & Doe", description: " ∑ is my ∏ moniker µ.").to_xml
+> #<example><name>John &amp; Doe</name> ∑ is my ∏ moniker µ.</example>
+
+> Example.new(name: "John & Doe", description: " ∑ is my ∏ moniker µ.").to_xml(encoding: nil)
+> #<example><name>John &amp; Doe</name> &#x2211; is my &#x220F; moniker &#xB5;.</example>
+
+> Example.new(name: "John & Doe", description: " ∑ is my ∏ moniker µ.").to_xml(encoding: "ASCII")
+> #<example><name>John &amp; Doe</name> &#8721; is my &#8719; moniker &#181;.</example>
+----
+====
+
+
+==== Namespaces
+
+[[root-namespace]]
+===== Namespace at root
+
+The `namespace` method in the `xml` block sets the namespace for the root
+element.
+
+Syntax:
+
+.Setting default namespace at the root element
+[source,ruby]
+----
+xml do
+  namespace 'http://example.com/namespace'
+end
+----
+
+.Setting a prefixed namespace at the root element
+[source,ruby]
+----
+xml do
+  namespace 'http://example.com/namespace', 'prefix'
+end
+----
+
+
+.Using the `namespace` method to set the namespace for the root element
+[example]
+====
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, :string
+
+  xml do
+    root 'Ceramic'
+    namespace 'http://example.com/ceramic'
+    map_element 'Type', to: :type
+    map_element 'Glaze', to: :glaze
+  end
+end
+----
+
+[source,xml]
+----
+<Ceramic xmlns='http://example.com/ceramic'><Type>Porcelain</Type><Glaze>Clear</Glaze></Ceramic>
+----
+
+[source,ruby]
+----
+> Ceramic.from_xml(xml_file)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze="Clear">
+> Ceramic.new(type: "Porcelain", glaze: "Clear").to_xml
+> #<Ceramic xmlns="http://example.com/ceramic"><Type>Porcelain</Type><Glaze>Clear</Glaze></Ceramic>
+----
+====
+
+.Using the `namespace` method to set a prefixed namespace for the root element
+[example]
+====
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, :string
+
+  xml do
+    root 'Ceramic'
+    namespace 'http://example.com/ceramic', 'cer'
+    map_element 'Type', to: :type
+    map_element 'Glaze', to: :glaze
+  end
+end
+----
+
+[source,xml]
+----
+<cer:Ceramic xmlns='http://example.com/ceramic'><cer:Type>Porcelain</cer:Type><cer:Glaze>Clear</cer:Glaze></cer:Ceramic>
+----
+
+[source,ruby]
+----
+> Ceramic.from_xml(xml_file)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze="Clear">
+> Ceramic.new(type: "Porcelain", glaze: "Clear").to_xml
+> #<cer:Ceramic xmlns="http://example.com/ceramic"><cer:Type>Porcelain</cer:Type><cer:Glaze>Clear</cer:Glaze></cer:Ceramic>
+----
+====
+
+
+===== Namespace on attribute
+
+If the namespace is defined on a model attribute that already has a namespace,
+the mapped namespace will be given priority over the one defined in the class.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_element 'xml_element_name', to: :name_of_attribute,
+    namespace: 'http://example.com/namespace',
+    prefix: 'prefix'
+end
+----
+
+`namespace`:: The XML namespace used by this element
+`prefix`:: The XML namespace prefix used by this element (optional)
+
+.Using the `namespace` option to set the namespace for an element
+[example]
+====
+In this example, `glz` will be used for `Glaze` if it is added inside the
+`Ceramic` class, and `glaze` will be used otherwise.
+
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, Glaze
+
+  xml do
+    root 'Ceramic'
+    namespace 'http://example.com/ceramic'
+
+    map_element 'Type', to: :type
+    map_element 'Glaze', to: :glaze, namespace: 'http://example.com/glaze', prefix: "glz"
+  end
+end
+
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string
+  attribute :temperature, :integer
+
+  xml do
+    root 'Glaze'
+    namespace 'http://example.com/old_glaze', 'glaze'
+
+    map_element 'color', to: :color
+    map_element 'temperature', to: :temperature
+  end
+end
+----
+
+[source,xml]
+----
+<Ceramic xmlns='http://example.com/ceramic'>
+  <Type>Porcelain</Type>
+  <glz:Glaze xmlns='http://example.com/glaze'>
+    <color>Clear</color>
+    <temperature>1050</temperature>
+  </glz:Glaze>
+</Ceramic>
+----
+
+[source,ruby]
+----
+> # Using the original Glaze class namespace
+> Glaze.new(color: "Clear", temperature: 1050).to_xml
+> #<glaze:Glaze xmlns="http://example.com/old_glaze"><color>Clear</color><temperature>1050</temperature></glaze:Glaze>
+
+> # Using the Ceramic class namespace for Glaze
+> Ceramic.from_xml(xml_file)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze=#<Glaze:0x0000000104ac7240 @color="Clear", @temperature=1050>>
+> Ceramic.new(type: "Porcelain", glaze: Glaze.new(color: "Clear", temperature: 1050)).to_xml
+> #<Ceramic xmlns="http://example.com/ceramic"><Type>Porcelain</Type><glz:Glaze xmlns="http://example.com/glaze"><color>Clear</color><temperature>1050</temperature></glz:Glaze></Ceramic>
+----
+====
+
+[[namespace-inherit]]
+===== Namespace with `inherit` option
+
+The `inherit` option is used at the element level to inherit the namespace from
+the root element.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_element 'xml_element_name', to: :name_of_attribute, namespace: :inherit
+end
+----
+
+.Using the `inherit` option to inherit the namespace from the root element
+[example]
+====
+In this example, the `Type` element will inherit the namespace from the root.
+
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, :string
+  attribute :color, :string
+
+  xml do
+    root 'Ceramic'
+    namespace 'http://example.com/ceramic', 'cera'
+    map_element 'Type', to: :type, namespace: :inherit
+    map_element 'Glaze', to: :glaze
+    map_attribute 'color', to: :color, namespace: 'http://example.com/color', prefix: 'clr'
+  end
+end
+----
+
+[source,xml]
+----
+<cera:Ceramic
+  xmlns:cera='http://example.com/ceramic'
+  xmlns:clr='http://example.com/color'
+  clr:color="navy-blue">
+  <cera:Type>Porcelain</cera:Type>
+  <Glaze>Clear</Glaze>
+</cera:Ceramic>
+----
+
+[source,ruby]
+----
+> Ceramic.from_xml(xml_file)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze="Clear", @color="navy-blue">
+> Ceramic.new(type: "Porcelain", glaze: "Clear", color: "navy-blue").to_xml
+> #<cera:Ceramic xmlns:cera="http://example.com/ceramic"
+  # xmlns:clr='http://example.com/color'
+  # clr:color="navy-blue">
+  #  <cera:Type>Porcelain</cera:Type>
+  #  <Glaze>Clear</Glaze>
+  # </cera:Ceramic>
+----
+====
+
+[[mixed-content]]
+==== Mixed content
+
+In XML there can be tags that contain content mixed with other tags and where
+whitespace is significant, such as to represent rich text.
+
+[example]
+====
+[source,xml]
+----
+<description><p>My name is <bold>John Doe</bold>, and I'm <i>28</i> years old</p></description>
+----
+====
+
+To map this to Lutaml::Model we can use the `mixed` option in either way:
+
+* when defining the model;
+* when referencing the model.
+
+NOTE: This feature is not supported by Shale.
+
+
+To specify mixed content, the `mixed: true` option needs to be set at the
+`xml` block's `root` method.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  root 'xml_element_name', mixed: true
+end
+----
+
+.Applying `mixed` to treat root as mixed content
+[example]
+====
+[source,ruby]
+----
+class Paragraph < Lutaml::Model::Serializable
+  attribute :bold, :string, collection: true # allows multiple bold tags
+  attribute :italic, :string
+
+  xml do
+    root 'p', mixed: true
+
+    map_element 'bold', to: :bold
+    map_element 'i', to: :italic
+  end
+end
+----
+
+[source,ruby]
+----
+> Paragraph.from_xml("<p>My name is <bold>John Doe</bold>, and I'm <i>28</i> years old</p>")
+> #<Paragraph:0x0000000104ac7240 @bold="John Doe", @italic="28">
+> Paragraph.new(bold: "John Doe", italic: "28").to_xml
+> #<p>My name is <bold>John Doe</bold>, and I'm <i>28</i> years old</p>
+----
+====
+
+// TODO: How to create mixed content from `#new`?
+
+[[xml-schema-location]]
+==== Automatic support of `xsi:schemaLocation`
+
+The
+https://www.w3.org/TR/xmlschema-1/#xsi_schemaLocation[W3C "XMLSchema-instance"]
+namespace describes a number of attributes that can be used to control the
+behavior of XML processors. One of these attributes is `xsi:schemaLocation`.
+
+The `xsi:schemaLocation` attribute locates schemas for elements and attributes
+that are in a specified namespace. Its value consists of pairs of a namespace
+URI followed by a relative or absolute URL where the schema for that namespace
+can be found.
+
+Usage of `xsi:schemaLocation` in an XML element depends on the declaration of
+the XML namespace of `xsi`, i.e.
+`xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"`. Without this namespace
+LutaML will not be able to serialize the `xsi:schemaLocation` attribute.
+
+NOTE: It is most commonly attached to the root element but can appear further
+down the tree.
+
+The following snippet shows how `xsi:schemaLocation` is used in an XML document:
+
+[source,xml]
+----
+<cera:Ceramic
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:cera="http://example.com/ceramic"
+  xmlns:clr='http://example.com/color'
+  xsi:schemaLocation=
+    "http://example.com/ceramic http://example.com/ceramic.xsd
+     http://example.com/color http://example.com/color.xsd"
+  clr:color="navy-blue">
+  <cera:Type>Porcelain</cera:Type>
+  <Glaze>Clear</Glaze>
+</cera:Ceramic>
+----
+
+LutaML::Model supports the `xsi:schemaLocation` attribute in all XML
+serializations by default, through the `schema_location` attribute on the model
+instance object.
+
+.Retrieving and setting the `xsi:schemaLocation` attribute in XML serialization
+[example]
+====
+In this example, the `xsi:schemaLocation` attribute will be automatically
+supplied without the explicit need to define in the model, and allows for
+round-trip serialization.
+
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, :string
+  attribute :color, :string
+
+  xml do
+    root 'Ceramic'
+    namespace 'http://example.com/ceramic', 'cera'
+    map_element 'Type', to: :type, namespace: :inherit
+    map_element 'Glaze', to: :glaze
+    map_attribute 'color', to: :color, namespace: 'http://example.com/color', prefix: 'clr'
+  end
+end
+
+xml_content = <<~HERE
+<cera:Ceramic
+  xmlns:cera="http://example.com/ceramic"
+  xmlns:clr="http://example.com/color"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  clr:color="navy-blue"
+  xsi:schemaLocation="
+    http://example.com/ceramic http://example.com/ceramic.xsd
+    http://example.com/color http://example.com/color.xsd
+  ">
+  <cera:Type>Porcelain</cera:Type>
+  <Glaze>Clear</Glaze>
+</cera:Ceramic>
+HERE
+----
+
+[source,ruby]
+----
+> c = Ceramic.from_xml(xml_content)
+=>
+#<Ceramic:0x00000001222bdd60
+...
+> schema_loc = c.schema_location
+#<Lutaml::Model::SchemaLocation:0x0000000122773760
+...
+> schema_loc
+=>
+#<Lutaml::Model::SchemaLocation:0x0000000122773760
+ @namespace="http://www.w3.org/2001/XMLSchema-instance",
+ @original_schema_location="http://example.com/ceramic http://example.com/ceramic.xsd http://example.com/color http://example.com/color.xsd",
+ @prefix="xsi",
+ @schema_location=
+  [#<Lutaml::Model::Location:0x00000001222bd018 @location="http://example.com/ceramic.xsd", @namespace="http://example.com/ceramic">,
+   #<Lutaml::Model::Location:0x00000001222bcfc8 @location="http://example.com/color.xsd", @namespace="http://example.com/color">]>
+> new_c = Ceramic.new(type: "Porcelain", glaze: "Clear", color: "navy-blue", schema_location: schema_loc).to_xml
+> puts new_c
+# <cera:Ceramic
+#   xmlns:cera="http://example.com/ceramic"
+#   xmlns:clr="http://example.com/color"
+#   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+#   clr:color="navy-blue"
+#   xsi:schemaLocation="
+#     http://example.com/ceramic http://example.com/ceramic.xsd
+#     http://example.com/color http://example.com/color.xsd
+#   ">
+#   <cera:Type>Porcelain</cera:Type>
+#   <cera:Glaze>Clear</cera:Glaze>
+# </cera:Ceramic>
+----
+====
+
+NOTE: For details on `xsi:schemaLocation`, please refer to the
+https://www.w3.org/TR/xmlschema-1/#xsi_schemaLocation[W3C XML standard].
+
+
+
+=== Key value data models
+
+==== General
+
+Key-value data models like JSON, YAML, and TOML all share a similar structure
+where data is stored as key-value pairs.
+
+`Lutaml::Model` works with these formats in a similar way.
+
+==== Mapping
+
+The `map` method is used to define key-value mappings.
+
+Syntax:
+
+[source,ruby]
+----
+json | yaml | toml | key_value do
+  map 'key_value_model_attribute_name', to: :name_of_attribute
+end
+----
+
+
+==== Unified mapping
+
+The `key_value` method is a streamlined way to map all attributes for
+serialization into key-value formats including JSON, YAML, and TOML.
+
+If there is no definite differentiation between the key value formats, the
+`key_value` method simplifies defining mappings and improves code readability.
+
+
+.Using the `map` method to define the same mappings across all key-value formats
+[example]
+====
+This example shows how to define a key-value data model with the `key_value`
+method which maps the same attributes across all key-value formats.
+
+[source,ruby]
+----
+class CeramicModel < Lutaml::Model::Serializable
+  attribute :color, :string
+  attribute :glaze, :string
+  attribute :description, :string
+
+  key_value do
+    map :color, to: color
+    map :glz, to: :glaze
+    map :desc, to: :description
+  end
+
+  # Equivalent to the JSON, YAML, and TOML mappings.
+  #
+  # json and yaml and toml do
+  #   map :id, to: color
+  #   map :name, to: :full_name
+  #   map :status, to: :current_status
+  # end
+end
+----
+
+[source,json]
+----
+{
+  "color": "Navy Blue",
+  "glz": "Clear",
+  "desc": "A ceramic with a navy blue color and clear glaze."
+}
+----
+
+[source,yaml]
+----
+color: Navy Blue
+glz: Clear
+desc: A ceramic with a navy blue color and clear glaze.
+----
+
+[source,ruby]
+----
+> CeramicModel.from_json(json)
+> #<CeramicModel:0x0000000104ac7240 @color="Navy Blue", @glaze="Clear", @description="A ceramic with a navy blue color and clear glaze.">
+> CeramicModel.new(color: "Navy Blue", glaze: "Clear", description: "A ceramic with a navy blue color and clear glaze.").to_json
+> #{"color"=>"Navy Blue", "glz"=>"Clear", "desc"=>"A ceramic with a navy blue color and clear glaze."}
+----
+====
+
+==== Specific format mappings
+
+Specific key value formats can be mapping independently of other formats, including:
+
+* `json` for the JSON format
+* `yaml` for the YAML format
+* `toml` for the TOML format
+
+
+.Using the `map` method to define key-value mappings per format
+[example]
+====
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :value, :integer
+
+  json do
+    map 'name', to: :name
+    map 'value', to: :value
+  end
+
+  yaml do
+    map 'name', to: :name
+    map 'value', to: :value
+  end
+
+  toml do
+    map 'name', to: :name
+    map 'value', to: :value
+  end
+end
+----
+
+[source,json]
+----
+{
+  "name": "John Doe",
+  "value": 28
+}
+----
+
+[source,ruby]
+----
+> Example.from_json(json)
+> #<Example:0x0000000104ac7240 @name="John Doe", @value=28>
+> Example.new(name: "John Doe", value: 28).to_json
+> #{"name"=>"John Doe", "value"=>28}
+----
+====
+
+
+==== Nested attribute mappings
+
+The `map` method can also be used to map nested key-value data models
+by referring to a Lutaml::Model class as an attribute class.
+
+[example]
+====
+[source,ruby]
+----
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string
+  attribute :temperature, :integer
+
+  json do
+    map 'color', to: :color
+    map 'temperature', to: :temperature
+  end
+end
+
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, Glaze
+
+  json do
+    map 'type', to: :type
+    map 'glaze', to: :glaze
+  end
+end
+----
+
+[source,json]
+----
+{
+  "type": "Porcelain",
+  "glaze": {
+    "color": "Clear",
+    "temperature": 1050
+  }
+}
+----
+
+[source,ruby]
+----
+> Ceramic.from_json(json)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze=#<Glaze:0x0000000104ac7240 @color="Clear", @temperature=1050>>
+> Ceramic.new(type: "Porcelain", glaze: Glaze.new(color: "Clear", temperature: 1050)).to_json
+> #{"type"=>"Porcelain", "glaze"=>{"color"=>"Clear", "temperature"=>1050}}
+----
+====
+
+
+
+==== Collection with keyed elements (keyed collection)
+
+===== General
+
+NOTE: This feature is for key-value data model serialization and deserialization
+only.
+
+The `map` method with the `root_mappings` option is used for key-value data that
+is keyed using an attribute value.
+
+In other words, the key of a key-value pair in a collection is actually the
+value of an attribute that belongs to the value.
+
+Simply put, the following two data structures are considered to have the same
+data:
+
+[[collection-keyed-by-value]]
+.A YAML collection as a keyed object, each key with value of the `id` attribute
+[source,yaml]
+----
+---
+vase1:
+  name: Imperial Vase
+bowl2:
+  name: 18th Century Bowl
+----
+
+[[collection-unkeyed-by-value]]
+.A YAML collection as an array, the `id` attribute value located inside each element
+[source,yaml]
+----
+---
+- id: vase1
+  name: Imperial Vase
+- id: bowl2
+  name: 18th Century Bowl
+----
+
+There are key difference between these two data structures:
+
+* The <<collection-keyed-by-value,keyed object>> (first data structure) ensures
+uniqueness of the `id` attribute value across the collection, while the
+<<collection-unkeyed-by-value,array>> (second data structure) does not.
+
+* The value of the `id` attribute in the first data structure *exists outside*
+of the formal structure of the data object, instead, it *only exists at the
+collection level*. On the other hand, the value *exists inside* the structure of
+the data object in the second data structure.
+
+The `map` method with the `root_mappings` option, in practice, parses the first
+data structure in the same way that you would access / manipulate the second
+data structure, while retaining the serialization semantics of using an
+attribute as key.
+
+As a result, usage of lutaml-model across both types of collections are
+identical (except when serialized).
+
+
+Syntax:
+
+[source,ruby]
+----
+class SomeKeyedCollection < Lutaml::Model::Serializable
+  attribute :name_of_attribute, AttributeValueType, collection: true
+
+  json | yaml | toml | key_value do
+    map to: :name_of_attribute, <1>
+      root_mappings: { <2>
+        # `:key` is a reserved keyword
+        value_type_attribute_name_for_key: :key, <3>
+        # `:value` is a reserved keyword (and optional)
+        value_type_attribute_name_for_value: :value, <4>
+        # `[path name]` represents the path to access the value in the
+        # serialization data model to be assigned to
+        # `AttributeValueType.value_type_attribute_name_for_custom_type`
+        value_type_attribute_name_for_custom_type: [path name] <5>
+      }
+  end
+end
+
+class AttributeValueType < Lutaml::Model::Serializable
+  attribute :value_type_attribute_name_for_key, :string
+  attribute :value_type_attribute_name_for_value, :string
+  attribute :value_type_attribute_name_for_custom_type, CustomType
+end
+----
+<1> The `map` option indicates that this class represents the root of the
+serialization object being passed in. The `name_of_attribute` is the name
+of the attribute that will hold the collection data. (Mandatory)
+<2> The `root_mappings` keyword specifies what the collection key represents and
+and value for model. (Mandatory)
+<3> The `key` keyword specifies the attribute name of the individual collection
+object type that represents its key used in the collection. (Mandatory)
+<4> The `value` keyword specifies the attribute name of the individual collection
+object type that represents its data used in the collection. (Optional, if
+not specified, the entire object is used as the value.)
+<5> The `value_type_attribute_name_for_custom_type` is the name of the attribute
+inside the individual collection object (`AttributeValueType`) that will hold
+the value accessible in the serialization data model fetched at `[path name]`.
+
+The mapping syntax here is similar to that of <<attribute-extraction>> except
+that the `:key` and `:value` keywords are allowed in addition to `{path}`.
+
+
+There are 3 cases when working with a keyed collection:
+
+. Case 1: Only move the "key" into the collection object.
+
+. Case 2: Move the "key" into the collection object, override all other
+mappings. Maps `:key` and another attribute, then we override all the other
+mappings (clean slate)
+
+. Case 3: Move the "key" into the collection object to an attribute, map the
+entire "value" to another attribute of the collection object.
+
+
+===== Case 1: Only move the "key" into the collection object
+
+In this case, the "key" of the keyed collection is moved into the collection
+object, and all other mappings are left as they are.
+
+When the "key" is moved into the collection object, the following happens:
+
+* The "key" of the keyed collection maps to a particular attribute of the
+collection's instance object.
+* The "value" of the keyed collection (with its various content) maps to the
+collection's instance object following the collection's instance object type's
+default mappings.
+
+The `root_mappings` option **should only contain one mapping**, and the mapping
+must lead **to the `:key` keyword**.
+
+Syntax:
+
+[source,ruby]
+----
+class SomeKeyedCollection < Lutaml::Model::Serializable
+  attribute :name_of_attribute, AttributeValueType, collection: true
+
+  json | yaml | toml | key_value do
+    map to: :name_of_attribute,
+      root_mappings: {
+        value_type_attribute_name_for_key: :key, <1>
+      }
+  end
+end
+
+class AttributeValueType < Lutaml::Model::Serializable
+  attribute :value_type_attribute_name_for_key, :string
+  attribute :value_type_attribute_name_for_value, :string
+  attribute :value_type_attribute_name_for_custom_type, CustomType
+end
+----
+<1> The `:key` keyword specifies that the "key" of the keyed collection maps
+to the `value_type_attribute_name_for_key` attribute of the collection's
+instance object (i.e. `AttributeValueType`).
+
+
+
+.Using `map` with `root_mappings` (only `key`) to map a keyed collection into individual models
+[example]
+====
+Given this data:
+
+[source,yaml]
+----
+---
+vase1:
+  name: Imperial Vase
+bowl2:
+  name: 18th Century Bowl
+----
+
+A model can be defined for this YAML as follows:
+
+[source,ruby]
+----
+# This is a normal Lutaml::Model class
+class Ceramic < Lutaml::Model::Serializable
+  attribute :ceramic_id, :string
+  attribute :ceramic_name, :string
+
+  key_value do
+    map 'id', to: :ceramic_id
+    map 'name', to: :ceramic_name
+  end
+end
+
+# This is Lutaml::Model class that represents the collection of Ceramic objects
+class CeramicCollection < Lutaml::Model::Serializable
+  attribute :ceramics, Ceramic, collection: true
+
+  key_value do
+    map to: :ceramics, # All data goes to the `ceramics` attribute
+      root_mappings: {
+        # The key of an object in this collection is mapped to the ceramic_id
+        # attribute of the Ceramic object.
+        ceramic_id: :key # "key" is a reserved keyword
+      }
+  end
+end
+----
+
+[source,ruby]
+----
+# Parsing the YAML collection with dynamic data keys
+> ceramic_collection = CeramicCollection.from_yaml(yaml)
+> #<CeramicCollection:0x0000000104ac7240
+  @ceramics=
+    [#<Ceramic:0x0000000104ac6e30 @ceramic_id="vase1", @ceramic_name="Imperial Vase">,
+     #<Ceramic:0x0000000104ac58f0 @ceramic_id="bowl2", @ceramic_name="18th Century Bowl">]
+
+# NOTE: When an individual Ceramic object is serialized, the `id` attribute is
+# the original key in the incoming YAML data, and because there were no mappings defined along with the `:key`, everyting is mapped to the `Ceramic` object using the mappings defined in the `Ceramic` class.
+> first_ceramic = ceramic_collection.ceramics.first
+> puts first_ceramic.to_yaml
+=>
+# ---
+# id: vase1
+# name: Imperial Vase
+
+# NOTE: When in a collection, the `ceramic_id` attribute is used to key the data,
+# and it disappears from the individual object.
+> puts ceramic_collection.to_yaml
+=>
+# ---
+# vase1:
+#   name: Imperial Vase
+# bowl2:
+#   name: 18th Century Bowl
+
+# NOTE: When the collection is serialized, the `ceramic_id` attribute is used to
+# key the data. This is defined through the `map` with `root_mappings` method in
+# CeramicCollection.
+> new_collection = CeramicCollection.new(ceramics: [
+    Ceramic.new(ceramic_id: "vase1", ceramic_name: "Imperial Vase"),
+    Ceramic.new(ceramic_id: "bowl2", ceramic_name: "18th Century Bowl")
+  ])
+> puts new_collection.to_yaml
+=>
+# ---
+# vase1:
+#   name: Imperial Vase
+# bowl2:
+#   name: 18th Century Bowl
+----
+====
+
+
+
+===== Case 2: Mapping the `key` and complex ``value``s
+
+In this use case, the "key" of the keyed collection is moved into the collection
+object, and all other mappings are overridden.
+
+When more than one mapping rule exists in the `root_mappings` option, the
+`root_mappings` option will override all other mappings in the collection object.
+
+When the "key" is moved into the collection object, the following happens:
+
+* The "key" of the keyed collection maps to a particular attribute of the
+collection's instance object.
+
+* The data of the "value" of the keyed collection have their own mappings
+overridden by the new mapping rules of the `root_mappings` option.
+
+The `root_mappings` option **can contain more than one mapping**, with one of
+the mapping rules leading **to the `:key` keyword**.
+
+
+Syntax:
+
+[source,ruby]
+----
+class SomeKeyedCollection < Lutaml::Model::Serializable
+  attribute :name_of_attribute, AttributeValueType, collection: true
+
+  json | yaml | toml | key_value do
+    map to: :name_of_attribute,
+      root_mappings: {
+        value_type_attribute_name_for_key: :key, <1>
+        value_type_attribute_name_for_value_data_1: "serialization_format_name_1", <2>
+        value_type_attribute_name_for_value_data_2: "serialization_format_name_2",
+        value_type_attribute_name_for_value_data_3: ["path name", ...] <3>
+        # ...
+      }
+  end
+end
+
+class AttributeValueType < Lutaml::Model::Serializable
+  attribute :value_type_attribute_name_for_key, :string
+  attribute :value_type_attribute_name_for_value_data_1, :string
+  attribute :value_type_attribute_name_for_value_data_2, SomeType
+  attribute :value_type_attribute_name_for_value_data_3, MoreType
+  # ...
+end
+----
+<1> The `:key` keyword specifies that the "key" of the keyed collection maps
+to the `value_type_attribute_name_for_key` attribute of the collection's
+instance object (i.e. `AttributeValueType`).
+<2> The `serialization_format_name_1` target specifies that the
+`serialization_format_name_2` key of the keyed collection value maps to the
+`value_type_attribute_name_for_value_data_1` attribute of the collection's
+instance object.
+<3> The `[path name]` target specifies to fetch from `[path name]` in the
+serialization data model to be assigned to the
+`value_type_attribute_name_for_value_data_3` attribute of the collection's
+instance object.
+
+When the `root_mappings` mapping contains more than one mapping rule that is not
+to `:key` or `:value`, the `root_mappings` mapping will override all other
+mappings in the collection object. This means that unmapped attributes in
+`root_mappings` will not be incorporated in the collection instance objects.
+
+.Using `map` with `root_mappings` (`key` and complex `value`) to map a keyed collection into individual models
+[example]
+====
+
+[source,yaml]
+----
+"vase1":
+  type: "vase"
+  details:
+    name: "Imperial Vase"
+    insignia: "Tang Tianbao"
+  urn:
+    primary: "urn:ceramic:vase:vase1"
+"bowl2":
+  type: "bowl"
+  details:
+    name: "18th Century Bowl"
+    insignia: "Ming Wanli"
+  urn:
+    primary: "urn:ceramic:bowl:bowl2"
+----
+
+A model can be defined for this YAML as follows:
+
+[source,ruby]
+----
+# This is a normal Lutaml::Model class
+class CeramicDetails < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :insignia, :string
+
+  key_value do
+    map 'name', to: :name
+    map 'insignia', to: :insignia
+  end
+end
+
+# This is a normal Lutaml::Model class
+class Ceramic < Lutaml::Model::Serializable
+  attribute :ceramic_id, :string
+  attribute :ceramic_type, :string
+  attribute :ceramic_details, CeramicDetails
+  attribute :ceramic_urn, :string
+
+  key_value do
+    map 'id', to: :ceramic_id
+    map 'type', to: :ceramic_type
+    map 'details', to: :ceramic_details
+    map 'urn', to: :ceramic_urn
+  end
+end
+
+# This is Lutaml::Model class that represents the collection of Ceramic objects
+class CeramicCollection < Lutaml::Model::Serializable
+  attribute :ceramics, Ceramic, collection: true
+
+  key_value do
+    map to: :ceramics, # All data goes to the `ceramics` attribute
+      root_mappings: {
+        # The key of an object in this collection is mapped to the ceramic_id
+        # attribute of the Ceramic object.
+        # (e.g. `vase1`, `bowl2`)
+        ceramic_id: :key,
+        ceramic_type: :type,
+        ceramic_details: "details",
+        ceramic_urn: ["urn", "primary"]
+      }
+  end
+end
+----
+
+The output becomes:
+
+[source,ruby]
+----
+> ceramics_collection = CeramicCollection.from_yaml(yaml)
+=> #<CeramicCollection:0x0000000107a2cf30
+  @ceramics=
+    [#<Ceramic:0x0000000107a2cf30
+      @ceramic_id="vase1",
+      @ceramic_type="vase",
+      @ceramic_details=
+        #<CeramicDetails:0x0000000107a2cf30
+          @name="Imperial Vase",
+          @insignia="Tang Tianbao">,
+      @ceramic_urn="urn:ceramic:vase:vase1">,
+     #<Ceramic:0x0000000107a2cf30
+      @ceramic_id="bowl2",
+      @ceramic_type="bowl",
+      @ceramic_details=
+        #<CeramicDetails:0x0000000107a2cf30
+          @name="18th Century Bowl",
+          @insignia="Ming Wanli">
+      @ceramic_urn="urn:ceramic:bowl:bowl2">]
+
+> first_ceramic = ceramics_collection.ceramics.first
+> puts first_ceramic.to_yaml
+=>
+# ---
+# id: vase1
+# type: vase
+# details:
+#   name: Imperial Vase
+#   insignia: Tang Tianbao
+# urn: urn:ceramic:vase:vase1
+
+> new_collection = CeramicCollection.new(ceramics: [
+    Ceramic.new(ceramic_id: "vase1",
+                ceramic_type: "vase",
+                ceramic_urn: "urn:ceramic:vase:vase1",
+                ceramic_details: CeramicDetails.new(
+                  name: "Imperial Vase", insignia: "Tang Tianbao")
+               ),
+    Ceramic.new(ceramic_id: "bowl2",
+                ceramic_type: "bowl",
+                ceramic_urn: "urn:ceramic:vase:bowl2",
+                ceramic_details: CeramicDetails.new(
+                  name: "18th Century Bowl", insignia: "Ming Wanli")
+               )
+  ])
+> new_collection.to_yaml
+>
+# ---
+# vase1:
+#   type: vase
+#   details:
+#     name: Imperial Vase
+#     insignia: Tang Tianbao
+#   urn:
+#     primary: urn:ceramic:vase:vase1
+# bowl2:
+#   type: bowl
+#   details:
+#     name: 18th Century Bowl
+#     insignia: Ming Wanli
+#   urn:
+#     primary: urn:ceramic:bowl:bowl2
+----
+====
+
+
+===== Case 3: Mapping the `key` and delegating `value` to an inner object
+
+In this use case, the "key" of the keyed collection is moved into the collection
+object to an attribute, and the entire "value" of the keyed collection is mapped
+to another attribute of the collection object.
+
+When the "key" is moved into the collection object, the following happens:
+
+* The "key" of the keyed collection maps to a particular attribute of the
+collection's instance object.
+
+* The data of the "value" of the keyed collection will be entirely mapped into
+an attribute of the collection's instance object.
+
+* The original mapping of the "value" attribute of the collection's instance
+object is retained.
+
+The `root_mappings` option **should only contain two mappings**, and the mappings
+must lead **to both the `:key` and `:value` keywords**.
+
+
+Syntax:
+
+[source,ruby]
+----
+class SomeKeyedCollection < Lutaml::Model::Serializable
+  attribute :name_of_attribute, AttributeValueType, collection: true
+
+  json | yaml | toml | key_value do
+    map to: :name_of_attribute,
+      root_mappings: {
+        value_type_attribute_name_for_key: :key, <1>
+        value_type_attribute_name_for_value: :value <2>
+      }
+  end
+end
+
+class AttributeValueType < Lutaml::Model::Serializable
+  attribute :value_type_attribute_name_for_key, :string
+  attribute :value_type_attribute_name_for_value, SomeObject
+end
+----
+<1> The `:key` keyword specifies that the "key" of the keyed collection maps
+to the `value_type_attribute_name_for_key` attribute of the collection's
+instance object (i.e. `AttributeValueType`).
+<2> The `:value` keyword specifies that the entire "value" of the keyed
+collection maps to the `value_type_attribute_name_for_value` attribute of the
+collection's instance object (i.e. `SomeObject`).
+
+When the `root_mappings` mapping contains more than one mapping rule, the
+`root_mappings` mapping will override all other mappings in the collection
+object. This means that unmapped attributes in `root_mappings` will not be
+incorporated in the collection instance objects.
+
+
+
+.Using `map` with `root_mappings` (`key` and `value`) to map a keyed collection into individual models
+[example]
+====
+Given this data:
+
+[source,yaml]
+----
+---
+vase1:
+  name: Imperial Vase
+  insignia: "Tang Tianbao"
+bowl2:
+  name: 18th Century Bowl
+  insignia: "Ming Wanli"
+----
+
+A model can be defined for this YAML as follows:
+
+[source,ruby]
+----
+# This is a normal Lutaml::Model class
+class CeramicDetails < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :insignia, :string
+
+  key_value do
+    map 'name', to: :name
+    map 'insignia', to: :insignia
+  end
+end
+
+# This is a normal Lutaml::Model class
+class Ceramic < Lutaml::Model::Serializable
+  attribute :ceramic_id, :string
+  attribute :ceramic_details, CeramicDetails
+
+  key_value do
+    map 'id', to: :ceramic_id
+    map 'details', to: :ceramic_details
+  end
+end
+
+# This is Lutaml::Model class that represents the collection of Ceramic objects
+class CeramicCollection < Lutaml::Model::Serializable
+  attribute :ceramics, Ceramic, collection: true
+
+  key_value do
+    map to: :ceramics, # All data goes to the `ceramics` attribute
+      root_mappings: {
+        # The key of an object in this collection is mapped to the ceramic_id
+        # attribute of the Ceramic object.
+        # (e.g. `vase1`, `bowl2`)
+        ceramic_id: :key,
+        # The value of an object in this collection is mapped to the
+        # ceramic_details attribute of the Ceramic object.
+        # (e.g. `name: 18th Century Bowl`, `insignia: "Ming Wanli"`
+        ceramic_details: :value
+      }
+  end
+end
+----
+
+[source,ruby]
+----
+# Parsing the YAML collection with dynamic data keys
+> ceramic_collection = CeramicCollection.from_yaml(yaml)
+> #<CeramicCollection:0x0000000104ac7240
+  @ceramics=
+    [#<Ceramic:0x0000000104ac6e30
+      @ceramic_id="vase1",
+      @ceramic_details=
+        #<CeramicDetails:0x0000000104ac6e30
+          @name="Imperial Vase",
+          @insignia="Tang Tianbao">,
+     #<Ceramic:0x0000000104ac58f0
+      @ceramic_id="bowl2",
+      @ceramic_details=
+        #<CeramicDetails:0x0000000104ac58f0
+          @name="18th Century Bowl",
+          @insignia="Ming Wanli">]
+
+# NOTE: When an individual Ceramic object is serialized, the `id` attribute is
+# the original key in the incoming YAML data.
+> first_ceramic = ceramic_collection.ceramics.first
+> puts first_ceramic.to_yaml
+=>
+# ---
+# id: vase1
+# details:
+#   name: Imperial Vase
+#   insignia: Tang Tianbao
+
+# NOTE: When in a collection, the `ceramic_id` attribute is used to key the data,
+# and it disappears from the individual object.
+> puts ceramic_collection.to_yaml
+=>
+# ---
+# vase1:
+#   name: Imperial Vase
+#   insignia: Tang Tianbao
+# bowl2:
+#   name: 18th Century Bowl
+#   insignia: Ming Wanli
+
+# NOTE: When the collection is serialized, the `ceramic_id` attribute is used to
+# key the data. This is defined through the `map` with `root_mappings` method in
+# CeramicCollection.
+> new_collection = CeramicCollection.new(ceramics: [
+    Ceramic.new(ceramic_id: "vase1",
+                ceramic_details: CeramicDetails.new(
+                  name: "Imperial Vase", insignia: "Tang Tianbao")
+               ),
+    Ceramic.new(ceramic_id: "bowl2",
+                ceramic_details: CeramicDetails.new(
+                  name: "18th Century Bowl", insignia: "Ming Wanli")
+               )
+  ])
+> puts new_collection.to_yaml
+=>
+# ---
+# vase1:
+#   name: Imperial Vase
+#   insignia: Tang Tianbao
+# bowl2:
+#   name: 18th Century Bowl
+#   insignia: Ming Wanli
+----
+====
+
+
+[[attribute-extraction]]
+==== Attribute extraction
+
+NOTE: This feature is for key-value data model serialization only.
+
+The `child_mappings` option is used to extract results from a key-value
+serialization data model (JSON, YAML, TOML) into a `Lutaml::Model::Serializable`
+object (collection or not).
+
+The values are extracted from the key-value data model using the list of keys
+provided.
+
+Syntax:
+
+[source,ruby]
+----
+class SomeObject < Lutaml::Model::Serializable
+  attribute :name_of_attribute, AttributeValueType, collection: true
+
+  json | yaml | toml | key_value do
+    map 'key_value_model_attribute_name', to: :name_of_attribute,
+      child_mappings: {
+        value_type_attribute_name_1: <1>
+          {path_to_value_1}, <2>
+        value_type_attribute_name_2:
+          {path_to_value_2},
+        # ...
+      }
+  end
+end
+----
+<1> The `value_type_attribute_name_1` is the attribute name in the
+`AttributeValueType` model. The value of this attribute will be assigned the key
+of the hash in the key-value data model.
+
+<2> The `path_to_value_1` is an array of keys that represent the path to the
+value in the key-value serialization data model. The keys are used to extract the value from
+the key-value serialization data model and assign it to the attribute in the
+`AttributeValueType` model.
++
+The `path_to_value` is in a nested array format with each value a symbol or a
+string, where each symbol represents a key to traverse down. The last key in the
+path is the value to be extracted.
+
+.Determining the path to value in a key-value data model
+[example]
+====
+The following JSON contains 2 keys in schema named `engine` and `gearbox`.
+
+[source,json]
+----
+{
+  "components": {
+    "engine": {
+      "manufacturer": "Ford",
+      "model": "V8"
+    },
+    "gearbox": {
+      "manufacturer": "Toyota",
+      "model": "4-speed"
+    }
+  }
+}
+----
+
+The path to value for the `engine` schema is `[:components, :engine]` and for
+the `gearbox` schema is `[:components, :gearbox]`.
+====
+
+In `path_to_value`, the `:key` and `:value` are reserved instructions used to
+assign the key or value of the serialization data respectively as the value to
+the attribute.
+
+[example]
+====
+In the following JSON content, the `path_to_value` for the object keys named
+`engine` and `gearbox` will utilize the `:key` keyword to assign the key of the
+object as the value of a designated attribute.
+
+[source,json]
+----
+{
+  "components": {
+    "engine": { /*...*/ },
+    "gearbox": { /*...*/ }
+  }
+}
+----
+====
+
+If a specified value path is not found, the corresponding attribute in the model
+will be assigned a `nil` value.
+
+.Attribute values set to `nil` when the `path_to_value` is not found
+[example]
+====
+In the following JSON content, the `path_to_value` of `[:extras, :sunroof]` and
+`[:extras, :drinks_cooler]` at the object `"gearbox"` would be set to `nil`.
+
+[source,json]
+----
+{
+  "components": {
+    "engine": {
+      "manufacturer": "Ford",
+      "extras": {
+        "sunroof": true,
+        "drinks_cooler": true
+      }
+    },
+    "gearbox": {
+      "manufacturer": "Toyota"
+    }
+  }
+}
+----
+====
+
+
+.Using the `child_mappings` option to extract values from a key-value data model
+[example]
+====
+The following JSON contains 2 keys in schema named `foo` and `bar`.
+
+[source,json]
+----
+{
+  "schemas": {
+    "foo": { <1>
+      "path": { <2>
+        "link": "link one",
+        "name": "one"
+      }
+    },
+    "bar": { <1>
+      "path": { <2>
+        "link": "link two",
+        "name": "two"
+      }
+    }
+  }
+}
+----
+<1> The keys `foo` and `bar` are to be mapped to the `id` attribute.
+<2> The nested `path.link` and `path.name` keys are used as the `link` and
+`name` attributes, respectively.
+
+A model can be defined for this JSON as follows:
+
+[source,ruby]
+----
+class Schema < Lutaml::Model::Serializable
+  attribute :id, :string
+  attribute :link, :string
+  attribute :name, :string
+end
+
+class ChildMappingClass < Lutaml::Model::Serializable
+  attribute :schemas, Schema, collection: true
+
+  json do
+    map "schemas", to: :schemas,
+                   child_mappings: {
+                     id: :key,
+                     link: %i[path link],
+                     name: %i[path name],
+                   }
+  end
+end
+----
+
+The output becomes:
+
+[source,ruby]
+----
+> ChildMappingClass.from_json(json)
+> #<ChildMappingClass:0x0000000104ac7240
+ @schemas=
+  [#<Schema:0x0000000104ac6e30 @id="foo", @link="link one", @name="one">,
+   #<Schema:0x0000000104ac58f0 @id="bar", @link="link two", @name="two">]>
+> ChildMappingClass.new(schemas: [Schema.new(id: "foo", link: "link one", name: "one"), Schema.new(id: "bar", link: "link two", name: "two")]).to_json
+> #{"schemas"=>{"foo"=>{"path"=>{"link"=>"link one", "name"=>"one"}}, {"bar"=>{"path"=>{"link"=>"link two", "name"=>"two"}}}}}
+----
+
+In this example:
+
+* The `key` of each schema (`foo` and `bar`) is mapped to the `id` attribute.
+
+* The nested `path.link` and `path.name` keys are mapped to the `link` and
+`name` attributes, respectively.
+====
+
+
+
+[[separate-serialization-model]]
+=== Separate serialization model
+
+The `Serialize` module can be used to define only serialization mappings for a
+separately defined model (a Ruby class).
+
+Syntax:
+
+[source,ruby]
+----
+class Foo < Lutaml::Model::Serializable
+  model {DataModelClass}
+
+  # ...
+end
+----
+
+[example]
+.Using the `model` method to define serialization mappings for a separate model
+====
+[source,ruby]
+----
+class Ceramic
+  attr_accessor :type, :glaze
+
+  def name
+    "#{type} with #{glaze}"
+  end
+end
+
+class CeramicSerialization < Lutaml::Model::Serializable
+  model Ceramic
+
+  xml do
+    map_element 'type', to: :type
+    map_element 'glaze', to: :glaze
+  end
+end
+----
+
+[source,ruby]
+----
+> Ceramic.new(type: "Porcelain", glaze: "Clear").name
+> # "Porcelain with Clear"
+> CeramicSerialization.from_xml(xml)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze="Clear">
+> Ceramic.new(type: "Porcelain", glaze: "Clear").to_xml
+> #<Ceramic><type>Porcelain</type><glaze>Clear</glaze></Ceramic>
+----
+====
+
+
+=== Rendering empty attributes and collections
+
+By default, empty attributes and collections are not rendered in the output.
+
+To render empty attributes and collections, use the `render_nil` option.
+
+Syntax:
+
+[source,ruby]
+----
+xml do
+  map_element 'key_value_model_attribute_name', to: :name_of_attribute, render_nil: true
+end
+----
+
+[source,ruby]
+----
+json | yaml | toml do
+  map 'key_value_model_attribute_name', to: :name_of_attribute, render_nil: true
+end
+----
+
+.Using the `render_nil` option to render empty attributes
+[example]
+====
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, :string
+
+  xml do
+    map_element 'type', to: :type, render_nil: true
+    map_element 'glaze', to: :glaze
+  end
+
+  json do
+    map 'type', to: :type, render_nil: true
+    map 'glaze', to: :glaze
+  end
+end
+----
+
+[source,ruby]
+----
+> Ceramic.new.to_json
+> # { 'type': null }
+> Ceramic.new(type: "Porcelain", glaze: "Clear").to_json
+> # { 'type': 'Porcelain', 'glaze': 'Clear' }
+----
+
+[source,ruby]
+----
+> Ceramic.new.to_xml
+> # <Ceramic><type></type></Ceramic>
+> Ceramic.new(type: "Porcelain", glaze: "Clear").to_xml
+> # <Ceramic><type>Porcelain</type><glaze>Clear</glaze></Ceramic>
+----
+====
+
+.Using the `render_nil` option to render empty attribute collections
+[example]
+====
+[source,ruby]
+----
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glazes, :string, collection: true
+
+  xml do
+    map_element 'type', to: :type, render_nil: true
+    map_element 'glazes', to: :glazes, render_nil: true
+  end
+
+  json do
+    map 'type', to: :type, render_nil: true
+    map 'glazes', to: :glazes, render_nil: true
+  end
+end
+----
+
+[source,ruby]
+----
+> Ceramic.new.to_json
+> # { 'type': null, 'glazes': [] }
+> Ceramic.new(type: "Porcelain", glazes: ["Clear"]).to_json
+> # { 'type': 'Porcelain', 'glazes': ['Clear'] }
+----
+
+[source,ruby]
+----
+> Ceramic.new.to_xml
+> # <Ceramic><type></type><glazes></glazes></Ceramic>
+> Ceramic.new(type: "Porcelain", glazes: ["Clear"]).to_xml
+> # <Ceramic><type>Porcelain</type><glazes>Clear</glazes></Ceramic>
+----
+====
+
+
+
+=== Advanced attribute mapping
+
+==== Multiple mappings to single attribute
+
+The mapping methods support multiple names mapping to a single attribute using
+an array of names.
+
+Syntax:
+
+[source,ruby]
+----
+json | yaml | toml | key_value do
+  map ["name1", "name2"], to: :attribute_name
+end
+
+xml do
+  map_element ["name1", "name2"], to: :attribute_name
+  map_attribute ["attr1", "attr2"], to: :attribute_name
+end
+----
+
+When serializing, the first element in the array of mapped names is always used
+as the output name.
+
+
+.Using multiple names to map to a single attribute
+[example]
+====
+[source,ruby]
+----
+class CustomModel < Lutaml::Model::Serializable
+  attribute :full_name, Lutaml::Model::Type::String
+  attribute :color, Lutaml::Model::Type::String
+  attribute :id, Lutaml::Model::Type::String
+
+  json do
+    map ["name", "custom_name"], with: { to: :name_to_json, from: :name_from_json }
+    map ["color", "shade"], with: { to: :color_to_json, from: :color_from_json }
+  end
+
+  xml do
+    root "CustomModel"
+    map_element ["name", "custom-name"], with: { to: :name_to_xml, from: :name_from_xml }
+    map_element ["color", "shade"], with: { to: :color_to_xml, from: :color_from_xml }
+    map_attribute ["id", "identifier"], to: :id
+  end
+
+  # Custom methods for JSON
+  def name_to_json(model, doc)
+    doc["name"] = "JSON Model: #{model.full_name}"
+  end
+
+  def name_from_json(model, value)
+    model.full_name = value&.sub(/^JSON Model: /, "")
+  end
+
+  def color_to_json(model, doc)
+    doc["color"] = model.color.upcase
+  end
+
+  def color_from_json(model, value)
+    model.color = value&.downcase
+  end
+
+  # Custom methods for XML
+  def name_to_xml(model, parent, doc)
+    el = doc.create_element("name")
+    doc.add_text(el, "XML Model: #{model.full_name}")
+    doc.add_element(parent, el)
+  end
+
+  def name_from_xml(model, value)
+    model.full_name = value.sub(/^XML Model: /, "")
+  end
+
+  def color_to_xml(model, parent, doc)
+    el = doc.create_element("color")
+    doc.add_text(el, model.color.upcase)
+    doc.add_element(parent, el)
+  end
+
+  def color_from_xml(model, value)
+    model.color = value.downcase
+  end
+end
+----
+
+For JSON:
+[source,json]
+----
+{
+  "custom_name": "JSON Model: Vase",
+  "shade": "BLUE",
+  "identifier": "123"
+}
+----
+
+For XML:
+[source,xml]
+----
+<CustomModel id="123">
+  <name>XML Model: Vase</name>
+  <color>BLUE</color>
+</CustomModel>
+----
+
+[source,ruby]
+----
+> model = CustomModel.from_json(json)
+> model.full_name
+> # "Vase"
+> model.color
+> # "blue"
+----
+====
+
+
+==== Attribute mapping delegation
+
+Delegate attribute mappings to nested objects using the `delegate` option.
+
+Syntax:
+
+[source,ruby]
+----
+xml | json | yaml | toml do
+  map 'key_value_model_attribute_name', to: :name_of_attribute, delegate: :model_to_delegate_to
+end
+----
+
+.Using the `delegate` option to map attributes to nested objects
+[example]
+====
+The following class will parse the JSON snippet below:
+
+[source,ruby]
+----
+class Glaze < Lutaml::Model::Serializable
+  attribute :color, :string
+  attribute :temperature, :integer
+
+  json do
+    map 'color', to: :color
+    map 'temperature', to: :temperature
+  end
+end
+
+class Ceramic < Lutaml::Model::Serializable
+  attribute :type, :string
+  attribute :glaze, Glaze
+
+  json do
+    map 'type', to: :type
+    map 'color', to: :color, delegate: :glaze
+  end
+end
+----
+
+[source,json]
+----
+{
+  "type": "Porcelain",
+  "color": "Clear"
+}
+----
+
+[source,ruby]
+----
+> Ceramic.from_json(json)
+> #<Ceramic:0x0000000104ac7240 @type="Porcelain", @glaze=#<Glaze:0x0000000104ac7240 @color="Clear", @temperature=nil>>
+> Ceramic.new(type: "Porcelain", glaze: Glaze.new(color: "Clear")).to_json
+> #{"type"=>"Porcelain", "color"=>"Clear"}
+----
+====
+
+NOTE: The corresponding keyword used by Shale is `receiver:` instead of
+`delegate:`.
+
+
+==== Attribute serialization with custom methods
+
+===== General
+
+Define custom methods for specific attribute mappings using the `with:` key for
+each serialization mapping block for `from` and `to`.
+
+
+===== XML serialization with custom methods
+
+Syntax:
+
+.XML serialization with custom methods
+[source,ruby]
+----
+xml do
+  map_element 'element_name', to: :name_of_element, with: {
+    to: :method_name_to_serialize,
+    from: :method_name_to_deserialize
+  }
+  map_attribute 'attribute_name', to: :name_of_attribute, with: {
+    to: :method_name_to_serialize,
+    from: :method_name_to_deserialize
+  }
+  map_content, to: :name_of_content, with: {
+    to: :method_name_to_serialize,
+    from: :method_name_to_deserialize
+  }
+end
+----
+
+.Using the `with:` key to define custom serialization methods for XML
+[example]
+====
+The following class will parse the XML snippet below:
+
+[source,ruby]
+----
+class CustomCeramic < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :size, :integer
+  attribute :description, :string
+
+  xml do
+    map_element "Name", to: :name, with: { to: :name_to_xml, from: :name_from_xml }
+    map_attribute "Size", to: :size, with: { to: :size_to_xml, from: :size_from_xml }
+    map_content with: { to: :description_to_xml, from: :description_from_xml }
+  end
+
+  def name_to_xml(model, parent, doc)
+    el = doc.create_element("Name")
+    doc.add_text(el, "XML Masterpiece: #{model.name}")
+    doc.add_element(parent, el)
+  end
+
+  def name_from_xml(model, value)
+    model.name = value.sub(/^XML Masterpiece: /, "")
+  end
+
+  def size_to_xml(model, parent, doc)
+    doc.add_attribute(parent, "Size", model.size + 3)
+  end
+
+  def size_from_xml(model, value)
+    model.size = value.to_i - 3
+  end
+
+  def description_to_xml(model, parent, doc)
+    doc.add_text(parent, "XML Description: #{model.description}")
+  end
+
+  def description_from_xml(model, value)
+    model.description = value.join.strip.sub(/^XML Description: /, "")
+  end
+end
+----
+
+[source,xml]
+----
+<CustomCeramic Size="15">
+  <Name>XML Masterpiece: Vase</Name>
+  XML Description: A beautiful ceramic vase
+</CustomCeramic>
+----
+
+[source,ruby]
+----
+> CustomCeramic.from_xml(xml)
+> #<CustomCeramic:0x0000000108d0e1f8
+   @element_order=["text", "Name", "text", "Size", "text"],
+   @name="Masterpiece: Vase",
+   @ordered=nil,
+   @size=12,
+   @description="A beautiful ceramic vase">
+> puts CustomCeramic.new(name: "Vase", size: 12, description: "A beautiful vase").to_xml
+# <CustomCeramic Size="15">
+#   <Name>XML Masterpiece: Vase</Name>
+#   XML Description: A beautiful vase
+# </CustomCeramic>
+----
+====
+
+
+===== Key-value data model serialization with custom methods
+
+.Key-value data model serialization with custom methods
+[source,ruby]
+----
+json | yaml | toml do
+  map 'attribute_name', to: :name_of_attribute, with: {
+    to: :method_name_to_serialize,
+    from: :method_name_to_deserialize
+  }
+end
+----
+
+.Using the `with:` key to define custom serialization methods
+[example]
+====
+The following class will parse the JSON snippet below:
+
+[source,ruby]
+----
+class CustomCeramic < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :size, :integer
+
+  json do
+    map 'name', to: :name, with: { to: :name_to_json, from: :name_from_json }
+    map 'size', to: :size
+  end
+
+  def name_to_json(model, doc)
+    doc["name"] = "Masterpiece: #{model.name}"
+  end
+
+  def name_from_json(model, value)
+    model.name = value.sub(/^Masterpiece: /, '')
+  end
+end
+----
+
+[source,json]
+----
+{
+  "name": "Masterpiece: Vase",
+  "size": 12
+}
+----
+
+[source,ruby]
+----
+> CustomCeramic.from_json(json)
+> #<CustomCeramic:0x0000000104ac7240 @name="Vase", @size=12>
+> CustomCeramic.new(name: "Vase", size: 12).to_json
+> #{"name"=>"Masterpiece: Vase", "size"=>12}
+----
+====
+
+
+
+
+== Validation
+
+=== General
+
+Lutaml::Model provides a way to validate data models using the `validate` and
+`validate!` methods.
+
+* The `validate` method sets an `errors` array in the model instance that
+contains all the validation errors. This method is used for checking the
+validity of the model silently.
+
+* The `validate!` method raises a `Lutaml::Model::ValidationError` that contains
+all the validation errors. This method is used for forceful validation of the
+model through raising an error.
+
+Lutaml::Model supports the following validation methods:
+
+* `collection`:: Validates collection size range.
+* `values`:: Validates the value of an attribute from a set of fixed values.
+
+[example]
+====
+The following class will validate the `degree_settings` attribute to ensure that
+it has at least one element and that the `description` attribute is one of the
+values in the set `[one, two, three]`.
+
+[source,ruby]
+----
+class Klin < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :degree_settings, :integer, collection: (1..)
+  attribute :description, :string, values: %w[one two three]
+
+  xml do
+    map_element 'name', to: :name
+    map_attribute 'degree_settings', to: :degree_settings
+  end
+end
+
+klin = Klin.new(name: "Klin", degree_settings: [100, 200, 300], description: "one")
+klin.validate
+# => []
+
+klin = Klin.new(name: "Klin", degree_settings: [], description: "four")
+klin.validate
+# => [
+#      #<Lutaml::Model::CollectionSizeError: degree_settings must have at least 1 element>,
+#      #<Lutaml::Model::ValueError: description must be one of [one, two, three]>
+#    ]
+
+e = klin.validate!
+# => Lutaml::Model::ValidationError: [
+#      degree_settings must have at least 1 element,
+#      description must be one of [one, two, three]
+#    ]
+e.errors
+# => [
+#     #<Lutaml::Model::CollectionSizeError: degree_settings must have at least 1 element>,
+#     #<Lutaml::Model::ValueError: description must be one of [one, two, three]>
+#   ]
+----
+====
+
+=== Custom validation
+
+To add custom validation, override the `validate` method in the model class.
+Additional errors should be added to the `errors` array.
+
+[example]
+====
+The following class validates the `degree_settings` attribute when the `type` is
+`glass` to ensure that the value is less than 1300.
+
+[source,ruby]
+----
+class Klin < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :type, :string, values: %w[glass ceramic]
+  attribute :degree_settings, :integer, collection: (1..)
+
+  def validate
+    errors = super
+    if type == "glass" && degree_settings.any? { |d| d > 1300 }
+      errors << Lutaml::Model::Error.new("Degree settings for glass must be less than 1300")
+    end
+  end
+end
+
+klin = Klin.new(name: "Klin", type: "glass", degree_settings: [100, 200, 1400])
+klin.validate
+# => [#<Lutaml::Model::Error: Degree settings for glass must be less than 1300>]
+----
+====
+
+
+== Adapters
+
+=== General
+
+Lutaml::Model uses an adapter pattern to support multiple libraries for each
+serialization format.
+
+Lutaml::Model supports the following serialization formats:
+
+* XML (https://www.w3.org/TR/xmlschema-1/[W3C XML Schema (Second Edition)], XML 1.0)
+* YAML (https://yaml.org/[YAML version 1.2])
+* JSON (https://www.ecma-international.org/publications-and-standards/standards/ecma-404/[ECMA-404 The JSON Data Interchange Standard], unofficial link: https://www.json.org[JSON])
+* TOML (https://toml.io/en[TOML version 1.0])
+
+You will need to specify the configuration for the adapter you want to use. The
+easiest way is to copy and paste the following configuration into your code.
+
+The configuration is as follows:
+
+[source,ruby]
+----
+require 'lutaml/model'
+require 'lutaml/model/xml_adapter/nokogiri_adapter'
+require 'lutaml/model/json_adapter/standard_json_adapter'
+require 'lutaml/model/toml_adapter/toml_rb_adapter'
+require 'lutaml/model/yaml_adapter/standard_yaml_adapter'
+
+Lutaml::Model::Config.configure do |config|
+  config.xml_adapter = Lutaml::Model::XmlAdapter::NokogiriAdapter
+  config.yaml_adapter = Lutaml::Model::YamlAdapter::StandardYamlAdapter
+  config.json_adapter = Lutaml::Model::JsonAdapter::StandardJsonAdapter
+  config.toml_adapter = Lutaml::Model::TomlAdapter::TomlRbAdapter
+end
+----
+
+You can also provide the adapter type by using symbols like
+
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  config.xml_adapter_type = :nokogiri # can be one of [:nokogiri, :ox, :oga]
+  config.yaml_adapter_type = :standard_yaml
+  config.json_adapter_type = :standard_json # can be one of [:standard_json, :multi_json]
+  config.toml_adapter_type = :toml_rb # can be one of [:toml_rb, :tomlib]
+end
+----
+
+NOTE: By default `yaml_adapter_type` and `json_adapter_type` are set to
+`:standard_yaml` and `:standard_json` respectively.
+
+
+=== XML
+
+Lutaml::Model supports the following XML adapters:
+
+Nokogiri::
+(default)
+Popular `libxml` based XML parser for Ruby.
+Requires native extensions (i.e. compiled C code).
+Requires the `nokogiri` gem.
+
+Oga::
+(optional)
+Pure Ruby XML parser.
+Does not require native extensions and is suitable for
+https://opalrb.com[Opal] (Ruby on JavaScript).
+Requires the `oga` gem.
+
+Ox::
+(optional)
+Fast XML parser and object serializer for Ruby, implemented partially in C.
+Requires native extensions (i.e. compiled C code).
+Requires the `ox` gem.
+
+
+.Using the Nokogiri XML adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/xml_adapter/nokogiri_adapter'
+  config.xml_adapter = Lutaml::Model::XmlAdapter::NokogiriAdapter
+end
+----
+
+.Using the Oga XML adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/xml_adapter/oga_adapter'
+  config.xml_adapter = Lutaml::Model::XmlAdapter::OgaAdapter
+end
+----
+
+.Using the Ox XML adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/xml_adapter/ox_adapter'
+  config.xml_adapter = Lutaml::Model::XmlAdapter::OxAdapter
+end
+----
+
+
+=== YAML
+
+Lutaml::Model supports only one YAML adapter.
+
+YAML::
+(default)
+The Psych YAML parser and emitter for Ruby.
+Included in the Ruby standard library.
+
+.Using the YAML adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/yaml_adapter/standard_yaml_adapter'
+  config.yaml_adapter = Lutaml::Model::YamlAdapter::StandardYamlAdapter
+end
+----
+
+
+
+=== JSON
+
+Lutaml::Model supports the following JSON adapters:
+
+JSON::
+(default)
+The standard JSON library for Ruby.
+Included in the Ruby standard library.
+
+MultiJson::
+(optional)
+A gem that provides a common interface to multiple JSON libraries.
+Requires the `multi_json` gem.
+
+.Using the JSON adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/json_adapter/standard_json_adapter'
+  config.json_adapter = Lutaml::Model::JsonAdapter::StandardJsonAdapter
+end
+----
+
+.Using the MultiJson adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/json_adapter/multi_json_adapter'
+  config.json_adapter = Lutaml::Model::JsonAdapter::MultiJsonAdapter
+end
+----
+
+=== TOML
+
+Lutaml::Model supports the following TOML adapters:
+
+Toml-rb::
+(default)
+A TOML parser and serializer for Ruby that is compatible with the TOML v1.0.0
+specification.
+Requires the `toml-rb` gem.
+
+Tomlib::
+(optional)
+Toml-rb fork that is compatible with the TOML v1.0.0 specification, but with
+additional features.
+Requires the `tomlib` gem.
+
+
+.Using the Toml-rb adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  require 'lutaml/model/toml_adapter/toml_rb_adapter'
+  config.toml_adapter = Lutaml::Model::TomlAdapter::TomlRbAdapter
+end
+----
+
+.Using the Tomlib adapter
+[source,ruby]
+----
+require 'lutaml/model'
+
+Lutaml::Model::Config.configure do |config|
+  config.toml_adapter = Lutaml::Model::TomlAdapter::TomlibAdapter
+  require 'lutaml/model/toml_adapter/tomlib_adapter'
+end
+----
+
+
+== Comparison with Shale
+
+Lutaml::Model is a serialization library that is similar to Shale, but with some
+differences in implementation.
+
+[cols="a,a,a,a",options="header"]
+|===
+| Feature | Lutaml::Model | Shale | Notes
+
+| Data model definition
+|
+3 types:
+
+* <<define-through-inheritance,Inherit from `Lutaml::Model::Serializable`>>
+* <<define-through-inclusion,Include `Lutaml::Model::Serialize`>>
+* <<separate-serialization-model,Separate serialization model class>>
+|
+2 types:
+
+* Inherit from `Shale::Mapper`
+* Custom model class
+|
+
+| Value types
+| `Lutaml::Model::Type` includes: `Integer`, `String`, `Float`, `Boolean`, `Date`, `DateTime`, `Time`, `Decimal`, `Hash`.
+| `Shale::Type` includes: `Integer`, `String`, `Float`, `Boolean`, `Date`, `Time`.
+| Lutaml::Model supports additional value types `Decimal`, `DateTime` and `Hash`.
+
+| Configuration
+| `Lutaml::Model::Config`
+| `Shale.{type}_adapter`
+| Lutaml::Model uses a configuration block to set the serialization adapters.
+
+| Custom serialization methods
+| `:with`, on individual attributes
+| `:using`, on entire object/document
+| Lutaml::Model uses the `:with` keyword for custom serialization methods.
+
+| Serialization formats
+| XML, YAML, JSON, TOML
+| XML, YAML, JSON, TOML, CSV
+| Lutaml::Model does not support CSV.
+
+| Validation
+| Supports collection range, fixed values, and custom validation
+| Requires implementation
+|
+
+| Adapter support
+| XML (Nokogiri, Ox, Oga), YAML, JSON (JSON, MultiJson), TOML (Toml-rb, Tomlib)
+| XML (Nokogiri, Ox), YAML, JSON (JSON, MultiJson), TOML (Toml-rb, Tomlib), CSV
+| Lutaml::Model does not support CSV.
+
+4+h| XML features
+
+| <<root-namespace,XML default namespace>>
+| Yes. Supports `<root xmlns='http://example.com'>` through the `namespace` option without prefix.
+| No. Only supports `<root xmlns:prefix='http://example.com'>`.
+|
+
+| XML mixed content support
+| Yes. Supports the following kind of XML through <<mixed-content,mixed content>> support.
+
+[source,xml]
+----
+<description>My name is
+<bold>John Doe</bold>,
+and I'm <i>28</i>
+years old</description>
+----
+| No. Shale's `map_content` only supports the first text node.
+|
+
+| XML namespace inheritance
+| Yes. Supports the <<namespace-inherit,`inherit`>> option to inherit the
+namespace from the root element.
+| No.
+|
+
+| Support for `xsi:schemaLocation`
+| Yes. Automatically supports the <<xml-schema-location,`xsi:schemaLocation`>>
+attribute for every element.
+| Requires manual specification on every XML element that uses it.
+|
+
+4+h| Attribute features
+
+| Attribute delegation
+| `:delegate` option to delegate attribute mappings to a model.
+| `:receiver` option to delegate attribute mappings to a model.
+|
+
+| Enumerations
+| Yes. Supports enumerations as value types through the
+<<attribute-enumeration,`values:` option>>.
+| No.
+| Lutaml::Model supports enumerations as value types.
+
+| Attribute extraction
+| Yes. Supports <<attribute-extraction,attribute extraction>> from key-value
+data models.
+| No.
+| Lutaml::Model supports attribute extraction from key-value data models.
+
+|===
+
+
+[[migrate-from-shale]]
+== Migration steps from Shale
+
+The following sections provide a guide for migrating from Shale to Lutaml::Model.
+
+=== Step 1: Replace inheritance class
+
+`Lutaml::Model` uses `Lutaml::Model::Serializable` as the base inheritance class.
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  # ...
+end
+----
+
+[NOTE]
+====
+`Lutaml::Model` also supports an inclusion method as in the following example,
+which is not supported by Shale. This is useful for cases where you want to
+include the serialization methods in a class that already inherits from another
+class.
+
+[source,ruby]
+----
+class Example
+  include Lutaml::Model::Serialize
+  # ...
+end
+----
+====
+
+Shale uses `Shale::Mapper` as the base inheritance class.
+
+[source,ruby]
+----
+class Example < Shale::Mapper
+  # ...
+end
+----
+
+Actions:
+
+* Replace mentions of `Shale::Mapper` with `Lutaml::Model::Serializable`.
+* Potentially replace inheritance with inclusion for suitable cases.
+
+
+=== Step 2: Replace value type definitions
+
+Value types in `Lutaml::Model` are under the `Lutaml::Model::Type` module,
+or use the LutaML type symbols.
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :length, :integer
+  attribute :description, :string
+end
+----
+
+[NOTE]
+====
+`Lutaml::Model` supports specifying predefined value types as strings or
+symbols, which is not supported by Shale.
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :length, Lutaml::Model::Type::Integer
+  attribute :description, "String"
+end
+----
+====
+
+Value types in Shale are under the `Shale::Type` module.
+
+[source,ruby]
+----
+class Example < Shale::Mapper
+  attribute :length, Shale::Type::Integer
+  attribute :description, Shale::Type::String
+end
+----
+
+Action:
+
+* Replace mentions of `Shale::Type` with `Lutaml::Model::Type`.
+* Potentially replace value type definitions with strings or symbols.
+
+
+=== Step 3: Configure serialization adapters
+
+`Lutaml::Model` uses a configuration block to set the serialization adapters.
+
+[source,ruby]
+----
+require 'lutaml/model/xml_adapter/nokogiri_adapter'
+Lutaml::Model::Config.configure do |config|
+  config.xml_adapter = Lutaml::Model::XmlAdapter::NokogiriAdapter
+end
+----
+
+The equivalent for Shale is this:
+
+[source,ruby]
+----
+require 'shale/adapter/nokogiri'
+Shale.xml_adapter = Shale::Adapter::Nokogiri
+----
+
+
+Here are places that this code may reside at:
+
+* If your code is a standalone Ruby script, this code will be present in your code.
+* If your code is organized in a Ruby gem, this code will be specified somewhere referenced by `lib/your_gem_name.rb`.
+* If your code contains tests or specs, they will be in the test setup file, e.g. RSpec `spec/spec_helper.rb`.
+
+Actions:
+
+* Replace the Shale configuration block with the `Lutaml::Model::Config`
+configuration block.
+
+* Replace the Shale adapter with the `Lutaml::Model` adapter.
+
+
+
+=== Step 4: Rewrite custom serialization methods
+
+There is an implementation difference between Lutaml::Model and Shale for custom
+serialization methods.
+
+Custom serialization methods in `Lutaml::Model` map to individual attributes.
+
+For custom serialization methods, Lutaml::Model uses the `:with` keyword
+instead of the `:using` keyword used by Shale.
+
+[source,ruby]
+----
+class Example < Lutaml::Model::Serializable
+  attribute :name, :string
+  attribute :size, :integer
+  attribute :color, :string
+  attribute :description, :string
+
+  json do
+    map "name", to: :name, with: { to: :name_to_json, from: :name_from_json }
+    map "size", to: :size
+    map "color", to: :color,
+                 with: { to: :color_to_json, from: :color_from_json }
+    map "description", to: :description,
+                       with: { to: :description_to_json, from: :description_from_json }
+  end
+
+  xml do
+    root "CustomSerialization"
+    map_element "Name", to: :name,
+                        with: { to: :name_to_xml, from: :name_from_xml }
+    map_attribute "Size", to: :size
+    map_element "Color", to: :color,
+                         with: { to: :color_to_xml, from: :color_from_xml }
+    map_content to: :description,
+                with: { to: :description_to_xml,
+                        from: :description_from_xml }
+  end
+
+  def name_to_json(model, doc)
+    doc["name"] = "JSON Masterpiece: #{model.name}"
+  end
+
+  def name_from_json(model, value)
+    model.name = value.sub(/^JSON Masterpiece: /, "")
+  end
+
+  def color_to_json(model, doc)
+    doc["color"] = model.color.upcase
+  end
+
+  def color_from_json(model, value)
+    model.color = value.downcase
+  end
+
+  def description_to_json(model, doc)
+    doc["description"] = "JSON Description: #{model.description}"
+  end
+
+  def description_from_json(model, value)
+    model.description = value.sub(/^JSON Description: /, "")
+  end
+
+  def name_to_xml(model, parent, doc)
+    el = doc.create_element("Name")
+    doc.add_text(el, "XML Masterpiece: #{model.name}")
+    doc.add_element(parent, el)
+  end
+
+  def name_from_xml(model, value)
+    model.name = value.sub(/^XML Masterpiece: /, "")
+  end
+
+  def color_to_xml(model, parent, doc)
+    color_element = doc.create_element("Color")
+    doc.add_text(color_element, model.color.upcase)
+    doc.add_element(parent, color_element)
+  end
+
+  def color_from_xml(model, value)
+    model.color = value.downcase
+  end
+
+  def description_to_xml(model, parent, doc)
+    doc.add_text(parent, "XML Description: #{model.description}")
+  end
+
+  def description_from_xml(model, value)
+    model.description = value.join.strip.sub(/^XML Description: /, "")
+  end
+end
+----
+
+Custom serialization methods in Shale do not map to specific attributes, but
+allow the user to specify where the data goes.
+
+[source,ruby]
+----
+class Example < Shale::Mapper
+  attribute :name, Shale::Type::String
+  attribute :size, Shale::Type::Integer
+  attribute :color, Shale::Type::String
+  attribute :description, Shale::Type::String
+
+  json do
+    map "name", using: { from: :name_from_json, to: :name_to_json }
+    map "size", to: :size
+    map "color", using: { from: :color_from_json, to: :color_to_json }
+    map "description", to: :description, using: { from: :description_from_json, to: :description_to_json }
+  end
+
+  xml do
+    root "CustomSerialization"
+    map_element "Name", using: { from: :name_from_xml, to: :name_to_xml }
+    map_attribute "Size", to: :size
+    map_element "Color", using: { from: :color_from_xml, to: :color_to_xml }
+    map_content to: :description, using: { from: :description_from_xml, to: :description_to_xml }
+  end
+
+  def name_to_json(model, doc)
+    doc['name'] = "JSON Masterpiece: #{model.name}"
+  end
+
+  def name_from_json(model, value)
+    model.name = value.sub(/^JSON Masterpiece: /, "")
+  end
+
+  def color_to_json(model, doc)
+    doc['color'] = model.color.upcase
+  end
+
+  def color_from_json(model, doc)
+    model.color = doc['color'].downcase
+  end
+
+  def description_to_json(model, doc)
+    doc['description'] = "JSON Description: #{model.description}"
+  end
+
+  def description_from_json(model, doc)
+    model.description = doc['description'].sub(/^JSON Description: /, "")
+  end
+
+  def name_from_xml(model, node)
+    model.name = node.text.sub(/^XML Masterpiece: /, "")
+  end
+
+  def name_to_xml(model, parent, doc)
+    name_element = doc.create_element('Name')
+    doc.add_text(name_element, model.street.to_s)
+    doc.add_element(parent, name_element)
+  end
+end
+----
+
+NOTE: There are cases where the Shale implementation of custom methods work
+differently from the Lutaml::Model implementation. In these cases, you will need
+to adjust the custom methods accordingly.
+
+Actions:
+
+* Replace the `using` keyword with the `with` keyword.
+* Adjust the custom methods.
+
+
+== About LutaML
+
+The name "LutaML" is pronounced as "Looh-tah-mel".
+
+The name "LutaML" comes from the Latin word for clay, "Lutum", and "ML"
+for "Markup Language". Just as clay can be molded and modeled into beautiful and
+practical end products, the Lutaml::Model gem is used for data modeling,
+allowing you to shape and structure your data into useful forms.
+
+
+
+== License and Copyright
+
+This project is licensed under the BSD 2-clause License.
+See the link:LICENSE.md[] file for details.
+
+Copyright Ribose.

@@ -1,0 +1,62 @@
+== LaTeX Support
+
+=== Parenthesis
+
+|===
+| Open | Close
+| `[`   | `]`
+| `{`   | `}`
+| `(`   | `)`
+| `{`   | `}`
+|===
+
+=== Functions and others
+
+|===
+| Functions    | Numeric Values | Matrices   | Font Styles
+| `stackrel`   | `zero`         | `multline` | `displaystyle`
+| `substack`   | `one`          | `Vmatrix`  | `mathsfbfit`
+| `overline`   | `two`          | `vmatrix`  | `mbfitsans`
+| `liminf`     | `three`        | `pmatrix`  | `mathbold`
+| `limsup`     | `four`         | `Bmatrix`  | `mathsfit`
+| `arctan`     | `five`         | `bmatrix`  | `mathsfbf`
+| `arcsin`     | `six`          | `matrix`   | `mathbfit`
+| `arccos`     | `seven`        | `split`    | `mathfrak`
+| `color`      | `eight`        | `align`    | `mathcal`
+| `binom`      | `nine`         | `array`    | `mbfsans`
+| `tilde`      |                |            | `mathds`
+| `prod`       |                |            | `mathbf`
+| `pmod`       |                |            | `mathbb`
+| `bmod`       |                |            | `mathtt`
+| `frac`       |                |            | `mathrm`
+| `cosh`       |                |            | `mathsf`
+| `tanh`       |                |            | `mathit`
+| `coth`       |                |            | `textrm`
+| `sinh`       |                |            | `mfrak`
+| `log`        |                |            | `mbfit`
+| `inf`        |                |            | `msans`
+| `sum`        |                |            | `mscr`
+| `lim`        |                |            | `mit`
+| `bar`        |                |            | `mbf`
+| `ker`        |                |            | `mtt`
+| `sup`        |                |            | `Bbb`
+| `hom`        |                |            | `rm`
+| `sin`        |                |            | `bf`
+| `sec`        |                |            |
+| `min`        |                |            |
+| `max`        |                |            |
+| `gcd`        |                |            |
+| `exp`        |                |            |
+| `dim`        |                |            |
+| `det`        |                |            |
+| `deg`        |                |            |
+| `csc`        |                |            |
+| `cot`        |                |            |
+| `cos`        |                |            |
+| `tan`        |                |            |
+| `vec`        |                |            |
+| `hat`        |                |            |
+| `ln`         |                |            |
+| `lg`         |                |            |
+
+|===
