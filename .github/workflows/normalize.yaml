@@ -40,9 +40,11 @@ jobs:
 
       - name: Create Pull Request
         if: steps.changes.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
+          committer: unitsml-bot <no-reply@unitsml.org>
           commit-message: 'chore: normalize YAML files'
+          add-paths: .
           title: 'Normalize YAML files'
           body: 'This PR normalizes YAML files by sorting keys and applying consistent formatting.'
           branch: normalize-yaml
