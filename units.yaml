@@ -774,7 +774,7 @@ NISTu22:
     power: -2
 NISTu1e2/1:
   dimension_url: "#NISTd8"
-  short:
+  short: square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -1089,7 +1089,7 @@ NISTu33:
     power: 1
 NISTu1.u3e-1/1:
   dimension_url: "#NISTd51"
-  short:
+  short: meter_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -1122,7 +1122,7 @@ NISTu1.u3e-1/1:
     url: "#NISTq12"
 NISTu1e3/1:
   dimension_url: "#NISTd10"
-  short:
+  short: cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -1330,7 +1330,7 @@ NISTu44:
     url: "#NISTq8"
 NISTu45:
   dimension_url: "#NISTd8"
-  short:
+  short: square_foot
   root: true
   unit_system:
     type: non-SI_not_acceptable
@@ -1354,7 +1354,7 @@ NISTu45:
     url: "#NISTq8"
 NISTu46:
   dimension_url: "#NISTd8"
-  short:
+  short: square_inch
   root: true
   unit_system:
     type: non-SI_not_acceptable
@@ -1555,7 +1555,7 @@ NISTu53:
     url: "#NISTq26"
 NISTu54:
   dimension_url: "#NISTd17"
-  short:
+  short: ampere_hour
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -1666,7 +1666,7 @@ NISTu62:
     url: "#NISTq77"
 NISTu65:
   dimension_url: "#NISTd15"
-  short:
+  short: kilowatt_hour
   root: false
   prefixed: true
   unit_system:
@@ -1811,7 +1811,7 @@ NISTu64:
     url: "#NISTq77"
 NISTu69:
   dimension_url: "#NISTd15"
-  short:
+  short: watt_hour
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -1848,7 +1848,7 @@ NISTu69:
     url: "#NISTq77"
 NISTu14.u3:
   dimension_url: "#NISTd15"
-  short:
+  short: watt_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -1909,7 +1909,7 @@ NISTu71:
     url: "#NISTq13"
 NISTu72:
   dimension_url: "#NISTd12"
-  short:
+  short: kilogram_force
   root: false
   prefixed: true
   unit_system:
@@ -1935,7 +1935,7 @@ NISTu72:
     url: "#NISTq13"
 NISTu73:
   dimension_url: "#NISTd12"
-  short:
+  short: kilopond
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -1959,7 +1959,7 @@ NISTu73:
     url: "#NISTq13"
 NISTu75:
   dimension_url: "#NISTd16"
-  short:
+  short: kilocalorie_th_per_second
   root: false
   prefixed: true
   unit_system:
@@ -1991,7 +1991,7 @@ NISTu75:
     url: "#NISTq21"
 NISTu74:
   dimension_url: "#NISTd16"
-  short:
+  short: calorie_th_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2187,7 +2187,7 @@ NISTu88:
     url: "#NISTq2"
 NISTu89:
   dimension_url: "#NISTd16"
-  short:
+  short: erg_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2242,7 +2242,7 @@ NISTu91:
     url: "#NISTq16"
 NISTu92:
   dimension_url: "#NISTd14"
-  short:
+  short: dyne_per_square_centimeter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2272,7 +2272,7 @@ NISTu92:
     url: "#NISTq16"
 NISTu93:
   dimension_url: "#NISTd14"
-  short:
+  short: gram_force_per_square_centimeter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2302,7 +2302,7 @@ NISTu93:
     url: "#NISTq16"
 NISTu94:
   dimension_url: "#NISTd14"
-  short:
+  short: kilogram_force_per_square_centimeter
   root: false
   prefixed: true
   unit_system:
@@ -2334,7 +2334,7 @@ NISTu94:
     url: "#NISTq16"
 NISTu95:
   dimension_url: "#NISTd14"
-  short:
+  short: kilogram_force_per_square_meter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2364,7 +2364,7 @@ NISTu95:
     url: "#NISTq16"
 NISTu96:
   dimension_url: "#NISTd14"
-  short:
+  short: kilogram_force_per_square_millimeter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2395,7 +2395,7 @@ NISTu96:
     url: "#NISTq16"
 NISTu116:
   dimension_url: "#NISTd13"
-  short:
+  short: gamma
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2517,7 +2517,7 @@ NISTu106:
     url: "#NISTq3"
 NISTu107:
   dimension_url: "#NISTd51"
-  short:
+  short: foot_per_minute
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2544,7 +2544,7 @@ NISTu107:
     url: "#NISTq12"
 NISTu108:
   dimension_url: "#NISTd51"
-  short:
+  short: foot_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2571,7 +2571,7 @@ NISTu108:
     url: "#NISTq12"
 NISTu109:
   dimension_url: "#NISTd51"
-  short:
+  short: inch_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2598,7 +2598,7 @@ NISTu109:
     url: "#NISTq12"
 NISTu110:
   dimension_url: "#NISTd51"
-  short:
+  short: mile_per_hour
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2625,7 +2625,7 @@ NISTu110:
     url: "#NISTq12"
 NISTu111:
   dimension_url: "#NISTd51"
-  short:
+  short: mile_per_minute
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2652,7 +2652,7 @@ NISTu111:
     url: "#NISTq12"
 NISTu112:
   dimension_url: "#NISTd51"
-  short:
+  short: mile_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2679,7 +2679,7 @@ NISTu112:
     url: "#NISTq12"
 NISTu115:
   dimension_url: "#NISTd10"
-  short:
+  short: stere
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -2703,7 +2703,7 @@ NISTu115:
     url: "#NISTq10"
 NISTu1.u3e-2/1:
   dimension_url: "#NISTd28"
-  short:
+  short: meter_per_second_squared
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2732,7 +2732,7 @@ NISTu1.u3e-2/1:
     url: "#NISTq49"
 NISTu1e-1/1:
   dimension_url: "#NISTd29"
-  short:
+  short: meter_to_the_power_minus_one
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2767,7 +2767,7 @@ NISTu1e-1/1:
     url: "#NISTq50"
 NISTu27p10'3.u1e-3/1:
   dimension_url: "#NISTd30"
-  short:
+  short: kilogram_per_cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2797,7 +2797,7 @@ NISTu27p10'3.u1e-3/1:
     url: "#NISTq51"
 NISTu1e3/1.u27p10'3:
   dimension_url: "#NISTd31"
-  short:
+  short: cubic_meter_per_kilogram
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2826,7 +2826,7 @@ NISTu1e3/1.u27p10'3:
     url: "#NISTq52"
 NISTu4.u1e-2/1:
   dimension_url: "#NISTd32"
-  short:
+  short: ampere_per_square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2853,7 +2853,7 @@ NISTu4.u1e-2/1:
     url: "#NISTq53"
 NISTu4.u1e-1/1:
   dimension_url: "#NISTd33"
-  short:
+  short: ampere_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2880,7 +2880,7 @@ NISTu4.u1e-1/1:
     url: "#NISTq54"
 NISTu6.u1e-3/1:
   dimension_url: "#NISTd34"
-  short:
+  short: mole_per_cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -2907,7 +2907,7 @@ NISTu6.u1e-3/1:
     url: "#NISTq55"
 NISTu7.u1e-2/1:
   dimension_url: "#NISTd27"
-  short:
+  short: candela_per_square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3048,7 +3048,7 @@ NISTu120:
     url: "#NISTq50"
 NISTu97:
   dimension_url: "#NISTd36"
-  short:
+  short: centipoise
   root: false
   prefixed: true
   unit_system:
@@ -3074,7 +3074,7 @@ NISTu97:
     url: "#NISTq59"
 NISTu122:
   dimension_url: "#NISTd1"
-  short:
+  short: micron
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -3101,7 +3101,7 @@ NISTu122:
     url: "#NISTq48"
 NISTu123:
   dimension_url: "#NISTd1"
-  short:
+  short: mil (length)
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -3160,7 +3160,7 @@ NISTu124:
     url: "#NISTq56"
 NISTu125:
   dimension_url: "#NISTd2"
-  short:
+  short: kilogram_force_second_squared_per_meter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -3191,7 +3191,7 @@ NISTu125:
     url: "#NISTq2"
 NISTu126:
   dimension_url: "#NISTd15"
-  short:
+  short: kilogram_force_meter
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -3360,7 +3360,7 @@ NISTu131:
     url: "#NISTq48"
 NISTu61:
   dimension_url: "#NISTd80"
-  short:
+  short: one
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3476,7 +3476,7 @@ NISTu135:
     url: "#NISTq16"
 NISTu27p10'3.u1e-2/1:
   dimension_url: "#NISTd51"
-  short:
+  short: kilogram_per_square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3504,7 +3504,7 @@ NISTu27p10'3.u1e-2/1:
     url: "#NISTq31"
 NISTu14.u1e-2/1:
   dimension_url: "#NISTd38"
-  short:
+  short: watt_per_square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3533,7 +3533,7 @@ NISTu14.u1e-2/1:
     url: "#NISTq78"
 NISTu13.u5e-1/1:
   dimension_url: "#NISTd39"
-  short:
+  short: joule_per_kelvin
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3562,7 +3562,7 @@ NISTu13.u5e-1/1:
     url: "#NISTq79"
 NISTu13.u27p10'3e-1/1.u5e-1/1:
   dimension_url: "#NISTd40"
-  short:
+  short: joule_per_kilogram_kelvin
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3596,7 +3596,7 @@ NISTu13.u27p10'3e-1/1.u5e-1/1:
     url: "#NISTq80"
 NISTu12.u3:
   dimension_url: "#NISTd36"
-  short:
+  short: pascal_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3623,7 +3623,7 @@ NISTu12.u3:
     url: "#NISTq59"
 NISTu11.u1:
   dimension_url: "#NISTd15"
-  short:
+  short: newton_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3654,7 +3654,7 @@ NISTu11.u1:
     url: "#NISTq60"
 NISTu11.u1e-1/1:
   dimension_url: "#NISTd37"
-  short:
+  short: newton_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3681,7 +3681,7 @@ NISTu11.u1e-1/1:
     url: "#NISTq61"
 NISTu13.u27p10'3e-1/1:
   dimension_url: "#NISTd25"
-  short:
+  short: joule_per_kilogram
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3709,7 +3709,7 @@ NISTu13.u27p10'3e-1/1:
     url: "#NISTq65"
 NISTu14.u1e-1/1.u5e-1/1:
   dimension_url: "#NISTd41"
-  short:
+  short: watt_per_meter_kelvin
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3734,7 +3734,7 @@ NISTu14.u1e-1/1.u5e-1/1:
     url: "#NISTq66"
 NISTu13.u1e-3/1:
   dimension_url: "#NISTd14"
-  short:
+  short: joule_per_cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3761,7 +3761,7 @@ NISTu13.u1e-3/1:
     url: "#NISTq67"
 NISTu16.u1e-1/1:
   dimension_url: "#NISTd42"
-  short:
+  short: volt_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3788,7 +3788,7 @@ NISTu16.u1e-1/1:
     url: "#NISTq68"
 NISTu15.u1e-3/1:
   dimension_url: "#NISTd43"
-  short:
+  short: coulomb_per_cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3815,7 +3815,7 @@ NISTu15.u1e-3/1:
     url: "#NISTq69"
 NISTu15.u1e-2/1:
   dimension_url: "#NISTd32"
-  short:
+  short: coulomb_per_square_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3844,7 +3844,7 @@ NISTu15.u1e-2/1:
     url: "#NISTq82"
 NISTu17.u1e-1/1:
   dimension_url: "#NISTd45"
-  short:
+  short: farad_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3871,7 +3871,7 @@ NISTu17.u1e-1/1:
     url: "#NISTq71"
 NISTu22.u1e-1/1:
   dimension_url: "#NISTd46"
-  short:
+  short: henry_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3898,7 +3898,7 @@ NISTu22.u1e-1/1:
     url: "#NISTq72"
 NISTu13.u6e-1/1:
   dimension_url: "#NISTd47"
-  short:
+  short: joule_per_mole
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3925,7 +3925,7 @@ NISTu13.u6e-1/1:
     url: "#NISTq73"
 NISTu13.u6e-1/1.u5e-1/1:
   dimension_url: "#NISTd48"
-  short:
+  short: joule_per_mole_kelvin
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3952,7 +3952,7 @@ NISTu13.u6e-1/1.u5e-1/1:
     url: "#NISTq83"
 NISTu15.u27p10'3e-1/1:
   dimension_url: "#NISTd49"
-  short:
+  short: coulomb_per_kilogram
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -3980,7 +3980,7 @@ NISTu15.u27p10'3e-1/1:
     url: "#NISTq75"
 NISTu28.u3e-1/1:
   dimension_url: "#NISTd50"
-  short:
+  short: gray_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4007,7 +4007,7 @@ NISTu28.u3e-1/1:
     url: "#NISTq76"
 NISTu30.u1e-3/1:
   dimension_url: "#NISTd55"
-  short:
+  short: katal_per_cubic_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4106,7 +4106,7 @@ NISTu144:
     url: "#NISTq87"
 NISTu14.u10e-1/1:
   dimension_url: "#NISTd16"
-  short:
+  short: watt_per_steradian
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4133,7 +4133,7 @@ NISTu14.u10e-1/1:
     url: "#NISTq88"
 NISTu14.u1e-2/1.u10e-1/1:
   dimension_url: "#NISTd38"
-  short:
+  short: watt_per_square_meter_steradian
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4255,7 +4255,7 @@ NISTu147:
     url: "#NISTq9"
 NISTu9.u3e-1/1:
   dimension_url: "#NISTd24"
-  short:
+  short: radian_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4284,7 +4284,7 @@ NISTu9.u3e-1/1:
     url: "#NISTq57"
 NISTu9.u3e-2/1:
   dimension_url: "#NISTd35"
-  short:
+  short: radian_per_second_squared
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4394,7 +4394,7 @@ NISTu154:
     url: "#NISTq90"
 NISTu155:
   dimension_url: "#NISTd9"
-  short:
+  short: decibel
   root: false
   prefixed: true
   unit_system:
@@ -4504,7 +4504,7 @@ NISTu159:
     url: "#NISTq9"
 NISTu160:
   dimension_url: "#NISTd11"
-  short:
+  short: kilometer_per_hour
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -4534,7 +4534,7 @@ NISTu160:
     url: "#NISTq12"
 NISTu3e-1/1:
   dimension_url: "#NISTd24"
-  short:
+  short: second_to_the_power_minus_one
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4562,7 +4562,7 @@ NISTu3e-1/1:
     url: "#NISTq120"
 NISTu9.u1e-1/1:
   dimension_url: "#NISTd29"
-  short:
+  short: radian_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -4589,7 +4589,7 @@ NISTu9.u1e-1/1:
     url: "#NISTq115"
 NISTu163:
   dimension_url: "#NISTd9"
-  short:
+  short: neper_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4616,7 +4616,7 @@ NISTu163:
     url: "#NISTq120"
 NISTu164:
   dimension_url: "#NISTd8"
-  short:
+  short: square_yard
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4640,7 +4640,7 @@ NISTu164:
     url: "#NISTq8"
 NISTu165:
   dimension_url: "#NISTd8"
-  short:
+  short: square_mile
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4690,7 +4690,7 @@ NISTu319:
     url: "#NISTq16"
 NISTu167:
   dimension_url: "#NISTd28"
-  short:
+  short: foot_per_second_squared
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4717,7 +4717,7 @@ NISTu167:
     url: "#NISTq49"
 NISTu168:
   dimension_url: "#NISTd10"
-  short:
+  short: cubic_inch
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4741,7 +4741,7 @@ NISTu168:
     url: "#NISTq10"
 NISTu169:
   dimension_url: "#NISTd10"
-  short:
+  short: cubic_foot
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -4765,7 +4765,7 @@ NISTu169:
     url: "#NISTq10"
 NISTu170:
   dimension_url: "#NISTd10"
-  short:
+  short: cubic_yard
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5089,7 +5089,7 @@ NISTu184:
     url: "#NISTq1"
 NISTu185:
   dimension_url: "#NISTd57"
-  short:
+  short: meter_to_the_power_four
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5117,7 +5117,7 @@ NISTu185:
     url: "#NISTq51"
 NISTu27p10'3.u1e-1/1:
   dimension_url: "#NISTd58"
-  short:
+  short: kilogram_per_meter
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5145,7 +5145,7 @@ NISTu27p10'3.u1e-1/1:
     url: "#NISTq126"
 NISTu27p10'3.u1e2/1:
   dimension_url: "#NISTd59"
-  short:
+  short: kilogram_meter_squared
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5174,7 +5174,7 @@ NISTu27p10'3.u1e2/1:
     url: "#NISTq127"
 NISTu188:
   dimension_url: "#NISTd30"
-  short:
+  short: kilogram_per_liter
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -5202,7 +5202,7 @@ NISTu188:
     url: "#NISTq51"
 NISTu189:
   dimension_url: "#NISTd30"
-  short:
+  short: metric_ton_per_cubic_meter
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -5229,7 +5229,7 @@ NISTu189:
     url: "#NISTq51"
 NISTu11.u3:
   dimension_url: "#NISTd61"
-  short:
+  short: newton_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5256,7 +5256,7 @@ NISTu11.u3:
     url: "#NISTq129"
 NISTu11.u1e2/1.u27p10'3e-2/1:
   dimension_url: "#NISTd62"
-  short:
+  short: newton_meter_squared_per_kilogram_squared
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5288,7 +5288,7 @@ NISTu11.u1e2/1.u27p10'3e-2/1:
     url: "#NISTq130"
 NISTu27p10'3.u1.u3e-1/1:
   dimension_url: "#NISTd61"
-  short:
+  short: kilogram_meter_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5320,7 +5320,7 @@ NISTu27p10'3.u1.u3e-1/1:
     url: "#NISTq131"
 NISTu27p10'3.u1e2/1.u3e-1/1:
   dimension_url: "#NISTd60"
-  short:
+  short: kilogram_meter_squared_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5355,7 +5355,7 @@ NISTu27p10'3.u1e2/1.u3e-1/1:
     url: "#NISTq132"
 NISTu11.u1.u3:
   dimension_url: "#NISTd60"
-  short:
+  short: newton_meter_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5386,7 +5386,7 @@ NISTu11.u1.u3:
     url: "#NISTq133"
 NISTu12e-1/1:
   dimension_url: "#NISTd63"
-  short:
+  short: pascal_to_the_power_minus_one
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5412,7 +5412,7 @@ NISTu12e-1/1:
     url: "#NISTq160"
 NISTu1e2/1.u3e-1/1:
   dimension_url: "#NISTd56"
-  short:
+  short: meter_squared_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5440,7 +5440,7 @@ NISTu1e2/1.u3e-1/1:
     url: "#NISTq85"
 NISTu27p10'3.u3e-1/1:
   dimension_url: "#NISTd65"
-  short:
+  short: kilogram_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5468,7 +5468,7 @@ NISTu27p10'3.u3e-1/1:
     url: "#NISTq150"
 NISTu1e3/1.u3e-1/1:
   dimension_url: "#NISTd66"
-  short:
+  short: cubic_meter_per_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5496,7 +5496,7 @@ NISTu1e3/1.u3e-1/1:
     url: "#NISTq151"
 NISTu13.u3:
   dimension_url: "#NISTd60"
-  short:
+  short: joule_second
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -5625,7 +5625,7 @@ NISTu203:
     url: "#NISTq2"
 NISTu204:
   dimension_url: "#NISTd30"
-  short:
+  short: pound_per_cubic_foot
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5678,7 +5678,7 @@ NISTu205:
     url: "#NISTq13"
 NISTu206:
   dimension_url: "#NISTd15"
-  short:
+  short: foot_pound_force
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5719,7 +5719,7 @@ NISTu206:
     url: "#NISTq77"
 NISTu207:
   dimension_url: "#NISTd14"
-  short:
+  short: pound_force_per_square_inch
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5752,7 +5752,7 @@ NISTu207:
     url: "#NISTq15"
 NISTu208:
   dimension_url: "#NISTd57"
-  short:
+  short: inch_to_the_fourth_power
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5778,7 +5778,7 @@ NISTu208:
     url: "#NISTq155"
 NISTu209:
   dimension_url: "#NISTd10"
-  short:
+  short: inch_cubed
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5802,7 +5802,7 @@ NISTu209:
     url: "#NISTq146"
 NISTu210:
   dimension_url: "#NISTd56"
-  short:
+  short: foot_squared_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5830,7 +5830,7 @@ NISTu210:
     url: "#NISTq85"
 NISTu211:
   dimension_url: "#NISTd16"
-  short:
+  short: foot_pound_force_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -5998,7 +5998,7 @@ NISTu318:
     url: "#NISTq16"
 NISTu217:
   dimension_url: "#NISTd16"
-  short:
+  short: kilogram_force_meter_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -6055,7 +6055,7 @@ NISTu218:
     url: "#NISTq20"
 NISTu5e-1/1:
   dimension_url: "#NISTd68"
-  short:
+  short: kelvin_to_the_power_minus_one
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -6083,7 +6083,7 @@ NISTu5e-1/1:
     url: "#NISTq158"
 NISTu12.u5e-1/1:
   dimension_url: "#NISTd69"
-  short:
+  short: pascal_per_kelvin
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -6110,7 +6110,7 @@ NISTu12.u5e-1/1:
     url: "#NISTq159"
 NISTu221:
   dimension_url: "#NISTd71"
-  short:
+  short: watt_per_square_meter_kelvin
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -7831,7 +7831,7 @@ NISTu288:
     url: "#NISTq5"
 NISTu289:
   dimension_url: "#NISTd2"
-  short:
+  short: dalton
   root: false
   unit_system:
     type: non-SI_acceptable
@@ -9645,7 +9645,7 @@ NISTu357:
     url: "#NISTq10"
 NISTu121:
   dimension_url: "#NISTd56"
-  short:
+  short: centistokes
   root: false
   prefixed: true
   unit_system:
@@ -9671,7 +9671,7 @@ NISTu121:
     url: "#NISTq85"
 NISTu57:
   dimension_url: "#NISTd10"
-  short:
+  short: us_survey_acre_foot
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -9699,7 +9699,7 @@ NISTu57:
     url: "#NISTq10"
 NISTu358:
   dimension_url: "#NISTd66"
-  short:
+  short: cubic_foot_per_minute
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -9727,7 +9727,7 @@ NISTu358:
     url: "#NISTq151"
 NISTu359:
   dimension_url: "#NISTd66"
-  short:
+  short: cubic_foot_per_second
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -9755,7 +9755,7 @@ NISTu359:
     url: "#NISTq151"
 NISTu360:
   dimension_url: "#NISTd66"
-  short:
+  short: cubic_inch_per_minute
   root: false
   unit_system:
     type: non-SI_not_acceptable
@@ -9783,7 +9783,7 @@ NISTu360:
     url: "#NISTq151"
 NISTu361:
   dimension_url: "#NISTd1"
-  short:
+  short: microinch
   root: false
   prefixed: true
   unit_system:
@@ -9809,7 +9809,7 @@ NISTu361:
     url: "#NISTq1"
 NISTu362:
   dimension_url: "#NISTd14"
-  short:
+  short: millibar
   root: false
   prefixed: true
   unit_system:
@@ -9970,7 +9970,7 @@ NISTu366:
     url: "#NISTq55"
 NISTu6.u27p10'3e-1/1:
   dimension_url: "#NISTd79"
-  short:
+  short: mole_per_kilogram
   root: false
   unit_system:
     type: SI_derived_non-special
@@ -10094,7 +10094,7 @@ NISTu379:
     url: "#NISTq1"
 NISTu400:
   dimension_url: "#NISTd80"
-  short:
+  short: parts_per_million
   root: false
   unit_system:
     type: SI_derived_non-special
