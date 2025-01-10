@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require "thor"
+require "yaml"
+
+class UnitsdbUtils < Thor
+  desc "normalize INPUT OUTPUT", "Normalize a YAML file"
+  method_option :sort, type: :boolean, default: false, desc: "Sort keys alphabetically"
+
+  def normalize(input, output)
+    content = File.read(input)
+    yaml = YAML.safe_load(content)
+
+    if options[:sort]
+      yaml = sort_yaml_keys(yaml)
+    end
+
+    File.write(output, yaml.to_yaml)
+    puts "Normalized YAML written to #{output}"
+  end
+
+  private
+
+  def sort_yaml_keys(obj)
+    case obj
+    when Hash
+      obj.transform_values { |v| sort_yaml_keys(v) }
+         .sort.to_h
+    when Array
+      obj.map { |item| sort_yaml_keys(item) }
+    else
+      obj
+    end
+  end
+end
+
+UnitsdbUtils.start(ARGV)

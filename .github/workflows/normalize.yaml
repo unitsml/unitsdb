@@ -1,0 +1,47 @@
+name: normalize
+
+on:
+  push:
+    paths:
+      - '*.yaml'
+  pull_request:
+    paths:
+      - '*.yaml'
+  workflow_dispatch:
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: ./scripts
+
+      - name: Normalize YAML files
+        working-directory: ./scripts
+        run: |
+          for file in ../*.yaml; do
+            bundle exec unitsdb-utils normalize "$file" "$file"
+          done
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: 'chore: normalize YAML files'
+          title: 'Normalize YAML files'
+          body: 'This PR normalizes YAML files by sorting keys and applying consistent formatting.'
+          branch: normalize-yaml
+          delete-branch: true
