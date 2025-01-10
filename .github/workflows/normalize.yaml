@@ -2,6 +2,8 @@ name: normalize
 
 on:
   push:
+    branches: [ main ]
+    tags: [ v* ]
     paths:
       - '*.yaml'
   pull_request:
