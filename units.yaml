@@ -4086,7 +4086,7 @@ NISTu144:
   root: true
   unit_system:
     type: non-SI_acceptable
-    name: ''
+    name: non-SI
   unit_name:
   - oersted
   unit_symbols:
