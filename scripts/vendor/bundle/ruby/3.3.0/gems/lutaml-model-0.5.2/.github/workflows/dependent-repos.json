@@ -1,0 +1,15 @@
+{
+  "repo": [
+    "lutaml/genericode",
+    "lutaml/ogc-gml",
+    "metanorma/modspec-ruby",
+    "metanorma/rfcxml",
+    "metanorma/niso-jats",
+    "metanorma/sts-ruby",
+    "lutaml/metaschema",
+    "glossarist/termium",
+    "lutaml/oasis-etm",
+    "lutaml/ali",
+    "lutaml/reqif"
+  ]
+}

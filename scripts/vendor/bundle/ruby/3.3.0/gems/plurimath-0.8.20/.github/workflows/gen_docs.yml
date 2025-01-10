@@ -1,0 +1,30 @@
+name: gen_docs
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ v* ]
+  pull_request:
+
+jobs:
+  generate_docs:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        filename:
+        - supported_parens_list.adoc
+        - supported_symbols_list.adoc
+        - intent_supported_classes.adoc
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+
+    - name: Generate documentation
+      run: |
+        rm -f ${{ matrix.filename }}
+        bundle exec rake ${{ matrix.filename }}
