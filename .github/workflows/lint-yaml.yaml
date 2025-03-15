@@ -1,0 +1,85 @@
+name: lint-yaml
+
+on:
+  pull_request:
+    paths:
+      - '*.yaml'
+
+jobs:
+  lint:
+    name: Check YAML Normalization
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: ./scripts
+
+      - name: Check YAML normalization
+        id: check_yaml
+        working-directory: ./scripts
+        run: |
+          set -e
+          ISSUES_FOUND=false
+          ISSUE_DETAILS=""
+
+          for file in ../*.yaml; do
+            echo "Checking $file..."
+            # Create a temporary file with normalized content
+            bundle exec unitsdb-utils normalize "$file" "${file}.normalized" --sort
+
+            # Compare original and normalized files
+            if ! diff -q "$file" "${file}.normalized" > /dev/null; then
+              echo "::warning file=$file::YAML file is not properly normalized"
+              ISSUES_FOUND=true
+              ISSUE_DETAILS+="- $(basename $file) is not properly normalized\n"
+            fi
+
+            # Clean up temporary file
+            rm "${file}.normalized"
+          done
+
+          if [ "$ISSUES_FOUND" = true ]; then
+            echo "issues_found=true" >> $GITHUB_OUTPUT
+            echo "issue_details<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$ISSUE_DETAILS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            exit 1
+          else
+            echo "All YAML files are properly normalized!"
+          fi
+
+      - name: Comment on PR
+        if: failure() && steps.check_yaml.outputs.issues_found == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueDetails = `${{ steps.check_yaml.outputs.issue_details }}`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## YAML Normalization Required
+
+            The following YAML files need to be normalized:
+            ${issueDetails}
+
+            Please run the normalization script before submitting your PR:
+
+            ```bash
+            cd scripts
+            bundle install
+            for file in ../*.yaml; do
+              bundle exec unitsdb-utils normalize "$file" "$file" --sort
+            done
+            ```
+
+            See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.`
+            });
