@@ -10,6 +10,7 @@ NISTd1:
       unicode: "\U0001D5AB"
     powerNumerator: 1
     symbol: L
+  short: length
 NISTd2:
   mass:
     dim_symbols:
@@ -21,7 +22,9 @@ NISTd2:
       unicode: "\U0001D5AC"
     powerNumerator: 1
     symbol: M
+  short: mass
 NISTd3:
+  short: time
   time:
     dim_symbols:
     - ascii: T
@@ -43,7 +46,9 @@ NISTd4:
       unicode: "\U0001D5A8"
     powerNumerator: 1
     symbol: I
+  short: electric_current
 NISTd5:
+  short: temperature
   thermodynamic_temperature:
     dim_symbols:
     - ascii: Theta
@@ -65,6 +70,7 @@ NISTd6:
       unicode: "\U0001D5AD"
     powerNumerator: 1
     symbol: "N"
+  short: substance_amount
 NISTd7:
   luminous_intensity:
     dim_symbols:
@@ -76,10 +82,12 @@ NISTd7:
       unicode: "\U0001D5A9"
     powerNumerator: 1
     symbol: J
+  short: luminous_intensity
 NISTd8:
   length:
     powerNumerator: 2
     symbol: L
+  short: area
 NISTd9:
   dimensionless: true
   plane_angle:
@@ -92,14 +100,17 @@ NISTd9:
       unicode: "\U0001D785"
     powerNumerator: 1
     symbol: phi
+  short: plane_angle
 NISTd10:
   length:
     powerNumerator: 3
     symbol: L
+  short: volume
 NISTd11:
   length:
     powerNumerator: 1
     symbol: L
+  short: velocity
   time:
     powerNumerator: -1
     symbol: T
@@ -110,6 +121,7 @@ NISTd12:
   mass:
     powerNumerator: 1
     symbol: M
+  short: force
   time:
     powerNumerator: -2
     symbol: T
@@ -120,6 +132,7 @@ NISTd13:
   mass:
     powerNumerator: 1
     symbol: M
+  short: magnetic_flux_density
   time:
     powerNumerator: -2
     symbol: T
@@ -130,6 +143,7 @@ NISTd14:
   mass:
     powerNumerator: 1
     symbol: M
+  short: pressure
   time:
     powerNumerator: -2
     symbol: T
@@ -140,6 +154,7 @@ NISTd15:
   mass:
     powerNumerator: 1
     symbol: M
+  short: energy
   time:
     powerNumerator: -2
     symbol: T
@@ -150,6 +165,7 @@ NISTd16:
   mass:
     powerNumerator: 1
     symbol: M
+  short: power
   time:
     powerNumerator: -3
     symbol: T
@@ -157,6 +173,7 @@ NISTd17:
   electric_current:
     powerNumerator: 1
     symbol: I
+  short: electric_charge
   time:
     powerNumerator: 1
     symbol: T
@@ -170,6 +187,7 @@ NISTd18:
   mass:
     powerNumerator: 1
     symbol: M
+  short: electric_potential_difference
   time:
     powerNumerator: -3
     symbol: T
@@ -183,6 +201,7 @@ NISTd19:
   mass:
     powerNumerator: -1
     symbol: M
+  short: capacitance
   time:
     powerNumerator: 4
     symbol: T
@@ -196,6 +215,7 @@ NISTd20:
   mass:
     powerNumerator: 1
     symbol: M
+  short: electric_resistance
   time:
     powerNumerator: -3
     symbol: T
@@ -209,6 +229,7 @@ NISTd21:
   mass:
     powerNumerator: -1
     symbol: M
+  short: electric_conductance
   time:
     powerNumerator: 3
     symbol: T
@@ -222,6 +243,7 @@ NISTd22:
   mass:
     powerNumerator: 1
     symbol: M
+  short: magnetic_flux
   time:
     powerNumerator: -2
     symbol: T
@@ -235,10 +257,12 @@ NISTd23:
   mass:
     powerNumerator: 1
     symbol: M
+  short: inductance
   time:
     powerNumerator: -2
     symbol: T
 NISTd24:
+  short: frequency
   time:
     powerNumerator: -1
     symbol: T
@@ -246,6 +270,7 @@ NISTd25:
   length:
     powerNumerator: 2
     symbol: L
+  short: absorbed_dose
   time:
     powerNumerator: -2
     symbol: T
@@ -253,6 +278,7 @@ NISTd26:
   amount_of_substance:
     powerNumerator: 1
     symbol: "N"
+  short: catalytic_activity
   time:
     powerNumerator: -1
     symbol: T
@@ -263,10 +289,12 @@ NISTd27:
   luminous_intensity:
     powerNumerator: 1
     symbol: J
+  short: illuminance
 NISTd28:
   length:
     powerNumerator: 1
     symbol: L
+  short: acceleration
   time:
     powerNumerator: -2
     symbol: T
@@ -274,6 +302,7 @@ NISTd29:
   length:
     powerNumerator: -1
     symbol: L
+  short: wavenumber
 NISTd30:
   length:
     powerNumerator: -3
@@ -281,6 +310,7 @@ NISTd30:
   mass:
     powerNumerator: 1
     symbol: M
+  short: mass_density
 NISTd31:
   length:
     powerNumerator: 3
@@ -288,6 +318,7 @@ NISTd31:
   mass:
     powerNumerator: -1
     symbol: M
+  short: specific_volume
 NISTd32:
   electric_current:
     powerNumerator: 1
@@ -295,6 +326,7 @@ NISTd32:
   length:
     powerNumerator: -2
     symbol: L
+  short: current_density
 NISTd33:
   electric_current:
     powerNumerator: 1
@@ -302,6 +334,7 @@ NISTd33:
   length:
     powerNumerator: -1
     symbol: L
+  short: magnetic_field_strength
 NISTd34:
   amount_of_substance:
     powerNumerator: 1
@@ -309,7 +342,9 @@ NISTd34:
   length:
     powerNumerator: -3
     symbol: L
+  short: concentration
 NISTd35:
+  short: angular_acceleration
   time:
     powerNumerator: -2
     symbol: T
@@ -320,6 +355,7 @@ NISTd36:
   mass:
     powerNumerator: 1
     symbol: M
+  short: dynamic_viscosity
   time:
     powerNumerator: -1
     symbol: T
@@ -327,6 +363,7 @@ NISTd37:
   mass:
     powerNumerator: 1
     symbol: M
+  short: surface_tension
   time:
     powerNumerator: -2
     symbol: T
@@ -334,6 +371,7 @@ NISTd38:
   mass:
     powerNumerator: 1
     symbol: M
+  short: heat_flux_density
   time:
     powerNumerator: -3
     symbol: T
@@ -344,6 +382,7 @@ NISTd39:
   mass:
     powerNumerator: 1
     symbol: M
+  short: heat_capacity
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -354,6 +393,7 @@ NISTd40:
   length:
     powerNumerator: 2
     symbol: L
+  short: specific_heat_capacity
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -367,6 +407,7 @@ NISTd41:
   mass:
     powerNumerator: 1
     symbol: M
+  short: thermal_conductivity
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -383,6 +424,7 @@ NISTd42:
   mass:
     powerNumerator: 1
     symbol: M
+  short: electric_field_strength
   time:
     powerNumerator: -3
     symbol: T
@@ -393,6 +435,7 @@ NISTd43:
   length:
     powerNumerator: -3
     symbol: L
+  short: electric_charge_density
   time:
     powerNumerator: 1
     symbol: T
@@ -403,6 +446,7 @@ NISTd44:
   length:
     powerNumerator: -2
     symbol: L
+  short: electric_flux_density
   time:
     powerNumerator: 1
     symbol: T
@@ -416,6 +460,7 @@ NISTd45:
   mass:
     powerNumerator: -1
     symbol: M
+  short: permittivity
   time:
     powerNumerator: 4
     symbol: T
@@ -429,6 +474,7 @@ NISTd46:
   mass:
     powerNumerator: 1
     symbol: M
+  short: permeability
   time:
     powerNumerator: -2
     symbol: T
@@ -442,6 +488,7 @@ NISTd47:
   mass:
     powerNumerator: 1
     symbol: M
+  short: molar_energy
   time:
     powerNumerator: -2
     symbol: T
@@ -455,6 +502,7 @@ NISTd48:
   mass:
     powerNumerator: 1
     symbol: M
+  short: molar_entropy
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -468,6 +516,7 @@ NISTd49:
   mass:
     powerNumerator: -1
     symbol: M
+  short: exposure
   time:
     powerNumerator: 1
     symbol: T
@@ -475,6 +524,7 @@ NISTd50:
   length:
     powerNumerator: 2
     symbol: L
+  short: absorbed_dose_rate
   time:
     powerNumerator: -3
     symbol: T
@@ -485,6 +535,7 @@ NISTd51:
   mass:
     powerNumerator: 1
     symbol: M
+  short: surface_density
 NISTd52:
   length:
     powerNumerator: 1
@@ -492,6 +543,7 @@ NISTd52:
   mass:
     powerNumerator: -1
     symbol: M
+  short: fluidity
   time:
     powerNumerator: 1
     symbol: T
@@ -502,6 +554,7 @@ NISTd53:
   mass:
     powerNumerator: -2
     symbol: M
+  short: surface_charge_density
   time:
     powerNumerator: 1
     symbol: T
@@ -515,6 +568,7 @@ NISTd54:
   mass:
     powerNumerator: 1
     symbol: M
+  short: magnetizability
   time:
     powerNumerator: 2
     symbol: T
@@ -525,6 +579,7 @@ NISTd55:
   mass:
     powerNumerator: -3
     symbol: M
+  short: catalytic_activity_concentration
   time:
     powerNumerator: -1
     symbol: T
@@ -532,6 +587,7 @@ NISTd56:
   length:
     powerNumerator: 2
     symbol: L
+  short: kinematic_viscosity
   time:
     powerNumerator: -1
     symbol: T
@@ -539,6 +595,7 @@ NISTd57:
   length:
     powerNumerator: 4
     symbol: L
+  short: area_moment_of_inertia
 NISTd58:
   length:
     powerNumerator: -1
@@ -546,6 +603,7 @@ NISTd58:
   mass:
     powerNumerator: 1
     symbol: M
+  short: linear_density
 NISTd59:
   length:
     powerNumerator: 2
@@ -553,6 +611,7 @@ NISTd59:
   mass:
     powerNumerator: 1
     symbol: M
+  short: mass_moment_of_inertia
 NISTd60:
   length:
     powerNumerator: 2
@@ -560,6 +619,7 @@ NISTd60:
   mass:
     powerNumerator: 1
     symbol: M
+  short: action
   time:
     powerNumerator: -1
     symbol: T
@@ -570,6 +630,7 @@ NISTd61:
   mass:
     powerNumerator: 1
     symbol: M
+  short: momentum
   time:
     powerNumerator: -1
     symbol: T
@@ -580,6 +641,7 @@ NISTd62:
   mass:
     powerNumerator: -1
     symbol: M
+  short: gravitational_constant
   time:
     powerNumerator: -2
     symbol: T
@@ -590,6 +652,7 @@ NISTd63:
   mass:
     powerNumerator: -1
     symbol: M
+  short: compressibility
   time:
     powerNumerator: 2
     symbol: T
@@ -598,10 +661,12 @@ NISTd64:
   plane_angle:
     powerNumerator: 1
     symbol: phi
+  short: solid_angle
 NISTd65:
   mass:
     powerNumerator: 1
     symbol: M
+  short: mass_flow_rate
   time:
     powerNumerator: -1
     symbol: T
@@ -609,12 +674,15 @@ NISTd66:
   length:
     powerNumerator: 3
     symbol: L
+  short: volume_flow_rate
   time:
     powerNumerator: -1
     symbol: T
 NISTd67:
   dimensionless: true
+  short: logarithmic_ratio
 NISTd68:
+  short: linear_expansion_coefficient
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -625,6 +693,7 @@ NISTd69:
   mass:
     powerNumerator: 1
     symbol: M
+  short: pressure_coefficient
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -638,6 +707,7 @@ NISTd70:
   mass:
     powerNumerator: -1
     symbol: M
+  short: isothermal_compressibility
   time:
     powerNumerator: 2
     symbol: T
@@ -645,6 +715,7 @@ NISTd71:
   mass:
     powerNumerator: 1
     symbol: M
+  short: heat_transfer_coefficient
   thermodynamic_temperature:
     powerNumerator: -1
     symbol: Theta
@@ -658,6 +729,7 @@ NISTd72:
   length:
     powerNumerator: 1
     symbol: L
+  short: electric_dipole_moment
   time:
     powerNumerator: 1
     symbol: T
@@ -668,6 +740,7 @@ NISTd73:
   length:
     powerNumerator: 2
     symbol: L
+  short: magnetic_dipole_moment
 NISTd74:
   electric_current:
     powerNumerator: -1
@@ -675,6 +748,7 @@ NISTd74:
   mass:
     powerNumerator: 1
     symbol: M
+  short: electric_field_gradient
   time:
     powerNumerator: -3
     symbol: T
@@ -685,6 +759,7 @@ NISTd75:
   length:
     powerNumerator: 2
     symbol: L
+  short: electric_quadrupole_moment
   time:
     powerNumerator: 1
     symbol: T
@@ -695,6 +770,7 @@ NISTd76:
   mass:
     powerNumerator: 1
     symbol: M
+  short: polarizability
   time:
     powerNumerator: 4
     symbol: T
@@ -708,6 +784,7 @@ NISTd77:
   mass:
     powerNumerator: -2
     symbol: M
+  short: hyperpolarizability_1st
   time:
     powerNumerator: 7
     symbol: T
@@ -721,6 +798,7 @@ NISTd78:
   mass:
     powerNumerator: -3
     symbol: M
+  short: hyperpolarizability_2nd
   time:
     powerNumerator: 10
     symbol: T
@@ -731,13 +809,19 @@ NISTd79:
   mass:
     powerNumerator: 1
     symbol: M
+  short: molality
 NISTd80:
   dimensionless: true
+  short: ratio_quantity
 NISTd84:
   dimensionless: true
+  short: field_power_level
 NISTd85:
   dimensionless: true
+  short: mass_mole_fraction
 NISTd94:
   dimensionless: true
+  short: acidity_index
 NISTd95:
   dimensionless: true
+  short: storage_capacity
