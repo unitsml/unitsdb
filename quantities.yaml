@@ -4,6 +4,7 @@ NISTq1:
   quantity_name:
   - length
   quantity_type: base
+  short: length
   unit_reference:
   - name: meter
     url: "#NISTu1"
@@ -72,6 +73,7 @@ NISTq2:
   quantity_name:
   - mass
   quantity_type: base
+  short: mass
   unit_reference:
   - name: kilogram-force second squared per meter
     url: "#NISTu125"
@@ -131,6 +133,7 @@ NISTq3:
   - time
   - duration
   quantity_type: base
+  short: time
   unit_reference:
   - name: year (365 days)
     url: "#NISTu106"
@@ -165,6 +168,7 @@ NISTq4:
   quantity_name:
   - electric current
   quantity_type: base
+  short: electric_current
   unit_reference:
   - name: atomic unit of current
     url: "#NISTu257"
@@ -179,6 +183,7 @@ NISTq5:
   quantity_name:
   - thermodynamic temperature
   quantity_type: base
+  short: temperature
   unit_reference:
   - name: degree Rankine
     url: "#NISTu288"
@@ -189,6 +194,7 @@ NISTq6:
   quantity_name:
   - amount of substance
   quantity_type: base
+  short: substance_amount
   unit_reference:
   - name: pound-mole
     url: "#NISTu348"
@@ -199,6 +205,7 @@ NISTq7:
   quantity_name:
   - luminous intensity
   quantity_type: base
+  short: luminous_intensity
   unit_reference:
   - name: candela
     url: "#NISTu7"
