@@ -2,9 +2,111 @@
 
 require "thor"
 require "yaml"
+require "set"
 
 module Unitsdb
   class UtilsCommand < Thor
+    desc "check_uniqueness", "Check for uniqueness of 'short' and 'id' fields across YAML files"
+    method_option :dir, type: :string, default: ".", aliases: "-d", desc: "Directory containing the YAML files (default: current directory)"
+
+    def check_uniqueness
+      dir = options[:dir]
+      yaml_files = [
+        "dimensions.yaml",
+        "prefixes.yaml",
+        "quantities.yaml",
+        "unit_systems.yaml",
+        "units.yaml"
+      ]
+
+      all_shorts = {}
+      all_ids = {}
+
+      yaml_files.each do |file|
+        file_path = File.join(dir, file)
+        if File.exist?(file_path)
+          file_type = File.basename(file, ".yaml")
+          content = File.read(file_path)
+          yaml = YAML.safe_load(content)
+
+          # Check for uniqueness of 'short' fields
+          shorts = check_shorts_uniqueness(yaml, file_type)
+          shorts.each do |short, objects|
+            if objects.size > 1
+              all_shorts[short] ||= []
+              all_shorts[short].concat(objects.map { |obj| "#{file_type}:#{obj}" })
+            end
+          end
+
+          # Check for uniqueness of 'id' fields
+          ids = check_ids_uniqueness(yaml, file_type)
+          ids.each do |id, paths|
+            if paths.size > 1
+              all_ids[id] ||= []
+              all_ids[id].concat(paths.map { |path| "#{file_type}:#{path}" })
+            end
+          end
+
+          puts "Checked #{file_path}"
+        else
+          puts "Warning: File not found: #{file_path}"
+        end
+      end
+
+      # Group duplicates by file type for better organization
+      shorts_by_file = {}
+      all_shorts.each do |short, objects|
+        objects.each do |obj|
+          file_type, path = obj.split(":", 2)
+          shorts_by_file[file_type] ||= {}
+          shorts_by_file[file_type][short] ||= []
+          shorts_by_file[file_type][short] << path
+        end
+      end
+
+      ids_by_file = {}
+      all_ids.each do |id, objects|
+        objects.each do |obj|
+          file_type, path = obj.split(":", 2)
+          ids_by_file[file_type] ||= {}
+          ids_by_file[file_type][id] ||= []
+          ids_by_file[file_type][id] << path
+        end
+      end
+
+      # Report duplicate 'short' fields in hierarchical format
+      if all_shorts.empty?
+        puts "No duplicate 'short' fields found."
+      else
+        puts "Found duplicate 'short' fields:"
+        shorts_by_file.each do |file_type, shorts|
+          puts "  #{file_type}.yaml:"
+          shorts.each do |short, paths|
+            puts "    '#{short}':"
+            paths.each do |path|
+              puts "      - #{path}"
+            end
+          end
+        end
+      end
+
+      # Report duplicate 'id' fields in hierarchical format
+      if all_ids.empty?
+        puts "No duplicate 'id' fields found."
+      else
+        puts "\nFound duplicate 'id' fields:"
+        ids_by_file.each do |file_type, ids|
+          puts "  #{file_type}.yaml:"
+          ids.each do |id, paths|
+            puts "    '#{id}':"
+            paths.each do |path|
+              puts "      - #{path}"
+            end
+          end
+        end
+      end
+    end
+
     desc "normalize [INPUT] [OUTPUT]", "Normalize a YAML file or all YAML files with --all"
     method_option :sort, type: :boolean, default: true, desc: "Sort keys alphabetically (default: true)"
     method_option :all, type: :boolean, default: false, aliases: "-a", desc: "Normalize all YAML files in the repository"
@@ -45,6 +147,72 @@ module Unitsdb
     end
 
     private
+
+    def check_shorts_uniqueness(yaml, file_type)
+      duplicates = {}
+
+      yaml.each do |key, value|
+        if value.is_a?(Hash) && value.key?("short")
+          short = value["short"]
+          duplicates[short] ||= []
+          duplicates[short] << key
+        end
+      end
+
+      duplicates
+    end
+
+    def check_ids_uniqueness(yaml, file_type)
+      duplicates = {}
+
+      # Process top-level entries in the YAML
+      yaml.each do |key, value|
+        if value.is_a?(Hash)
+          find_ids_in_entry(key, value, duplicates)
+        end
+      end
+
+      duplicates
+    end
+
+    def find_ids_in_entry(top_key, obj, duplicates, path = "")
+      # Check if this is the si_derived_bases path, which is expected to have duplicate IDs
+      is_si_derived_bases = path == "si_derived_bases" || path.end_with?(".si_derived_bases")
+
+      case obj
+      when Hash
+        # If this hash has an 'id' key, record it (unless it's in si_derived_bases)
+        if obj.key?("id") && !is_si_derived_bases
+          id = obj["id"]
+          duplicates[id] ||= []
+          location = path.empty? ? top_key : "#{top_key}:#{path}"
+          duplicates[id] << location
+        end
+
+        # Recursively process each key-value pair in the hash
+        obj.each do |key, value|
+          new_path = path.empty? ? key : "#{path}.#{key}"
+          find_ids_in_entry(top_key, value, duplicates, new_path)
+        end
+      when Array
+        # Skip checking items in si_derived_bases array since it's expected to reference
+        # the same basic SI units across different derived units
+        unless is_si_derived_bases
+          # Process each item in the array with its index
+          obj.each_with_index do |item, index|
+            if item.is_a?(Hash) && item.key?("id")
+              id = item["id"]
+              duplicates[id] ||= []
+              parent_path = path.empty? ? top_key : "#{top_key}:#{path}"
+              duplicates[id] << "#{parent_path}[#{index}]"
+            elsif item.is_a?(Hash) || item.is_a?(Array)
+              new_path = path.empty? ? "#{index}" : "#{path}.#{index}"
+              find_ids_in_entry(top_key, item, duplicates, new_path)
+            end
+          end
+        end
+      end
+    end
 
     def normalize_file(input, output)
       content = File.read(input)
