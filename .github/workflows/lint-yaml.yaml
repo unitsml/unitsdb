@@ -7,7 +7,7 @@ on:
 
 jobs:
   lint:
-    name: Check YAML Normalization
+    name: Check YAML Files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -59,22 +59,42 @@ jobs:
             echo "All YAML files are properly normalized!"
           fi
 
-      - name: Comment on PR
-        if: failure() && steps.check_yaml.outputs.issues_found == 'true'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const issueDetails = `${{ steps.check_yaml.outputs.issue_details }}`;
+      - name: Check field uniqueness
+        id: check_uniqueness
+        run: |
+          set -e
+          cd scripts
 
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `## YAML Normalization Required
+          # Run the uniqueness check script and capture output
+          UNIQUENESS_OUTPUT=$(bundle exec unitsdb-utils check_uniqueness --all --dir ..)
+
+          # Check if any duplicates were found
+          if echo "$UNIQUENESS_OUTPUT" | grep -q "Found duplicate"; then
+            echo "::warning::YAML files contain duplicate fields"
+            echo "uniqueness_issues_found=true" >> $GITHUB_OUTPUT
+
+            # Format the output for the GitHub comment
+            UNIQUENESS_DETAILS="$(echo "$UNIQUENESS_OUTPUT" | grep -A 100 "Found duplicate")"
+
+            echo "uniqueness_details<<EOF" >> $GITHUB_OUTPUT
+            echo "$UNIQUENESS_DETAILS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+
+            exit 1
+          else
+            echo "All fields have unique identifiers!"
+          fi
+
+      - name: Comment on Normalization Issues
+        if: failure() && steps.check_yaml.outputs.issues_found == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## YAML Normalization Required
 
             The following YAML files need to be normalized:
-            ${issueDetails}
+            ${{ steps.check_yaml.outputs.issue_details }}
 
             Please run the normalization script before submitting your PR:
 
@@ -84,5 +104,31 @@ jobs:
             bundle exec unitsdb-utils normalize --all --dir ..
             ```
 
-            See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.`
-            });
+            See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
+          reactions: 'eyes,-1'
+
+      - name: Comment on Uniqueness Issues
+        if: failure() && steps.check_uniqueness.outputs.uniqueness_issues_found == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## Duplicate Fields Found
+
+            The YAML files contain duplicate field identifiers:
+
+            ```
+            ${{ steps.check_uniqueness.outputs.uniqueness_details }}
+            ```
+
+            Please ensure all 'short' and 'id' fields are unique within each object type.
+            You can check for duplicates by running:
+
+            ```bash
+            cd scripts
+            bundle install
+            bundle exec unitsdb-utils check_uniqueness --all --dir ..
+            ```
+
+            See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
+          reactions: 'eyes,-1'
