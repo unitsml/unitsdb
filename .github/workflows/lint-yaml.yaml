@@ -22,33 +22,38 @@ jobs:
 
       - name: Check YAML normalization
         id: check_yaml
-        working-directory: ./scripts
         run: |
           set -e
-          ISSUES_FOUND=false
-          ISSUE_DETAILS=""
 
-          for file in ../*.yaml; do
-            echo "Checking $file..."
-            # Create a temporary file with normalized content
-            bundle exec unitsdb-utils normalize "$file" "${file}.normalized" --sort
+          # Run the normalization script
+          cd scripts
+          bundle exec unitsdb-utils normalize --all --dir ..
+          cd ..
 
-            # Compare original and normalized files
-            if ! diff -q "$file" "${file}.normalized" > /dev/null; then
-              echo "::warning file=$file::YAML file is not properly normalized"
-              ISSUES_FOUND=true
-              ISSUE_DETAILS+="- $(basename $file) is not properly normalized\n"
-            fi
-
-            # Clean up temporary file
-            rm "${file}.normalized"
-          done
-
-          if [ "$ISSUES_FOUND" = true ]; then
+          # Check if there are any changes
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "::warning::YAML files are not properly normalized"
             echo "issues_found=true" >> $GITHUB_OUTPUT
+
+            # Get list of modified files
+            MODIFIED_FILES=$(git status --porcelain | grep '^ M' | awk '{print $2}' | grep '\.yaml$')
+
+            # Create issue details
+            ISSUE_DETAILS=""
+            for file in $MODIFIED_FILES; do
+              echo "::warning file=$file::YAML file is not properly normalized"
+              ISSUE_DETAILS+="- $file is not properly normalized\n"
+              # Show diff for debugging
+              git diff $file
+            done
+
             echo "issue_details<<EOF" >> $GITHUB_OUTPUT
             echo -e "$ISSUE_DETAILS" >> $GITHUB_OUTPUT
             echo "EOF" >> $GITHUB_OUTPUT
+
+            # Reset changes to avoid affecting other steps
+            git reset --hard
+
             exit 1
           else
             echo "All YAML files are properly normalized!"
@@ -76,9 +81,7 @@ jobs:
             ```bash
             cd scripts
             bundle install
-            for file in ../*.yaml; do
-              bundle exec unitsdb-utils normalize "$file" "$file" --sort
-            done
+            bundle exec unitsdb-utils normalize --all --dir ..
             ```
 
             See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.`

@@ -3,59 +3,96 @@
 require "thor"
 require "yaml"
 
-class UnitsdbUtils < Thor
-  desc "normalize INPUT OUTPUT", "Normalize a YAML file"
-  method_option :sort, type: :boolean, default: false, desc: "Sort keys alphabetically"
+module Unitsdb
+  class UtilsCommand < Thor
+    desc "normalize [INPUT] [OUTPUT]", "Normalize a YAML file or all YAML files with --all"
+    method_option :sort, type: :boolean, default: true, desc: "Sort keys alphabetically (default: true)"
+    method_option :all, type: :boolean, default: false, aliases: "-a", desc: "Normalize all YAML files in the repository"
+    method_option :dir, type: :string, default: ".", aliases: "-d", desc: "Directory containing the YAML files (default: current directory)"
 
-  def normalize(input, output)
-    content = File.read(input)
-    yaml = YAML.safe_load(content)
+    def normalize(input=nil, output=nil)
+      if options[:all]
+        # List of all YAML files in the repository
+        yaml_files = [
+          "dimensions.yaml",
+          "prefixes.yaml",
+          "quantities.yaml",
+          "unit_systems.yaml",
+          "units.yaml"
+        ]
 
-    if options[:sort]
-      yaml = sort_yaml_keys(yaml)
+        dir = options[:dir]
+
+        yaml_files.each do |file|
+          file_path = File.join(dir, file)
+          if File.exist?(file_path)
+            normalize_file(file_path, file_path)
+            puts "Normalized #{file_path}"
+          else
+            puts "Warning: File not found: #{file_path}"
+          end
+        end
+        puts "All YAML files normalized successfully!"
+      else
+        # Original functionality for single file
+        if input.nil? || output.nil?
+          puts "Error: INPUT and OUTPUT are required when not using --all"
+          exit(1)
+        end
+        normalize_file(input, output)
+        puts "Normalized YAML written to #{output}"
+      end
     end
 
-    File.write(output, yaml.to_yaml)
-    puts "Normalized YAML written to #{output}"
-  end
+    private
 
-  private
+    def normalize_file(input, output)
+      content = File.read(input)
+      yaml = YAML.safe_load(content)
 
-  def sort_yaml_keys(obj)
-    case obj
-    when Hash
-      sorted_hash = obj.transform_values { |v| sort_yaml_keys(v) }
+      if options[:sort]
+        yaml = sort_yaml_keys(yaml)
+      end
 
-      # Custom sort for NIST IDs
-      sorted_hash.sort_by do |key, _|
-        key_str = key.to_s
+      File.write(output, yaml.to_yaml)
+    end
 
-        # Check if this is a composite unit (contains dots, slashes, or 'e')
-        is_composite = key_str.include?('.') || key_str.include?('/') || key_str.include?('e')
+    def sort_yaml_keys(obj)
+      case obj
+      when Hash
+        sorted_hash = obj.transform_values { |v| sort_yaml_keys(v) }
 
-        # Extract the prefix and number
-        if key_str =~ /^NIST([a-z])(\d+)/
-          prefix = $1
-          number = $2.to_i
+        # Custom sort for NIST IDs
+        sorted_hash.sort_by do |key, _|
+          key_str = key.to_s
 
-          if is_composite
-            # Composite units come after basic units
-            [prefix, 1, number, key_str]
+          # Check if this is a composite unit (contains dots, slashes, or 'e')
+          is_composite = key_str.include?('.') || key_str.include?('/') || key_str.include?('e')
+
+          # Extract the prefix and number
+          if key_str =~ /^NIST([a-z])(\d+)/
+            prefix = $1
+            number = $2.to_i
+
+            if is_composite
+              # Composite units come after basic units
+              [prefix, 1, number, key_str]
+            else
+              # Basic units come first, sorted by number
+              [prefix, 0, number, key_str]
+            end
           else
-            # Basic units come first, sorted by number
-            [prefix, 0, number, key_str]
+            # Regular string sort for other keys
+            [key_str, 2, 0, key_str]
           end
-        else
-          # Regular string sort for other keys
-          [key_str, 2, 0, key_str]
-        end
-      end.to_h
-    when Array
-      obj.map { |item| sort_yaml_keys(item) }
-    else
-      obj
+        end.to_h
+      when Array
+        obj.map { |item| sort_yaml_keys(item) }
+      else
+        obj
+      end
     end
   end
 end
 
-UnitsdbUtils.start(ARGV)
+Unitsdb::UtilsCommand.start(ARGV)

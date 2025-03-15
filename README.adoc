@@ -362,9 +362,7 @@ cd scripts
 bundle install
 
 # Normalize all YAML files
-for file in ../*.yaml; do
-  bundle exec unitsdb-utils normalize "$file" "$file" --sort
-done
+bundle exec unitsdb-utils normalize --all --dir ..
 ----
 
 The `lint_yaml` GitHub Actions workflow will check if your YAML files are
