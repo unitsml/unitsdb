@@ -1,298 +1,298 @@
 ---
-NISTp10_30:
-  name: quetta
-  symbol:
-    ascii: Q
-    html: Q
-    latex: Q
-    unicode: Q
-  base: 10
-  power: 30
-NISTp10_27:
-  name: ronna
-  symbol:
-    ascii: R
-    html: R
-    latex: R
-    unicode: R
-  base: 10
-  power: 27
-NISTp10_24:
-  name: yotta
-  symbol:
-    ascii: Y
-    html: Y
-    latex: Y
-    unicode: Y
-  base: 10
-  power: 24
-NISTp10_21:
-  name: zetta
-  symbol:
-    ascii: Z
-    html: Z
-    latex: Z
-    unicode: Z
-  base: 10
-  power: 21
-NISTp10_18:
-  name: exa
-  symbol:
-    ascii: E
-    html: E
-    latex: E
-    unicode: E
-  base: 10
-  power: 18
-NISTp10_15:
-  name: peta
-  symbol:
-    ascii: P
-    html: P
-    latex: P
-    unicode: P
-  base: 10
-  power: 15
-NISTp10_12:
-  name: tera
-  symbol:
-    ascii: T
-    html: T
-    latex: T
-    unicode: T
-  base: 10
-  power: 12
-NISTp10_9:
-  name: giga
-  symbol:
-    ascii: G
-    html: G
-    latex: G
-    unicode: G
-  base: 10
-  power: 9
-NISTp10_6:
-  name: mega
-  symbol:
-    ascii: M
-    html: M
-    latex: M
-    unicode: M
-  base: 10
-  power: 6
-NISTp10_3:
-  name: kilo
-  symbol:
-    ascii: k
-    html: k
-    latex: k
-    unicode: k
-  base: 10
-  power: 3
-NISTp10_2:
-  name: hecto
-  symbol:
-    ascii: h
-    html: h
-    latex: h
-    unicode: h
-  base: 10
-  power: 2
-NISTp10_1:
-  name: deka
-  symbol:
-    ascii: da
-    html: da
-    latex: da
-    unicode: da
-  base: 10
-  power: 1
-NISTp10_0:
-  name: ''
-  symbol:
-    ascii: ''
-    html: ''
-    latex: ''
-    unicode: ''
-  base: 10
-  power: 0
-NISTp10_-1:
-  name: deci
-  symbol:
-    ascii: d
-    html: d
-    latex: d
-    unicode: d
-  base: 10
-  power: -1
-NISTp10_-2:
-  name: centi
-  symbol:
-    ascii: c
-    html: c
-    latex: c
-    unicode: c
-  base: 10
-  power: -2
-NISTp10_-3:
-  name: milli
-  symbol:
-    ascii: m
-    html: m
-    latex: m
-    unicode: m
-  base: 10
-  power: -3
-NISTp10_-6:
-  name: micro
-  symbol:
-    ascii: u
-    html: "&micro;"
-    latex: "$mu$"
-    unicode: μ
-  base: 10
-  power: -6
-NISTp10_-9:
-  name: nano
-  symbol:
-    ascii: "n"
-    html: "n"
-    latex: "n"
-    unicode: "n"
-  base: 10
-  power: -9
-NISTp10_-12:
-  name: pico
-  symbol:
-    ascii: p
-    html: p
-    latex: p
-    unicode: p
-  base: 10
-  power: -12
-NISTp10_-15:
-  name: femto
-  symbol:
-    ascii: f
-    html: f
-    latex: f
-    unicode: f
-  base: 10
-  power: -15
-NISTp10_-18:
-  name: atto
-  symbol:
-    ascii: a
-    html: a
-    latex: a
-    unicode: a
-  base: 10
-  power: -18
-NISTp10_-21:
-  name: zepto
-  symbol:
-    ascii: z
-    html: z
-    latex: z
-    unicode: z
-  base: 10
-  power: -21
-NISTp10_-24:
-  name: yocto
-  symbol:
-    ascii: "y"
-    html: "y"
-    latex: "y"
-    unicode: "y"
-  base: 10
-  power: -24
-NISTp10_-27:
-  name: ronto
-  symbol:
-    ascii: r
-    html: r
-    latex: r
-    unicode: r
-  base: 10
-  power: -27
-NISTp10_-30:
-  name: quecto
-  symbol:
-    ascii: q
-    html: q
-    latex: q
-    unicode: q
-  base: 10
-  power: -30
 NISTp2_10:
+  base: 2
   name: kibi
+  power: 10
   symbol:
     ascii: Ki
     html: Ki
     latex: Ki
     unicode: Ki
-  base: 2
-  power: 10
 NISTp2_20:
+  base: 2
   name: mebi
+  power: 20
   symbol:
     ascii: Mi
     html: Mi
     latex: Mi
     unicode: Mi
-  base: 2
-  power: 20
 NISTp2_30:
+  base: 2
   name: gibi
+  power: 30
   symbol:
     ascii: Gi
     html: Gi
     latex: Gi
     unicode: Gi
-  base: 2
-  power: 30
 NISTp2_40:
+  base: 2
   name: tebi
+  power: 40
   symbol:
     ascii: Ti
     html: Ti
     latex: Ti
     unicode: Ti
-  base: 2
-  power: 40
 NISTp2_50:
+  base: 2
   name: pebi
+  power: 50
   symbol:
     ascii: Pi
     html: Pi
     latex: Pi
     unicode: Pi
-  base: 2
-  power: 50
 NISTp2_60:
+  base: 2
   name: exbi
+  power: 60
   symbol:
     ascii: Ei
     html: Ei
     latex: Ei
     unicode: Ei
-  base: 2
-  power: 60
 NISTp2_70:
+  base: 2
   name: zebi
+  power: 70
   symbol:
     ascii: Zi
     html: Zi
     latex: Zi
     unicode: Zi
-  base: 2
-  power: 70
 NISTp2_80:
+  base: 2
   name: yobi
+  power: 80
   symbol:
     ascii: Yi
     html: Yi
     latex: Yi
     unicode: Yi
-  base: 2
-  power: 80
+NISTp10_-1:
+  base: 10
+  name: deci
+  power: -1
+  symbol:
+    ascii: d
+    html: d
+    latex: d
+    unicode: d
+NISTp10_-12:
+  base: 10
+  name: pico
+  power: -12
+  symbol:
+    ascii: p
+    html: p
+    latex: p
+    unicode: p
+NISTp10_-15:
+  base: 10
+  name: femto
+  power: -15
+  symbol:
+    ascii: f
+    html: f
+    latex: f
+    unicode: f
+NISTp10_-18:
+  base: 10
+  name: atto
+  power: -18
+  symbol:
+    ascii: a
+    html: a
+    latex: a
+    unicode: a
+NISTp10_-2:
+  base: 10
+  name: centi
+  power: -2
+  symbol:
+    ascii: c
+    html: c
+    latex: c
+    unicode: c
+NISTp10_-21:
+  base: 10
+  name: zepto
+  power: -21
+  symbol:
+    ascii: z
+    html: z
+    latex: z
+    unicode: z
+NISTp10_-24:
+  base: 10
+  name: yocto
+  power: -24
+  symbol:
+    ascii: "y"
+    html: "y"
+    latex: "y"
+    unicode: "y"
+NISTp10_-27:
+  base: 10
+  name: ronto
+  power: -27
+  symbol:
+    ascii: r
+    html: r
+    latex: r
+    unicode: r
+NISTp10_-3:
+  base: 10
+  name: milli
+  power: -3
+  symbol:
+    ascii: m
+    html: m
+    latex: m
+    unicode: m
+NISTp10_-30:
+  base: 10
+  name: quecto
+  power: -30
+  symbol:
+    ascii: q
+    html: q
+    latex: q
+    unicode: q
+NISTp10_-6:
+  base: 10
+  name: micro
+  power: -6
+  symbol:
+    ascii: u
+    html: "&micro;"
+    latex: "$mu$"
+    unicode: μ
+NISTp10_-9:
+  base: 10
+  name: nano
+  power: -9
+  symbol:
+    ascii: "n"
+    html: "n"
+    latex: "n"
+    unicode: "n"
+NISTp10_0:
+  base: 10
+  name: ''
+  power: 0
+  symbol:
+    ascii: ''
+    html: ''
+    latex: ''
+    unicode: ''
+NISTp10_1:
+  base: 10
+  name: deka
+  power: 1
+  symbol:
+    ascii: da
+    html: da
+    latex: da
+    unicode: da
+NISTp10_12:
+  base: 10
+  name: tera
+  power: 12
+  symbol:
+    ascii: T
+    html: T
+    latex: T
+    unicode: T
+NISTp10_15:
+  base: 10
+  name: peta
+  power: 15
+  symbol:
+    ascii: P
+    html: P
+    latex: P
+    unicode: P
+NISTp10_18:
+  base: 10
+  name: exa
+  power: 18
+  symbol:
+    ascii: E
+    html: E
+    latex: E
+    unicode: E
+NISTp10_2:
+  base: 10
+  name: hecto
+  power: 2
+  symbol:
+    ascii: h
+    html: h
+    latex: h
+    unicode: h
+NISTp10_21:
+  base: 10
+  name: zetta
+  power: 21
+  symbol:
+    ascii: Z
+    html: Z
+    latex: Z
+    unicode: Z
+NISTp10_24:
+  base: 10
+  name: yotta
+  power: 24
+  symbol:
+    ascii: "Y"
+    html: "Y"
+    latex: "Y"
+    unicode: "Y"
+NISTp10_27:
+  base: 10
+  name: ronna
+  power: 27
+  symbol:
+    ascii: R
+    html: R
+    latex: R
+    unicode: R
+NISTp10_3:
+  base: 10
+  name: kilo
+  power: 3
+  symbol:
+    ascii: k
+    html: k
+    latex: k
+    unicode: k
+NISTp10_30:
+  base: 10
+  name: quetta
+  power: 30
+  symbol:
+    ascii: Q
+    html: Q
+    latex: Q
+    unicode: Q
+NISTp10_6:
+  base: 10
+  name: mega
+  power: 6
+  symbol:
+    ascii: M
+    html: M
+    latex: M
+    unicode: M
+NISTp10_9:
+  base: 10
+  name: giga
+  power: 9
+  symbol:
+    ascii: G
+    html: G
+    latex: G
+    unicode: G
