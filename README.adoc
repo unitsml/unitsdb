@@ -365,11 +365,31 @@ bundle install
 bundle exec unitsdb-utils normalize --all --dir ..
 ----
 
-The `lint_yaml` GitHub Actions workflow will check if your YAML files are
-properly normalized and will fail if they are not.
+=== GitHub Workflows
 
-If this happens, you will receive a comment on your PR with instructions on how
-to fix the issue.
+The repository has two GitHub workflows related to YAML files:
+
+==== Lint YAML Workflow
+
+The `lint-yaml` workflow runs automatically on pull requests that modify YAML files. It:
+
+* Checks if YAML files are properly normalized
+* Verifies field uniqueness to prevent duplicate entries
+* Comments on your PR with specific instructions if issues are found
+* Fails the workflow check if normalization or uniqueness issues are detected
+
+If the workflow fails due to normalization issues, you will receive a comment on your PR with instructions on how to fix the issue.
+
+==== Normalize Workflow
+
+The `normalize` workflow automatically normalizes YAML files and creates a pull request with the changes if needed. It runs:
+
+* On pushes to the main branch that modify YAML files
+* On tag pushes that modify YAML files
+* On pull requests that modify YAML files
+* When manually triggered via GitHub Actions
+
+If the workflow detects unnormalized YAML files, it creates a pull request titled "Normalize YAML files" that applies the necessary normalization.
 
 
 == Copyright and license
