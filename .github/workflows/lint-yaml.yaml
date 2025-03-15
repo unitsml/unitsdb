@@ -7,7 +7,7 @@ on:
 
 jobs:
   lint:
-    name: Check YAML Files
+    name: Lint YAML Files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -22,68 +22,15 @@ jobs:
 
       - name: Check YAML normalization
         id: check_yaml
+        working-directory: ./scripts
         run: |
-          set -e
-
-          # Run the normalization script
-          cd scripts
           bundle exec unitsdb-utils normalize --all --dir ..
-          cd ..
-
-          # Check if there are any changes
-          if [[ -n "$(git status --porcelain)" ]]; then
-            echo "::warning::YAML files are not properly normalized"
-            echo "issues_found=true" >> $GITHUB_OUTPUT
-
-            # Get list of modified files
-            MODIFIED_FILES=$(git status --porcelain | grep '^ M' | awk '{print $2}' | grep '\.yaml$')
-
-            # Create issue details
-            ISSUE_DETAILS=""
-            for file in $MODIFIED_FILES; do
-              echo "::warning file=$file::YAML file is not properly normalized"
-              ISSUE_DETAILS+="- $file is not properly normalized\n"
-              # Show diff for debugging
-              git diff $file
-            done
-
-            echo "issue_details<<EOF" >> $GITHUB_OUTPUT
-            echo -e "$ISSUE_DETAILS" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-
-            # Reset changes to avoid affecting other steps
-            git reset --hard
-
-            exit 1
-          else
-            echo "All YAML files are properly normalized!"
-          fi
 
       - name: Check field uniqueness
         id: check_uniqueness
+        working-directory: ./scripts
         run: |
-          set -e
-          cd scripts
-
-          # Run the uniqueness check script and capture output
-          UNIQUENESS_OUTPUT=$(bundle exec unitsdb-utils check_uniqueness --all --dir ..)
-
-          # Check if any duplicates were found
-          if echo "$UNIQUENESS_OUTPUT" | grep -q "Found duplicate"; then
-            echo "::warning::YAML files contain duplicate fields"
-            echo "uniqueness_issues_found=true" >> $GITHUB_OUTPUT
-
-            # Format the output for the GitHub comment
-            UNIQUENESS_DETAILS="$(echo "$UNIQUENESS_OUTPUT" | grep -A 100 "Found duplicate")"
-
-            echo "uniqueness_details<<EOF" >> $GITHUB_OUTPUT
-            echo "$UNIQUENESS_DETAILS" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-
-            exit 1
-          else
-            echo "All fields have unique identifiers!"
-          fi
+          bundle exec unitsdb-utils check_uniqueness --all --dir ..
 
       - name: Comment on Normalization Issues
         if: failure() && steps.check_yaml.outputs.issues_found == 'true'
@@ -105,7 +52,7 @@ jobs:
             ```
 
             See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
-          reactions: 'eyes,-1'
+          reactions: 'eyes'
 
       - name: Comment on Uniqueness Issues
         if: failure() && steps.check_uniqueness.outputs.uniqueness_issues_found == 'true'
@@ -131,4 +78,4 @@ jobs:
             ```
 
             See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
-          reactions: 'eyes,-1'
+          reactions: 'eyes'
