@@ -8,6 +8,33 @@ NISTp2_10:
     html: Ki
     latex: Ki
     unicode: Ki
+NISTp2_60:
+  base: 2
+  name: exbi
+  power: 60
+  symbol:
+    ascii: Ei
+    html: Ei
+    latex: Ei
+    unicode: Ei
+NISTp2_70:
+  base: 2
+  name: zebi
+  power: 70
+  symbol:
+    ascii: Zi
+    html: Zi
+    latex: Zi
+    unicode: Zi
+NISTp2_80:
+  base: 2
+  name: yobi
+  power: 80
+  symbol:
+    ascii: Yi
+    html: Yi
+    latex: Yi
+    unicode: Yi
 NISTp2_20:
   base: 2
   name: mebi
@@ -44,96 +71,6 @@ NISTp2_50:
     html: Pi
     latex: Pi
     unicode: Pi
-NISTp2_60:
-  base: 2
-  name: exbi
-  power: 60
-  symbol:
-    ascii: Ei
-    html: Ei
-    latex: Ei
-    unicode: Ei
-NISTp2_70:
-  base: 2
-  name: zebi
-  power: 70
-  symbol:
-    ascii: Zi
-    html: Zi
-    latex: Zi
-    unicode: Zi
-NISTp2_80:
-  base: 2
-  name: yobi
-  power: 80
-  symbol:
-    ascii: Yi
-    html: Yi
-    latex: Yi
-    unicode: Yi
-NISTp10_-1:
-  base: 10
-  name: deci
-  power: -1
-  symbol:
-    ascii: d
-    html: d
-    latex: d
-    unicode: d
-NISTp10_-12:
-  base: 10
-  name: pico
-  power: -12
-  symbol:
-    ascii: p
-    html: p
-    latex: p
-    unicode: p
-NISTp10_-15:
-  base: 10
-  name: femto
-  power: -15
-  symbol:
-    ascii: f
-    html: f
-    latex: f
-    unicode: f
-NISTp10_-18:
-  base: 10
-  name: atto
-  power: -18
-  symbol:
-    ascii: a
-    html: a
-    latex: a
-    unicode: a
-NISTp10_-2:
-  base: 10
-  name: centi
-  power: -2
-  symbol:
-    ascii: c
-    html: c
-    latex: c
-    unicode: c
-NISTp10_-21:
-  base: 10
-  name: zepto
-  power: -21
-  symbol:
-    ascii: z
-    html: z
-    latex: z
-    unicode: z
-NISTp10_-24:
-  base: 10
-  name: yocto
-  power: -24
-  symbol:
-    ascii: "y"
-    html: "y"
-    latex: "y"
-    unicode: "y"
 NISTp10_-27:
   base: 10
   name: ronto
@@ -247,10 +184,10 @@ NISTp10_24:
   name: yotta
   power: 24
   symbol:
-    ascii: "Y"
-    html: "Y"
-    latex: "Y"
-    unicode: "Y"
+    ascii: Y
+    html: Y
+    latex: Y
+    unicode: Y
 NISTp10_27:
   base: 10
   name: ronna
@@ -296,3 +233,66 @@ NISTp10_9:
     html: G
     latex: G
     unicode: G
+NISTp10_-1:
+  base: 10
+  name: deci
+  power: -1
+  symbol:
+    ascii: d
+    html: d
+    latex: d
+    unicode: d
+NISTp10_-12:
+  base: 10
+  name: pico
+  power: -12
+  symbol:
+    ascii: p
+    html: p
+    latex: p
+    unicode: p
+NISTp10_-15:
+  base: 10
+  name: femto
+  power: -15
+  symbol:
+    ascii: f
+    html: f
+    latex: f
+    unicode: f
+NISTp10_-18:
+  base: 10
+  name: atto
+  power: -18
+  symbol:
+    ascii: a
+    html: a
+    latex: a
+    unicode: a
+NISTp10_-2:
+  base: 10
+  name: centi
+  power: -2
+  symbol:
+    ascii: c
+    html: c
+    latex: c
+    unicode: c
+NISTp10_-21:
+  base: 10
+  name: zepto
+  power: -21
+  symbol:
+    ascii: z
+    html: z
+    latex: z
+    unicode: z
+NISTp10_-24:
+  base: 10
+  name: yocto
+  power: -24
+  symbol:
+    ascii: "y"
+    html: "y"
+    latex: "y"
+    unicode: "y"

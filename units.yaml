@@ -342,12 +342,12 @@ NISTu11:
   unit_name:
   - newton
   unit_symbols:
-  - ascii: "N"
-    html: "N"
-    id: "N"
+  - ascii: N
+    html: N
+    id: N
     latex: "\\ensuremath{\\mathrm{N}}"
     mathml: "<mi mathvariant='normal'>N</mi>"
-    unicode: "N"
+    unicode: N
   unit_system:
     name: SI
     type: SI_derived_special

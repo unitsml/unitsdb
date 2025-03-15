@@ -62,14 +62,14 @@ NISTd5:
 NISTd6:
   amount_of_substance:
     dim_symbols:
-    - ascii: "N"
+    - ascii: N
       html: "&#x1D5AD;"
       id: dim_N
       latex: "\\ensuremath{\\mathsf{N}}"
       mathml: "<mi mathvariant='sans-serif'>N</mi>"
       unicode: "\U0001D5AD"
     powerNumerator: 1
-    symbol: "N"
+    symbol: N
   short: substance_amount
 NISTd7:
   luminous_intensity:
@@ -277,7 +277,7 @@ NISTd25:
 NISTd26:
   amount_of_substance:
     powerNumerator: 1
-    symbol: "N"
+    symbol: N
   short: catalytic_activity
   time:
     powerNumerator: -1
@@ -338,7 +338,7 @@ NISTd33:
 NISTd34:
   amount_of_substance:
     powerNumerator: 1
-    symbol: "N"
+    symbol: N
   length:
     powerNumerator: -3
     symbol: L
@@ -481,7 +481,7 @@ NISTd46:
 NISTd47:
   amount_of_substance:
     powerNumerator: -1
-    symbol: "N"
+    symbol: N
   length:
     powerNumerator: 2
     symbol: L
@@ -495,7 +495,7 @@ NISTd47:
 NISTd48:
   amount_of_substance:
     powerNumerator: -1
-    symbol: "N"
+    symbol: N
   length:
     powerNumerator: 2
     symbol: L
@@ -575,7 +575,7 @@ NISTd54:
 NISTd55:
   amount_of_substance:
     powerNumerator: 1
-    symbol: "N"
+    symbol: N
   mass:
     powerNumerator: -3
     symbol: M
@@ -805,7 +805,7 @@ NISTd78:
 NISTd79:
   amount_of_substance:
     powerNumerator: 1
-    symbol: "N"
+    symbol: N
   mass:
     powerNumerator: 1
     symbol: M
