@@ -35,11 +35,11 @@ NISTd3:
 NISTd4:
   electric_current:
     dim_symbols:
-    - ascii: T
+    - ascii: I
       html: "&#x1D5A8;"
-      id: dim_T
-      latex: "\\ensuremath{\\mathsf{T}}"
-      mathml: "<mi mathvariant='sans-serif'>T</mi>"
+      id: dim_I
+      latex: "\\ensuremath{\\mathsf{I}}"
+      mathml: "<mi mathvariant='sans-serif'>I</mi>"
       unicode: "\U0001D5A8"
     powerNumerator: 1
     symbol: I
