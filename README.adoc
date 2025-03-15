@@ -336,3 +336,48 @@ For example:
   name: SI
   acceptable: true
 ----
+
+
+== Contributing
+
+=== General
+
+When contributing to this repository, please follow these guidelines.
+
+=== YAML normalization
+
+All YAML files must be normalized using the provided normalization script before
+submitting a pull request.
+
+This ensures consistent formatting and structure across all files.
+
+To normalize YAML files:
+
+[source,bash]
+----
+# Navigate to the scripts directory
+cd scripts
+
+# Install dependencies
+bundle install
+
+# Normalize all YAML files
+for file in ../*.yaml; do
+  bundle exec unitsdb-utils normalize "$file" "$file" --sort
+done
+----
+
+The `lint_yaml` GitHub Actions workflow will check if your YAML files are
+properly normalized and will fail if they are not.
+
+If this happens, you will receive a comment on your PR with instructions on how
+to fix the issue.
+
+
+== Copyright and license
+
+Copyright CalConnect. Incorporates public domain work from NIST.
+
+This work is licensed under the Creative Commons Attribution 4.0 International
+License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/[CC-BY 4.0]

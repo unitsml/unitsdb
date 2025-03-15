@@ -24,8 +24,32 @@ class UnitsdbUtils < Thor
   def sort_yaml_keys(obj)
     case obj
     when Hash
-      obj.transform_values { |v| sort_yaml_keys(v) }
-         .sort.to_h
+      sorted_hash = obj.transform_values { |v| sort_yaml_keys(v) }
+
+      # Custom sort for NIST IDs
+      sorted_hash.sort_by do |key, _|
+        key_str = key.to_s
+
+        # Check if this is a composite unit (contains dots, slashes, or 'e')
+        is_composite = key_str.include?('.') || key_str.include?('/') || key_str.include?('e')
+
+        # Extract the prefix and number
+        if key_str =~ /^NIST([a-z])(\d+)/
+          prefix = $1
+          number = $2.to_i
+
+          if is_composite
+            # Composite units come after basic units
+            [prefix, 1, number, key_str]
+          else
+            # Basic units come first, sorted by number
+            [prefix, 0, number, key_str]
+          end
+        else
+          # Regular string sort for other keys
+          [key_str, 2, 0, key_str]
+        end
+      end.to_h
     when Array
       obj.map { |item| sort_yaml_keys(item) }
     else
