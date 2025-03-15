@@ -365,31 +365,24 @@ bundle install
 bundle exec unitsdb-utils normalize --all --dir ..
 ----
 
-=== GitHub Workflows
+=== UnitsML validation
 
-The repository has two GitHub workflows related to YAML files:
+All YAML files must be validated against the UnitsML schema before submitting a
+pull request.
 
-==== Lint YAML Workflow
+To validate UnitsDB content using UnitsML Ruby:
 
-The `lint-yaml` workflow runs automatically on pull requests that modify YAML files. It:
+[source,bash]
+----
+# Navigate to the scripts directory
+cd scripts
 
-* Checks if YAML files are properly normalized
-* Verifies field uniqueness to prevent duplicate entries
-* Comments on your PR with specific instructions if issues are found
-* Fails the workflow check if normalization or uniqueness issues are detected
+# Install dependencies
+bundle install
 
-If the workflow fails due to normalization issues, you will receive a comment on your PR with instructions on how to fix the issue.
-
-==== Normalize Workflow
-
-The `normalize` workflow automatically normalizes YAML files and creates a pull request with the changes if needed. It runs:
-
-* On pushes to the main branch that modify YAML files
-* On tag pushes that modify YAML files
-* On pull requests that modify YAML files
-* When manually triggered via GitHub Actions
-
-If the workflow detects unnormalized YAML files, it creates a pull request titled "Normalize YAML files" that applies the necessary normalization.
+# Validate content using RSpec which uses UnitsML Ruby
+bundle exec rspec ../spec --format documentation
+----
 
 
 == Copyright and license
