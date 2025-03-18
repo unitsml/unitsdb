@@ -33,8 +33,7 @@ NISTu1:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
   short: meter
   unit_name:
@@ -58,8 +57,7 @@ NISTu2:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
   short: kilogram
@@ -87,8 +85,7 @@ NISTu3:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: second
   unit_name:
@@ -123,8 +120,7 @@ NISTu4:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ampere
   short: ampere
   unit_name:
@@ -147,8 +143,7 @@ NISTu5:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: kelvin
   short: kelvin
   unit_name:
@@ -177,8 +172,7 @@ NISTu6:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mole
   short: mole
   unit_name:
@@ -201,8 +195,7 @@ NISTu7:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: candela
   short: candela
   unit_name:
@@ -227,8 +220,7 @@ NISTu8:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: inch
   short: inch
   unit_name:
@@ -263,8 +255,7 @@ NISTu9:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: radian
   short: radian
   si_derived_bases:
@@ -294,8 +285,7 @@ NISTu10:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: steradian
   short: steradian
   si_derived_bases:
@@ -325,8 +315,7 @@ NISTu11:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
   short: newton
   si_derived_bases:
@@ -371,8 +360,7 @@ NISTu12:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pascal
   short: pascal
   si_derived_bases:
@@ -419,8 +407,7 @@ NISTu13:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
   short: joule
   si_derived_bases:
@@ -455,8 +442,7 @@ NISTu14:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
   short: watt
   si_derived_bases:
@@ -491,8 +477,7 @@ NISTu15:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: coulomb
   short: coulomb
   si_derived_bases:
@@ -524,8 +509,7 @@ NISTu16:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: volt
   short: volt
   si_derived_bases:
@@ -561,8 +545,7 @@ NISTu17:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: farad
   short: farad
   si_derived_bases:
@@ -598,8 +581,7 @@ NISTu18:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ohm
   short: ohm
   si_derived_bases:
@@ -635,8 +617,7 @@ NISTu19:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: siemens
   short: siemens
   si_derived_bases:
@@ -672,8 +653,7 @@ NISTu20:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: weber
   short: weber
   si_derived_bases:
@@ -709,8 +689,7 @@ NISTu21:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: tesla
   short: tesla
   si_derived_bases:
@@ -743,8 +722,7 @@ NISTu22:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: henry
   short: henry
   si_derived_bases:
@@ -780,8 +758,7 @@ NISTu23:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: degree_Celsius
   short: degree_Celsius
   si_derived_bases:
@@ -808,8 +785,7 @@ NISTu25:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: becquerel
   short: becquerel
   si_derived_bases:
@@ -838,8 +814,7 @@ NISTu26:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: f
       unit: meter
   short: fermi
@@ -863,8 +838,7 @@ NISTu27:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gram
   short: gram
   unit_name:
@@ -891,8 +865,7 @@ NISTu28:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gray
   short: gray
   si_derived_bases:
@@ -922,8 +895,7 @@ NISTu29:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sievert
   short: sievert
   si_derived_bases:
@@ -953,8 +925,7 @@ NISTu30:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: katal
   short: katal
   si_derived_bases:
@@ -984,8 +955,7 @@ NISTu31:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hertz
   short: hertz
   si_derived_bases:
@@ -1012,8 +982,7 @@ NISTu32:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: lumen
   short: lumen
   si_derived_bases:
@@ -1040,8 +1009,7 @@ NISTu33:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: lux
   short: lux
   si_derived_bases:
@@ -1071,8 +1039,7 @@ NISTu36:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: minute
   short: minute
   unit_name:
@@ -1107,8 +1074,7 @@ NISTu37:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hour
   short: hour
   unit_name:
@@ -1131,8 +1097,7 @@ NISTu38:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: day
   short: day
   unit_name:
@@ -1157,8 +1122,7 @@ NISTu39:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: angstrom
   short: angstrom
   unit_name:
@@ -1181,8 +1145,7 @@ NISTu42:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: are
   short: are
   unit_name:
@@ -1205,8 +1168,7 @@ NISTu43:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: barn
   short: barn
   unit_name:
@@ -1229,8 +1191,7 @@ NISTu44:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hectare
   short: hectare
   unit_name:
@@ -1253,8 +1214,7 @@ NISTu45:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: foot
   short: square_foot
   unit_name:
@@ -1277,8 +1237,7 @@ NISTu46:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: inch
   short: square_inch
   unit_name:
@@ -1301,8 +1260,7 @@ NISTu47:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abampere
   short: abampere
   unit_name:
@@ -1328,8 +1286,7 @@ NISTu48:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abcoulomb
   short: abcoulomb
   unit_name:
@@ -1352,8 +1309,7 @@ NISTu49:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abfarad
   short: abfarad
   unit_name:
@@ -1377,8 +1333,7 @@ NISTu50:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abhenry
   short: abhenry
   unit_name:
@@ -1402,8 +1357,7 @@ NISTu51:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abmho
   short: abmho
   unit_name:
@@ -1426,8 +1380,7 @@ NISTu52:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abohm
   short: abohm
   unit_name:
@@ -1453,8 +1406,7 @@ NISTu53:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abvolt
   short: abvolt
   unit_name:
@@ -1480,11 +1432,9 @@ NISTu54:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ampere
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hour
   short: ampere_hour
   unit_name:
@@ -1507,8 +1457,7 @@ NISTu55:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abampere
   short: biot
   unit_name:
@@ -1531,11 +1480,9 @@ NISTu57:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_acre
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
   short: us_survey_acre_foot
   unit_name:
@@ -1559,8 +1506,7 @@ NISTu58:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: maxwell
   short: maxwell
   unit_name:
@@ -1593,8 +1539,7 @@ NISTu60:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: table_calorie
   short: table_calorie
   unit_name:
@@ -1668,8 +1613,7 @@ NISTu62:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: erg
   short: erg
   unit_name:
@@ -1703,8 +1647,7 @@ NISTu63:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: table_kg_calorie
   short: table_kg_calorie
   unit_name:
@@ -1738,8 +1681,7 @@ NISTu64:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: thermo_kg_calorie
   short: thermo_kg_calorie
   unit_name:
@@ -1773,12 +1715,10 @@ NISTu65:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: watt
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hour
   short: kilowatt_hour
   unit_name:
@@ -1811,11 +1751,9 @@ NISTu69:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hour
   short: watt_hour
   unit_name:
@@ -1838,8 +1776,7 @@ NISTu71:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: dyne
   short: dyne
   unit_name:
@@ -1863,8 +1800,7 @@ NISTu72:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
   short: kilogram_force
@@ -1888,8 +1824,7 @@ NISTu73:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gram_force
   short: kilopond
   unit_name:
@@ -1914,11 +1849,9 @@ NISTu74:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: thermo_calorie
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: calorie_th_per_second
   unit_name:
@@ -1945,12 +1878,10 @@ NISTu75:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: thermo_calorie
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: kilocalorie_th_per_second
   unit_name:
@@ -1976,8 +1907,7 @@ NISTu78:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
   short: foot
   unit_name:
@@ -2014,8 +1944,7 @@ NISTu83:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mile
   short: mile
   unit_name:
@@ -2040,8 +1969,7 @@ NISTu84:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: yard
   short: yard
   unit_name:
@@ -2064,8 +1992,7 @@ NISTu85:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: phot
   short: phot
   unit_name:
@@ -2088,8 +2015,7 @@ NISTu86:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: grain
   short: grain
   unit_name:
@@ -2115,8 +2041,7 @@ NISTu88:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: metric_ton
   short: metric_ton
   unit_name:
@@ -2142,11 +2067,9 @@ NISTu89:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: erg
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: erg_per_second
   unit_name:
@@ -2171,8 +2094,7 @@ NISTu91:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: bar
   short: bar
   unit_name:
@@ -2197,11 +2119,9 @@ NISTu92:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: dyne
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       prefix: c
       unit: meter
   short: dyne_per_square_centimeter
@@ -2227,11 +2147,9 @@ NISTu93:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       prefix: c
       unit: meter
   short: gram_force_per_square_centimeter
@@ -2258,12 +2176,10 @@ NISTu94:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       prefix: c
       unit: meter
   short: kilogram_force_per_square_centimeter
@@ -2289,12 +2205,10 @@ NISTu95:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: kilogram_force_per_square_meter
   unit_name:
@@ -2319,12 +2233,10 @@ NISTu96:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       prefix: m
       unit: meter
   short: kilogram_force_per_square_millimeter
@@ -2349,8 +2261,7 @@ NISTu97:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: c
       unit: poise
   short: centipoise
@@ -2374,8 +2285,7 @@ NISTu98:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: curie
   short: curie
   unit_name:
@@ -2398,8 +2308,7 @@ NISTu99:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: rad
   short: rad
   unit_name:
@@ -2422,8 +2331,7 @@ NISTu100:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: rem
   short: rem
   unit_name:
@@ -2446,8 +2354,7 @@ NISTu106:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: year_365
   short: year_365
   unit_name:
@@ -2471,11 +2378,9 @@ NISTu107:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: minute
   short: foot_per_minute
   unit_name:
@@ -2498,11 +2403,9 @@ NISTu108:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: foot_per_second
   unit_name:
@@ -2525,11 +2428,9 @@ NISTu109:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: inch
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: inch_per_second
   unit_name:
@@ -2552,11 +2453,9 @@ NISTu110:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mile
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: hour
   short: mile_per_hour
   unit_name:
@@ -2579,11 +2478,9 @@ NISTu111:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mile
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: minute
   short: mile_per_minute
   unit_name:
@@ -2606,11 +2503,9 @@ NISTu112:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mile
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: mile_per_second
   unit_name:
@@ -2633,8 +2528,7 @@ NISTu115:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: meter
   short: stere
   unit_name:
@@ -2657,8 +2551,7 @@ NISTu116:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: "n"
       unit: tesla
   short: gamma
@@ -2692,8 +2585,7 @@ NISTu117:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ec_therm
   short: ec_therm
   unit_name:
@@ -2716,8 +2608,7 @@ NISTu118:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: roentgen
   short: roentgen
   unit_name:
@@ -2740,8 +2631,7 @@ NISTu119:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gauss
   short: gauss
   unit_name:
@@ -2772,8 +2662,7 @@ NISTu120:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: kayser
   short: kayser
   unit_name:
@@ -2797,8 +2686,7 @@ NISTu121:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: c
       unit: stokes
   short: centistokes
@@ -2824,8 +2712,7 @@ NISTu122:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: u
       unit: meter
   short: micron
@@ -2851,8 +2738,7 @@ NISTu123:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: m
       unit: inch
   short: mil (length)
@@ -2884,8 +2770,7 @@ NISTu124:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: stilb
   short: stilb
   unit_name:
@@ -2908,15 +2793,12 @@ NISTu125:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: second
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: kilogram_force_second_squared_per_meter
   unit_name:
@@ -2947,12 +2829,10 @@ NISTu126:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
   short: kilogram_force_meter
   unit_name:
@@ -2977,8 +2857,7 @@ NISTu127:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: electric_horsepower
   short: electric_horsepower
   unit_name:
@@ -3004,8 +2883,7 @@ NISTu128:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: poise
   short: poise
   unit_name:
@@ -3028,8 +2906,7 @@ NISTu129:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: rhe
   short: rhe
   unit_name:
@@ -3052,8 +2929,7 @@ NISTu130:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: liter
   short: liter
   unit_name:
@@ -3084,8 +2960,7 @@ NISTu131:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: nautical_mile
   short: nautical_mile
   unit_name:
@@ -3108,8 +2983,7 @@ NISTu133:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: degree_Fahrenheit
   short: degree_Fahrenheit
   unit_name:
@@ -3134,8 +3008,7 @@ NISTu134:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: standard_atmosphere
   short: standard_atmosphere
   unit_name:
@@ -3160,8 +3033,7 @@ NISTu135:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: technical_atmosphere
   short: technical_atmosphere
   unit_name:
@@ -3184,8 +3056,7 @@ NISTu142:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: stokes
   short: stokes
   unit_name:
@@ -3208,8 +3079,7 @@ NISTu143:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gal
   short: gal
   unit_name:
@@ -3232,8 +3102,7 @@ NISTu144:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: oersted
   short: oersted
   unit_name:
@@ -3256,8 +3125,7 @@ NISTu147:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: arc_minute
   short: arc_minute
   unit_name:
@@ -3286,8 +3154,7 @@ NISTu148:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: arc_second
   short: arc_second
   unit_name:
@@ -3322,8 +3189,7 @@ NISTu149:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: arc_degree
   short: arc_degree
   unit_name:
@@ -3346,8 +3212,7 @@ NISTu152:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: knot
   short: knot
   unit_name:
@@ -3377,8 +3242,7 @@ NISTu153:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: neper
   short: neper
   unit_name:
@@ -3405,8 +3269,7 @@ NISTu154:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: bel
   short: bel
   unit_name:
@@ -3430,8 +3293,7 @@ NISTu155:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: d
       unit: bel
   short: decibel
@@ -3457,8 +3319,7 @@ NISTu156:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mm_Hg
   short: mm_Hg
   unit_name:
@@ -3485,8 +3346,7 @@ NISTu157:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: darcy
   short: darcy
   unit_name:
@@ -3515,8 +3375,7 @@ NISTu159:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gon
   short: gon
   unit_name:
@@ -3541,12 +3400,10 @@ NISTu160:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: hour
   short: kilometer_per_hour
   unit_name:
@@ -3569,11 +3426,9 @@ NISTu163:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: neper
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: second
   short: neper_per_second
   unit_name:
@@ -3596,8 +3451,7 @@ NISTu164:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: yard
   short: square_yard
   unit_name:
@@ -3620,8 +3474,7 @@ NISTu165:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: mile
   short: square_mile
   unit_name:
@@ -3644,8 +3497,7 @@ NISTu166:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: tons_of_tnt
   short: tons_of_tnt
   unit_name:
@@ -3669,11 +3521,9 @@ NISTu167:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: second
   short: foot_per_second_squared
   unit_name:
@@ -3696,8 +3546,7 @@ NISTu168:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: inch
   short: cubic_inch
   unit_name:
@@ -3720,8 +3569,7 @@ NISTu169:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: foot
   short: cubic_foot
   unit_name:
@@ -3744,8 +3592,7 @@ NISTu170:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: yard
   short: cubic_yard
   unit_name:
@@ -3768,8 +3615,7 @@ NISTu171:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: imperial_gallon
   short: imperial_gallon
   unit_name:
@@ -3794,8 +3640,7 @@ NISTu172:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: imperial_pint
   short: imperial_pint
   unit_name:
@@ -3819,8 +3664,7 @@ NISTu173:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: imperial_ounce
   short: imperial_ounce
   unit_name:
@@ -3845,8 +3689,7 @@ NISTu175:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_gallon
   short: us_gallon
   unit_name:
@@ -3870,8 +3713,7 @@ NISTu176:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_pint
   short: us_pint
   unit_name:
@@ -3895,8 +3737,7 @@ NISTu177:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_fluid_ounce
   short: us_fluid_ounce
   unit_name:
@@ -3921,8 +3762,7 @@ NISTu178:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: petro_barrel
   short: petro_barrel
   unit_name:
@@ -3946,8 +3786,7 @@ NISTu179:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_bushel
   short: us_bushel
   unit_name:
@@ -3971,8 +3810,7 @@ NISTu180:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_dry_pint
   short: us_dry_pint
   unit_name:
@@ -3996,8 +3834,7 @@ NISTu182:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: light_year
   short: light_year
   unit_name:
@@ -4020,8 +3857,7 @@ NISTu183:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: astronomical_unit
   short: astronomical_unit
   unit_name:
@@ -4044,8 +3880,7 @@ NISTu184:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: parsec
   short: parsec
   unit_name:
@@ -4072,8 +3907,7 @@ NISTu185:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 4
+    - power_numerator: 4
       unit: meter
   short: meter_to_the_power_four
   unit_name:
@@ -4096,12 +3930,10 @@ NISTu188:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: liter
   short: kilogram_per_liter
   unit_name:
@@ -4124,11 +3956,9 @@ NISTu189:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: metric_ton
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: metric_ton_per_cubic_meter
   unit_name:
@@ -4151,8 +3981,7 @@ NISTu196:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
   short: gram_force
@@ -4176,8 +4005,7 @@ NISTu201:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: av_pound
   short: av_pound
   unit_name:
@@ -4202,8 +4030,7 @@ NISTu202:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: av_ounce
   short: av_ounce
   unit_name:
@@ -4228,8 +4055,7 @@ NISTu203:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gross_hundredweight
   short: gross_hundredweight
   unit_name:
@@ -4253,11 +4079,9 @@ NISTu204:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: av_pound
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: foot
   short: pound_per_cubic_foot
   unit_name:
@@ -4282,8 +4106,7 @@ NISTu205:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pound_force
   short: pound_force
   unit_name:
@@ -4320,11 +4143,9 @@ NISTu206:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pound_force
   short: foot_pound_force
   unit_name:
@@ -4347,11 +4168,9 @@ NISTu207:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pound_force
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: inch
   short: pound_force_per_square_inch
   unit_name:
@@ -4382,8 +4201,7 @@ NISTu208:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 4
+    - power_numerator: 4
       unit: inch
   short: inch_to_the_fourth_power
   unit_name:
@@ -4406,8 +4224,7 @@ NISTu209:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: inch
   short: inch_cubed
   unit_name:
@@ -4430,11 +4247,9 @@ NISTu210:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: foot
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: foot_squared_per_second
   unit_name:
@@ -4458,14 +4273,11 @@ NISTu211:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: foot
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pound_force
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: foot_pound_force_per_second
   unit_name:
@@ -4489,8 +4301,7 @@ NISTu212:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: carat
   short: carat
   unit_name:
@@ -4515,8 +4326,7 @@ NISTu213:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: tex
   short: tex
   unit_name:
@@ -4547,8 +4357,7 @@ NISTu214:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: torr
   short: torr
   unit_name:
@@ -4571,8 +4380,7 @@ NISTu215:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mm_water
   short: mm_water
   unit_name:
@@ -4598,8 +4406,7 @@ NISTu216:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: thermo_btu
   short: thermo_btu
   unit_name:
@@ -4623,15 +4430,12 @@ NISTu217:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram_force
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: kilogram_force_meter_per_second
   unit_name:
@@ -4655,8 +4459,7 @@ NISTu218:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: metric_horsepower
   short: metric_horsepower
   unit_name:
@@ -4682,8 +4485,7 @@ NISTu221:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: watt_per_square_meter_kelvin
   unit_name:
@@ -4708,8 +4510,7 @@ NISTu222:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: lambert
   short: lambert
   unit_name:
@@ -4732,8 +4533,7 @@ NISTu223:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gilbert
   short: gilbert
   unit_name:
@@ -4756,8 +4556,7 @@ NISTu224:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: debye
   short: debye
   unit_name:
@@ -4780,8 +4579,7 @@ NISTu225:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: abwatt
   short: abwatt
   unit_name:
@@ -4804,8 +4602,7 @@ NISTu226:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: slug
   short: slug
   unit_name:
@@ -4838,8 +4635,7 @@ NISTu227:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: thermo_calorie
   short: thermo_calorie
   unit_name:
@@ -4870,8 +4666,7 @@ NISTu228:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: short_ton
   short: short_ton
   unit_name:
@@ -4895,8 +4690,7 @@ NISTu229:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: long_ton
   short: long_ton
   unit_name:
@@ -4920,8 +4714,7 @@ NISTu230:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: hundredweight
   short: hundredweight
   unit_name:
@@ -4945,8 +4738,7 @@ NISTu231:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: troy_ounce
   short: troy_ounce
   unit_name:
@@ -4971,8 +4763,7 @@ NISTu232:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: troy_pound
   short: troy_pound
   unit_name:
@@ -4997,8 +4788,7 @@ NISTu233:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pennyweight
   short: pennyweight
   unit_name:
@@ -5021,8 +4811,7 @@ NISTu234:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: apothecaries_dram
   short: apothecaries_dram
   unit_name:
@@ -5047,8 +4836,7 @@ NISTu235:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: scruple
   short: scruple
   unit_name:
@@ -5074,8 +4862,7 @@ NISTu236:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: poundal
   short: poundal
   unit_name:
@@ -5098,8 +4885,7 @@ NISTu237:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: kip
   short: kip
   unit_name:
@@ -5124,8 +4910,7 @@ NISTu238:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ton_force
   short: ton_force
   unit_name:
@@ -5154,8 +4939,7 @@ NISTu239:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: barye
   short: barye
   unit_name:
@@ -5178,8 +4962,7 @@ NISTu240:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: electronvolt
   short: electronvolt
   unit_name:
@@ -5202,8 +4985,7 @@ NISTu241:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: unified_atomic_mass_unit
   short: unified_atomic_mass_unit
   unit_name:
@@ -5226,8 +5008,7 @@ NISTu242:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_velocity
   short: natural_unit_of_velocity
   unit_name:
@@ -5256,8 +5037,7 @@ NISTu243:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_action
   short: natural_unit_of_action
   unit_name:
@@ -5280,8 +5060,7 @@ NISTu244:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_mass
   short: natural_unit_of_mass
   unit_name:
@@ -5304,8 +5083,7 @@ NISTu245:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_time
   short: natural_unit_of_time
   unit_name:
@@ -5329,8 +5107,7 @@ NISTu246:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_charge
   short: atomic_unit_of_charge
   unit_name:
@@ -5353,8 +5130,7 @@ NISTu247:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_mass
   short: atomic_unit_of_mass
   unit_name:
@@ -5377,8 +5153,7 @@ NISTu248:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_action
   short: atomic_unit_of_action
   unit_name:
@@ -5401,8 +5176,7 @@ NISTu249:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_length
   short: atomic_unit_of_length
   unit_name:
@@ -5425,8 +5199,7 @@ NISTu250:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_energy
   short: atomic_unit_of_energy
   unit_name:
@@ -5449,8 +5222,7 @@ NISTu251:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_time
   short: atomic_unit_of_time
   unit_name:
@@ -5474,8 +5246,7 @@ NISTu252:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_magnetizability
   short: atomic_unit_of_magnetizability
   unit_name:
@@ -5500,8 +5271,7 @@ NISTu253:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_magnetic_flux_density
   short: atomic_unit_of_magnetic_flux_density
   unit_name:
@@ -5525,8 +5295,7 @@ NISTu254:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_magnetic_dipole_moment
   short: atomic_unit_of_magnetic_dipole_moment
   unit_name:
@@ -5550,8 +5319,7 @@ NISTu255:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_momentum
   short: atomic_unit_of_momentum
   unit_name:
@@ -5574,8 +5342,7 @@ NISTu256:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_charge_density
   short: atomic_unit_of_charge_density
   unit_name:
@@ -5598,8 +5365,7 @@ NISTu257:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_current
   short: atomic_unit_of_current
   unit_name:
@@ -5623,8 +5389,7 @@ NISTu258:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_dipole_moment
   short: atomic_unit_of_electric_dipole_moment
   unit_name:
@@ -5647,8 +5412,7 @@ NISTu259:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_field
   short: atomic_unit_of_electric_field
   unit_name:
@@ -5672,8 +5436,7 @@ NISTu260:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_field_gradient
   short: atomic_unit_of_electric_field_gradient
   unit_name:
@@ -5701,8 +5464,7 @@ NISTu261:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_potential
   short: atomic_unit_of_electric_potential
   unit_name:
@@ -5728,8 +5490,7 @@ NISTu262:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_force
   short: atomic_unit_of_force
   unit_name:
@@ -5753,8 +5514,7 @@ NISTu263:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_quadrupole_moment
   short: atomic_unit_of_electric_quadrupole_moment
   unit_name:
@@ -5777,8 +5537,7 @@ NISTu264:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_electric_polarizability
   short: atomic_unit_of_electric_polarizability
   unit_name:
@@ -5803,8 +5562,7 @@ NISTu265:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statohm
   short: statohm
   unit_name:
@@ -5828,8 +5586,7 @@ NISTu266:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statfarad
   short: statfarad
   unit_name:
@@ -5853,8 +5610,7 @@ NISTu267:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statampere
   short: statampere
   unit_name:
@@ -5882,8 +5638,7 @@ NISTu268:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statvolt
   short: statvolt
   unit_name:
@@ -5907,8 +5662,7 @@ NISTu269:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: stathenry
   short: stathenry
   unit_name:
@@ -5932,8 +5686,7 @@ NISTu270:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statmho
   short: statmho
   unit_name:
@@ -5959,8 +5712,7 @@ NISTu271:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statcoulomb
   short: statcoulomb
   unit_name:
@@ -5984,8 +5736,7 @@ NISTu272:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statweber
   short: statweber
   unit_name:
@@ -6008,8 +5759,7 @@ NISTu273:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: stattesla
   short: stattesla
   unit_name:
@@ -6032,8 +5782,7 @@ NISTu274:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: statwatt
   short: statwatt
   unit_name:
@@ -6056,8 +5805,7 @@ NISTu275:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: av_dram
   short: av_dram
   unit_name:
@@ -6081,8 +5829,7 @@ NISTu276:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: footcandle
   short: footcandle
   unit_name:
@@ -6105,8 +5852,7 @@ NISTu277:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: footlambert
   short: footlambert
   unit_name:
@@ -6131,8 +5877,7 @@ NISTu278:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: computer_pica
   short: computer_pica
   unit_name:
@@ -6155,8 +5900,7 @@ NISTu279:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: printers_pica
   short: printers_pica
   unit_name:
@@ -6181,8 +5925,7 @@ NISTu280:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: computer_point
   short: computer_point
   unit_name:
@@ -6205,8 +5948,7 @@ NISTu281:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_rod
   short: us_survey_rod
   unit_name:
@@ -6230,8 +5972,7 @@ NISTu282:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_fathom
   short: us_survey_fathom
   unit_name:
@@ -6255,8 +5996,7 @@ NISTu283:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: circular_mil
   short: circular_mil
   unit_name:
@@ -6279,8 +6019,7 @@ NISTu284:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: horsepower
   short: horsepower
   unit_name:
@@ -6303,8 +6042,7 @@ NISTu285:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: boiler_horsepower
   short: boiler_horsepower
   unit_name:
@@ -6328,8 +6066,7 @@ NISTu286:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: water_horsepower
   short: water_horsepower
   unit_name:
@@ -6353,8 +6090,7 @@ NISTu287:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: uk_horsepower
   short: uk_horsepower
   unit_name:
@@ -6377,8 +6113,7 @@ NISTu288:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: degree_Rankine
   short: degree_Rankine
   unit_name:
@@ -6401,8 +6136,7 @@ NISTu289:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: unified_atomic_mass_unit
   short: dalton
   unit_name:
@@ -6425,8 +6159,7 @@ NISTu290:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_length
   short: natural_unit_of_length
   unit_name:
@@ -6449,8 +6182,7 @@ NISTu291:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_1st_hyperpolarizability
   short: atomic_unit_of_1st_hyperpolarizability
   unit_name:
@@ -6475,8 +6207,7 @@ NISTu292:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_2nd_hyperpolarizability
   short: atomic_unit_of_2nd_hyperpolarizability
   unit_name:
@@ -6501,8 +6232,7 @@ NISTu293:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_permittivity
   short: atomic_unit_of_permittivity
   unit_name:
@@ -6527,8 +6257,7 @@ NISTu294:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: atomic_unit_of_velocity
   short: atomic_unit_of_velocity
   unit_name:
@@ -6553,8 +6282,7 @@ NISTu295:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_energy
   short: natural_unit_of_energy
   unit_name:
@@ -6578,8 +6306,7 @@ NISTu296:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_momentum
   short: natural_unit_of_momentum
   unit_name:
@@ -6603,8 +6330,7 @@ NISTu297:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_action_in_eV_s
   short: natural_unit_of_action_in_eV_s
   unit_name:
@@ -6627,8 +6353,7 @@ NISTu298:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_energy_in_MeV
   short: natural_unit_of_energy_in_MeV
   unit_name:
@@ -6652,8 +6377,7 @@ NISTu299:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: natural_unit_of_momentum_in_MeV_per_c
   short: natural_unit_of_momentum_in_MeV_per_c
   unit_name:
@@ -6677,8 +6401,7 @@ NISTu300:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: imperial_quart
   short: imperial_quart
   unit_name:
@@ -6702,8 +6425,7 @@ NISTu301:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_dry_quart
   short: us_dry_quart
   unit_name:
@@ -6727,8 +6449,7 @@ NISTu302:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_quart
   short: us_quart
   unit_name:
@@ -6752,8 +6473,7 @@ NISTu303:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_teaspoon
   short: us_teaspoon
   unit_name:
@@ -6776,8 +6496,7 @@ NISTu304:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_tablespoon
   short: us_tablespoon
   unit_name:
@@ -6800,8 +6519,7 @@ NISTu305:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_label_tablespoon
   short: us_label_tablespoon
   unit_name:
@@ -6825,8 +6543,7 @@ NISTu306:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_label_teaspoon
   short: us_label_teaspoon
   unit_name:
@@ -6850,8 +6567,7 @@ NISTu307:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_label_cup
   short: us_label_cup
   unit_name:
@@ -6875,8 +6591,7 @@ NISTu308:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_label_fluid_ounce
   short: us_label_fluid_ounce
   unit_name:
@@ -6901,8 +6616,7 @@ NISTu309:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_label_ounce
   short: us_label_ounce
   unit_name:
@@ -6926,8 +6640,7 @@ NISTu310:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_chain
   short: us_survey_chain
   unit_name:
@@ -6953,8 +6666,7 @@ NISTu311:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_link
   short: us_survey_link
   unit_name:
@@ -6980,8 +6692,7 @@ NISTu312:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_furlong
   short: us_survey_furlong
   unit_name:
@@ -7005,8 +6716,7 @@ NISTu313:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_mile
   short: us_survey_mile
   unit_name:
@@ -7031,8 +6741,7 @@ NISTu314:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_yard
   short: us_survey_yard
   unit_name:
@@ -7056,8 +6765,7 @@ NISTu315:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_foot
   short: us_survey_foot
   unit_name:
@@ -7082,8 +6790,7 @@ NISTu316:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_survey_inch
   short: us_survey_inch
   unit_name:
@@ -7107,8 +6814,7 @@ NISTu317:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_acre
   short: us_acre
   unit_name:
@@ -7134,8 +6840,7 @@ NISTu318:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: cm_Hg
   short: cm_Hg
   unit_name:
@@ -7162,8 +6867,7 @@ NISTu319:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 0C_cm_Hg
   short: 0C_cm_Hg
   unit_name:
@@ -7188,8 +6892,7 @@ NISTu320:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 4C_cm_water
   short: 4C_cm_water
   unit_name:
@@ -7215,8 +6918,7 @@ NISTu321:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: cm_water
   short: cm_water
   unit_name:
@@ -7244,8 +6946,7 @@ NISTu322:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: in_water
   short: in_water
   unit_name:
@@ -7273,8 +6974,7 @@ NISTu323:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 39F_in_water
   short: 39F_in_water
   unit_name:
@@ -7300,8 +7000,7 @@ NISTu324:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 60F_in_water
   short: 60F_in_water
   unit_name:
@@ -7327,8 +7026,7 @@ NISTu325:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ft_water
   short: ft_water
   unit_name:
@@ -7356,8 +7054,7 @@ NISTu326:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 39F_ft_water
   short: 39F_ft_water
   unit_name:
@@ -7383,8 +7080,7 @@ NISTu327:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 32F_in_Hg
   short: 32F_in_Hg
   unit_name:
@@ -7421,8 +7117,7 @@ NISTu328:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 60F_in_Hg
   short: 60F_in_Hg
   unit_name:
@@ -7459,8 +7154,7 @@ NISTu329:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: in_Hg
   short: in_Hg
   unit_name:
@@ -7499,8 +7193,7 @@ NISTu330:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ft_Hg
   short: ft_Hg
   unit_name:
@@ -7547,8 +7240,7 @@ NISTu331:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_therm
   short: us_therm
   unit_name:
@@ -7571,8 +7263,7 @@ NISTu332:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pH
   short: pH
   unit_name:
@@ -7595,8 +7286,7 @@ NISTu333:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: table_btu
   short: table_btu
   unit_name:
@@ -7621,8 +7311,7 @@ NISTu334:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mean_btu
   short: mean_btu
   unit_name:
@@ -7645,8 +7334,7 @@ NISTu335:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 39F_btu
   short: 39F_btu
   unit_name:
@@ -7669,8 +7357,7 @@ NISTu336:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 59F_btu
   short: 59F_btu
   unit_name:
@@ -7693,8 +7380,7 @@ NISTu337:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: 60F_btu
   short: 60F_btu
   unit_name:
@@ -7717,8 +7403,7 @@ NISTu338:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: tropical_year
   short: tropical_year
   unit_name:
@@ -7743,8 +7428,7 @@ NISTu339:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sidereal_year
   short: sidereal_year
   unit_name:
@@ -7769,8 +7453,7 @@ NISTu340:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sidereal_day
   short: sidereal_day
   unit_name:
@@ -7795,8 +7478,7 @@ NISTu341:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sidereal_hour
   short: sidereal_hour
   unit_name:
@@ -7821,8 +7503,7 @@ NISTu342:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sidereal_minute
   short: sidereal_minute
   unit_name:
@@ -7847,8 +7528,7 @@ NISTu343:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: sidereal_second
   short: sidereal_second
   unit_name:
@@ -7873,8 +7553,7 @@ NISTu344:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: printers_point
   short: printers_point
   unit_name:
@@ -7897,8 +7576,7 @@ NISTu345:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: shake
   short: shake
   unit_name:
@@ -7921,8 +7599,7 @@ NISTu346:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: denier
   short: denier
   unit_name:
@@ -7945,8 +7622,7 @@ NISTu347:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: nato_mil
   short: nato_mil
   unit_name:
@@ -7971,8 +7647,7 @@ NISTu348:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pound_mole
   short: pound_mole
   unit_name:
@@ -7996,8 +7671,7 @@ NISTu349:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ton_refrigeration
   short: ton_refrigeration
   unit_name:
@@ -8022,8 +7696,7 @@ NISTu350:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: bit
   short: bit
   unit_name:
@@ -8046,8 +7719,7 @@ NISTu351:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: byte
   short: byte
   unit_name:
@@ -8070,8 +7742,7 @@ NISTu352:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_peck
   short: us_peck
   unit_name:
@@ -8094,8 +7765,7 @@ NISTu353:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_minim
   short: us_minim
   unit_name:
@@ -8118,8 +7788,7 @@ NISTu354:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_cup
   short: us_cup
   unit_name:
@@ -8143,8 +7812,7 @@ NISTu355:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_fluid_dram
   short: us_fluid_dram
   unit_name:
@@ -8169,8 +7837,7 @@ NISTu356:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_gill
   short: us_gill
   unit_name:
@@ -8194,8 +7861,7 @@ NISTu357:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: imperial_gill
   short: imperial_gill
   unit_name:
@@ -8220,11 +7886,9 @@ NISTu358:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: foot
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: minute
   short: cubic_foot_per_minute
   unit_name:
@@ -8248,11 +7912,9 @@ NISTu359:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: foot
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: cubic_foot_per_second
   unit_name:
@@ -8276,11 +7938,9 @@ NISTu360:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: inch
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: minute
   short: cubic_inch_per_minute
   unit_name:
@@ -8305,8 +7965,7 @@ NISTu361:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: u
       unit: inch
   short: microinch
@@ -8333,8 +7992,7 @@ NISTu362:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: m
       unit: bar
   short: millibar
@@ -8358,11 +8016,9 @@ NISTu363:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mile
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: us_gallon
   short: mile_per_gallon
   unit_name:
@@ -8392,11 +8048,9 @@ NISTu364:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: us_gallon
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: minute
   short: gallon_per_minute
   unit_name:
@@ -8427,8 +8081,7 @@ NISTu365:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: m
       unit: liter
   short: milliliter
@@ -8458,11 +8111,9 @@ NISTu366:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mole
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: liter
   short: mole_per_liter
   unit_name:
@@ -8491,8 +8142,7 @@ NISTu376:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: light_week
   short: light_week
   unit_name:
@@ -8515,8 +8165,7 @@ NISTu377:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: light_hour
   short: light_hour
   unit_name:
@@ -8539,8 +8188,7 @@ NISTu378:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: light_minute
   short: light_minute
   unit_name:
@@ -8563,8 +8211,7 @@ NISTu379:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: light_second
   short: light_second
   unit_name:
@@ -8606,11 +8253,9 @@ NISTu401:
   root: true
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: volt
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ampere
   short: var
   si_derived_bases:
@@ -8649,11 +8294,9 @@ NISTu1.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
   short: meter_per_second
   unit_name:
@@ -8678,11 +8321,9 @@ NISTu1.u3e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: second
   short: meter_per_second_squared
   unit_name:
@@ -8715,8 +8356,7 @@ NISTu1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: meter_to_the_power_minus_one
   unit_name:
@@ -8740,8 +8380,7 @@ NISTu1e2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: meter
   short: square_meter
   unit_name:
@@ -8764,11 +8403,9 @@ NISTu1e2/1.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: meter_squared_per_second
   unit_name:
@@ -8794,8 +8431,7 @@ NISTu1e3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: meter
   short: cubic_meter
   unit_name:
@@ -8818,11 +8454,9 @@ NISTu1e3/1.u27p10'3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       prefix: k
       unit: gram
   short: cubic_meter_per_kilogram
@@ -8847,11 +8481,9 @@ NISTu1e3/1.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 3
+    - power_numerator: 3
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: cubic_meter_per_second
   unit_name:
@@ -8879,8 +8511,7 @@ NISTu3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: second_to_the_power_minus_one
   unit_name:
@@ -8903,11 +8534,9 @@ NISTu4.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ampere
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: ampere_per_meter
   unit_name:
@@ -8930,11 +8559,9 @@ NISTu4.u1e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: ampere
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: ampere_per_square_meter
   unit_name:
@@ -8961,8 +8588,7 @@ NISTu5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: kelvin_to_the_power_minus_one
   unit_name:
@@ -8985,11 +8611,9 @@ NISTu6.u1e-3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mole
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: mole_per_cubic_meter
   unit_name:
@@ -9012,11 +8636,9 @@ NISTu6.u27p10'3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: mole
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       prefix: k
       unit: gram
   short: mole_per_kilogram
@@ -9040,11 +8662,9 @@ NISTu7.u1e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: candela
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: candela_per_square_meter
   unit_name:
@@ -9067,11 +8687,9 @@ NISTu9.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: radian
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: radian_per_meter
   unit_name:
@@ -9096,11 +8714,9 @@ NISTu9.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: radian
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: radian_per_second
   unit_name:
@@ -9123,11 +8739,9 @@ NISTu9.u3e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: radian
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: second
   short: radian_per_second_squared
   unit_name:
@@ -9154,11 +8768,9 @@ NISTu11.u1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
   short: newton_meter
   unit_name:
@@ -9181,14 +8793,11 @@ NISTu11.u1.u3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: newton_meter_second
   unit_name:
@@ -9212,11 +8821,9 @@ NISTu11.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: newton_per_meter
   unit_name:
@@ -9239,14 +8846,11 @@ NISTu11.u1e2/1.u27p10'3e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: meter
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       prefix: k
       unit: gram
   short: newton_meter_squared_per_kilogram_squared
@@ -9271,11 +8875,9 @@ NISTu11.u3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: newton
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: newton_second
   unit_name:
@@ -9298,11 +8900,9 @@ NISTu12.u3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pascal
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: pascal_second
   unit_name:
@@ -9325,11 +8925,9 @@ NISTu12.u5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: pascal
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: pascal_per_kelvin
   unit_name:
@@ -9354,8 +8952,7 @@ NISTu12e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: pascal
   short: pascal_to_the_power_minus_one
   unit_name:
@@ -9378,11 +8975,9 @@ NISTu13.u1e-3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: joule_per_cubic_meter
   unit_name:
@@ -9405,11 +9000,9 @@ NISTu13.u27p10'3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       prefix: k
       unit: gram
   short: joule_per_kilogram
@@ -9435,15 +9028,12 @@ NISTu13.u27p10'3e-1/1.u5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: joule_per_kilogram_kelvin
   unit_name:
@@ -9467,11 +9057,9 @@ NISTu13.u3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: joule_second
   unit_name:
@@ -9496,11 +9084,9 @@ NISTu13.u5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: joule_per_kelvin
   unit_name:
@@ -9523,11 +9109,9 @@ NISTu13.u6e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: joule
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: mole
   short: joule_per_mole
   unit_name:
@@ -9552,8 +9136,7 @@ NISTu13.u6e-1/1.u5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: joule_per_mole_kelvin
   unit_name:
@@ -9577,11 +9160,9 @@ NISTu14.u10e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: steradian
   short: watt_per_steradian
   unit_name:
@@ -9604,8 +9185,7 @@ NISTu14.u1e-1/1.u5e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: kelvin
   short: watt_per_meter_kelvin
   unit_name:
@@ -9631,11 +9211,9 @@ NISTu14.u1e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: watt_per_square_meter
   unit_name:
@@ -9658,14 +9236,11 @@ NISTu14.u1e-2/1.u10e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: steradian
   short: watt_per_square_meter_steradian
   unit_name:
@@ -9700,11 +9275,9 @@ NISTu14.u3:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: watt
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: second
   short: watt_second
   unit_name:
@@ -9729,11 +9302,9 @@ NISTu15.u1e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: coulomb
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: coulomb_per_square_meter
   unit_name:
@@ -9756,11 +9327,9 @@ NISTu15.u1e-3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: coulomb
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: coulomb_per_cubic_meter
   unit_name:
@@ -9783,11 +9352,9 @@ NISTu15.u27p10'3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: coulomb
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       prefix: k
       unit: gram
   short: coulomb_per_kilogram
@@ -9811,11 +9378,9 @@ NISTu16.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: volt
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: volt_per_meter
   unit_name:
@@ -9838,11 +9403,9 @@ NISTu17.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: farad
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: farad_per_meter
   unit_name:
@@ -9865,11 +9428,9 @@ NISTu22.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: henry
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: henry_per_meter
   unit_name:
@@ -9892,15 +9453,12 @@ NISTu27p10'3.u1.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: kilogram_meter_per_second
   unit_name:
@@ -9924,12 +9482,10 @@ NISTu27p10'3.u1e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: meter
   short: kilogram_per_meter
   unit_name:
@@ -9952,12 +9508,10 @@ NISTu27p10'3.u1e-2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: kilogram_per_square_meter
   unit_name:
@@ -9982,12 +9536,10 @@ NISTu27p10'3.u1e-3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: kilogram_per_cubic_meter
   unit_name:
@@ -10010,12 +9562,10 @@ NISTu27p10'3.u1e2/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -2
+    - power_numerator: -2
       unit: meter
   short: kilogram_meter_squared
   unit_name:
@@ -10041,15 +9591,12 @@ NISTu27p10'3.u1e2/1.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: 2
+    - power_numerator: 2
       unit: meter
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: kilogram_meter_squared_per_second
   unit_name:
@@ -10074,12 +9621,10 @@ NISTu27p10'3.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       prefix: k
       unit: gram
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: kilogram_per_second
   unit_name:
@@ -10102,11 +9647,9 @@ NISTu28.u3e-1/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: gray
-    - power_denominator: 1
-      power_numerator: -1
+    - power_numerator: -1
       unit: second
   short: gray_per_second
   unit_name:
@@ -10129,11 +9672,9 @@ NISTu30.u1e-3/1:
   root: false
   root_units:
     enumerated_root_units:
-    - power_denominator: 1
-      power_numerator: 1
+    - power_numerator: 1
       unit: katal
-    - power_denominator: 1
-      power_numerator: -3
+    - power_numerator: -3
       unit: meter
   short: katal_per_cubic_meter
   unit_name:
