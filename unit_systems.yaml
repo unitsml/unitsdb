@@ -11,6 +11,9 @@
 - acceptable: true
   id: non-SI_acceptable
   name: non-SI but acceptable
+- acceptable: true
+  id: non-SI_nist_acceptable
+  name: non-SI but acceptable by NIST SP 811
 - acceptable: false
   id: non-SI_not_acceptable
   name: non-SI and not acceptable
