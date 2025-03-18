@@ -1195,8 +1195,8 @@ NISTu42:
     mathml: "<mi mathvariant='normal'>a</mi>"
     unicode: a
   unit_system:
-    name: non-SI
-    type: non-SI_temporarily_acceptable
+    name: non-SI but acceptable by NIST SP 811
+    type: non-SI_nist_acceptable
 NISTu43:
   dimension_url: "#NISTd8"
   quantity_reference:
@@ -2388,8 +2388,8 @@ NISTu98:
     mathml: "<mi mathvariant='normal'>Ci</mi>"
     unicode: Ci
   unit_system:
-    name: non-SI
-    type: non-SI_not_acceptable
+    name: non-SI but acceptable by NIST SP 811
+    type: non-SI_nist_acceptable
 NISTu99:
   dimension_url: "#NISTd25"
   quantity_reference:
@@ -2412,8 +2412,8 @@ NISTu99:
     mathml: "<mi mathvariant='normal'>rad</mi>"
     unicode: rad
   unit_system:
-    name: non-SI
-    type: non-SI_not_acceptable
+    name: non-SI but acceptable by NIST SP 811
+    type: non-SI_nist_acceptable
 NISTu100:
   dimension_url: "#NISTd25"
   quantity_reference:
@@ -2436,8 +2436,8 @@ NISTu100:
     mathml: "<mi mathvariant='normal'>rem</mi>"
     unicode: rem
   unit_system:
-    name: non-SI
-    type: non-SI_not_acceptable
+    name: non-SI but acceptable by NIST SP 811
+    type: non-SI_nist_acceptable
 NISTu106:
   dimension_url: "#NISTd3"
   quantity_reference:
@@ -2730,8 +2730,8 @@ NISTu118:
     mathml: "<mi mathvariant='normal'>R</mi>"
     unicode: R
   unit_system:
-    name: non-SI
-    type: non-SI_not_acceptable
+    name: non-SI but acceptable by NIST SP 811
+    type: non-SI_nist_acceptable
 NISTu119:
   dimension_url: "#NISTd13"
   quantity_reference:
