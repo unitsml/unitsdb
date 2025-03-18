@@ -268,7 +268,6 @@ unit_id:
   root_units:
     enumerated_root_units:
     - unit: unit_name
-      power_denominator: power_denominator
       power_numerator: power_numerator
   quantity_reference:
   - name: quantity_name
@@ -304,7 +303,6 @@ NISTu5:
   root_units:
     enumerated_root_units:
     - unit: kelvin
-      power_denominator: 1
       power_numerator: 1
   quantity_reference:
   - name: thermodynamic temperature
