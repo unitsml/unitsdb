@@ -1097,7 +1097,7 @@ NISTu36:
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
     unicode: "′"
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu37:
   dimension_url: "#NISTd3"
@@ -1121,7 +1121,7 @@ NISTu37:
     mathml: "<mi mathvariant='normal'>h</mi>"
     unicode: h
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu38:
   dimension_url: "#NISTd3"
@@ -1145,7 +1145,7 @@ NISTu38:
     mathml: "<mi mathvariant='normal'>d</mi>"
     unicode: d
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu39:
   dimension_url: "#NISTd1"
@@ -1243,7 +1243,7 @@ NISTu44:
     mathml: "<mi mathvariant='normal'>ha</mi>"
     unicode: ha
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu45:
   dimension_url: "#NISTd8"
@@ -2130,7 +2130,7 @@ NISTu88:
     mathml: "<mi mathvariant='normal'>t</mi>"
     unicode: t
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu89:
   dimension_url: "#NISTd16"
@@ -3072,7 +3072,7 @@ NISTu130:
     mathml: "<mi mathvariant='normal'>L</mi>"
     unicode: L
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu131:
   dimension_url: "#NISTd1"
@@ -3276,7 +3276,7 @@ NISTu147:
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
     unicode: "′"
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu148:
   dimension_url: "#NISTd9"
@@ -3312,7 +3312,7 @@ NISTu148:
     mathml: "<mi mathvariant='normal'>as</mi>"
     unicode: as
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu149:
   dimension_url: "#NISTd9"
@@ -3336,7 +3336,7 @@ NISTu149:
     mathml: "<mi mathvariant='normal'>&#176;</mi>"
     unicode: º
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu152:
   dimension_url: "#NISTd11"
@@ -3391,7 +3391,7 @@ NISTu153:
     mathml: "<mi mathvariant='normal'>Np</mi>"
     unicode: Np
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu154:
   dimension_url: "#NISTd9"
@@ -3419,7 +3419,7 @@ NISTu154:
     mathml: "<mi mathvariant='normal'>B</mi>"
     unicode: B
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu155:
   dimension_url: "#NISTd9"
@@ -3445,7 +3445,7 @@ NISTu155:
     mathml: "<mi mathvariant='normal'>dB</mi>"
     unicode: dB
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu156:
   dimension_url: "#NISTd14"
@@ -4034,7 +4034,7 @@ NISTu183:
     mathml: "<mi mathvariant='normal'>ua</mi>"
     unicode: ua
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu184:
   dimension_url: "#NISTd1"
@@ -5192,7 +5192,7 @@ NISTu240:
     mathml: "<mi mathvariant='normal'>eV</mi>"
     unicode: eV
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu241:
   dimension_url: "#NISTd2"
@@ -5216,7 +5216,7 @@ NISTu241:
     mathml: "<mi mathvariant='normal'>u</mi>"
     unicode: u
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu242:
   dimension_url: "#NISTd11"
@@ -6415,7 +6415,7 @@ NISTu289:
     mathml: "<mi mathvariant='normal'>Da</mi>"
     unicode: Da
   unit_system:
-    name: non-SI
+    name: non-SI but acceptable
     type: non-SI_acceptable
 NISTu290:
   dimension_url: "#NISTd1"
