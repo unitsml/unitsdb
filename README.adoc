@@ -38,7 +38,7 @@ A dimension object in `dimensions.yaml` typically has the following structure:
 ----
 dimension_id:
   {dimension_name}:
-    powerNumerator: power_numerator
+    power_numerator: power_numerator
     symbol: ASCII representation
     dim_symbols:
     - id: dimension_symbol_id
@@ -55,7 +55,7 @@ For example:
 ----
 NISTd1:
   length:
-    powerNumerator: 1
+    power_numerator: 1
     symbol: L
     dim_symbols:
     - id: dim_L
@@ -66,7 +66,7 @@ NISTd1:
       unicode: "\U0001D5AB"
 NISTd2:
   mass:
-    powerNumerator: 1
+    power_numerator: 1
     symbol: M
     dim_symbols:
     - id: dim_M
