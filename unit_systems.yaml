@@ -1,16 +1,16 @@
 ---
 - acceptable: true
   id: SI_base
-  name: SI
+  name: SI units
 - acceptable: true
   id: SI_derived_special
-  name: SI
+  name: SI-derived units special
 - acceptable: true
   id: SI_derived_non-special
-  name: SI
+  name: SI-derived units non-special
 - acceptable: true
   id: non-SI_acceptable
-  name: non-SI
+  name: non-SI but acceptable
 - acceptable: false
   id: non-SI_not_acceptable
-  name: non-SI
+  name: non-SI and not acceptable
