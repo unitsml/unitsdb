@@ -1244,7 +1244,7 @@ NISTu44:
     unicode: ha
   unit_system:
     name: non-SI
-    type: non-SI_temporarily_acceptable
+    type: non-SI_acceptable
 NISTu45:
   dimension_url: "#NISTd8"
   quantity_reference:
@@ -2131,7 +2131,7 @@ NISTu88:
     unicode: t
   unit_system:
     name: non-SI
-    type: non-SI_not_acceptable
+    type: non-SI_acceptable
 NISTu89:
   dimension_url: "#NISTd16"
   quantity_reference:
