@@ -1162,7 +1162,7 @@ NISTu39:
       unit: angstrom
   short: angstrom
   unit_name:
-  - angstrom
+  - ångström
   unit_symbols:
   - ascii: Aring
     html: "&#197;"
