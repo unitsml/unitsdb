@@ -266,9 +266,8 @@ unit_id:
     latex: "LaTeX representation"
     unicode: "Unicode representation"
   root_units:
-    enumerated_root_units:
-    - unit: unit_name
-      power_numerator: power_numerator
+  - unit: unit_name
+    power_numerator: power_numerator
   quantity_reference:
   - name: quantity_name
     url: "#quantity_id"
@@ -301,9 +300,8 @@ NISTu5:
     latex: "\\ensuremath{\\mathrm{^{\\circ}K}}"
     unicode: "°K"
   root_units:
-    enumerated_root_units:
-    - unit: kelvin
-      power_numerator: 1
+  - unit: kelvin
+    power_numerator: 1
   quantity_reference:
   - name: thermodynamic temperature
     url: "#NISTq5"
