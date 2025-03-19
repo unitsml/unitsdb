@@ -4,6 +4,7 @@ NISTp2_10:
   name: kibi
   power: 10
   symbol:
+    id: kibi
     ascii: Ki
     html: Ki
     latex: Ki
@@ -14,6 +15,7 @@ NISTp2_20:
   name: mebi
   power: 20
   symbol:
+    id: mebi
     ascii: Mi
     html: Mi
     latex: Mi
@@ -24,6 +26,7 @@ NISTp2_30:
   name: gibi
   power: 30
   symbol:
+    id: gibi
     ascii: Gi
     html: Gi
     latex: Gi
@@ -34,6 +37,7 @@ NISTp2_40:
   name: tebi
   power: 40
   symbol:
+    id: tebi
     ascii: Ti
     html: Ti
     latex: Ti
@@ -44,6 +48,7 @@ NISTp2_50:
   name: pebi
   power: 50
   symbol:
+    id: pebi
     ascii: Pi
     html: Pi
     latex: Pi
@@ -54,6 +59,7 @@ NISTp2_60:
   name: exbi
   power: 60
   symbol:
+    id: exbi
     ascii: Ei
     html: Ei
     latex: Ei
@@ -64,6 +70,7 @@ NISTp2_70:
   name: zebi
   power: 70
   symbol:
+    id: zebi
     ascii: Zi
     html: Zi
     latex: Zi
@@ -74,6 +81,7 @@ NISTp2_80:
   name: yobi
   power: 80
   symbol:
+    id: yobi
     ascii: Yi
     html: Yi
     latex: Yi
@@ -84,6 +92,7 @@ NISTp10_-30:
   name: quecto
   power: -30
   symbol:
+    id: quecto
     ascii: q
     html: q
     latex: q
@@ -94,6 +103,7 @@ NISTp10_-27:
   name: ronto
   power: -27
   symbol:
+    id: ronto
     ascii: r
     html: r
     latex: r
@@ -104,6 +114,7 @@ NISTp10_-24:
   name: yocto
   power: -24
   symbol:
+    id: yocto
     ascii: "y"
     html: "y"
     latex: "y"
@@ -114,6 +125,7 @@ NISTp10_-21:
   name: zepto
   power: -21
   symbol:
+    id: zepto
     ascii: z
     html: z
     latex: z
@@ -124,6 +136,7 @@ NISTp10_-18:
   name: atto
   power: -18
   symbol:
+    id: atto
     ascii: a
     html: a
     latex: a
@@ -134,6 +147,7 @@ NISTp10_-15:
   name: femto
   power: -15
   symbol:
+    id: femto
     ascii: f
     html: f
     latex: f
@@ -144,6 +158,7 @@ NISTp10_-12:
   name: pico
   power: -12
   symbol:
+    id: pico
     ascii: p
     html: p
     latex: p
@@ -154,6 +169,7 @@ NISTp10_-9:
   name: nano
   power: -9
   symbol:
+    id: nano
     ascii: "n"
     html: "n"
     latex: "n"
@@ -164,6 +180,7 @@ NISTp10_-6:
   name: micro
   power: -6
   symbol:
+    id: micro
     ascii: u
     html: "&micro;"
     latex: "$mu$"
@@ -174,6 +191,7 @@ NISTp10_-3:
   name: milli
   power: -3
   symbol:
+    id: milli
     ascii: m
     html: m
     latex: m
@@ -184,6 +202,7 @@ NISTp10_-2:
   name: centi
   power: -2
   symbol:
+    id: centi
     ascii: c
     html: c
     latex: c
@@ -194,6 +213,7 @@ NISTp10_-1:
   name: deci
   power: -1
   symbol:
+    id: deci
     ascii: d
     html: d
     latex: d
@@ -204,6 +224,7 @@ NISTp10_0:
   name: ''
   power: 0
   symbol:
+    id: ''
     ascii: ''
     html: ''
     latex: ''
@@ -214,6 +235,7 @@ NISTp10_1:
   name: deka
   power: 1
   symbol:
+    id: deka
     ascii: da
     html: da
     latex: da
@@ -224,6 +246,7 @@ NISTp10_2:
   name: hecto
   power: 2
   symbol:
+    id: hecto
     ascii: h
     html: h
     latex: h
@@ -234,6 +257,7 @@ NISTp10_3:
   name: kilo
   power: 3
   symbol:
+    id: kilo
     ascii: k
     html: k
     latex: k
@@ -244,6 +268,7 @@ NISTp10_6:
   name: mega
   power: 6
   symbol:
+    id: mega
     ascii: M
     html: M
     latex: M
@@ -254,6 +279,7 @@ NISTp10_9:
   name: giga
   power: 9
   symbol:
+    id: giga
     ascii: G
     html: G
     latex: G
@@ -264,6 +290,7 @@ NISTp10_12:
   name: tera
   power: 12
   symbol:
+    id: tera
     ascii: T
     html: T
     latex: T
@@ -274,6 +301,7 @@ NISTp10_15:
   name: peta
   power: 15
   symbol:
+    id: peta
     ascii: P
     html: P
     latex: P
@@ -284,6 +312,7 @@ NISTp10_18:
   name: exa
   power: 18
   symbol:
+    id: exa
     ascii: E
     html: E
     latex: E
@@ -294,6 +323,7 @@ NISTp10_21:
   name: zetta
   power: 21
   symbol:
+    id: zetta
     ascii: Z
     html: Z
     latex: Z
@@ -304,6 +334,7 @@ NISTp10_24:
   name: yotta
   power: 24
   symbol:
+    id: yotta
     ascii: "Y"
     html: "Y"
     latex: "Y"
@@ -314,6 +345,7 @@ NISTp10_27:
   name: ronna
   power: 27
   symbol:
+    id: ronna
     ascii: R
     html: R
     latex: R
@@ -324,6 +356,7 @@ NISTp10_30:
   name: quetta
   power: 30
   symbol:
+    id: quetta
     ascii: Q
     html: Q
     latex: Q
