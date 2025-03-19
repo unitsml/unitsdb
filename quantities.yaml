@@ -1,2271 +1,1695 @@
 ---
 NISTq1:
-  dimension_url: "#NISTd1"
   quantity_name:
   - length
   quantity_type: base
   short: length
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
-  - name: kayser
-    url: "#NISTu120"
-  - name: micron
-    url: "#NISTu122"
-  - name: mil (length)
-    url: "#NISTu123"
-  - name: nautical mile
-    url: "#NISTu131"
-  - name: light year
-    url: "#NISTu182"
-  - name: astronomical unit
-    url: "#NISTu183"
-  - name: parsec
-    url: "#NISTu184"
-  - name: atomic unit of length
-    url: "#NISTu249"
-  - name: fermi
-    url: "#NISTu26"
-  - name: pica (computer)
-    url: "#NISTu278"
-  - name: pica (printer's)
-    url: "#NISTu279"
-  - name: point (computer)
-    url: "#NISTu280"
-  - name: rod (based on US survey foot)
-    url: "#NISTu281"
-  - name: fathom (based on US survey foot)
-    url: "#NISTu282"
-  - name: natural unit of length
-    url: "#NISTu290"
-  - name: chain (based on US survey foot)
-    url: "#NISTu310"
-  - name: link (based on US survey foot)
-    url: "#NISTu311"
-  - name: furlong (based on US survey foot)
-    url: "#NISTu312"
-  - name: mile (based on US survey foot)
-    url: "#NISTu313"
-  - name: yard (based on US survey foot)
-    url: "#NISTu314"
-  - name: foot (based on US survey foot)
-    url: "#NISTu315"
-  - name: inch (based on US survey foot)
-    url: "#NISTu316"
-  - name: point (printer's)
-    url: "#NISTu344"
-  - name: microinch
-    url: "#NISTu361"
-  - name: mile per gallon (US)
-    url: "#NISTu363"
-  - name: angstrom
-    url: "#NISTu39"
-  - name: foot
-    url: "#NISTu78"
-  - name: inch
-    url: "#NISTu8"
-  - name: mile
-    url: "#NISTu83"
-  - name: yard
-    url: "#NISTu84"
+  - NISTu1
+  - NISTu120
+  - NISTu122
+  - NISTu123
+  - NISTu131
+  - NISTu182
+  - NISTu183
+  - NISTu184
+  - NISTu249
+  - NISTu26
+  - NISTu278
+  - NISTu279
+  - NISTu280
+  - NISTu281
+  - NISTu282
+  - NISTu290
+  - NISTu310
+  - NISTu311
+  - NISTu312
+  - NISTu313
+  - NISTu314
+  - NISTu315
+  - NISTu316
+  - NISTu344
+  - NISTu361
+  - NISTu363
+  - NISTu39
+  - NISTu78
+  - NISTu8
+  - NISTu83
+  - NISTu84
+  dimension_reference: NISTd1
 NISTq2:
-  dimension_url: "#NISTd2"
   quantity_name:
   - mass
   quantity_type: base
   short: mass
   unit_reference:
-  - name: kilogram-force second squared per meter
-    url: "#NISTu125"
-  - name: kilogram
-    url: "#NISTu2"
-  - name: pound (avoirdupois)
-    url: "#NISTu201"
-  - name: ounce (avoirdupois)
-    url: "#NISTu202"
-  - name: hundredweight (long, 112 lb)
-    url: "#NISTu203"
-  - name: carat
-    url: "#NISTu212"
-  - name: slug
-    url: "#NISTu226"
-  - name: short ton
-    url: "#NISTu228"
-  - name: long ton
-    url: "#NISTu229"
-  - name: hundredweight (short, 100 lb)
-    url: "#NISTu230"
-  - name: ounce (troy or apothecary)
-    url: "#NISTu231"
-  - name: pound (troy or apothecary)
-    url: "#NISTu232"
-  - name: pennyweight
-    url: "#NISTu233"
-  - name: dram (apothecary)
-    url: "#NISTu234"
-  - name: scruple
-    url: "#NISTu235"
-  - name: kip
-    url: "#NISTu237"
-  - name: unified atomic mass unit
-    url: "#NISTu241"
-  - name: natural unit of mass
-    url: "#NISTu244"
-  - name: atomic unit of mass
-    url: "#NISTu247"
-  - name: gram
-    url: "#NISTu27"
-  - name: dram (avoirdupois)
-    url: "#NISTu275"
-  - name: dalton
-    url: "#NISTu289"
-  - name: grain (troy or apothecary)
-    url: "#NISTu86"
-  - name: metric ton
-    url: "#NISTu88"
-  - name: metric carat
-    url: "#NISTu132"
-  - name: metric ton
-    url: "#NISTu133"
+  - NISTu125
+  - NISTu2
+  - NISTu201
+  - NISTu202
+  - NISTu203
+  - NISTu212
+  - NISTu226
+  - NISTu228
+  - NISTu229
+  - NISTu230
+  - NISTu231
+  - NISTu232
+  - NISTu233
+  - NISTu234
+  - NISTu235
+  - NISTu237
+  - NISTu241
+  - NISTu244
+  - NISTu247
+  - NISTu27
+  - NISTu275
+  - NISTu289
+  - NISTu86
+  - NISTu88
+  - NISTu132
+  dimension_reference: NISTd2
 NISTq3:
-  dimension_url: "#NISTd3"
   quantity_name:
   - time
   - duration
   quantity_type: base
   short: time
   unit_reference:
-  - name: year (365 days)
-    url: "#NISTu106"
-  - name: natural unit of time
-    url: "#NISTu245"
-  - name: atomic unit of time
-    url: "#NISTu251"
-  - name: second
-    url: "#NISTu3"
-  - name: year, tropical
-    url: "#NISTu338"
-  - name: year, sidereal
-    url: "#NISTu339"
-  - name: day, sidereal
-    url: "#NISTu340"
-  - name: hour, sidereal
-    url: "#NISTu341"
-  - name: minute, sidereal
-    url: "#NISTu342"
-  - name: second, sidereal
-    url: "#NISTu343"
-  - name: shake
-    url: "#NISTu345"
-  - name: minute
-    url: "#NISTu36"
-  - name: hour
-    url: "#NISTu37"
-  - name: day
-    url: "#NISTu38"
+  - NISTu106
+  - NISTu245
+  - NISTu251
+  - NISTu3
+  - NISTu338
+  - NISTu339
+  - NISTu340
+  - NISTu341
+  - NISTu342
+  - NISTu343
+  - NISTu345
+  - NISTu36
+  - NISTu37
+  - NISTu38
+  dimension_reference: NISTd3
 NISTq4:
-  dimension_url: "#NISTd4"
   quantity_name:
   - electric current
   quantity_type: base
   short: electric_current
   unit_reference:
-  - name: atomic unit of current
-    url: "#NISTu257"
-  - name: ampere
-    url: "#NISTu4"
-  - name: abampere
-    url: "#NISTu47"
-  - name: biot
-    url: "#NISTu55"
+  - NISTu257
+  - NISTu4
+  - NISTu47
+  - NISTu55
+  dimension_reference: NISTd4
 NISTq5:
-  dimension_url: "#NISTd5"
   quantity_name:
   - thermodynamic temperature
   quantity_type: base
   short: temperature
   unit_reference:
-  - name: degree Rankine
-    url: "#NISTu288"
-  - name: kelvin
-    url: "#NISTu5"
+  - NISTu288
+  - NISTu5
+  dimension_reference: NISTd5
 NISTq6:
-  dimension_url: "#NISTd6"
   quantity_name:
   - amount of substance
   quantity_type: base
   short: substance_amount
   unit_reference:
-  - name: pound-mole
-    url: "#NISTu348"
-  - name: mole
-    url: "#NISTu6"
+  - NISTu348
+  - NISTu6
+  dimension_reference: NISTd6
 NISTq7:
-  dimension_url: "#NISTd7"
   quantity_name:
   - luminous intensity
   quantity_type: base
   short: luminous_intensity
   unit_reference:
-  - name: candela
-    url: "#NISTu7"
+  - NISTu7
+  dimension_reference: NISTd7
 NISTq8:
-  dimension_url: "#NISTd8"
   quantity_name:
   - area
   quantity_type: base
   unit_reference:
-  - name: square yard
-    url: "#NISTu164"
-  - name: square mile
-    url: "#NISTu165"
-  - name: square meter
-    url: "#NISTu1e2/1"
-  - name: circular mil
-    url: "#NISTu283"
-  - name: acre (based on US survey foot)
-    url: "#NISTu317"
-  - name: are
-    url: "#NISTu42"
-  - name: barn
-    url: "#NISTu43"
-  - name: hectare
-    url: "#NISTu44"
-  - name: square foot
-    url: "#NISTu45"
-  - name: square inch
-    url: "#NISTu46"
+  - NISTu164
+  - NISTu165
+  - NISTu1e2/1
+  - NISTu283
+  - NISTu317
+  - NISTu42
+  - NISTu43
+  - NISTu44
+  - NISTu45
+  - NISTu46
+  dimension_reference: NISTd8
 NISTq9:
-  dimension_url: "#NISTd9"
   quantity_name:
   - plane angle
   - angle
   quantity_type: derived
   unit_reference:
-  - name: minute (minute of arc)
-    url: "#NISTu147"
-  - name: second (second of arc)
-    url: "#NISTu148"
-  - name: degree (degree of arc)
-    url: "#NISTu149"
-  - name: gon
-    url: "#NISTu159"
-  - name: angular mil (NATO)
-    url: "#NISTu347"
-  - name: radian
-    url: "#NISTu9"
+  - NISTu147
+  - NISTu148
+  - NISTu149
+  - NISTu159
+  - NISTu347
+  - NISTu9
+  dimension_reference: NISTd9
 NISTq10:
-  dimension_url: "#NISTd10"
   quantity_name:
   - volume
   quantity_type: derived
   unit_reference:
-  - name: stere
-    url: "#NISTu115"
-  - name: liter
-    url: "#NISTu130"
-  - name: cubic inch
-    url: "#NISTu168"
-  - name: cubic foot
-    url: "#NISTu169"
-  - name: cubic yard
-    url: "#NISTu170"
-  - name: gallon (UK)
-    url: "#NISTu171"
-  - name: pint (UK)
-    url: "#NISTu172"
-  - name: fluid ounce (UK)
-    url: "#NISTu173"
-  - name: gallon (US)
-    url: "#NISTu175"
-  - name: liquid pint (US)
-    url: "#NISTu176"
-  - name: fluid ounce (US)
-    url: "#NISTu177"
-  - name: barrel (US) for petroleum
-    url: "#NISTu178"
-  - name: bushel (US)
-    url: "#NISTu179"
-  - name: dry pint (US)
-    url: "#NISTu180"
-  - name: cubic meter
-    url: "#NISTu1e3/1"
-  - name: quart (UK)
-    url: "#NISTu300"
-  - name: dry quart (US)
-    url: "#NISTu301"
-  - name: liquid quart (US)
-    url: "#NISTu302"
-  - name: teaspoon
-    url: "#NISTu303"
-  - name: tablespoon
-    url: "#NISTu304"
-  - name: tablespoon (FDA)
-    url: "#NISTu305"
-  - name: teaspoon (FDA)
-    url: "#NISTu306"
-  - name: cup (FDA)
-    url: "#NISTu307"
-  - name: fluid ounce (FDA)
-    url: "#NISTu308"
-  - name: ounce (FDA)
-    url: "#NISTu309"
-  - name: peck
-    url: "#NISTu352"
-  - name: minim
-    url: "#NISTu353"
-  - name: cup (US)
-    url: "#NISTu354"
-  - name: fluid dram
-    url: "#NISTu355"
-  - name: gill (US)
-    url: "#NISTu356"
-  - name: gill [Canadian and UK (Imperial)]
-    url: "#NISTu357"
-  - name: milliliter
-    url: "#NISTu365"
-  - name: acre-foot (based on US survey foot)
-    url: "#NISTu57"
+  - NISTu115
+  - NISTu130
+  - NISTu168
+  - NISTu169
+  - NISTu170
+  - NISTu171
+  - NISTu172
+  - NISTu173
+  - NISTu175
+  - NISTu176
+  - NISTu177
+  - NISTu178
+  - NISTu179
+  - NISTu180
+  - NISTu1e3/1
+  - NISTu300
+  - NISTu301
+  - NISTu302
+  - NISTu303
+  - NISTu304
+  - NISTu305
+  - NISTu306
+  - NISTu307
+  - NISTu308
+  - NISTu309
+  - NISTu352
+  - NISTu353
+  - NISTu354
+  - NISTu355
+  - NISTu356
+  - NISTu357
+  - NISTu365
+  - NISTu57
+  dimension_reference: NISTd10
 NISTq11:
-  dimension_url: "#NISTd64"
   quantity_name:
   - solid angle
   quantity_type: derived
   unit_reference:
-  - name: steradian
-    url: "#NISTu10"
-  - name: poise
-    url: "#NISTu128"
+  - NISTu10
+  - NISTu128
+  dimension_reference: NISTd64
 NISTq12:
-  dimension_url: "#NISTd11"
   quantity_name:
   - velocity
   - speed
   quantity_type: derived
   unit_reference:
-  - name: meter per second
-    url: "#NISTu1.u3e-1/1"
-  - name: foot per minute
-    url: "#NISTu107"
-  - name: foot per second
-    url: "#NISTu108"
-  - name: inch per second
-    url: "#NISTu109"
-  - name: mile per hour
-    url: "#NISTu110"
-  - name: mile per minute
-    url: "#NISTu111"
-  - name: mile per second
-    url: "#NISTu112"
-  - name: nautical mile per hour
-    url: "#NISTu152"
-  - name: kilometer per hour
-    url: "#NISTu160"
-  - name: natural unit of velocity
-    url: "#NISTu242"
-  - name: atomic unit of velocity
-    url: "#NISTu294"
+  - NISTu1.u3e-1/1
+  - NISTu107
+  - NISTu108
+  - NISTu109
+  - NISTu110
+  - NISTu111
+  - NISTu112
+  - NISTu152
+  - NISTu160
+  - NISTu242
+  - NISTu294
+  dimension_reference: NISTd11
 NISTq13:
-  dimension_url: "#NISTd12"
   quantity_name:
   - force
   quantity_type: derived
   unit_reference:
-  - name: newton
-    url: "#NISTu11"
-  - name: pound-force
-    url: "#NISTu205"
-  - name: inch to the fourth power
-    url: "#NISTu208"
-  - name: torr
-    url: "#NISTu214"
-  - name: poundal
-    url: "#NISTu236"
-  - name: ton-force (2000 lb)
-    url: "#NISTu238"
-  - name: barye
-    url: "#NISTu239"
-  - name: atomic unit of force
-    url: "#NISTu262"
-  - name: dyne
-    url: "#NISTu71"
-  - name: gram-force
-    url: "#NISTu196"
-  - name: kilogram-force
-    url: "#NISTu72"
-  - name: kilopond
-    url: "#NISTu73"
+  - NISTu11
+  - NISTu205
+  - NISTu208
+  - NISTu214
+  - NISTu236
+  - NISTu238
+  - NISTu239
+  - NISTu262
+  - NISTu71
+  - NISTu196
+  - NISTu72
+  - NISTu73
+  dimension_reference: NISTd12
 NISTq14:
-  dimension_url: "#NISTd13"
   quantity_name:
   - magnetic flux density
   quantity_type: derived
   unit_reference:
-  - name: gamma
-    url: "#NISTu116"
-  - name: gauss
-    url: "#NISTu119"
-  - name: tesla
-    url: "#NISTu21"
-  - name: atomic unit of magnetic flux density
-    url: "#NISTu253"
-  - name: stattesla
-    url: "#NISTu273"
+  - NISTu116
+  - NISTu119
+  - NISTu21
+  - NISTu253
+  - NISTu273
+  dimension_reference: NISTd13
 NISTq15:
-  dimension_url: "#NISTd14"
   quantity_name:
   - pressure
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
-  - name: standard atmosphere
-    url: "#NISTu134"
-  - name: technical atmosphere
-    url: "#NISTu135"
-  - name: conventional millimeter of mercury
-    url: "#NISTu156"
-  - name: pound-force per square inch
-    url: "#NISTu207"
-  - name: torr
-    url: "#NISTu214"
-  - name: conventional millimeter of water
-    url: "#NISTu215"
-  - name: barye
-    url: "#NISTu239"
-  - name: conventional centimeter of mercury
-    url: "#NISTu318"
-  - name: centimeter of mercury (0 degC)
-    url: "#NISTu319"
-  - name: centimeter of water (4 degC)
-    url: "#NISTu320"
-  - name: conventional centimeter of water
-    url: "#NISTu321"
-  - name: conventional inch of water
-    url: "#NISTu322"
-  - name: inch of water (39.2 degF)
-    url: "#NISTu323"
-  - name: inch of water (60 degF)
-    url: "#NISTu324"
-  - name: conventional foot of water
-    url: "#NISTu325"
-  - name: foot of water (39.2 degF)
-    url: "#NISTu326"
-  - name: inch of mercury (32 degF)
-    url: "#NISTu327"
-  - name: inch of mercury (60 degF)
-    url: "#NISTu328"
-  - name: conventional inch of mercury
-    url: "#NISTu329"
-  - name: conventional foot of mercury
-    url: "#NISTu330"
-  - name: millibar
-    url: "#NISTu362"
-  - name: bar
-    url: "#NISTu91"
-  - name: dyne per square centimeter
-    url: "#NISTu92"
-  - name: gram-force per square centimeter
-    url: "#NISTu93"
-  - name: kilogram-force per square centimeter
-    url: "#NISTu94"
-  - name: kilogram-force per square meter
-    url: "#NISTu95"
-  - name: kilogram-force per square millimeter
-    url: "#NISTu96"
+  - NISTu12
+  - NISTu134
+  - NISTu135
+  - NISTu156
+  - NISTu207
+  - NISTu214
+  - NISTu215
+  - NISTu239
+  - NISTu318
+  - NISTu319
+  - NISTu320
+  - NISTu321
+  - NISTu322
+  - NISTu323
+  - NISTu324
+  - NISTu325
+  - NISTu326
+  - NISTu327
+  - NISTu328
+  - NISTu329
+  - NISTu330
+  - NISTu362
+  - NISTu91
+  - NISTu92
+  - NISTu93
+  - NISTu94
+  - NISTu95
+  - NISTu96
+  dimension_reference: NISTd14
 NISTq16:
-  dimension_url: "#NISTd14"
   quantity_name:
   - stress
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
-  - name: standard atmosphere
-    url: "#NISTu134"
-  - name: technical atmosphere
-    url: "#NISTu135"
-  - name: conventional millimeter of mercury
-    url: "#NISTu156"
-  - name: barye
-    url: "#NISTu239"
-  - name: conventional centimeter of mercury
-    url: "#NISTu318"
-  - name: centimeter of mercury (0 degC)
-    url: "#NISTu319"
-  - name: centimeter of water (4 degC)
-    url: "#NISTu320"
-  - name: conventional centimeter of water
-    url: "#NISTu321"
-  - name: conventional inch of water
-    url: "#NISTu322"
-  - name: inch of water (39.2 degF)
-    url: "#NISTu323"
-  - name: inch of water (60 degF)
-    url: "#NISTu324"
-  - name: conventional foot of water
-    url: "#NISTu325"
-  - name: foot of water (39.2 degF)
-    url: "#NISTu326"
-  - name: inch of mercury (32 degF)
-    url: "#NISTu327"
-  - name: inch of mercury (60 degF)
-    url: "#NISTu328"
-  - name: conventional inch of mercury
-    url: "#NISTu329"
-  - name: conventional foot of mercury
-    url: "#NISTu330"
-  - name: millibar
-    url: "#NISTu362"
-  - name: bar
-    url: "#NISTu91"
-  - name: dyne per square centimeter
-    url: "#NISTu92"
-  - name: gram-force per square centimeter
-    url: "#NISTu93"
-  - name: kilogram-force per square centimeter
-    url: "#NISTu94"
-  - name: kilogram-force per square meter
-    url: "#NISTu95"
-  - name: kilogram-force per square millimeter
-    url: "#NISTu96"
+  - NISTu12
+  - NISTu134
+  - NISTu135
+  - NISTu156
+  - NISTu239
+  - NISTu318
+  - NISTu319
+  - NISTu320
+  - NISTu321
+  - NISTu322
+  - NISTu323
+  - NISTu324
+  - NISTu325
+  - NISTu326
+  - NISTu327
+  - NISTu328
+  - NISTu329
+  - NISTu330
+  - NISTu362
+  - NISTu91
+  - NISTu92
+  - NISTu93
+  - NISTu94
+  - NISTu95
+  - NISTu96
+  dimension_reference: NISTd14
 NISTq17:
-  dimension_url: "#NISTd15"
   quantity_name:
   - energy
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: kilogram-force meter
-    url: "#NISTu126"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: ton of TNT (energy equivalent)
-    url: "#NISTu166"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: electronvolt
-    url: "#NISTu240"
-  - name: atomic unit of energy
-    url: "#NISTu250"
-  - name: natural unit of energy
-    url: "#NISTu295"
-  - name: natural unit of energy in MeV
-    url: "#NISTu298"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: thermo_calorie
-    url: "#NISTu227"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu126
+  - NISTu13
+  - NISTu14.u3
+  - NISTu166
+  - NISTu206
+  - NISTu227
+  - NISTu240
+  - NISTu250
+  - NISTu295
+  - NISTu298
+  - NISTu331
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq18:
-  dimension_url: "#NISTd15"
   quantity_name:
   - work
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: kilogram-force meter
-    url: "#NISTu126"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: thermo_calorie
-    url: "#NISTu227"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu126
+  - NISTu13
+  - NISTu14.u3
+  - NISTu206
+  - NISTu227
+  - NISTu331
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq19:
-  dimension_url: "#NISTd15"
   quantity_name:
   - amount of heat
   - heat
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: British thermal unit_th
-    url: "#NISTu216"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: British thermal unit_IT
-    url: "#NISTu333"
-  - name: British thermal unit (mean)
-    url: "#NISTu334"
-  - name: British thermal unit (39 degF)
-    url: "#NISTu335"
-  - name: British thermal unit (59 degF)
-    url: "#NISTu336"
-  - name: British thermal unit (60 degF)
-    url: "#NISTu337"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: thermo_calorie
-    url: "#NISTu227"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu13
+  - NISTu14.u3
+  - NISTu216
+  - NISTu227
+  - NISTu331
+  - NISTu333
+  - NISTu334
+  - NISTu335
+  - NISTu336
+  - NISTu337
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq20:
-  dimension_url: "#NISTd16"
   quantity_name:
   - power
   quantity_type: derived
   unit_reference:
-  - name: horsepower, electric
-    url: "#NISTu127"
-  - name: watt
-    url: "#NISTu14"
-  - name: foot pound-force per second
-    url: "#NISTu211"
-  - name: kilogram-force meter per second
-    url: "#NISTu217"
-  - name: horsepower, metric
-    url: "#NISTu218"
-  - name: abwatt
-    url: "#NISTu225"
-  - name: statwatt
-    url: "#NISTu274"
-  - name: horsepower
-    url: "#NISTu284"
-  - name: horsepower, boiler
-    url: "#NISTu285"
-  - name: horsepower, water
-    url: "#NISTu286"
-  - name: horsepower (UK)
-    url: "#NISTu287"
-  - name: ton of refrigeration (12 000 Btu_IT/h)
-    url: "#NISTu349"
-  - name: calorie_th per second
-    url: "#NISTu74"
-  - name: kilocalorie_th per second
-    url: "#NISTu75"
-  - name: erg per second
-    url: "#NISTu89"
+  - NISTu127
+  - NISTu14
+  - NISTu211
+  - NISTu217
+  - NISTu218
+  - NISTu225
+  - NISTu274
+  - NISTu284
+  - NISTu285
+  - NISTu286
+  - NISTu287
+  - NISTu349
+  - NISTu74
+  - NISTu75
+  - NISTu89
+  dimension_reference: NISTd16
 NISTq21:
-  dimension_url: "#NISTd16"
   quantity_name:
   - radiant flux
   quantity_type: derived
   unit_reference:
-  - name: horsepower, electric
-    url: "#NISTu127"
-  - name: watt
-    url: "#NISTu14"
-  - name: calorie_th per second
-    url: "#NISTu74"
-  - name: kilocalorie_th per second
-    url: "#NISTu75"
-  - name: erg per second
-    url: "#NISTu89"
+  - NISTu127
+  - NISTu14
+  - NISTu74
+  - NISTu75
+  - NISTu89
+  dimension_reference: NISTd16
 NISTq22:
-  dimension_url: "#NISTd17"
   quantity_name:
   - electric charge
   quantity_type: derived
   unit_reference:
-  - name: coulomb
-    url: "#NISTu15"
-  - name: atomic unit of charge
-    url: "#NISTu246"
-  - name: statcoulomb
-    url: "#NISTu271"
-  - name: abcoulomb
-    url: "#NISTu48"
-  - name: ampere hour
-    url: "#NISTu54"
+  - NISTu15
+  - NISTu246
+  - NISTu271
+  - NISTu48
+  - NISTu54
+  dimension_reference: NISTd17
 NISTq23:
-  dimension_url: "#NISTd17"
   quantity_name:
   - amount of electricity
   quantity_type: derived
   unit_reference:
-  - name: coulomb
-    url: "#NISTu15"
-  - name: statcoulomb
-    url: "#NISTu271"
-  - name: abcoulomb
-    url: "#NISTu48"
-  - name: ampere hour
-    url: "#NISTu54"
+  - NISTu15
+  - NISTu271
+  - NISTu48
+  - NISTu54
+  dimension_reference: NISTd17
 NISTq24:
-  dimension_url: "#NISTd18"
   quantity_name:
   - electric potential difference
   quantity_type: derived
   unit_reference:
-  - name: volt
-    url: "#NISTu16"
-  - name: atomic unit of electric potential
-    url: "#NISTu261"
-  - name: statvolt
-    url: "#NISTu268"
-  - name: abvolt
-    url: "#NISTu53"
+  - NISTu16
+  - NISTu261
+  - NISTu268
+  - NISTu53
+  dimension_reference: NISTd18
 NISTq25:
-  dimension_url: "#NISTd18"
   quantity_name:
   - potential difference
   quantity_type: derived
   unit_reference:
-  - name: volt
-    url: "#NISTu16"
-  - name: abvolt
-    url: "#NISTu53"
+  - NISTu16
+  - NISTu53
+  dimension_reference: NISTd18
 NISTq26:
-  dimension_url: "#NISTd18"
   quantity_name:
   - electromotive force
   quantity_type: derived
   unit_reference:
-  - name: volt
-    url: "#NISTu16"
-  - name: atomic unit of electric potential
-    url: "#NISTu261"
-  - name: statvolt
-    url: "#NISTu268"
-  - name: abvolt
-    url: "#NISTu53"
+  - NISTu16
+  - NISTu261
+  - NISTu268
+  - NISTu53
+  dimension_reference: NISTd18
 NISTq27:
-  dimension_url: "#NISTd19"
   quantity_name:
   - capacitance
   quantity_type: derived
   unit_reference:
-  - name: farad
-    url: "#NISTu17"
-  - name: abfarad
-    url: "#NISTu49"
+  - NISTu17
+  - NISTu49
+  dimension_reference: NISTd19
 NISTq28:
-  dimension_url: "#NISTd20"
   quantity_name:
   - electric resistance
   quantity_type: derived
   unit_reference:
-  - name: ohm
-    url: "#NISTu18"
-  - name: statohm
-    url: "#NISTu265"
-  - name: abohm
-    url: "#NISTu52"
+  - NISTu18
+  - NISTu265
+  - NISTu52
+  dimension_reference: NISTd20
 NISTq29:
-  dimension_url: "#NISTd21"
   quantity_name:
   - electric conductance
   quantity_type: derived
   unit_reference:
-  - name: siemens
-    url: "#NISTu19"
-  - name: statmho
-    url: "#NISTu270"
-  - name: abmho
-    url: "#NISTu51"
+  - NISTu19
+  - NISTu270
+  - NISTu51
+  dimension_reference: NISTd21
 NISTq30:
-  dimension_url: "#NISTd22"
   quantity_name:
   - magnetic flux
   quantity_type: derived
   unit_reference:
-  - name: weber
-    url: "#NISTu20"
-  - name: statweber
-    url: "#NISTu272"
-  - name: maxwell
-    url: "#NISTu58"
+  - NISTu20
+  - NISTu272
+  - NISTu58
+  dimension_reference: NISTd22
 NISTq31:
-  dimension_url: "#NISTd51"
   quantity_name:
   - surface density
   - areic mass
   quantity_type: derived
   unit_reference:
-  - name: kilogram per square meter
-    url: "#NISTu27p10'3.u1e-2/1"
+  - NISTu27p10'3.u1e-2/1
+  dimension_reference: NISTd51
 NISTq32:
-  dimension_url: "#NISTd23"
   quantity_name:
   - inductance
   quantity_type: derived
   unit_reference:
-  - name: henry
-    url: "#NISTu22"
-  - name: abhenry
-    url: "#NISTu50"
+  - NISTu22
+  - NISTu50
+  dimension_reference: NISTd23
 NISTq33:
-  dimension_url: "#NISTd30"
   quantity_name:
   - mass concentration
   quantity_type: derived
   unit_reference:
-  - name: kilogram per cubic meter
-    url: "#NISTu27p10'3.u1e-3/1"
+  - NISTu27p10'3.u1e-3/1
+  dimension_reference: NISTd30
 NISTq34:
-  dimension_url: "#NISTd5"
   quantity_name:
   - Celsius temperature
   quantity_type: derived
   unit_reference:
-  - name: degree Celsius
-    url: "#NISTu23"
+  - NISTu23
+  dimension_reference: NISTd5
 NISTq35:
-  dimension_url: "#NISTd24"
   quantity_name:
   - activity referred to a radionuclide
   quantity_type: derived
   unit_reference:
-  - name: becquerel
-    url: "#NISTu25"
-  - name: curie
-    url: "#NISTu98"
+  - NISTu25
+  - NISTu98
+  dimension_reference: NISTd24
 NISTq36:
-  dimension_url: "#NISTd25"
   quantity_name:
   - absorbed dose
   quantity_type: derived
   unit_reference:
-  - name: gray
-    url: "#NISTu28"
-  - name: rad (absorbed dose)
-    url: "#NISTu99"
+  - NISTu28
+  - NISTu99
+  dimension_reference: NISTd25
 NISTq37:
-  dimension_url: "#NISTd25"
   quantity_name:
   - specific energy imparted
   quantity_type: derived
   unit_reference:
-  - name: gray
-    url: "#NISTu28"
+  - NISTu28
+  dimension_reference: NISTd25
 NISTq38:
-  dimension_url: "#NISTd25"
   quantity_name:
   - kerma
   quantity_type: derived
   unit_reference:
-  - name: gray
-    url: "#NISTu28"
+  - NISTu28
+  dimension_reference: NISTd25
 NISTq39:
-  dimension_url: "#NISTd25"
   quantity_name:
   - dose equivalent
   quantity_type: derived
   unit_reference:
-  - name: rem
-    url: "#NISTu100"
-  - name: sievert
-    url: "#NISTu29"
+  - NISTu100
+  - NISTu29
+  dimension_reference: NISTd25
 NISTq40:
-  dimension_url: "#NISTd25"
   quantity_name:
   - ambient dose equivalent
   quantity_type: derived
+  dimension_reference: NISTd25
 NISTq41:
-  dimension_url: "#NISTd25"
   quantity_name:
   - directional dose equivalent
   quantity_type: derived
+  dimension_reference: NISTd25
 NISTq42:
-  dimension_url: "#NISTd25"
   quantity_name:
   - personal dose equivalent
   quantity_type: derived
+  dimension_reference: NISTd25
 NISTq43:
-  dimension_url: "#NISTd25"
   quantity_name:
   - organ dose equivalent
   quantity_type: derived
+  dimension_reference: NISTd25
 NISTq44:
-  dimension_url: "#NISTd26"
   quantity_name:
   - catalytic activity
   quantity_type: derived
   unit_reference:
-  - name: katal
-    url: "#NISTu30"
+  - NISTu30
+  dimension_reference: NISTd26
 NISTq45:
-  dimension_url: "#NISTd24"
   quantity_name:
   - frequency
   quantity_type: derived
   unit_reference:
-  - name: hertz
-    url: "#NISTu31"
+  - NISTu31
+  dimension_reference: NISTd24
 NISTq46:
-  dimension_url: "#NISTd7"
   quantity_name:
   - luminous flux
   quantity_type: derived
   unit_reference:
-  - name: lumen
-    url: "#NISTu32"
+  - NISTu32
+  dimension_reference: NISTd7
 NISTq47:
-  dimension_url: "#NISTd27"
   quantity_name:
   - illuminance
   quantity_type: derived
   unit_reference:
-  - name: footcandle
-    url: "#NISTu276"
-  - name: lux
-    url: "#NISTu33"
-  - name: phot
-    url: "#NISTu85"
+  - NISTu276
+  - NISTu33
+  - NISTu85
+  dimension_reference: NISTd27
 NISTq48:
-  dimension_url: "#NISTd1"
   quantity_name:
   - distance
   quantity_type: base
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
-  - name: micron
-    url: "#NISTu122"
-  - name: mil (length)
-    url: "#NISTu123"
-  - name: nautical mile
-    url: "#NISTu131"
-  - name: fermi
-    url: "#NISTu26"
-  - name: pica (computer)
-    url: "#NISTu278"
-  - name: point (computer)
-    url: "#NISTu280"
-  - name: angstrom
-    url: "#NISTu39"
-  - name: foot
-    url: "#NISTu78"
-  - name: inch
-    url: "#NISTu8"
-  - name: mile
-    url: "#NISTu83"
-  - name: yard
-    url: "#NISTu84"
+  - NISTu1
+  - NISTu122
+  - NISTu123
+  - NISTu131
+  - NISTu26
+  - NISTu278
+  - NISTu280
+  - NISTu39
+  - NISTu78
+  - NISTu8
+  - NISTu83
+  - NISTu84
+  dimension_reference: NISTd1
 NISTq49:
-  dimension_url: "#NISTd28"
   quantity_name:
   - acceleration
   quantity_type: derived
   unit_reference:
-  - name: meter per second squared
-    url: "#NISTu1.u3e-2/1"
-  - name: gal
-    url: "#NISTu143"
-  - name: foot per second squared
-    url: "#NISTu167"
+  - NISTu1.u3e-2/1
+  - NISTu143
+  - NISTu167
+  dimension_reference: NISTd28
 NISTq50:
-  dimension_url: "#NISTd29"
   quantity_name:
   - wavenumber
   - repetency
   quantity_type: derived
   unit_reference:
-  - name: kayser
-    url: "#NISTu120"
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
+  - NISTu120
+  - NISTu1e-1/1
+  dimension_reference: NISTd29
 NISTq51:
-  dimension_url: "#NISTd30"
   quantity_name:
   - density
   - mass density
   quantity_type: derived
   unit_reference:
-  - name: meter to the power four
-    url: "#NISTu185"
-  - name: kilogram per liter
-    url: "#NISTu188"
-  - name: metric ton per cubic meter
-    url: "#NISTu189"
-  - name: pound per cubic foot
-    url: "#NISTu204"
-  - name: kilogram per cubic meter
-    url: "#NISTu27p10'3.u1e-3/1"
+  - NISTu185
+  - NISTu188
+  - NISTu189
+  - NISTu204
+  - NISTu27p10'3.u1e-3/1
+  dimension_reference: NISTd30
 NISTq52:
-  dimension_url: "#NISTd31"
   quantity_name:
   - specific volume
   - massic volume
   quantity_type: derived
   unit_reference:
-  - name: cubic meter per kilogram
-    url: "#NISTu101"
+  - NISTu101
+  dimension_reference: NISTd31
 NISTq53:
-  dimension_url: "#NISTd32"
   quantity_name:
   - current density
   quantity_type: derived
   unit_reference:
-  - name: ampere per square meter
-    url: "#NISTu4.u1e-2/1"
+  - NISTu4.u1e-2/1
+  dimension_reference: NISTd32
 NISTq54:
-  dimension_url: "#NISTd33"
   quantity_name:
   - magnetic field strength
   quantity_type: derived
   unit_reference:
-  - name: ampere per meter
-    url: "#NISTu4.u1e-1/1"
+  - NISTu4.u1e-1/1
+  dimension_reference: NISTd33
 NISTq55:
-  dimension_url: "#NISTd34"
   quantity_name:
   - amount concentration
   quantity_type: derived
   unit_reference:
-  - name: mole per liter
-    url: "#NISTu366"
-  - name: mole per cubic meter
-    url: "#NISTu6.u1e-3/1"
+  - NISTu366
+  - NISTu6.u1e-3/1
+  dimension_reference: NISTd34
 NISTq56:
-  dimension_url: "#NISTd27"
   quantity_name:
   - luminance
   quantity_type: derived
   unit_reference:
-  - name: stilb
-    url: "#NISTu124"
-  - name: lambert
-    url: "#NISTu222"
-  - name: footlambert
-    url: "#NISTu277"
-  - name: candela per square meter
-    url: "#NISTu7.u1e-2/1"
+  - NISTu124
+  - NISTu222
+  - NISTu277
+  - NISTu7.u1e-2/1
+  dimension_reference: NISTd27
 NISTq57:
-  dimension_url: "#NISTd24"
   quantity_name:
   - angular velocity
   quantity_type: derived
   unit_reference:
-  - name: radian per second
-    url: "#NISTu9.u3e-1/1"
+  - NISTu9.u3e-1/1
+  dimension_reference: NISTd24
 NISTq58:
-  dimension_url: "#NISTd35"
   quantity_name:
   - angular acceleration
   quantity_type: derived
   unit_reference:
-  - name: radian per second squared
-    url: "#NISTu9.u3e-2/1"
+  - NISTu9.u3e-2/1
+  dimension_reference: NISTd35
 NISTq59:
-  dimension_url: "#NISTd36"
   quantity_name:
   - dynamic viscosity
   quantity_type: derived
   unit_reference:
-  - name: pascal second
-    url: "#NISTu12.u3"
-  - name: poise
-    url: "#NISTu128"
-  - name: centipoise
-    url: "#NISTu97"
+  - NISTu12.u3
+  - NISTu128
+  - NISTu97
+  dimension_reference: NISTd36
 NISTq60:
-  dimension_url: "#NISTd15"
   quantity_name:
   - moment of force
   quantity_type: derived
   unit_reference:
-  - name: newton meter
-    url: "#NISTu11.u1"
-  - name: kilogram-force meter
-    url: "#NISTu126"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: torr
-    url: "#NISTu214"
+  - NISTu11.u1
+  - NISTu126
+  - NISTu206
+  - NISTu214
+  dimension_reference: NISTd15
 NISTq61:
-  dimension_url: "#NISTd37"
   quantity_name:
   - surface tension
   quantity_type: derived
   unit_reference:
-  - name: newton per meter
-    url: "#NISTu11.u1e-1/1"
+  - NISTu11.u1e-1/1
+  dimension_reference: NISTd37
 NISTq62:
-  dimension_url: "#NISTd38"
   quantity_name:
   - heat flux density
   quantity_type: derived
   unit_reference:
-  - name: watt per square meter
-    url: "#NISTu14.u1e-2/1"
+  - NISTu14.u1e-2/1
+  dimension_reference: NISTd38
 NISTq63:
-  dimension_url: "#NISTd39"
   quantity_name:
   - heat capacity
   quantity_type: derived
   unit_reference:
-  - name: joule per kelvin
-    url: "#NISTu13.u5e-1/1"
+  - NISTu13.u5e-1/1
+  dimension_reference: NISTd39
 NISTq64:
-  dimension_url: "#NISTd40"
   quantity_name:
   - specific heat capacity
   quantity_type: derived
   unit_reference:
-  - name: joule per kilogram kelvin
-    url: "#NISTu13.u27p10'3e-1/1.u5e-1/1"
+  - NISTu13.u27p10'3e-1/1.u5e-1/1
+  dimension_reference: NISTd40
 NISTq65:
-  dimension_url: "#NISTd25"
   quantity_name:
   - specific energy
   quantity_type: derived
   unit_reference:
-  - name: joule per kilogram
-    url: "#NISTu13.u27p10'3e-1/1"
+  - NISTu13.u27p10'3e-1/1
+  dimension_reference: NISTd25
 NISTq66:
-  dimension_url: "#NISTd41"
   quantity_name:
   - thermal conductivity
   quantity_type: derived
   unit_reference:
-  - name: watt per meter kelvin
-    url: "#NISTu14.u1e-1/1.u5e-1/1"
+  - NISTu14.u1e-1/1.u5e-1/1
+  dimension_reference: NISTd41
 NISTq67:
-  dimension_url: "#NISTd14"
   quantity_name:
   - energy density
   quantity_type: derived
   unit_reference:
-  - name: joule per cubic meter
-    url: "#NISTu13.u1e-3/1"
+  - NISTu13.u1e-3/1
+  dimension_reference: NISTd14
 NISTq68:
-  dimension_url: "#NISTd42"
   quantity_name:
   - electric field strength
   quantity_type: derived
   unit_reference:
-  - name: volt per meter
-    url: "#NISTu16.u1e-1/1"
-  - name: atomic unit of electric field
-    url: "#NISTu259"
+  - NISTu16.u1e-1/1
+  - NISTu259
+  dimension_reference: NISTd42
 NISTq69:
-  dimension_url: "#NISTd43"
   quantity_name:
   - electric charge density
   quantity_type: derived
   unit_reference:
-  - name: coulomb per cubic meter
-    url: "#NISTu15.u1e-3/1"
-  - name: atomic unit of charge density
-    url: "#NISTu256"
+  - NISTu15.u1e-3/1
+  - NISTu256
+  dimension_reference: NISTd43
 NISTq70:
-  dimension_url: "#NISTd44"
   quantity_name:
   - electric flux density
   quantity_type: derived
+  dimension_reference: NISTd44
 NISTq71:
-  dimension_url: "#NISTd45"
   quantity_name:
   - permittivity
   quantity_type: derived
   unit_reference:
-  - name: farad per meter
-    url: "#NISTu17.u1e-1/1"
-  - name: atomic unit of permittivity
-    url: "#NISTu293"
+  - NISTu17.u1e-1/1
+  - NISTu293
+  dimension_reference: NISTd45
 NISTq72:
-  dimension_url: "#NISTd46"
   quantity_name:
   - permeability
   quantity_type: derived
   unit_reference:
-  - name: darcy
-    url: "#NISTu157"
-  - name: henry per meter
-    url: "#NISTu22.u1e-1/1"
+  - NISTu157
+  - NISTu22.u1e-1/1
+  dimension_reference: NISTd46
 NISTq73:
-  dimension_url: "#NISTd47"
   quantity_name:
   - molar energy
   quantity_type: derived
   unit_reference:
-  - name: joule per mole
-    url: "#NISTu13.u6e-1/1"
+  - NISTu13.u6e-1/1
+  dimension_reference: NISTd47
 NISTq74:
-  dimension_url: "#NISTd48"
   quantity_name:
   - molar entropy
   quantity_type: derived
   unit_reference:
-  - name: joule per mole kelvin
-    url: "#NISTu13.u6e-1/1.u5e-1/1"
+  - NISTu13.u6e-1/1.u5e-1/1
+  dimension_reference: NISTd48
 NISTq75:
-  dimension_url: "#NISTd49"
   quantity_name:
   - exposure (x and gamma rays)
   quantity_type: derived
   unit_reference:
-  - name: roentgen
-    url: "#NISTu118"
-  - name: coulomb per kilogram
-    url: "#NISTu15.u27p10'3e-1/1"
+  - NISTu118
+  - NISTu15.u27p10'3e-1/1
+  dimension_reference: NISTd49
 NISTq76:
-  dimension_url: "#NISTd50"
   quantity_name:
   - absorbed dose rate
   quantity_type: derived
   unit_reference:
-  - name: gray per second
-    url: "#NISTu28.u3e-1/1"
+  - NISTu28.u3e-1/1
+  dimension_reference: NISTd50
 NISTq77:
-  dimension_url: "#NISTd15"
   quantity_name:
   - potential energy
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: thermo_calorie
-    url: "#NISTu227"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu13
+  - NISTu14.u3
+  - NISTu206
+  - NISTu227
+  - NISTu331
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq78:
-  dimension_url: "#NISTd38"
   quantity_name:
   - irradiance
   quantity_type: derived
   unit_reference:
-  - name: watt per square meter
-    url: "#NISTu14.u1e-2/1"
+  - NISTu14.u1e-2/1
+  dimension_reference: NISTd38
 NISTq79:
-  dimension_url: "#NISTd39"
   quantity_name:
   - entropy
   quantity_type: derived
   unit_reference:
-  - name: joule per kelvin
-    url: "#NISTu13.u5e-1/1"
+  - NISTu13.u5e-1/1
+  dimension_reference: NISTd39
 NISTq80:
-  dimension_url: "#NISTd40"
   quantity_name:
   - specific entropy
   quantity_type: derived
   unit_reference:
-  - name: joule per kilogram kelvin
-    url: "#NISTu13.u27p10'3e-1/1.u5e-1/1"
+  - NISTu13.u27p10'3e-1/1.u5e-1/1
+  dimension_reference: NISTd40
 NISTq81:
-  dimension_url: "#NISTd53"
   quantity_name:
   - surface charge density
   quantity_type: derived
   unit_reference:
-  - name: coulomb per square meter
-    url: "#NISTu15.u1e-2/1"
+  - NISTu15.u1e-2/1
+  dimension_reference: NISTd53
 NISTq82:
-  dimension_url: "#NISTd44"
   quantity_name:
   - electric displacement
   quantity_type: derived
   unit_reference:
-  - name: coulomb per square meter
-    url: "#NISTu15.u1e-2/1"
+  - NISTu15.u1e-2/1
+  dimension_reference: NISTd44
 NISTq83:
-  dimension_url: "#NISTd48"
   quantity_name:
   - molar heat capacity
   quantity_type: derived
   unit_reference:
-  - name: joule per mole kelvin
-    url: "#NISTu13.u6e-1/1.u5e-1/1"
+  - NISTu13.u6e-1/1.u5e-1/1
+  dimension_reference: NISTd48
 NISTq84:
-  dimension_url: "#NISTd55"
   quantity_name:
   - catalytic activity concentration
   quantity_type: derived
   unit_reference:
-  - name: katal per cubic meter
-    url: "#NISTu30.u1e-3/1"
+  - NISTu30.u1e-3/1
+  dimension_reference: NISTd55
 NISTq85:
-  dimension_url: "#NISTd56"
   quantity_name:
   - kinematic viscosity
   quantity_type: derived
   unit_reference:
-  - name: centistokes
-    url: "#NISTu121"
-  - name: stokes
-    url: "#NISTu142"
-  - name: meter squared per second
-    url: "#NISTu1e2/1.u3e-1/1"
-  - name: foot squared per second
-    url: "#NISTu210"
+  - NISTu121
+  - NISTu142
+  - NISTu1e2/1.u3e-1/1
+  - NISTu210
+  dimension_reference: NISTd56
 NISTq87:
-  dimension_url: "#NISTd33"
   quantity_name:
   - magnetic field
   quantity_type: derived
   unit_reference:
-  - name: oersted
-    url: "#NISTu144"
+  - NISTu144
+  dimension_reference: NISTd33
 NISTq88:
-  dimension_url: "#NISTd16"
   quantity_name:
   - radiant intensity
   quantity_type: derived
   unit_reference:
-  - name: watt per steradian
-    url: "#NISTu14.u10e-1/1"
+  - NISTu14.u10e-1/1
+  dimension_reference: NISTd16
 NISTq89:
-  dimension_url: "#NISTd38"
   quantity_name:
   - radiance
   quantity_type: derived
   unit_reference:
-  - name: watt per square meter steradian
-    url: "#NISTu14.u1e-2/1.u10e-1/1"
+  - NISTu14.u1e-2/1.u10e-1/1
+  dimension_reference: NISTd38
 NISTq90:
-  dimension_url: "#NISTd67"
   quantity_name:
   - logarithmic ratio quantities
   quantity_type: derived
   unit_reference:
-  - name: neper
-    url: "#NISTu153"
-  - name: bel
-    url: "#NISTu154"
-  - name: decibel
-    url: "#NISTu155"
+  - NISTu153
+  - NISTu154
+  - NISTu155
+  dimension_reference: NISTd67
 NISTq91:
-  dimension_url: "#NISTd52"
   quantity_name:
   - fluidity
   - reciprocal of dynamic viscosity
   quantity_type: derived
   unit_reference:
-  - name: rhe
-    url: "#NISTu129"
+  - NISTu129
+  dimension_reference: NISTd52
 NISTq92:
-  dimension_url: "#NISTd8"
   quantity_name:
   - hydrodynamic permeability
   quantity_type: derived
   unit_reference:
-  - name: darcy
-    url: "#NISTu157"
+  - NISTu157
+  dimension_reference: NISTd8
 NISTq93:
-  dimension_url: "#NISTd80"
   quantity_name:
   - refractive index
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq94:
-  dimension_url: "#NISTd80"
   quantity_name:
   - relative permeability
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq95:
-  dimension_url: "#NISTd1"
   quantity_name:
   - breadth
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq96:
-  dimension_url: "#NISTd1"
   quantity_name:
   - height
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq97:
-  dimension_url: "#NISTd1"
   quantity_name:
   - thickness
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq98:
-  dimension_url: "#NISTd1"
   quantity_name:
   - radius
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq99:
-  dimension_url: "#NISTd1"
   quantity_name:
   - radial distance
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq100:
-  dimension_url: "#NISTd1"
   quantity_name:
   - diameter
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq101:
-  dimension_url: "#NISTd1"
   quantity_name:
   - length of path
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq102:
-  dimension_url: "#NISTd1"
   quantity_name:
   - cartesian coordinates
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq103:
-  dimension_url: "#NISTd1"
   quantity_name:
   - position vector
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq104:
-  dimension_url: "#NISTd1"
   quantity_name:
   - displacement
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq105:
-  dimension_url: "#NISTd1"
   quantity_name:
   - radius of curvature
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq106:
-  dimension_url: "#NISTd29"
   quantity_name:
   - curvature
   quantity_type: derived
   unit_reference:
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
+  - NISTu1e-1/1
+  dimension_reference: NISTd29
 NISTq107:
-  dimension_url: "#NISTd11"
   quantity_name:
   - speed of propagation of waves
   quantity_type: derived
   unit_reference:
-  - name: meter per second
-    url: "#NISTu1.u3e-1/1"
-  - name: kilometer per hour
-    url: "#NISTu160"
+  - NISTu1.u3e-1/1
+  - NISTu160
+  dimension_reference: NISTd11
 NISTq108:
-  dimension_url: "#NISTd28"
   quantity_name:
   - acceleration of free fall
   quantity_type: derived
   unit_reference:
-  - name: meter per second squared
-    url: "#NISTu1.u3e-2/1"
+  - NISTu1.u3e-2/1
+  dimension_reference: NISTd28
 NISTq109:
-  dimension_url: "#NISTd3"
   quantity_name:
   - period duration
   - period
   quantity_type: derived
   unit_reference:
-  - name: second
-    url: "#NISTu3"
+  - NISTu3
+  dimension_reference: NISTd3
 NISTq110:
-  dimension_url: "#NISTd3"
   quantity_name:
   - time constant
   quantity_type: derived
   unit_reference:
-  - name: second
-    url: "#NISTu3"
+  - NISTu3
+  dimension_reference: NISTd3
 NISTq111:
-  dimension_url: "#NISTd80"
   quantity_name:
   - rotation
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq112:
-  dimension_url: "#NISTd24"
   quantity_name:
   - rotational frequency
   quantity_type: derived
   unit_reference:
-  - name: second to the power minus one
-    url: "#NISTu3e-1/1"
+  - NISTu3e-1/1
+  dimension_reference: NISTd24
 NISTq113:
-  dimension_url: "#NISTd24"
   quantity_name:
   - angular frequency
   quantity_type: derived
   unit_reference:
-  - name: second to the power minus one
-    url: "#NISTu3e-1/1"
-  - name: radian per second
-    url: "#NISTu9.u3e-1/1"
+  - NISTu3e-1/1
+  - NISTu9.u3e-1/1
+  dimension_reference: NISTd24
 NISTq114:
-  dimension_url: "#NISTd1"
   quantity_name:
   - wavelength
   quantity_type: derived
   unit_reference:
-  - name: meter
-    url: "#NISTu1"
+  - NISTu1
+  dimension_reference: NISTd1
 NISTq115:
-  dimension_url: "#NISTd29"
   quantity_name:
   - angular wavenumber
   - angular repetency
   quantity_type: derived
   unit_reference:
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
-  - name: radian per meter
-    url: "#NISTu9.u1e-1/1"
+  - NISTu1e-1/1
+  - NISTu9.u1e-1/1
+  dimension_reference: NISTd29
 NISTq116:
-  dimension_url: "#NISTd11"
   quantity_name:
   - phase velocity
   - phase speed
   quantity_type: derived
   unit_reference:
-  - name: meter per second
-    url: "#NISTu1.u3e-1/1"
+  - NISTu1.u3e-1/1
+  dimension_reference: NISTd11
 NISTq117:
-  dimension_url: "#NISTd11"
   quantity_name:
   - group velocity
   - group speed
   quantity_type: derived
   unit_reference:
-  - name: meter per second
-    url: "#NISTu1.u3e-1/1"
+  - NISTu1.u3e-1/1
+  dimension_reference: NISTd11
 NISTq118:
-  dimension_url: "#NISTd83"
   quantity_name:
   - level of a field quantity
   quantity_type: derived
   unit_reference:
-  - name: neper
-    url: "#NISTu153"
-  - name: bel
-    url: "#NISTu154"
+  - NISTu153
+  - NISTu154
+  dimension_reference: NISTd83
 NISTq119:
-  dimension_url: "#NISTd84"
   quantity_name:
   - level of a power quantity
   quantity_type: derived
   unit_reference:
-  - name: neper
-    url: "#NISTu153"
-  - name: bel
-    url: "#NISTu154"
+  - NISTu153
+  - NISTu154
+  dimension_reference: NISTd84
 NISTq120:
-  dimension_url: "#NISTd24"
   quantity_name:
   - damping coefficient
   quantity_type: derived
   unit_reference:
-  - name: neper per second
-    url: "#NISTu163"
-  - name: second to the power minus one
-    url: "#NISTu3e-1/1"
+  - NISTu163
+  - NISTu3e-1/1
+  dimension_reference: NISTd24
 NISTq121:
-  dimension_url: "#NISTd80"
   quantity_name:
   - logarithmic decrement
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
-  - name: neper
-    url: "#NISTu153"
+  - NISTu61
+  - NISTu153
+  dimension_reference: NISTd80
 NISTq122:
-  dimension_url: "#NISTd29"
   quantity_name:
   - attenuation coefficient
   quantity_type: derived
   unit_reference:
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
+  - NISTu1e-1/1
+  dimension_reference: NISTd29
 NISTq123:
-  dimension_url: "#NISTd29"
   quantity_name:
   - phase coefficient
   quantity_type: derived
   unit_reference:
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
+  - NISTu1e-1/1
+  dimension_reference: NISTd29
 NISTq124:
-  dimension_url: "#NISTd29"
   quantity_name:
   - propagation coefficient
   quantity_type: derived
   unit_reference:
-  - name: meter to the power minus one
-    url: "#NISTu1e-1/1"
+  - NISTu1e-1/1
+  dimension_reference: NISTd29
 NISTq125:
-  dimension_url: "#NISTd80"
   quantity_name:
   - relative mass density
   - relative density
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq126:
-  dimension_url: "#NISTd58"
   quantity_name:
   - linear density
   - lineic mass
   quantity_type: derived
   unit_reference:
-  - name: tex
-    url: "#NISTu213"
-  - name: kilogram per meter
-    url: "#NISTu27p10'3.u1e-1/1"
+  - NISTu213
+  - NISTu27p10'3.u1e-1/1
+  dimension_reference: NISTd58
 NISTq127:
-  dimension_url: "#NISTd59"
   quantity_name:
   - mass moment of inertia
   - moment of inertia
   quantity_type: derived
   unit_reference:
-  - name: kilogram meter squared
-    url: "#NISTu27p10'3.u1e2/1"
+  - NISTu27p10'3.u1e2/1
+  dimension_reference: NISTd59
 NISTq128:
-  dimension_url: "#NISTd12"
   quantity_name:
   - weight
   quantity_type: derived
   unit_reference:
-  - name: pound-force
-    url: "#NISTu205"
-  - name: poundal
-    url: "#NISTu236"
-  - name: ton-force (2000 lb)
-    url: "#NISTu238"
-  - name: barye
-    url: "#NISTu239"
-  - name: atomic unit of force
-    url: "#NISTu262"
+  - NISTu205
+  - NISTu236
+  - NISTu238
+  - NISTu239
+  - NISTu262
+  dimension_reference: NISTd12
 NISTq129:
-  dimension_url: "#NISTd61"
   quantity_name:
   - impulse
   quantity_type: derived
   unit_reference:
-  - name: newton second
-    url: "#NISTu11.u3"
+  - NISTu11.u3
+  dimension_reference: NISTd61
 NISTq130:
-  dimension_url: "#NISTd62"
   quantity_name:
   - gravitational constant
   quantity_type: derived
   unit_reference:
-  - name: newton meter squared per kilogram squared
-    url: "#NISTu11.u1e2/1.u27p10'3e-2/1"
+  - NISTu11.u1e2/1.u27p10'3e-2/1
+  dimension_reference: NISTd62
 NISTq131:
-  dimension_url: "#NISTd61"
   quantity_name:
   - momentum
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of momentum
-    url: "#NISTu255"
-  - name: kilogram meter per second
-    url: "#NISTu27p10'3.u1.u3e-1/1"
-  - name: natural unit of momentum
-    url: "#NISTu296"
-  - name: natural unit of momentum in MeV/c
-    url: "#NISTu299"
+  - NISTu255
+  - NISTu27p10'3.u1.u3e-1/1
+  - NISTu296
+  - NISTu299
+  dimension_reference: NISTd61
 NISTq132:
-  dimension_url: "#NISTd60"
   quantity_name:
   - moment of momentum
   - angular momentum
   quantity_type: derived
   unit_reference:
-  - name: kilogram meter squared per second
-    url: "#NISTu27p10'3.u1e2/1.u3e-1/1"
+  - NISTu27p10'3.u1e2/1.u3e-1/1
+  dimension_reference: NISTd60
 NISTq133:
-  dimension_url: "#NISTd60"
   quantity_name:
   - angular impulse
   quantity_type: derived
   unit_reference:
-  - name: newton meter second
-    url: "#NISTu11.u1.u3"
+  - NISTu11.u1.u3
+  dimension_reference: NISTd60
 NISTq134:
-  dimension_url: "#NISTd14"
   quantity_name:
   - normal stress
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
+  - NISTu12
+  dimension_reference: NISTd14
 NISTq135:
-  dimension_url: "#NISTd14"
   quantity_name:
   - shear stress
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
+  - NISTu12
+  dimension_reference: NISTd14
 NISTq136:
-  dimension_url: "#NISTd80"
   quantity_name:
   - linear strain
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq137:
-  dimension_url: "#NISTd80"
   quantity_name:
   - shear strain
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq138:
-  dimension_url: "#NISTd80"
   quantity_name:
   - volume strain
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq139:
-  dimension_url: "#NISTd63"
   quantity_name:
   - compressibility
   quantity_type: derived
   unit_reference:
-  - name: pascal to the power minus one
-    url: "#NISTu12e-1/1"
+  - NISTu12e-1/1
+  dimension_reference: NISTd63
 NISTq140:
-  dimension_url: "#NISTd80"
   quantity_name:
   - Poisson number
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq141:
-  dimension_url: "#NISTd14"
   quantity_name:
   - modulus of elasticity
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
+  - NISTu12
+  dimension_reference: NISTd14
 NISTq142:
-  dimension_url: "#NISTd14"
   quantity_name:
   - modulus of rigidity
   - shear modulus
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
+  - NISTu12
+  dimension_reference: NISTd14
 NISTq143:
-  dimension_url: "#NISTd14"
   quantity_name:
   - modulus of compression
   - bulk modulus
   quantity_type: derived
   unit_reference:
-  - name: pascal
-    url: "#NISTu12"
+  - NISTu12
+  dimension_reference: NISTd14
 NISTq144:
-  dimension_url: "#NISTd57"
   quantity_name:
   - second axial moment of area
   quantity_type: derived
   unit_reference:
-  - name: meter to the power four
-    url: "#NISTu185"
+  - NISTu185
+  dimension_reference: NISTd57
 NISTq145:
-  dimension_url: "#NISTd57"
   quantity_name:
   - second polar moment of area
   quantity_type: derived
   unit_reference:
-  - name: meter to the power four
-    url: "#NISTu185"
+  - NISTu185
+  dimension_reference: NISTd57
 NISTq146:
-  dimension_url: "#NISTd10"
   quantity_name:
   - section modulus
   quantity_type: derived
   unit_reference:
-  - name: cubic meter
-    url: "#NISTu1e3/1"
-  - name: inch cubed
-    url: "#NISTu209"
+  - NISTu1e3/1
+  - NISTu209
+  dimension_reference: NISTd10
 NISTq147:
-  dimension_url: "#NISTd80"
   quantity_name:
   - dynamic friction factor
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
 NISTq150:
-  dimension_url: "#NISTd65"
   quantity_name:
   - mass flow rate
   quantity_type: derived
   unit_reference:
-  - name: kilogram per second
-    url: "#NISTu27p10'3.u3e-1/1"
+  - NISTu27p10'3.u3e-1/1
+  dimension_reference: NISTd65
 NISTq151:
-  dimension_url: "#NISTd66"
   quantity_name:
   - volume flow rate
   quantity_type: derived
   unit_reference:
-  - name: cubic meter per second
-    url: "#NISTu1e3/1.u3e-1/1"
-  - name: cubic foot per minute
-    url: "#NISTu358"
-  - name: cubic foot per second
-    url: "#NISTu359"
-  - name: cubic inch per minute
-    url: "#NISTu360"
-  - name: gallon (US) per minute
-    url: "#NISTu364"
+  - NISTu1e3/1.u3e-1/1
+  - NISTu358
+  - NISTu359
+  - NISTu360
+  - NISTu364
+  dimension_reference: NISTd66
 NISTq152:
-  dimension_url: "#NISTd15"
   quantity_name:
   - Lagrange function
   quantity_type: derived
   unit_reference:
-  - name: joule
-    url: "#NISTu13"
+  - NISTu13
+  dimension_reference: NISTd15
 NISTq153:
-  dimension_url: "#NISTd15"
   quantity_name:
   - Hamilton function
   quantity_type: derived
   unit_reference:
-  - name: joule
-    url: "#NISTu13"
+  - NISTu13
+  dimension_reference: NISTd15
 NISTq154:
-  dimension_url: "#NISTd60"
   quantity_name:
   - action
   quantity_type: derived
   unit_reference:
-  - name: joule second
-    url: "#NISTu13.u3"
-  - name: natural unit of action
-    url: "#NISTu243"
-  - name: atomic unit of action
-    url: "#NISTu248"
-  - name: natural unit of action in eV s
-    url: "#NISTu297"
+  - NISTu13.u3
+  - NISTu243
+  - NISTu248
+  - NISTu297
+  dimension_reference: NISTd60
 NISTq155:
-  dimension_url: "#NISTd57"
   quantity_name:
   - area moment of inertia
   - second moment of area
   quantity_type: derived
   unit_reference:
-  - name: inch to the fourth power
-    url: "#NISTu208"
+  - NISTu208
+  dimension_reference: NISTd57
 NISTq156:
-  dimension_url: "#NISTd68"
   quantity_name:
   - linear expansion coefficient
   quantity_type: derived
   unit_reference:
-  - name: kelvin to the power minus one
-    url: "#NISTu5e-1/1"
+  - NISTu5e-1/1
+  dimension_reference: NISTd68
 NISTq157:
-  dimension_url: "#NISTd68"
   quantity_name:
   - cubic expansion coefficient
   quantity_type: derived
   unit_reference:
-  - name: kelvin to the power minus one
-    url: "#NISTu5e-1/1"
+  - NISTu5e-1/1
+  dimension_reference: NISTd68
 NISTq158:
-  dimension_url: "#NISTd68"
   quantity_name:
   - relative pressure coefficient
   quantity_type: derived
   unit_reference:
-  - name: kelvin to the power minus one
-    url: "#NISTu5e-1/1"
+  - NISTu5e-1/1
+  dimension_reference: NISTd68
 NISTq159:
-  dimension_url: "#NISTd69"
   quantity_name:
   - pressure coefficient
   quantity_type: derived
   unit_reference:
-  - name: pascal per kelvin
-    url: "#NISTu12.u5e-1/1"
+  - NISTu12.u5e-1/1
+  dimension_reference: NISTd69
 NISTq160:
-  dimension_url: "#NISTd70"
   quantity_name:
   - isothermal compressibility
   quantity_type: derived
   unit_reference:
-  - name: pascal to the power minus one
-    url: "#NISTu12e-1/1"
+  - NISTu12e-1/1
+  dimension_reference: NISTd70
 NISTq161:
-  dimension_url: "#NISTd4"
   quantity_name:
   - magnetomotive force (Cardelli) (-SP811)
   quantity_type: derived
   unit_reference:
-  - name: gilbert
-    url: "#NISTu223"
+  - NISTu223
+  dimension_reference: NISTd4
 NISTq162:
-  dimension_url: "#NISTd72"
   quantity_name:
   - electric dipole moment
   quantity_type: derived
   unit_reference:
-  - name: debye
-    url: "#NISTu224"
-  - name: atomic unit of electric dipole moment
-    url: "#NISTu258"
+  - NISTu224
+  - NISTu258
+  dimension_reference: NISTd72
 NISTq163:
-  dimension_url: "#NISTd54"
   quantity_name:
   - magnetizability
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of magnetizability
-    url: "#NISTu252"
+  - NISTu252
+  dimension_reference: NISTd54
 NISTq164:
-  dimension_url: "#NISTd73"
   quantity_name:
   - magnetic dipole moment
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of magnetic dipole moment
-    url: "#NISTu254"
+  - NISTu254
+  dimension_reference: NISTd73
 NISTq165:
-  dimension_url: "#NISTd74"
   quantity_name:
   - electric field gradient
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of electric field gradient
-    url: "#NISTu260"
+  - NISTu260
+  dimension_reference: NISTd74
 NISTq166:
-  dimension_url: "#NISTd18"
   quantity_name:
   - electric potential
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of electric potential
-    url: "#NISTu261"
-  - name: statvolt
-    url: "#NISTu268"
+  - NISTu261
+  - NISTu268
+  dimension_reference: NISTd18
 NISTq167:
-  dimension_url: "#NISTd75"
   quantity_name:
   - electric quadrupole moment
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of electric quadrupole moment
-    url: "#NISTu263"
+  - NISTu263
+  dimension_reference: NISTd75
 NISTq168:
-  dimension_url: "#NISTd76"
   quantity_name:
   - polarizability
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of electric polarizability
-    url: "#NISTu264"
+  - NISTu264
+  dimension_reference: NISTd76
 NISTq169:
-  dimension_url: "#NISTd19"
   quantity_name:
   - electric capacitance
   quantity_type: derived
   unit_reference:
-  - name: statfarad
-    url: "#NISTu266"
+  - NISTu266
+  dimension_reference: NISTd19
 NISTq170:
-  dimension_url: "#NISTd4"
   quantity_name:
   - electric current intensity
   quantity_type: derived
   unit_reference:
-  - name: statampere
-    url: "#NISTu267"
+  - NISTu267
+  dimension_reference: NISTd4
 NISTq171:
-  dimension_url: "#NISTd23"
   quantity_name:
   - electric inductance
   quantity_type: derived
   unit_reference:
-  - name: stathenry
-    url: "#NISTu269"
+  - NISTu269
+  dimension_reference: NISTd23
 NISTq172:
-  dimension_url: "#NISTd77"
   quantity_name:
   - 1st hyperpolarizability
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of 1st hyperpolarizability
-    url: "#NISTu291"
+  - NISTu291
+  dimension_reference: NISTd77
 NISTq173:
-  dimension_url: "#NISTd78"
   quantity_name:
   - 2nd hyperpolarizability
   quantity_type: derived
   unit_reference:
-  - name: atomic unit of 2nd hyperpolarizability
-    url: "#NISTu292"
+  - NISTu292
+  dimension_reference: NISTd78
 NISTq174:
-  dimension_url: "#NISTd94"
   quantity_name:
   - index of acidity
   quantity_type: derived
   unit_reference:
-  - name: pH
-    url: "#NISTu332"
+  - NISTu332
+  dimension_reference: NISTd94
 NISTq175:
-  dimension_url: "#NISTd5"
   quantity_name:
   - Fahrenheit temperature
   quantity_type: derived
   unit_reference:
-  - name: degree Fahrenheit
-    url: "#NISTu133"
+  - NISTu133
+  dimension_reference: NISTd5
 NISTq176:
-  dimension_url: "#NISTd58"
   quantity_name:
   - mass divided by length
   quantity_type: derived
   unit_reference:
-  - name: denier
-    url: "#NISTu346"
+  - NISTu346
+  dimension_reference: NISTd58
 NISTq177:
-  dimension_url: "#NISTd95"
   quantity_name:
   - storage capacity
   - storage size
   quantity_type: derived
   unit_reference:
-  - name: bit
-    url: "#NISTu350"
-  - name: byte
-    url: "#NISTu351"
+  - NISTu350
+  - NISTu351
+  dimension_reference: NISTd95
 NISTq179:
-  dimension_url: "#NISTd79"
   quantity_name:
   - molality of solute B
   quantity_type: derived
   unit_reference:
-  - name: mole per kilogram
-    url: "#NISTu6.u27p10'3e-1/1"
+  - NISTu6.u27p10'3e-1/1
+  dimension_reference: NISTd79
 NISTq180:
-  dimension_url: "#NISTd71"
   quantity_name:
   - coefficient of heat transfer
   quantity_type: derived
   unit_reference:
-  - name: watt per square meter kelvin
-    url: "#NISTu221"
+  - NISTu221
+  dimension_reference: NISTd71
 NISTq181:
-  dimension_url: "#NISTd71"
   quantity_name:
   - surface coefficient of heat transfer
   quantity_type: derived
   unit_reference:
-  - name: watt per square meter kelvin
-    url: "#NISTu221"
+  - NISTu221
+  dimension_reference: NISTd71
 NISTq182:
-  dimension_url: "#NISTd15"
   quantity_name:
   - kinetic energy
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu13
+  - NISTu14.u3
+  - NISTu206
+  - NISTu227
+  - NISTu331
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq183:
-  dimension_url: "#NISTd15"
   quantity_name:
   - mechanical energy
   quantity_type: derived
   unit_reference:
-  - name: therm (EC)
-    url: "#NISTu117"
-  - name: joule
-    url: "#NISTu13"
-  - name: watt second
-    url: "#NISTu14.u3"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: thermochemical calorie
-    url: "#NISTu227"
-  - name: therm (US)
-    url: "#NISTu331"
-  - name: I.T. calorie
-    url: "#NISTu60"
-  - name: erg
-    url: "#NISTu62"
-  - name: kilocalorie_IT
-    url: "#NISTu63"
-  - name: kilocalorie_th
-    url: "#NISTu64"
-  - name: kilowatt hour
-    url: "#NISTu65"
-  - name: watt hour
-    url: "#NISTu69"
+  - NISTu117
+  - NISTu13
+  - NISTu14.u3
+  - NISTu206
+  - NISTu227
+  - NISTu331
+  - NISTu60
+  - NISTu62
+  - NISTu63
+  - NISTu64
+  - NISTu65
+  - NISTu69
+  dimension_reference: NISTd15
 NISTq184:
-  dimension_url: "#NISTd15"
   quantity_name:
   - torque
   quantity_type: derived
   unit_reference:
-  - name: newton meter
-    url: "#NISTu11.u1"
-  - name: kilogram-force meter
-    url: "#NISTu126"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: torr
-    url: "#NISTu214"
+  - NISTu11.u1
+  - NISTu126
+  - NISTu206
+  - NISTu214
+  dimension_reference: NISTd15
 NISTq185:
-  dimension_url: "#NISTd15"
   quantity_name:
   - bending moment of force
   quantity_type: derived
   unit_reference:
-  - name: newton meter
-    url: "#NISTu11.u1"
-  - name: kilogram-force meter
-    url: "#NISTu126"
-  - name: foot pound-force
-    url: "#NISTu206"
-  - name: torr
-    url: "#NISTu214"
+  - NISTu11.u1
+  - NISTu126
+  - NISTu206
+  - NISTu214
+  dimension_reference: NISTd15
 NISTq1000:
-  dimension_url: "#NISTd85"
   quantity_name:
   - mass fraction
   - mole fraction
   quantity_type: derived
   unit_reference:
-  - name: parts per million
-    url: "#NISTu400"
+  - NISTu400
+  dimension_reference: NISTd85
 NISTq1001:
-  dimension_url: "#NISTd16"
   quantity_name:
   - apparent power
   quantity_type: derived
   unit_reference:
-  - name: var
-    url: "#NISTu401"
+  - NISTu401
+  dimension_reference: NISTd16
 NISTq1002:
-  dimension_url: "#NISTd80"
   quantity_name:
   - nil
   quantity_type: derived
   unit_reference:
-  - name: one
-    url: "#NISTu61"
+  - NISTu61
+  dimension_reference: NISTd80
