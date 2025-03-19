@@ -812,9 +812,10 @@ NISTu27:
     url: "#NISTq2"
   unit_name:
   - gram
-  unit_system:
-    name: SI
-    type: SI_multiples_and_sub
+  si_derived_bases:
+  - power: -3
+    prefix:
+    id: NISTu2
   root: true
   root_units:
   - power_numerator: 1
@@ -4363,7 +4364,7 @@ NISTu222:
 NISTu223:
   dimension_url: "#NISTd4"
   quantity_reference:
-  - name: magnetomotive force (Cardelli)   (-SP811)
+  - name: magnetomotive force (Cardelli) (-SP811)
     url: "#NISTq161"
   unit_name:
   - gilbert
@@ -7916,7 +7917,7 @@ NISTu379:
 NISTu400:
   dimension_url: "#NISTd80"
   quantity_reference:
-  - name: mass quantity
+  - name: mass fraction
     url: "#NISTq1000"
   unit_name:
   - parts per million

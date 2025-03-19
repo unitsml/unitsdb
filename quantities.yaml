@@ -1051,7 +1051,7 @@ NISTq54:
 NISTq55:
   dimension_url: "#NISTd34"
   quantity_name:
-  - concentration
+  - amount concentration
   quantity_type: derived
   unit_reference:
   - name: mole per liter
