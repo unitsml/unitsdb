@@ -167,13 +167,17 @@ module Unitsdb
            .sort_by do |key, _|
              key_str = key.to_s
 
-             # Handle NIST IDs for prefixes to sort negative powers first
-             if key_str =~ /^NIST([a-z])(\d+)_(-?\d+)/
-               [$1, $2.to_i, $3.to_i]
-             elsif key_str =~ /^NIST([a-z])(\d+)/
-               [$1, $2.to_i, 0]  # Fallback for keys without underscore
+             # Handle NIST IDs with proper category-based sorting
+             if key_str =~ /\ANIST([a-z])(\d+)_(-?\d+)\Z/         # Prefixes with power (NISTp2_10)
+               [0, $1, $2.to_i, $3.to_i]
+             elsif key_str =~ /\ANIST([a-z])(\d+)\Z/              # Prefixes without power
+               [0, $1, $2.to_i, 0]
+             elsif key_str.match?(/[\/e]/)                        # Composite IDs with '/' or 'e' to the end
+               [2, key_str]
+             elsif key_str =~ /\ANISTu(\d+)\.(.+)\Z/              # Simple unit IDs (NISTu10.1)
+               [1, 'u', $1.to_i, $2]
              else
-               [key_str]
+               [3, key_str]                                       # Everything else
              end
            end.to_h
       when Array

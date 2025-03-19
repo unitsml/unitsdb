@@ -1,6 +1,8 @@
 ---
 NISTd1:
   length:
+    power_numerator: 1
+    symbol: L
     symbols:
     - ascii: L
       html: "&#x1D5AB;"
@@ -8,11 +10,11 @@ NISTd1:
       latex: "\\ensuremath{\\mathsf{L}}"
       mathml: "<mi mathvariant='sans-serif'>L</mi>"
       unicode: "\U0001D5AB"
-    power_numerator: 1
-    symbol: L
   short: length
 NISTd2:
   mass:
+    power_numerator: 1
+    symbol: M
     symbols:
     - ascii: M
       html: "&#x1D5AC;"
@@ -20,12 +22,12 @@ NISTd2:
       latex: "\\ensuremath{\\mathsf{M}}"
       mathml: "<mi mathvariant='sans-serif'>M</mi>"
       unicode: "\U0001D5AC"
-    power_numerator: 1
-    symbol: M
   short: mass
 NISTd3:
   short: time
   time:
+    power_numerator: 1
+    symbol: T
     symbols:
     - ascii: T
       html: "&#x1D5B3;"
@@ -33,10 +35,10 @@ NISTd3:
       latex: "\\ensuremath{\\mathsf{T}}"
       mathml: "<mi mathvariant='sans-serif'>T</mi>"
       unicode: "\U0001D5B3"
-    power_numerator: 1
-    symbol: T
 NISTd4:
   electric_current:
+    power_numerator: 1
+    symbol: I
     symbols:
     - ascii: I
       html: "&#x1D5A8;"
@@ -44,12 +46,12 @@ NISTd4:
       latex: "\\ensuremath{\\mathsf{I}}"
       mathml: "<mi mathvariant='sans-serif'>I</mi>"
       unicode: "\U0001D5A8"
-    power_numerator: 1
-    symbol: I
   short: electric_current
 NISTd5:
   short: temperature
   thermodynamic_temperature:
+    power_numerator: 1
+    symbol: Theta
     symbols:
     - ascii: Theta
       html: "&#x1D760;"
@@ -57,22 +59,22 @@ NISTd5:
       latex: "\\ensuremath{\\mathsf{\\Theta}}"
       mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
       unicode: "\U0001D767"
-    power_numerator: 1
-    symbol: Theta
 NISTd6:
   amount_of_substance:
+    power_numerator: 1
+    symbol: "N"
     symbols:
-    - ascii: N
+    - ascii: "N"
       html: "&#x1D5AD;"
       id: dim_N
       latex: "\\ensuremath{\\mathsf{N}}"
       mathml: "<mi mathvariant='sans-serif'>N</mi>"
       unicode: "\U0001D5AD"
-    power_numerator: 1
-    symbol: N
   short: substance_amount
 NISTd7:
   luminous_intensity:
+    power_numerator: 1
+    symbol: J
     symbols:
     - ascii: J
       html: "&#x1D5A9;"
@@ -80,8 +82,6 @@ NISTd7:
       latex: "\\ensuremath{\\mathsf{J}}"
       mathml: "<mi mathvariant='sans-serif'>J</mi>"
       unicode: "\U0001D5A9"
-    power_numerator: 1
-    symbol: J
   short: luminous_intensity
 NISTd8:
   length:
@@ -91,6 +91,8 @@ NISTd8:
 NISTd9:
   dimensionless: true
   plane_angle:
+    power_numerator: 1
+    symbol: phi
     symbols:
     - ascii: phi
       html: "&#x1D785;"
@@ -98,8 +100,6 @@ NISTd9:
       latex: "\\ensuremath{\\mathsf{\\phi}}"
       mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
       unicode: "\U0001D785"
-    power_numerator: 1
-    symbol: phi
   short: plane_angle
 NISTd10:
   length:
@@ -277,7 +277,7 @@ NISTd25:
 NISTd26:
   amount_of_substance:
     power_numerator: 1
-    symbol: N
+    symbol: "N"
   short: catalytic_activity
   time:
     power_numerator: -1
@@ -338,7 +338,7 @@ NISTd33:
 NISTd34:
   amount_of_substance:
     power_numerator: 1
-    symbol: N
+    symbol: "N"
   length:
     power_numerator: -3
     symbol: L
@@ -481,7 +481,7 @@ NISTd46:
 NISTd47:
   amount_of_substance:
     power_numerator: -1
-    symbol: N
+    symbol: "N"
   length:
     power_numerator: 2
     symbol: L
@@ -495,7 +495,7 @@ NISTd47:
 NISTd48:
   amount_of_substance:
     power_numerator: -1
-    symbol: N
+    symbol: "N"
   length:
     power_numerator: 2
     symbol: L
@@ -575,7 +575,7 @@ NISTd54:
 NISTd55:
   amount_of_substance:
     power_numerator: 1
-    symbol: N
+    symbol: "N"
   mass:
     power_numerator: -3
     symbol: M
@@ -805,7 +805,7 @@ NISTd78:
 NISTd79:
   amount_of_substance:
     power_numerator: 1
-    symbol: N
+    symbol: "N"
   mass:
     power_numerator: 1
     symbol: M
