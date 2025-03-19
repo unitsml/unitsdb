@@ -1,7 +1,7 @@
 ---
 NISTd1:
   length:
-    dim_symbols:
+    symbols:
     - ascii: L
       html: "&#x1D5AB;"
       id: dim_L
@@ -13,7 +13,7 @@ NISTd1:
   short: length
 NISTd2:
   mass:
-    dim_symbols:
+    symbols:
     - ascii: M
       html: "&#x1D5AC;"
       id: dim_M
@@ -26,7 +26,7 @@ NISTd2:
 NISTd3:
   short: time
   time:
-    dim_symbols:
+    symbols:
     - ascii: T
       html: "&#x1D5B3;"
       id: dim_T
@@ -37,7 +37,7 @@ NISTd3:
     symbol: T
 NISTd4:
   electric_current:
-    dim_symbols:
+    symbols:
     - ascii: I
       html: "&#x1D5A8;"
       id: dim_I
@@ -50,7 +50,7 @@ NISTd4:
 NISTd5:
   short: temperature
   thermodynamic_temperature:
-    dim_symbols:
+    symbols:
     - ascii: Theta
       html: "&#x1D760;"
       id: dim_Theta
@@ -61,7 +61,7 @@ NISTd5:
     symbol: Theta
 NISTd6:
   amount_of_substance:
-    dim_symbols:
+    symbols:
     - ascii: N
       html: "&#x1D5AD;"
       id: dim_N
@@ -73,7 +73,7 @@ NISTd6:
   short: substance_amount
 NISTd7:
   luminous_intensity:
-    dim_symbols:
+    symbols:
     - ascii: J
       html: "&#x1D5A9;"
       id: dim_J
@@ -91,7 +91,7 @@ NISTd8:
 NISTd9:
   dimensionless: true
   plane_angle:
-    dim_symbols:
+    symbols:
     - ascii: phi
       html: "&#x1D785;"
       id: dim_phi

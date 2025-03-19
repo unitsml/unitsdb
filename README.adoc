@@ -40,7 +40,7 @@ dimension_id:
   {dimension_name}:
     power_numerator: power_numerator
     symbol: ASCII representation
-    dim_symbols:
+    symbols:
     - id: dimension_symbol_id
       ascii: ASCII representation
       html: "HTML representation"
@@ -57,7 +57,7 @@ NISTd1:
   length:
     power_numerator: 1
     symbol: L
-    dim_symbols:
+    symbols:
     - id: dim_L
       ascii: L
       html: "&#x1D5AB;"
@@ -68,7 +68,7 @@ NISTd2:
   mass:
     power_numerator: 1
     symbol: M
-    dim_symbols:
+    symbols:
     - id: dim_M
       ascii: M
       html: "&#x1D5AC;"
@@ -258,7 +258,7 @@ unit_id:
     name: unit_system_name
   unit_name:
   - unit_name
-  unit_symbols:
+  symbols:
   - id: symbol_id
     ascii: ASCII representation
     html: "HTML representation"
@@ -287,7 +287,7 @@ NISTu5:
     name: SI
   unit_name:
   - kelvin
-  unit_symbols:
+  symbols:
   - id: K
     ascii: K
     html: K
