@@ -18,9 +18,6 @@ NISTu1:
   unit_name:
   - meter
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu1
   short: meter
   symbols:
   - latex: "\\ensuremath{\\mathrm{m}}"
@@ -62,9 +59,6 @@ NISTu3:
   unit_name:
   - second
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu3
   short: second
   symbols:
   - latex: "\\ensuremath{\\mathrm{s}}"
@@ -94,9 +88,6 @@ NISTu4:
   unit_name:
   - ampere
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu4
   short: ampere
   symbols:
   - latex: "\\ensuremath{\\mathrm{A}}"
@@ -114,9 +105,6 @@ NISTu5:
   unit_name:
   - kelvin
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu5
   short: kelvin
   symbols:
   - latex: "\\ensuremath{\\mathrm{K}}"
@@ -140,9 +128,6 @@ NISTu6:
   unit_name:
   - mole
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu6
   short: mole
   symbols:
   - latex: "\\ensuremath{\\mathrm{mol}}"
@@ -160,9 +145,6 @@ NISTu7:
   unit_name:
   - candela
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu7
   short: candela
   symbols:
   - latex: "\\ensuremath{\\mathrm{cd}}"
@@ -181,9 +163,6 @@ NISTu8:
   unit_name:
   - inch
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu8
   short: inch
   symbols:
   - latex: "\\ensuremath{\\mathrm{in}}"
@@ -220,9 +199,6 @@ NISTu9:
   unit_name:
   - radian
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu9
   short: radian
   symbols:
   - latex: "\\ensuremath{\\mathrm{rad}}"
@@ -247,9 +223,6 @@ NISTu10:
   unit_name:
   - steradian
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu10
   short: steradian
   symbols:
   - latex: "\\ensuremath{\\mathrm{sr}}"
@@ -277,9 +250,6 @@ NISTu11:
   unit_name:
   - newton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu11
   short: newton
   symbols:
   - latex: "\\ensuremath{\\mathrm{N}}"
@@ -313,9 +283,6 @@ NISTu12:
   unit_name:
   - pascal
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu12
   short: pascal
   symbols:
   - latex: "\\ensuremath{\\mathrm{Pa}}"
@@ -350,9 +317,6 @@ NISTu13:
   unit_name:
   - joule
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu13
   short: joule
   symbols:
   - latex: "\\ensuremath{\\mathrm{J}}"
@@ -381,9 +345,6 @@ NISTu14:
   unit_name:
   - watt
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu14
   short: watt
   symbols:
   - latex: "\\ensuremath{\\mathrm{W}}"
@@ -409,9 +370,6 @@ NISTu15:
   unit_name:
   - coulomb
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu15
   short: coulomb
   symbols:
   - latex: "\\ensuremath{\\mathrm{C}}"
@@ -443,9 +401,6 @@ NISTu16:
   unit_name:
   - volt
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu16
   short: volt
   symbols:
   - latex: "\\ensuremath{\\mathrm{V}}"
@@ -476,9 +431,6 @@ NISTu17:
   unit_name:
   - farad
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu17
   short: farad
   symbols:
   - latex: "\\ensuremath{\\mathrm{F}}"
@@ -509,9 +461,6 @@ NISTu18:
   unit_name:
   - ohm
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu18
   short: ohm
   symbols:
   - latex: "\\ensuremath{\\mathrm{\\Omega}}"
@@ -542,9 +491,6 @@ NISTu19:
   unit_name:
   - siemens
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu19
   short: siemens
   symbols:
   - latex: "\\ensuremath{\\mathrm{S}}"
@@ -575,9 +521,6 @@ NISTu20:
   unit_name:
   - weber
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu20
   short: weber
   symbols:
   - latex: "\\ensuremath{\\mathrm{Wb}}"
@@ -605,9 +548,6 @@ NISTu21:
   unit_name:
   - tesla
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu21
   short: tesla
   symbols:
   - latex: "\\ensuremath{\\mathrm{T}}"
@@ -638,9 +578,6 @@ NISTu22:
   unit_name:
   - henry
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu22
   short: henry
   symbols:
   - latex: "\\ensuremath{\\mathrm{H}}"
@@ -662,9 +599,6 @@ NISTu23:
   unit_name:
   - degree Celsius
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu23
   short: degree_Celsius
   symbols:
   - latex: "\\ensuremath{\\mathrm{^{\\circ}C}}"
@@ -686,9 +620,6 @@ NISTu25:
   unit_name:
   - becquerel
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu25
   short: becquerel
   symbols:
   - latex: "\\ensuremath{\\mathrm{Bq}}"
@@ -732,9 +663,6 @@ NISTu27:
     prefix:
     id: NISTu2
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu27
   short: gram
   symbols:
   - latex: "\\ensuremath{\\mathrm{g}}"
@@ -759,9 +687,6 @@ NISTu28:
   unit_name:
   - gray
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu28
   short: gray
   symbols:
   - latex: "\\ensuremath{\\mathrm{Gy}}"
@@ -786,9 +711,6 @@ NISTu29:
   unit_name:
   - sievert
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu29
   short: sievert
   symbols:
   - latex: "\\ensuremath{\\mathrm{Sv}}"
@@ -813,9 +735,6 @@ NISTu30:
   unit_name:
   - katal
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu30
   short: katal
   symbols:
   - latex: "\\ensuremath{\\mathrm{kat}}"
@@ -837,9 +756,6 @@ NISTu31:
   unit_name:
   - hertz
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu31
   short: hertz
   symbols:
   - latex: "\\ensuremath{\\mathrm{Hz}}"
@@ -861,9 +777,6 @@ NISTu32:
   unit_name:
   - lumen
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu32
   short: lumen
   symbols:
   - latex: "\\ensuremath{\\mathrm{lm}}"
@@ -888,9 +801,6 @@ NISTu33:
   unit_name:
   - lux
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu33
   short: lux
   symbols:
   - latex: "\\ensuremath{\\mathrm{lx}}"
@@ -908,9 +818,6 @@ NISTu36:
   unit_name:
   - minute
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu36
   short: minute
   symbols:
   - latex: "\\ensuremath{\\mathrm{min}}"
@@ -940,9 +847,6 @@ NISTu37:
   unit_name:
   - hour
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu37
   short: hour
   symbols:
   - latex: "\\ensuremath{\\mathrm{h}}"
@@ -960,9 +864,6 @@ NISTu38:
   unit_name:
   - day
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu38
   short: day
   symbols:
   - latex: "\\ensuremath{\\mathrm{d}}"
@@ -981,9 +882,6 @@ NISTu39:
   unit_name:
   - ångström
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu39
   short: angstrom
   symbols:
   - latex: "\\ensuremath{\\mathrm{\\AA}}"
@@ -1001,9 +899,6 @@ NISTu42:
   unit_name:
   - are
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu42
   short: are
   symbols:
   - latex: "\\ensuremath{\\mathrm{a}}"
@@ -1022,9 +917,6 @@ NISTu43:
   unit_name:
   - barn
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu43
   short: barn
   symbols:
   - latex: "\\ensuremath{\\mathrm{b}}"
@@ -1042,9 +934,6 @@ NISTu44:
   unit_name:
   - hectare
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu44
   short: hectare
   symbols:
   - latex: "\\ensuremath{\\mathrm{ha}}"
@@ -1103,9 +992,6 @@ NISTu47:
   - abampere
   - EMU of current
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu47
   short: abampere
   symbols:
   - latex: "\\ensuremath{\\mathrm{abA}}"
@@ -1124,9 +1010,6 @@ NISTu48:
   unit_name:
   - abcoulomb
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu48
   short: abcoulomb
   symbols:
   - latex: "\\ensuremath{\\mathrm{abC}}"
@@ -1145,9 +1028,6 @@ NISTu49:
   - abfarad
   - EMU of capacitance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu49
   short: abfarad
   symbols:
   - latex: "\\ensuremath{\\mathrm{abF}}"
@@ -1166,9 +1046,6 @@ NISTu50:
   - abhenry
   - EMU of inductance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu50
   short: abhenry
   symbols:
   - latex: "\\ensuremath{\\mathrm{abH}}"
@@ -1186,9 +1063,6 @@ NISTu51:
   unit_name:
   - abmho
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu51
   short: abmho
   symbols:
   - latex: "\\ensuremath{\\mathrm{(ab\\Omega)^{-1}}"
@@ -1207,9 +1081,6 @@ NISTu52:
   - abohm
   - EMU of resistance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu52
   short: abohm
   symbols:
   - latex: "\\ensuremath{\\mathrm{ab\\Omega}}"
@@ -1229,9 +1100,6 @@ NISTu53:
   - abvolt
   - EMU of electric potential
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu53
   short: abvolt
   symbols:
   - latex: "\\ensuremath{\\mathrm{abV}}"
@@ -1315,9 +1183,6 @@ NISTu58:
   unit_name:
   - maxwell
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu58
   short: maxwell
   symbols:
   - latex: "\\ensuremath{\\mathrm{Mx}}"
@@ -1342,9 +1207,6 @@ NISTu60:
   - calorie_IT
   - calorie
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu60
   short: table_calorie
   symbols:
   - latex: "\\ensuremath{\\mathrm{cal_{IT}}}"
@@ -1394,9 +1256,6 @@ NISTu62:
   unit_name:
   - erg
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu62
   short: erg
   symbols:
   - latex: "\\ensuremath{\\mathrm{erg}}"
@@ -1420,9 +1279,6 @@ NISTu63:
   unit_name:
   - kilocalorie_IT
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu63
   short: table_kg_calorie
   symbols:
   - latex: "\\ensuremath{\\mathrm{kcal_{IT}}}"
@@ -1446,9 +1302,6 @@ NISTu64:
   unit_name:
   - kilocalorie_th
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu64
   short: thermo_kg_calorie
   symbols:
   - latex: "\\ensuremath{\\mathrm{kcal_{th}}}"
@@ -1522,9 +1375,6 @@ NISTu71:
   unit_name:
   - dyne
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu71
   short: dyne
   symbols:
   - latex: "\\ensuremath{\\mathrm{dyn}}"
@@ -1635,9 +1485,6 @@ NISTu78:
   unit_name:
   - foot
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu78
   short: foot
   symbols:
   - latex: "\\ensuremath{\\mathrm{ft}}"
@@ -1668,9 +1515,6 @@ NISTu83:
   unit_name:
   - mile
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu83
   short: mile
   symbols:
   - latex: "\\ensuremath{\\mathrm{mi}}"
@@ -1689,9 +1533,6 @@ NISTu84:
   unit_name:
   - yard
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu84
   short: yard
   symbols:
   - latex: "\\ensuremath{\\mathrm{yd}}"
@@ -1709,9 +1550,6 @@ NISTu85:
   unit_name:
   - phot
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu85
   short: phot
   symbols:
   - latex: "\\ensuremath{\\mathrm{ph}}"
@@ -1732,9 +1570,6 @@ NISTu86:
   - apothecary grain
   - grain
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu86
   short: grain
   symbols:
   - latex: "\\ensuremath{\\mathrm{gr}}"
@@ -1753,9 +1588,6 @@ NISTu88:
   - metric ton
   - ton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu88
   short: metric_ton
   symbols:
   - latex: "\\ensuremath{\\mathrm{t}}"
@@ -1797,9 +1629,6 @@ NISTu91:
   unit_name:
   - bar
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu91
   short: bar
   symbols:
   - latex: "\\ensuremath{\\mathrm{bar}}"
@@ -1962,9 +1791,6 @@ NISTu98:
   unit_name:
   - curie
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu98
   short: curie
   symbols:
   - latex: "\\ensuremath{\\mathrm{Ci}}"
@@ -1983,9 +1809,6 @@ NISTu99:
   unit_name:
   - rad (absorbed dose)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu99
   short: rad
   symbols:
   - latex: "\\ensuremath{\\mathrm{rad}}"
@@ -2004,9 +1827,6 @@ NISTu100:
   unit_name:
   - rem
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu100
   short: rem
   symbols:
   - latex: "\\ensuremath{\\mathrm{rem}}"
@@ -2026,9 +1846,6 @@ NISTu106:
   - year (365 days)
   - year
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu106
   short: year_365
   symbols:
   - latex: "\\ensuremath{\\mathrm{a}}"
@@ -2224,9 +2041,6 @@ NISTu117:
   unit_name:
   - therm (EC)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu117
   short: ec_therm
   symbols:
   - latex: "\\ensuremath{\\mathrm{thm (EC)}}"
@@ -2244,9 +2058,6 @@ NISTu118:
   unit_name:
   - roentgen
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu118
   short: roentgen
   symbols:
   - latex: "\\ensuremath{\\mathrm{R}}"
@@ -2265,9 +2076,6 @@ NISTu119:
   unit_name:
   - gauss
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu119
   short: gauss
   symbols:
   - latex: "\\ensuremath{\\mathrm{Gs}}"
@@ -2292,9 +2100,6 @@ NISTu120:
   unit_name:
   - kayser
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu120
   short: kayser
   symbols:
   - latex: "\\ensuremath{\\mathrm{K}}"
@@ -2386,9 +2191,6 @@ NISTu124:
   unit_name:
   - stilb
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu124
   short: stilb
   symbols:
   - latex: "\\ensuremath{\\mathrm{sb}}"
@@ -2460,9 +2262,6 @@ NISTu127:
   - horsepower, electric
   - electric horsepower
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu127
   short: electric_horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -2481,9 +2280,6 @@ NISTu128:
   unit_name:
   - poise
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu128
   short: poise
   symbols:
   - latex: "\\ensuremath{\\mathrm{P}}"
@@ -2501,9 +2297,6 @@ NISTu129:
   unit_name:
   - rhe
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu129
   short: rhe
   symbols:
   - latex: "\\ensuremath{\\mathrm{rhe}}"
@@ -2521,9 +2314,6 @@ NISTu130:
   unit_name:
   - liter
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu130
   short: liter
   symbols:
   - latex: "\\ensuremath{\\mathrm{l}}"
@@ -2548,9 +2338,6 @@ NISTu131:
   unit_name:
   - nautical mile
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu131
   short: nautical_mile
   symbols:
   - latex: "\\ensuremath{\\mathrm{M}}"
@@ -2568,9 +2355,6 @@ NISTu133:
   unit_name:
   - degree Fahrenheit
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu133
   short: degree_Fahrenheit
   symbols:
   - latex: "\\ensuremath{\\mathrm{^{\\circ}F}}"
@@ -2589,9 +2373,6 @@ NISTu134:
   unit_name:
   - standard atmosphere
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu134
   short: standard_atmosphere
   symbols:
   - latex: "\\ensuremath{\\mathrm{atm}}"
@@ -2610,9 +2391,6 @@ NISTu135:
   unit_name:
   - technical atmosphere
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu135
   short: technical_atmosphere
   symbols:
   - latex: "\\ensuremath{\\mathrm{at}}"
@@ -2630,9 +2408,6 @@ NISTu142:
   unit_name:
   - stokes
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu142
   short: stokes
   symbols:
   - latex: "\\ensuremath{\\mathrm{St}}"
@@ -2650,9 +2425,6 @@ NISTu143:
   unit_name:
   - gal
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu143
   short: gal
   symbols:
   - latex: "\\ensuremath{\\mathrm{Gal}}"
@@ -2670,9 +2442,6 @@ NISTu144:
   unit_name:
   - oersted
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu144
   short: oersted
   symbols:
   - latex: "\\ensuremath{\\mathrm{Oe}}"
@@ -2690,9 +2459,6 @@ NISTu147:
   unit_name:
   - minute (minute of arc)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu147
   short: arc_minute
   symbols:
   - latex: "\\ensuremath{\\mathrm{'}}"
@@ -2716,9 +2482,6 @@ NISTu148:
   unit_name:
   - second (second of arc)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu148
   short: arc_second
   symbols:
   - latex: "\\ensuremath{\\mathrm{''}}"
@@ -2748,9 +2511,6 @@ NISTu149:
   unit_name:
   - degree (degree of arc)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu149
   short: arc_degree
   symbols:
   - latex: "\\ensuremath{\\mathrm{^{\\circ}}}"
@@ -2769,9 +2529,6 @@ NISTu152:
   - nautical mile per hour
   - knot
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu152
   short: knot
   symbols:
   - latex: "\\ensuremath{\\mathrm{kn}}"
@@ -2792,9 +2549,6 @@ NISTu153:
   unit_name:
   - neper
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu153
   short: neper
   symbols:
   - latex: "\\ensuremath{\\mathrm{Np}}"
@@ -2814,9 +2568,6 @@ NISTu154:
   unit_name:
   - bel
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu154
   short: bel
   symbols:
   - latex: "\\ensuremath{\\mathrm{B}}"
@@ -2859,9 +2610,6 @@ NISTu156:
   - millimeter of mercury, conventional
   - millimeter of mercury
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu156
   short: mm_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{mmHg}}"
@@ -2880,9 +2628,6 @@ NISTu157:
   unit_name:
   - darcy
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu157
   short: darcy
   symbols:
   - latex: "\\ensuremath{\\mathrm{d}}"
@@ -2906,9 +2651,6 @@ NISTu159:
   unit_name:
   - gon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu159
   short: gon
   symbols:
   - latex: "\\ensuremath{\\mathrm{gon}}"
@@ -3013,9 +2755,6 @@ NISTu166:
   - ton of TNT (energy equivalent)
   - ton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu166
   short: tons_of_tnt
   symbols:
   - latex: "\\ensuremath{\\mathrm{ton}}"
@@ -3117,9 +2856,6 @@ NISTu171:
   - imperial gallon
   - gallon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu171
   short: imperial_gallon
   symbols:
   - latex: "\\ensuremath{\\mathrm{gal (UK)}}"
@@ -3138,9 +2874,6 @@ NISTu172:
   - pint (UK)
   - pint
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu172
   short: imperial_pint
   symbols:
   - latex: "\\ensuremath{\\mathrm{pint~{UK}}"
@@ -3160,9 +2893,6 @@ NISTu173:
   - fluid ounce
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu173
   short: imperial_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{fl oz (UK)}}"
@@ -3181,9 +2911,6 @@ NISTu175:
   - gallon (US)
   - gallon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu175
   short: us_gallon
   symbols:
   - latex: "\\ensuremath{\\mathrm{gal (US)}}"
@@ -3202,9 +2929,6 @@ NISTu176:
   - liquid pint (US)
   - pint
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu176
   short: us_pint
   symbols:
   - latex: "\\ensuremath{\\mathrm{liq pint (US)}}"
@@ -3224,9 +2948,6 @@ NISTu177:
   - fluid ounce
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu177
   short: us_fluid_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{fl oz (US)}}"
@@ -3245,9 +2966,6 @@ NISTu178:
   - barrel (US) for petroleum
   - barrel
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu178
   short: petro_barrel
   symbols:
   - latex: "\\ensuremath{\\mathrm{bbl (US)}}"
@@ -3266,9 +2984,6 @@ NISTu179:
   - bushel (US)
   - bushel
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu179
   short: us_bushel
   symbols:
   - latex: "\\ensuremath{\\mathrm{bu (US)}}"
@@ -3287,9 +3002,6 @@ NISTu180:
   - dry pint (US)
   - pint
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu180
   short: us_dry_pint
   symbols:
   - latex: "\\ensuremath{\\mathrm{dry pt (US)}}"
@@ -3307,9 +3019,6 @@ NISTu182:
   unit_name:
   - light year
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu182
   short: light_year
   symbols:
   - latex: "\\ensuremath{\\mathrm{l.y.}}"
@@ -3327,9 +3036,6 @@ NISTu183:
   unit_name:
   - astronomical unit
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu183
   short: astronomical_unit
   symbols:
   - latex: "\\ensuremath{\\mathrm{ua}}"
@@ -3347,9 +3053,6 @@ NISTu184:
   unit_name:
   - parsec
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu184
   short: parsec
   symbols:
   - latex: "\\ensuremath{\\mathrm{pc}}"
@@ -3457,9 +3160,6 @@ NISTu201:
   - avoirdupois pound
   - pound
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu201
   short: av_pound
   symbols:
   - latex: "\\ensuremath{\\mathrm{lb}}"
@@ -3479,9 +3179,6 @@ NISTu202:
   - avoirdupois ounce
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu202
   short: av_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{oz}}"
@@ -3500,9 +3197,6 @@ NISTu203:
   - hundredweight (long, 112 lb)
   - hundredweight
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu203
   short: gross_hundredweight
   symbols:
   - latex: "\\ensuremath{\\mathrm{cwt (UK)}}"
@@ -3543,9 +3237,6 @@ NISTu205:
   unit_name:
   - pound-force
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu205
   short: pound_force
   symbols:
   - latex: "\\ensuremath{\\mathrm{lbf}}"
@@ -3711,9 +3402,6 @@ NISTu212:
   - metric carat
   - carat, metric
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu212
   short: carat
   symbols:
   - latex: "\\ensuremath{\\mathrm{ct}}"
@@ -3731,9 +3419,6 @@ NISTu213:
   unit_name:
   - tex
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu213
   short: tex
   symbols:
   - latex: "\\ensuremath{\\mathrm{tex}}"
@@ -3755,9 +3440,6 @@ NISTu214:
   unit_name:
   - torr
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu214
   short: torr
   symbols:
   - latex: "\\ensuremath{\\mathrm{torr}}"
@@ -3777,9 +3459,6 @@ NISTu215:
   - millimeter of water, conventional
   - millimeter of water
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu215
   short: mm_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{mmH_{2}O}}"
@@ -3799,9 +3478,6 @@ NISTu216:
   - British thermal unit_th
   - thermochemical Btu
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu216
   short: thermo_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu_{th}}}"
@@ -3846,9 +3522,6 @@ NISTu218:
   - horsepower, metric
   - metric horsepower
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu218
   short: metric_horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -3889,9 +3562,6 @@ NISTu222:
   unit_name:
   - lambert
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu222
   short: lambert
   symbols:
   - latex: "\\ensuremath{\\mathrm{L}}"
@@ -3909,9 +3579,6 @@ NISTu223:
   unit_name:
   - gilbert
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu223
   short: gilbert
   symbols:
   - latex: "\\ensuremath{\\mathrm{Gi}}"
@@ -3929,9 +3596,6 @@ NISTu224:
   unit_name:
   - debye
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu224
   short: debye
   symbols:
   - latex: "\\ensuremath{\\mathrm{D}}"
@@ -3949,9 +3613,6 @@ NISTu225:
   unit_name:
   - abwatt
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu225
   short: abwatt
   symbols:
   - latex: "\\ensuremath{\\mathrm{aW}}"
@@ -3969,9 +3630,6 @@ NISTu226:
   unit_name:
   - slug
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu226
   short: slug
   symbols:
   - latex: "\\ensuremath{\\mathrm{D}}"
@@ -3996,9 +3654,6 @@ NISTu227:
   - calorie_th
   - calorie
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu227
   short: thermo_calorie
   symbols:
   - latex: "\\ensuremath{\\mathrm{cal_th}}"
@@ -4023,9 +3678,6 @@ NISTu228:
   - short ton
   - ton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu228
   short: short_ton
   symbols:
   - latex: "\\ensuremath{\\mathrm{t}}"
@@ -4044,9 +3696,6 @@ NISTu229:
   - long ton
   - ton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu229
   short: long_ton
   symbols:
   - latex: "\\ensuremath{\\mathrm{t}}"
@@ -4087,9 +3736,6 @@ NISTu231:
   - troy ounce
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu231
   short: troy_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{oz}}"
@@ -4109,9 +3755,6 @@ NISTu232:
   - troy pound
   - pound
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu232
   short: troy_pound
   symbols:
   - latex: "\\ensuremath{\\mathrm{lb}}"
@@ -4129,9 +3772,6 @@ NISTu233:
   unit_name:
   - pennyweight
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu233
   short: pennyweight
   symbols:
   - latex: "\\ensuremath{\\mathrm{dwt (troy)}}"
@@ -4151,9 +3791,6 @@ NISTu234:
   - apothecary dram
   - dram
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu234
   short: apothecaries_dram
   symbols:
   - latex: "\\ensuremath{\\mathrm{dr}}"
@@ -4172,9 +3809,6 @@ NISTu235:
   - scruple
   - apothecary scruple
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu235
   short: scruple
   symbols:
   - latex: "\\ensuremath{\\mathrm{scr (ap.)}}"
@@ -4193,9 +3827,6 @@ NISTu236:
   unit_name:
   - poundal
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu236
   short: poundal
   symbols:
   - latex: "\\ensuremath{\\mathrm{pdl}}"
@@ -4213,9 +3844,6 @@ NISTu237:
   unit_name:
   - kip
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu237
   short: kip
   symbols:
   - latex: "\\ensuremath{\\mathrm{kip}}"
@@ -4234,9 +3862,6 @@ NISTu238:
   unit_name:
   - ton-force (2000 lb)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu238
   short: ton_force
   symbols:
   - latex: "\\ensuremath{\\mathrm{ton-force (2000 lb)}}"
@@ -4257,9 +3882,6 @@ NISTu239:
   unit_name:
   - barye
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu239
   short: barye
   symbols:
   - latex: "\\ensuremath{\\mathrm{barye}}"
@@ -4277,9 +3899,6 @@ NISTu240:
   unit_name:
   - electronvolt
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu240
   short: electronvolt
   symbols:
   - latex: "\\ensuremath{\\mathrm{eV}}"
@@ -4297,9 +3916,6 @@ NISTu241:
   unit_name:
   - unified atomic mass unit
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu241
   short: unified_atomic_mass_unit
   symbols:
   - latex: "\\ensuremath{\\mathrm{u}}"
@@ -4317,9 +3933,6 @@ NISTu242:
   unit_name:
   - natural unit of velocity
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu242
   short: natural_unit_of_velocity
   symbols:
   - latex: "\\ensuremath{\\mathit{c}_{0}}"
@@ -4343,9 +3956,6 @@ NISTu243:
   unit_name:
   - natural unit of action
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu243
   short: natural_unit_of_action
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}}"
@@ -4363,9 +3973,6 @@ NISTu244:
   unit_name:
   - natural unit of mass
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu244
   short: natural_unit_of_mass
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_\\mathrm{e}}"
@@ -4383,9 +3990,6 @@ NISTu245:
   unit_name:
   - natural unit of time
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu245
   short: natural_unit_of_time
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/(\\mathit{m}_\\mathrm{e}\\mathit{c}^\\mathrm{2}})"
@@ -4404,9 +4008,6 @@ NISTu246:
   unit_name:
   - atomic unit of charge
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu246
   short: atomic_unit_of_charge
   symbols:
   - latex: "\\ensuremath{\\mathit{e}}"
@@ -4424,9 +4025,6 @@ NISTu247:
   unit_name:
   - atomic unit of mass
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu247
   short: atomic_unit_of_mass
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_\\mathrm{e}}"
@@ -4444,9 +4042,6 @@ NISTu248:
   unit_name:
   - atomic unit of action
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu248
   short: atomic_unit_of_action
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}}"
@@ -4464,9 +4059,6 @@ NISTu249:
   unit_name:
   - atomic unit of length
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu249
   short: atomic_unit_of_length
   symbols:
   - latex: "\\ensuremath{\\mathit{a}_\\mathrm{0}}"
@@ -4484,9 +4076,6 @@ NISTu250:
   unit_name:
   - atomic unit of energy
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu250
   short: atomic_unit_of_energy
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_\\mathrm{h}}"
@@ -4504,9 +4093,6 @@ NISTu251:
   unit_name:
   - atomic unit of time
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu251
   short: atomic_unit_of_time
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{E}_\\mathrm{h}}"
@@ -4525,9 +4111,6 @@ NISTu252:
   unit_name:
   - atomic unit of magnetizability
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu252
   short: atomic_unit_of_magnetizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^2\\mathit{a}_0^2/\\mathit{m}_\\mathrm{e}}"
@@ -4547,9 +4130,6 @@ NISTu253:
   unit_name:
   - atomic unit of magnetic flux density
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu253
   short: atomic_unit_of_magnetic_flux_density
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{e}a_0^2}"
@@ -4568,9 +4148,6 @@ NISTu254:
   unit_name:
   - atomic unit of magnetic dipole moment
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu254
   short: atomic_unit_of_magnetic_dipole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar e}/\\mathit{m}_\\mathrm{e}}"
@@ -4589,9 +4166,6 @@ NISTu255:
   unit_name:
   - atomic unit of momentum
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu255
   short: atomic_unit_of_momentum
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{a}_0}"
@@ -4609,9 +4183,6 @@ NISTu256:
   unit_name:
   - atomic unit of charge density
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu256
   short: atomic_unit_of_charge_density
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^{3}}"
@@ -4629,9 +4200,6 @@ NISTu257:
   unit_name:
   - atomic unit of current
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu257
   short: atomic_unit_of_current
   symbols:
   - latex: "\\ensuremath{\\mathit{e}E_{h}/\\mathit{\\hbar}}"
@@ -4650,9 +4218,6 @@ NISTu258:
   unit_name:
   - atomic unit of electric dipole moment
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu258
   short: atomic_unit_of_electric_dipole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0}"
@@ -4670,9 +4235,6 @@ NISTu259:
   unit_name:
   - atomic unit of electric field
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu259
   short: atomic_unit_of_electric_field
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}\\mathit{a}_0}"
@@ -4691,9 +4253,6 @@ NISTu260:
   unit_name:
   - atomic unit of electric field gradient
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu260
   short: atomic_unit_of_electric_field_gradient
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}\\mathit{a}_0^2}"
@@ -4714,9 +4273,6 @@ NISTu261:
   unit_name:
   - atomic unit of electric potential
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu261
   short: atomic_unit_of_electric_potential
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}}"
@@ -4736,9 +4292,6 @@ NISTu262:
   unit_name:
   - atomic unit of force
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu262
   short: atomic_unit_of_force
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{a}_0}"
@@ -4757,9 +4310,6 @@ NISTu263:
   unit_name:
   - atomic unit of electric quadrupole moment
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu263
   short: atomic_unit_of_electric_quadrupole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^2}"
@@ -4777,9 +4327,6 @@ NISTu264:
   unit_name:
   - atomic unit of electric polarizability
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu264
   short: atomic_unit_of_electric_polarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^2/\\mathit{E}_h}"
@@ -4800,9 +4347,6 @@ NISTu265:
   - statohm
   - ESU of resistance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu265
   short: statohm
   symbols:
   - latex: "\\ensuremath{\\mathrm{statohm}}"
@@ -4821,9 +4365,6 @@ NISTu266:
   - statfarad
   - ESU of capacitance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu266
   short: statfarad
   symbols:
   - latex: "\\ensuremath{\\mathrm{statF}}"
@@ -4842,9 +4383,6 @@ NISTu267:
   - statampere
   - ESU of current
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu267
   short: statampere
   symbols:
   - latex: "\\ensuremath{\\mathrm{statA}}"
@@ -4865,9 +4403,6 @@ NISTu268:
   - statvolt
   - ESU of Electric potential
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu268
   short: statvolt
   symbols:
   - latex: statV
@@ -4886,9 +4421,6 @@ NISTu269:
   - stathenry
   - ESU of inductance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu269
   short: stathenry
   symbols:
   - latex: "\\ensuremath{\\mathrm{statH}}"
@@ -4907,9 +4439,6 @@ NISTu270:
   - statmho
   - ESU of conductance
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu270
   short: statmho
   symbols:
   - latex: "\\ensuremath{\\mathrm{statmho}}"
@@ -4929,9 +4458,6 @@ NISTu271:
   - statcoulomb
   - ESU of charge
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu271
   short: statcoulomb
   symbols:
   - latex: "\\ensuremath{\\mathrm{statcoulomb}}"
@@ -4949,9 +4475,6 @@ NISTu272:
   unit_name:
   - statweber
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu272
   short: statweber
   symbols:
   - latex: "\\ensuremath{\\mathrm{statWb}}"
@@ -4969,9 +4492,6 @@ NISTu273:
   unit_name:
   - stattesla
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu273
   short: stattesla
   symbols:
   - latex: "\\ensuremath{\\mathrm{statT}}"
@@ -4989,9 +4509,6 @@ NISTu274:
   unit_name:
   - statwatt
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu274
   short: statwatt
   symbols:
   - latex: "\\ensuremath{\\mathrm{statwatt}}"
@@ -5010,9 +4527,6 @@ NISTu275:
   - dram (avoirdupois)
   - dram
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu275
   short: av_dram
   symbols:
   - latex: "\\ensuremath{\\mathrm{dr~(avdp)}}"
@@ -5030,9 +4544,6 @@ NISTu276:
   unit_name:
   - footcandle
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu276
   short: footcandle
   symbols:
   - latex: "\\ensuremath{\\mathrm{ft.c}}"
@@ -5050,9 +4561,6 @@ NISTu277:
   unit_name:
   - footlambert
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu277
   short: footlambert
   symbols:
   - latex: "\\ensuremath{\\mathrm{ft.L}}"
@@ -5071,9 +4579,6 @@ NISTu278:
   unit_name:
   - pica (computer)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu278
   short: computer_pica
   symbols:
   - latex: "\\ensuremath{\\mathrm{pc}}"
@@ -5091,9 +4596,6 @@ NISTu279:
   unit_name:
   - pica (printer's)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu279
   short: printers_pica
   symbols:
   - latex: "\\ensuremath{\\mathrm{pc}}"
@@ -5112,9 +4614,6 @@ NISTu280:
   unit_name:
   - point (computer)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu280
   short: computer_point
   symbols:
   - latex: "\\ensuremath{\\mathrm{pt}}"
@@ -5133,9 +4632,6 @@ NISTu281:
   - rod (based on US survey foot)
   - rod
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu281
   short: us_survey_rod
   symbols:
   - latex: rd
@@ -5154,9 +4650,6 @@ NISTu282:
   - fathom (based on US survey foot)
   - fathom
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu282
   short: us_survey_fathom
   symbols:
   - latex: "\\ensuremath{\\mathrm{fath}}"
@@ -5174,9 +4667,6 @@ NISTu283:
   unit_name:
   - circular mil
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu283
   short: circular_mil
   symbols:
   - latex: "\\ensuremath{\\mathrm{cmil}}"
@@ -5194,9 +4684,6 @@ NISTu284:
   unit_name:
   - horsepower
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu284
   short: horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -5215,9 +4702,6 @@ NISTu285:
   - horsepower, boiler
   - boiler horsepower
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu285
   short: boiler_horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -5236,9 +4720,6 @@ NISTu286:
   - horsepower, water
   - water horsepower
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu286
   short: water_horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -5256,9 +4737,6 @@ NISTu287:
   unit_name:
   - horsepower (UK)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu287
   short: uk_horsepower
   symbols:
   - latex: "\\ensuremath{\\mathrm{hp}}"
@@ -5276,9 +4754,6 @@ NISTu288:
   unit_name:
   - degree Rankine
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu288
   short: degree_Rankine
   symbols:
   - latex: "\\ensuremath{mathrm{^{\\circ}R}}"
@@ -5316,9 +4791,6 @@ NISTu290:
   unit_name:
   - natural unit of length
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu290
   short: natural_unit_of_length
   symbols:
   - latex: "\\ensuremath{\\lambdabar_C}"
@@ -5336,9 +4808,6 @@ NISTu291:
   unit_name:
   - atomic unit of 1st hyperpolarizability
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu291
   short: atomic_unit_of_1st_hyperpolarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^3/\\mathit(a}_0^3\\mathit{E}_h^3}"
@@ -5358,9 +4827,6 @@ NISTu292:
   unit_name:
   - atomic unit of 2nd hyperpolarizability
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu292
   short: atomic_unit_of_2nd_hyperpolarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^4/\\mathit(a}_0^4\\mathit{E}_h^3}"
@@ -5380,9 +4846,6 @@ NISTu293:
   unit_name:
   - atomic unit of permittivity
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu293
   short: atomic_unit_of_permittivity
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^2/\\mathit(a}_0\\mathit{E}_h}"
@@ -5402,9 +4865,6 @@ NISTu294:
   unit_name:
   - atomic unit of velocity
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu294
   short: atomic_unit_of_velocity
   symbols:
   - latex: "\\ensuremath{\\mathit{a}_\\mathrm{0}\\mathit{E}_{h}/\\mathit{\\hbar}}"
@@ -5424,9 +4884,6 @@ NISTu295:
   unit_name:
   - natural unit of energy
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu295
   short: natural_unit_of_energy
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}^2}"
@@ -5445,9 +4902,6 @@ NISTu296:
   unit_name:
   - natural unit of momentum
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu296
   short: natural_unit_of_momentum
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}}"
@@ -5466,9 +4920,6 @@ NISTu297:
   unit_name:
   - natural unit of action in eV s
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu297
   short: natural_unit_of_action_in_eV_s
   symbols:
   - latex: "\\ensuremath{mathrm{\\hbar}}"
@@ -5486,9 +4937,6 @@ NISTu298:
   unit_name:
   - natural unit of energy in MeV
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu298
   short: natural_unit_of_energy_in_MeV
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}^2}"
@@ -5507,9 +4955,6 @@ NISTu299:
   unit_name:
   - natural unit of momentum in MeV/c
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu299
   short: natural_unit_of_momentum_in_MeV_per_c
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}}"
@@ -5529,9 +4974,6 @@ NISTu300:
   - quart (UK)
   - quart
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu300
   short: imperial_quart
   symbols:
   - latex: "\\ensuremath{\\mathrm{qt (UK)}}"
@@ -5550,9 +4992,6 @@ NISTu301:
   - dry quart (US)
   - quart
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu301
   short: us_dry_quart
   symbols:
   - latex: "\\ensuremath{\\mathrm{dry qt (US)}}"
@@ -5571,9 +5010,6 @@ NISTu302:
   - liquid quart (US)
   - quart
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu302
   short: us_quart
   symbols:
   - latex: "\\ensuremath{\\mathrm{liq qt (US)}}"
@@ -5591,9 +5027,6 @@ NISTu303:
   unit_name:
   - teaspoon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu303
   short: us_teaspoon
   symbols:
   - latex: "\\ensuremath{\\mathrm{tsp}}"
@@ -5611,9 +5044,6 @@ NISTu304:
   unit_name:
   - tablespoon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu304
   short: us_tablespoon
   symbols:
   - latex: "\\ensuremath{\\mathrm{tbsp}}"
@@ -5632,9 +5062,6 @@ NISTu305:
   - tablespoon (FDA)
   - teaspoon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu305
   short: us_label_tablespoon
   symbols:
   - latex: "\\ensuremath{\\mathrm{tbsp}}"
@@ -5653,9 +5080,6 @@ NISTu306:
   - teaspoon (FDA)
   - teaspoon
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu306
   short: us_label_teaspoon
   symbols:
   - latex: "\\ensuremath{\\mathrm{tsp}}"
@@ -5674,9 +5098,6 @@ NISTu307:
   - cup (FDA)
   - cup
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu307
   short: us_label_cup
   symbols:
   - latex: "\\ensuremath{\\mathrm{cup}}"
@@ -5696,9 +5117,6 @@ NISTu308:
   - fluid ounce
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu308
   short: us_label_fluid_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{fl oz (US label)}}"
@@ -5717,9 +5135,6 @@ NISTu309:
   - ounce (FDA)
   - ounce
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu309
   short: us_label_ounce
   symbols:
   - latex: "\\ensuremath{\\mathrm{oz (US label)}}"
@@ -5740,9 +5155,6 @@ NISTu310:
   - Gunter's chain
   - chain
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu310
   short: us_survey_chain
   symbols:
   - latex: "\\ensuremath{\\mathrm{ch}}"
@@ -5763,9 +5175,6 @@ NISTu311:
   - Gunter's link
   - link
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu311
   short: us_survey_link
   symbols:
   - latex: "\\ensuremath{\\mathrm{lnk}}"
@@ -5784,9 +5193,6 @@ NISTu312:
   - furlong (based on US survey foot)
   - furlong
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu312
   short: us_survey_furlong
   symbols:
   - latex: "\\ensuremath{\\mathrm{fur}}"
@@ -5806,9 +5212,6 @@ NISTu313:
   - survey mile
   - mile
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu313
   short: us_survey_mile
   symbols:
   - latex: "\\ensuremath{\\mathrm{mi}}"
@@ -5827,9 +5230,6 @@ NISTu314:
   - yard (based on US survey foot)
   - yard
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu314
   short: us_survey_yard
   symbols:
   - latex: "\\ensuremath{\\mathrm{yd}}"
@@ -5849,9 +5249,6 @@ NISTu315:
   - survey foot
   - foot
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu315
   short: us_survey_foot
   symbols:
   - latex: "\\ensuremath{\\mathrm{ft}}"
@@ -5870,9 +5267,6 @@ NISTu316:
   - inch (based on US survey foot)
   - inch
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu316
   short: us_survey_inch
   symbols:
   - latex: "\\ensuremath{\\mathrm{in}}"
@@ -5891,9 +5285,6 @@ NISTu317:
   - acre (based on US survey foot)
   - acre
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu317
   short: us_acre
   symbols:
   - latex: "\\ensuremath{\\mathrm{ac}}"
@@ -5914,9 +5305,6 @@ NISTu318:
   - centimeter of mercury, conventional
   - centimeter of mercury
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu318
   short: cm_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{cmHg}}"
@@ -5935,9 +5323,6 @@ NISTu319:
   unit_name:
   - centimeter of mercury (0 degC)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu319
   short: 0C_cm_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{cmHg}}"
@@ -5956,9 +5341,6 @@ NISTu320:
   unit_name:
   - centimeter of water (4 degC)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu320
   short: 4C_cm_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{cmH_{2}O}}"
@@ -5980,9 +5362,6 @@ NISTu321:
   - centimeter of water, conventional
   - centimeter of water
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu321
   short: cm_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{cmH_{2}O}}"
@@ -6004,9 +5383,6 @@ NISTu322:
   - inch of water, conventional
   - inch of water
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu322
   short: in_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{inH_{2}O}}"
@@ -6026,9 +5402,6 @@ NISTu323:
   unit_name:
   - inch of water (39.2 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu323
   short: 39F_in_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{inH_{2}O}}"
@@ -6048,9 +5421,6 @@ NISTu324:
   unit_name:
   - inch of water (60 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu324
   short: 60F_in_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{inH_{2}O}}"
@@ -6072,9 +5442,6 @@ NISTu325:
   - foot of water, conventional
   - foot of water
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu325
   short: ft_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{ftH_{2}O}}"
@@ -6094,9 +5461,6 @@ NISTu326:
   unit_name:
   - foot of water (39.2 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu326
   short: 39F_ft_water
   symbols:
   - latex: "\\ensuremath{\\mathrm{ftH_{2}O}}"
@@ -6116,9 +5480,6 @@ NISTu327:
   unit_name:
   - inch of mercury (32 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu327
   short: 32F_in_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{inHg}}"
@@ -6149,9 +5510,6 @@ NISTu328:
   unit_name:
   - inch of mercury (60 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu328
   short: 60F_in_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{inHg}}"
@@ -6184,9 +5542,6 @@ NISTu329:
   - inch of mercury, conventional
   - inch of mercury
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu329
   short: in_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{inHg}}"
@@ -6219,9 +5574,6 @@ NISTu330:
   - 'foot of mercury, conventional '
   - foot of mercury
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu330
   short: ft_Hg
   symbols:
   - latex: "\\ensuremath{\\mathrm{ftnHg}}"
@@ -6256,9 +5608,6 @@ NISTu331:
   unit_name:
   - therm (US)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu331
   short: us_therm
   symbols:
   - latex: "\\ensuremath{\\mathrm{thm (US)}}"
@@ -6276,9 +5625,6 @@ NISTu332:
   unit_name:
   - pH
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu332
   short: pH
   symbols:
   - latex: "\\ensuremath{\\mathrm{pH}}"
@@ -6298,9 +5644,6 @@ NISTu333:
   - International Table Btu
   - British thermal unit
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu333
   short: table_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu}}"
@@ -6318,9 +5661,6 @@ NISTu334:
   unit_name:
   - British thermal unit (mean)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu334
   short: mean_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu}}"
@@ -6338,9 +5678,6 @@ NISTu335:
   unit_name:
   - British thermal unit (39 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu335
   short: 39F_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu}}"
@@ -6358,9 +5695,6 @@ NISTu336:
   unit_name:
   - British thermal unit (59 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu336
   short: 59F_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu}}"
@@ -6378,9 +5712,6 @@ NISTu337:
   unit_name:
   - British thermal unit (60 degF)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu337
   short: 60F_btu
   symbols:
   - latex: "\\ensuremath{\\mathrm{Btu}}"
@@ -6400,9 +5731,6 @@ NISTu338:
   - tropical year
   - year
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu338
   short: tropical_year
   symbols:
   - latex: "\\ensuremath{\\mathrm{a}}"
@@ -6422,9 +5750,6 @@ NISTu339:
   - sidereal year
   - year
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu339
   short: sidereal_year
   symbols:
   - latex: "\\ensuremath{\\mathrm{a}}"
@@ -6444,9 +5769,6 @@ NISTu340:
   - sidereal day
   - day
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu340
   short: sidereal_day
   symbols:
   - latex: "\\ensuremath{\\mathrm{d}}"
@@ -6466,9 +5788,6 @@ NISTu341:
   - sidereal hour
   - hour
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu341
   short: sidereal_hour
   symbols:
   - latex: "\\ensuremath{\\mathrm{h}}"
@@ -6488,9 +5807,6 @@ NISTu342:
   - sidereal minute
   - minute
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu342
   short: sidereal_minute
   symbols:
   - latex: "\\ensuremath{\\mathrm{min}}"
@@ -6510,9 +5826,6 @@ NISTu343:
   - sidereal second
   - second
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu343
   short: sidereal_second
   symbols:
   - latex: "\\ensuremath{\\mathrm{s}}"
@@ -6530,9 +5843,6 @@ NISTu344:
   unit_name:
   - point (printer's)
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu344
   short: printers_point
   symbols:
   - latex: "\\ensuremath{\\mathrm{pt}}"
@@ -6550,9 +5860,6 @@ NISTu345:
   unit_name:
   - shake
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu345
   short: shake
   symbols:
   - latex: "\\ensuremath{\\mathrm{shake}}"
@@ -6570,9 +5877,6 @@ NISTu346:
   unit_name:
   - denier
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu346
   short: denier
   symbols:
   - latex: "\\ensuremath{\\mathrm{den}}"
@@ -6592,9 +5896,6 @@ NISTu347:
   - angular mil
   - mil
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu347
   short: nato_mil
   symbols:
   - latex: "\\ensuremath{\\mathrm{mil}}"
@@ -6613,9 +5914,6 @@ NISTu348:
   - pound-mole
   - pound mole
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu348
   short: pound_mole
   symbols:
   - latex: "\\ensuremath{\\mathrm{lbmol}}"
@@ -6635,9 +5933,6 @@ NISTu349:
   - ton of refrigeration
   - ton
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu349
   short: ton_refrigeration
   symbols:
   - latex: "\\ensuremath{\\mathrm{ton}}"
@@ -6655,9 +5950,6 @@ NISTu350:
   unit_name:
   - bit
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu350
   short: bit
   symbols:
   - latex: "\\ensuremath{\\mathrm{bit}}"
@@ -6675,9 +5967,6 @@ NISTu351:
   unit_name:
   - byte
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu351
   short: byte
   symbols:
   - latex: "\\ensuremath{\\mathrm{B}}"
@@ -6695,9 +5984,6 @@ NISTu352:
   unit_name:
   - peck
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu352
   short: us_peck
   symbols:
   - latex: "\\ensuremath{\\mathrm{pk}}"
@@ -6715,9 +6001,6 @@ NISTu353:
   unit_name:
   - minim
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu353
   short: us_minim
   symbols:
   - latex: "\\ensuremath{\\mathrm{min}}"
@@ -6736,9 +6019,6 @@ NISTu354:
   - cup (US)
   - cup
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu354
   short: us_cup
   symbols:
   - latex: "\\ensuremath{\\mathrm{cup}}"
@@ -6758,9 +6038,6 @@ NISTu355:
   - dram, fluid
   - dram
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu355
   short: us_fluid_dram
   symbols:
   - latex: "\\ensuremath{\\mathrm{fl dr}}"
@@ -6779,9 +6056,6 @@ NISTu356:
   - gill (US)
   - gill
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu356
   short: us_gill
   symbols:
   - latex: "\\ensuremath{\\mathrm{gi}}"
@@ -6801,9 +6075,6 @@ NISTu357:
   - imperial gill
   - gill
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu357
   short: imperial_gill
   symbols:
   - latex: "\\ensuremath{\\mathrm{gi}}"
@@ -7049,9 +6320,6 @@ NISTu376:
   unit_name:
   - light week
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu376
   short: light_week
   symbols:
   - latex: "\\ensuremath{\\mathrm{l.w.}}"
@@ -7069,9 +6337,6 @@ NISTu377:
   unit_name:
   - light hour
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu377
   short: light_hour
   symbols:
   - latex: "\\ensuremath{\\mathrm{l.h.}}"
@@ -7089,9 +6354,6 @@ NISTu378:
   unit_name:
   - light minute
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu378
   short: light_minute
   symbols:
   - latex: "\\ensuremath{\\mathrm{l.m.}}"
@@ -7109,9 +6371,6 @@ NISTu379:
   unit_name:
   - light second
   root: true
-  root_units:
-  - power_numerator: 1
-    unit_reference: NISTu379
   short: light_second
   symbols:
   - latex: "\\ensuremath{\\mathrm{l.s.}}"
