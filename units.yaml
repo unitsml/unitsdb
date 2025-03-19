@@ -38,7 +38,7 @@ NISTu1:
   short: meter
   unit_name:
   - meter
-  unit_symbols:
+  symbols:
   - ascii: m
     html: m
     id: m
@@ -63,7 +63,7 @@ NISTu2:
   short: kilogram
   unit_name:
   - kilogram
-  unit_symbols:
+  symbols:
   - ascii: kg
     html: kg
     id: kg
@@ -90,7 +90,7 @@ NISTu3:
   short: second
   unit_name:
   - second
-  unit_symbols:
+  symbols:
   - ascii: s
     html: s
     id: s
@@ -125,7 +125,7 @@ NISTu4:
   short: ampere
   unit_name:
   - ampere
-  unit_symbols:
+  symbols:
   - ascii: A
     html: A
     id: A
@@ -148,7 +148,7 @@ NISTu5:
   short: kelvin
   unit_name:
   - kelvin
-  unit_symbols:
+  symbols:
   - ascii: K
     html: K
     id: K
@@ -177,7 +177,7 @@ NISTu6:
   short: mole
   unit_name:
   - mole
-  unit_symbols:
+  symbols:
   - ascii: mol
     html: mol
     id: mol
@@ -200,7 +200,7 @@ NISTu7:
   short: candela
   unit_name:
   - candela
-  unit_symbols:
+  symbols:
   - ascii: cd
     html: cd
     id: cd
@@ -225,7 +225,7 @@ NISTu8:
   short: inch
   unit_name:
   - inch
-  unit_symbols:
+  symbols:
   - ascii: in
     html: in
     id: in
@@ -267,7 +267,7 @@ NISTu9:
     prefix:
   unit_name:
   - radian
-  unit_symbols:
+  symbols:
   - ascii: rad
     html: rad
     id: rad
@@ -297,7 +297,7 @@ NISTu10:
     prefix:
   unit_name:
   - steradian
-  unit_symbols:
+  symbols:
   - ascii: sr
     html: sr
     id: sr
@@ -330,7 +330,7 @@ NISTu11:
     prefix:
   unit_name:
   - newton
-  unit_symbols:
+  symbols:
   - ascii: N
     html: N
     id: N
@@ -375,7 +375,7 @@ NISTu12:
     prefix:
   unit_name:
   - pascal
-  unit_symbols:
+  symbols:
   - ascii: Pa
     html: Pa
     id: Pa
@@ -422,7 +422,7 @@ NISTu13:
     prefix:
   unit_name:
   - joule
-  unit_symbols:
+  symbols:
   - ascii: J
     html: J
     id: J
@@ -457,7 +457,7 @@ NISTu14:
     prefix:
   unit_name:
   - watt
-  unit_symbols:
+  symbols:
   - ascii: W
     html: W
     id: W
@@ -489,7 +489,7 @@ NISTu15:
     prefix:
   unit_name:
   - coulomb
-  unit_symbols:
+  symbols:
   - ascii: C
     html: C
     id: C
@@ -527,7 +527,7 @@ NISTu16:
     prefix:
   unit_name:
   - volt
-  unit_symbols:
+  symbols:
   - ascii: V
     html: V
     id: V
@@ -563,7 +563,7 @@ NISTu17:
     prefix:
   unit_name:
   - farad
-  unit_symbols:
+  symbols:
   - ascii: F
     html: F
     id: F
@@ -599,7 +599,7 @@ NISTu18:
     prefix:
   unit_name:
   - ohm
-  unit_symbols:
+  symbols:
   - ascii: Ohm
     html: "&#8486;"
     id: Ohm
@@ -635,7 +635,7 @@ NISTu19:
     prefix:
   unit_name:
   - siemens
-  unit_symbols:
+  symbols:
   - ascii: S
     html: S
     id: S
@@ -671,7 +671,7 @@ NISTu20:
     prefix:
   unit_name:
   - weber
-  unit_symbols:
+  symbols:
   - ascii: Wb
     html: Wb
     id: Wb
@@ -704,7 +704,7 @@ NISTu21:
     prefix:
   unit_name:
   - tesla
-  unit_symbols:
+  symbols:
   - ascii: T
     html: T
     id: T
@@ -740,7 +740,7 @@ NISTu22:
     prefix:
   unit_name:
   - henry
-  unit_symbols:
+  symbols:
   - ascii: H
     html: H
     id: H
@@ -767,7 +767,7 @@ NISTu23:
     prefix:
   unit_name:
   - degree Celsius
-  unit_symbols:
+  symbols:
   - ascii: degC
     html: "&#176;C"
     id: degC
@@ -794,7 +794,7 @@ NISTu25:
     prefix:
   unit_name:
   - becquerel
-  unit_symbols:
+  symbols:
   - ascii: Bq
     html: Bq
     id: Bq
@@ -820,7 +820,7 @@ NISTu26:
   short: fermi
   unit_name:
   - fermi
-  unit_symbols:
+  symbols:
   - ascii: fermi
     html: fermi
     id: fermi
@@ -843,7 +843,7 @@ NISTu27:
   short: gram
   unit_name:
   - gram
-  unit_symbols:
+  symbols:
   - ascii: g
     html: g
     id: g
@@ -877,7 +877,7 @@ NISTu28:
     prefix:
   unit_name:
   - gray
-  unit_symbols:
+  symbols:
   - ascii: Gy
     html: Gy
     id: Gy
@@ -907,7 +907,7 @@ NISTu29:
     prefix:
   unit_name:
   - sievert
-  unit_symbols:
+  symbols:
   - ascii: Sv
     html: Sv
     id: Sv
@@ -937,7 +937,7 @@ NISTu30:
     prefix:
   unit_name:
   - katal
-  unit_symbols:
+  symbols:
   - ascii: kat
     html: kat
     id: kat
@@ -964,7 +964,7 @@ NISTu31:
     prefix:
   unit_name:
   - hertz
-  unit_symbols:
+  symbols:
   - ascii: Hz
     html: Hz
     id: Hz
@@ -991,7 +991,7 @@ NISTu32:
     prefix:
   unit_name:
   - lumen
-  unit_symbols:
+  symbols:
   - ascii: lm
     html: lm
     id: lm
@@ -1021,7 +1021,7 @@ NISTu33:
     prefix:
   unit_name:
   - lux
-  unit_symbols:
+  symbols:
   - ascii: lx
     html: lx
     id: lx
@@ -1044,7 +1044,7 @@ NISTu36:
   short: minute
   unit_name:
   - minute
-  unit_symbols:
+  symbols:
   - ascii: min
     html: min
     id: min
@@ -1079,7 +1079,7 @@ NISTu37:
   short: hour
   unit_name:
   - hour
-  unit_symbols:
+  symbols:
   - ascii: h
     html: h
     id: h
@@ -1102,7 +1102,7 @@ NISTu38:
   short: day
   unit_name:
   - day
-  unit_symbols:
+  symbols:
   - ascii: d
     html: d
     id: d
@@ -1127,7 +1127,7 @@ NISTu39:
   short: angstrom
   unit_name:
   - ångström
-  unit_symbols:
+  symbols:
   - ascii: Aring
     html: "&#197;"
     id: Aring
@@ -1150,7 +1150,7 @@ NISTu42:
   short: are
   unit_name:
   - are
-  unit_symbols:
+  symbols:
   - ascii: a
     html: a
     id: a
@@ -1173,7 +1173,7 @@ NISTu43:
   short: barn
   unit_name:
   - barn
-  unit_symbols:
+  symbols:
   - ascii: b
     html: b
     id: barn
@@ -1196,7 +1196,7 @@ NISTu44:
   short: hectare
   unit_name:
   - hectare
-  unit_symbols:
+  symbols:
   - ascii: ha
     html: ha
     id: ha
@@ -1219,7 +1219,7 @@ NISTu45:
   short: square_foot
   unit_name:
   - square foot
-  unit_symbols:
+  symbols:
   - ascii: ft^2
     html: ft<sup>2</sup>
     id: ft^2
@@ -1242,7 +1242,7 @@ NISTu46:
   short: square_inch
   unit_name:
   - square inch
-  unit_symbols:
+  symbols:
   - ascii: in^2
     html: in<sup>2</sup>
     id: in^2
@@ -1266,7 +1266,7 @@ NISTu47:
   unit_name:
   - abampere
   - EMU of current
-  unit_symbols:
+  symbols:
   - ascii: abA
     html: abA
     id: abA
@@ -1291,7 +1291,7 @@ NISTu48:
   short: abcoulomb
   unit_name:
   - abcoulomb
-  unit_symbols:
+  symbols:
   - ascii: abC
     html: abC
     id: abC
@@ -1315,7 +1315,7 @@ NISTu49:
   unit_name:
   - abfarad
   - EMU of capacitance
-  unit_symbols:
+  symbols:
   - ascii: abF
     html: abF
     id: abF
@@ -1339,7 +1339,7 @@ NISTu50:
   unit_name:
   - abhenry
   - EMU of inductance
-  unit_symbols:
+  symbols:
   - ascii: abH
     html: abH
     id: abH
@@ -1362,7 +1362,7 @@ NISTu51:
   short: abmho
   unit_name:
   - abmho
-  unit_symbols:
+  symbols:
   - ascii: abS
     html: "(ab&#937;)<sup>-1</sup>"
     id: abS
@@ -1386,7 +1386,7 @@ NISTu52:
   unit_name:
   - abohm
   - EMU of resistance
-  unit_symbols:
+  symbols:
   - ascii: abohm
     html: ab&#937;
     id: abohm
@@ -1412,7 +1412,7 @@ NISTu53:
   unit_name:
   - abvolt
   - EMU of electric potential
-  unit_symbols:
+  symbols:
   - ascii: abV
     html: abV
     id: abV
@@ -1439,7 +1439,7 @@ NISTu54:
   short: ampere_hour
   unit_name:
   - ampere hour
-  unit_symbols:
+  symbols:
   - ascii: A*h
     html: A&#8201;&#183;&#8201;h
     id: A*h
@@ -1462,7 +1462,7 @@ NISTu55:
   short: biot
   unit_name:
   - biot
-  unit_symbols:
+  symbols:
   - ascii: Bi
     html: Bi
     id: Bi
@@ -1488,7 +1488,7 @@ NISTu57:
   unit_name:
   - acre-foot (based on US survey foot)
   - acre-foot
-  unit_symbols:
+  symbols:
   - ascii: ac*ft
     html: ac&#8201;&#183;&#8201;ft
     id: ac*ft
@@ -1511,7 +1511,7 @@ NISTu58:
   short: maxwell
   unit_name:
   - maxwell
-  unit_symbols:
+  symbols:
   - ascii: Mx
     html: Mx
     id: Mx
@@ -1546,7 +1546,7 @@ NISTu60:
   - I.T. calorie
   - calorie_IT
   - calorie
-  unit_symbols:
+  symbols:
   - ascii: cal_IT
     html: cal<sub>IT</sub>
     id: cal_IT
@@ -1585,7 +1585,7 @@ NISTu61:
   short: one
   unit_name:
   - one
-  unit_symbols:
+  symbols:
   - ascii: '1'
     html: '1'
     id: '1'
@@ -1618,7 +1618,7 @@ NISTu62:
   short: erg
   unit_name:
   - erg
-  unit_symbols:
+  symbols:
   - ascii: erg
     html: erg
     id: erg
@@ -1652,7 +1652,7 @@ NISTu63:
   short: table_kg_calorie
   unit_name:
   - kilocalorie_IT
-  unit_symbols:
+  symbols:
   - ascii: kcal_IT
     html: kcal<sub>IT</sub>
     id: kcal_IT
@@ -1686,7 +1686,7 @@ NISTu64:
   short: thermo_kg_calorie
   unit_name:
   - kilocalorie_th
-  unit_symbols:
+  symbols:
   - ascii: kcal_th
     html: kcal<sub>th</sub>
     id: kcal_th
@@ -1723,7 +1723,7 @@ NISTu65:
   short: kilowatt_hour
   unit_name:
   - kilowatt hour
-  unit_symbols:
+  symbols:
   - ascii: kW*h
     html: kW&#8201;&#183;&#8201;h
     id: kW*h
@@ -1758,7 +1758,7 @@ NISTu69:
   short: watt_hour
   unit_name:
   - watt hour
-  unit_symbols:
+  symbols:
   - ascii: W*h
     html: W&#8201;&#183;&#8201;h
     id: W*h
@@ -1781,7 +1781,7 @@ NISTu71:
   short: dyne
   unit_name:
   - dyne
-  unit_symbols:
+  symbols:
   - ascii: dyn
     html: dyn
     id: dyn
@@ -1806,7 +1806,7 @@ NISTu72:
   short: kilogram_force
   unit_name:
   - kilogram-force
-  unit_symbols:
+  symbols:
   - ascii: kgf
     html: kgf
     id: kgf
@@ -1829,7 +1829,7 @@ NISTu73:
   short: kilopond
   unit_name:
   - kilopond
-  unit_symbols:
+  symbols:
   - ascii: kp
     html: kp
     id: kp
@@ -1856,7 +1856,7 @@ NISTu74:
   short: calorie_th_per_second
   unit_name:
   - calorie_th per second
-  unit_symbols:
+  symbols:
   - ascii: cal_th*s^-1
     html: cal<sub>th</sub>/s
     id: cal_th*s^-1
@@ -1886,7 +1886,7 @@ NISTu75:
   short: kilocalorie_th_per_second
   unit_name:
   - kilocalorie_th per second
-  unit_symbols:
+  symbols:
   - ascii: kcal_th*s^-1
     html: kcal<sub>th</sub>/s
     id: kcal_th*s^-1
@@ -1912,7 +1912,7 @@ NISTu78:
   short: foot
   unit_name:
   - foot
-  unit_symbols:
+  symbols:
   - ascii: ft
     html: ft
     id: ft
@@ -1949,7 +1949,7 @@ NISTu83:
   short: mile
   unit_name:
   - mile
-  unit_symbols:
+  symbols:
   - ascii: mi
     html: mi
     id: mi
@@ -1974,7 +1974,7 @@ NISTu84:
   short: yard
   unit_name:
   - yard
-  unit_symbols:
+  symbols:
   - ascii: yd
     html: yd
     id: yd
@@ -1997,7 +1997,7 @@ NISTu85:
   short: phot
   unit_name:
   - phot
-  unit_symbols:
+  symbols:
   - ascii: ph
     html: ph
     id: ph
@@ -2023,7 +2023,7 @@ NISTu86:
   - troy grain
   - apothecary grain
   - grain
-  unit_symbols:
+  symbols:
   - ascii: gr
     html: gr
     id: gr
@@ -2047,7 +2047,7 @@ NISTu88:
   unit_name:
   - metric ton
   - ton
-  unit_symbols:
+  symbols:
   - ascii: t
     html: t
     id: t
@@ -2074,7 +2074,7 @@ NISTu89:
   short: erg_per_second
   unit_name:
   - erg per second
-  unit_symbols:
+  symbols:
   - ascii: erg*s^-1
     html: erg/s
     id: erg*s^-1
@@ -2099,7 +2099,7 @@ NISTu91:
   short: bar
   unit_name:
   - bar
-  unit_symbols:
+  symbols:
   - ascii: bar
     html: bar
     id: bar
@@ -2127,7 +2127,7 @@ NISTu92:
   short: dyne_per_square_centimeter
   unit_name:
   - dyne per square centimeter
-  unit_symbols:
+  symbols:
   - ascii: dyn*cm^-2
     html: dyn/cm<sup>2</sup>
     id: dyn*cm^-2
@@ -2155,7 +2155,7 @@ NISTu93:
   short: gram_force_per_square_centimeter
   unit_name:
   - gram-force per square centimeter
-  unit_symbols:
+  symbols:
   - ascii: gf*cm^-2
     html: gf/cm<sup>2</sup>
     id: gf*cm^-2
@@ -2185,7 +2185,7 @@ NISTu94:
   short: kilogram_force_per_square_centimeter
   unit_name:
   - kilogram-force per square centimeter
-  unit_symbols:
+  symbols:
   - ascii: kgf*cm^-2
     html: kgf/cm<sup>2</sup>
     id: kgf*cm^-2
@@ -2213,7 +2213,7 @@ NISTu95:
   short: kilogram_force_per_square_meter
   unit_name:
   - kilogram-force per square meter
-  unit_symbols:
+  symbols:
   - ascii: kgf*m^-2
     html: kgf/m<sup>2</sup>
     id: kgf*m^-2
@@ -2242,7 +2242,7 @@ NISTu96:
   short: kilogram_force_per_square_millimeter
   unit_name:
   - kilogram-force per square millimeter
-  unit_symbols:
+  symbols:
   - ascii: kgf*mm^-2
     html: kgf/mm<sup>2</sup>
     id: kgf*mm^-2
@@ -2267,7 +2267,7 @@ NISTu97:
   short: centipoise
   unit_name:
   - centipoise
-  unit_symbols:
+  symbols:
   - ascii: cP
     html: cP
     id: cP
@@ -2290,7 +2290,7 @@ NISTu98:
   short: curie
   unit_name:
   - curie
-  unit_symbols:
+  symbols:
   - ascii: Ci
     html: Ci
     id: Ci
@@ -2313,7 +2313,7 @@ NISTu99:
   short: rad
   unit_name:
   - rad (absorbed dose)
-  unit_symbols:
+  symbols:
   - ascii: rad
     html: rad
     id: rad_radiation
@@ -2336,7 +2336,7 @@ NISTu100:
   short: rem
   unit_name:
   - rem
-  unit_symbols:
+  symbols:
   - ascii: rem
     html: rem
     id: rem
@@ -2360,7 +2360,7 @@ NISTu106:
   unit_name:
   - year (365 days)
   - year
-  unit_symbols:
+  symbols:
   - ascii: a
     html: a
     id: a_year
@@ -2385,7 +2385,7 @@ NISTu107:
   short: foot_per_minute
   unit_name:
   - foot per minute
-  unit_symbols:
+  symbols:
   - ascii: ft*min^-1
     html: ft/min
     id: ft*min^-1
@@ -2410,7 +2410,7 @@ NISTu108:
   short: foot_per_second
   unit_name:
   - foot per second
-  unit_symbols:
+  symbols:
   - ascii: ft*s^-1
     html: ft/s
     id: ft*s^-1
@@ -2435,7 +2435,7 @@ NISTu109:
   short: inch_per_second
   unit_name:
   - inch per second
-  unit_symbols:
+  symbols:
   - ascii: in*s^-1
     html: in/s
     id: in*s^-1
@@ -2460,7 +2460,7 @@ NISTu110:
   short: mile_per_hour
   unit_name:
   - mile per hour
-  unit_symbols:
+  symbols:
   - ascii: mi*h^-1
     html: mi/h
     id: mi*h^-1
@@ -2485,7 +2485,7 @@ NISTu111:
   short: mile_per_minute
   unit_name:
   - mile per minute
-  unit_symbols:
+  symbols:
   - ascii: mi*min^-1
     html: mi/min
     id: mi*min^-1
@@ -2510,7 +2510,7 @@ NISTu112:
   short: mile_per_second
   unit_name:
   - mile per second
-  unit_symbols:
+  symbols:
   - ascii: mi*s^-1
     html: mi/s
     id: mi*s^-1
@@ -2533,7 +2533,7 @@ NISTu115:
   short: stere
   unit_name:
   - stere
-  unit_symbols:
+  symbols:
   - ascii: st
     html: st
     id: st
@@ -2557,7 +2557,7 @@ NISTu116:
   short: gamma
   unit_name:
   - gamma
-  unit_symbols:
+  symbols:
   - ascii: gamma
     html: "&#947;"
     id: gamma
@@ -2590,7 +2590,7 @@ NISTu117:
   short: ec_therm
   unit_name:
   - therm (EC)
-  unit_symbols:
+  symbols:
   - ascii: thm (EC)
     html: thm (EC)
     id: thm (EC)
@@ -2613,7 +2613,7 @@ NISTu118:
   short: roentgen
   unit_name:
   - roentgen
-  unit_symbols:
+  symbols:
   - ascii: R
     html: R
     id: R
@@ -2636,7 +2636,7 @@ NISTu119:
   short: gauss
   unit_name:
   - gauss
-  unit_symbols:
+  symbols:
   - ascii: Gs
     html: Gs
     id: Gs
@@ -2667,7 +2667,7 @@ NISTu120:
   short: kayser
   unit_name:
   - kayser
-  unit_symbols:
+  symbols:
   - ascii: K
     html: K
     id: kayser
@@ -2692,7 +2692,7 @@ NISTu121:
   short: centistokes
   unit_name:
   - centistokes
-  unit_symbols:
+  symbols:
   - ascii: cSt
     html: cSt
     id: cSt
@@ -2718,7 +2718,7 @@ NISTu122:
   short: micron
   unit_name:
   - micron
-  unit_symbols:
+  symbols:
   - ascii: micron
     html: "&#956;"
     id: micron
@@ -2746,7 +2746,7 @@ NISTu123:
   - mil (length)
   - mil
   - thou
-  unit_symbols:
+  symbols:
   - ascii: mil
     html: mil
     id: mil
@@ -2775,7 +2775,7 @@ NISTu124:
   short: stilb
   unit_name:
   - stilb
-  unit_symbols:
+  symbols:
   - ascii: sb
     html: sb
     id: sb
@@ -2803,7 +2803,7 @@ NISTu125:
   short: kilogram_force_second_squared_per_meter
   unit_name:
   - kilogram-force second squared per meter
-  unit_symbols:
+  symbols:
   - ascii: kgf*s^2/m
     html: kgf&#8201;&#183;&#8201;s<sup>2</sup>/m
     id: kgf*s^2/m
@@ -2837,7 +2837,7 @@ NISTu126:
   short: kilogram_force_meter
   unit_name:
   - kilogram-force meter
-  unit_symbols:
+  symbols:
   - ascii: kgf*m
     html: kgf&#8201;&#183;&#8201;m
     id: kgf*m
@@ -2863,7 +2863,7 @@ NISTu127:
   unit_name:
   - horsepower, electric
   - electric horsepower
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp_electric
@@ -2888,7 +2888,7 @@ NISTu128:
   short: poise
   unit_name:
   - poise
-  unit_symbols:
+  symbols:
   - ascii: P
     html: P
     id: P
@@ -2911,7 +2911,7 @@ NISTu129:
   short: rhe
   unit_name:
   - rhe
-  unit_symbols:
+  symbols:
   - ascii: rhe
     html: rhe
     id: rhe
@@ -2934,7 +2934,7 @@ NISTu130:
   short: liter
   unit_name:
   - liter
-  unit_symbols:
+  symbols:
   - ascii: l
     html: l
     id: l
@@ -2965,7 +2965,7 @@ NISTu131:
   short: nautical_mile
   unit_name:
   - nautical mile
-  unit_symbols:
+  symbols:
   - ascii: M
     html: M
     id: M
@@ -2988,7 +2988,7 @@ NISTu133:
   short: degree_Fahrenheit
   unit_name:
   - degree Fahrenheit
-  unit_symbols:
+  symbols:
   - ascii: degF
     html: "&#176;F"
     id: degF
@@ -3013,7 +3013,7 @@ NISTu134:
   short: standard_atmosphere
   unit_name:
   - standard atmosphere
-  unit_symbols:
+  symbols:
   - ascii: atm
     html: atm
     id: atm
@@ -3038,7 +3038,7 @@ NISTu135:
   short: technical_atmosphere
   unit_name:
   - technical atmosphere
-  unit_symbols:
+  symbols:
   - ascii: at
     html: at
     id: at
@@ -3061,7 +3061,7 @@ NISTu142:
   short: stokes
   unit_name:
   - stokes
-  unit_symbols:
+  symbols:
   - ascii: St
     html: St
     id: St
@@ -3084,7 +3084,7 @@ NISTu143:
   short: gal
   unit_name:
   - gal
-  unit_symbols:
+  symbols:
   - ascii: Gal
     html: Gal
     id: Gal
@@ -3107,7 +3107,7 @@ NISTu144:
   short: oersted
   unit_name:
   - oersted
-  unit_symbols:
+  symbols:
   - ascii: Oe
     html: Oe
     id: Oe
@@ -3130,7 +3130,7 @@ NISTu147:
   short: arc_minute
   unit_name:
   - minute (minute of arc)
-  unit_symbols:
+  symbols:
   - ascii: "'"
     html: "&#8242;"
     id: "'"
@@ -3159,7 +3159,7 @@ NISTu148:
   short: arc_second
   unit_name:
   - second (second of arc)
-  unit_symbols:
+  symbols:
   - ascii: "\""
     html: "&#8243;"
     id: "\""
@@ -3194,7 +3194,7 @@ NISTu149:
   short: arc_degree
   unit_name:
   - degree (degree of arc)
-  unit_symbols:
+  symbols:
   - ascii: deg
     html: "&#176;"
     id: deg
@@ -3218,7 +3218,7 @@ NISTu152:
   unit_name:
   - nautical mile per hour
   - knot
-  unit_symbols:
+  symbols:
   - ascii: kn
     html: kn
     id: kn
@@ -3247,7 +3247,7 @@ NISTu153:
   short: neper
   unit_name:
   - neper
-  unit_symbols:
+  symbols:
   - ascii: Np
     html: Np
     id: Np
@@ -3274,7 +3274,7 @@ NISTu154:
   short: bel
   unit_name:
   - bel
-  unit_symbols:
+  symbols:
   - ascii: B
     html: B
     id: bel_B
@@ -3299,7 +3299,7 @@ NISTu155:
   short: decibel
   unit_name:
   - decibel
-  unit_symbols:
+  symbols:
   - ascii: dB
     html: dB
     id: dB
@@ -3326,7 +3326,7 @@ NISTu156:
   - conventional millimeter of mercury
   - millimeter of mercury, conventional
   - millimeter of mercury
-  unit_symbols:
+  symbols:
   - ascii: mmHg
     html: mmHg
     id: mmHg
@@ -3351,7 +3351,7 @@ NISTu157:
   short: darcy
   unit_name:
   - darcy
-  unit_symbols:
+  symbols:
   - ascii: d
     html: d
     id: darcy
@@ -3380,7 +3380,7 @@ NISTu159:
   short: gon
   unit_name:
   - gon
-  unit_symbols:
+  symbols:
   - ascii: gon
     html: gon
     id: gon
@@ -3408,7 +3408,7 @@ NISTu160:
   short: kilometer_per_hour
   unit_name:
   - kilometer per hour
-  unit_symbols:
+  symbols:
   - ascii: km/h
     html: kh/h
     id: km/h
@@ -3433,7 +3433,7 @@ NISTu163:
   short: neper_per_second
   unit_name:
   - neper per second
-  unit_symbols:
+  symbols:
   - ascii: Np*s^-1
     html: Np/s
     id: Np*s^-1
@@ -3456,7 +3456,7 @@ NISTu164:
   short: square_yard
   unit_name:
   - square yard
-  unit_symbols:
+  symbols:
   - ascii: yd^2
     html: yd<sup>2</sup>
     id: yd^2
@@ -3479,7 +3479,7 @@ NISTu165:
   short: square_mile
   unit_name:
   - square mile
-  unit_symbols:
+  symbols:
   - ascii: mi^2
     html: mi<sup>2</sup>
     id: mi^2
@@ -3503,7 +3503,7 @@ NISTu166:
   unit_name:
   - ton of TNT (energy equivalent)
   - ton
-  unit_symbols:
+  symbols:
   - ascii: ton
     html: ton
     id: ton_TNT
@@ -3528,7 +3528,7 @@ NISTu167:
   short: foot_per_second_squared
   unit_name:
   - foot per second squared
-  unit_symbols:
+  symbols:
   - ascii: ft*s^-2
     html: ft/s<sup>2</sup>
     id: ft*s^-2
@@ -3551,7 +3551,7 @@ NISTu168:
   short: cubic_inch
   unit_name:
   - cubic inch
-  unit_symbols:
+  symbols:
   - ascii: in^3
     html: in<sup>3</sup>
     id: in^3
@@ -3574,7 +3574,7 @@ NISTu169:
   short: cubic_foot
   unit_name:
   - cubic foot
-  unit_symbols:
+  symbols:
   - ascii: ft^3
     html: ft<sup>3</sup>
     id: ft^3
@@ -3597,7 +3597,7 @@ NISTu170:
   short: cubic_yard
   unit_name:
   - cubic yard
-  unit_symbols:
+  symbols:
   - ascii: yd^3
     html: yd<sup>3</sup>
     id: yd^3
@@ -3622,7 +3622,7 @@ NISTu171:
   - gallon (UK)
   - imperial gallon
   - gallon
-  unit_symbols:
+  symbols:
   - ascii: gal (UK)
     html: gal (UK)
     id: gal (UK)
@@ -3646,7 +3646,7 @@ NISTu172:
   unit_name:
   - pint (UK)
   - pint
-  unit_symbols:
+  symbols:
   - ascii: pt (UK)
     html: pt (UK)
     id: pt (UK)
@@ -3671,7 +3671,7 @@ NISTu173:
   - fluid ounce (UK)
   - fluid ounce
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: fl oz (UK)
     html: fl oz (UK)
     id: fl oz (UK)
@@ -3695,7 +3695,7 @@ NISTu175:
   unit_name:
   - gallon (US)
   - gallon
-  unit_symbols:
+  symbols:
   - ascii: gal (US)
     html: gal (US)
     id: gal (US)
@@ -3719,7 +3719,7 @@ NISTu176:
   unit_name:
   - liquid pint (US)
   - pint
-  unit_symbols:
+  symbols:
   - ascii: liq pint (US)
     html: liq pint (US)
     id: liq pint (US)
@@ -3744,7 +3744,7 @@ NISTu177:
   - fluid ounce (US)
   - fluid ounce
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: fl oz (US)
     html: fl oz (US)
     id: fl oz (US)
@@ -3768,7 +3768,7 @@ NISTu178:
   unit_name:
   - barrel (US) for petroleum
   - barrel
-  unit_symbols:
+  symbols:
   - ascii: bbl (US)
     html: bbl (US)
     id: bbl (US)
@@ -3792,7 +3792,7 @@ NISTu179:
   unit_name:
   - bushel (US)
   - bushel
-  unit_symbols:
+  symbols:
   - ascii: bu (US)
     html: bu (US)
     id: bu (US)
@@ -3816,7 +3816,7 @@ NISTu180:
   unit_name:
   - dry pint (US)
   - pint
-  unit_symbols:
+  symbols:
   - ascii: dry pt (US)
     html: dry pt (US)
     id: dry pt (US)
@@ -3839,7 +3839,7 @@ NISTu182:
   short: light_year
   unit_name:
   - light year
-  unit_symbols:
+  symbols:
   - ascii: l.y.
     html: l.y.
     id: l.y.
@@ -3862,7 +3862,7 @@ NISTu183:
   short: astronomical_unit
   unit_name:
   - astronomical unit
-  unit_symbols:
+  symbols:
   - ascii: ua
     html: ua
     id: ua
@@ -3885,7 +3885,7 @@ NISTu184:
   short: parsec
   unit_name:
   - parsec
-  unit_symbols:
+  symbols:
   - ascii: pc
     html: pc
     id: pc
@@ -3912,7 +3912,7 @@ NISTu185:
   short: meter_to_the_power_four
   unit_name:
   - meter to the power four
-  unit_symbols:
+  symbols:
   - ascii: m^4
     html: m<sup>4</sup>
     id: m^4
@@ -3938,7 +3938,7 @@ NISTu188:
   short: kilogram_per_liter
   unit_name:
   - kilogram per liter
-  unit_symbols:
+  symbols:
   - ascii: kg*l^-1
     html: kg/l
     id: kg*l^-1
@@ -3963,7 +3963,7 @@ NISTu189:
   short: metric_ton_per_cubic_meter
   unit_name:
   - metric ton per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: t*m^-3
     html: t/m<sup>3</sup>
     id: t*m^-3
@@ -3987,7 +3987,7 @@ NISTu196:
   short: gram_force
   unit_name:
   - gram-force
-  unit_symbols:
+  symbols:
   - ascii: gf
     html: gf
     id: gf
@@ -4012,7 +4012,7 @@ NISTu201:
   - pound (avoirdupois)
   - avoirdupois pound
   - pound
-  unit_symbols:
+  symbols:
   - ascii: lb
     html: lb
     id: lb
@@ -4037,7 +4037,7 @@ NISTu202:
   - ounce (avoirdupois)
   - avoirdupois ounce
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: oz
     html: oz
     id: oz
@@ -4061,7 +4061,7 @@ NISTu203:
   unit_name:
   - hundredweight (long, 112 lb)
   - hundredweight
-  unit_symbols:
+  symbols:
   - ascii: cwt (UK)
     html: cwt (UK)
     id: cwt (UK)
@@ -4086,7 +4086,7 @@ NISTu204:
   short: pound_per_cubic_foot
   unit_name:
   - pound per cubic foot
-  unit_symbols:
+  symbols:
   - ascii: lb*ft^-3
     html: lb/ft<sup>3</sup>
     id: lb*ft^-3
@@ -4111,7 +4111,7 @@ NISTu205:
   short: pound_force
   unit_name:
   - pound-force
-  unit_symbols:
+  symbols:
   - ascii: lbf
     html: lbf
     id: lbf
@@ -4150,7 +4150,7 @@ NISTu206:
   short: foot_pound_force
   unit_name:
   - foot pound-force
-  unit_symbols:
+  symbols:
   - ascii: ft*lbf
     html: ft&#8201;&#183;&#8201;lbf
     id: ft*lbf
@@ -4175,7 +4175,7 @@ NISTu207:
   short: pound_force_per_square_inch
   unit_name:
   - pound-force per square inch
-  unit_symbols:
+  symbols:
   - ascii: lbf*in^-2
     html: lbf/in<sup>2</sup>
     id: lbf*in^-2
@@ -4206,7 +4206,7 @@ NISTu208:
   short: inch_to_the_fourth_power
   unit_name:
   - inch to the fourth power
-  unit_symbols:
+  symbols:
   - ascii: in^4
     html: in<sup>4</sup>
     id: in^4
@@ -4229,7 +4229,7 @@ NISTu209:
   short: inch_cubed
   unit_name:
   - inch cubed
-  unit_symbols:
+  symbols:
   - ascii: in^3
     html: in<sup>3</sup>
     id: in^3_section_modulus
@@ -4254,7 +4254,7 @@ NISTu210:
   short: foot_squared_per_second
   unit_name:
   - foot squared per second
-  unit_symbols:
+  symbols:
   - ascii: ft^2*s^-1
     html: ft<sup>2</sup>/s
     id: ft^2*s^-1
@@ -4282,7 +4282,7 @@ NISTu211:
   short: foot_pound_force_per_second
   unit_name:
   - foot pound-force per second
-  unit_symbols:
+  symbols:
   - ascii: ft*lbf*s^-1
     html: ft&#8201;&#183;&#8201;lbf/s
     id: ft*lbf*s^-1
@@ -4308,7 +4308,7 @@ NISTu212:
   - carat
   - metric carat
   - carat, metric
-  unit_symbols:
+  symbols:
   - ascii: ct
     html: ct
     id: ct
@@ -4331,7 +4331,7 @@ NISTu213:
   short: tex
   unit_name:
   - tex
-  unit_symbols:
+  symbols:
   - ascii: tex
     html: tex
     id: tex
@@ -4362,7 +4362,7 @@ NISTu214:
   short: torr
   unit_name:
   - torr
-  unit_symbols:
+  symbols:
   - ascii: Torr
     html: Torr
     id: Torr
@@ -4387,7 +4387,7 @@ NISTu215:
   - conventional millimeter of water
   - millimeter of water, conventional
   - millimeter of water
-  unit_symbols:
+  symbols:
   - ascii: mmH_2O
     html: mmH<sub>2</sub>O
     id: mmH_2O
@@ -4412,7 +4412,7 @@ NISTu216:
   unit_name:
   - British thermal unit_th
   - thermochemical Btu
-  unit_symbols:
+  symbols:
   - ascii: Btu_th
     html: Btu<sub>th</sub>
     id: Btu_th
@@ -4440,7 +4440,7 @@ NISTu217:
   short: kilogram_force_meter_per_second
   unit_name:
   - kilogram-force meter per second
-  unit_symbols:
+  symbols:
   - ascii: kgf*m*s^-1
     html: kgf&#8201;&#183;&#8201;m/s
     id: kgf*m*s^-1
@@ -4465,7 +4465,7 @@ NISTu218:
   unit_name:
   - horsepower, metric
   - metric horsepower
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp_metric
@@ -4490,7 +4490,7 @@ NISTu221:
   short: watt_per_square_meter_kelvin
   unit_name:
   - watt per square meter kelvin
-  unit_symbols:
+  symbols:
   - ascii: W*m^-2*K^-1
     html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
     id: W*m^-2*K^-1
@@ -4515,7 +4515,7 @@ NISTu222:
   short: lambert
   unit_name:
   - lambert
-  unit_symbols:
+  symbols:
   - ascii: L
     html: L
     id: Lambert
@@ -4538,7 +4538,7 @@ NISTu223:
   short: gilbert
   unit_name:
   - gilbert
-  unit_symbols:
+  symbols:
   - ascii: Gi
     html: Gi
     id: Gi
@@ -4561,7 +4561,7 @@ NISTu224:
   short: debye
   unit_name:
   - debye
-  unit_symbols:
+  symbols:
   - ascii: D
     html: D
     id: D
@@ -4584,7 +4584,7 @@ NISTu225:
   short: abwatt
   unit_name:
   - abwatt
-  unit_symbols:
+  symbols:
   - ascii: aW (Cardelli)
     html: aW
     id: aW (Cardelli)
@@ -4607,7 +4607,7 @@ NISTu226:
   short: slug
   unit_name:
   - slug
-  unit_symbols:
+  symbols:
   - ascii: slug
     html: slug
     id: slug
@@ -4642,7 +4642,7 @@ NISTu227:
   - thermochemical calorie
   - calorie_th
   - calorie
-  unit_symbols:
+  symbols:
   - ascii: cal_th
     html: cal<sub>th</sub>
     id: cal_th
@@ -4672,7 +4672,7 @@ NISTu228:
   unit_name:
   - short ton
   - ton
-  unit_symbols:
+  symbols:
   - ascii: ton
     html: t
     id: ton_short
@@ -4696,7 +4696,7 @@ NISTu229:
   unit_name:
   - long ton
   - ton
-  unit_symbols:
+  symbols:
   - ascii: ton
     html: t
     id: ton_long
@@ -4720,7 +4720,7 @@ NISTu230:
   unit_name:
   - hundredweight (short, 100 lb)
   - hundredweight
-  unit_symbols:
+  symbols:
   - ascii: cwt (US)
     html: cwt (US)
     id: cwt (US)
@@ -4745,7 +4745,7 @@ NISTu231:
   - ounce (troy or apothecary)
   - troy ounce
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: oz
     html: oz
     id: oz_troy
@@ -4770,7 +4770,7 @@ NISTu232:
   - pound (troy or apothecary)
   - troy pound
   - pound
-  unit_symbols:
+  symbols:
   - ascii: lb
     html: lb
     id: lb_troy
@@ -4793,7 +4793,7 @@ NISTu233:
   short: pennyweight
   unit_name:
   - pennyweight
-  unit_symbols:
+  symbols:
   - ascii: dwt (troy)
     html: dwt (troy)
     id: dwt (troy)
@@ -4818,7 +4818,7 @@ NISTu234:
   - dram (apothecary)
   - apothecary dram
   - dram
-  unit_symbols:
+  symbols:
   - ascii: dr
     html: dr
     id: dr
@@ -4842,7 +4842,7 @@ NISTu235:
   unit_name:
   - scruple
   - apothecary scruple
-  unit_symbols:
+  symbols:
   - ascii: scr (ap.)
     html: scr (ap.)
     id: scr (ap.)
@@ -4867,7 +4867,7 @@ NISTu236:
   short: poundal
   unit_name:
   - poundal
-  unit_symbols:
+  symbols:
   - ascii: pdl
     html: pdl
     id: pdl
@@ -4890,7 +4890,7 @@ NISTu237:
   short: kip
   unit_name:
   - kip
-  unit_symbols:
+  symbols:
   - ascii: kip
     html: kip
     id: kip
@@ -4915,7 +4915,7 @@ NISTu238:
   short: ton_force
   unit_name:
   - ton-force (2000 lb)
-  unit_symbols:
+  symbols:
   - ascii: ton-force (2000 lb)
     html: ton-force (2000 lb)
     id: ton-force (2000 lb)
@@ -4944,7 +4944,7 @@ NISTu239:
   short: barye
   unit_name:
   - barye
-  unit_symbols:
+  symbols:
   - ascii: barye
     html: barye
     id: barye
@@ -4967,7 +4967,7 @@ NISTu240:
   short: electronvolt
   unit_name:
   - electronvolt
-  unit_symbols:
+  symbols:
   - ascii: eV
     html: eV
     id: eV
@@ -4990,7 +4990,7 @@ NISTu241:
   short: unified_atomic_mass_unit
   unit_name:
   - unified atomic mass unit
-  unit_symbols:
+  symbols:
   - ascii: u
     html: u
     id: u
@@ -5013,7 +5013,7 @@ NISTu242:
   short: natural_unit_of_velocity
   unit_name:
   - natural unit of velocity
-  unit_symbols:
+  symbols:
   - ascii: c_0
     html: "<i>c</i><sub>0</sub>"
     id: c_0
@@ -5042,7 +5042,7 @@ NISTu243:
   short: natural_unit_of_action
   unit_name:
   - natural unit of action
-  unit_symbols:
+  symbols:
   - ascii: h-bar
     html: "<i>&#295;</i>"
     id: h-bar
@@ -5065,7 +5065,7 @@ NISTu244:
   short: natural_unit_of_mass
   unit_name:
   - natural unit of mass
-  unit_symbols:
+  symbols:
   - ascii: m_e
     html: "<i>m</i><sub>e</sub>"
     id: m_e
@@ -5088,7 +5088,7 @@ NISTu245:
   short: natural_unit_of_time
   unit_name:
   - natural unit of time
-  unit_symbols:
+  symbols:
   - ascii: h-bar*(m_e*c^2)
     html: "<i>&#295;</i>/<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: h-bar*(m_e*c^2)
@@ -5112,7 +5112,7 @@ NISTu246:
   short: atomic_unit_of_charge
   unit_name:
   - atomic unit of charge
-  unit_symbols:
+  symbols:
   - ascii: e
     html: "<i>e</i>"
     id: e
@@ -5135,7 +5135,7 @@ NISTu247:
   short: atomic_unit_of_mass
   unit_name:
   - atomic unit of mass
-  unit_symbols:
+  symbols:
   - ascii: m_e
     html: "<i>m</i><sub>e</sub>"
     id: m_e_atomic
@@ -5158,7 +5158,7 @@ NISTu248:
   short: atomic_unit_of_action
   unit_name:
   - atomic unit of action
-  unit_symbols:
+  symbols:
   - ascii: h-bar
     html: "<i>&#295;</i>"
     id: h-bar_atomic
@@ -5181,7 +5181,7 @@ NISTu249:
   short: atomic_unit_of_length
   unit_name:
   - atomic unit of length
-  unit_symbols:
+  symbols:
   - ascii: a_0
     html: "<i>a</i><sub>0</sub>"
     id: a_0
@@ -5204,7 +5204,7 @@ NISTu250:
   short: atomic_unit_of_energy
   unit_name:
   - atomic unit of energy
-  unit_symbols:
+  symbols:
   - ascii: e_h
     html: "<i>E</i><sub>h</sub>"
     id: e_h
@@ -5227,7 +5227,7 @@ NISTu251:
   short: atomic_unit_of_time
   unit_name:
   - atomic unit of time
-  unit_symbols:
+  symbols:
   - ascii: h-bar*(E_h)-1
     html: "<i>&#295;</i>/<i>E</i><sub>h</sub>"
     id: h-bar*(E_h)-1
@@ -5251,7 +5251,7 @@ NISTu252:
   short: atomic_unit_of_magnetizability
   unit_name:
   - atomic unit of magnetizability
-  unit_symbols:
+  symbols:
   - ascii: e^2*a_0^2*m_e-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>m</m><sub>e</sub>"
     id: e^2*a_0^2*m_e-1
@@ -5276,7 +5276,7 @@ NISTu253:
   short: atomic_unit_of_magnetic_flux_density
   unit_name:
   - atomic unit of magnetic flux density
-  unit_symbols:
+  symbols:
   - ascii: h-bar*(e*a_0^2)-1
     html: "<i>&#295;</i>/<i>e</i><i>a</i><sub>0</sub><sup>2</sup>"
     id: h-bar*(e*a_0^2)-1
@@ -5300,7 +5300,7 @@ NISTu254:
   short: atomic_unit_of_magnetic_dipole_moment
   unit_name:
   - atomic unit of magnetic dipole moment
-  unit_symbols:
+  symbols:
   - ascii: h-bar*e*(m_e)-1
     html: "<i>&#295;e</i>/<i>m</i><sub>e</sub>"
     id: h-bar*e*(m_e)-1
@@ -5324,7 +5324,7 @@ NISTu255:
   short: atomic_unit_of_momentum
   unit_name:
   - atomic unit of momentum
-  unit_symbols:
+  symbols:
   - ascii: h-bar*(a_0)-1
     html: "<i>&#295;</i>/<i>a</i><sub>0</sub>"
     id: h-bar*(a_0)-1
@@ -5347,7 +5347,7 @@ NISTu256:
   short: atomic_unit_of_charge_density
   unit_name:
   - atomic unit of charge density
-  unit_symbols:
+  symbols:
   - ascii: e*(a_0^3)
     html: "<i>e</i><i>a</i><sub>0</sub><sup>3</sup>"
     id: e*(a_0^3)
@@ -5370,7 +5370,7 @@ NISTu257:
   short: atomic_unit_of_current
   unit_name:
   - atomic unit of current
-  unit_symbols:
+  symbols:
   - ascii: eE_h*h-bar^-1
     html: "<i>eE</i><sub>h</sub>/&#295;"
     id: eE_h*h-bar^-1
@@ -5394,7 +5394,7 @@ NISTu258:
   short: atomic_unit_of_electric_dipole_moment
   unit_name:
   - atomic unit of electric dipole moment
-  unit_symbols:
+  symbols:
   - ascii: e*a_0
     html: "<i>ea</i><sub>0</sub>"
     id: e*a_0
@@ -5417,7 +5417,7 @@ NISTu259:
   short: atomic_unit_of_electric_field
   unit_name:
   - atomic unit of electric field
-  unit_symbols:
+  symbols:
   - ascii: E_h*(e*a_0)
     html: "<i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub>"
     id: E_h*(e*a_0)
@@ -5441,7 +5441,7 @@ NISTu260:
   short: atomic_unit_of_electric_field_gradient
   unit_name:
   - atomic unit of electric field gradient
-  unit_symbols:
+  symbols:
   - ascii: E_h*(e*a_0^2)
     html: "<i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub><sup>2</sup>"
     id: E_h*(e*a_0^2)
@@ -5469,7 +5469,7 @@ NISTu261:
   short: atomic_unit_of_electric_potential
   unit_name:
   - atomic unit of electric potential
-  unit_symbols:
+  symbols:
   - ascii: E_h*e-1
     html: "<i>E</i><sub>h</sub>/<i>e</i>"
     id: E_h*e-1
@@ -5495,7 +5495,7 @@ NISTu262:
   short: atomic_unit_of_force
   unit_name:
   - atomic unit of force
-  unit_symbols:
+  symbols:
   - ascii: E_h*(a_0)-1
     html: "<i>E</i><sub>h</sub>/<i>a</i><sub>0</sub>"
     id: E_h*(a_0)-1
@@ -5519,7 +5519,7 @@ NISTu263:
   short: atomic_unit_of_electric_quadrupole_moment
   unit_name:
   - atomic unit of electric quadrupole moment
-  unit_symbols:
+  symbols:
   - ascii: e*a_0^2
     html: "<i>e</i><i>a</i><sub>0</sub><sup>2</sup>"
     id: e*a_0^2
@@ -5542,7 +5542,7 @@ NISTu264:
   short: atomic_unit_of_electric_polarizability
   unit_name:
   - atomic unit of electric polarizability
-  unit_symbols:
+  symbols:
   - ascii: e^2*a_0^2*(E_h)^-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>E</i><sub>h</sub>"
     id: e^2*a_0^2*(E_h)^-1
@@ -5568,7 +5568,7 @@ NISTu265:
   unit_name:
   - statohm
   - ESU of resistance
-  unit_symbols:
+  symbols:
   - ascii: statohm
     html: statohm
     id: statohm
@@ -5592,7 +5592,7 @@ NISTu266:
   unit_name:
   - statfarad
   - ESU of capacitance
-  unit_symbols:
+  symbols:
   - ascii: statF
     html: statF
     id: statF
@@ -5616,7 +5616,7 @@ NISTu267:
   unit_name:
   - statampere
   - ESU of current
-  unit_symbols:
+  symbols:
   - ascii: statA
     html: statA
     id: statA
@@ -5644,7 +5644,7 @@ NISTu268:
   unit_name:
   - statvolt
   - ESU of Electric potential
-  unit_symbols:
+  symbols:
   - ascii: statV
     html: statV
     id: statV
@@ -5668,7 +5668,7 @@ NISTu269:
   unit_name:
   - stathenry
   - ESU of inductance
-  unit_symbols:
+  symbols:
   - ascii: statH
     html: statH
     id: statH
@@ -5692,7 +5692,7 @@ NISTu270:
   unit_name:
   - statmho
   - ESU of conductance
-  unit_symbols:
+  symbols:
   - ascii: statmho
     html: statmho
     id: statmho
@@ -5718,7 +5718,7 @@ NISTu271:
   unit_name:
   - statcoulomb
   - ESU of charge
-  unit_symbols:
+  symbols:
   - ascii: statcoulomb
     html: statcoulomb
     id: statcoulomb
@@ -5741,7 +5741,7 @@ NISTu272:
   short: statweber
   unit_name:
   - statweber
-  unit_symbols:
+  symbols:
   - ascii: statWb
     html: statWb
     id: statWb
@@ -5764,7 +5764,7 @@ NISTu273:
   short: stattesla
   unit_name:
   - stattesla
-  unit_symbols:
+  symbols:
   - ascii: statT
     html: statT
     id: statT
@@ -5787,7 +5787,7 @@ NISTu274:
   short: statwatt
   unit_name:
   - statwatt
-  unit_symbols:
+  symbols:
   - ascii: statwatt
     html: statwatt
     id: statwatt
@@ -5811,7 +5811,7 @@ NISTu275:
   unit_name:
   - dram (avoirdupois)
   - dram
-  unit_symbols:
+  symbols:
   - ascii: dr (avdp)
     html: dr (avdp)
     id: dr (avdp)
@@ -5834,7 +5834,7 @@ NISTu276:
   short: footcandle
   unit_name:
   - footcandle
-  unit_symbols:
+  symbols:
   - ascii: ft.c
     html: ft.c
     id: ft.c
@@ -5857,7 +5857,7 @@ NISTu277:
   short: footlambert
   unit_name:
   - footlambert
-  unit_symbols:
+  symbols:
   - ascii: ft.L
     html: ft.L
     id: ft.L
@@ -5882,7 +5882,7 @@ NISTu278:
   short: computer_pica
   unit_name:
   - pica (computer)
-  unit_symbols:
+  symbols:
   - ascii: pc
     html: pc
     id: pica_computer
@@ -5905,7 +5905,7 @@ NISTu279:
   short: printers_pica
   unit_name:
   - pica (printer's)
-  unit_symbols:
+  symbols:
   - ascii: pc
     html: pc
     id: pica_printer
@@ -5930,7 +5930,7 @@ NISTu280:
   short: computer_point
   unit_name:
   - point (computer)
-  unit_symbols:
+  symbols:
   - ascii: pt
     html: pt
     id: pt_computer
@@ -5954,7 +5954,7 @@ NISTu281:
   unit_name:
   - rod (based on US survey foot)
   - rod
-  unit_symbols:
+  symbols:
   - ascii: rd
     html: rd
     id: rd
@@ -5978,7 +5978,7 @@ NISTu282:
   unit_name:
   - fathom (based on US survey foot)
   - fathom
-  unit_symbols:
+  symbols:
   - ascii: fath
     html: fath
     id: fath
@@ -6001,7 +6001,7 @@ NISTu283:
   short: circular_mil
   unit_name:
   - circular mil
-  unit_symbols:
+  symbols:
   - ascii: cmil
     html: cmil
     id: cmil
@@ -6024,7 +6024,7 @@ NISTu284:
   short: horsepower
   unit_name:
   - horsepower
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp
@@ -6048,7 +6048,7 @@ NISTu285:
   unit_name:
   - horsepower, boiler
   - boiler horsepower
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp_boiler
@@ -6072,7 +6072,7 @@ NISTu286:
   unit_name:
   - horsepower, water
   - water horsepower
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp_water
@@ -6095,7 +6095,7 @@ NISTu287:
   short: uk_horsepower
   unit_name:
   - horsepower (UK)
-  unit_symbols:
+  symbols:
   - ascii: hp
     html: hp
     id: hp_UK
@@ -6118,7 +6118,7 @@ NISTu288:
   short: degree_Rankine
   unit_name:
   - degree Rankine
-  unit_symbols:
+  symbols:
   - ascii: degR
     html: "&#176;R"
     id: degR
@@ -6141,7 +6141,7 @@ NISTu289:
   short: dalton
   unit_name:
   - dalton
-  unit_symbols:
+  symbols:
   - ascii: Da
     html: Da
     id: Da
@@ -6164,7 +6164,7 @@ NISTu290:
   short: natural_unit_of_length
   unit_name:
   - natural unit of length
-  unit_symbols:
+  symbols:
   - ascii: lambda-bar_C
     html: "&#x19b;<sub>C</sub>"
     id: lambda-bar_C
@@ -6187,7 +6187,7 @@ NISTu291:
   short: atomic_unit_of_1st_hyperpolarizability
   unit_name:
   - atomic unit of 1st hyperpolarizability
-  unit_symbols:
+  symbols:
   - ascii: e^3a_0^3*(E_h^3)
     html: "<i>e</i><sup>3</sup><i>a</i><sub>0</sub><sup>3</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^3a_0^3*(E_h^3)
@@ -6212,7 +6212,7 @@ NISTu292:
   short: atomic_unit_of_2nd_hyperpolarizability
   unit_name:
   - atomic unit of 2nd hyperpolarizability
-  unit_symbols:
+  symbols:
   - ascii: e^4a_0^4*(E_h^3)
     html: "<i>e</i><sup>4</sup><i>a</i><sub>0</sub><sup>4</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^4a_0^4*(E_h^3)
@@ -6237,7 +6237,7 @@ NISTu293:
   short: atomic_unit_of_permittivity
   unit_name:
   - atomic unit of permittivity
-  unit_symbols:
+  symbols:
   - ascii: e^2*(a_0*E_h)-1
     html: "<i>e</i><sup>2</sup>/<i>a</i><sub>0</sub><i>E</i><sub>h</sub>"
     id: e^2*(a_0*E_h)-1
@@ -6262,7 +6262,7 @@ NISTu294:
   short: atomic_unit_of_velocity
   unit_name:
   - atomic unit of velocity
-  unit_symbols:
+  symbols:
   - ascii: a_0*E_h*h-bar-1
     html: "<i>a</i><sub>0</sub><i>E</i><sub>h</sub>/&#295;"
     id: a_0*E_h*h-bar-1
@@ -6287,7 +6287,7 @@ NISTu295:
   short: natural_unit_of_energy
   unit_name:
   - natural unit of energy
-  unit_symbols:
+  symbols:
   - ascii: m_e*c^2
     html: "<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: m_e*c^2
@@ -6311,7 +6311,7 @@ NISTu296:
   short: natural_unit_of_momentum
   unit_name:
   - natural unit of momentum
-  unit_symbols:
+  symbols:
   - ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c
@@ -6335,7 +6335,7 @@ NISTu297:
   short: natural_unit_of_action_in_eV_s
   unit_name:
   - natural unit of action in eV s
-  unit_symbols:
+  symbols:
   - ascii: h-bar
     html: "&#295;"
     id: h-bar_eV_s
@@ -6358,7 +6358,7 @@ NISTu298:
   short: natural_unit_of_energy_in_MeV
   unit_name:
   - natural unit of energy in MeV
-  unit_symbols:
+  symbols:
   - ascii: m_e*c^2
     html: "<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: m_e*c^2_MeV
@@ -6382,7 +6382,7 @@ NISTu299:
   short: natural_unit_of_momentum_in_MeV_per_c
   unit_name:
   - natural unit of momentum in MeV/c
-  unit_symbols:
+  symbols:
   - ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c_MeV/C
@@ -6407,7 +6407,7 @@ NISTu300:
   unit_name:
   - quart (UK)
   - quart
-  unit_symbols:
+  symbols:
   - ascii: qt (UK)
     html: qt (UK)
     id: qt (UK)
@@ -6431,7 +6431,7 @@ NISTu301:
   unit_name:
   - dry quart (US)
   - quart
-  unit_symbols:
+  symbols:
   - ascii: dry qt (US)
     html: dry qt (US)
     id: dry qt (US)
@@ -6455,7 +6455,7 @@ NISTu302:
   unit_name:
   - liquid quart (US)
   - quart
-  unit_symbols:
+  symbols:
   - ascii: liq qt (US)
     html: liq qt (US)
     id: liq qt (US)
@@ -6478,7 +6478,7 @@ NISTu303:
   short: us_teaspoon
   unit_name:
   - teaspoon
-  unit_symbols:
+  symbols:
   - ascii: tsp
     html: tsp
     id: tsp
@@ -6501,7 +6501,7 @@ NISTu304:
   short: us_tablespoon
   unit_name:
   - tablespoon
-  unit_symbols:
+  symbols:
   - ascii: tbsp
     html: tbsp
     id: tbsp
@@ -6525,7 +6525,7 @@ NISTu305:
   unit_name:
   - tablespoon (FDA)
   - teaspoon
-  unit_symbols:
+  symbols:
   - ascii: tbsp
     html: tbsp
     id: tbsp_label
@@ -6549,7 +6549,7 @@ NISTu306:
   unit_name:
   - teaspoon (FDA)
   - teaspoon
-  unit_symbols:
+  symbols:
   - ascii: tsp
     html: tsp
     id: tsp_label
@@ -6573,7 +6573,7 @@ NISTu307:
   unit_name:
   - cup (FDA)
   - cup
-  unit_symbols:
+  symbols:
   - ascii: cup
     html: cup
     id: cup_label
@@ -6598,7 +6598,7 @@ NISTu308:
   - fluid ounce (FDA)
   - fluid ounce
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: fl oz (US label)
     html: fl oz (US label)
     id: fl oz (US label)
@@ -6622,7 +6622,7 @@ NISTu309:
   unit_name:
   - ounce (FDA)
   - ounce
-  unit_symbols:
+  symbols:
   - ascii: oz (US label)
     html: oz (US label)
     id: oz (US label)
@@ -6648,7 +6648,7 @@ NISTu310:
   - surveyors chain
   - Gunter's chain
   - chain
-  unit_symbols:
+  symbols:
   - ascii: ch
     html: ch
     id: ch
@@ -6674,7 +6674,7 @@ NISTu311:
   - surveyors link
   - Gunter's link
   - link
-  unit_symbols:
+  symbols:
   - ascii: lnk
     html: lnk
     id: lnk
@@ -6698,7 +6698,7 @@ NISTu312:
   unit_name:
   - furlong (based on US survey foot)
   - furlong
-  unit_symbols:
+  symbols:
   - ascii: fur
     html: fur
     id: fur
@@ -6723,7 +6723,7 @@ NISTu313:
   - mile (based on US survey foot)
   - survey mile
   - mile
-  unit_symbols:
+  symbols:
   - ascii: mi
     html: mi
     id: mi_US_survey
@@ -6747,7 +6747,7 @@ NISTu314:
   unit_name:
   - yard (based on US survey foot)
   - yard
-  unit_symbols:
+  symbols:
   - ascii: yd
     html: yd
     id: yd_US_survey
@@ -6772,7 +6772,7 @@ NISTu315:
   - foot (based on US survey foot)
   - survey foot
   - foot
-  unit_symbols:
+  symbols:
   - ascii: ft
     html: ft
     id: ft_US_survey
@@ -6796,7 +6796,7 @@ NISTu316:
   unit_name:
   - inch (based on US survey foot)
   - inch
-  unit_symbols:
+  symbols:
   - ascii: in
     html: in
     id: in_US_survey
@@ -6820,7 +6820,7 @@ NISTu317:
   unit_name:
   - acre (based on US survey foot)
   - acre
-  unit_symbols:
+  symbols:
   - ascii: ac
     html: ac
     id: ac
@@ -6847,7 +6847,7 @@ NISTu318:
   - conventional centimeter of mercury
   - centimeter of mercury, conventional
   - centimeter of mercury
-  unit_symbols:
+  symbols:
   - ascii: cmHg
     html: cmHg
     id: cmHg
@@ -6872,7 +6872,7 @@ NISTu319:
   short: 0C_cm_Hg
   unit_name:
   - centimeter of mercury (0 degC)
-  unit_symbols:
+  symbols:
   - ascii: cmHg
     html: cmHg
     id: cmHg_0degC
@@ -6897,7 +6897,7 @@ NISTu320:
   short: 4C_cm_water
   unit_name:
   - centimeter of water (4 degC)
-  unit_symbols:
+  symbols:
   - ascii: cmH_2O
     html: cmH<sub>2</sub>O
     id: cmH_2O_4degC
@@ -6925,7 +6925,7 @@ NISTu321:
   - conventional centimeter of water
   - centimeter of water, conventional
   - centimeter of water
-  unit_symbols:
+  symbols:
   - ascii: cmH_2O
     html: cmH<sub>2</sub>O
     id: cmH_2O
@@ -6953,7 +6953,7 @@ NISTu322:
   - conventional inch of water
   - inch of water, conventional
   - inch of water
-  unit_symbols:
+  symbols:
   - ascii: inH_2O
     html: inH<sub>2</sub>O
     id: inH_2O
@@ -6979,7 +6979,7 @@ NISTu323:
   short: 39F_in_water
   unit_name:
   - inch of water (39.2 degF)
-  unit_symbols:
+  symbols:
   - ascii: inH_2O
     html: inH<sub>2</sub>O
     id: inH_2O_39degF
@@ -7005,7 +7005,7 @@ NISTu324:
   short: 60F_in_water
   unit_name:
   - inch of water (60 degF)
-  unit_symbols:
+  symbols:
   - ascii: inH_2O
     html: inH<sub>2</sub>O
     id: inH_2O_60degF
@@ -7033,7 +7033,7 @@ NISTu325:
   - conventional foot of water
   - foot of water, conventional
   - foot of water
-  unit_symbols:
+  symbols:
   - ascii: ftH_2O
     html: ftH<sub>2</sub>O
     id: ftH_2O
@@ -7059,7 +7059,7 @@ NISTu326:
   short: 39F_ft_water
   unit_name:
   - foot of water (39.2 degF)
-  unit_symbols:
+  symbols:
   - ascii: ftH_2O
     html: ftH<sub>2</sub>O
     id: ftH_2O_39degF
@@ -7085,7 +7085,7 @@ NISTu327:
   short: 32F_in_Hg
   unit_name:
   - inch of mercury (32 degF)
-  unit_symbols:
+  symbols:
   - ascii: inHg
     html: inHg
     id: inHg_32degF
@@ -7122,7 +7122,7 @@ NISTu328:
   short: 60F_in_Hg
   unit_name:
   - inch of mercury (60 degF)
-  unit_symbols:
+  symbols:
   - ascii: inHg
     html: inHg
     id: inHg_60degF
@@ -7161,7 +7161,7 @@ NISTu329:
   - conventional inch of mercury
   - inch of mercury, conventional
   - inch of mercury
-  unit_symbols:
+  symbols:
   - ascii: inHg
     html: inHg
     id: inHg
@@ -7200,7 +7200,7 @@ NISTu330:
   - conventional foot of mercury
   - 'foot of mercury, conventional '
   - foot of mercury
-  unit_symbols:
+  symbols:
   - ascii: ftHg
     html: ftHg
     id: ftHg
@@ -7245,7 +7245,7 @@ NISTu331:
   short: us_therm
   unit_name:
   - therm (US)
-  unit_symbols:
+  symbols:
   - ascii: thm (US)
     html: thm (US)
     id: thm (US)
@@ -7268,7 +7268,7 @@ NISTu332:
   short: pH
   unit_name:
   - pH
-  unit_symbols:
+  symbols:
   - ascii: pH
     html: pH
     id: pH
@@ -7293,7 +7293,7 @@ NISTu333:
   - British thermal unit_IT
   - International Table Btu
   - British thermal unit
-  unit_symbols:
+  symbols:
   - ascii: Btu
     html: Btu
     id: Btu
@@ -7316,7 +7316,7 @@ NISTu334:
   short: mean_btu
   unit_name:
   - British thermal unit (mean)
-  unit_symbols:
+  symbols:
   - ascii: Btu
     html: Btu
     id: Btu_mean
@@ -7339,7 +7339,7 @@ NISTu335:
   short: 39F_btu
   unit_name:
   - British thermal unit (39 degF)
-  unit_symbols:
+  symbols:
   - ascii: Btu
     html: Btu
     id: Btu_39degF
@@ -7362,7 +7362,7 @@ NISTu336:
   short: 59F_btu
   unit_name:
   - British thermal unit (59 degF)
-  unit_symbols:
+  symbols:
   - ascii: Btu
     html: Btu
     id: Btu_59degF
@@ -7385,7 +7385,7 @@ NISTu337:
   short: 60F_btu
   unit_name:
   - British thermal unit (60 degF)
-  unit_symbols:
+  symbols:
   - ascii: Btu
     html: Btu
     id: Btu_60degF
@@ -7410,7 +7410,7 @@ NISTu338:
   - year, tropical
   - tropical year
   - year
-  unit_symbols:
+  symbols:
   - ascii: a
     html: a
     id: a_tropical_year
@@ -7435,7 +7435,7 @@ NISTu339:
   - year, sidereal
   - sidereal year
   - year
-  unit_symbols:
+  symbols:
   - ascii: a
     html: a
     id: a_sidereal_year
@@ -7460,7 +7460,7 @@ NISTu340:
   - day, sidereal
   - sidereal day
   - day
-  unit_symbols:
+  symbols:
   - ascii: d
     html: d
     id: d_sidereal
@@ -7485,7 +7485,7 @@ NISTu341:
   - hour, sidereal
   - sidereal hour
   - hour
-  unit_symbols:
+  symbols:
   - ascii: h
     html: h
     id: h_sidereal
@@ -7510,7 +7510,7 @@ NISTu342:
   - minute, sidereal
   - sidereal minute
   - minute
-  unit_symbols:
+  symbols:
   - ascii: min
     html: min
     id: min_sidereal
@@ -7535,7 +7535,7 @@ NISTu343:
   - second, sidereal
   - sidereal second
   - second
-  unit_symbols:
+  symbols:
   - ascii: s
     html: s
     id: s_sidereal
@@ -7558,7 +7558,7 @@ NISTu344:
   short: printers_point
   unit_name:
   - point (printer's)
-  unit_symbols:
+  symbols:
   - ascii: pt
     html: pt
     id: pt_printer
@@ -7581,7 +7581,7 @@ NISTu345:
   short: shake
   unit_name:
   - shake
-  unit_symbols:
+  symbols:
   - ascii: shake
     html: shake
     id: shake
@@ -7604,7 +7604,7 @@ NISTu346:
   short: denier
   unit_name:
   - denier
-  unit_symbols:
+  symbols:
   - ascii: den
     html: den
     id: den
@@ -7629,7 +7629,7 @@ NISTu347:
   - angular mil (NATO)
   - angular mil
   - mil
-  unit_symbols:
+  symbols:
   - ascii: mil
     html: mil
     id: mil_nato
@@ -7653,7 +7653,7 @@ NISTu348:
   unit_name:
   - pound-mole
   - pound mole
-  unit_symbols:
+  symbols:
   - ascii: lbmol
     html: lbmol
     id: lbmol
@@ -7678,7 +7678,7 @@ NISTu349:
   - ton of refrigeration (12 000 Btu_IT/h)
   - ton of refrigeration
   - ton
-  unit_symbols:
+  symbols:
   - ascii: ton
     html: ton
     id: ton_refrigeration
@@ -7701,7 +7701,7 @@ NISTu350:
   short: bit
   unit_name:
   - bit
-  unit_symbols:
+  symbols:
   - ascii: bit
     html: bit
     id: bit
@@ -7724,7 +7724,7 @@ NISTu351:
   short: byte
   unit_name:
   - byte
-  unit_symbols:
+  symbols:
   - ascii: B
     html: B
     id: byte_B
@@ -7747,7 +7747,7 @@ NISTu352:
   short: us_peck
   unit_name:
   - peck
-  unit_symbols:
+  symbols:
   - ascii: pk
     html: pk
     id: pk
@@ -7770,7 +7770,7 @@ NISTu353:
   short: us_minim
   unit_name:
   - minim
-  unit_symbols:
+  symbols:
   - ascii: min
     html: min
     id: minim
@@ -7794,7 +7794,7 @@ NISTu354:
   unit_name:
   - cup (US)
   - cup
-  unit_symbols:
+  symbols:
   - ascii: cup
     html: cup
     id: cup
@@ -7819,7 +7819,7 @@ NISTu355:
   - fluid dram
   - dram, fluid
   - dram
-  unit_symbols:
+  symbols:
   - ascii: fl dr
     html: fl dr
     id: fl dr
@@ -7843,7 +7843,7 @@ NISTu356:
   unit_name:
   - gill (US)
   - gill
-  unit_symbols:
+  symbols:
   - ascii: gi
     html: gi
     id: gi
@@ -7868,7 +7868,7 @@ NISTu357:
   - gill [Canadian and UK (Imperial)]
   - imperial gill
   - gill
-  unit_symbols:
+  symbols:
   - ascii: gi
     html: gi
     id: gi_imperial
@@ -7893,7 +7893,7 @@ NISTu358:
   short: cubic_foot_per_minute
   unit_name:
   - cubic foot per minute
-  unit_symbols:
+  symbols:
   - ascii: ft^3*min^-1
     html: ft<sup>3</sup>/min
     id: ft^3*min^-1
@@ -7919,7 +7919,7 @@ NISTu359:
   short: cubic_foot_per_second
   unit_name:
   - cubic foot per second
-  unit_symbols:
+  symbols:
   - ascii: ft^3*sec^-1
     html: ft<sup>3</sup>/sec
     id: ft^3*sec^-1
@@ -7945,7 +7945,7 @@ NISTu360:
   short: cubic_inch_per_minute
   unit_name:
   - cubic inch per minute
-  unit_symbols:
+  symbols:
   - ascii: in^3*min^-1
     html: in<sup>3</sup>/min
     id: in^3*min^-1
@@ -7971,7 +7971,7 @@ NISTu361:
   short: microinch
   unit_name:
   - microinch
-  unit_symbols:
+  symbols:
   - ascii: uin
     html: "&#956;in"
     id: uin
@@ -7998,7 +7998,7 @@ NISTu362:
   short: millibar
   unit_name:
   - millibar
-  unit_symbols:
+  symbols:
   - ascii: mbar
     html: mbar
     id: mbar
@@ -8024,7 +8024,7 @@ NISTu363:
   unit_name:
   - mile per gallon (US)
   - mile per gallon
-  unit_symbols:
+  symbols:
   - ascii: mpg
     html: mpg
     id: mpg
@@ -8056,7 +8056,7 @@ NISTu364:
   unit_name:
   - gallon (US) per minute
   - gallon per minute
-  unit_symbols:
+  symbols:
   - ascii: gpm
     html: gpm
     id: gpm
@@ -8087,7 +8087,7 @@ NISTu365:
   short: milliliter
   unit_name:
   - milliliter
-  unit_symbols:
+  symbols:
   - ascii: mL
     html: mL
     id: mL
@@ -8118,7 +8118,7 @@ NISTu366:
   short: mole_per_liter
   unit_name:
   - mole per liter
-  unit_symbols:
+  symbols:
   - ascii: mol*l^-1
     html: mol/l
     id: mol*l^-1
@@ -8147,7 +8147,7 @@ NISTu376:
   short: light_week
   unit_name:
   - light week
-  unit_symbols:
+  symbols:
   - ascii: l.w.
     html: l.w.
     id: l.w.
@@ -8170,7 +8170,7 @@ NISTu377:
   short: light_hour
   unit_name:
   - light hour
-  unit_symbols:
+  symbols:
   - ascii: l.h.
     html: l.h.
     id: l.h.
@@ -8193,7 +8193,7 @@ NISTu378:
   short: light_minute
   unit_name:
   - light minute
-  unit_symbols:
+  symbols:
   - ascii: l.m.
     html: l.m.
     id: l.m.
@@ -8216,7 +8216,7 @@ NISTu379:
   short: light_second
   unit_name:
   - light second
-  unit_symbols:
+  symbols:
   - ascii: l.s.
     html: l.s.
     id: l.s.
@@ -8235,7 +8235,7 @@ NISTu400:
   short: parts_per_million
   unit_name:
   - parts per million
-  unit_symbols:
+  symbols:
   - ascii: ppm
     html: ppm
     id: ppm
@@ -8270,7 +8270,7 @@ NISTu401:
     prefix:
   unit_name:
   - var
-  unit_symbols:
+  symbols:
   - ascii: var
     html: var
     id: var
@@ -8301,7 +8301,7 @@ NISTu1.u3e-1/1:
   short: meter_per_second
   unit_name:
   - meter per second
-  unit_symbols:
+  symbols:
   - ascii: m*s^-1
     html: m/s
     id: m*s^-1
@@ -8328,7 +8328,7 @@ NISTu1.u3e-2/1:
   short: meter_per_second_squared
   unit_name:
   - meter per second squared
-  unit_symbols:
+  symbols:
   - ascii: m*s^-2
     html: m/s<sup>2</sup>
     id: m*s^-2
@@ -8362,7 +8362,7 @@ NISTu1e-1/1:
   unit_name:
   - meter to the power minus one
   - reciprocal meter
-  unit_symbols:
+  symbols:
   - ascii: m^-1
     html: m<sup>-1</sup>
     id: m^-1
@@ -8385,7 +8385,7 @@ NISTu1e2/1:
   short: square_meter
   unit_name:
   - square meter
-  unit_symbols:
+  symbols:
   - ascii: m^2
     html: m<sup>2</sup>
     id: m^2
@@ -8410,7 +8410,7 @@ NISTu1e2/1.u3e-1/1:
   short: meter_squared_per_second
   unit_name:
   - meter squared per second
-  unit_symbols:
+  symbols:
   - ascii: m^2*s^-1
     html: m<sup>2</sup>/s
     id: m^2*s^-1
@@ -8436,7 +8436,7 @@ NISTu1e3/1:
   short: cubic_meter
   unit_name:
   - cubic meter
-  unit_symbols:
+  symbols:
   - ascii: m^3
     html: m<sup>3</sup>
     id: m^3
@@ -8462,7 +8462,7 @@ NISTu1e3/1.u27p10'3:
   short: cubic_meter_per_kilogram
   unit_name:
   - cubic meter per kilogram
-  unit_symbols:
+  symbols:
   - ascii: m^3*kg
     html: m<sup>3</sup>/kg
     id: m^3*kg
@@ -8488,7 +8488,7 @@ NISTu1e3/1.u3e-1/1:
   short: cubic_meter_per_second
   unit_name:
   - cubic meter per second
-  unit_symbols:
+  symbols:
   - ascii: m^3*s^-1
     html: m<sup>3</sup>/s
     id: m^3*s^-1
@@ -8516,7 +8516,7 @@ NISTu3e-1/1:
   short: second_to_the_power_minus_one
   unit_name:
   - second to the power minus one
-  unit_symbols:
+  symbols:
   - ascii: s^-1
     html: s<sup>-1</sup>
     id: s^-1
@@ -8541,7 +8541,7 @@ NISTu4.u1e-1/1:
   short: ampere_per_meter
   unit_name:
   - ampere per meter
-  unit_symbols:
+  symbols:
   - ascii: A*m^-1
     html: A/m
     id: A*m^-1
@@ -8566,7 +8566,7 @@ NISTu4.u1e-2/1:
   short: ampere_per_square_meter
   unit_name:
   - ampere per square meter
-  unit_symbols:
+  symbols:
   - ascii: A*m^-2
     html: A/m<sup>2</sup>
     id: A*m^-2
@@ -8593,7 +8593,7 @@ NISTu5e-1/1:
   short: kelvin_to_the_power_minus_one
   unit_name:
   - kelvin to the power minus one
-  unit_symbols:
+  symbols:
   - ascii: K^-1
     html: K<sup>-1</sup>
     id: K^-1
@@ -8618,7 +8618,7 @@ NISTu6.u1e-3/1:
   short: mole_per_cubic_meter
   unit_name:
   - mole per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: mol*m^-3
     html: mol/m<sup>3</sup>
     id: mol*m^-3
@@ -8644,7 +8644,7 @@ NISTu6.u27p10'3e-1/1:
   short: mole_per_kilogram
   unit_name:
   - mole per kilogram
-  unit_symbols:
+  symbols:
   - ascii: mol*kg^-1
     html: mol/kg
     id: mol*kg^-1
@@ -8669,7 +8669,7 @@ NISTu7.u1e-2/1:
   short: candela_per_square_meter
   unit_name:
   - candela per square meter
-  unit_symbols:
+  symbols:
   - ascii: cd*m^-2
     html: cd/m<sup>2</sup>
     id: cd*m^-2
@@ -8694,7 +8694,7 @@ NISTu9.u1e-1/1:
   short: radian_per_meter
   unit_name:
   - radian per meter
-  unit_symbols:
+  symbols:
   - ascii: rad*m^-1
     html: rad/m
     id: rad*m^-1
@@ -8721,7 +8721,7 @@ NISTu9.u3e-1/1:
   short: radian_per_second
   unit_name:
   - radian per second
-  unit_symbols:
+  symbols:
   - ascii: rad*s^-1
     html: rad/s
     id: rad*s^-1
@@ -8746,7 +8746,7 @@ NISTu9.u3e-2/1:
   short: radian_per_second_squared
   unit_name:
   - radian per second squared
-  unit_symbols:
+  symbols:
   - ascii: rad*s^-2
     html: rad/s<sup>2</sup>
     id: rad*s^-2
@@ -8775,7 +8775,7 @@ NISTu11.u1:
   short: newton_meter
   unit_name:
   - newton meter
-  unit_symbols:
+  symbols:
   - ascii: N*m
     html: N&#8201;&#183;&#8201;m
     id: N*m
@@ -8802,7 +8802,7 @@ NISTu11.u1.u3:
   short: newton_meter_second
   unit_name:
   - newton meter second
-  unit_symbols:
+  symbols:
   - ascii: N*m*s
     html: N&#8201;&#183;&#8201;m&#8201;&#183;&#8201;s
     id: N*m*s
@@ -8828,7 +8828,7 @@ NISTu11.u1e-1/1:
   short: newton_per_meter
   unit_name:
   - newton per meter
-  unit_symbols:
+  symbols:
   - ascii: N*m^-1
     html: N/m
     id: N*m^-1
@@ -8856,7 +8856,7 @@ NISTu11.u1e2/1.u27p10'3e-2/1:
   short: newton_meter_squared_per_kilogram_squared
   unit_name:
   - newton meter squared per kilogram squared
-  unit_symbols:
+  symbols:
   - ascii: N*m^2*kg^-2
     html: N&#8201;&#183;&#8201;m<sup>2</sup>/kg&nbsp;<sup>2</sup>
     id: N*m^2*kg^-2
@@ -8882,7 +8882,7 @@ NISTu11.u3:
   short: newton_second
   unit_name:
   - newton second
-  unit_symbols:
+  symbols:
   - ascii: N*s
     html: N&#8201;&#183;&#8201;s
     id: N*s
@@ -8907,7 +8907,7 @@ NISTu12.u3:
   short: pascal_second
   unit_name:
   - pascal second
-  unit_symbols:
+  symbols:
   - ascii: Pa*s
     html: Pa&#8201;&#183;&#8201;s
     id: Pa*s
@@ -8932,7 +8932,7 @@ NISTu12.u5e-1/1:
   short: pascal_per_kelvin
   unit_name:
   - pascal per kelvin
-  unit_symbols:
+  symbols:
   - ascii: Pa*K^-1
     html: Pa/K
     id: Pa*K^-1
@@ -8957,7 +8957,7 @@ NISTu12e-1/1:
   short: pascal_to_the_power_minus_one
   unit_name:
   - pascal to the power minus one
-  unit_symbols:
+  symbols:
   - ascii: Pa^-1
     html: Pa<sup>-1</sup>
     id: Pa^-1
@@ -8982,7 +8982,7 @@ NISTu13.u1e-3/1:
   short: joule_per_cubic_meter
   unit_name:
   - joule per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: J*m^-3
     html: J/m<sup>3</sup>
     id: J*m^-3
@@ -9008,7 +9008,7 @@ NISTu13.u27p10'3e-1/1:
   short: joule_per_kilogram
   unit_name:
   - joule per kilogram
-  unit_symbols:
+  symbols:
   - ascii: J*kg^-1
     html: J/kg
     id: J*kg^-1
@@ -9038,7 +9038,7 @@ NISTu13.u27p10'3e-1/1.u5e-1/1:
   short: joule_per_kilogram_kelvin
   unit_name:
   - joule per kilogram kelvin
-  unit_symbols:
+  symbols:
   - ascii: J*kg^-1*K^-1
     html: J/(kg&#8201;&#183;&#8201;K)
     id: J*kg^-1*K^-1
@@ -9064,7 +9064,7 @@ NISTu13.u3:
   short: joule_second
   unit_name:
   - joule second
-  unit_symbols:
+  symbols:
   - ascii: J*s
     html: J&#8201;&#183;&#8201;s
     id: J*s
@@ -9091,7 +9091,7 @@ NISTu13.u5e-1/1:
   short: joule_per_kelvin
   unit_name:
   - joule per kelvin
-  unit_symbols:
+  symbols:
   - ascii: J*K^-1
     html: J/K
     id: J*K^-1
@@ -9116,7 +9116,7 @@ NISTu13.u6e-1/1:
   short: joule_per_mole
   unit_name:
   - joule per mole
-  unit_symbols:
+  symbols:
   - ascii: J*mol^-1
     html: J/mol
     id: J*mol^-1
@@ -9141,7 +9141,7 @@ NISTu13.u6e-1/1.u5e-1/1:
   short: joule_per_mole_kelvin
   unit_name:
   - joule per mole kelvin
-  unit_symbols:
+  symbols:
   - ascii: J*mol^-1*K^-1
     html: J/(mol&#8201;&#183;&#8201;K)
     id: J*mol^-1*K^-1
@@ -9167,7 +9167,7 @@ NISTu14.u10e-1/1:
   short: watt_per_steradian
   unit_name:
   - watt per steradian
-  unit_symbols:
+  symbols:
   - ascii: W*sr^-1
     html: W/sr
     id: W*sr^-1
@@ -9190,7 +9190,7 @@ NISTu14.u1e-1/1.u5e-1/1:
   short: watt_per_meter_kelvin
   unit_name:
   - watt per meter kelvin
-  unit_symbols:
+  symbols:
   - ascii: W*m^-1*K^-1
     html: W/(m&#8201;&#183;&#8201;K)
     id: W*m^-1*K^-1
@@ -9218,7 +9218,7 @@ NISTu14.u1e-2/1:
   short: watt_per_square_meter
   unit_name:
   - watt per square meter
-  unit_symbols:
+  symbols:
   - ascii: W*m^-2
     html: W/m<sup>2</sup>
     id: W*m^-2
@@ -9245,7 +9245,7 @@ NISTu14.u1e-2/1.u10e-1/1:
   short: watt_per_square_meter_steradian
   unit_name:
   - watt per square meter steradian
-  unit_symbols:
+  symbols:
   - ascii: W*m^-2*sr^-1
     html: W/(m^2&#8201;&#183;&#8201;sr)
     id: W*m^-2*sr^-1
@@ -9282,7 +9282,7 @@ NISTu14.u3:
   short: watt_second
   unit_name:
   - watt second
-  unit_symbols:
+  symbols:
   - ascii: W*s
     html: W&#8201;&#183;&#8201;s
     id: W*s
@@ -9309,7 +9309,7 @@ NISTu15.u1e-2/1:
   short: coulomb_per_square_meter
   unit_name:
   - coulomb per square meter
-  unit_symbols:
+  symbols:
   - ascii: C*m^-2
     html: C/m<sup>2</sup>
     id: C*m^-2
@@ -9334,7 +9334,7 @@ NISTu15.u1e-3/1:
   short: coulomb_per_cubic_meter
   unit_name:
   - coulomb per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: C*m^-3
     html: C/m<sup>3</sup>
     id: C*m^-3
@@ -9360,7 +9360,7 @@ NISTu15.u27p10'3e-1/1:
   short: coulomb_per_kilogram
   unit_name:
   - coulomb per kilogram
-  unit_symbols:
+  symbols:
   - ascii: C*kg^-1
     html: C/kg
     id: C*kg^-1
@@ -9385,7 +9385,7 @@ NISTu16.u1e-1/1:
   short: volt_per_meter
   unit_name:
   - volt per meter
-  unit_symbols:
+  symbols:
   - ascii: V*m^-1
     html: V/m
     id: V*m^-1
@@ -9410,7 +9410,7 @@ NISTu17.u1e-1/1:
   short: farad_per_meter
   unit_name:
   - farad per meter
-  unit_symbols:
+  symbols:
   - ascii: F*m^-1
     html: F/m
     id: F*m^-1
@@ -9435,7 +9435,7 @@ NISTu22.u1e-1/1:
   short: henry_per_meter
   unit_name:
   - henry per meter
-  unit_symbols:
+  symbols:
   - ascii: H*m^-1
     html: H/m
     id: H*m^-1
@@ -9463,7 +9463,7 @@ NISTu27p10'3.u1.u3e-1/1:
   short: kilogram_meter_per_second
   unit_name:
   - kilogram meter per second
-  unit_symbols:
+  symbols:
   - ascii: kg*m*s^-1
     html: kg&#8201;&#183;&#8201;m/s
     id: kg*m*s^-1
@@ -9490,7 +9490,7 @@ NISTu27p10'3.u1e-1/1:
   short: kilogram_per_meter
   unit_name:
   - kilogram per meter
-  unit_symbols:
+  symbols:
   - ascii: kg*m^-1
     html: kg/m
     id: kg*m^-1
@@ -9516,7 +9516,7 @@ NISTu27p10'3.u1e-2/1:
   short: kilogram_per_square_meter
   unit_name:
   - kilogram per square meter
-  unit_symbols:
+  symbols:
   - ascii: kg*m^-2
     html: kg/m<sup>2</sup>
     id: kg*m^-2
@@ -9544,7 +9544,7 @@ NISTu27p10'3.u1e-3/1:
   short: kilogram_per_cubic_meter
   unit_name:
   - kilogram per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: kg*m^-3
     html: kg/m<sup>3</sup>
     id: kg*m^-3
@@ -9570,7 +9570,7 @@ NISTu27p10'3.u1e2/1:
   short: kilogram_meter_squared
   unit_name:
   - kilogram meter squared
-  unit_symbols:
+  symbols:
   - ascii: kg*m^2
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>
     id: kg*m^2
@@ -9601,7 +9601,7 @@ NISTu27p10'3.u1e2/1.u3e-1/1:
   short: kilogram_meter_squared_per_second
   unit_name:
   - kilogram meter squared per second
-  unit_symbols:
+  symbols:
   - ascii: kg*m^2*s^-1
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>/s
     id: kg*m^2*s^-1
@@ -9629,7 +9629,7 @@ NISTu27p10'3.u3e-1/1:
   short: kilogram_per_second
   unit_name:
   - kilogram per second
-  unit_symbols:
+  symbols:
   - ascii: kg*s^-1
     html: kg/s
     id: kg*s^-1
@@ -9654,7 +9654,7 @@ NISTu28.u3e-1/1:
   short: gray_per_second
   unit_name:
   - gray per second
-  unit_symbols:
+  symbols:
   - ascii: Gy*s^-1
     html: Gy/s
     id: Gy*s^-1
@@ -9679,7 +9679,7 @@ NISTu30.u1e-3/1:
   short: katal_per_cubic_meter
   unit_name:
   - katal per cubic meter
-  unit_symbols:
+  symbols:
   - ascii: kat*m^-3
     html: kat/m<sup>3</sup>
     id: kat*m^-3
