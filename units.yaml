@@ -1061,7 +1061,7 @@ NISTu45:
   - NISTq8
   unit_name:
   - square foot
-  root: true
+  root: false
   root_units:
   - power_numerator: 2
     unit_reference: NISTu78
@@ -1081,7 +1081,7 @@ NISTu46:
   - NISTq8
   unit_name:
   - square inch
-  root: true
+  root: false
   root_units:
   - power_numerator: 2
     unit_reference: NISTu8
@@ -3433,7 +3433,7 @@ NISTu196:
   - NISTq13
   unit_name:
   - gram-force
-  root: true
+  root: false
   root_units:
   - power_numerator: 1
     unit_reference: NISTu196
@@ -4064,7 +4064,7 @@ NISTu230:
   unit_name:
   - hundredweight (short, 100 lb)
   - hundredweight
-  root: true
+  root: false
   root_units:
   - power_numerator: 1
     unit_reference: NISTu203
@@ -7155,7 +7155,7 @@ NISTu401:
     id: NISTu3
   unit_name:
   - var
-  root: true
+  root: false
   root_units:
   - power_numerator: 1
     unit_reference: NISTu16
