@@ -4080,9 +4080,9 @@ NISTu250:
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_\\mathrm{h}}"
     unicode: "\U0001D438ₕ"
-    ascii: e_h
+    ascii: E_h
     html: "<i>E</i><sub>h</sub>"
-    id: e_h
+    id: E_h
     mathml: "<msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub>"
   dimension_reference: NISTd15
   unit_system_reference:
@@ -4097,9 +4097,9 @@ NISTu251:
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{E}_\\mathrm{h}}"
     unicode: "ℏ/\U0001D438ₕ"
-    ascii: h-bar*(E_h)-1
+    ascii: h-bar/E_h
     html: "<i>&#295;</i>/<i>E</i><sub>h</sub>"
-    id: h-bar*(E_h)-1
+    id: h-bar/E_h
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msub><mi mathvariant='italic'>E</mi><mi
       mathvariant='normal'>h</mi></msub></mrow>"
   dimension_reference: NISTd3
