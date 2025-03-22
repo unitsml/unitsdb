@@ -3,7 +3,7 @@
   - id: NISTd1
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
     symbols:
     - ascii: L
@@ -17,7 +17,7 @@
   - id: NISTd2
     type: nist
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
     symbols:
     - ascii: M
@@ -32,7 +32,7 @@
     type: nist
   short: time
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
     symbols:
     - ascii: T
@@ -45,7 +45,7 @@
   - id: NISTd4
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
     symbols:
     - ascii: I
@@ -60,7 +60,7 @@
     type: nist
   short: temperature
   thermodynamic_temperature:
-    power_numerator: 1
+    power: 1
     symbol: Theta
     symbols:
     - ascii: Theta
@@ -73,7 +73,7 @@
   - id: NISTd6
     type: nist
   amount_of_substance:
-    power_numerator: 1
+    power: 1
     symbol: "N"
     symbols:
     - ascii: "N"
@@ -87,7 +87,7 @@
   - id: NISTd7
     type: nist
   luminous_intensity:
-    power_numerator: 1
+    power: 1
     symbol: J
     symbols:
     - ascii: J
@@ -101,7 +101,7 @@
   - id: NISTd8
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: area
 - identifiers:
@@ -109,7 +109,7 @@
     type: nist
   dimensionless: true
   plane_angle:
-    power_numerator: 1
+    power: 1
     symbol: phi
     symbols:
     - ascii: phi
@@ -123,292 +123,292 @@
   - id: NISTd10
     type: nist
   length:
-    power_numerator: 3
+    power: 3
     symbol: L
   short: volume
 - identifiers:
   - id: NISTd11
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   short: velocity
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd12
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: force
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd13
     type: nist
   electric_current:
-    power_numerator: -1
+    power: -1
     symbol: I
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: magnetic_flux_density
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd14
     type: nist
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: pressure
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd15
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: energy
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd16
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: power
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd17
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   short: electric_charge
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd18
     type: nist
   electric_current:
-    power_numerator: -1
+    power: -1
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: electric_potential_difference
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd19
     type: nist
   electric_current:
-    power_numerator: 2
+    power: 2
     symbol: I
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: capacitance
   time:
-    power_numerator: 4
+    power: 4
     symbol: T
 - identifiers:
   - id: NISTd20
     type: nist
   electric_current:
-    power_numerator: -2
+    power: -2
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: electric_resistance
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd21
     type: nist
   electric_current:
-    power_numerator: 2
+    power: 2
     symbol: I
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: electric_conductance
   time:
-    power_numerator: 3
+    power: 3
     symbol: T
 - identifiers:
   - id: NISTd22
     type: nist
   electric_current:
-    power_numerator: -1
+    power: -1
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: magnetic_flux
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd23
     type: nist
   electric_current:
-    power_numerator: -2
+    power: -2
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: inductance
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd24
     type: nist
   short: frequency
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd25
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: absorbed_dose
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd26
     type: nist
   amount_of_substance:
-    power_numerator: 1
+    power: 1
     symbol: "N"
   short: catalytic_activity
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd27
     type: nist
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   luminous_intensity:
-    power_numerator: 1
+    power: 1
     symbol: J
   short: illuminance
 - identifiers:
   - id: NISTd28
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   short: acceleration
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd29
     type: nist
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   short: wavenumber
 - identifiers:
   - id: NISTd30
     type: nist
   length:
-    power_numerator: -3
+    power: -3
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: mass_density
 - identifiers:
   - id: NISTd31
     type: nist
   length:
-    power_numerator: 3
+    power: 3
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: specific_volume
 - identifiers:
   - id: NISTd32
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   short: current_density
 - identifiers:
   - id: NISTd33
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   short: magnetic_field_strength
 - identifiers:
   - id: NISTd34
     type: nist
   amount_of_substance:
-    power_numerator: 1
+    power: 1
     symbol: "N"
   length:
-    power_numerator: -3
+    power: -3
     symbol: L
   short: concentration
 - identifiers:
@@ -416,399 +416,399 @@
     type: nist
   short: angular_acceleration
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd36
     type: nist
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: dynamic_viscosity
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd37
     type: nist
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: surface_tension
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd38
     type: nist
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: heat_flux_density
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd39
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: heat_capacity
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd40
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: specific_heat_capacity
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd41
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: thermal_conductivity
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd42
     type: nist
   electric_current:
-    power_numerator: -1
+    power: -1
     symbol: I
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: electric_field_strength
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd43
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: -3
+    power: -3
     symbol: L
   short: electric_charge_density
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd44
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   short: electric_flux_density
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd45
     type: nist
   electric_current:
-    power_numerator: 2
+    power: 2
     symbol: I
   length:
-    power_numerator: -3
+    power: -3
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: permittivity
   time:
-    power_numerator: 4
+    power: 4
     symbol: T
 - identifiers:
   - id: NISTd46
     type: nist
   electric_current:
-    power_numerator: -2
+    power: -2
     symbol: I
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: permeability
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd47
     type: nist
   amount_of_substance:
-    power_numerator: -1
+    power: -1
     symbol: "N"
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: molar_energy
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd48
     type: nist
   amount_of_substance:
-    power_numerator: -1
+    power: -1
     symbol: "N"
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: molar_entropy
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd49
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: exposure
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd50
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: absorbed_dose_rate
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd51
     type: nist
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: surface_density
 - identifiers:
   - id: NISTd52
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: fluidity
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd53
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   mass:
-    power_numerator: -2
+    power: -2
     symbol: M
   short: surface_charge_density
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd54
     type: nist
   electric_current:
-    power_numerator: 2
+    power: 2
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: magnetizability
   time:
-    power_numerator: 2
+    power: 2
     symbol: T
 - identifiers:
   - id: NISTd55
     type: nist
   amount_of_substance:
-    power_numerator: 1
+    power: 1
     symbol: "N"
   mass:
-    power_numerator: -3
+    power: -3
     symbol: M
   short: catalytic_activity_concentration
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd56
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: kinematic_viscosity
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd57
     type: nist
   length:
-    power_numerator: 4
+    power: 4
     symbol: L
   short: area_moment_of_inertia
 - identifiers:
   - id: NISTd58
     type: nist
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: linear_density
 - identifiers:
   - id: NISTd59
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: mass_moment_of_inertia
 - identifiers:
   - id: NISTd60
     type: nist
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: action
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd61
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: momentum
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd62
     type: nist
   length:
-    power_numerator: 3
+    power: 3
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: gravitational_constant
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd63
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: compressibility
   time:
-    power_numerator: 2
+    power: 2
     symbol: T
 - identifiers:
   - id: NISTd64
     type: nist
   dimensionless: true
   plane_angle:
-    power_numerator: 1
+    power: 1
     symbol: phi
   short: solid_angle
 - identifiers:
   - id: NISTd65
     type: nist
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: mass_flow_rate
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd66
     type: nist
   length:
-    power_numerator: 3
+    power: 3
     symbol: L
   short: volume_flow_rate
   time:
-    power_numerator: -1
+    power: -1
     symbol: T
 - identifiers:
   - id: NISTd67
@@ -820,152 +820,152 @@
     type: nist
   short: linear_expansion_coefficient
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
 - identifiers:
   - id: NISTd69
     type: nist
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: pressure_coefficient
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -2
+    power: -2
     symbol: T
 - identifiers:
   - id: NISTd70
     type: nist
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   mass:
-    power_numerator: -1
+    power: -1
     symbol: M
   short: isothermal_compressibility
   time:
-    power_numerator: 2
+    power: 2
     symbol: T
 - identifiers:
   - id: NISTd71
     type: nist
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: heat_transfer_coefficient
   thermodynamic_temperature:
-    power_numerator: -1
+    power: -1
     symbol: Theta
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd72
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: 1
+    power: 1
     symbol: L
   short: electric_dipole_moment
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd73
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: magnetic_dipole_moment
 - identifiers:
   - id: NISTd74
     type: nist
   electric_current:
-    power_numerator: -1
+    power: -1
     symbol: I
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: electric_field_gradient
   time:
-    power_numerator: -3
+    power: -3
     symbol: T
 - identifiers:
   - id: NISTd75
     type: nist
   electric_current:
-    power_numerator: 1
+    power: 1
     symbol: I
   length:
-    power_numerator: 2
+    power: 2
     symbol: L
   short: electric_quadrupole_moment
   time:
-    power_numerator: 1
+    power: 1
     symbol: T
 - identifiers:
   - id: NISTd76
     type: nist
   electric_current:
-    power_numerator: 2
+    power: 2
     symbol: I
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: polarizability
   time:
-    power_numerator: 4
+    power: 4
     symbol: T
 - identifiers:
   - id: NISTd77
     type: nist
   electric_current:
-    power_numerator: 3
+    power: 3
     symbol: I
   length:
-    power_numerator: -1
+    power: -1
     symbol: L
   mass:
-    power_numerator: -2
+    power: -2
     symbol: M
   short: hyperpolarizability_1st
   time:
-    power_numerator: 7
+    power: 7
     symbol: T
 - identifiers:
   - id: NISTd78
     type: nist
   electric_current:
-    power_numerator: 4
+    power: 4
     symbol: I
   length:
-    power_numerator: -2
+    power: -2
     symbol: L
   mass:
-    power_numerator: -3
+    power: -3
     symbol: M
   short: hyperpolarizability_2nd
   time:
-    power_numerator: 10
+    power: 10
     symbol: T
 - identifiers:
   - id: NISTd79
     type: nist
   amount_of_substance:
-    power_numerator: 1
+    power: 1
     symbol: "N"
   mass:
-    power_numerator: 1
+    power: 1
     symbol: M
   short: molality
 - identifiers:

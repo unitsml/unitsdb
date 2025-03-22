@@ -59,7 +59,7 @@
   - kilogram
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
@@ -903,7 +903,7 @@
   - fermi
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
@@ -1324,7 +1324,7 @@
   - square foot
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu78
       type: nist
@@ -1352,7 +1352,7 @@
   - square inch
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu8
       type: nist
@@ -1552,11 +1552,11 @@
   - ampere hour
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu4
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu37
       type: nist
@@ -1584,7 +1584,7 @@
   - biot
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu47
       type: nist
@@ -1613,11 +1613,11 @@
   - acre-foot
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu317
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
@@ -1858,14 +1858,14 @@
   - kilowatt hour
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu37
       type: nist
@@ -1903,11 +1903,11 @@
   - watt hour
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu37
       type: nist
@@ -1959,7 +1959,7 @@
   - kilogram-force
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
@@ -1990,7 +1990,7 @@
   - kilopond
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
@@ -2020,11 +2020,11 @@
   - calorie_th per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu227
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2056,14 +2056,14 @@
   - kilocalorie_th per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu227
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2254,11 +2254,11 @@
   - erg per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu62
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2313,11 +2313,11 @@
   - dyne per square centimeter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu71
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -2350,11 +2350,11 @@
   - gram-force per square centimeter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -2388,14 +2388,14 @@
   - kilogram-force per square centimeter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -2428,14 +2428,14 @@
   - kilogram-force per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -2465,14 +2465,14 @@
   - kilogram-force per square millimeter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -2504,7 +2504,7 @@
   - centipoise
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu128
       type: nist
@@ -2634,11 +2634,11 @@
   - foot per minute
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu36
       type: nist
@@ -2666,11 +2666,11 @@
   - foot per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2698,11 +2698,11 @@
   - inch per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu8
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2730,11 +2730,11 @@
   - mile per hour
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu83
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu37
       type: nist
@@ -2762,11 +2762,11 @@
   - mile per minute
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu83
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu36
       type: nist
@@ -2794,11 +2794,11 @@
   - mile per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu83
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -2826,7 +2826,7 @@
   - stere
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu1
       type: nist
@@ -2854,7 +2854,7 @@
   - gamma
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu21
       type: nist
@@ -2998,7 +2998,7 @@
   - centistokes
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu142
       type: nist
@@ -3031,7 +3031,7 @@
   - micron
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
@@ -3066,7 +3066,7 @@
   - thou
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu8
       type: nist
@@ -3126,18 +3126,18 @@
   - kilogram-force second squared per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -3173,14 +3173,14 @@
   - kilogram-force meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
@@ -3646,7 +3646,7 @@
   - decibel
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu154
       type: nist
@@ -3760,14 +3760,14 @@
   - kilometer per hour
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu37
       type: nist
@@ -3795,11 +3795,11 @@
   - neper per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu153
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu3
       type: nist
@@ -3827,7 +3827,7 @@
   - square yard
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu84
       type: nist
@@ -3855,7 +3855,7 @@
   - square mile
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu83
       type: nist
@@ -3907,11 +3907,11 @@
   - foot per second squared
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu3
       type: nist
@@ -3939,7 +3939,7 @@
   - cubic inch
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu8
       type: nist
@@ -3967,7 +3967,7 @@
   - cubic foot
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu78
       type: nist
@@ -3995,7 +3995,7 @@
   - cubic yard
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu84
       type: nist
@@ -4315,7 +4315,7 @@
   - meter to the power four
   root: false
   root_units:
-  - power_numerator: 4
+  - power: 4
     unit_reference:
       id: NISTu1
       type: nist
@@ -4343,14 +4343,14 @@
   - kilogram per liter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu130
       type: nist
@@ -4378,11 +4378,11 @@
   - metric ton per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu88
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -4410,7 +4410,7 @@
   - gram-force
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
@@ -4515,11 +4515,11 @@
   - pound per cubic foot
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu201
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu78
       type: nist
@@ -4586,11 +4586,11 @@
   - foot pound-force
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu205
       type: nist
@@ -4618,11 +4618,11 @@
   - pound-force per square inch
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu205
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu8
       type: nist
@@ -4658,7 +4658,7 @@
   - inch to the fourth power
   root: false
   root_units:
-  - power_numerator: 4
+  - power: 4
     unit_reference:
       id: NISTu8
       type: nist
@@ -4686,7 +4686,7 @@
   - inch cubed
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu8
       type: nist
@@ -4714,11 +4714,11 @@
   - foot squared per second
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -4747,15 +4747,15 @@
   - foot pound-force per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu205
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -4913,18 +4913,18 @@
   - kilogram-force meter per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu196
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -4979,7 +4979,7 @@
   - watt per square meter kelvin
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -5214,7 +5214,7 @@
   - hundredweight
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu203
       type: nist
@@ -6640,7 +6640,7 @@
   - dalton
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu241
       type: nist
@@ -8395,11 +8395,11 @@
   - cubic foot per minute
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu36
       type: nist
@@ -8428,11 +8428,11 @@
   - cubic foot per second
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu78
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -8461,11 +8461,11 @@
   - cubic inch per minute
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu8
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu36
       type: nist
@@ -8495,7 +8495,7 @@
   - microinch
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu8
       type: nist
@@ -8529,7 +8529,7 @@
   - millibar
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu91
       type: nist
@@ -8561,11 +8561,11 @@
   - mile per gallon
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu83
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu175
       type: nist
@@ -8600,11 +8600,11 @@
   - gallon per minute
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu175
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu36
       type: nist
@@ -8639,7 +8639,7 @@
   - milliliter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu130
       type: nist
@@ -8676,11 +8676,11 @@
   - mole per liter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu6
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu130
       type: nist
@@ -8845,11 +8845,11 @@
   - var
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu16
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu4
       type: nist
@@ -8881,11 +8881,11 @@
   - newton meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu11
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
@@ -8913,15 +8913,15 @@
   - newton meter second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu11
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu3
       type: nist
@@ -8950,11 +8950,11 @@
   - newton second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu11
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu3
       type: nist
@@ -8982,11 +8982,11 @@
   - pascal second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu12
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu3
       type: nist
@@ -9014,11 +9014,11 @@
   - joule second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu3
       type: nist
@@ -9056,11 +9056,11 @@
   - watt second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu3
       type: nist
@@ -9094,11 +9094,11 @@
   - meter per second
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
@@ -9128,11 +9128,11 @@
   - meter per second squared
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu3
       type: nist
@@ -9160,11 +9160,11 @@
   - newton per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu11
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -9192,15 +9192,15 @@
   - newton meter squared per kilogram squared
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu11
       type: nist
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu27
       type: nist
@@ -9232,11 +9232,11 @@
   - pascal per kelvin
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu12
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -9266,7 +9266,7 @@
   - pascal to the power minus one
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu12
       type: nist
@@ -9294,11 +9294,11 @@
   - joule per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -9326,11 +9326,11 @@
   - joule per kilogram
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu27
       type: nist
@@ -9363,18 +9363,18 @@
   - joule per kilogram kelvin
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -9405,11 +9405,11 @@
   - joule per kelvin
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -9437,11 +9437,11 @@
   - joule per mole
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu13
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu6
       type: nist
@@ -9471,7 +9471,7 @@
   - joule per mole kelvin
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -9500,11 +9500,11 @@
   - watt per steradian
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu10
       type: nist
@@ -9532,7 +9532,7 @@
   - watt per meter kelvin
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -9563,11 +9563,11 @@
   - watt per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -9595,15 +9595,15 @@
   - watt per square meter steradian
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu14
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu10
       type: nist
@@ -9635,11 +9635,11 @@
   - coulomb per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu15
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -9667,11 +9667,11 @@
   - coulomb per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu15
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -9699,11 +9699,11 @@
   - coulomb per kilogram
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu15
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu27
       type: nist
@@ -9734,11 +9734,11 @@
   - volt per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu16
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -9766,11 +9766,11 @@
   - farad per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu17
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -9809,7 +9809,7 @@
   - reciprocal meter
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -9837,7 +9837,7 @@
   - square meter
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu1
       type: nist
@@ -9865,11 +9865,11 @@
   - meter squared per second
   root: false
   root_units:
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -9900,7 +9900,7 @@
   - cubic meter
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu1
       type: nist
@@ -9928,11 +9928,11 @@
   - cubic meter per kilogram
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu27
       type: nist
@@ -9964,11 +9964,11 @@
   - cubic meter per second
   root: false
   root_units:
-  - power_numerator: 3
+  - power: 3
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -9997,11 +9997,11 @@
   - henry per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu22
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -10029,18 +10029,18 @@
   - kilogram meter per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10069,14 +10069,14 @@
   - kilogram per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -10104,14 +10104,14 @@
   - kilogram per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -10141,14 +10141,14 @@
   - kilogram per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -10176,14 +10176,14 @@
   - kilogram meter squared
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -10214,18 +10214,18 @@
   - kilogram meter squared per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: 2
+  - power: 2
     unit_reference:
       id: NISTu1
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10255,14 +10255,14 @@
   - kilogram per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu27
       type: nist
     prefix_reference:
       id: NISTp10_3
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10290,11 +10290,11 @@
   - gray per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu28
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10322,11 +10322,11 @@
   - katal per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu30
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -10358,7 +10358,7 @@
   - second to the power minus one
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10386,11 +10386,11 @@
   - ampere per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu4
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -10418,11 +10418,11 @@
   - ampere per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu4
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -10454,7 +10454,7 @@
   - kelvin to the power minus one
   root: false
   root_units:
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu5
       type: nist
@@ -10482,11 +10482,11 @@
   - mole per cubic meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu6
       type: nist
-  - power_numerator: -3
+  - power: -3
     unit_reference:
       id: NISTu1
       type: nist
@@ -10514,11 +10514,11 @@
   - mole per kilogram
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu6
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu27
       type: nist
@@ -10549,11 +10549,11 @@
   - candela per square meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu7
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu1
       type: nist
@@ -10581,11 +10581,11 @@
   - radian per meter
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu9
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu1
       type: nist
@@ -10615,11 +10615,11 @@
   - radian per second
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu9
       type: nist
-  - power_numerator: -1
+  - power: -1
     unit_reference:
       id: NISTu3
       type: nist
@@ -10647,11 +10647,11 @@
   - radian per second squared
   root: false
   root_units:
-  - power_numerator: 1
+  - power: 1
     unit_reference:
       id: NISTu9
       type: nist
-  - power_numerator: -2
+  - power: -2
     unit_reference:
       id: NISTu3
       type: nist
