@@ -43,11 +43,11 @@ UnitsDB follows semantic versioning (https://semver.org/[SemVer]) using a `MAJOR
 
 === Version field
 
-Each YAML file in the database contains a `_version` field at the top level:
+Each YAML file in the database contains a `schema_version` field at the top level:
 
 [source,yaml]
 ----
-_version: "2.0.0"
+schema_version: "2.0.0"
 dimensions:
   # content follows
 ----
@@ -86,7 +86,7 @@ the database is treated as a cohesive unit.
 
 Applications consuming UnitsDB should:
 
-. Check the `_version` field to ensure compatibility, ensure all files are
+. Check the `schema_version` field to ensure compatibility, ensure all files are
   consistent with the same version
 . Handle version transitions appropriately based on the semantic versioning rules
 . Document which version(s) of UnitsDB they support
