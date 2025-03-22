@@ -36,16 +36,19 @@ A dimension object in `dimensions.yaml` typically has the following structure:
 
 [source,yaml]
 ----
-dimension_id:
+- identifiers:
+  - id: dimension_id
+    type: type_identifier
+  short: short_name
   {dimension_name}:
     power: power_numerator
     symbol: ASCII representation
     symbols:
-    - id: dimension_symbol_id
-      ascii: ASCII representation
+    - ascii: ASCII representation
       html: "HTML representation"
-      mathml: "MathML representation"
+      id: dimension_symbol_id
       latex: "LaTeX representation"
+      mathml: "MathML representation"
       unicode: "Unicode representation"
 ----
 
@@ -53,28 +56,34 @@ For example:
 
 [source,yaml]
 ----
-NISTd1:
+- identifiers:
+  - id: NISTd1
+    type: nist
   length:
     power: 1
     symbol: L
     symbols:
-    - id: dim_L
-      ascii: L
+    - ascii: L
       html: "&#x1D5AB;"
-      mathml: "<mi mathvariant='sans-serif'>L</mi>"
+      id: dim_L
       latex: "\\ensuremath{\\mathsf{L}}"
+      mathml: "<mi mathvariant='sans-serif'>L</mi>"
       unicode: "\U0001D5AB"
-NISTd2:
+  short: length
+- identifiers:
+  - id: NISTd2
+    type: nist
   mass:
     power: 1
     symbol: M
     symbols:
-    - id: dim_M
-      ascii: M
+    - ascii: M
       html: "&#x1D5AC;"
-      mathml: "<mi mathvariant='sans-serif'>M</mi>"
+      id: dim_M
       latex: "\\ensuremath{\\mathsf{M}}"
+      mathml: "<mi mathvariant='sans-serif'>M</mi>"
       unicode: "\U0001D5AC"
+  short: mass
 ----
 
 === Notes
@@ -84,38 +93,23 @@ The following dimensions are identified by NIST but they are excluded from
 
 [source,yaml]
 ----
-NISTd87:
+- identifiers:
+  - id: NISTd87
+    type: nist
   dimensionless: true
+  short: dimensionless
 
-NISTd86:
+- identifiers:
+  - id: NISTd86
+    type: nist
   dimensionless: true
+  short: dimensionless
 
-NISTd81:
+- identifiers:
+  - id: NISTd81
+    type: nist
   dimensionless: true
-
-NISTd82:
-  dimensionless: true
-
-NISTd83:
-  dimensionless: true
-
-NISTd89:
-  dimensionless: true
-
-NISTd88:
-  dimensionless: true
-
-NISTd91:
-  dimensionless: true
-
-NISTd90:
-  dimensionless: true
-
-NISTd92:
-  dimensionless: true
-
-NISTd93:
-  dimensionless: true
+  short: dimensionless
 ----
 
 
@@ -127,48 +121,60 @@ A prefix object in `prefixes.yaml` typically has the following structure:
 
 [source,yaml]
 ----
-prefix_id:
+- identifiers:
+  - id: prefix_id
+    type: type_identifier
+  base: base
   name: prefix_name
+  power: power
   symbol:
+    id: symbol_id
     ascii: ASCII representation
     html: "HTML representation"
     latex: "LaTeX representation"
     unicode: "Unicode representation"
-  base: base
-  power: power
+    mathml: "MathML representation"
 ----
 
 For example:
 
 [source,yaml]
 ----
-NISTp10_2:
+- identifiers:
+  - id: NISTp10_2
+    type: nist
+  base: 10
   name: hecto
+  power: 2
   symbol:
-    ascii: h
-    html: h
     latex: h
     unicode: h
+    ascii: h
+    html: h
+    id: hecto
+    mathml: "<mi>h</mi>"
+- identifiers:
+  - id: NISTp10_1
+    type: nist
   base: 10
-  power: 2
-NISTp10_1:
   name: deka
+  power: 1
   symbol:
-    ascii: da
-    html: da
     latex: da
     unicode: da
-  base: 10
-  power: 1
+    ascii: da
+    html: da
+    id: deka
+    mathml: "<mi>da</mi>"
 ----
 
 === Notes
 
-Decimal prefixes are keyed by their power of 10, e.g. `NISTp10_1`
+Decimal prefixes are identified by their power of 10, e.g. `NISTp10_1`
 
 The prefix `NISTp10_0` is a placeholder for unity.
 
-Binary prefixes are keyed by their power of 2, e.g. `NISTp2_10`
+Binary prefixes are identified by their power of 2, e.g. `NISTp2_10`
 
 
 == Quantities
@@ -179,65 +185,82 @@ A quantity object in `quantities.yaml` typically has the following structure:
 
 [source,yaml]
 ----
-quantity_id:
-  dimension_url: "#dimension_id"
-  quantity_type: {base|derived}
+- identifiers:
+  - id: quantity_id
+    type: type_identifier
   quantity_name:
   - quantity_name
-  unit_reference:
-  - name: unit_name
-    url: "#unit_id"
+  quantity_type: {base|derived}
+  short: short_name
+  unit_references:
+  - id: unit_id
+    type: type_identifier
+  dimension_reference:
+    id: dimension_id
+    type: type_identifier
 ----
-
 
 For example:
 
 [source,yaml]
 ----
-NISTq8:
-  dimension_url: "#NISTd8"
-  quantity_type: base
+- identifiers:
+  - id: NISTq8
+    type: nist
   quantity_name:
   - area
-  unit_reference:
-  - name: square yard
-    url: "#NISTu164"
-  - name: square mile
-    url: "#NISTu165"
-  - name: square meter
-    url: "#NISTu1e2/1"
-  - name: circular mil
-    url: "#NISTu283"
-  - name: acre (based on US survey foot)
-    url: "#NISTu317"
-  - name: are
-    url: "#NISTu42"
-  - name: barn
-    url: "#NISTu43"
-  - name: hectare
-    url: "#NISTu44"
-  - name: square foot
-    url: "#NISTu45"
-  - name: square inch
-    url: "#NISTu46"
-NISTq166:
-  dimension_url: "#NISTd18"
-  quantity_type: derived
+  quantity_type: base
+  unit_references:
+  - id: NISTu164
+    type: nist
+  - id: NISTu165
+    type: nist
+  - id: NISTu1e2/1
+    type: nist
+  - id: NISTu283
+    type: nist
+  - id: NISTu317
+    type: nist
+  - id: NISTu42
+    type: nist
+  - id: NISTu43
+    type: nist
+  - id: NISTu44
+    type: nist
+  - id: NISTu45
+    type: nist
+  - id: NISTu46
+    type: nist
+  dimension_reference:
+    id: NISTd8
+    type: nist
+- identifiers:
+  - id: NISTq166
+    type: nist
   quantity_name:
   - electric potential
-  unit_reference:
-  - name: atomic unit of electric potential
-    url: "#NISTu261"
-  - name: statvolt
-    url: "#NISTu268"
-NISTq7:
-  dimension_url: "#NISTd7"
-  quantity_type: base
+  quantity_type: derived
+  unit_references:
+  - id: NISTu261
+    type: nist
+  - id: NISTu268
+    type: nist
+  dimension_reference:
+    id: NISTd18
+    type: nist
+- identifiers:
+  - id: NISTq7
+    type: nist
   quantity_name:
   - luminous intensity
-  unit_reference:
-  - name: candela
-    url: "#NISTu7"
+  quantity_type: base
+  short: luminous_intensity
+  unit_references:
+  - id: NISTu7
+    type: nist
+  dimension_reference:
+    id: NISTd7
+    type: nist
 ----
 
 
@@ -249,15 +272,16 @@ A unit object in `units.yaml` typically has the following structure:
 
 [source,yaml]
 ----
-unit_id:
-  dimension_url: "#dimension_id"
-  short: unit_short_name
-  root: true
-  unit_system:
-    type: unit_system_type
-    name: unit_system_name
+- identifiers:
+  - id: unit_id
+    type: type_identifier
+  quantity_references:
+  - id: quantity_id
+    type: type_identifier
   unit_name:
   - unit_name
+  root: true|false
+  short: unit_short_name
   symbols:
   - id: symbol_id
     ascii: ASCII representation
@@ -265,46 +289,72 @@ unit_id:
     mathml: "MathML representation"
     latex: "LaTeX representation"
     unicode: "Unicode representation"
+  dimension_reference:
+    id: dimension_id
+    type: type_identifier
+  unit_system_reference:
+  - id: unit_system_id
+    type: type_identifier
+  # Optional fields for derived units:
+  prefixed: true|false
+
+  # Note: Use either root_units OR si_derived_bases, but not both together
+
+  # Use root_units for composite units that include any non-SI or non-SI-derived units
+  # root_units can also contain SI units
   root_units:
-  - unit: unit_name
-    power: power_numerator
-  quantity_reference:
-  - name: quantity_name
-    url: "#quantity_id"
+  - power: power_numerator
+    unit_reference:
+      id: unit_id
+      type: type_identifier
+    prefix_reference:
+      id: prefix_id
+      type: type_identifier
+
+  # Use si_derived_bases only for composite units that use exclusively SI base units
+  si_derived_bases:
+  - power: power_numerator
+    unit_reference:
+      id: unit_id
+      type: type_identifier
+    prefix_reference:
+      id: prefix_id
+      type: type_identifier
 ----
 
 For example:
 
 [source,yaml]
 ----
-NISTu5:
-  dimension_url: "#NISTd5"
-  short: kelvin
-  root: true
-  unit_system:
-    type: SI_base
-    name: SI
+- identifiers:
+  - id: NISTu5
+    type: nist
+  quantity_references:
+  - id: NISTq5
+    type: nist
   unit_name:
   - kelvin
+  root: true
+  short: kelvin
   symbols:
-  - id: K
+  - latex: "\\ensuremath{\\mathrm{K}}"
+    unicode: K
     ascii: K
     html: K
+    id: K
     mathml: "<mi mathvariant='normal'>K</mi>"
-    latex: "\\ensuremath{\\mathrm{K}}"
-    unicode: K
-  - id: degK
+  - latex: "\\ensuremath{\\mathrm{^{\\circ}K}}"
+    unicode: "°K"
     ascii: degK
     html: "&#176;K"
+    id: degK
     mathml: "<mi mathvariant='normal'>&#176;K</mi>"
-    latex: "\\ensuremath{\\mathrm{^{\\circ}K}}"
-    unicode: "°K"
-  root_units:
-  - unit: kelvin
-    power: 1
-  quantity_reference:
-  - name: thermodynamic temperature
-    url: "#NISTq5"
+  dimension_reference:
+    id: NISTd5
+    type: nist
+  unit_system_reference:
+  - id: si-base
+    type: unitsml
 ----
 
 
@@ -316,21 +366,30 @@ A unit system object in `unit_systems.yaml` typically has the following structur
 
 [source,yaml]
 ----
-- id: unit_system_id
+- acceptable: {true|false} # whether the unit system is SI acceptable
+  short: short_name
+  identifiers:
+  - id: unit_system_id
+    type: type_identifier
   name: unit_system_name
-  acceptable: {true|false} # whether the unit system is SI acceptable
 ----
 
 For example:
 
 [source,yaml]
 ----
-- id: SI_base
-  name: SI
-  acceptable: true
-- id: SI_derived_special
-  name: SI
-  acceptable: true
+- acceptable: true
+  short: si-compatible
+  identifiers:
+  - id: SI_compatible
+    type: nist
+  name: Units compatible with SI
+- acceptable: true
+  short: si-base
+  identifiers:
+  - id: SI_base
+    type: nist
+  name: SI base units
 ----
 
 
