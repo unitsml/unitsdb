@@ -1,1695 +1,2997 @@
 ---
-NISTq1:
+- identifiers:
+  - id: NISTq1
+    type: nist
   quantity_name:
   - length
   quantity_type: base
   short: length
-  unit_reference:
-  - NISTu1
-  - NISTu120
-  - NISTu122
-  - NISTu123
-  - NISTu131
-  - NISTu182
-  - NISTu183
-  - NISTu184
-  - NISTu249
-  - NISTu26
-  - NISTu278
-  - NISTu279
-  - NISTu280
-  - NISTu281
-  - NISTu282
-  - NISTu290
-  - NISTu310
-  - NISTu311
-  - NISTu312
-  - NISTu313
-  - NISTu314
-  - NISTu315
-  - NISTu316
-  - NISTu344
-  - NISTu361
-  - NISTu363
-  - NISTu39
-  - NISTu78
-  - NISTu8
-  - NISTu83
-  - NISTu84
-  dimension_reference: NISTd1
-NISTq2:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  - id: NISTu120
+    type: nist
+  - id: NISTu122
+    type: nist
+  - id: NISTu123
+    type: nist
+  - id: NISTu131
+    type: nist
+  - id: NISTu182
+    type: nist
+  - id: NISTu183
+    type: nist
+  - id: NISTu184
+    type: nist
+  - id: NISTu249
+    type: nist
+  - id: NISTu26
+    type: nist
+  - id: NISTu278
+    type: nist
+  - id: NISTu279
+    type: nist
+  - id: NISTu280
+    type: nist
+  - id: NISTu281
+    type: nist
+  - id: NISTu282
+    type: nist
+  - id: NISTu290
+    type: nist
+  - id: NISTu310
+    type: nist
+  - id: NISTu311
+    type: nist
+  - id: NISTu312
+    type: nist
+  - id: NISTu313
+    type: nist
+  - id: NISTu314
+    type: nist
+  - id: NISTu315
+    type: nist
+  - id: NISTu316
+    type: nist
+  - id: NISTu344
+    type: nist
+  - id: NISTu361
+    type: nist
+  - id: NISTu363
+    type: nist
+  - id: NISTu39
+    type: nist
+  - id: NISTu78
+    type: nist
+  - id: NISTu8
+    type: nist
+  - id: NISTu83
+    type: nist
+  - id: NISTu84
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq2
+    type: nist
   quantity_name:
   - mass
   quantity_type: base
   short: mass
-  unit_reference:
-  - NISTu125
-  - NISTu2
-  - NISTu201
-  - NISTu202
-  - NISTu203
-  - NISTu212
-  - NISTu226
-  - NISTu228
-  - NISTu229
-  - NISTu230
-  - NISTu231
-  - NISTu232
-  - NISTu233
-  - NISTu234
-  - NISTu235
-  - NISTu237
-  - NISTu241
-  - NISTu244
-  - NISTu247
-  - NISTu27
-  - NISTu275
-  - NISTu289
-  - NISTu86
-  - NISTu88
-  - NISTu132
-  dimension_reference: NISTd2
-NISTq3:
+  unit_references:
+  - id: NISTu125
+    type: nist
+  - id: NISTu2
+    type: nist
+  - id: NISTu201
+    type: nist
+  - id: NISTu202
+    type: nist
+  - id: NISTu203
+    type: nist
+  - id: NISTu212
+    type: nist
+  - id: NISTu226
+    type: nist
+  - id: NISTu228
+    type: nist
+  - id: NISTu229
+    type: nist
+  - id: NISTu230
+    type: nist
+  - id: NISTu231
+    type: nist
+  - id: NISTu232
+    type: nist
+  - id: NISTu233
+    type: nist
+  - id: NISTu234
+    type: nist
+  - id: NISTu235
+    type: nist
+  - id: NISTu237
+    type: nist
+  - id: NISTu241
+    type: nist
+  - id: NISTu244
+    type: nist
+  - id: NISTu247
+    type: nist
+  - id: NISTu27
+    type: nist
+  - id: NISTu275
+    type: nist
+  - id: NISTu289
+    type: nist
+  - id: NISTu86
+    type: nist
+  - id: NISTu88
+    type: nist
+  - id: NISTu132
+    type: nist
+  dimension_reference:
+    id: NISTd2
+    type: nist
+- identifiers:
+  - id: NISTq3
+    type: nist
   quantity_name:
   - time
   - duration
   quantity_type: base
   short: time
-  unit_reference:
-  - NISTu106
-  - NISTu245
-  - NISTu251
-  - NISTu3
-  - NISTu338
-  - NISTu339
-  - NISTu340
-  - NISTu341
-  - NISTu342
-  - NISTu343
-  - NISTu345
-  - NISTu36
-  - NISTu37
-  - NISTu38
-  dimension_reference: NISTd3
-NISTq4:
+  unit_references:
+  - id: NISTu106
+    type: nist
+  - id: NISTu245
+    type: nist
+  - id: NISTu251
+    type: nist
+  - id: NISTu3
+    type: nist
+  - id: NISTu338
+    type: nist
+  - id: NISTu339
+    type: nist
+  - id: NISTu340
+    type: nist
+  - id: NISTu341
+    type: nist
+  - id: NISTu342
+    type: nist
+  - id: NISTu343
+    type: nist
+  - id: NISTu345
+    type: nist
+  - id: NISTu36
+    type: nist
+  - id: NISTu37
+    type: nist
+  - id: NISTu38
+    type: nist
+  dimension_reference:
+    id: NISTd3
+    type: nist
+- identifiers:
+  - id: NISTq4
+    type: nist
   quantity_name:
   - electric current
   quantity_type: base
   short: electric_current
-  unit_reference:
-  - NISTu257
-  - NISTu4
-  - NISTu47
-  - NISTu55
-  dimension_reference: NISTd4
-NISTq5:
+  unit_references:
+  - id: NISTu257
+    type: nist
+  - id: NISTu4
+    type: nist
+  - id: NISTu47
+    type: nist
+  - id: NISTu55
+    type: nist
+  dimension_reference:
+    id: NISTd4
+    type: nist
+- identifiers:
+  - id: NISTq5
+    type: nist
   quantity_name:
   - thermodynamic temperature
   quantity_type: base
   short: temperature
-  unit_reference:
-  - NISTu288
-  - NISTu5
-  dimension_reference: NISTd5
-NISTq6:
+  unit_references:
+  - id: NISTu288
+    type: nist
+  - id: NISTu5
+    type: nist
+  dimension_reference:
+    id: NISTd5
+    type: nist
+- identifiers:
+  - id: NISTq6
+    type: nist
   quantity_name:
   - amount of substance
   quantity_type: base
   short: substance_amount
-  unit_reference:
-  - NISTu348
-  - NISTu6
-  dimension_reference: NISTd6
-NISTq7:
+  unit_references:
+  - id: NISTu348
+    type: nist
+  - id: NISTu6
+    type: nist
+  dimension_reference:
+    id: NISTd6
+    type: nist
+- identifiers:
+  - id: NISTq7
+    type: nist
   quantity_name:
   - luminous intensity
   quantity_type: base
   short: luminous_intensity
-  unit_reference:
-  - NISTu7
-  dimension_reference: NISTd7
-NISTq8:
+  unit_references:
+  - id: NISTu7
+    type: nist
+  dimension_reference:
+    id: NISTd7
+    type: nist
+- identifiers:
+  - id: NISTq8
+    type: nist
   quantity_name:
   - area
   quantity_type: base
-  unit_reference:
-  - NISTu164
-  - NISTu165
-  - NISTu1e2/1
-  - NISTu283
-  - NISTu317
-  - NISTu42
-  - NISTu43
-  - NISTu44
-  - NISTu45
-  - NISTu46
-  dimension_reference: NISTd8
-NISTq9:
+  unit_references:
+  - id: NISTu164
+    type: nist
+  - id: NISTu165
+    type: nist
+  - id: NISTu1e2/1
+    type: nist
+  - id: NISTu283
+    type: nist
+  - id: NISTu317
+    type: nist
+  - id: NISTu42
+    type: nist
+  - id: NISTu43
+    type: nist
+  - id: NISTu44
+    type: nist
+  - id: NISTu45
+    type: nist
+  - id: NISTu46
+    type: nist
+  dimension_reference:
+    id: NISTd8
+    type: nist
+- identifiers:
+  - id: NISTq9
+    type: nist
   quantity_name:
   - plane angle
   - angle
   quantity_type: derived
-  unit_reference:
-  - NISTu147
-  - NISTu148
-  - NISTu149
-  - NISTu159
-  - NISTu347
-  - NISTu9
-  dimension_reference: NISTd9
-NISTq10:
+  unit_references:
+  - id: NISTu147
+    type: nist
+  - id: NISTu148
+    type: nist
+  - id: NISTu149
+    type: nist
+  - id: NISTu159
+    type: nist
+  - id: NISTu347
+    type: nist
+  - id: NISTu9
+    type: nist
+  dimension_reference:
+    id: NISTd9
+    type: nist
+- identifiers:
+  - id: NISTq10
+    type: nist
   quantity_name:
   - volume
   quantity_type: derived
-  unit_reference:
-  - NISTu115
-  - NISTu130
-  - NISTu168
-  - NISTu169
-  - NISTu170
-  - NISTu171
-  - NISTu172
-  - NISTu173
-  - NISTu175
-  - NISTu176
-  - NISTu177
-  - NISTu178
-  - NISTu179
-  - NISTu180
-  - NISTu1e3/1
-  - NISTu300
-  - NISTu301
-  - NISTu302
-  - NISTu303
-  - NISTu304
-  - NISTu305
-  - NISTu306
-  - NISTu307
-  - NISTu308
-  - NISTu309
-  - NISTu352
-  - NISTu353
-  - NISTu354
-  - NISTu355
-  - NISTu356
-  - NISTu357
-  - NISTu365
-  - NISTu57
-  dimension_reference: NISTd10
-NISTq11:
+  unit_references:
+  - id: NISTu115
+    type: nist
+  - id: NISTu130
+    type: nist
+  - id: NISTu168
+    type: nist
+  - id: NISTu169
+    type: nist
+  - id: NISTu170
+    type: nist
+  - id: NISTu171
+    type: nist
+  - id: NISTu172
+    type: nist
+  - id: NISTu173
+    type: nist
+  - id: NISTu175
+    type: nist
+  - id: NISTu176
+    type: nist
+  - id: NISTu177
+    type: nist
+  - id: NISTu178
+    type: nist
+  - id: NISTu179
+    type: nist
+  - id: NISTu180
+    type: nist
+  - id: NISTu1e3/1
+    type: nist
+  - id: NISTu300
+    type: nist
+  - id: NISTu301
+    type: nist
+  - id: NISTu302
+    type: nist
+  - id: NISTu303
+    type: nist
+  - id: NISTu304
+    type: nist
+  - id: NISTu305
+    type: nist
+  - id: NISTu306
+    type: nist
+  - id: NISTu307
+    type: nist
+  - id: NISTu308
+    type: nist
+  - id: NISTu309
+    type: nist
+  - id: NISTu352
+    type: nist
+  - id: NISTu353
+    type: nist
+  - id: NISTu354
+    type: nist
+  - id: NISTu355
+    type: nist
+  - id: NISTu356
+    type: nist
+  - id: NISTu357
+    type: nist
+  - id: NISTu365
+    type: nist
+  - id: NISTu57
+    type: nist
+  dimension_reference:
+    id: NISTd10
+    type: nist
+- identifiers:
+  - id: NISTq11
+    type: nist
   quantity_name:
   - solid angle
   quantity_type: derived
-  unit_reference:
-  - NISTu10
-  - NISTu128
-  dimension_reference: NISTd64
-NISTq12:
+  unit_references:
+  - id: NISTu10
+    type: nist
+  - id: NISTu128
+    type: nist
+  dimension_reference:
+    id: NISTd64
+    type: nist
+- identifiers:
+  - id: NISTq12
+    type: nist
   quantity_name:
   - velocity
   - speed
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-1/1
-  - NISTu107
-  - NISTu108
-  - NISTu109
-  - NISTu110
-  - NISTu111
-  - NISTu112
-  - NISTu152
-  - NISTu160
-  - NISTu242
-  - NISTu294
-  dimension_reference: NISTd11
-NISTq13:
+  unit_references:
+  - id: NISTu1.u3e-1/1
+    type: nist
+  - id: NISTu107
+    type: nist
+  - id: NISTu108
+    type: nist
+  - id: NISTu109
+    type: nist
+  - id: NISTu110
+    type: nist
+  - id: NISTu111
+    type: nist
+  - id: NISTu112
+    type: nist
+  - id: NISTu152
+    type: nist
+  - id: NISTu160
+    type: nist
+  - id: NISTu242
+    type: nist
+  - id: NISTu294
+    type: nist
+  dimension_reference:
+    id: NISTd11
+    type: nist
+- identifiers:
+  - id: NISTq13
+    type: nist
   quantity_name:
   - force
   quantity_type: derived
-  unit_reference:
-  - NISTu11
-  - NISTu205
-  - NISTu208
-  - NISTu214
-  - NISTu236
-  - NISTu238
-  - NISTu239
-  - NISTu262
-  - NISTu71
-  - NISTu196
-  - NISTu72
-  - NISTu73
-  dimension_reference: NISTd12
-NISTq14:
+  unit_references:
+  - id: NISTu11
+    type: nist
+  - id: NISTu205
+    type: nist
+  - id: NISTu208
+    type: nist
+  - id: NISTu214
+    type: nist
+  - id: NISTu236
+    type: nist
+  - id: NISTu238
+    type: nist
+  - id: NISTu239
+    type: nist
+  - id: NISTu262
+    type: nist
+  - id: NISTu71
+    type: nist
+  - id: NISTu196
+    type: nist
+  - id: NISTu72
+    type: nist
+  - id: NISTu73
+    type: nist
+  dimension_reference:
+    id: NISTd12
+    type: nist
+- identifiers:
+  - id: NISTq14
+    type: nist
   quantity_name:
   - magnetic flux density
   quantity_type: derived
-  unit_reference:
-  - NISTu116
-  - NISTu119
-  - NISTu21
-  - NISTu253
-  - NISTu273
-  dimension_reference: NISTd13
-NISTq15:
+  unit_references:
+  - id: NISTu116
+    type: nist
+  - id: NISTu119
+    type: nist
+  - id: NISTu21
+    type: nist
+  - id: NISTu253
+    type: nist
+  - id: NISTu273
+    type: nist
+  dimension_reference:
+    id: NISTd13
+    type: nist
+- identifiers:
+  - id: NISTq15
+    type: nist
   quantity_name:
   - pressure
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  - NISTu134
-  - NISTu135
-  - NISTu156
-  - NISTu207
-  - NISTu214
-  - NISTu215
-  - NISTu239
-  - NISTu318
-  - NISTu319
-  - NISTu320
-  - NISTu321
-  - NISTu322
-  - NISTu323
-  - NISTu324
-  - NISTu325
-  - NISTu326
-  - NISTu327
-  - NISTu328
-  - NISTu329
-  - NISTu330
-  - NISTu362
-  - NISTu91
-  - NISTu92
-  - NISTu93
-  - NISTu94
-  - NISTu95
-  - NISTu96
-  dimension_reference: NISTd14
-NISTq16:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  - id: NISTu134
+    type: nist
+  - id: NISTu135
+    type: nist
+  - id: NISTu156
+    type: nist
+  - id: NISTu207
+    type: nist
+  - id: NISTu214
+    type: nist
+  - id: NISTu215
+    type: nist
+  - id: NISTu239
+    type: nist
+  - id: NISTu318
+    type: nist
+  - id: NISTu319
+    type: nist
+  - id: NISTu320
+    type: nist
+  - id: NISTu321
+    type: nist
+  - id: NISTu322
+    type: nist
+  - id: NISTu323
+    type: nist
+  - id: NISTu324
+    type: nist
+  - id: NISTu325
+    type: nist
+  - id: NISTu326
+    type: nist
+  - id: NISTu327
+    type: nist
+  - id: NISTu328
+    type: nist
+  - id: NISTu329
+    type: nist
+  - id: NISTu330
+    type: nist
+  - id: NISTu362
+    type: nist
+  - id: NISTu91
+    type: nist
+  - id: NISTu92
+    type: nist
+  - id: NISTu93
+    type: nist
+  - id: NISTu94
+    type: nist
+  - id: NISTu95
+    type: nist
+  - id: NISTu96
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq16
+    type: nist
   quantity_name:
   - stress
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  - NISTu134
-  - NISTu135
-  - NISTu156
-  - NISTu239
-  - NISTu318
-  - NISTu319
-  - NISTu320
-  - NISTu321
-  - NISTu322
-  - NISTu323
-  - NISTu324
-  - NISTu325
-  - NISTu326
-  - NISTu327
-  - NISTu328
-  - NISTu329
-  - NISTu330
-  - NISTu362
-  - NISTu91
-  - NISTu92
-  - NISTu93
-  - NISTu94
-  - NISTu95
-  - NISTu96
-  dimension_reference: NISTd14
-NISTq17:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  - id: NISTu134
+    type: nist
+  - id: NISTu135
+    type: nist
+  - id: NISTu156
+    type: nist
+  - id: NISTu239
+    type: nist
+  - id: NISTu318
+    type: nist
+  - id: NISTu319
+    type: nist
+  - id: NISTu320
+    type: nist
+  - id: NISTu321
+    type: nist
+  - id: NISTu322
+    type: nist
+  - id: NISTu323
+    type: nist
+  - id: NISTu324
+    type: nist
+  - id: NISTu325
+    type: nist
+  - id: NISTu326
+    type: nist
+  - id: NISTu327
+    type: nist
+  - id: NISTu328
+    type: nist
+  - id: NISTu329
+    type: nist
+  - id: NISTu330
+    type: nist
+  - id: NISTu362
+    type: nist
+  - id: NISTu91
+    type: nist
+  - id: NISTu92
+    type: nist
+  - id: NISTu93
+    type: nist
+  - id: NISTu94
+    type: nist
+  - id: NISTu95
+    type: nist
+  - id: NISTu96
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq17
+    type: nist
   quantity_name:
   - energy
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu126
-  - NISTu13
-  - NISTu14.u3
-  - NISTu166
-  - NISTu206
-  - NISTu227
-  - NISTu240
-  - NISTu250
-  - NISTu295
-  - NISTu298
-  - NISTu331
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq18:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu126
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu166
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu240
+    type: nist
+  - id: NISTu250
+    type: nist
+  - id: NISTu295
+    type: nist
+  - id: NISTu298
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq18
+    type: nist
   quantity_name:
   - work
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu126
-  - NISTu13
-  - NISTu14.u3
-  - NISTu206
-  - NISTu227
-  - NISTu331
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq19:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu126
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq19
+    type: nist
   quantity_name:
   - amount of heat
   - heat
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu13
-  - NISTu14.u3
-  - NISTu216
-  - NISTu227
-  - NISTu331
-  - NISTu333
-  - NISTu334
-  - NISTu335
-  - NISTu336
-  - NISTu337
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq20:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu216
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu333
+    type: nist
+  - id: NISTu334
+    type: nist
+  - id: NISTu335
+    type: nist
+  - id: NISTu336
+    type: nist
+  - id: NISTu337
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq20
+    type: nist
   quantity_name:
   - power
   quantity_type: derived
-  unit_reference:
-  - NISTu127
-  - NISTu14
-  - NISTu211
-  - NISTu217
-  - NISTu218
-  - NISTu225
-  - NISTu274
-  - NISTu284
-  - NISTu285
-  - NISTu286
-  - NISTu287
-  - NISTu349
-  - NISTu74
-  - NISTu75
-  - NISTu89
-  dimension_reference: NISTd16
-NISTq21:
+  unit_references:
+  - id: NISTu127
+    type: nist
+  - id: NISTu14
+    type: nist
+  - id: NISTu211
+    type: nist
+  - id: NISTu217
+    type: nist
+  - id: NISTu218
+    type: nist
+  - id: NISTu225
+    type: nist
+  - id: NISTu274
+    type: nist
+  - id: NISTu284
+    type: nist
+  - id: NISTu285
+    type: nist
+  - id: NISTu286
+    type: nist
+  - id: NISTu287
+    type: nist
+  - id: NISTu349
+    type: nist
+  - id: NISTu74
+    type: nist
+  - id: NISTu75
+    type: nist
+  - id: NISTu89
+    type: nist
+  dimension_reference:
+    id: NISTd16
+    type: nist
+- identifiers:
+  - id: NISTq21
+    type: nist
   quantity_name:
   - radiant flux
   quantity_type: derived
-  unit_reference:
-  - NISTu127
-  - NISTu14
-  - NISTu74
-  - NISTu75
-  - NISTu89
-  dimension_reference: NISTd16
-NISTq22:
+  unit_references:
+  - id: NISTu127
+    type: nist
+  - id: NISTu14
+    type: nist
+  - id: NISTu74
+    type: nist
+  - id: NISTu75
+    type: nist
+  - id: NISTu89
+    type: nist
+  dimension_reference:
+    id: NISTd16
+    type: nist
+- identifiers:
+  - id: NISTq22
+    type: nist
   quantity_name:
   - electric charge
   quantity_type: derived
-  unit_reference:
-  - NISTu15
-  - NISTu246
-  - NISTu271
-  - NISTu48
-  - NISTu54
-  dimension_reference: NISTd17
-NISTq23:
+  unit_references:
+  - id: NISTu15
+    type: nist
+  - id: NISTu246
+    type: nist
+  - id: NISTu271
+    type: nist
+  - id: NISTu48
+    type: nist
+  - id: NISTu54
+    type: nist
+  dimension_reference:
+    id: NISTd17
+    type: nist
+- identifiers:
+  - id: NISTq23
+    type: nist
   quantity_name:
   - amount of electricity
   quantity_type: derived
-  unit_reference:
-  - NISTu15
-  - NISTu271
-  - NISTu48
-  - NISTu54
-  dimension_reference: NISTd17
-NISTq24:
+  unit_references:
+  - id: NISTu15
+    type: nist
+  - id: NISTu271
+    type: nist
+  - id: NISTu48
+    type: nist
+  - id: NISTu54
+    type: nist
+  dimension_reference:
+    id: NISTd17
+    type: nist
+- identifiers:
+  - id: NISTq24
+    type: nist
   quantity_name:
   - electric potential difference
   quantity_type: derived
-  unit_reference:
-  - NISTu16
-  - NISTu261
-  - NISTu268
-  - NISTu53
-  dimension_reference: NISTd18
-NISTq25:
+  unit_references:
+  - id: NISTu16
+    type: nist
+  - id: NISTu261
+    type: nist
+  - id: NISTu268
+    type: nist
+  - id: NISTu53
+    type: nist
+  dimension_reference:
+    id: NISTd18
+    type: nist
+- identifiers:
+  - id: NISTq25
+    type: nist
   quantity_name:
   - potential difference
   quantity_type: derived
-  unit_reference:
-  - NISTu16
-  - NISTu53
-  dimension_reference: NISTd18
-NISTq26:
+  unit_references:
+  - id: NISTu16
+    type: nist
+  - id: NISTu53
+    type: nist
+  dimension_reference:
+    id: NISTd18
+    type: nist
+- identifiers:
+  - id: NISTq26
+    type: nist
   quantity_name:
   - electromotive force
   quantity_type: derived
-  unit_reference:
-  - NISTu16
-  - NISTu261
-  - NISTu268
-  - NISTu53
-  dimension_reference: NISTd18
-NISTq27:
+  unit_references:
+  - id: NISTu16
+    type: nist
+  - id: NISTu261
+    type: nist
+  - id: NISTu268
+    type: nist
+  - id: NISTu53
+    type: nist
+  dimension_reference:
+    id: NISTd18
+    type: nist
+- identifiers:
+  - id: NISTq27
+    type: nist
   quantity_name:
   - capacitance
   quantity_type: derived
-  unit_reference:
-  - NISTu17
-  - NISTu49
-  dimension_reference: NISTd19
-NISTq28:
+  unit_references:
+  - id: NISTu17
+    type: nist
+  - id: NISTu49
+    type: nist
+  dimension_reference:
+    id: NISTd19
+    type: nist
+- identifiers:
+  - id: NISTq28
+    type: nist
   quantity_name:
   - electric resistance
   quantity_type: derived
-  unit_reference:
-  - NISTu18
-  - NISTu265
-  - NISTu52
-  dimension_reference: NISTd20
-NISTq29:
+  unit_references:
+  - id: NISTu18
+    type: nist
+  - id: NISTu265
+    type: nist
+  - id: NISTu52
+    type: nist
+  dimension_reference:
+    id: NISTd20
+    type: nist
+- identifiers:
+  - id: NISTq29
+    type: nist
   quantity_name:
   - electric conductance
   quantity_type: derived
-  unit_reference:
-  - NISTu19
-  - NISTu270
-  - NISTu51
-  dimension_reference: NISTd21
-NISTq30:
+  unit_references:
+  - id: NISTu19
+    type: nist
+  - id: NISTu270
+    type: nist
+  - id: NISTu51
+    type: nist
+  dimension_reference:
+    id: NISTd21
+    type: nist
+- identifiers:
+  - id: NISTq30
+    type: nist
   quantity_name:
   - magnetic flux
   quantity_type: derived
-  unit_reference:
-  - NISTu20
-  - NISTu272
-  - NISTu58
-  dimension_reference: NISTd22
-NISTq31:
+  unit_references:
+  - id: NISTu20
+    type: nist
+  - id: NISTu272
+    type: nist
+  - id: NISTu58
+    type: nist
+  dimension_reference:
+    id: NISTd22
+    type: nist
+- identifiers:
+  - id: NISTq31
+    type: nist
   quantity_name:
   - surface density
   - areic mass
   quantity_type: derived
-  unit_reference:
-  - NISTu27p10'3.u1e-2/1
-  dimension_reference: NISTd51
-NISTq32:
+  unit_references:
+  - id: NISTu27p10'3.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd51
+    type: nist
+- identifiers:
+  - id: NISTq32
+    type: nist
   quantity_name:
   - inductance
   quantity_type: derived
-  unit_reference:
-  - NISTu22
-  - NISTu50
-  dimension_reference: NISTd23
-NISTq33:
+  unit_references:
+  - id: NISTu22
+    type: nist
+  - id: NISTu50
+    type: nist
+  dimension_reference:
+    id: NISTd23
+    type: nist
+- identifiers:
+  - id: NISTq33
+    type: nist
   quantity_name:
   - mass concentration
   quantity_type: derived
-  unit_reference:
-  - NISTu27p10'3.u1e-3/1
-  dimension_reference: NISTd30
-NISTq34:
+  unit_references:
+  - id: NISTu27p10'3.u1e-3/1
+    type: nist
+  dimension_reference:
+    id: NISTd30
+    type: nist
+- identifiers:
+  - id: NISTq34
+    type: nist
   quantity_name:
   - Celsius temperature
   quantity_type: derived
-  unit_reference:
-  - NISTu23
-  dimension_reference: NISTd5
-NISTq35:
+  unit_references:
+  - id: NISTu23
+    type: nist
+  dimension_reference:
+    id: NISTd5
+    type: nist
+- identifiers:
+  - id: NISTq35
+    type: nist
   quantity_name:
   - activity referred to a radionuclide
   quantity_type: derived
-  unit_reference:
-  - NISTu25
-  - NISTu98
-  dimension_reference: NISTd24
-NISTq36:
+  unit_references:
+  - id: NISTu25
+    type: nist
+  - id: NISTu98
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq36
+    type: nist
   quantity_name:
   - absorbed dose
   quantity_type: derived
-  unit_reference:
-  - NISTu28
-  - NISTu99
-  dimension_reference: NISTd25
-NISTq37:
+  unit_references:
+  - id: NISTu28
+    type: nist
+  - id: NISTu99
+    type: nist
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq37
+    type: nist
   quantity_name:
   - specific energy imparted
   quantity_type: derived
-  unit_reference:
-  - NISTu28
-  dimension_reference: NISTd25
-NISTq38:
+  unit_references:
+  - id: NISTu28
+    type: nist
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq38
+    type: nist
   quantity_name:
   - kerma
   quantity_type: derived
-  unit_reference:
-  - NISTu28
-  dimension_reference: NISTd25
-NISTq39:
+  unit_references:
+  - id: NISTu28
+    type: nist
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq39
+    type: nist
   quantity_name:
   - dose equivalent
   quantity_type: derived
-  unit_reference:
-  - NISTu100
-  - NISTu29
-  dimension_reference: NISTd25
-NISTq40:
+  unit_references:
+  - id: NISTu100
+    type: nist
+  - id: NISTu29
+    type: nist
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq40
+    type: nist
   quantity_name:
   - ambient dose equivalent
   quantity_type: derived
-  dimension_reference: NISTd25
-NISTq41:
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq41
+    type: nist
   quantity_name:
   - directional dose equivalent
   quantity_type: derived
-  dimension_reference: NISTd25
-NISTq42:
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq42
+    type: nist
   quantity_name:
   - personal dose equivalent
   quantity_type: derived
-  dimension_reference: NISTd25
-NISTq43:
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq43
+    type: nist
   quantity_name:
   - organ dose equivalent
   quantity_type: derived
-  dimension_reference: NISTd25
-NISTq44:
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq44
+    type: nist
   quantity_name:
   - catalytic activity
   quantity_type: derived
-  unit_reference:
-  - NISTu30
-  dimension_reference: NISTd26
-NISTq45:
+  unit_references:
+  - id: NISTu30
+    type: nist
+  dimension_reference:
+    id: NISTd26
+    type: nist
+- identifiers:
+  - id: NISTq45
+    type: nist
   quantity_name:
   - frequency
   quantity_type: derived
-  unit_reference:
-  - NISTu31
-  dimension_reference: NISTd24
-NISTq46:
+  unit_references:
+  - id: NISTu31
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq46
+    type: nist
   quantity_name:
   - luminous flux
   quantity_type: derived
-  unit_reference:
-  - NISTu32
-  dimension_reference: NISTd7
-NISTq47:
+  unit_references:
+  - id: NISTu32
+    type: nist
+  dimension_reference:
+    id: NISTd7
+    type: nist
+- identifiers:
+  - id: NISTq47
+    type: nist
   quantity_name:
   - illuminance
   quantity_type: derived
-  unit_reference:
-  - NISTu276
-  - NISTu33
-  - NISTu85
-  dimension_reference: NISTd27
-NISTq48:
+  unit_references:
+  - id: NISTu276
+    type: nist
+  - id: NISTu33
+    type: nist
+  - id: NISTu85
+    type: nist
+  dimension_reference:
+    id: NISTd27
+    type: nist
+- identifiers:
+  - id: NISTq48
+    type: nist
   quantity_name:
   - distance
   quantity_type: base
-  unit_reference:
-  - NISTu1
-  - NISTu122
-  - NISTu123
-  - NISTu131
-  - NISTu26
-  - NISTu278
-  - NISTu280
-  - NISTu39
-  - NISTu78
-  - NISTu8
-  - NISTu83
-  - NISTu84
-  dimension_reference: NISTd1
-NISTq49:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  - id: NISTu122
+    type: nist
+  - id: NISTu123
+    type: nist
+  - id: NISTu131
+    type: nist
+  - id: NISTu26
+    type: nist
+  - id: NISTu278
+    type: nist
+  - id: NISTu280
+    type: nist
+  - id: NISTu39
+    type: nist
+  - id: NISTu78
+    type: nist
+  - id: NISTu8
+    type: nist
+  - id: NISTu83
+    type: nist
+  - id: NISTu84
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq49
+    type: nist
   quantity_name:
   - acceleration
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-2/1
-  - NISTu143
-  - NISTu167
-  dimension_reference: NISTd28
-NISTq50:
+  unit_references:
+  - id: NISTu1.u3e-2/1
+    type: nist
+  - id: NISTu143
+    type: nist
+  - id: NISTu167
+    type: nist
+  dimension_reference:
+    id: NISTd28
+    type: nist
+- identifiers:
+  - id: NISTq50
+    type: nist
   quantity_name:
   - wavenumber
   - repetency
   quantity_type: derived
-  unit_reference:
-  - NISTu120
-  - NISTu1e-1/1
-  dimension_reference: NISTd29
-NISTq51:
+  unit_references:
+  - id: NISTu120
+    type: nist
+  - id: NISTu1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq51
+    type: nist
   quantity_name:
   - density
   - mass density
   quantity_type: derived
-  unit_reference:
-  - NISTu185
-  - NISTu188
-  - NISTu189
-  - NISTu204
-  - NISTu27p10'3.u1e-3/1
-  dimension_reference: NISTd30
-NISTq52:
+  unit_references:
+  - id: NISTu185
+    type: nist
+  - id: NISTu188
+    type: nist
+  - id: NISTu189
+    type: nist
+  - id: NISTu204
+    type: nist
+  - id: NISTu27p10'3.u1e-3/1
+    type: nist
+  dimension_reference:
+    id: NISTd30
+    type: nist
+- identifiers:
+  - id: NISTq52
+    type: nist
   quantity_name:
   - specific volume
   - massic volume
   quantity_type: derived
-  unit_reference:
-  - NISTu101
-  dimension_reference: NISTd31
-NISTq53:
+  unit_references:
+  - id: NISTu101
+    type: nist
+  dimension_reference:
+    id: NISTd31
+    type: nist
+- identifiers:
+  - id: NISTq53
+    type: nist
   quantity_name:
   - current density
   quantity_type: derived
-  unit_reference:
-  - NISTu4.u1e-2/1
-  dimension_reference: NISTd32
-NISTq54:
+  unit_references:
+  - id: NISTu4.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd32
+    type: nist
+- identifiers:
+  - id: NISTq54
+    type: nist
   quantity_name:
   - magnetic field strength
   quantity_type: derived
-  unit_reference:
-  - NISTu4.u1e-1/1
-  dimension_reference: NISTd33
-NISTq55:
+  unit_references:
+  - id: NISTu4.u1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd33
+    type: nist
+- identifiers:
+  - id: NISTq55
+    type: nist
   quantity_name:
   - amount concentration
   quantity_type: derived
-  unit_reference:
-  - NISTu366
-  - NISTu6.u1e-3/1
-  dimension_reference: NISTd34
-NISTq56:
+  unit_references:
+  - id: NISTu366
+    type: nist
+  - id: NISTu6.u1e-3/1
+    type: nist
+  dimension_reference:
+    id: NISTd34
+    type: nist
+- identifiers:
+  - id: NISTq56
+    type: nist
   quantity_name:
   - luminance
   quantity_type: derived
-  unit_reference:
-  - NISTu124
-  - NISTu222
-  - NISTu277
-  - NISTu7.u1e-2/1
-  dimension_reference: NISTd27
-NISTq57:
+  unit_references:
+  - id: NISTu124
+    type: nist
+  - id: NISTu222
+    type: nist
+  - id: NISTu277
+    type: nist
+  - id: NISTu7.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd27
+    type: nist
+- identifiers:
+  - id: NISTq57
+    type: nist
   quantity_name:
   - angular velocity
   quantity_type: derived
-  unit_reference:
-  - NISTu9.u3e-1/1
-  dimension_reference: NISTd24
-NISTq58:
+  unit_references:
+  - id: NISTu9.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq58
+    type: nist
   quantity_name:
   - angular acceleration
   quantity_type: derived
-  unit_reference:
-  - NISTu9.u3e-2/1
-  dimension_reference: NISTd35
-NISTq59:
+  unit_references:
+  - id: NISTu9.u3e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd35
+    type: nist
+- identifiers:
+  - id: NISTq59
+    type: nist
   quantity_name:
   - dynamic viscosity
   quantity_type: derived
-  unit_reference:
-  - NISTu12.u3
-  - NISTu128
-  - NISTu97
-  dimension_reference: NISTd36
-NISTq60:
+  unit_references:
+  - id: NISTu12.u3
+    type: nist
+  - id: NISTu128
+    type: nist
+  - id: NISTu97
+    type: nist
+  dimension_reference:
+    id: NISTd36
+    type: nist
+- identifiers:
+  - id: NISTq60
+    type: nist
   quantity_name:
   - moment of force
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1
-  - NISTu126
-  - NISTu206
-  - NISTu214
-  dimension_reference: NISTd15
-NISTq61:
+  unit_references:
+  - id: NISTu11.u1
+    type: nist
+  - id: NISTu126
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu214
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq61
+    type: nist
   quantity_name:
   - surface tension
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1e-1/1
-  dimension_reference: NISTd37
-NISTq62:
+  unit_references:
+  - id: NISTu11.u1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd37
+    type: nist
+- identifiers:
+  - id: NISTq62
+    type: nist
   quantity_name:
   - heat flux density
   quantity_type: derived
-  unit_reference:
-  - NISTu14.u1e-2/1
-  dimension_reference: NISTd38
-NISTq63:
+  unit_references:
+  - id: NISTu14.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd38
+    type: nist
+- identifiers:
+  - id: NISTq63
+    type: nist
   quantity_name:
   - heat capacity
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u5e-1/1
-  dimension_reference: NISTd39
-NISTq64:
+  unit_references:
+  - id: NISTu13.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd39
+    type: nist
+- identifiers:
+  - id: NISTq64
+    type: nist
   quantity_name:
   - specific heat capacity
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u27p10'3e-1/1.u5e-1/1
-  dimension_reference: NISTd40
-NISTq65:
+  unit_references:
+  - id: NISTu13.u27p10'3e-1/1.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd40
+    type: nist
+- identifiers:
+  - id: NISTq65
+    type: nist
   quantity_name:
   - specific energy
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u27p10'3e-1/1
-  dimension_reference: NISTd25
-NISTq66:
+  unit_references:
+  - id: NISTu13.u27p10'3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd25
+    type: nist
+- identifiers:
+  - id: NISTq66
+    type: nist
   quantity_name:
   - thermal conductivity
   quantity_type: derived
-  unit_reference:
-  - NISTu14.u1e-1/1.u5e-1/1
-  dimension_reference: NISTd41
-NISTq67:
+  unit_references:
+  - id: NISTu14.u1e-1/1.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd41
+    type: nist
+- identifiers:
+  - id: NISTq67
+    type: nist
   quantity_name:
   - energy density
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u1e-3/1
-  dimension_reference: NISTd14
-NISTq68:
+  unit_references:
+  - id: NISTu13.u1e-3/1
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq68
+    type: nist
   quantity_name:
   - electric field strength
   quantity_type: derived
-  unit_reference:
-  - NISTu16.u1e-1/1
-  - NISTu259
-  dimension_reference: NISTd42
-NISTq69:
+  unit_references:
+  - id: NISTu16.u1e-1/1
+    type: nist
+  - id: NISTu259
+    type: nist
+  dimension_reference:
+    id: NISTd42
+    type: nist
+- identifiers:
+  - id: NISTq69
+    type: nist
   quantity_name:
   - electric charge density
   quantity_type: derived
-  unit_reference:
-  - NISTu15.u1e-3/1
-  - NISTu256
-  dimension_reference: NISTd43
-NISTq70:
+  unit_references:
+  - id: NISTu15.u1e-3/1
+    type: nist
+  - id: NISTu256
+    type: nist
+  dimension_reference:
+    id: NISTd43
+    type: nist
+- identifiers:
+  - id: NISTq70
+    type: nist
   quantity_name:
   - electric flux density
   quantity_type: derived
-  dimension_reference: NISTd44
-NISTq71:
+  dimension_reference:
+    id: NISTd44
+    type: nist
+- identifiers:
+  - id: NISTq71
+    type: nist
   quantity_name:
   - permittivity
   quantity_type: derived
-  unit_reference:
-  - NISTu17.u1e-1/1
-  - NISTu293
-  dimension_reference: NISTd45
-NISTq72:
+  unit_references:
+  - id: NISTu17.u1e-1/1
+    type: nist
+  - id: NISTu293
+    type: nist
+  dimension_reference:
+    id: NISTd45
+    type: nist
+- identifiers:
+  - id: NISTq72
+    type: nist
   quantity_name:
   - permeability
   quantity_type: derived
-  unit_reference:
-  - NISTu157
-  - NISTu22.u1e-1/1
-  dimension_reference: NISTd46
-NISTq73:
+  unit_references:
+  - id: NISTu157
+    type: nist
+  - id: NISTu22.u1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd46
+    type: nist
+- identifiers:
+  - id: NISTq73
+    type: nist
   quantity_name:
   - molar energy
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u6e-1/1
-  dimension_reference: NISTd47
-NISTq74:
+  unit_references:
+  - id: NISTu13.u6e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd47
+    type: nist
+- identifiers:
+  - id: NISTq74
+    type: nist
   quantity_name:
   - molar entropy
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u6e-1/1.u5e-1/1
-  dimension_reference: NISTd48
-NISTq75:
+  unit_references:
+  - id: NISTu13.u6e-1/1.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd48
+    type: nist
+- identifiers:
+  - id: NISTq75
+    type: nist
   quantity_name:
   - exposure (x and gamma rays)
   quantity_type: derived
-  unit_reference:
-  - NISTu118
-  - NISTu15.u27p10'3e-1/1
-  dimension_reference: NISTd49
-NISTq76:
+  unit_references:
+  - id: NISTu118
+    type: nist
+  - id: NISTu15.u27p10'3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd49
+    type: nist
+- identifiers:
+  - id: NISTq76
+    type: nist
   quantity_name:
   - absorbed dose rate
   quantity_type: derived
-  unit_reference:
-  - NISTu28.u3e-1/1
-  dimension_reference: NISTd50
-NISTq77:
+  unit_references:
+  - id: NISTu28.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd50
+    type: nist
+- identifiers:
+  - id: NISTq77
+    type: nist
   quantity_name:
   - potential energy
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu13
-  - NISTu14.u3
-  - NISTu206
-  - NISTu227
-  - NISTu331
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq78:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq78
+    type: nist
   quantity_name:
   - irradiance
   quantity_type: derived
-  unit_reference:
-  - NISTu14.u1e-2/1
-  dimension_reference: NISTd38
-NISTq79:
+  unit_references:
+  - id: NISTu14.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd38
+    type: nist
+- identifiers:
+  - id: NISTq79
+    type: nist
   quantity_name:
   - entropy
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u5e-1/1
-  dimension_reference: NISTd39
-NISTq80:
+  unit_references:
+  - id: NISTu13.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd39
+    type: nist
+- identifiers:
+  - id: NISTq80
+    type: nist
   quantity_name:
   - specific entropy
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u27p10'3e-1/1.u5e-1/1
-  dimension_reference: NISTd40
-NISTq81:
+  unit_references:
+  - id: NISTu13.u27p10'3e-1/1.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd40
+    type: nist
+- identifiers:
+  - id: NISTq81
+    type: nist
   quantity_name:
   - surface charge density
   quantity_type: derived
-  unit_reference:
-  - NISTu15.u1e-2/1
-  dimension_reference: NISTd53
-NISTq82:
+  unit_references:
+  - id: NISTu15.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd53
+    type: nist
+- identifiers:
+  - id: NISTq82
+    type: nist
   quantity_name:
   - electric displacement
   quantity_type: derived
-  unit_reference:
-  - NISTu15.u1e-2/1
-  dimension_reference: NISTd44
-NISTq83:
+  unit_references:
+  - id: NISTu15.u1e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd44
+    type: nist
+- identifiers:
+  - id: NISTq83
+    type: nist
   quantity_name:
   - molar heat capacity
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u6e-1/1.u5e-1/1
-  dimension_reference: NISTd48
-NISTq84:
+  unit_references:
+  - id: NISTu13.u6e-1/1.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd48
+    type: nist
+- identifiers:
+  - id: NISTq84
+    type: nist
   quantity_name:
   - catalytic activity concentration
   quantity_type: derived
-  unit_reference:
-  - NISTu30.u1e-3/1
-  dimension_reference: NISTd55
-NISTq85:
+  unit_references:
+  - id: NISTu30.u1e-3/1
+    type: nist
+  dimension_reference:
+    id: NISTd55
+    type: nist
+- identifiers:
+  - id: NISTq85
+    type: nist
   quantity_name:
   - kinematic viscosity
   quantity_type: derived
-  unit_reference:
-  - NISTu121
-  - NISTu142
-  - NISTu1e2/1.u3e-1/1
-  - NISTu210
-  dimension_reference: NISTd56
-NISTq87:
+  unit_references:
+  - id: NISTu121
+    type: nist
+  - id: NISTu142
+    type: nist
+  - id: NISTu1e2/1.u3e-1/1
+    type: nist
+  - id: NISTu210
+    type: nist
+  dimension_reference:
+    id: NISTd56
+    type: nist
+- identifiers:
+  - id: NISTq87
+    type: nist
   quantity_name:
   - magnetic field
   quantity_type: derived
-  unit_reference:
-  - NISTu144
-  dimension_reference: NISTd33
-NISTq88:
+  unit_references:
+  - id: NISTu144
+    type: nist
+  dimension_reference:
+    id: NISTd33
+    type: nist
+- identifiers:
+  - id: NISTq88
+    type: nist
   quantity_name:
   - radiant intensity
   quantity_type: derived
-  unit_reference:
-  - NISTu14.u10e-1/1
-  dimension_reference: NISTd16
-NISTq89:
+  unit_references:
+  - id: NISTu14.u10e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd16
+    type: nist
+- identifiers:
+  - id: NISTq89
+    type: nist
   quantity_name:
   - radiance
   quantity_type: derived
-  unit_reference:
-  - NISTu14.u1e-2/1.u10e-1/1
-  dimension_reference: NISTd38
-NISTq90:
+  unit_references:
+  - id: NISTu14.u1e-2/1.u10e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd38
+    type: nist
+- identifiers:
+  - id: NISTq90
+    type: nist
   quantity_name:
   - logarithmic ratio quantities
   quantity_type: derived
-  unit_reference:
-  - NISTu153
-  - NISTu154
-  - NISTu155
-  dimension_reference: NISTd67
-NISTq91:
+  unit_references:
+  - id: NISTu153
+    type: nist
+  - id: NISTu154
+    type: nist
+  - id: NISTu155
+    type: nist
+  dimension_reference:
+    id: NISTd67
+    type: nist
+- identifiers:
+  - id: NISTq91
+    type: nist
   quantity_name:
   - fluidity
   - reciprocal of dynamic viscosity
   quantity_type: derived
-  unit_reference:
-  - NISTu129
-  dimension_reference: NISTd52
-NISTq92:
+  unit_references:
+  - id: NISTu129
+    type: nist
+  dimension_reference:
+    id: NISTd52
+    type: nist
+- identifiers:
+  - id: NISTq92
+    type: nist
   quantity_name:
   - hydrodynamic permeability
   quantity_type: derived
-  unit_reference:
-  - NISTu157
-  dimension_reference: NISTd8
-NISTq93:
+  unit_references:
+  - id: NISTu157
+    type: nist
+  dimension_reference:
+    id: NISTd8
+    type: nist
+- identifiers:
+  - id: NISTq93
+    type: nist
   quantity_name:
   - refractive index
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq94:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq94
+    type: nist
   quantity_name:
   - relative permeability
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq95:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq95
+    type: nist
   quantity_name:
   - breadth
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq96:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq96
+    type: nist
   quantity_name:
   - height
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq97:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq97
+    type: nist
   quantity_name:
   - thickness
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq98:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq98
+    type: nist
   quantity_name:
   - radius
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq99:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq99
+    type: nist
   quantity_name:
   - radial distance
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq100:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq100
+    type: nist
   quantity_name:
   - diameter
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq101:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq101
+    type: nist
   quantity_name:
   - length of path
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq102:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq102
+    type: nist
   quantity_name:
   - cartesian coordinates
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq103:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq103
+    type: nist
   quantity_name:
   - position vector
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq104:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq104
+    type: nist
   quantity_name:
   - displacement
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq105:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq105
+    type: nist
   quantity_name:
   - radius of curvature
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq106:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq106
+    type: nist
   quantity_name:
   - curvature
   quantity_type: derived
-  unit_reference:
-  - NISTu1e-1/1
-  dimension_reference: NISTd29
-NISTq107:
+  unit_references:
+  - id: NISTu1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq107
+    type: nist
   quantity_name:
   - speed of propagation of waves
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-1/1
-  - NISTu160
-  dimension_reference: NISTd11
-NISTq108:
+  unit_references:
+  - id: NISTu1.u3e-1/1
+    type: nist
+  - id: NISTu160
+    type: nist
+  dimension_reference:
+    id: NISTd11
+    type: nist
+- identifiers:
+  - id: NISTq108
+    type: nist
   quantity_name:
   - acceleration of free fall
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-2/1
-  dimension_reference: NISTd28
-NISTq109:
+  unit_references:
+  - id: NISTu1.u3e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd28
+    type: nist
+- identifiers:
+  - id: NISTq109
+    type: nist
   quantity_name:
   - period duration
   - period
   quantity_type: derived
-  unit_reference:
-  - NISTu3
-  dimension_reference: NISTd3
-NISTq110:
+  unit_references:
+  - id: NISTu3
+    type: nist
+  dimension_reference:
+    id: NISTd3
+    type: nist
+- identifiers:
+  - id: NISTq110
+    type: nist
   quantity_name:
   - time constant
   quantity_type: derived
-  unit_reference:
-  - NISTu3
-  dimension_reference: NISTd3
-NISTq111:
+  unit_references:
+  - id: NISTu3
+    type: nist
+  dimension_reference:
+    id: NISTd3
+    type: nist
+- identifiers:
+  - id: NISTq111
+    type: nist
   quantity_name:
   - rotation
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq112:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq112
+    type: nist
   quantity_name:
   - rotational frequency
   quantity_type: derived
-  unit_reference:
-  - NISTu3e-1/1
-  dimension_reference: NISTd24
-NISTq113:
+  unit_references:
+  - id: NISTu3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq113
+    type: nist
   quantity_name:
   - angular frequency
   quantity_type: derived
-  unit_reference:
-  - NISTu3e-1/1
-  - NISTu9.u3e-1/1
-  dimension_reference: NISTd24
-NISTq114:
+  unit_references:
+  - id: NISTu3e-1/1
+    type: nist
+  - id: NISTu9.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq114
+    type: nist
   quantity_name:
   - wavelength
   quantity_type: derived
-  unit_reference:
-  - NISTu1
-  dimension_reference: NISTd1
-NISTq115:
+  unit_references:
+  - id: NISTu1
+    type: nist
+  dimension_reference:
+    id: NISTd1
+    type: nist
+- identifiers:
+  - id: NISTq115
+    type: nist
   quantity_name:
   - angular wavenumber
   - angular repetency
   quantity_type: derived
-  unit_reference:
-  - NISTu1e-1/1
-  - NISTu9.u1e-1/1
-  dimension_reference: NISTd29
-NISTq116:
+  unit_references:
+  - id: NISTu1e-1/1
+    type: nist
+  - id: NISTu9.u1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq116
+    type: nist
   quantity_name:
   - phase velocity
   - phase speed
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-1/1
-  dimension_reference: NISTd11
-NISTq117:
+  unit_references:
+  - id: NISTu1.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd11
+    type: nist
+- identifiers:
+  - id: NISTq117
+    type: nist
   quantity_name:
   - group velocity
   - group speed
   quantity_type: derived
-  unit_reference:
-  - NISTu1.u3e-1/1
-  dimension_reference: NISTd11
-NISTq118:
+  unit_references:
+  - id: NISTu1.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd11
+    type: nist
+- identifiers:
+  - id: NISTq118
+    type: nist
   quantity_name:
   - level of a field quantity
   quantity_type: derived
-  unit_reference:
-  - NISTu153
-  - NISTu154
-  dimension_reference: NISTd83
-NISTq119:
+  unit_references:
+  - id: NISTu153
+    type: nist
+  - id: NISTu154
+    type: nist
+  dimension_reference:
+    id: NISTd83
+    type: nist
+- identifiers:
+  - id: NISTq119
+    type: nist
   quantity_name:
   - level of a power quantity
   quantity_type: derived
-  unit_reference:
-  - NISTu153
-  - NISTu154
-  dimension_reference: NISTd84
-NISTq120:
+  unit_references:
+  - id: NISTu153
+    type: nist
+  - id: NISTu154
+    type: nist
+  dimension_reference:
+    id: NISTd84
+    type: nist
+- identifiers:
+  - id: NISTq120
+    type: nist
   quantity_name:
   - damping coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu163
-  - NISTu3e-1/1
-  dimension_reference: NISTd24
-NISTq121:
+  unit_references:
+  - id: NISTu163
+    type: nist
+  - id: NISTu3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd24
+    type: nist
+- identifiers:
+  - id: NISTq121
+    type: nist
   quantity_name:
   - logarithmic decrement
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  - NISTu153
-  dimension_reference: NISTd80
-NISTq122:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  - id: NISTu153
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq122
+    type: nist
   quantity_name:
   - attenuation coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu1e-1/1
-  dimension_reference: NISTd29
-NISTq123:
+  unit_references:
+  - id: NISTu1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq123
+    type: nist
   quantity_name:
   - phase coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu1e-1/1
-  dimension_reference: NISTd29
-NISTq124:
+  unit_references:
+  - id: NISTu1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq124
+    type: nist
   quantity_name:
   - propagation coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu1e-1/1
-  dimension_reference: NISTd29
-NISTq125:
+  unit_references:
+  - id: NISTu1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd29
+    type: nist
+- identifiers:
+  - id: NISTq125
+    type: nist
   quantity_name:
   - relative mass density
   - relative density
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq126:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq126
+    type: nist
   quantity_name:
   - linear density
   - lineic mass
   quantity_type: derived
-  unit_reference:
-  - NISTu213
-  - NISTu27p10'3.u1e-1/1
-  dimension_reference: NISTd58
-NISTq127:
+  unit_references:
+  - id: NISTu213
+    type: nist
+  - id: NISTu27p10'3.u1e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd58
+    type: nist
+- identifiers:
+  - id: NISTq127
+    type: nist
   quantity_name:
   - mass moment of inertia
   - moment of inertia
   quantity_type: derived
-  unit_reference:
-  - NISTu27p10'3.u1e2/1
-  dimension_reference: NISTd59
-NISTq128:
+  unit_references:
+  - id: NISTu27p10'3.u1e2/1
+    type: nist
+  dimension_reference:
+    id: NISTd59
+    type: nist
+- identifiers:
+  - id: NISTq128
+    type: nist
   quantity_name:
   - weight
   quantity_type: derived
-  unit_reference:
-  - NISTu205
-  - NISTu236
-  - NISTu238
-  - NISTu239
-  - NISTu262
-  dimension_reference: NISTd12
-NISTq129:
+  unit_references:
+  - id: NISTu205
+    type: nist
+  - id: NISTu236
+    type: nist
+  - id: NISTu238
+    type: nist
+  - id: NISTu239
+    type: nist
+  - id: NISTu262
+    type: nist
+  dimension_reference:
+    id: NISTd12
+    type: nist
+- identifiers:
+  - id: NISTq129
+    type: nist
   quantity_name:
   - impulse
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u3
-  dimension_reference: NISTd61
-NISTq130:
+  unit_references:
+  - id: NISTu11.u3
+    type: nist
+  dimension_reference:
+    id: NISTd61
+    type: nist
+- identifiers:
+  - id: NISTq130
+    type: nist
   quantity_name:
   - gravitational constant
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1e2/1.u27p10'3e-2/1
-  dimension_reference: NISTd62
-NISTq131:
+  unit_references:
+  - id: NISTu11.u1e2/1.u27p10'3e-2/1
+    type: nist
+  dimension_reference:
+    id: NISTd62
+    type: nist
+- identifiers:
+  - id: NISTq131
+    type: nist
   quantity_name:
   - momentum
   quantity_type: derived
-  unit_reference:
-  - NISTu255
-  - NISTu27p10'3.u1.u3e-1/1
-  - NISTu296
-  - NISTu299
-  dimension_reference: NISTd61
-NISTq132:
+  unit_references:
+  - id: NISTu255
+    type: nist
+  - id: NISTu27p10'3.u1.u3e-1/1
+    type: nist
+  - id: NISTu296
+    type: nist
+  - id: NISTu299
+    type: nist
+  dimension_reference:
+    id: NISTd61
+    type: nist
+- identifiers:
+  - id: NISTq132
+    type: nist
   quantity_name:
   - moment of momentum
   - angular momentum
   quantity_type: derived
-  unit_reference:
-  - NISTu27p10'3.u1e2/1.u3e-1/1
-  dimension_reference: NISTd60
-NISTq133:
+  unit_references:
+  - id: NISTu27p10'3.u1e2/1.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd60
+    type: nist
+- identifiers:
+  - id: NISTq133
+    type: nist
   quantity_name:
   - angular impulse
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1.u3
-  dimension_reference: NISTd60
-NISTq134:
+  unit_references:
+  - id: NISTu11.u1.u3
+    type: nist
+  dimension_reference:
+    id: NISTd60
+    type: nist
+- identifiers:
+  - id: NISTq134
+    type: nist
   quantity_name:
   - normal stress
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  dimension_reference: NISTd14
-NISTq135:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq135
+    type: nist
   quantity_name:
   - shear stress
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  dimension_reference: NISTd14
-NISTq136:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq136
+    type: nist
   quantity_name:
   - linear strain
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq137:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq137
+    type: nist
   quantity_name:
   - shear strain
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq138:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq138
+    type: nist
   quantity_name:
   - volume strain
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq139:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq139
+    type: nist
   quantity_name:
   - compressibility
   quantity_type: derived
-  unit_reference:
-  - NISTu12e-1/1
-  dimension_reference: NISTd63
-NISTq140:
+  unit_references:
+  - id: NISTu12e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd63
+    type: nist
+- identifiers:
+  - id: NISTq140
+    type: nist
   quantity_name:
   - Poisson number
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq141:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq141
+    type: nist
   quantity_name:
   - modulus of elasticity
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  dimension_reference: NISTd14
-NISTq142:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq142
+    type: nist
   quantity_name:
   - modulus of rigidity
   - shear modulus
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  dimension_reference: NISTd14
-NISTq143:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq143
+    type: nist
   quantity_name:
   - modulus of compression
   - bulk modulus
   quantity_type: derived
-  unit_reference:
-  - NISTu12
-  dimension_reference: NISTd14
-NISTq144:
+  unit_references:
+  - id: NISTu12
+    type: nist
+  dimension_reference:
+    id: NISTd14
+    type: nist
+- identifiers:
+  - id: NISTq144
+    type: nist
   quantity_name:
   - second axial moment of area
   quantity_type: derived
-  unit_reference:
-  - NISTu185
-  dimension_reference: NISTd57
-NISTq145:
+  unit_references:
+  - id: NISTu185
+    type: nist
+  dimension_reference:
+    id: NISTd57
+    type: nist
+- identifiers:
+  - id: NISTq145
+    type: nist
   quantity_name:
   - second polar moment of area
   quantity_type: derived
-  unit_reference:
-  - NISTu185
-  dimension_reference: NISTd57
-NISTq146:
+  unit_references:
+  - id: NISTu185
+    type: nist
+  dimension_reference:
+    id: NISTd57
+    type: nist
+- identifiers:
+  - id: NISTq146
+    type: nist
   quantity_name:
   - section modulus
   quantity_type: derived
-  unit_reference:
-  - NISTu1e3/1
-  - NISTu209
-  dimension_reference: NISTd10
-NISTq147:
+  unit_references:
+  - id: NISTu1e3/1
+    type: nist
+  - id: NISTu209
+    type: nist
+  dimension_reference:
+    id: NISTd10
+    type: nist
+- identifiers:
+  - id: NISTq147
+    type: nist
   quantity_name:
   - dynamic friction factor
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
-NISTq150:
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
+- identifiers:
+  - id: NISTq150
+    type: nist
   quantity_name:
   - mass flow rate
   quantity_type: derived
-  unit_reference:
-  - NISTu27p10'3.u3e-1/1
-  dimension_reference: NISTd65
-NISTq151:
+  unit_references:
+  - id: NISTu27p10'3.u3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd65
+    type: nist
+- identifiers:
+  - id: NISTq151
+    type: nist
   quantity_name:
   - volume flow rate
   quantity_type: derived
-  unit_reference:
-  - NISTu1e3/1.u3e-1/1
-  - NISTu358
-  - NISTu359
-  - NISTu360
-  - NISTu364
-  dimension_reference: NISTd66
-NISTq152:
+  unit_references:
+  - id: NISTu1e3/1.u3e-1/1
+    type: nist
+  - id: NISTu358
+    type: nist
+  - id: NISTu359
+    type: nist
+  - id: NISTu360
+    type: nist
+  - id: NISTu364
+    type: nist
+  dimension_reference:
+    id: NISTd66
+    type: nist
+- identifiers:
+  - id: NISTq152
+    type: nist
   quantity_name:
   - Lagrange function
   quantity_type: derived
-  unit_reference:
-  - NISTu13
-  dimension_reference: NISTd15
-NISTq153:
+  unit_references:
+  - id: NISTu13
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq153
+    type: nist
   quantity_name:
   - Hamilton function
   quantity_type: derived
-  unit_reference:
-  - NISTu13
-  dimension_reference: NISTd15
-NISTq154:
+  unit_references:
+  - id: NISTu13
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq154
+    type: nist
   quantity_name:
   - action
   quantity_type: derived
-  unit_reference:
-  - NISTu13.u3
-  - NISTu243
-  - NISTu248
-  - NISTu297
-  dimension_reference: NISTd60
-NISTq155:
+  unit_references:
+  - id: NISTu13.u3
+    type: nist
+  - id: NISTu243
+    type: nist
+  - id: NISTu248
+    type: nist
+  - id: NISTu297
+    type: nist
+  dimension_reference:
+    id: NISTd60
+    type: nist
+- identifiers:
+  - id: NISTq155
+    type: nist
   quantity_name:
   - area moment of inertia
   - second moment of area
   quantity_type: derived
-  unit_reference:
-  - NISTu208
-  dimension_reference: NISTd57
-NISTq156:
+  unit_references:
+  - id: NISTu208
+    type: nist
+  dimension_reference:
+    id: NISTd57
+    type: nist
+- identifiers:
+  - id: NISTq156
+    type: nist
   quantity_name:
   - linear expansion coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu5e-1/1
-  dimension_reference: NISTd68
-NISTq157:
+  unit_references:
+  - id: NISTu5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd68
+    type: nist
+- identifiers:
+  - id: NISTq157
+    type: nist
   quantity_name:
   - cubic expansion coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu5e-1/1
-  dimension_reference: NISTd68
-NISTq158:
+  unit_references:
+  - id: NISTu5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd68
+    type: nist
+- identifiers:
+  - id: NISTq158
+    type: nist
   quantity_name:
   - relative pressure coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu5e-1/1
-  dimension_reference: NISTd68
-NISTq159:
+  unit_references:
+  - id: NISTu5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd68
+    type: nist
+- identifiers:
+  - id: NISTq159
+    type: nist
   quantity_name:
   - pressure coefficient
   quantity_type: derived
-  unit_reference:
-  - NISTu12.u5e-1/1
-  dimension_reference: NISTd69
-NISTq160:
+  unit_references:
+  - id: NISTu12.u5e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd69
+    type: nist
+- identifiers:
+  - id: NISTq160
+    type: nist
   quantity_name:
   - isothermal compressibility
   quantity_type: derived
-  unit_reference:
-  - NISTu12e-1/1
-  dimension_reference: NISTd70
-NISTq161:
+  unit_references:
+  - id: NISTu12e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd70
+    type: nist
+- identifiers:
+  - id: NISTq161
+    type: nist
   quantity_name:
   - magnetomotive force (Cardelli) (-SP811)
   quantity_type: derived
-  unit_reference:
-  - NISTu223
-  dimension_reference: NISTd4
-NISTq162:
+  unit_references:
+  - id: NISTu223
+    type: nist
+  dimension_reference:
+    id: NISTd4
+    type: nist
+- identifiers:
+  - id: NISTq162
+    type: nist
   quantity_name:
   - electric dipole moment
   quantity_type: derived
-  unit_reference:
-  - NISTu224
-  - NISTu258
-  dimension_reference: NISTd72
-NISTq163:
+  unit_references:
+  - id: NISTu224
+    type: nist
+  - id: NISTu258
+    type: nist
+  dimension_reference:
+    id: NISTd72
+    type: nist
+- identifiers:
+  - id: NISTq163
+    type: nist
   quantity_name:
   - magnetizability
   quantity_type: derived
-  unit_reference:
-  - NISTu252
-  dimension_reference: NISTd54
-NISTq164:
+  unit_references:
+  - id: NISTu252
+    type: nist
+  dimension_reference:
+    id: NISTd54
+    type: nist
+- identifiers:
+  - id: NISTq164
+    type: nist
   quantity_name:
   - magnetic dipole moment
   quantity_type: derived
-  unit_reference:
-  - NISTu254
-  dimension_reference: NISTd73
-NISTq165:
+  unit_references:
+  - id: NISTu254
+    type: nist
+  dimension_reference:
+    id: NISTd73
+    type: nist
+- identifiers:
+  - id: NISTq165
+    type: nist
   quantity_name:
   - electric field gradient
   quantity_type: derived
-  unit_reference:
-  - NISTu260
-  dimension_reference: NISTd74
-NISTq166:
+  unit_references:
+  - id: NISTu260
+    type: nist
+  dimension_reference:
+    id: NISTd74
+    type: nist
+- identifiers:
+  - id: NISTq166
+    type: nist
   quantity_name:
   - electric potential
   quantity_type: derived
-  unit_reference:
-  - NISTu261
-  - NISTu268
-  dimension_reference: NISTd18
-NISTq167:
+  unit_references:
+  - id: NISTu261
+    type: nist
+  - id: NISTu268
+    type: nist
+  dimension_reference:
+    id: NISTd18
+    type: nist
+- identifiers:
+  - id: NISTq167
+    type: nist
   quantity_name:
   - electric quadrupole moment
   quantity_type: derived
-  unit_reference:
-  - NISTu263
-  dimension_reference: NISTd75
-NISTq168:
+  unit_references:
+  - id: NISTu263
+    type: nist
+  dimension_reference:
+    id: NISTd75
+    type: nist
+- identifiers:
+  - id: NISTq168
+    type: nist
   quantity_name:
   - polarizability
   quantity_type: derived
-  unit_reference:
-  - NISTu264
-  dimension_reference: NISTd76
-NISTq169:
+  unit_references:
+  - id: NISTu264
+    type: nist
+  dimension_reference:
+    id: NISTd76
+    type: nist
+- identifiers:
+  - id: NISTq169
+    type: nist
   quantity_name:
   - electric capacitance
   quantity_type: derived
-  unit_reference:
-  - NISTu266
-  dimension_reference: NISTd19
-NISTq170:
+  unit_references:
+  - id: NISTu266
+    type: nist
+  dimension_reference:
+    id: NISTd19
+    type: nist
+- identifiers:
+  - id: NISTq170
+    type: nist
   quantity_name:
   - electric current intensity
   quantity_type: derived
-  unit_reference:
-  - NISTu267
-  dimension_reference: NISTd4
-NISTq171:
+  unit_references:
+  - id: NISTu267
+    type: nist
+  dimension_reference:
+    id: NISTd4
+    type: nist
+- identifiers:
+  - id: NISTq171
+    type: nist
   quantity_name:
   - electric inductance
   quantity_type: derived
-  unit_reference:
-  - NISTu269
-  dimension_reference: NISTd23
-NISTq172:
+  unit_references:
+  - id: NISTu269
+    type: nist
+  dimension_reference:
+    id: NISTd23
+    type: nist
+- identifiers:
+  - id: NISTq172
+    type: nist
   quantity_name:
   - 1st hyperpolarizability
   quantity_type: derived
-  unit_reference:
-  - NISTu291
-  dimension_reference: NISTd77
-NISTq173:
+  unit_references:
+  - id: NISTu291
+    type: nist
+  dimension_reference:
+    id: NISTd77
+    type: nist
+- identifiers:
+  - id: NISTq173
+    type: nist
   quantity_name:
   - 2nd hyperpolarizability
   quantity_type: derived
-  unit_reference:
-  - NISTu292
-  dimension_reference: NISTd78
-NISTq174:
+  unit_references:
+  - id: NISTu292
+    type: nist
+  dimension_reference:
+    id: NISTd78
+    type: nist
+- identifiers:
+  - id: NISTq174
+    type: nist
   quantity_name:
   - index of acidity
   quantity_type: derived
-  unit_reference:
-  - NISTu332
-  dimension_reference: NISTd94
-NISTq175:
+  unit_references:
+  - id: NISTu332
+    type: nist
+  dimension_reference:
+    id: NISTd94
+    type: nist
+- identifiers:
+  - id: NISTq175
+    type: nist
   quantity_name:
   - Fahrenheit temperature
   quantity_type: derived
-  unit_reference:
-  - NISTu133
-  dimension_reference: NISTd5
-NISTq176:
+  unit_references:
+  - id: NISTu133
+    type: nist
+  dimension_reference:
+    id: NISTd5
+    type: nist
+- identifiers:
+  - id: NISTq176
+    type: nist
   quantity_name:
   - mass divided by length
   quantity_type: derived
-  unit_reference:
-  - NISTu346
-  dimension_reference: NISTd58
-NISTq177:
+  unit_references:
+  - id: NISTu346
+    type: nist
+  dimension_reference:
+    id: NISTd58
+    type: nist
+- identifiers:
+  - id: NISTq177
+    type: nist
   quantity_name:
   - storage capacity
   - storage size
   quantity_type: derived
-  unit_reference:
-  - NISTu350
-  - NISTu351
-  dimension_reference: NISTd95
-NISTq179:
+  unit_references:
+  - id: NISTu350
+    type: nist
+  - id: NISTu351
+    type: nist
+  dimension_reference:
+    id: NISTd95
+    type: nist
+- identifiers:
+  - id: NISTq179
+    type: nist
   quantity_name:
   - molality of solute B
   quantity_type: derived
-  unit_reference:
-  - NISTu6.u27p10'3e-1/1
-  dimension_reference: NISTd79
-NISTq180:
+  unit_references:
+  - id: NISTu6.u27p10'3e-1/1
+    type: nist
+  dimension_reference:
+    id: NISTd79
+    type: nist
+- identifiers:
+  - id: NISTq180
+    type: nist
   quantity_name:
   - coefficient of heat transfer
   quantity_type: derived
-  unit_reference:
-  - NISTu221
-  dimension_reference: NISTd71
-NISTq181:
+  unit_references:
+  - id: NISTu221
+    type: nist
+  dimension_reference:
+    id: NISTd71
+    type: nist
+- identifiers:
+  - id: NISTq181
+    type: nist
   quantity_name:
   - surface coefficient of heat transfer
   quantity_type: derived
-  unit_reference:
-  - NISTu221
-  dimension_reference: NISTd71
-NISTq182:
+  unit_references:
+  - id: NISTu221
+    type: nist
+  dimension_reference:
+    id: NISTd71
+    type: nist
+- identifiers:
+  - id: NISTq182
+    type: nist
   quantity_name:
   - kinetic energy
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu13
-  - NISTu14.u3
-  - NISTu206
-  - NISTu227
-  - NISTu331
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq183:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq183
+    type: nist
   quantity_name:
   - mechanical energy
   quantity_type: derived
-  unit_reference:
-  - NISTu117
-  - NISTu13
-  - NISTu14.u3
-  - NISTu206
-  - NISTu227
-  - NISTu331
-  - NISTu60
-  - NISTu62
-  - NISTu63
-  - NISTu64
-  - NISTu65
-  - NISTu69
-  dimension_reference: NISTd15
-NISTq184:
+  unit_references:
+  - id: NISTu117
+    type: nist
+  - id: NISTu13
+    type: nist
+  - id: NISTu14.u3
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu227
+    type: nist
+  - id: NISTu331
+    type: nist
+  - id: NISTu60
+    type: nist
+  - id: NISTu62
+    type: nist
+  - id: NISTu63
+    type: nist
+  - id: NISTu64
+    type: nist
+  - id: NISTu65
+    type: nist
+  - id: NISTu69
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq184
+    type: nist
   quantity_name:
   - torque
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1
-  - NISTu126
-  - NISTu206
-  - NISTu214
-  dimension_reference: NISTd15
-NISTq185:
+  unit_references:
+  - id: NISTu11.u1
+    type: nist
+  - id: NISTu126
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu214
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq185
+    type: nist
   quantity_name:
   - bending moment of force
   quantity_type: derived
-  unit_reference:
-  - NISTu11.u1
-  - NISTu126
-  - NISTu206
-  - NISTu214
-  dimension_reference: NISTd15
-NISTq1000:
+  unit_references:
+  - id: NISTu11.u1
+    type: nist
+  - id: NISTu126
+    type: nist
+  - id: NISTu206
+    type: nist
+  - id: NISTu214
+    type: nist
+  dimension_reference:
+    id: NISTd15
+    type: nist
+- identifiers:
+  - id: NISTq1000
+    type: nist
   quantity_name:
   - mass fraction
   - mole fraction
   quantity_type: derived
-  unit_reference:
-  - NISTu400
-  dimension_reference: NISTd85
-NISTq1001:
+  unit_references:
+  - id: NISTu400
+    type: nist
+  dimension_reference:
+    id: NISTd85
+    type: nist
+- identifiers:
+  - id: NISTq1001
+    type: nist
   quantity_name:
   - apparent power
   quantity_type: derived
-  unit_reference:
-  - NISTu401
-  dimension_reference: NISTd16
-NISTq1002:
+  unit_references:
+  - id: NISTu401
+    type: nist
+  dimension_reference:
+    id: NISTd16
+    type: nist
+- identifiers:
+  - id: NISTq1002
+    type: nist
   quantity_name:
   - nil
   quantity_type: derived
-  unit_reference:
-  - NISTu61
-  dimension_reference: NISTd80
+  unit_references:
+  - id: NISTu61
+    type: nist
+  dimension_reference:
+    id: NISTd80
+    type: nist
