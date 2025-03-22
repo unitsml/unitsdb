@@ -6,6 +6,7 @@ prefixes:
   base: 2
   names:
   - kibi
+  short: kibi
   power: 10
   symbol:
     latex: Ki
@@ -20,6 +21,7 @@ prefixes:
   base: 2
   names:
   - mebi
+  short: mebi
   power: 20
   symbol:
     latex: Mi
@@ -34,6 +36,7 @@ prefixes:
   base: 2
   names:
   - gibi
+  short: gibi
   power: 30
   symbol:
     latex: Gi
@@ -48,6 +51,7 @@ prefixes:
   base: 2
   names:
   - tebi
+  short: tebi
   power: 40
   symbol:
     latex: Ti
@@ -62,6 +66,7 @@ prefixes:
   base: 2
   names:
   - pebi
+  short: pebi
   power: 50
   symbol:
     latex: Pi
@@ -76,6 +81,7 @@ prefixes:
   base: 2
   names:
   - exbi
+  short: exbi
   power: 60
   symbol:
     latex: Ei
@@ -90,6 +96,7 @@ prefixes:
   base: 2
   names:
   - zebi
+  short: zebi
   power: 70
   symbol:
     latex: Zi
@@ -104,6 +111,7 @@ prefixes:
   base: 2
   names:
   - yobi
+  short: yobi
   power: 80
   symbol:
     latex: Yi
@@ -118,6 +126,7 @@ prefixes:
   base: 10
   names:
   - quecto
+  short: quecto
   power: -30
   symbol:
     latex: q
@@ -132,6 +141,7 @@ prefixes:
   base: 10
   names:
   - ronto
+  short: ronto
   power: -27
   symbol:
     latex: r
@@ -146,6 +156,7 @@ prefixes:
   base: 10
   names:
   - yocto
+  short: yocto
   power: -24
   symbol:
     latex: "y"
@@ -160,6 +171,7 @@ prefixes:
   base: 10
   names:
   - zepto
+  short: zepto
   power: -21
   symbol:
     latex: z
@@ -174,6 +186,7 @@ prefixes:
   base: 10
   names:
   - atto
+  short: atto
   power: -18
   symbol:
     latex: a
@@ -188,6 +201,7 @@ prefixes:
   base: 10
   names:
   - femto
+  short: femto
   power: -15
   symbol:
     latex: f
@@ -202,6 +216,7 @@ prefixes:
   base: 10
   names:
   - pico
+  short: pico
   power: -12
   symbol:
     latex: p
@@ -216,6 +231,7 @@ prefixes:
   base: 10
   names:
   - nano
+  short: nano
   power: -9
   symbol:
     latex: "n"
@@ -230,6 +246,7 @@ prefixes:
   base: 10
   names:
   - micro
+  short: micro
   power: -6
   symbol:
     latex: "$mu$"
@@ -244,6 +261,7 @@ prefixes:
   base: 10
   names:
   - milli
+  short: milli
   power: -3
   symbol:
     latex: m
@@ -258,6 +276,7 @@ prefixes:
   base: 10
   names:
   - centi
+  short: centi
   power: -2
   symbol:
     latex: c
@@ -272,6 +291,7 @@ prefixes:
   base: 10
   names:
   - deci
+  short: deci
   power: -1
   symbol:
     latex: d
@@ -286,6 +306,7 @@ prefixes:
   base: 10
   names:
   - one
+  short: one
   power: 0
   symbol:
     latex: '1'
@@ -300,6 +321,7 @@ prefixes:
   base: 10
   names:
   - deka
+  short: deka
   power: 1
   symbol:
     latex: da
@@ -314,6 +336,7 @@ prefixes:
   base: 10
   names:
   - hecto
+  short: hecto
   power: 2
   symbol:
     latex: h
@@ -328,6 +351,7 @@ prefixes:
   base: 10
   names:
   - kilo
+  short: kilo
   power: 3
   symbol:
     latex: k
@@ -342,6 +366,7 @@ prefixes:
   base: 10
   names:
   - mega
+  short: mega
   power: 6
   symbol:
     latex: M
@@ -356,6 +381,7 @@ prefixes:
   base: 10
   names:
   - giga
+  short: giga
   power: 9
   symbol:
     latex: G
@@ -370,6 +396,7 @@ prefixes:
   base: 10
   names:
   - tera
+  short: tera
   power: 12
   symbol:
     latex: T
@@ -384,6 +411,7 @@ prefixes:
   base: 10
   names:
   - peta
+  short: peta
   power: 15
   symbol:
     latex: P
@@ -398,6 +426,7 @@ prefixes:
   base: 10
   names:
   - exa
+  short: exa
   power: 18
   symbol:
     latex: E
@@ -412,6 +441,7 @@ prefixes:
   base: 10
   names:
   - zetta
+  short: zetta
   power: 21
   symbol:
     latex: Z
@@ -426,6 +456,7 @@ prefixes:
   base: 10
   names:
   - yotta
+  short: yotta
   power: 24
   symbol:
     latex: Y
@@ -440,6 +471,7 @@ prefixes:
   base: 10
   names:
   - ronna
+  short: ronna
   power: 27
   symbol:
     latex: R
@@ -454,6 +486,7 @@ prefixes:
   base: 10
   names:
   - quetta
+  short: quetta
   power: 30
   symbol:
     latex: Q
