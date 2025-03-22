@@ -1,8 +1,0 @@
-#!/usr/bin/env ruby
-
-# Add scripts/lib to load path
-$LOAD_PATH.unshift(File.expand_path(File.join(File.dirname(__FILE__), 'lib')))
-
-require 'unitsdb/cli'
-
-Unitsdb::CLI.start(ARGV)
