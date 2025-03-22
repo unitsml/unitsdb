@@ -4,7 +4,8 @@ prefixes:
   - id: NISTp2_10
     type: nist
   base: 2
-  name: kibi
+  names:
+  - kibi
   power: 10
   symbol:
     latex: Ki
@@ -17,7 +18,8 @@ prefixes:
   - id: NISTp2_20
     type: nist
   base: 2
-  name: mebi
+  names:
+  - mebi
   power: 20
   symbol:
     latex: Mi
@@ -30,7 +32,8 @@ prefixes:
   - id: NISTp2_30
     type: nist
   base: 2
-  name: gibi
+  names:
+  - gibi
   power: 30
   symbol:
     latex: Gi
@@ -43,7 +46,8 @@ prefixes:
   - id: NISTp2_40
     type: nist
   base: 2
-  name: tebi
+  names:
+  - tebi
   power: 40
   symbol:
     latex: Ti
@@ -56,7 +60,8 @@ prefixes:
   - id: NISTp2_50
     type: nist
   base: 2
-  name: pebi
+  names:
+  - pebi
   power: 50
   symbol:
     latex: Pi
@@ -69,7 +74,8 @@ prefixes:
   - id: NISTp2_60
     type: nist
   base: 2
-  name: exbi
+  names:
+  - exbi
   power: 60
   symbol:
     latex: Ei
@@ -82,7 +88,8 @@ prefixes:
   - id: NISTp2_70
     type: nist
   base: 2
-  name: zebi
+  names:
+  - zebi
   power: 70
   symbol:
     latex: Zi
@@ -95,7 +102,8 @@ prefixes:
   - id: NISTp2_80
     type: nist
   base: 2
-  name: yobi
+  names:
+  - yobi
   power: 80
   symbol:
     latex: Yi
@@ -108,7 +116,8 @@ prefixes:
   - id: NISTp10_-30
     type: nist
   base: 10
-  name: quecto
+  names:
+  - quecto
   power: -30
   symbol:
     latex: q
@@ -121,7 +130,8 @@ prefixes:
   - id: NISTp10_-27
     type: nist
   base: 10
-  name: ronto
+  names:
+  - ronto
   power: -27
   symbol:
     latex: r
@@ -134,7 +144,8 @@ prefixes:
   - id: NISTp10_-24
     type: nist
   base: 10
-  name: yocto
+  names:
+  - yocto
   power: -24
   symbol:
     latex: "y"
@@ -147,7 +158,8 @@ prefixes:
   - id: NISTp10_-21
     type: nist
   base: 10
-  name: zepto
+  names:
+  - zepto
   power: -21
   symbol:
     latex: z
@@ -160,7 +172,8 @@ prefixes:
   - id: NISTp10_-18
     type: nist
   base: 10
-  name: atto
+  names:
+  - atto
   power: -18
   symbol:
     latex: a
@@ -173,7 +186,8 @@ prefixes:
   - id: NISTp10_-15
     type: nist
   base: 10
-  name: femto
+  names:
+  - femto
   power: -15
   symbol:
     latex: f
@@ -186,7 +200,8 @@ prefixes:
   - id: NISTp10_-12
     type: nist
   base: 10
-  name: pico
+  names:
+  - pico
   power: -12
   symbol:
     latex: p
@@ -199,7 +214,8 @@ prefixes:
   - id: NISTp10_-9
     type: nist
   base: 10
-  name: nano
+  names:
+  - nano
   power: -9
   symbol:
     latex: "n"
@@ -212,7 +228,8 @@ prefixes:
   - id: NISTp10_-6
     type: nist
   base: 10
-  name: micro
+  names:
+  - micro
   power: -6
   symbol:
     latex: "$mu$"
@@ -225,7 +242,8 @@ prefixes:
   - id: NISTp10_-3
     type: nist
   base: 10
-  name: milli
+  names:
+  - milli
   power: -3
   symbol:
     latex: m
@@ -238,7 +256,8 @@ prefixes:
   - id: NISTp10_-2
     type: nist
   base: 10
-  name: centi
+  names:
+  - centi
   power: -2
   symbol:
     latex: c
@@ -251,7 +270,8 @@ prefixes:
   - id: NISTp10_-1
     type: nist
   base: 10
-  name: deci
+  names:
+  - deci
   power: -1
   symbol:
     latex: d
@@ -264,20 +284,22 @@ prefixes:
   - id: NISTp10_0
     type: nist
   base: 10
-  name: one
+  names:
+  - one
   power: 0
   symbol:
-    latex: "1"
-    unicode: "1"
-    ascii: "1"
-    html: "1"
+    latex: '1'
+    unicode: '1'
+    ascii: '1'
+    html: '1'
     id: unity
     mathml: "<mn>1</mn>"
 - identifiers:
   - id: NISTp10_1
     type: nist
   base: 10
-  name: deka
+  names:
+  - deka
   power: 1
   symbol:
     latex: da
@@ -290,7 +312,8 @@ prefixes:
   - id: NISTp10_2
     type: nist
   base: 10
-  name: hecto
+  names:
+  - hecto
   power: 2
   symbol:
     latex: h
@@ -303,7 +326,8 @@ prefixes:
   - id: NISTp10_3
     type: nist
   base: 10
-  name: kilo
+  names:
+  - kilo
   power: 3
   symbol:
     latex: k
@@ -316,7 +340,8 @@ prefixes:
   - id: NISTp10_6
     type: nist
   base: 10
-  name: mega
+  names:
+  - mega
   power: 6
   symbol:
     latex: M
@@ -329,7 +354,8 @@ prefixes:
   - id: NISTp10_9
     type: nist
   base: 10
-  name: giga
+  names:
+  - giga
   power: 9
   symbol:
     latex: G
@@ -342,7 +368,8 @@ prefixes:
   - id: NISTp10_12
     type: nist
   base: 10
-  name: tera
+  names:
+  - tera
   power: 12
   symbol:
     latex: T
@@ -355,7 +382,8 @@ prefixes:
   - id: NISTp10_15
     type: nist
   base: 10
-  name: peta
+  names:
+  - peta
   power: 15
   symbol:
     latex: P
@@ -368,7 +396,8 @@ prefixes:
   - id: NISTp10_18
     type: nist
   base: 10
-  name: exa
+  names:
+  - exa
   power: 18
   symbol:
     latex: E
@@ -381,7 +410,8 @@ prefixes:
   - id: NISTp10_21
     type: nist
   base: 10
-  name: zetta
+  names:
+  - zetta
   power: 21
   symbol:
     latex: Z
@@ -394,20 +424,22 @@ prefixes:
   - id: NISTp10_24
     type: nist
   base: 10
-  name: yotta
+  names:
+  - yotta
   power: 24
   symbol:
-    latex: "Y"
-    unicode: "Y"
-    ascii: "Y"
-    html: "Y"
+    latex: Y
+    unicode: Y
+    ascii: Y
+    html: Y
     id: yotta
     mathml: "<mi>Y</mi>"
 - identifiers:
   - id: NISTp10_27
     type: nist
   base: 10
-  name: ronna
+  names:
+  - ronna
   power: 27
   symbol:
     latex: R
@@ -420,7 +452,8 @@ prefixes:
   - id: NISTp10_30
     type: nist
   base: 10
-  name: quetta
+  names:
+  - quetta
   power: 30
   symbol:
     latex: Q

@@ -190,7 +190,8 @@ A prefix object in `prefixes.yaml` typically has the following structure:
   - id: prefix_id
     type: type_identifier
   base: base
-  name: prefix_name
+  names:
+  - prefix_name
   power: power
   symbol:
     id: symbol_id
@@ -209,7 +210,8 @@ For example:
   - id: NISTp10_2
     type: nist
   base: 10
-  name: hecto
+  names:
+  - hecto
   power: 2
   symbol:
     latex: h
@@ -222,7 +224,8 @@ For example:
   - id: NISTp10_1
     type: nist
   base: 10
-  name: deka
+  names:
+  - deka
   power: 1
   symbol:
     latex: da
@@ -253,8 +256,8 @@ A quantity object in `quantities.yaml` typically has the following structure:
 - identifiers:
   - id: quantity_id
     type: type_identifier
-  quantity_name:
-  - quantity_name
+  names:
+  - names
   quantity_type: {base|derived}
   short: short_name
   unit_references:
@@ -272,7 +275,7 @@ For example:
 - identifiers:
   - id: NISTq8
     type: nist
-  quantity_name:
+  names:
   - area
   quantity_type: base
   unit_references:
@@ -302,7 +305,7 @@ For example:
 - identifiers:
   - id: NISTq166
     type: nist
-  quantity_name:
+  names:
   - electric potential
   quantity_type: derived
   unit_references:
@@ -316,7 +319,7 @@ For example:
 - identifiers:
   - id: NISTq7
     type: nist
-  quantity_name:
+  names:
   - luminous intensity
   quantity_type: base
   short: luminous_intensity
@@ -343,8 +346,8 @@ A unit object in `units.yaml` typically has the following structure:
   quantity_references:
   - id: quantity_id
     type: type_identifier
-  unit_name:
-  - unit_name
+  names:
+  - names
   root: true|false
   short: unit_short_name
   symbols:
@@ -397,7 +400,7 @@ For example:
   quantity_references:
   - id: NISTq5
     type: nist
-  unit_name:
+  names:
   - kelvin
   root: true
   short: kelvin

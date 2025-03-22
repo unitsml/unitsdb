@@ -3,7 +3,7 @@ quantities:
 - identifiers:
   - id: NISTq1
     type: nist
-  quantity_name:
+  names:
   - length
   quantity_type: base
   short: length
@@ -76,7 +76,7 @@ quantities:
 - identifiers:
   - id: NISTq2
     type: nist
-  quantity_name:
+  names:
   - mass
   quantity_type: base
   short: mass
@@ -137,7 +137,7 @@ quantities:
 - identifiers:
   - id: NISTq3
     type: nist
-  quantity_name:
+  names:
   - time
   - duration
   quantity_type: base
@@ -177,7 +177,7 @@ quantities:
 - identifiers:
   - id: NISTq4
     type: nist
-  quantity_name:
+  names:
   - electric current
   quantity_type: base
   short: electric_current
@@ -196,7 +196,7 @@ quantities:
 - identifiers:
   - id: NISTq5
     type: nist
-  quantity_name:
+  names:
   - thermodynamic temperature
   quantity_type: base
   short: temperature
@@ -211,7 +211,7 @@ quantities:
 - identifiers:
   - id: NISTq6
     type: nist
-  quantity_name:
+  names:
   - amount of substance
   quantity_type: base
   short: substance_amount
@@ -226,7 +226,7 @@ quantities:
 - identifiers:
   - id: NISTq7
     type: nist
-  quantity_name:
+  names:
   - luminous intensity
   quantity_type: base
   short: luminous_intensity
@@ -239,7 +239,7 @@ quantities:
 - identifiers:
   - id: NISTq8
     type: nist
-  quantity_name:
+  names:
   - area
   quantity_type: base
   unit_references:
@@ -269,7 +269,7 @@ quantities:
 - identifiers:
   - id: NISTq9
     type: nist
-  quantity_name:
+  names:
   - plane angle
   - angle
   quantity_type: derived
@@ -292,7 +292,7 @@ quantities:
 - identifiers:
   - id: NISTq10
     type: nist
-  quantity_name:
+  names:
   - volume
   quantity_type: derived
   unit_references:
@@ -368,7 +368,7 @@ quantities:
 - identifiers:
   - id: NISTq11
     type: nist
-  quantity_name:
+  names:
   - solid angle
   quantity_type: derived
   unit_references:
@@ -382,7 +382,7 @@ quantities:
 - identifiers:
   - id: NISTq12
     type: nist
-  quantity_name:
+  names:
   - velocity
   - speed
   quantity_type: derived
@@ -415,7 +415,7 @@ quantities:
 - identifiers:
   - id: NISTq13
     type: nist
-  quantity_name:
+  names:
   - force
   quantity_type: derived
   unit_references:
@@ -449,7 +449,7 @@ quantities:
 - identifiers:
   - id: NISTq14
     type: nist
-  quantity_name:
+  names:
   - magnetic flux density
   quantity_type: derived
   unit_references:
@@ -469,7 +469,7 @@ quantities:
 - identifiers:
   - id: NISTq15
     type: nist
-  quantity_name:
+  names:
   - pressure
   quantity_type: derived
   unit_references:
@@ -535,7 +535,7 @@ quantities:
 - identifiers:
   - id: NISTq16
     type: nist
-  quantity_name:
+  names:
   - stress
   quantity_type: derived
   unit_references:
@@ -595,7 +595,7 @@ quantities:
 - identifiers:
   - id: NISTq17
     type: nist
-  quantity_name:
+  names:
   - energy
   quantity_type: derived
   unit_references:
@@ -641,7 +641,7 @@ quantities:
 - identifiers:
   - id: NISTq18
     type: nist
-  quantity_name:
+  names:
   - work
   quantity_type: derived
   unit_references:
@@ -677,7 +677,7 @@ quantities:
 - identifiers:
   - id: NISTq19
     type: nist
-  quantity_name:
+  names:
   - amount of heat
   - heat
   quantity_type: derived
@@ -722,7 +722,7 @@ quantities:
 - identifiers:
   - id: NISTq20
     type: nist
-  quantity_name:
+  names:
   - power
   quantity_type: derived
   unit_references:
@@ -762,7 +762,7 @@ quantities:
 - identifiers:
   - id: NISTq21
     type: nist
-  quantity_name:
+  names:
   - radiant flux
   quantity_type: derived
   unit_references:
@@ -782,7 +782,7 @@ quantities:
 - identifiers:
   - id: NISTq22
     type: nist
-  quantity_name:
+  names:
   - electric charge
   quantity_type: derived
   unit_references:
@@ -802,7 +802,7 @@ quantities:
 - identifiers:
   - id: NISTq23
     type: nist
-  quantity_name:
+  names:
   - amount of electricity
   quantity_type: derived
   unit_references:
@@ -820,7 +820,7 @@ quantities:
 - identifiers:
   - id: NISTq24
     type: nist
-  quantity_name:
+  names:
   - electric potential difference
   quantity_type: derived
   unit_references:
@@ -838,7 +838,7 @@ quantities:
 - identifiers:
   - id: NISTq25
     type: nist
-  quantity_name:
+  names:
   - potential difference
   quantity_type: derived
   unit_references:
@@ -852,7 +852,7 @@ quantities:
 - identifiers:
   - id: NISTq26
     type: nist
-  quantity_name:
+  names:
   - electromotive force
   quantity_type: derived
   unit_references:
@@ -870,7 +870,7 @@ quantities:
 - identifiers:
   - id: NISTq27
     type: nist
-  quantity_name:
+  names:
   - capacitance
   quantity_type: derived
   unit_references:
@@ -884,7 +884,7 @@ quantities:
 - identifiers:
   - id: NISTq28
     type: nist
-  quantity_name:
+  names:
   - electric resistance
   quantity_type: derived
   unit_references:
@@ -900,7 +900,7 @@ quantities:
 - identifiers:
   - id: NISTq29
     type: nist
-  quantity_name:
+  names:
   - electric conductance
   quantity_type: derived
   unit_references:
@@ -916,7 +916,7 @@ quantities:
 - identifiers:
   - id: NISTq30
     type: nist
-  quantity_name:
+  names:
   - magnetic flux
   quantity_type: derived
   unit_references:
@@ -932,7 +932,7 @@ quantities:
 - identifiers:
   - id: NISTq31
     type: nist
-  quantity_name:
+  names:
   - surface density
   - areic mass
   quantity_type: derived
@@ -945,7 +945,7 @@ quantities:
 - identifiers:
   - id: NISTq32
     type: nist
-  quantity_name:
+  names:
   - inductance
   quantity_type: derived
   unit_references:
@@ -959,7 +959,7 @@ quantities:
 - identifiers:
   - id: NISTq33
     type: nist
-  quantity_name:
+  names:
   - mass concentration
   quantity_type: derived
   unit_references:
@@ -971,7 +971,7 @@ quantities:
 - identifiers:
   - id: NISTq34
     type: nist
-  quantity_name:
+  names:
   - Celsius temperature
   quantity_type: derived
   unit_references:
@@ -983,7 +983,7 @@ quantities:
 - identifiers:
   - id: NISTq35
     type: nist
-  quantity_name:
+  names:
   - activity referred to a radionuclide
   quantity_type: derived
   unit_references:
@@ -997,7 +997,7 @@ quantities:
 - identifiers:
   - id: NISTq36
     type: nist
-  quantity_name:
+  names:
   - absorbed dose
   quantity_type: derived
   unit_references:
@@ -1011,7 +1011,7 @@ quantities:
 - identifiers:
   - id: NISTq37
     type: nist
-  quantity_name:
+  names:
   - specific energy imparted
   quantity_type: derived
   unit_references:
@@ -1023,7 +1023,7 @@ quantities:
 - identifiers:
   - id: NISTq38
     type: nist
-  quantity_name:
+  names:
   - kerma
   quantity_type: derived
   unit_references:
@@ -1035,7 +1035,7 @@ quantities:
 - identifiers:
   - id: NISTq39
     type: nist
-  quantity_name:
+  names:
   - dose equivalent
   quantity_type: derived
   unit_references:
@@ -1049,7 +1049,7 @@ quantities:
 - identifiers:
   - id: NISTq40
     type: nist
-  quantity_name:
+  names:
   - ambient dose equivalent
   quantity_type: derived
   dimension_reference:
@@ -1058,7 +1058,7 @@ quantities:
 - identifiers:
   - id: NISTq41
     type: nist
-  quantity_name:
+  names:
   - directional dose equivalent
   quantity_type: derived
   dimension_reference:
@@ -1067,7 +1067,7 @@ quantities:
 - identifiers:
   - id: NISTq42
     type: nist
-  quantity_name:
+  names:
   - personal dose equivalent
   quantity_type: derived
   dimension_reference:
@@ -1076,7 +1076,7 @@ quantities:
 - identifiers:
   - id: NISTq43
     type: nist
-  quantity_name:
+  names:
   - organ dose equivalent
   quantity_type: derived
   dimension_reference:
@@ -1085,7 +1085,7 @@ quantities:
 - identifiers:
   - id: NISTq44
     type: nist
-  quantity_name:
+  names:
   - catalytic activity
   quantity_type: derived
   unit_references:
@@ -1097,7 +1097,7 @@ quantities:
 - identifiers:
   - id: NISTq45
     type: nist
-  quantity_name:
+  names:
   - frequency
   quantity_type: derived
   unit_references:
@@ -1109,7 +1109,7 @@ quantities:
 - identifiers:
   - id: NISTq46
     type: nist
-  quantity_name:
+  names:
   - luminous flux
   quantity_type: derived
   unit_references:
@@ -1121,7 +1121,7 @@ quantities:
 - identifiers:
   - id: NISTq47
     type: nist
-  quantity_name:
+  names:
   - illuminance
   quantity_type: derived
   unit_references:
@@ -1137,7 +1137,7 @@ quantities:
 - identifiers:
   - id: NISTq48
     type: nist
-  quantity_name:
+  names:
   - distance
   quantity_type: base
   unit_references:
@@ -1171,7 +1171,7 @@ quantities:
 - identifiers:
   - id: NISTq49
     type: nist
-  quantity_name:
+  names:
   - acceleration
   quantity_type: derived
   unit_references:
@@ -1187,7 +1187,7 @@ quantities:
 - identifiers:
   - id: NISTq50
     type: nist
-  quantity_name:
+  names:
   - wavenumber
   - repetency
   quantity_type: derived
@@ -1202,7 +1202,7 @@ quantities:
 - identifiers:
   - id: NISTq51
     type: nist
-  quantity_name:
+  names:
   - density
   - mass density
   quantity_type: derived
@@ -1223,7 +1223,7 @@ quantities:
 - identifiers:
   - id: NISTq52
     type: nist
-  quantity_name:
+  names:
   - specific volume
   - massic volume
   quantity_type: derived
@@ -1236,7 +1236,7 @@ quantities:
 - identifiers:
   - id: NISTq53
     type: nist
-  quantity_name:
+  names:
   - current density
   quantity_type: derived
   unit_references:
@@ -1248,7 +1248,7 @@ quantities:
 - identifiers:
   - id: NISTq54
     type: nist
-  quantity_name:
+  names:
   - magnetic field strength
   quantity_type: derived
   unit_references:
@@ -1260,7 +1260,7 @@ quantities:
 - identifiers:
   - id: NISTq55
     type: nist
-  quantity_name:
+  names:
   - amount concentration
   quantity_type: derived
   unit_references:
@@ -1274,7 +1274,7 @@ quantities:
 - identifiers:
   - id: NISTq56
     type: nist
-  quantity_name:
+  names:
   - luminance
   quantity_type: derived
   unit_references:
@@ -1292,7 +1292,7 @@ quantities:
 - identifiers:
   - id: NISTq57
     type: nist
-  quantity_name:
+  names:
   - angular velocity
   quantity_type: derived
   unit_references:
@@ -1304,7 +1304,7 @@ quantities:
 - identifiers:
   - id: NISTq58
     type: nist
-  quantity_name:
+  names:
   - angular acceleration
   quantity_type: derived
   unit_references:
@@ -1316,7 +1316,7 @@ quantities:
 - identifiers:
   - id: NISTq59
     type: nist
-  quantity_name:
+  names:
   - dynamic viscosity
   quantity_type: derived
   unit_references:
@@ -1332,7 +1332,7 @@ quantities:
 - identifiers:
   - id: NISTq60
     type: nist
-  quantity_name:
+  names:
   - moment of force
   quantity_type: derived
   unit_references:
@@ -1350,7 +1350,7 @@ quantities:
 - identifiers:
   - id: NISTq61
     type: nist
-  quantity_name:
+  names:
   - surface tension
   quantity_type: derived
   unit_references:
@@ -1362,7 +1362,7 @@ quantities:
 - identifiers:
   - id: NISTq62
     type: nist
-  quantity_name:
+  names:
   - heat flux density
   quantity_type: derived
   unit_references:
@@ -1374,7 +1374,7 @@ quantities:
 - identifiers:
   - id: NISTq63
     type: nist
-  quantity_name:
+  names:
   - heat capacity
   quantity_type: derived
   unit_references:
@@ -1386,7 +1386,7 @@ quantities:
 - identifiers:
   - id: NISTq64
     type: nist
-  quantity_name:
+  names:
   - specific heat capacity
   quantity_type: derived
   unit_references:
@@ -1398,7 +1398,7 @@ quantities:
 - identifiers:
   - id: NISTq65
     type: nist
-  quantity_name:
+  names:
   - specific energy
   quantity_type: derived
   unit_references:
@@ -1410,7 +1410,7 @@ quantities:
 - identifiers:
   - id: NISTq66
     type: nist
-  quantity_name:
+  names:
   - thermal conductivity
   quantity_type: derived
   unit_references:
@@ -1422,7 +1422,7 @@ quantities:
 - identifiers:
   - id: NISTq67
     type: nist
-  quantity_name:
+  names:
   - energy density
   quantity_type: derived
   unit_references:
@@ -1434,7 +1434,7 @@ quantities:
 - identifiers:
   - id: NISTq68
     type: nist
-  quantity_name:
+  names:
   - electric field strength
   quantity_type: derived
   unit_references:
@@ -1448,7 +1448,7 @@ quantities:
 - identifiers:
   - id: NISTq69
     type: nist
-  quantity_name:
+  names:
   - electric charge density
   quantity_type: derived
   unit_references:
@@ -1462,7 +1462,7 @@ quantities:
 - identifiers:
   - id: NISTq70
     type: nist
-  quantity_name:
+  names:
   - electric flux density
   quantity_type: derived
   dimension_reference:
@@ -1471,7 +1471,7 @@ quantities:
 - identifiers:
   - id: NISTq71
     type: nist
-  quantity_name:
+  names:
   - permittivity
   quantity_type: derived
   unit_references:
@@ -1485,7 +1485,7 @@ quantities:
 - identifiers:
   - id: NISTq72
     type: nist
-  quantity_name:
+  names:
   - permeability
   quantity_type: derived
   unit_references:
@@ -1499,7 +1499,7 @@ quantities:
 - identifiers:
   - id: NISTq73
     type: nist
-  quantity_name:
+  names:
   - molar energy
   quantity_type: derived
   unit_references:
@@ -1511,7 +1511,7 @@ quantities:
 - identifiers:
   - id: NISTq74
     type: nist
-  quantity_name:
+  names:
   - molar entropy
   quantity_type: derived
   unit_references:
@@ -1523,7 +1523,7 @@ quantities:
 - identifiers:
   - id: NISTq75
     type: nist
-  quantity_name:
+  names:
   - exposure (x and gamma rays)
   quantity_type: derived
   unit_references:
@@ -1537,7 +1537,7 @@ quantities:
 - identifiers:
   - id: NISTq76
     type: nist
-  quantity_name:
+  names:
   - absorbed dose rate
   quantity_type: derived
   unit_references:
@@ -1549,7 +1549,7 @@ quantities:
 - identifiers:
   - id: NISTq77
     type: nist
-  quantity_name:
+  names:
   - potential energy
   quantity_type: derived
   unit_references:
@@ -1583,7 +1583,7 @@ quantities:
 - identifiers:
   - id: NISTq78
     type: nist
-  quantity_name:
+  names:
   - irradiance
   quantity_type: derived
   unit_references:
@@ -1595,7 +1595,7 @@ quantities:
 - identifiers:
   - id: NISTq79
     type: nist
-  quantity_name:
+  names:
   - entropy
   quantity_type: derived
   unit_references:
@@ -1607,7 +1607,7 @@ quantities:
 - identifiers:
   - id: NISTq80
     type: nist
-  quantity_name:
+  names:
   - specific entropy
   quantity_type: derived
   unit_references:
@@ -1619,7 +1619,7 @@ quantities:
 - identifiers:
   - id: NISTq81
     type: nist
-  quantity_name:
+  names:
   - surface charge density
   quantity_type: derived
   unit_references:
@@ -1631,7 +1631,7 @@ quantities:
 - identifiers:
   - id: NISTq82
     type: nist
-  quantity_name:
+  names:
   - electric displacement
   quantity_type: derived
   unit_references:
@@ -1643,7 +1643,7 @@ quantities:
 - identifiers:
   - id: NISTq83
     type: nist
-  quantity_name:
+  names:
   - molar heat capacity
   quantity_type: derived
   unit_references:
@@ -1655,7 +1655,7 @@ quantities:
 - identifiers:
   - id: NISTq84
     type: nist
-  quantity_name:
+  names:
   - catalytic activity concentration
   quantity_type: derived
   unit_references:
@@ -1667,7 +1667,7 @@ quantities:
 - identifiers:
   - id: NISTq85
     type: nist
-  quantity_name:
+  names:
   - kinematic viscosity
   quantity_type: derived
   unit_references:
@@ -1685,7 +1685,7 @@ quantities:
 - identifiers:
   - id: NISTq87
     type: nist
-  quantity_name:
+  names:
   - magnetic field
   quantity_type: derived
   unit_references:
@@ -1697,7 +1697,7 @@ quantities:
 - identifiers:
   - id: NISTq88
     type: nist
-  quantity_name:
+  names:
   - radiant intensity
   quantity_type: derived
   unit_references:
@@ -1709,7 +1709,7 @@ quantities:
 - identifiers:
   - id: NISTq89
     type: nist
-  quantity_name:
+  names:
   - radiance
   quantity_type: derived
   unit_references:
@@ -1721,7 +1721,7 @@ quantities:
 - identifiers:
   - id: NISTq90
     type: nist
-  quantity_name:
+  names:
   - logarithmic ratio quantities
   quantity_type: derived
   unit_references:
@@ -1737,7 +1737,7 @@ quantities:
 - identifiers:
   - id: NISTq91
     type: nist
-  quantity_name:
+  names:
   - fluidity
   - reciprocal of dynamic viscosity
   quantity_type: derived
@@ -1750,7 +1750,7 @@ quantities:
 - identifiers:
   - id: NISTq92
     type: nist
-  quantity_name:
+  names:
   - hydrodynamic permeability
   quantity_type: derived
   unit_references:
@@ -1762,7 +1762,7 @@ quantities:
 - identifiers:
   - id: NISTq93
     type: nist
-  quantity_name:
+  names:
   - refractive index
   quantity_type: derived
   unit_references:
@@ -1774,7 +1774,7 @@ quantities:
 - identifiers:
   - id: NISTq94
     type: nist
-  quantity_name:
+  names:
   - relative permeability
   quantity_type: derived
   unit_references:
@@ -1786,7 +1786,7 @@ quantities:
 - identifiers:
   - id: NISTq95
     type: nist
-  quantity_name:
+  names:
   - breadth
   quantity_type: derived
   unit_references:
@@ -1798,7 +1798,7 @@ quantities:
 - identifiers:
   - id: NISTq96
     type: nist
-  quantity_name:
+  names:
   - height
   quantity_type: derived
   unit_references:
@@ -1810,7 +1810,7 @@ quantities:
 - identifiers:
   - id: NISTq97
     type: nist
-  quantity_name:
+  names:
   - thickness
   quantity_type: derived
   unit_references:
@@ -1822,7 +1822,7 @@ quantities:
 - identifiers:
   - id: NISTq98
     type: nist
-  quantity_name:
+  names:
   - radius
   quantity_type: derived
   unit_references:
@@ -1834,7 +1834,7 @@ quantities:
 - identifiers:
   - id: NISTq99
     type: nist
-  quantity_name:
+  names:
   - radial distance
   quantity_type: derived
   unit_references:
@@ -1846,7 +1846,7 @@ quantities:
 - identifiers:
   - id: NISTq100
     type: nist
-  quantity_name:
+  names:
   - diameter
   quantity_type: derived
   unit_references:
@@ -1858,7 +1858,7 @@ quantities:
 - identifiers:
   - id: NISTq101
     type: nist
-  quantity_name:
+  names:
   - length of path
   quantity_type: derived
   unit_references:
@@ -1870,7 +1870,7 @@ quantities:
 - identifiers:
   - id: NISTq102
     type: nist
-  quantity_name:
+  names:
   - cartesian coordinates
   quantity_type: derived
   unit_references:
@@ -1882,7 +1882,7 @@ quantities:
 - identifiers:
   - id: NISTq103
     type: nist
-  quantity_name:
+  names:
   - position vector
   quantity_type: derived
   unit_references:
@@ -1894,7 +1894,7 @@ quantities:
 - identifiers:
   - id: NISTq104
     type: nist
-  quantity_name:
+  names:
   - displacement
   quantity_type: derived
   unit_references:
@@ -1906,7 +1906,7 @@ quantities:
 - identifiers:
   - id: NISTq105
     type: nist
-  quantity_name:
+  names:
   - radius of curvature
   quantity_type: derived
   unit_references:
@@ -1918,7 +1918,7 @@ quantities:
 - identifiers:
   - id: NISTq106
     type: nist
-  quantity_name:
+  names:
   - curvature
   quantity_type: derived
   unit_references:
@@ -1930,7 +1930,7 @@ quantities:
 - identifiers:
   - id: NISTq107
     type: nist
-  quantity_name:
+  names:
   - speed of propagation of waves
   quantity_type: derived
   unit_references:
@@ -1944,7 +1944,7 @@ quantities:
 - identifiers:
   - id: NISTq108
     type: nist
-  quantity_name:
+  names:
   - acceleration of free fall
   quantity_type: derived
   unit_references:
@@ -1956,7 +1956,7 @@ quantities:
 - identifiers:
   - id: NISTq109
     type: nist
-  quantity_name:
+  names:
   - period duration
   - period
   quantity_type: derived
@@ -1969,7 +1969,7 @@ quantities:
 - identifiers:
   - id: NISTq110
     type: nist
-  quantity_name:
+  names:
   - time constant
   quantity_type: derived
   unit_references:
@@ -1981,7 +1981,7 @@ quantities:
 - identifiers:
   - id: NISTq111
     type: nist
-  quantity_name:
+  names:
   - rotation
   quantity_type: derived
   unit_references:
@@ -1993,7 +1993,7 @@ quantities:
 - identifiers:
   - id: NISTq112
     type: nist
-  quantity_name:
+  names:
   - rotational frequency
   quantity_type: derived
   unit_references:
@@ -2005,7 +2005,7 @@ quantities:
 - identifiers:
   - id: NISTq113
     type: nist
-  quantity_name:
+  names:
   - angular frequency
   quantity_type: derived
   unit_references:
@@ -2019,7 +2019,7 @@ quantities:
 - identifiers:
   - id: NISTq114
     type: nist
-  quantity_name:
+  names:
   - wavelength
   quantity_type: derived
   unit_references:
@@ -2031,7 +2031,7 @@ quantities:
 - identifiers:
   - id: NISTq115
     type: nist
-  quantity_name:
+  names:
   - angular wavenumber
   - angular repetency
   quantity_type: derived
@@ -2046,7 +2046,7 @@ quantities:
 - identifiers:
   - id: NISTq116
     type: nist
-  quantity_name:
+  names:
   - phase velocity
   - phase speed
   quantity_type: derived
@@ -2059,7 +2059,7 @@ quantities:
 - identifiers:
   - id: NISTq117
     type: nist
-  quantity_name:
+  names:
   - group velocity
   - group speed
   quantity_type: derived
@@ -2072,7 +2072,7 @@ quantities:
 - identifiers:
   - id: NISTq118
     type: nist
-  quantity_name:
+  names:
   - level of a field quantity
   quantity_type: derived
   unit_references:
@@ -2086,7 +2086,7 @@ quantities:
 - identifiers:
   - id: NISTq119
     type: nist
-  quantity_name:
+  names:
   - level of a power quantity
   quantity_type: derived
   unit_references:
@@ -2100,7 +2100,7 @@ quantities:
 - identifiers:
   - id: NISTq120
     type: nist
-  quantity_name:
+  names:
   - damping coefficient
   quantity_type: derived
   unit_references:
@@ -2114,7 +2114,7 @@ quantities:
 - identifiers:
   - id: NISTq121
     type: nist
-  quantity_name:
+  names:
   - logarithmic decrement
   quantity_type: derived
   unit_references:
@@ -2128,7 +2128,7 @@ quantities:
 - identifiers:
   - id: NISTq122
     type: nist
-  quantity_name:
+  names:
   - attenuation coefficient
   quantity_type: derived
   unit_references:
@@ -2140,7 +2140,7 @@ quantities:
 - identifiers:
   - id: NISTq123
     type: nist
-  quantity_name:
+  names:
   - phase coefficient
   quantity_type: derived
   unit_references:
@@ -2152,7 +2152,7 @@ quantities:
 - identifiers:
   - id: NISTq124
     type: nist
-  quantity_name:
+  names:
   - propagation coefficient
   quantity_type: derived
   unit_references:
@@ -2164,7 +2164,7 @@ quantities:
 - identifiers:
   - id: NISTq125
     type: nist
-  quantity_name:
+  names:
   - relative mass density
   - relative density
   quantity_type: derived
@@ -2177,7 +2177,7 @@ quantities:
 - identifiers:
   - id: NISTq126
     type: nist
-  quantity_name:
+  names:
   - linear density
   - lineic mass
   quantity_type: derived
@@ -2192,7 +2192,7 @@ quantities:
 - identifiers:
   - id: NISTq127
     type: nist
-  quantity_name:
+  names:
   - mass moment of inertia
   - moment of inertia
   quantity_type: derived
@@ -2205,7 +2205,7 @@ quantities:
 - identifiers:
   - id: NISTq128
     type: nist
-  quantity_name:
+  names:
   - weight
   quantity_type: derived
   unit_references:
@@ -2225,7 +2225,7 @@ quantities:
 - identifiers:
   - id: NISTq129
     type: nist
-  quantity_name:
+  names:
   - impulse
   quantity_type: derived
   unit_references:
@@ -2237,7 +2237,7 @@ quantities:
 - identifiers:
   - id: NISTq130
     type: nist
-  quantity_name:
+  names:
   - gravitational constant
   quantity_type: derived
   unit_references:
@@ -2249,7 +2249,7 @@ quantities:
 - identifiers:
   - id: NISTq131
     type: nist
-  quantity_name:
+  names:
   - momentum
   quantity_type: derived
   unit_references:
@@ -2267,7 +2267,7 @@ quantities:
 - identifiers:
   - id: NISTq132
     type: nist
-  quantity_name:
+  names:
   - moment of momentum
   - angular momentum
   quantity_type: derived
@@ -2280,7 +2280,7 @@ quantities:
 - identifiers:
   - id: NISTq133
     type: nist
-  quantity_name:
+  names:
   - angular impulse
   quantity_type: derived
   unit_references:
@@ -2292,7 +2292,7 @@ quantities:
 - identifiers:
   - id: NISTq134
     type: nist
-  quantity_name:
+  names:
   - normal stress
   quantity_type: derived
   unit_references:
@@ -2304,7 +2304,7 @@ quantities:
 - identifiers:
   - id: NISTq135
     type: nist
-  quantity_name:
+  names:
   - shear stress
   quantity_type: derived
   unit_references:
@@ -2316,7 +2316,7 @@ quantities:
 - identifiers:
   - id: NISTq136
     type: nist
-  quantity_name:
+  names:
   - linear strain
   quantity_type: derived
   unit_references:
@@ -2328,7 +2328,7 @@ quantities:
 - identifiers:
   - id: NISTq137
     type: nist
-  quantity_name:
+  names:
   - shear strain
   quantity_type: derived
   unit_references:
@@ -2340,7 +2340,7 @@ quantities:
 - identifiers:
   - id: NISTq138
     type: nist
-  quantity_name:
+  names:
   - volume strain
   quantity_type: derived
   unit_references:
@@ -2352,7 +2352,7 @@ quantities:
 - identifiers:
   - id: NISTq139
     type: nist
-  quantity_name:
+  names:
   - compressibility
   quantity_type: derived
   unit_references:
@@ -2364,7 +2364,7 @@ quantities:
 - identifiers:
   - id: NISTq140
     type: nist
-  quantity_name:
+  names:
   - Poisson number
   quantity_type: derived
   unit_references:
@@ -2376,7 +2376,7 @@ quantities:
 - identifiers:
   - id: NISTq141
     type: nist
-  quantity_name:
+  names:
   - modulus of elasticity
   quantity_type: derived
   unit_references:
@@ -2388,7 +2388,7 @@ quantities:
 - identifiers:
   - id: NISTq142
     type: nist
-  quantity_name:
+  names:
   - modulus of rigidity
   - shear modulus
   quantity_type: derived
@@ -2401,7 +2401,7 @@ quantities:
 - identifiers:
   - id: NISTq143
     type: nist
-  quantity_name:
+  names:
   - modulus of compression
   - bulk modulus
   quantity_type: derived
@@ -2414,7 +2414,7 @@ quantities:
 - identifiers:
   - id: NISTq144
     type: nist
-  quantity_name:
+  names:
   - second axial moment of area
   quantity_type: derived
   unit_references:
@@ -2426,7 +2426,7 @@ quantities:
 - identifiers:
   - id: NISTq145
     type: nist
-  quantity_name:
+  names:
   - second polar moment of area
   quantity_type: derived
   unit_references:
@@ -2438,7 +2438,7 @@ quantities:
 - identifiers:
   - id: NISTq146
     type: nist
-  quantity_name:
+  names:
   - section modulus
   quantity_type: derived
   unit_references:
@@ -2452,7 +2452,7 @@ quantities:
 - identifiers:
   - id: NISTq147
     type: nist
-  quantity_name:
+  names:
   - dynamic friction factor
   quantity_type: derived
   unit_references:
@@ -2464,7 +2464,7 @@ quantities:
 - identifiers:
   - id: NISTq150
     type: nist
-  quantity_name:
+  names:
   - mass flow rate
   quantity_type: derived
   unit_references:
@@ -2476,7 +2476,7 @@ quantities:
 - identifiers:
   - id: NISTq151
     type: nist
-  quantity_name:
+  names:
   - volume flow rate
   quantity_type: derived
   unit_references:
@@ -2496,7 +2496,7 @@ quantities:
 - identifiers:
   - id: NISTq152
     type: nist
-  quantity_name:
+  names:
   - Lagrange function
   quantity_type: derived
   unit_references:
@@ -2508,7 +2508,7 @@ quantities:
 - identifiers:
   - id: NISTq153
     type: nist
-  quantity_name:
+  names:
   - Hamilton function
   quantity_type: derived
   unit_references:
@@ -2520,7 +2520,7 @@ quantities:
 - identifiers:
   - id: NISTq154
     type: nist
-  quantity_name:
+  names:
   - action
   quantity_type: derived
   unit_references:
@@ -2538,7 +2538,7 @@ quantities:
 - identifiers:
   - id: NISTq155
     type: nist
-  quantity_name:
+  names:
   - area moment of inertia
   - second moment of area
   quantity_type: derived
@@ -2551,7 +2551,7 @@ quantities:
 - identifiers:
   - id: NISTq156
     type: nist
-  quantity_name:
+  names:
   - linear expansion coefficient
   quantity_type: derived
   unit_references:
@@ -2563,7 +2563,7 @@ quantities:
 - identifiers:
   - id: NISTq157
     type: nist
-  quantity_name:
+  names:
   - cubic expansion coefficient
   quantity_type: derived
   unit_references:
@@ -2575,7 +2575,7 @@ quantities:
 - identifiers:
   - id: NISTq158
     type: nist
-  quantity_name:
+  names:
   - relative pressure coefficient
   quantity_type: derived
   unit_references:
@@ -2587,7 +2587,7 @@ quantities:
 - identifiers:
   - id: NISTq159
     type: nist
-  quantity_name:
+  names:
   - pressure coefficient
   quantity_type: derived
   unit_references:
@@ -2599,7 +2599,7 @@ quantities:
 - identifiers:
   - id: NISTq160
     type: nist
-  quantity_name:
+  names:
   - isothermal compressibility
   quantity_type: derived
   unit_references:
@@ -2611,7 +2611,7 @@ quantities:
 - identifiers:
   - id: NISTq161
     type: nist
-  quantity_name:
+  names:
   - magnetomotive force (Cardelli) (-SP811)
   quantity_type: derived
   unit_references:
@@ -2623,7 +2623,7 @@ quantities:
 - identifiers:
   - id: NISTq162
     type: nist
-  quantity_name:
+  names:
   - electric dipole moment
   quantity_type: derived
   unit_references:
@@ -2637,7 +2637,7 @@ quantities:
 - identifiers:
   - id: NISTq163
     type: nist
-  quantity_name:
+  names:
   - magnetizability
   quantity_type: derived
   unit_references:
@@ -2649,7 +2649,7 @@ quantities:
 - identifiers:
   - id: NISTq164
     type: nist
-  quantity_name:
+  names:
   - magnetic dipole moment
   quantity_type: derived
   unit_references:
@@ -2661,7 +2661,7 @@ quantities:
 - identifiers:
   - id: NISTq165
     type: nist
-  quantity_name:
+  names:
   - electric field gradient
   quantity_type: derived
   unit_references:
@@ -2673,7 +2673,7 @@ quantities:
 - identifiers:
   - id: NISTq166
     type: nist
-  quantity_name:
+  names:
   - electric potential
   quantity_type: derived
   unit_references:
@@ -2687,7 +2687,7 @@ quantities:
 - identifiers:
   - id: NISTq167
     type: nist
-  quantity_name:
+  names:
   - electric quadrupole moment
   quantity_type: derived
   unit_references:
@@ -2699,7 +2699,7 @@ quantities:
 - identifiers:
   - id: NISTq168
     type: nist
-  quantity_name:
+  names:
   - polarizability
   quantity_type: derived
   unit_references:
@@ -2711,7 +2711,7 @@ quantities:
 - identifiers:
   - id: NISTq169
     type: nist
-  quantity_name:
+  names:
   - electric capacitance
   quantity_type: derived
   unit_references:
@@ -2723,7 +2723,7 @@ quantities:
 - identifiers:
   - id: NISTq170
     type: nist
-  quantity_name:
+  names:
   - electric current intensity
   quantity_type: derived
   unit_references:
@@ -2735,7 +2735,7 @@ quantities:
 - identifiers:
   - id: NISTq171
     type: nist
-  quantity_name:
+  names:
   - electric inductance
   quantity_type: derived
   unit_references:
@@ -2747,7 +2747,7 @@ quantities:
 - identifiers:
   - id: NISTq172
     type: nist
-  quantity_name:
+  names:
   - 1st hyperpolarizability
   quantity_type: derived
   unit_references:
@@ -2759,7 +2759,7 @@ quantities:
 - identifiers:
   - id: NISTq173
     type: nist
-  quantity_name:
+  names:
   - 2nd hyperpolarizability
   quantity_type: derived
   unit_references:
@@ -2771,7 +2771,7 @@ quantities:
 - identifiers:
   - id: NISTq174
     type: nist
-  quantity_name:
+  names:
   - index of acidity
   quantity_type: derived
   unit_references:
@@ -2783,7 +2783,7 @@ quantities:
 - identifiers:
   - id: NISTq175
     type: nist
-  quantity_name:
+  names:
   - Fahrenheit temperature
   quantity_type: derived
   unit_references:
@@ -2795,7 +2795,7 @@ quantities:
 - identifiers:
   - id: NISTq176
     type: nist
-  quantity_name:
+  names:
   - mass divided by length
   quantity_type: derived
   unit_references:
@@ -2807,7 +2807,7 @@ quantities:
 - identifiers:
   - id: NISTq177
     type: nist
-  quantity_name:
+  names:
   - storage capacity
   - storage size
   quantity_type: derived
@@ -2822,7 +2822,7 @@ quantities:
 - identifiers:
   - id: NISTq179
     type: nist
-  quantity_name:
+  names:
   - molality of solute B
   quantity_type: derived
   unit_references:
@@ -2834,7 +2834,7 @@ quantities:
 - identifiers:
   - id: NISTq180
     type: nist
-  quantity_name:
+  names:
   - coefficient of heat transfer
   quantity_type: derived
   unit_references:
@@ -2846,7 +2846,7 @@ quantities:
 - identifiers:
   - id: NISTq181
     type: nist
-  quantity_name:
+  names:
   - surface coefficient of heat transfer
   quantity_type: derived
   unit_references:
@@ -2858,7 +2858,7 @@ quantities:
 - identifiers:
   - id: NISTq182
     type: nist
-  quantity_name:
+  names:
   - kinetic energy
   quantity_type: derived
   unit_references:
@@ -2892,7 +2892,7 @@ quantities:
 - identifiers:
   - id: NISTq183
     type: nist
-  quantity_name:
+  names:
   - mechanical energy
   quantity_type: derived
   unit_references:
@@ -2926,7 +2926,7 @@ quantities:
 - identifiers:
   - id: NISTq184
     type: nist
-  quantity_name:
+  names:
   - torque
   quantity_type: derived
   unit_references:
@@ -2944,7 +2944,7 @@ quantities:
 - identifiers:
   - id: NISTq185
     type: nist
-  quantity_name:
+  names:
   - bending moment of force
   quantity_type: derived
   unit_references:
@@ -2962,7 +2962,7 @@ quantities:
 - identifiers:
   - id: NISTq1000
     type: nist
-  quantity_name:
+  names:
   - mass fraction
   - mole fraction
   quantity_type: derived
@@ -2975,7 +2975,7 @@ quantities:
 - identifiers:
   - id: NISTq1001
     type: nist
-  quantity_name:
+  names:
   - apparent power
   quantity_type: derived
   unit_references:
@@ -2987,7 +2987,7 @@ quantities:
 - identifiers:
   - id: NISTq1002
     type: nist
-  quantity_name:
+  names:
   - nil
   quantity_type: derived
   unit_references:

@@ -32,7 +32,7 @@ units:
     type: nist
   - id: NISTq99
     type: nist
-  unit_name:
+  names:
   - meter
   root: true
   short: meter
@@ -56,7 +56,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - kilogram
   root: false
   root_units:
@@ -91,7 +91,7 @@ units:
     type: nist
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - second
   root: true
   short: second
@@ -126,7 +126,7 @@ units:
   quantity_references:
   - id: NISTq4
     type: nist
-  unit_name:
+  names:
   - ampere
   root: true
   short: ampere
@@ -149,7 +149,7 @@ units:
   quantity_references:
   - id: NISTq5
     type: nist
-  unit_name:
+  names:
   - kelvin
   root: true
   short: kelvin
@@ -178,7 +178,7 @@ units:
   quantity_references:
   - id: NISTq6
     type: nist
-  unit_name:
+  names:
   - mole
   root: true
   short: mole
@@ -201,7 +201,7 @@ units:
   quantity_references:
   - id: NISTq7
     type: nist
-  unit_name:
+  names:
   - candela
   root: true
   short: candela
@@ -226,7 +226,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - inch
   root: true
   short: inch
@@ -270,7 +270,7 @@ units:
     unit_reference:
       id: NISTu1
       type: nist
-  unit_name:
+  names:
   - radian
   root: true
   short: radian
@@ -302,7 +302,7 @@ units:
     unit_reference:
       id: NISTu1
       type: nist
-  unit_name:
+  names:
   - steradian
   root: true
   short: steradian
@@ -341,16 +341,16 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - newton
   root: true
   short: newton
   symbols:
   - latex: "\\ensuremath{\\mathrm{N}}"
-    unicode: "N"
-    ascii: "N"
-    html: "N"
-    id: "N"
+    unicode: N
+    ascii: N
+    html: N
+    id: N
     mathml: "<mi mathvariant='normal'>N</mi>"
   dimension_reference:
     id: NISTd12
@@ -392,7 +392,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - pascal
   root: true
   short: pascal
@@ -445,7 +445,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - joule
   root: true
   short: joule
@@ -486,7 +486,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - watt
   root: true
   short: watt
@@ -520,7 +520,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - coulomb
   root: true
   short: coulomb
@@ -565,7 +565,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - volt
   root: true
   short: volt
@@ -608,7 +608,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - farad
   root: true
   short: farad
@@ -651,7 +651,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - ohm
   root: true
   short: ohm
@@ -694,7 +694,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - siemens
   root: true
   short: siemens
@@ -737,7 +737,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - weber
   root: true
   short: weber
@@ -776,7 +776,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - tesla
   root: true
   short: tesla
@@ -819,7 +819,7 @@ units:
     unit_reference:
       id: NISTu4
       type: nist
-  unit_name:
+  names:
   - henry
   root: true
   short: henry
@@ -847,7 +847,7 @@ units:
     unit_reference:
       id: NISTu5
       type: nist
-  unit_name:
+  names:
   - degree Celsius
   root: true
   short: degree_Celsius
@@ -875,7 +875,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - becquerel
   root: true
   short: becquerel
@@ -900,7 +900,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - fermi
   root: false
   root_units:
@@ -931,7 +931,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - gram
   si_derived_bases:
   - power: -3
@@ -969,7 +969,7 @@ units:
     unit_reference:
       id: NISTu7
       type: nist
-  unit_name:
+  names:
   - gray
   root: true
   short: gray
@@ -1001,7 +1001,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - sievert
   root: true
   short: sievert
@@ -1033,7 +1033,7 @@ units:
     unit_reference:
       id: NISTu6
       type: nist
-  unit_name:
+  names:
   - katal
   root: true
   short: katal
@@ -1061,7 +1061,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - hertz
   root: true
   short: hertz
@@ -1089,7 +1089,7 @@ units:
     unit_reference:
       id: NISTu7
       type: nist
-  unit_name:
+  names:
   - lumen
   root: true
   short: lumen
@@ -1121,7 +1121,7 @@ units:
     unit_reference:
       id: NISTu7
       type: nist
-  unit_name:
+  names:
   - lux
   root: true
   short: lux
@@ -1144,7 +1144,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - minute
   root: true
   short: minute
@@ -1179,7 +1179,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - hour
   root: true
   short: hour
@@ -1202,7 +1202,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - day
   root: true
   short: day
@@ -1227,7 +1227,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - ångström
   root: true
   short: angstrom
@@ -1250,7 +1250,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - are
   root: true
   short: are
@@ -1275,7 +1275,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - barn
   root: true
   short: barn
@@ -1298,7 +1298,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - hectare
   root: true
   short: hectare
@@ -1321,7 +1321,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - square foot
   root: false
   root_units:
@@ -1349,7 +1349,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - square inch
   root: false
   root_units:
@@ -1377,7 +1377,7 @@ units:
   quantity_references:
   - id: NISTq4
     type: nist
-  unit_name:
+  names:
   - abampere
   - EMU of current
   root: true
@@ -1403,7 +1403,7 @@ units:
     type: nist
   - id: NISTq23
     type: nist
-  unit_name:
+  names:
   - abcoulomb
   root: true
   short: abcoulomb
@@ -1426,7 +1426,7 @@ units:
   quantity_references:
   - id: NISTq27
     type: nist
-  unit_name:
+  names:
   - abfarad
   - EMU of capacitance
   root: true
@@ -1450,7 +1450,7 @@ units:
   quantity_references:
   - id: NISTq32
     type: nist
-  unit_name:
+  names:
   - abhenry
   - EMU of inductance
   root: true
@@ -1474,7 +1474,7 @@ units:
   quantity_references:
   - id: NISTq29
     type: nist
-  unit_name:
+  names:
   - abmho
   root: true
   short: abmho
@@ -1497,7 +1497,7 @@ units:
   quantity_references:
   - id: NISTq28
     type: nist
-  unit_name:
+  names:
   - abohm
   - EMU of resistance
   root: true
@@ -1523,7 +1523,7 @@ units:
     type: nist
   - id: NISTq26
     type: nist
-  unit_name:
+  names:
   - abvolt
   - EMU of electric potential
   root: true
@@ -1549,7 +1549,7 @@ units:
     type: nist
   - id: NISTq23
     type: nist
-  unit_name:
+  names:
   - ampere hour
   root: false
   root_units:
@@ -1581,7 +1581,7 @@ units:
   quantity_references:
   - id: NISTq4
     type: nist
-  unit_name:
+  names:
   - biot
   root: false
   root_units:
@@ -1609,7 +1609,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - acre-foot (based on US survey foot)
   - acre-foot
   root: false
@@ -1642,7 +1642,7 @@ units:
   quantity_references:
   - id: NISTq30
     type: nist
-  unit_name:
+  names:
   - maxwell
   root: true
   short: maxwell
@@ -1675,7 +1675,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - I.T. calorie
   - calorie_IT
   - calorie
@@ -1720,7 +1720,7 @@ units:
     type: nist
   - id: NISTq1002
     type: nist
-  unit_name:
+  names:
   - one
   root: false
   short: one
@@ -1753,7 +1753,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - erg
   root: true
   short: erg
@@ -1787,7 +1787,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - kilocalorie_IT
   root: true
   short: table_kg_calorie
@@ -1821,7 +1821,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - kilocalorie_th
   root: true
   short: thermo_kg_calorie
@@ -1855,7 +1855,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - kilowatt hour
   root: false
   root_units:
@@ -1900,7 +1900,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - watt hour
   root: false
   root_units:
@@ -1932,7 +1932,7 @@ units:
   quantity_references:
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - dyne
   root: true
   short: dyne
@@ -1956,7 +1956,7 @@ units:
   quantity_references:
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - kilogram-force
   root: false
   root_units:
@@ -1987,7 +1987,7 @@ units:
   quantity_references:
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - kilopond
   root: false
   root_units:
@@ -2017,7 +2017,7 @@ units:
     type: nist
   - id: NISTq21
     type: nist
-  unit_name:
+  names:
   - calorie_th per second
   root: false
   root_units:
@@ -2053,7 +2053,7 @@ units:
     type: nist
   - id: NISTq21
     type: nist
-  unit_name:
+  names:
   - kilocalorie_th per second
   root: false
   root_units:
@@ -2091,7 +2091,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - foot
   root: true
   short: foot
@@ -2128,7 +2128,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - mile
   root: true
   short: mile
@@ -2153,7 +2153,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - yard
   root: true
   short: yard
@@ -2176,7 +2176,7 @@ units:
   quantity_references:
   - id: NISTq47
     type: nist
-  unit_name:
+  names:
   - phot
   root: true
   short: phot
@@ -2199,7 +2199,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - grain (troy or apothecary)
   - troy grain
   - apothecary grain
@@ -2225,7 +2225,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - metric ton
   - ton
   root: true
@@ -2251,7 +2251,7 @@ units:
     type: nist
   - id: NISTq21
     type: nist
-  unit_name:
+  names:
   - erg per second
   root: false
   root_units:
@@ -2285,7 +2285,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - bar
   root: true
   short: bar
@@ -2310,7 +2310,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - dyne per square centimeter
   root: false
   root_units:
@@ -2347,7 +2347,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - gram-force per square centimeter
   root: false
   root_units:
@@ -2385,7 +2385,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - kilogram-force per square centimeter
   root: false
   root_units:
@@ -2425,7 +2425,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - kilogram-force per square meter
   root: false
   root_units:
@@ -2462,7 +2462,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - kilogram-force per square millimeter
   root: false
   root_units:
@@ -2501,7 +2501,7 @@ units:
   quantity_references:
   - id: NISTq59
     type: nist
-  unit_name:
+  names:
   - centipoise
   root: false
   root_units:
@@ -2532,7 +2532,7 @@ units:
   quantity_references:
   - id: NISTq35
     type: nist
-  unit_name:
+  names:
   - curie
   root: true
   short: curie
@@ -2557,7 +2557,7 @@ units:
   quantity_references:
   - id: NISTq36
     type: nist
-  unit_name:
+  names:
   - rad (absorbed dose)
   root: true
   short: rad
@@ -2582,7 +2582,7 @@ units:
   quantity_references:
   - id: NISTq39
     type: nist
-  unit_name:
+  names:
   - rem
   root: true
   short: rem
@@ -2607,7 +2607,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - year (365 days)
   - year
   root: true
@@ -2631,7 +2631,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - foot per minute
   root: false
   root_units:
@@ -2663,7 +2663,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - foot per second
   root: false
   root_units:
@@ -2695,7 +2695,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - inch per second
   root: false
   root_units:
@@ -2727,7 +2727,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - mile per hour
   root: false
   root_units:
@@ -2759,7 +2759,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - mile per minute
   root: false
   root_units:
@@ -2791,7 +2791,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - mile per second
   root: false
   root_units:
@@ -2823,7 +2823,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - stere
   root: false
   root_units:
@@ -2851,7 +2851,7 @@ units:
   quantity_references:
   - id: NISTq14
     type: nist
-  unit_name:
+  names:
   - gamma
   root: false
   root_units:
@@ -2892,7 +2892,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - therm (EC)
   root: true
   short: ec_therm
@@ -2915,7 +2915,7 @@ units:
   quantity_references:
   - id: NISTq75
     type: nist
-  unit_name:
+  names:
   - roentgen
   root: true
   short: roentgen
@@ -2940,7 +2940,7 @@ units:
   quantity_references:
   - id: NISTq14
     type: nist
-  unit_name:
+  names:
   - gauss
   root: true
   short: gauss
@@ -2971,7 +2971,7 @@ units:
     type: nist
   - id: NISTq50
     type: nist
-  unit_name:
+  names:
   - kayser
   root: true
   short: kayser
@@ -2995,7 +2995,7 @@ units:
   quantity_references:
   - id: NISTq85
     type: nist
-  unit_name:
+  names:
   - centistokes
   root: false
   root_units:
@@ -3028,7 +3028,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - micron
   root: false
   root_units:
@@ -3061,7 +3061,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - mil (length)
   - mil
   - thou
@@ -3100,7 +3100,7 @@ units:
   quantity_references:
   - id: NISTq56
     type: nist
-  unit_name:
+  names:
   - stilb
   root: true
   short: stilb
@@ -3123,7 +3123,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - kilogram-force second squared per meter
   root: false
   root_units:
@@ -3170,7 +3170,7 @@ units:
     type: nist
   - id: NISTq60
     type: nist
-  unit_name:
+  names:
   - kilogram-force meter
   root: false
   root_units:
@@ -3207,7 +3207,7 @@ units:
     type: nist
   - id: NISTq21
     type: nist
-  unit_name:
+  names:
   - horsepower, electric
   - electric horsepower
   root: true
@@ -3233,7 +3233,7 @@ units:
     type: nist
   - id: NISTq59
     type: nist
-  unit_name:
+  names:
   - poise
   root: true
   short: poise
@@ -3256,7 +3256,7 @@ units:
   quantity_references:
   - id: NISTq91
     type: nist
-  unit_name:
+  names:
   - rhe
   root: true
   short: rhe
@@ -3279,7 +3279,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - liter
   root: true
   short: liter
@@ -3310,7 +3310,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - nautical mile
   root: true
   short: nautical_mile
@@ -3333,7 +3333,7 @@ units:
   quantity_references:
   - id: NISTq175
     type: nist
-  unit_name:
+  names:
   - degree Fahrenheit
   root: true
   short: degree_Fahrenheit
@@ -3358,7 +3358,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - standard atmosphere
   root: true
   short: standard_atmosphere
@@ -3383,7 +3383,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - technical atmosphere
   root: true
   short: technical_atmosphere
@@ -3406,7 +3406,7 @@ units:
   quantity_references:
   - id: NISTq85
     type: nist
-  unit_name:
+  names:
   - stokes
   root: true
   short: stokes
@@ -3429,7 +3429,7 @@ units:
   quantity_references:
   - id: NISTq49
     type: nist
-  unit_name:
+  names:
   - gal
   root: true
   short: gal
@@ -3452,7 +3452,7 @@ units:
   quantity_references:
   - id: NISTq87
     type: nist
-  unit_name:
+  names:
   - oersted
   root: true
   short: oersted
@@ -3475,7 +3475,7 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
-  unit_name:
+  names:
   - minute (minute of arc)
   root: true
   short: arc_minute
@@ -3504,7 +3504,7 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
-  unit_name:
+  names:
   - second (second of arc)
   root: true
   short: arc_second
@@ -3539,7 +3539,7 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
-  unit_name:
+  names:
   - degree (degree of arc)
   root: true
   short: arc_degree
@@ -3562,7 +3562,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - nautical mile per hour
   - knot
   root: true
@@ -3592,7 +3592,7 @@ units:
     type: nist
   - id: NISTq90
     type: nist
-  unit_name:
+  names:
   - neper
   root: true
   short: neper
@@ -3619,7 +3619,7 @@ units:
     type: nist
   - id: NISTq90
     type: nist
-  unit_name:
+  names:
   - bel
   root: true
   short: bel
@@ -3643,7 +3643,7 @@ units:
   quantity_references:
   - id: NISTq90
     type: nist
-  unit_name:
+  names:
   - decibel
   root: false
   root_units:
@@ -3676,7 +3676,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional millimeter of mercury
   - millimeter of mercury, conventional
   - millimeter of mercury
@@ -3703,7 +3703,7 @@ units:
     type: nist
   - id: NISTq92
     type: nist
-  unit_name:
+  names:
   - darcy
   root: true
   short: darcy
@@ -3732,7 +3732,7 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
-  unit_name:
+  names:
   - gon
   root: true
   short: gon
@@ -3757,7 +3757,7 @@ units:
     type: nist
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - kilometer per hour
   root: false
   root_units:
@@ -3792,7 +3792,7 @@ units:
   quantity_references:
   - id: NISTq120
     type: nist
-  unit_name:
+  names:
   - neper per second
   root: false
   root_units:
@@ -3824,7 +3824,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - square yard
   root: false
   root_units:
@@ -3852,7 +3852,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - square mile
   root: false
   root_units:
@@ -3880,7 +3880,7 @@ units:
   quantity_references:
   - id: NISTq17
     type: nist
-  unit_name:
+  names:
   - ton of TNT (energy equivalent)
   - ton
   root: true
@@ -3904,7 +3904,7 @@ units:
   quantity_references:
   - id: NISTq49
     type: nist
-  unit_name:
+  names:
   - foot per second squared
   root: false
   root_units:
@@ -3936,7 +3936,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - cubic inch
   root: false
   root_units:
@@ -3964,7 +3964,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - cubic foot
   root: false
   root_units:
@@ -3992,7 +3992,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - cubic yard
   root: false
   root_units:
@@ -4020,7 +4020,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - gallon (UK)
   - imperial gallon
   - gallon
@@ -4045,7 +4045,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - pint (UK)
   - pint
   root: true
@@ -4069,7 +4069,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - fluid ounce (UK)
   - fluid ounce
   - ounce
@@ -4094,7 +4094,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - gallon (US)
   - gallon
   root: true
@@ -4118,7 +4118,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - liquid pint (US)
   - pint
   root: true
@@ -4142,7 +4142,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - fluid ounce (US)
   - fluid ounce
   - ounce
@@ -4167,7 +4167,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - barrel (US) for petroleum
   - barrel
   root: true
@@ -4191,7 +4191,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - bushel (US)
   - bushel
   root: true
@@ -4215,7 +4215,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - dry pint (US)
   - pint
   root: true
@@ -4239,7 +4239,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - light year
   root: true
   short: light_year
@@ -4262,7 +4262,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - astronomical unit
   root: true
   short: astronomical_unit
@@ -4285,7 +4285,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - parsec
   root: true
   short: parsec
@@ -4312,7 +4312,7 @@ units:
     type: nist
   - id: NISTq51
     type: nist
-  unit_name:
+  names:
   - meter to the power four
   root: false
   root_units:
@@ -4340,7 +4340,7 @@ units:
   quantity_references:
   - id: NISTq51
     type: nist
-  unit_name:
+  names:
   - kilogram per liter
   root: false
   root_units:
@@ -4375,7 +4375,7 @@ units:
   quantity_references:
   - id: NISTq51
     type: nist
-  unit_name:
+  names:
   - metric ton per cubic meter
   root: false
   root_units:
@@ -4407,7 +4407,7 @@ units:
   quantity_references:
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - gram-force
   root: false
   root_units:
@@ -4438,7 +4438,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - pound (avoirdupois)
   - avoirdupois pound
   - pound
@@ -4463,7 +4463,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - ounce (avoirdupois)
   - avoirdupois ounce
   - ounce
@@ -4488,7 +4488,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - hundredweight (long, 112 lb)
   - hundredweight
   root: true
@@ -4512,7 +4512,7 @@ units:
   quantity_references:
   - id: NISTq51
     type: nist
-  unit_name:
+  names:
   - pound per cubic foot
   root: false
   root_units:
@@ -4546,7 +4546,7 @@ units:
     type: nist
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - pound-force
   root: true
   short: pound_force
@@ -4583,7 +4583,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - foot pound-force
   root: false
   root_units:
@@ -4615,7 +4615,7 @@ units:
   quantity_references:
   - id: NISTq15
     type: nist
-  unit_name:
+  names:
   - pound-force per square inch
   root: false
   root_units:
@@ -4655,7 +4655,7 @@ units:
     type: nist
   - id: NISTq155
     type: nist
-  unit_name:
+  names:
   - inch to the fourth power
   root: false
   root_units:
@@ -4683,7 +4683,7 @@ units:
   quantity_references:
   - id: NISTq146
     type: nist
-  unit_name:
+  names:
   - inch cubed
   root: false
   root_units:
@@ -4711,7 +4711,7 @@ units:
   quantity_references:
   - id: NISTq85
     type: nist
-  unit_name:
+  names:
   - foot squared per second
   root: false
   root_units:
@@ -4744,7 +4744,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - foot pound-force per second
   root: false
   root_units:
@@ -4781,7 +4781,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - carat
   - metric carat
   - carat, metric
@@ -4806,7 +4806,7 @@ units:
   quantity_references:
   - id: NISTq126
     type: nist
-  unit_name:
+  names:
   - tex
   root: true
   short: tex
@@ -4837,7 +4837,7 @@ units:
     type: nist
   - id: NISTq60
     type: nist
-  unit_name:
+  names:
   - torr
   root: true
   short: torr
@@ -4860,7 +4860,7 @@ units:
   quantity_references:
   - id: NISTq15
     type: nist
-  unit_name:
+  names:
   - conventional millimeter of water
   - millimeter of water, conventional
   - millimeter of water
@@ -4886,7 +4886,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit_th
   - thermochemical Btu
   root: true
@@ -4910,7 +4910,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - kilogram-force meter per second
   root: false
   root_units:
@@ -4950,7 +4950,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - horsepower, metric
   - metric horsepower
   root: true
@@ -4976,7 +4976,7 @@ units:
     type: nist
   - id: NISTq181
     type: nist
-  unit_name:
+  names:
   - watt per square meter kelvin
   root: false
   root_units:
@@ -5006,7 +5006,7 @@ units:
   quantity_references:
   - id: NISTq56
     type: nist
-  unit_name:
+  names:
   - lambert
   root: true
   short: lambert
@@ -5029,7 +5029,7 @@ units:
   quantity_references:
   - id: NISTq161
     type: nist
-  unit_name:
+  names:
   - gilbert
   root: true
   short: gilbert
@@ -5052,7 +5052,7 @@ units:
   quantity_references:
   - id: NISTq162
     type: nist
-  unit_name:
+  names:
   - debye
   root: true
   short: debye
@@ -5075,7 +5075,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - abwatt
   root: true
   short: abwatt
@@ -5098,7 +5098,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - slug
   root: true
   short: slug
@@ -5131,7 +5131,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - thermochemical calorie
   - calorie_th
   - calorie
@@ -5162,7 +5162,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - short ton
   - ton
   root: true
@@ -5186,7 +5186,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - long ton
   - ton
   root: true
@@ -5210,7 +5210,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - hundredweight (short, 100 lb)
   - hundredweight
   root: false
@@ -5239,7 +5239,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - ounce (troy or apothecary)
   - troy ounce
   - ounce
@@ -5264,7 +5264,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - pound (troy or apothecary)
   - troy pound
   - pound
@@ -5289,7 +5289,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - pennyweight
   root: true
   short: pennyweight
@@ -5312,7 +5312,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - dram (apothecary)
   - apothecary dram
   - dram
@@ -5337,7 +5337,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - scruple
   - apothecary scruple
   root: true
@@ -5363,7 +5363,7 @@ units:
     type: nist
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - poundal
   root: true
   short: poundal
@@ -5386,7 +5386,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - kip
   root: true
   short: kip
@@ -5411,7 +5411,7 @@ units:
     type: nist
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - ton-force (2000 lb)
   root: true
   short: ton_force
@@ -5440,7 +5440,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - barye
   root: true
   short: barye
@@ -5463,7 +5463,7 @@ units:
   quantity_references:
   - id: NISTq17
     type: nist
-  unit_name:
+  names:
   - electronvolt
   root: true
   short: electronvolt
@@ -5486,7 +5486,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - unified atomic mass unit
   root: true
   short: unified_atomic_mass_unit
@@ -5509,7 +5509,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - natural unit of velocity
   root: true
   short: natural_unit_of_velocity
@@ -5538,7 +5538,7 @@ units:
   quantity_references:
   - id: NISTq154
     type: nist
-  unit_name:
+  names:
   - natural unit of action
   root: true
   short: natural_unit_of_action
@@ -5561,7 +5561,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - natural unit of mass
   root: true
   short: natural_unit_of_mass
@@ -5584,7 +5584,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - natural unit of time
   root: true
   short: natural_unit_of_time
@@ -5608,7 +5608,7 @@ units:
   quantity_references:
   - id: NISTq22
     type: nist
-  unit_name:
+  names:
   - atomic unit of charge
   root: true
   short: atomic_unit_of_charge
@@ -5631,7 +5631,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - atomic unit of mass
   root: true
   short: atomic_unit_of_mass
@@ -5654,7 +5654,7 @@ units:
   quantity_references:
   - id: NISTq154
     type: nist
-  unit_name:
+  names:
   - atomic unit of action
   root: true
   short: atomic_unit_of_action
@@ -5677,7 +5677,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - atomic unit of length
   root: true
   short: atomic_unit_of_length
@@ -5700,7 +5700,7 @@ units:
   quantity_references:
   - id: NISTq17
     type: nist
-  unit_name:
+  names:
   - atomic unit of energy
   root: true
   short: atomic_unit_of_energy
@@ -5723,7 +5723,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - atomic unit of time
   root: true
   short: atomic_unit_of_time
@@ -5747,7 +5747,7 @@ units:
   quantity_references:
   - id: NISTq163
     type: nist
-  unit_name:
+  names:
   - atomic unit of magnetizability
   root: true
   short: atomic_unit_of_magnetizability
@@ -5772,7 +5772,7 @@ units:
   quantity_references:
   - id: NISTq14
     type: nist
-  unit_name:
+  names:
   - atomic unit of magnetic flux density
   root: true
   short: atomic_unit_of_magnetic_flux_density
@@ -5796,7 +5796,7 @@ units:
   quantity_references:
   - id: NISTq164
     type: nist
-  unit_name:
+  names:
   - atomic unit of magnetic dipole moment
   root: true
   short: atomic_unit_of_magnetic_dipole_moment
@@ -5820,7 +5820,7 @@ units:
   quantity_references:
   - id: NISTq131
     type: nist
-  unit_name:
+  names:
   - atomic unit of momentum
   root: true
   short: atomic_unit_of_momentum
@@ -5843,7 +5843,7 @@ units:
   quantity_references:
   - id: NISTq69
     type: nist
-  unit_name:
+  names:
   - atomic unit of charge density
   root: true
   short: atomic_unit_of_charge_density
@@ -5866,7 +5866,7 @@ units:
   quantity_references:
   - id: NISTq4
     type: nist
-  unit_name:
+  names:
   - atomic unit of current
   root: true
   short: atomic_unit_of_current
@@ -5890,7 +5890,7 @@ units:
   quantity_references:
   - id: NISTq162
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric dipole moment
   root: true
   short: atomic_unit_of_electric_dipole_moment
@@ -5913,7 +5913,7 @@ units:
   quantity_references:
   - id: NISTq68
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric field
   root: true
   short: atomic_unit_of_electric_field
@@ -5937,7 +5937,7 @@ units:
   quantity_references:
   - id: NISTq165
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric field gradient
   root: true
   short: atomic_unit_of_electric_field_gradient
@@ -5965,7 +5965,7 @@ units:
     type: nist
   - id: NISTq26
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric potential
   root: true
   short: atomic_unit_of_electric_potential
@@ -5991,7 +5991,7 @@ units:
     type: nist
   - id: NISTq13
     type: nist
-  unit_name:
+  names:
   - atomic unit of force
   root: true
   short: atomic_unit_of_force
@@ -6015,7 +6015,7 @@ units:
   quantity_references:
   - id: NISTq167
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric quadrupole moment
   root: true
   short: atomic_unit_of_electric_quadrupole_moment
@@ -6038,7 +6038,7 @@ units:
   quantity_references:
   - id: NISTq168
     type: nist
-  unit_name:
+  names:
   - atomic unit of electric polarizability
   root: true
   short: atomic_unit_of_electric_polarizability
@@ -6063,7 +6063,7 @@ units:
   quantity_references:
   - id: NISTq28
     type: nist
-  unit_name:
+  names:
   - statohm
   - ESU of resistance
   root: true
@@ -6087,7 +6087,7 @@ units:
   quantity_references:
   - id: NISTq169
     type: nist
-  unit_name:
+  names:
   - statfarad
   - ESU of capacitance
   root: true
@@ -6111,7 +6111,7 @@ units:
   quantity_references:
   - id: NISTq170
     type: nist
-  unit_name:
+  names:
   - statampere
   - ESU of current
   root: true
@@ -6139,7 +6139,7 @@ units:
     type: nist
   - id: NISTq26
     type: nist
-  unit_name:
+  names:
   - statvolt
   - ESU of Electric potential
   root: true
@@ -6163,7 +6163,7 @@ units:
   quantity_references:
   - id: NISTq171
     type: nist
-  unit_name:
+  names:
   - stathenry
   - ESU of inductance
   root: true
@@ -6187,7 +6187,7 @@ units:
   quantity_references:
   - id: NISTq29
     type: nist
-  unit_name:
+  names:
   - statmho
   - ESU of conductance
   root: true
@@ -6213,7 +6213,7 @@ units:
     type: nist
   - id: NISTq23
     type: nist
-  unit_name:
+  names:
   - statcoulomb
   - ESU of charge
   root: true
@@ -6237,7 +6237,7 @@ units:
   quantity_references:
   - id: NISTq30
     type: nist
-  unit_name:
+  names:
   - statweber
   root: true
   short: statweber
@@ -6260,7 +6260,7 @@ units:
   quantity_references:
   - id: NISTq14
     type: nist
-  unit_name:
+  names:
   - stattesla
   root: true
   short: stattesla
@@ -6283,7 +6283,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - statwatt
   root: true
   short: statwatt
@@ -6306,7 +6306,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - dram (avoirdupois)
   - dram
   root: true
@@ -6330,7 +6330,7 @@ units:
   quantity_references:
   - id: NISTq47
     type: nist
-  unit_name:
+  names:
   - footcandle
   root: true
   short: footcandle
@@ -6353,7 +6353,7 @@ units:
   quantity_references:
   - id: NISTq56
     type: nist
-  unit_name:
+  names:
   - footlambert
   root: true
   short: footlambert
@@ -6378,7 +6378,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - pica (computer)
   root: true
   short: computer_pica
@@ -6401,7 +6401,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - pica (printer's)
   root: true
   short: printers_pica
@@ -6426,7 +6426,7 @@ units:
     type: nist
   - id: NISTq48
     type: nist
-  unit_name:
+  names:
   - point (computer)
   root: true
   short: computer_point
@@ -6449,7 +6449,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - rod (based on US survey foot)
   - rod
   root: true
@@ -6473,7 +6473,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - fathom (based on US survey foot)
   - fathom
   root: true
@@ -6497,7 +6497,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - circular mil
   root: true
   short: circular_mil
@@ -6520,7 +6520,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - horsepower
   root: true
   short: horsepower
@@ -6543,7 +6543,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - horsepower, boiler
   - boiler horsepower
   root: true
@@ -6567,7 +6567,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - horsepower, water
   - water horsepower
   root: true
@@ -6591,7 +6591,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - horsepower (UK)
   root: true
   short: uk_horsepower
@@ -6614,7 +6614,7 @@ units:
   quantity_references:
   - id: NISTq5
     type: nist
-  unit_name:
+  names:
   - degree Rankine
   root: true
   short: degree_Rankine
@@ -6637,7 +6637,7 @@ units:
   quantity_references:
   - id: NISTq2
     type: nist
-  unit_name:
+  names:
   - dalton
   root: false
   root_units:
@@ -6665,7 +6665,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - natural unit of length
   root: true
   short: natural_unit_of_length
@@ -6688,7 +6688,7 @@ units:
   quantity_references:
   - id: NISTq172
     type: nist
-  unit_name:
+  names:
   - atomic unit of 1st hyperpolarizability
   root: true
   short: atomic_unit_of_1st_hyperpolarizability
@@ -6713,7 +6713,7 @@ units:
   quantity_references:
   - id: NISTq173
     type: nist
-  unit_name:
+  names:
   - atomic unit of 2nd hyperpolarizability
   root: true
   short: atomic_unit_of_2nd_hyperpolarizability
@@ -6738,7 +6738,7 @@ units:
   quantity_references:
   - id: NISTq71
     type: nist
-  unit_name:
+  names:
   - atomic unit of permittivity
   root: true
   short: atomic_unit_of_permittivity
@@ -6763,7 +6763,7 @@ units:
   quantity_references:
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - atomic unit of velocity
   root: true
   short: atomic_unit_of_velocity
@@ -6788,7 +6788,7 @@ units:
   quantity_references:
   - id: NISTq17
     type: nist
-  unit_name:
+  names:
   - natural unit of energy
   root: true
   short: natural_unit_of_energy
@@ -6812,7 +6812,7 @@ units:
   quantity_references:
   - id: NISTq131
     type: nist
-  unit_name:
+  names:
   - natural unit of momentum
   root: true
   short: natural_unit_of_momentum
@@ -6836,7 +6836,7 @@ units:
   quantity_references:
   - id: NISTq154
     type: nist
-  unit_name:
+  names:
   - natural unit of action in eV s
   root: true
   short: natural_unit_of_action_in_eV_s
@@ -6859,7 +6859,7 @@ units:
   quantity_references:
   - id: NISTq17
     type: nist
-  unit_name:
+  names:
   - natural unit of energy in MeV
   root: true
   short: natural_unit_of_energy_in_MeV
@@ -6883,7 +6883,7 @@ units:
   quantity_references:
   - id: NISTq131
     type: nist
-  unit_name:
+  names:
   - natural unit of momentum in MeV/c
   root: true
   short: natural_unit_of_momentum_in_MeV_per_c
@@ -6907,7 +6907,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - quart (UK)
   - quart
   root: true
@@ -6931,7 +6931,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - dry quart (US)
   - quart
   root: true
@@ -6955,7 +6955,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - liquid quart (US)
   - quart
   root: true
@@ -6979,7 +6979,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - teaspoon
   root: true
   short: us_teaspoon
@@ -7002,7 +7002,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - tablespoon
   root: true
   short: us_tablespoon
@@ -7025,7 +7025,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - tablespoon (FDA)
   - teaspoon
   root: true
@@ -7049,7 +7049,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - teaspoon (FDA)
   - teaspoon
   root: true
@@ -7073,7 +7073,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - cup (FDA)
   - cup
   root: true
@@ -7097,7 +7097,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - fluid ounce (FDA)
   - fluid ounce
   - ounce
@@ -7122,7 +7122,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - ounce (FDA)
   - ounce
   root: true
@@ -7146,7 +7146,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - chain (based on US survey foot)
   - surveyors chain
   - Gunter's chain
@@ -7172,7 +7172,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - link (based on US survey foot)
   - surveyors link
   - Gunter's link
@@ -7198,7 +7198,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - furlong (based on US survey foot)
   - furlong
   root: true
@@ -7222,7 +7222,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - mile (based on US survey foot)
   - survey mile
   - mile
@@ -7247,7 +7247,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - yard (based on US survey foot)
   - yard
   root: true
@@ -7271,7 +7271,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - foot (based on US survey foot)
   - survey foot
   - foot
@@ -7296,7 +7296,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - inch (based on US survey foot)
   - inch
   root: true
@@ -7320,7 +7320,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - acre (based on US survey foot)
   - acre
   root: true
@@ -7346,7 +7346,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional centimeter of mercury
   - centimeter of mercury, conventional
   - centimeter of mercury
@@ -7373,7 +7373,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - centimeter of mercury (0 degC)
   root: true
   short: 0C_cm_Hg
@@ -7398,7 +7398,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - centimeter of water (4 degC)
   root: true
   short: 4C_cm_water
@@ -7424,7 +7424,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional centimeter of water
   - centimeter of water, conventional
   - centimeter of water
@@ -7452,7 +7452,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional inch of water
   - inch of water, conventional
   - inch of water
@@ -7480,7 +7480,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - inch of water (39.2 degF)
   root: true
   short: 39F_in_water
@@ -7506,7 +7506,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - inch of water (60 degF)
   root: true
   short: 60F_in_water
@@ -7532,7 +7532,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional foot of water
   - foot of water, conventional
   - foot of water
@@ -7560,7 +7560,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - foot of water (39.2 degF)
   root: true
   short: 39F_ft_water
@@ -7586,7 +7586,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - inch of mercury (32 degF)
   root: true
   short: 32F_in_Hg
@@ -7623,7 +7623,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - inch of mercury (60 degF)
   root: true
   short: 60F_in_Hg
@@ -7660,7 +7660,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional inch of mercury
   - inch of mercury, conventional
   - inch of mercury
@@ -7699,7 +7699,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - conventional foot of mercury
   - 'foot of mercury, conventional '
   - foot of mercury
@@ -7746,7 +7746,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - therm (US)
   root: true
   short: us_therm
@@ -7769,7 +7769,7 @@ units:
   quantity_references:
   - id: NISTq174
     type: nist
-  unit_name:
+  names:
   - pH
   root: true
   short: pH
@@ -7792,7 +7792,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit_IT
   - International Table Btu
   - British thermal unit
@@ -7817,7 +7817,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit (mean)
   root: true
   short: mean_btu
@@ -7840,7 +7840,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit (39 degF)
   root: true
   short: 39F_btu
@@ -7863,7 +7863,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit (59 degF)
   root: true
   short: 59F_btu
@@ -7886,7 +7886,7 @@ units:
   quantity_references:
   - id: NISTq19
     type: nist
-  unit_name:
+  names:
   - British thermal unit (60 degF)
   root: true
   short: 60F_btu
@@ -7909,7 +7909,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - year, tropical
   - tropical year
   - year
@@ -7934,7 +7934,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - year, sidereal
   - sidereal year
   - year
@@ -7959,7 +7959,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - day, sidereal
   - sidereal day
   - day
@@ -7984,7 +7984,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - hour, sidereal
   - sidereal hour
   - hour
@@ -8009,7 +8009,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - minute, sidereal
   - sidereal minute
   - minute
@@ -8034,7 +8034,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - second, sidereal
   - sidereal second
   - second
@@ -8059,7 +8059,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - point (printer's)
   root: true
   short: printers_point
@@ -8082,7 +8082,7 @@ units:
   quantity_references:
   - id: NISTq3
     type: nist
-  unit_name:
+  names:
   - shake
   root: true
   short: shake
@@ -8105,7 +8105,7 @@ units:
   quantity_references:
   - id: NISTq176
     type: nist
-  unit_name:
+  names:
   - denier
   root: true
   short: denier
@@ -8128,7 +8128,7 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
-  unit_name:
+  names:
   - angular mil (NATO)
   - angular mil
   - mil
@@ -8153,7 +8153,7 @@ units:
   quantity_references:
   - id: NISTq6
     type: nist
-  unit_name:
+  names:
   - pound-mole
   - pound mole
   root: true
@@ -8177,7 +8177,7 @@ units:
   quantity_references:
   - id: NISTq20
     type: nist
-  unit_name:
+  names:
   - ton of refrigeration (12 000 Btu_IT/h)
   - ton of refrigeration
   - ton
@@ -8202,7 +8202,7 @@ units:
   quantity_references:
   - id: NISTq177
     type: nist
-  unit_name:
+  names:
   - bit
   root: true
   short: bit
@@ -8225,7 +8225,7 @@ units:
   quantity_references:
   - id: NISTq177
     type: nist
-  unit_name:
+  names:
   - byte
   root: true
   short: byte
@@ -8248,7 +8248,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - peck
   root: true
   short: us_peck
@@ -8271,7 +8271,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - minim
   root: true
   short: us_minim
@@ -8294,7 +8294,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - cup (US)
   - cup
   root: true
@@ -8318,7 +8318,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - fluid dram
   - dram, fluid
   - dram
@@ -8343,7 +8343,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - gill (US)
   - gill
   root: true
@@ -8367,7 +8367,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - gill [Canadian and UK (Imperial)]
   - imperial gill
   - gill
@@ -8392,7 +8392,7 @@ units:
   quantity_references:
   - id: NISTq151
     type: nist
-  unit_name:
+  names:
   - cubic foot per minute
   root: false
   root_units:
@@ -8425,7 +8425,7 @@ units:
   quantity_references:
   - id: NISTq151
     type: nist
-  unit_name:
+  names:
   - cubic foot per second
   root: false
   root_units:
@@ -8458,7 +8458,7 @@ units:
   quantity_references:
   - id: NISTq151
     type: nist
-  unit_name:
+  names:
   - cubic inch per minute
   root: false
   root_units:
@@ -8492,7 +8492,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - microinch
   root: false
   root_units:
@@ -8526,7 +8526,7 @@ units:
     type: nist
   - id: NISTq16
     type: nist
-  unit_name:
+  names:
   - millibar
   root: false
   root_units:
@@ -8557,7 +8557,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - mile per gallon (US)
   - mile per gallon
   root: false
@@ -8596,7 +8596,7 @@ units:
   quantity_references:
   - id: NISTq151
     type: nist
-  unit_name:
+  names:
   - gallon (US) per minute
   - gallon per minute
   root: false
@@ -8636,7 +8636,7 @@ units:
   quantity_references:
   - id: NISTq10
     type: nist
-  unit_name:
+  names:
   - milliliter
   root: false
   root_units:
@@ -8673,7 +8673,7 @@ units:
   quantity_references:
   - id: NISTq55
     type: nist
-  unit_name:
+  names:
   - mole per liter
   root: false
   root_units:
@@ -8711,7 +8711,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - light week
   root: true
   short: light_week
@@ -8734,7 +8734,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - light hour
   root: true
   short: light_hour
@@ -8757,7 +8757,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - light minute
   root: true
   short: light_minute
@@ -8780,7 +8780,7 @@ units:
   quantity_references:
   - id: NISTq1
     type: nist
-  unit_name:
+  names:
   - light second
   root: true
   short: light_second
@@ -8803,7 +8803,7 @@ units:
   quantity_references:
   - id: NISTq1000
     type: nist
-  unit_name:
+  names:
   - parts per million
   root: false
   short: parts_per_million
@@ -8842,7 +8842,7 @@ units:
     unit_reference:
       id: NISTu3
       type: nist
-  unit_name:
+  names:
   - var
   root: false
   root_units:
@@ -8878,7 +8878,7 @@ units:
     type: nist
   - id: NISTq60
     type: nist
-  unit_name:
+  names:
   - newton meter
   root: false
   root_units:
@@ -8910,7 +8910,7 @@ units:
   quantity_references:
   - id: NISTq133
     type: nist
-  unit_name:
+  names:
   - newton meter second
   root: false
   root_units:
@@ -8947,7 +8947,7 @@ units:
   quantity_references:
   - id: NISTq129
     type: nist
-  unit_name:
+  names:
   - newton second
   root: false
   root_units:
@@ -8979,7 +8979,7 @@ units:
   quantity_references:
   - id: NISTq59
     type: nist
-  unit_name:
+  names:
   - pascal second
   root: false
   root_units:
@@ -9011,7 +9011,7 @@ units:
   quantity_references:
   - id: NISTq154
     type: nist
-  unit_name:
+  names:
   - joule second
   root: false
   root_units:
@@ -9053,7 +9053,7 @@ units:
     type: nist
   - id: NISTq77
     type: nist
-  unit_name:
+  names:
   - watt second
   root: false
   root_units:
@@ -9091,7 +9091,7 @@ units:
     type: nist
   - id: NISTq12
     type: nist
-  unit_name:
+  names:
   - meter per second
   root: false
   root_units:
@@ -9125,7 +9125,7 @@ units:
     type: nist
   - id: NISTq49
     type: nist
-  unit_name:
+  names:
   - meter per second squared
   root: false
   root_units:
@@ -9157,7 +9157,7 @@ units:
   quantity_references:
   - id: NISTq61
     type: nist
-  unit_name:
+  names:
   - newton per meter
   root: false
   root_units:
@@ -9189,7 +9189,7 @@ units:
   quantity_references:
   - id: NISTq130
     type: nist
-  unit_name:
+  names:
   - newton meter squared per kilogram squared
   root: false
   root_units:
@@ -9229,7 +9229,7 @@ units:
   quantity_references:
   - id: NISTq159
     type: nist
-  unit_name:
+  names:
   - pascal per kelvin
   root: false
   root_units:
@@ -9263,7 +9263,7 @@ units:
     type: nist
   - id: NISTq160
     type: nist
-  unit_name:
+  names:
   - pascal to the power minus one
   root: false
   root_units:
@@ -9291,7 +9291,7 @@ units:
   quantity_references:
   - id: NISTq67
     type: nist
-  unit_name:
+  names:
   - joule per cubic meter
   root: false
   root_units:
@@ -9323,7 +9323,7 @@ units:
   quantity_references:
   - id: NISTq65
     type: nist
-  unit_name:
+  names:
   - joule per kilogram
   root: false
   root_units:
@@ -9360,7 +9360,7 @@ units:
     type: nist
   - id: NISTq80
     type: nist
-  unit_name:
+  names:
   - joule per kilogram kelvin
   root: false
   root_units:
@@ -9402,7 +9402,7 @@ units:
     type: nist
   - id: NISTq79
     type: nist
-  unit_name:
+  names:
   - joule per kelvin
   root: false
   root_units:
@@ -9434,7 +9434,7 @@ units:
   quantity_references:
   - id: NISTq73
     type: nist
-  unit_name:
+  names:
   - joule per mole
   root: false
   root_units:
@@ -9468,7 +9468,7 @@ units:
     type: nist
   - id: NISTq83
     type: nist
-  unit_name:
+  names:
   - joule per mole kelvin
   root: false
   root_units:
@@ -9497,7 +9497,7 @@ units:
   quantity_references:
   - id: NISTq88
     type: nist
-  unit_name:
+  names:
   - watt per steradian
   root: false
   root_units:
@@ -9529,7 +9529,7 @@ units:
   quantity_references:
   - id: NISTq66
     type: nist
-  unit_name:
+  names:
   - watt per meter kelvin
   root: false
   root_units:
@@ -9560,7 +9560,7 @@ units:
     type: nist
   - id: NISTq78
     type: nist
-  unit_name:
+  names:
   - watt per square meter
   root: false
   root_units:
@@ -9592,7 +9592,7 @@ units:
   quantity_references:
   - id: NISTq89
     type: nist
-  unit_name:
+  names:
   - watt per square meter steradian
   root: false
   root_units:
@@ -9632,7 +9632,7 @@ units:
     type: nist
   - id: NISTq82
     type: nist
-  unit_name:
+  names:
   - coulomb per square meter
   root: false
   root_units:
@@ -9664,7 +9664,7 @@ units:
   quantity_references:
   - id: NISTq69
     type: nist
-  unit_name:
+  names:
   - coulomb per cubic meter
   root: false
   root_units:
@@ -9696,7 +9696,7 @@ units:
   quantity_references:
   - id: NISTq75
     type: nist
-  unit_name:
+  names:
   - coulomb per kilogram
   root: false
   root_units:
@@ -9731,7 +9731,7 @@ units:
   quantity_references:
   - id: NISTq68
     type: nist
-  unit_name:
+  names:
   - volt per meter
   root: false
   root_units:
@@ -9763,7 +9763,7 @@ units:
   quantity_references:
   - id: NISTq71
     type: nist
-  unit_name:
+  names:
   - farad per meter
   root: false
   root_units:
@@ -9805,7 +9805,7 @@ units:
     type: nist
   - id: NISTq50
     type: nist
-  unit_name:
+  names:
   - meter to the power minus one
   - reciprocal meter
   root: false
@@ -9834,7 +9834,7 @@ units:
   quantity_references:
   - id: NISTq8
     type: nist
-  unit_name:
+  names:
   - square meter
   root: false
   root_units:
@@ -9862,7 +9862,7 @@ units:
   quantity_references:
   - id: NISTq85
     type: nist
-  unit_name:
+  names:
   - meter squared per second
   root: false
   root_units:
@@ -9897,7 +9897,7 @@ units:
     type: nist
   - id: NISTq146
     type: nist
-  unit_name:
+  names:
   - cubic meter
   root: false
   root_units:
@@ -9925,7 +9925,7 @@ units:
   quantity_references:
   - id: NISTq52
     type: nist
-  unit_name:
+  names:
   - cubic meter per kilogram
   root: false
   root_units:
@@ -9961,7 +9961,7 @@ units:
   quantity_references:
   - id: NISTq151
     type: nist
-  unit_name:
+  names:
   - cubic meter per second
   root: false
   root_units:
@@ -9994,7 +9994,7 @@ units:
   quantity_references:
   - id: NISTq72
     type: nist
-  unit_name:
+  names:
   - henry per meter
   root: false
   root_units:
@@ -10026,7 +10026,7 @@ units:
   quantity_references:
   - id: NISTq131
     type: nist
-  unit_name:
+  names:
   - kilogram meter per second
   root: false
   root_units:
@@ -10066,7 +10066,7 @@ units:
   quantity_references:
   - id: NISTq126
     type: nist
-  unit_name:
+  names:
   - kilogram per meter
   root: false
   root_units:
@@ -10101,7 +10101,7 @@ units:
   quantity_references:
   - id: NISTq31
     type: nist
-  unit_name:
+  names:
   - kilogram per square meter
   root: false
   root_units:
@@ -10138,7 +10138,7 @@ units:
     type: nist
   - id: NISTq51
     type: nist
-  unit_name:
+  names:
   - kilogram per cubic meter
   root: false
   root_units:
@@ -10173,7 +10173,7 @@ units:
   quantity_references:
   - id: NISTq127
     type: nist
-  unit_name:
+  names:
   - kilogram meter squared
   root: false
   root_units:
@@ -10211,7 +10211,7 @@ units:
     type: nist
   - id: NISTq132
     type: nist
-  unit_name:
+  names:
   - kilogram meter squared per second
   root: false
   root_units:
@@ -10252,7 +10252,7 @@ units:
   quantity_references:
   - id: NISTq150
     type: nist
-  unit_name:
+  names:
   - kilogram per second
   root: false
   root_units:
@@ -10287,7 +10287,7 @@ units:
   quantity_references:
   - id: NISTq76
     type: nist
-  unit_name:
+  names:
   - gray per second
   root: false
   root_units:
@@ -10319,7 +10319,7 @@ units:
   quantity_references:
   - id: NISTq84
     type: nist
-  unit_name:
+  names:
   - katal per cubic meter
   root: false
   root_units:
@@ -10355,7 +10355,7 @@ units:
     type: nist
   - id: NISTq120
     type: nist
-  unit_name:
+  names:
   - second to the power minus one
   root: false
   root_units:
@@ -10383,7 +10383,7 @@ units:
   quantity_references:
   - id: NISTq54
     type: nist
-  unit_name:
+  names:
   - ampere per meter
   root: false
   root_units:
@@ -10415,7 +10415,7 @@ units:
   quantity_references:
   - id: NISTq53
     type: nist
-  unit_name:
+  names:
   - ampere per square meter
   root: false
   root_units:
@@ -10451,7 +10451,7 @@ units:
     type: nist
   - id: NISTq158
     type: nist
-  unit_name:
+  names:
   - kelvin to the power minus one
   root: false
   root_units:
@@ -10479,7 +10479,7 @@ units:
   quantity_references:
   - id: NISTq55
     type: nist
-  unit_name:
+  names:
   - mole per cubic meter
   root: false
   root_units:
@@ -10511,7 +10511,7 @@ units:
   quantity_references:
   - id: NISTq179
     type: nist
-  unit_name:
+  names:
   - mole per kilogram
   root: false
   root_units:
@@ -10546,7 +10546,7 @@ units:
   quantity_references:
   - id: NISTq56
     type: nist
-  unit_name:
+  names:
   - candela per square meter
   root: false
   root_units:
@@ -10578,7 +10578,7 @@ units:
   quantity_references:
   - id: NISTq115
     type: nist
-  unit_name:
+  names:
   - radian per meter
   root: false
   root_units:
@@ -10612,7 +10612,7 @@ units:
     type: nist
   - id: NISTq57
     type: nist
-  unit_name:
+  names:
   - radian per second
   root: false
   root_units:
@@ -10644,7 +10644,7 @@ units:
   quantity_references:
   - id: NISTq58
     type: nist
-  unit_name:
+  names:
   - radian per second squared
   root: false
   root_units:
