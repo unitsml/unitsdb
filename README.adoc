@@ -192,6 +192,7 @@ A prefix object in `prefixes.yaml` typically has the following structure:
   base: base
   names:
   - prefix_name
+  short: prefix_short_name
   power: power
   symbol:
     id: symbol_id
@@ -212,6 +213,7 @@ For example:
   base: 10
   names:
   - hecto
+  short: hecto
   power: 2
   symbol:
     latex: h
@@ -226,6 +228,7 @@ For example:
   base: 10
   names:
   - deka
+  short: deka
   power: 1
   symbol:
     latex: da
