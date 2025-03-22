@@ -340,14 +340,13 @@ For example:
 
 When contributing to this repository, please follow these guidelines.
 
-=== YAML normalization
+=== Command-line Utilities
 
-All YAML files must be normalized using the provided normalization script before
-submitting a pull request.
+UnitsDB provides several command-line utilities to help maintain and validate the database files. These utilities are available through the `unitsdb-utils` script in the `scripts` directory.
 
-This ensures consistent formatting and structure across all files.
+==== Setup
 
-To normalize YAML files:
+To use the command-line utilities:
 
 [source,bash]
 ----
@@ -356,10 +355,109 @@ cd scripts
 
 # Install dependencies
 bundle install
-
-# Normalize all YAML files
-bundle exec unitsdb-utils normalize --all --dir ..
 ----
+
+==== Available Commands
+
+===== normalize
+
+Normalizes YAML files for consistent formatting and structure.
+
+*Purpose*: Ensures all YAML files follow consistent formatting rules, including proper indentation, key ordering, and structure. This helps maintain consistency across the database and makes diffs more meaningful in version control.
+
+*Usage*:
+
+[source,bash]
+----
+# Normalize a specific file
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize input.yaml output.yaml
+
+# Normalize all YAML files in place
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize --all --dir ..
+
+# Normalize without sorting keys
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize --no-sort input.yaml output.yaml
+----
+
+*Options*:
+
+* `--all`, `-a` - Process all YAML files in the repository
+* `--dir`, `-d` - Directory containing the YAML files (default: ".")
+* `--[no-]sort` - Sort keys alphabetically (default: true)
+
+===== check_uniqueness
+
+Checks for uniqueness of 'short' and 'id' fields in YAML files.
+
+*Purpose*: Ensures that identifier fields are unique across the database, preventing conflicting definitions.
+
+*Usage*:
+
+[source,bash]
+----
+# Check a specific file
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils check_uniqueness dimensions.yaml
+
+# Check all YAML files
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils check_uniqueness --all --dir ..
+----
+
+*Options*:
+
+* `--all`, `-a` - Check all YAML files in the repository
+* `--dir`, `-d` - Directory containing the YAML files (default: ".")
+
+===== validate references
+
+Validates that all references between files exist and are correct.
+
+*Purpose*: Ensures data integrity by confirming that any reference from one file to another (e.g., from a quantity to a dimension) points to an existing entity. This prevents broken links in the data model.
+
+*Method of Operation*: The command builds a comprehensive registry of all identifiers across all files, then checks each reference against this registry. It supports both composite keys (`{type}:{id}`) and simple ID lookups, with special handling for unit system references.
+
+*Usage*:
+
+[source,bash]
+----
+# Validate references in a specific file
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check dimensions.yaml
+
+# Validate references in all files
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all
+
+# Show valid references along with invalid ones
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all --print_valid
+
+# Debug the reference registry
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all --debug_registry
+----
+
+*Options*:
+
+* `--all` - Check all YAML files in the repository
+* `--print_valid` - Print valid references in addition to invalid ones
+* `--debug_registry` - Show the registry contents for debugging
+
+===== validate uniqueness
+
+Validate the uniqueness of 'short' and 'id' fields (alternative to check_uniqueness).
+
+*Purpose*: Similar to check_uniqueness but integrated into the validate subcommand system.
+
+*Usage*:
+
+[source,bash]
+----
+# Validate uniqueness in a specific file
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate uniqueness check dimensions.yaml
+
+# Validate uniqueness in all files
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate uniqueness check --all
+----
+
+*Options*:
+
+* `--all` - Check all YAML files in the repository
 
 === UnitsML validation
 
@@ -377,7 +475,7 @@ cd scripts
 bundle install
 
 # Validate content using RSpec which uses UnitsML Ruby
-bundle exec rspec ../spec --format documentation
+BUNDLE_GEMFILE=scripts/Gemfile bundle exec rspec ../spec --format documentation
 ----
 
 

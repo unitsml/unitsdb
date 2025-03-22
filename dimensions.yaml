@@ -974,6 +974,11 @@
   dimensionless: true
   short: ratio_quantity
 - identifiers:
+  - id: NISTd83
+    type: nist
+  dimensionless: true
+  short: level_of_field_quantity
+- identifiers:
   - id: NISTd84
     type: nist
   dimensionless: true
