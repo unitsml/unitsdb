@@ -1,4 +1,5 @@
----
+_version: "2.0.0"
+dimensions:
 - identifiers:
   - id: NISTd1
     type: nist

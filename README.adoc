@@ -28,9 +28,74 @@ This repository contains the following YAML files:
 `quantities.yaml`:: Contains the quantities and their symbols.
 
 
-== Dimensions
+== Versioning
 
-=== General
+=== Version Scheme
+
+UnitsDB follows semantic versioning (https://semver.org/[SemVer]) using a `MAJOR.MINOR.PATCH` structure:
+
+`MAJOR`:: Incremented for incompatible changes that may require updates to consuming applications
+
+`MINOR`:: Incremented for backwards-compatible additions or changes
+
+`PATCH`:: Incremented for backwards-compatible bug fixes
+
+
+=== Version field
+
+Each YAML file in the database contains a `_version` field at the top level:
+
+[source,yaml]
+----
+_version: "2.0.0"
+dimensions:
+  # content follows
+----
+
+The version number is consistent across all files in a given release, ensuring
+the database is treated as a cohesive unit.
+
+=== Version changes
+
+[cols="1,3a"]
+|===
+|Version level |Types of changes
+
+|`MAJOR`
+|
+* Structural changes to the data model
+* Removal of units, dimensions, or quantities
+* Changes to identifier schemes
+* Any other backwards-incompatible changes
+
+|`MINOR`
+|
+* Addition of new units, dimensions, or quantities
+* Addition of new properties to existing entities
+* Other backwards-compatible enhancements
+
+|`PATCH`
+|
+* Corrections to symbols, names, or other properties
+* Fixes to references between entities
+* Other backwards-compatible fixes
+
+|===
+
+=== Version usage
+
+Applications consuming UnitsDB should:
+
+. Check the `_version` field to ensure compatibility, ensure all files are
+  consistent with the same version
+. Handle version transitions appropriately based on the semantic versioning rules
+. Document which version(s) of UnitsDB they support
+
+== Content classes
+
+=== Dimensions
+
+==== General
 
 A dimension object in `dimensions.yaml` typically has the following structure:
 
@@ -86,7 +151,7 @@ For example:
   short: mass
 ----
 
-=== Notes
+==== Notes
 
 The following dimensions are identified by NIST but they are excluded from
 `dimensions.yaml` since they are unused:
@@ -113,9 +178,9 @@ The following dimensions are identified by NIST but they are excluded from
 ----
 
 
-== Prefixes
+=== Prefixes
 
-=== General
+==== General
 
 A prefix object in `prefixes.yaml` typically has the following structure:
 
@@ -168,7 +233,7 @@ For example:
     mathml: "<mi>da</mi>"
 ----
 
-=== Notes
+==== Notes
 
 Decimal prefixes are identified by their power of 10, e.g. `NISTp10_1`
 
@@ -177,9 +242,9 @@ The prefix `NISTp10_0` is a placeholder for unity.
 Binary prefixes are identified by their power of 2, e.g. `NISTp2_10`
 
 
-== Quantities
+=== Quantities
 
-=== General
+==== General
 
 A quantity object in `quantities.yaml` typically has the following structure:
 
@@ -264,9 +329,9 @@ For example:
 ----
 
 
-== Units
+=== Units
 
-=== General
+==== General
 
 A unit object in `units.yaml` typically has the following structure:
 
@@ -399,124 +464,21 @@ For example:
 
 When contributing to this repository, please follow these guidelines.
 
-=== Command-line Utilities
+=== Proposing a new unit, dimension, or quantity
 
-UnitsDB provides several command-line utilities to help maintain and validate the database files. These utilities are available through the `unitsdb-utils` script in the `scripts` directory.
-
-==== Setup
-
-To use the command-line utilities:
-
-[source,bash]
-----
-# Navigate to the scripts directory
-cd scripts
-
-# Install dependencies
-bundle install
-----
-
-==== Available Commands
-
-===== normalize
-
-Normalizes YAML files for consistent formatting and structure.
-
-*Purpose*: Ensures all YAML files follow consistent formatting rules, including proper indentation, key ordering, and structure. This helps maintain consistency across the database and makes diffs more meaningful in version control.
-
-*Usage*:
-
-[source,bash]
-----
-# Normalize a specific file
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize input.yaml output.yaml
-
-# Normalize all YAML files in place
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize --all --dir ..
-
-# Normalize without sorting keys
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils normalize --no-sort input.yaml output.yaml
-----
-
-*Options*:
-
-* `--all`, `-a` - Process all YAML files in the repository
-* `--dir`, `-d` - Directory containing the YAML files (default: ".")
-* `--[no-]sort` - Sort keys alphabetically (default: true)
-
-===== check_uniqueness
-
-Checks for uniqueness of 'short' and 'id' fields in YAML files.
-
-*Purpose*: Ensures that identifier fields are unique across the database, preventing conflicting definitions.
-
-*Usage*:
-
-[source,bash]
-----
-# Check a specific file
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils check_uniqueness dimensions.yaml
-
-# Check all YAML files
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils check_uniqueness --all --dir ..
-----
-
-*Options*:
-
-* `--all`, `-a` - Check all YAML files in the repository
-* `--dir`, `-d` - Directory containing the YAML files (default: ".")
-
-===== validate references
-
-Validates that all references between files exist and are correct.
-
-*Purpose*: Ensures data integrity by confirming that any reference from one file to another (e.g., from a quantity to a dimension) points to an existing entity. This prevents broken links in the data model.
-
-*Method of Operation*: The command builds a comprehensive registry of all identifiers across all files, then checks each reference against this registry. It supports both composite keys (`{type}:{id}`) and simple ID lookups, with special handling for unit system references.
-
-*Usage*:
-
-[source,bash]
-----
-# Validate references in a specific file
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check dimensions.yaml
-
-# Validate references in all files
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all
-
-# Show valid references along with invalid ones
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all --print_valid
-
-# Debug the reference registry
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate references check --all --debug_registry
-----
-
-*Options*:
-
-* `--all` - Check all YAML files in the repository
-* `--print_valid` - Print valid references in addition to invalid ones
-* `--debug_registry` - Show the registry contents for debugging
-
-===== validate uniqueness
-
-Validate the uniqueness of 'short' and 'id' fields (alternative to check_uniqueness).
-
-*Purpose*: Similar to check_uniqueness but integrated into the validate subcommand system.
-
-*Usage*:
-
-[source,bash]
-----
-# Validate uniqueness in a specific file
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate uniqueness check dimensions.yaml
-
-# Validate uniqueness in all files
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec ./scripts/unitsdb-utils validate uniqueness check --all
-----
-
-*Options*:
-
-* `--all` - Check all YAML files in the repository
+. Check if the unit already exists in the database.
+. If it does not exist, create a new YAML file in the appropriate directory
+   (e.g., `units.yaml`, `dimensions.yaml`, etc.).
+. Follow the structure outlined in the "Content classes" section.
+. Ensure that the new unit is properly referenced in the relevant files.
+. Add a test case for the new unit in the appropriate test file.
+. Run the tests to ensure everything is working correctly.
+. Submit a pull request with a clear description of the changes made.
+. Include any relevant references or sources for the new unit.
+. Ensure that the pull request is against the `main` branch of the repository.
+. Wait for review and feedback from the repository maintainers.
+. Address any comments or suggestions made during the review process.
+. Once approved, the pull request will be merged into the main branch.
 
 === UnitsML validation
 
