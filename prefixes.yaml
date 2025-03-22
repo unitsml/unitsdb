@@ -263,15 +263,15 @@
   - id: NISTp10_0
     type: nist
   base: 10
-  name: ''
+  name: one
   power: 0
   symbol:
-    latex: ''
-    unicode: ''
-    ascii: ''
-    html: ''
-    id: ''
-    mathml: ''
+    latex: "1"
+    unicode: "1"
+    ascii: "1"
+    html: "1"
+    id: unity
+    mathml: "<mn>1</mn>"
 - identifiers:
   - id: NISTp10_1
     type: nist
