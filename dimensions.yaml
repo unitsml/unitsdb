@@ -1,5 +1,7 @@
 ---
-NISTd1:
+- identifiers:
+  - id: NISTd1
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -11,7 +13,9 @@ NISTd1:
       mathml: "<mi mathvariant='sans-serif'>L</mi>"
       unicode: "\U0001D5AB"
   short: length
-NISTd2:
+- identifiers:
+  - id: NISTd2
+    type: nist
   mass:
     power_numerator: 1
     symbol: M
@@ -23,7 +27,9 @@ NISTd2:
       mathml: "<mi mathvariant='sans-serif'>M</mi>"
       unicode: "\U0001D5AC"
   short: mass
-NISTd3:
+- identifiers:
+  - id: NISTd3
+    type: nist
   short: time
   time:
     power_numerator: 1
@@ -35,7 +41,9 @@ NISTd3:
       latex: "\\ensuremath{\\mathsf{T}}"
       mathml: "<mi mathvariant='sans-serif'>T</mi>"
       unicode: "\U0001D5B3"
-NISTd4:
+- identifiers:
+  - id: NISTd4
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -47,7 +55,9 @@ NISTd4:
       mathml: "<mi mathvariant='sans-serif'>I</mi>"
       unicode: "\U0001D5A8"
   short: electric_current
-NISTd5:
+- identifiers:
+  - id: NISTd5
+    type: nist
   short: temperature
   thermodynamic_temperature:
     power_numerator: 1
@@ -59,7 +69,9 @@ NISTd5:
       latex: "\\ensuremath{\\mathsf{\\Theta}}"
       mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
       unicode: "\U0001D767"
-NISTd6:
+- identifiers:
+  - id: NISTd6
+    type: nist
   amount_of_substance:
     power_numerator: 1
     symbol: "N"
@@ -71,7 +83,9 @@ NISTd6:
       mathml: "<mi mathvariant='sans-serif'>N</mi>"
       unicode: "\U0001D5AD"
   short: substance_amount
-NISTd7:
+- identifiers:
+  - id: NISTd7
+    type: nist
   luminous_intensity:
     power_numerator: 1
     symbol: J
@@ -83,12 +97,16 @@ NISTd7:
       mathml: "<mi mathvariant='sans-serif'>J</mi>"
       unicode: "\U0001D5A9"
   short: luminous_intensity
-NISTd8:
+- identifiers:
+  - id: NISTd8
+    type: nist
   length:
     power_numerator: 2
     symbol: L
   short: area
-NISTd9:
+- identifiers:
+  - id: NISTd9
+    type: nist
   dimensionless: true
   plane_angle:
     power_numerator: 1
@@ -101,12 +119,16 @@ NISTd9:
       mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
       unicode: "\U0001D785"
   short: plane_angle
-NISTd10:
+- identifiers:
+  - id: NISTd10
+    type: nist
   length:
     power_numerator: 3
     symbol: L
   short: volume
-NISTd11:
+- identifiers:
+  - id: NISTd11
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -114,7 +136,9 @@ NISTd11:
   time:
     power_numerator: -1
     symbol: T
-NISTd12:
+- identifiers:
+  - id: NISTd12
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -125,7 +149,9 @@ NISTd12:
   time:
     power_numerator: -2
     symbol: T
-NISTd13:
+- identifiers:
+  - id: NISTd13
+    type: nist
   electric_current:
     power_numerator: -1
     symbol: I
@@ -136,7 +162,9 @@ NISTd13:
   time:
     power_numerator: -2
     symbol: T
-NISTd14:
+- identifiers:
+  - id: NISTd14
+    type: nist
   length:
     power_numerator: -1
     symbol: L
@@ -147,7 +175,9 @@ NISTd14:
   time:
     power_numerator: -2
     symbol: T
-NISTd15:
+- identifiers:
+  - id: NISTd15
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -158,7 +188,9 @@ NISTd15:
   time:
     power_numerator: -2
     symbol: T
-NISTd16:
+- identifiers:
+  - id: NISTd16
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -169,7 +201,9 @@ NISTd16:
   time:
     power_numerator: -3
     symbol: T
-NISTd17:
+- identifiers:
+  - id: NISTd17
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -177,7 +211,9 @@ NISTd17:
   time:
     power_numerator: 1
     symbol: T
-NISTd18:
+- identifiers:
+  - id: NISTd18
+    type: nist
   electric_current:
     power_numerator: -1
     symbol: I
@@ -191,7 +227,9 @@ NISTd18:
   time:
     power_numerator: -3
     symbol: T
-NISTd19:
+- identifiers:
+  - id: NISTd19
+    type: nist
   electric_current:
     power_numerator: 2
     symbol: I
@@ -205,7 +243,9 @@ NISTd19:
   time:
     power_numerator: 4
     symbol: T
-NISTd20:
+- identifiers:
+  - id: NISTd20
+    type: nist
   electric_current:
     power_numerator: -2
     symbol: I
@@ -219,7 +259,9 @@ NISTd20:
   time:
     power_numerator: -3
     symbol: T
-NISTd21:
+- identifiers:
+  - id: NISTd21
+    type: nist
   electric_current:
     power_numerator: 2
     symbol: I
@@ -233,7 +275,9 @@ NISTd21:
   time:
     power_numerator: 3
     symbol: T
-NISTd22:
+- identifiers:
+  - id: NISTd22
+    type: nist
   electric_current:
     power_numerator: -1
     symbol: I
@@ -247,7 +291,9 @@ NISTd22:
   time:
     power_numerator: -2
     symbol: T
-NISTd23:
+- identifiers:
+  - id: NISTd23
+    type: nist
   electric_current:
     power_numerator: -2
     symbol: I
@@ -261,12 +307,16 @@ NISTd23:
   time:
     power_numerator: -2
     symbol: T
-NISTd24:
+- identifiers:
+  - id: NISTd24
+    type: nist
   short: frequency
   time:
     power_numerator: -1
     symbol: T
-NISTd25:
+- identifiers:
+  - id: NISTd25
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -274,7 +324,9 @@ NISTd25:
   time:
     power_numerator: -2
     symbol: T
-NISTd26:
+- identifiers:
+  - id: NISTd26
+    type: nist
   amount_of_substance:
     power_numerator: 1
     symbol: "N"
@@ -282,7 +334,9 @@ NISTd26:
   time:
     power_numerator: -1
     symbol: T
-NISTd27:
+- identifiers:
+  - id: NISTd27
+    type: nist
   length:
     power_numerator: -2
     symbol: L
@@ -290,7 +344,9 @@ NISTd27:
     power_numerator: 1
     symbol: J
   short: illuminance
-NISTd28:
+- identifiers:
+  - id: NISTd28
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -298,12 +354,16 @@ NISTd28:
   time:
     power_numerator: -2
     symbol: T
-NISTd29:
+- identifiers:
+  - id: NISTd29
+    type: nist
   length:
     power_numerator: -1
     symbol: L
   short: wavenumber
-NISTd30:
+- identifiers:
+  - id: NISTd30
+    type: nist
   length:
     power_numerator: -3
     symbol: L
@@ -311,7 +371,9 @@ NISTd30:
     power_numerator: 1
     symbol: M
   short: mass_density
-NISTd31:
+- identifiers:
+  - id: NISTd31
+    type: nist
   length:
     power_numerator: 3
     symbol: L
@@ -319,7 +381,9 @@ NISTd31:
     power_numerator: -1
     symbol: M
   short: specific_volume
-NISTd32:
+- identifiers:
+  - id: NISTd32
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -327,7 +391,9 @@ NISTd32:
     power_numerator: -2
     symbol: L
   short: current_density
-NISTd33:
+- identifiers:
+  - id: NISTd33
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -335,7 +401,9 @@ NISTd33:
     power_numerator: -1
     symbol: L
   short: magnetic_field_strength
-NISTd34:
+- identifiers:
+  - id: NISTd34
+    type: nist
   amount_of_substance:
     power_numerator: 1
     symbol: "N"
@@ -343,12 +411,16 @@ NISTd34:
     power_numerator: -3
     symbol: L
   short: concentration
-NISTd35:
+- identifiers:
+  - id: NISTd35
+    type: nist
   short: angular_acceleration
   time:
     power_numerator: -2
     symbol: T
-NISTd36:
+- identifiers:
+  - id: NISTd36
+    type: nist
   length:
     power_numerator: -1
     symbol: L
@@ -359,7 +431,9 @@ NISTd36:
   time:
     power_numerator: -1
     symbol: T
-NISTd37:
+- identifiers:
+  - id: NISTd37
+    type: nist
   mass:
     power_numerator: 1
     symbol: M
@@ -367,7 +441,9 @@ NISTd37:
   time:
     power_numerator: -2
     symbol: T
-NISTd38:
+- identifiers:
+  - id: NISTd38
+    type: nist
   mass:
     power_numerator: 1
     symbol: M
@@ -375,7 +451,9 @@ NISTd38:
   time:
     power_numerator: -3
     symbol: T
-NISTd39:
+- identifiers:
+  - id: NISTd39
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -389,7 +467,9 @@ NISTd39:
   time:
     power_numerator: -2
     symbol: T
-NISTd40:
+- identifiers:
+  - id: NISTd40
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -400,7 +480,9 @@ NISTd40:
   time:
     power_numerator: -2
     symbol: T
-NISTd41:
+- identifiers:
+  - id: NISTd41
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -414,7 +496,9 @@ NISTd41:
   time:
     power_numerator: -3
     symbol: T
-NISTd42:
+- identifiers:
+  - id: NISTd42
+    type: nist
   electric_current:
     power_numerator: -1
     symbol: I
@@ -428,7 +512,9 @@ NISTd42:
   time:
     power_numerator: -3
     symbol: T
-NISTd43:
+- identifiers:
+  - id: NISTd43
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -439,7 +525,9 @@ NISTd43:
   time:
     power_numerator: 1
     symbol: T
-NISTd44:
+- identifiers:
+  - id: NISTd44
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -450,7 +538,9 @@ NISTd44:
   time:
     power_numerator: 1
     symbol: T
-NISTd45:
+- identifiers:
+  - id: NISTd45
+    type: nist
   electric_current:
     power_numerator: 2
     symbol: I
@@ -464,7 +554,9 @@ NISTd45:
   time:
     power_numerator: 4
     symbol: T
-NISTd46:
+- identifiers:
+  - id: NISTd46
+    type: nist
   electric_current:
     power_numerator: -2
     symbol: I
@@ -478,7 +570,9 @@ NISTd46:
   time:
     power_numerator: -2
     symbol: T
-NISTd47:
+- identifiers:
+  - id: NISTd47
+    type: nist
   amount_of_substance:
     power_numerator: -1
     symbol: "N"
@@ -492,7 +586,9 @@ NISTd47:
   time:
     power_numerator: -2
     symbol: T
-NISTd48:
+- identifiers:
+  - id: NISTd48
+    type: nist
   amount_of_substance:
     power_numerator: -1
     symbol: "N"
@@ -509,7 +605,9 @@ NISTd48:
   time:
     power_numerator: -2
     symbol: T
-NISTd49:
+- identifiers:
+  - id: NISTd49
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -520,7 +618,9 @@ NISTd49:
   time:
     power_numerator: 1
     symbol: T
-NISTd50:
+- identifiers:
+  - id: NISTd50
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -528,7 +628,9 @@ NISTd50:
   time:
     power_numerator: -3
     symbol: T
-NISTd51:
+- identifiers:
+  - id: NISTd51
+    type: nist
   length:
     power_numerator: -2
     symbol: L
@@ -536,7 +638,9 @@ NISTd51:
     power_numerator: 1
     symbol: M
   short: surface_density
-NISTd52:
+- identifiers:
+  - id: NISTd52
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -547,7 +651,9 @@ NISTd52:
   time:
     power_numerator: 1
     symbol: T
-NISTd53:
+- identifiers:
+  - id: NISTd53
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -558,7 +664,9 @@ NISTd53:
   time:
     power_numerator: 1
     symbol: T
-NISTd54:
+- identifiers:
+  - id: NISTd54
+    type: nist
   electric_current:
     power_numerator: 2
     symbol: I
@@ -572,7 +680,9 @@ NISTd54:
   time:
     power_numerator: 2
     symbol: T
-NISTd55:
+- identifiers:
+  - id: NISTd55
+    type: nist
   amount_of_substance:
     power_numerator: 1
     symbol: "N"
@@ -583,7 +693,9 @@ NISTd55:
   time:
     power_numerator: -1
     symbol: T
-NISTd56:
+- identifiers:
+  - id: NISTd56
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -591,12 +703,16 @@ NISTd56:
   time:
     power_numerator: -1
     symbol: T
-NISTd57:
+- identifiers:
+  - id: NISTd57
+    type: nist
   length:
     power_numerator: 4
     symbol: L
   short: area_moment_of_inertia
-NISTd58:
+- identifiers:
+  - id: NISTd58
+    type: nist
   length:
     power_numerator: -1
     symbol: L
@@ -604,7 +720,9 @@ NISTd58:
     power_numerator: 1
     symbol: M
   short: linear_density
-NISTd59:
+- identifiers:
+  - id: NISTd59
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -612,7 +730,9 @@ NISTd59:
     power_numerator: 1
     symbol: M
   short: mass_moment_of_inertia
-NISTd60:
+- identifiers:
+  - id: NISTd60
+    type: nist
   length:
     power_numerator: 2
     symbol: L
@@ -623,7 +743,9 @@ NISTd60:
   time:
     power_numerator: -1
     symbol: T
-NISTd61:
+- identifiers:
+  - id: NISTd61
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -634,7 +756,9 @@ NISTd61:
   time:
     power_numerator: -1
     symbol: T
-NISTd62:
+- identifiers:
+  - id: NISTd62
+    type: nist
   length:
     power_numerator: 3
     symbol: L
@@ -645,7 +769,9 @@ NISTd62:
   time:
     power_numerator: -2
     symbol: T
-NISTd63:
+- identifiers:
+  - id: NISTd63
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -656,13 +782,17 @@ NISTd63:
   time:
     power_numerator: 2
     symbol: T
-NISTd64:
+- identifiers:
+  - id: NISTd64
+    type: nist
   dimensionless: true
   plane_angle:
     power_numerator: 1
     symbol: phi
   short: solid_angle
-NISTd65:
+- identifiers:
+  - id: NISTd65
+    type: nist
   mass:
     power_numerator: 1
     symbol: M
@@ -670,7 +800,9 @@ NISTd65:
   time:
     power_numerator: -1
     symbol: T
-NISTd66:
+- identifiers:
+  - id: NISTd66
+    type: nist
   length:
     power_numerator: 3
     symbol: L
@@ -678,15 +810,21 @@ NISTd66:
   time:
     power_numerator: -1
     symbol: T
-NISTd67:
+- identifiers:
+  - id: NISTd67
+    type: nist
   dimensionless: true
   short: logarithmic_ratio
-NISTd68:
+- identifiers:
+  - id: NISTd68
+    type: nist
   short: linear_expansion_coefficient
   thermodynamic_temperature:
     power_numerator: -1
     symbol: Theta
-NISTd69:
+- identifiers:
+  - id: NISTd69
+    type: nist
   length:
     power_numerator: -1
     symbol: L
@@ -700,7 +838,9 @@ NISTd69:
   time:
     power_numerator: -2
     symbol: T
-NISTd70:
+- identifiers:
+  - id: NISTd70
+    type: nist
   length:
     power_numerator: 1
     symbol: L
@@ -711,7 +851,9 @@ NISTd70:
   time:
     power_numerator: 2
     symbol: T
-NISTd71:
+- identifiers:
+  - id: NISTd71
+    type: nist
   mass:
     power_numerator: 1
     symbol: M
@@ -722,7 +864,9 @@ NISTd71:
   time:
     power_numerator: -3
     symbol: T
-NISTd72:
+- identifiers:
+  - id: NISTd72
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -733,7 +877,9 @@ NISTd72:
   time:
     power_numerator: 1
     symbol: T
-NISTd73:
+- identifiers:
+  - id: NISTd73
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -741,7 +887,9 @@ NISTd73:
     power_numerator: 2
     symbol: L
   short: magnetic_dipole_moment
-NISTd74:
+- identifiers:
+  - id: NISTd74
+    type: nist
   electric_current:
     power_numerator: -1
     symbol: I
@@ -752,7 +900,9 @@ NISTd74:
   time:
     power_numerator: -3
     symbol: T
-NISTd75:
+- identifiers:
+  - id: NISTd75
+    type: nist
   electric_current:
     power_numerator: 1
     symbol: I
@@ -763,7 +913,9 @@ NISTd75:
   time:
     power_numerator: 1
     symbol: T
-NISTd76:
+- identifiers:
+  - id: NISTd76
+    type: nist
   electric_current:
     power_numerator: 2
     symbol: I
@@ -774,7 +926,9 @@ NISTd76:
   time:
     power_numerator: 4
     symbol: T
-NISTd77:
+- identifiers:
+  - id: NISTd77
+    type: nist
   electric_current:
     power_numerator: 3
     symbol: I
@@ -788,7 +942,9 @@ NISTd77:
   time:
     power_numerator: 7
     symbol: T
-NISTd78:
+- identifiers:
+  - id: NISTd78
+    type: nist
   electric_current:
     power_numerator: 4
     symbol: I
@@ -802,7 +958,9 @@ NISTd78:
   time:
     power_numerator: 10
     symbol: T
-NISTd79:
+- identifiers:
+  - id: NISTd79
+    type: nist
   amount_of_substance:
     power_numerator: 1
     symbol: "N"
@@ -810,18 +968,28 @@ NISTd79:
     power_numerator: 1
     symbol: M
   short: molality
-NISTd80:
+- identifiers:
+  - id: NISTd80
+    type: nist
   dimensionless: true
   short: ratio_quantity
-NISTd84:
+- identifiers:
+  - id: NISTd84
+    type: nist
   dimensionless: true
   short: field_power_level
-NISTd85:
+- identifiers:
+  - id: NISTd85
+    type: nist
   dimensionless: true
   short: mass_mole_fraction
-NISTd94:
+- identifiers:
+  - id: NISTd94
+    type: nist
   dimensionless: true
   short: acidity_index
-NISTd95:
+- identifiers:
+  - id: NISTd95
+    type: nist
   dimensionless: true
   short: storage_capacity

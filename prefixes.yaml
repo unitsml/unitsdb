@@ -1,5 +1,7 @@
 ---
-NISTp2_10:
+- identifiers:
+  - id: NISTp2_10
+    type: nist
   base: 2
   name: kibi
   power: 10
@@ -10,7 +12,9 @@ NISTp2_10:
     html: Ki
     id: kibi
     mathml: "<mi>Ki</mi>"
-NISTp2_20:
+- identifiers:
+  - id: NISTp2_20
+    type: nist
   base: 2
   name: mebi
   power: 20
@@ -21,7 +25,9 @@ NISTp2_20:
     html: Mi
     id: mebi
     mathml: "<mi>Mi</mi>"
-NISTp2_30:
+- identifiers:
+  - id: NISTp2_30
+    type: nist
   base: 2
   name: gibi
   power: 30
@@ -32,7 +38,9 @@ NISTp2_30:
     html: Gi
     id: gibi
     mathml: "<mi>Gi</mi>"
-NISTp2_40:
+- identifiers:
+  - id: NISTp2_40
+    type: nist
   base: 2
   name: tebi
   power: 40
@@ -43,7 +51,9 @@ NISTp2_40:
     html: Ti
     id: tebi
     mathml: "<mi>Ti</mi>"
-NISTp2_50:
+- identifiers:
+  - id: NISTp2_50
+    type: nist
   base: 2
   name: pebi
   power: 50
@@ -54,7 +64,9 @@ NISTp2_50:
     html: Pi
     id: pebi
     mathml: "<mi>Pi</mi>"
-NISTp2_60:
+- identifiers:
+  - id: NISTp2_60
+    type: nist
   base: 2
   name: exbi
   power: 60
@@ -65,7 +77,9 @@ NISTp2_60:
     html: Ei
     id: exbi
     mathml: "<mi>Ei</mi>"
-NISTp2_70:
+- identifiers:
+  - id: NISTp2_70
+    type: nist
   base: 2
   name: zebi
   power: 70
@@ -76,7 +90,9 @@ NISTp2_70:
     html: Zi
     id: zebi
     mathml: "<mi>Zi</mi>"
-NISTp2_80:
+- identifiers:
+  - id: NISTp2_80
+    type: nist
   base: 2
   name: yobi
   power: 80
@@ -87,7 +103,9 @@ NISTp2_80:
     html: Yi
     id: yobi
     mathml: "<mi>Yi</mi>"
-NISTp10_-30:
+- identifiers:
+  - id: NISTp10_-30
+    type: nist
   base: 10
   name: quecto
   power: -30
@@ -98,7 +116,9 @@ NISTp10_-30:
     html: q
     id: quecto
     mathml: "<mi>q</mi>"
-NISTp10_-27:
+- identifiers:
+  - id: NISTp10_-27
+    type: nist
   base: 10
   name: ronto
   power: -27
@@ -109,7 +129,9 @@ NISTp10_-27:
     html: r
     id: ronto
     mathml: "<mi>r</mi>"
-NISTp10_-24:
+- identifiers:
+  - id: NISTp10_-24
+    type: nist
   base: 10
   name: yocto
   power: -24
@@ -120,7 +142,9 @@ NISTp10_-24:
     html: "y"
     id: yocto
     mathml: "<mi>y</mi>"
-NISTp10_-21:
+- identifiers:
+  - id: NISTp10_-21
+    type: nist
   base: 10
   name: zepto
   power: -21
@@ -131,7 +155,9 @@ NISTp10_-21:
     html: z
     id: zepto
     mathml: "<mi>z</mi>"
-NISTp10_-18:
+- identifiers:
+  - id: NISTp10_-18
+    type: nist
   base: 10
   name: atto
   power: -18
@@ -142,7 +168,9 @@ NISTp10_-18:
     html: a
     id: atto
     mathml: "<mi>a</mi>"
-NISTp10_-15:
+- identifiers:
+  - id: NISTp10_-15
+    type: nist
   base: 10
   name: femto
   power: -15
@@ -153,7 +181,9 @@ NISTp10_-15:
     html: f
     id: femto
     mathml: "<mi>f</mi>"
-NISTp10_-12:
+- identifiers:
+  - id: NISTp10_-12
+    type: nist
   base: 10
   name: pico
   power: -12
@@ -164,7 +194,9 @@ NISTp10_-12:
     html: p
     id: pico
     mathml: "<mi>p</mi>"
-NISTp10_-9:
+- identifiers:
+  - id: NISTp10_-9
+    type: nist
   base: 10
   name: nano
   power: -9
@@ -175,7 +207,9 @@ NISTp10_-9:
     html: "n"
     id: nano
     mathml: "<mi>n</mi>"
-NISTp10_-6:
+- identifiers:
+  - id: NISTp10_-6
+    type: nist
   base: 10
   name: micro
   power: -6
@@ -186,7 +220,9 @@ NISTp10_-6:
     html: "&micro;"
     id: micro
     mathml: "<mi>&micro;</mi>"
-NISTp10_-3:
+- identifiers:
+  - id: NISTp10_-3
+    type: nist
   base: 10
   name: milli
   power: -3
@@ -197,7 +233,9 @@ NISTp10_-3:
     html: m
     id: milli
     mathml: "<mi>m</mi>"
-NISTp10_-2:
+- identifiers:
+  - id: NISTp10_-2
+    type: nist
   base: 10
   name: centi
   power: -2
@@ -208,7 +246,9 @@ NISTp10_-2:
     html: c
     id: centi
     mathml: "<mi>c</mi>"
-NISTp10_-1:
+- identifiers:
+  - id: NISTp10_-1
+    type: nist
   base: 10
   name: deci
   power: -1
@@ -219,7 +259,9 @@ NISTp10_-1:
     html: d
     id: deci
     mathml: "<mi>d</mi>"
-NISTp10_0:
+- identifiers:
+  - id: NISTp10_0
+    type: nist
   base: 10
   name: ''
   power: 0
@@ -230,7 +272,9 @@ NISTp10_0:
     html: ''
     id: ''
     mathml: ''
-NISTp10_1:
+- identifiers:
+  - id: NISTp10_1
+    type: nist
   base: 10
   name: deka
   power: 1
@@ -241,7 +285,9 @@ NISTp10_1:
     html: da
     id: deka
     mathml: "<mi>da</mi>"
-NISTp10_2:
+- identifiers:
+  - id: NISTp10_2
+    type: nist
   base: 10
   name: hecto
   power: 2
@@ -252,7 +298,9 @@ NISTp10_2:
     html: h
     id: hecto
     mathml: "<mi>h</mi>"
-NISTp10_3:
+- identifiers:
+  - id: NISTp10_3
+    type: nist
   base: 10
   name: kilo
   power: 3
@@ -263,7 +311,9 @@ NISTp10_3:
     html: k
     id: kilo
     mathml: "<mi>k</mi>"
-NISTp10_6:
+- identifiers:
+  - id: NISTp10_6
+    type: nist
   base: 10
   name: mega
   power: 6
@@ -274,7 +324,9 @@ NISTp10_6:
     html: M
     id: mega
     mathml: "<mi>M</mi>"
-NISTp10_9:
+- identifiers:
+  - id: NISTp10_9
+    type: nist
   base: 10
   name: giga
   power: 9
@@ -285,7 +337,9 @@ NISTp10_9:
     html: G
     id: giga
     mathml: "<mi>G</mi>"
-NISTp10_12:
+- identifiers:
+  - id: NISTp10_12
+    type: nist
   base: 10
   name: tera
   power: 12
@@ -296,7 +350,9 @@ NISTp10_12:
     html: T
     id: tera
     mathml: "<mi>T</mi>"
-NISTp10_15:
+- identifiers:
+  - id: NISTp10_15
+    type: nist
   base: 10
   name: peta
   power: 15
@@ -307,7 +363,9 @@ NISTp10_15:
     html: P
     id: peta
     mathml: "<mi>P</mi>"
-NISTp10_18:
+- identifiers:
+  - id: NISTp10_18
+    type: nist
   base: 10
   name: exa
   power: 18
@@ -318,7 +376,9 @@ NISTp10_18:
     html: E
     id: exa
     mathml: "<mi>E</mi>"
-NISTp10_21:
+- identifiers:
+  - id: NISTp10_21
+    type: nist
   base: 10
   name: zetta
   power: 21
@@ -329,7 +389,9 @@ NISTp10_21:
     html: Z
     id: zetta
     mathml: "<mi>Z</mi>"
-NISTp10_24:
+- identifiers:
+  - id: NISTp10_24
+    type: nist
   base: 10
   name: yotta
   power: 24
@@ -340,7 +402,9 @@ NISTp10_24:
     html: "Y"
     id: yotta
     mathml: "<mi>Y</mi>"
-NISTp10_27:
+- identifiers:
+  - id: NISTp10_27
+    type: nist
   base: 10
   name: ronna
   power: 27
@@ -351,7 +415,9 @@ NISTp10_27:
     html: R
     id: ronna
     mathml: "<mi>R</mi>"
-NISTp10_30:
+- identifiers:
+  - id: NISTp10_30
+    type: nist
   base: 10
   name: quetta
   power: 30

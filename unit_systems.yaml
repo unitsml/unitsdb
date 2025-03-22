@@ -1,19 +1,43 @@
 ---
 - acceptable: true
-  id: SI_base
-  name: SI units
+  short: si-compatible
+  identifiers:
+  - id: SI_compatible
+    type: nist
+  name: Units compatible with SI
 - acceptable: true
-  id: SI_derived_special
+  short: si-base
+  identifiers:
+  - id: SI_base
+    type: nist
+  name: SI base units
+- acceptable: true
+  short: si-derived-special
+  identifiers:
+  - id: SI_derived_special
+    type: nist
   name: SI-derived units special
 - acceptable: true
-  id: SI_derived_non-special
+  short: si-derived-nonspecial
+  identifiers:
+  - id: SI_derived_non-special
+    type: nist
   name: SI-derived units non-special
 - acceptable: true
-  id: non-SI_acceptable
+  short: nonsi-acceptable
+  identifiers:
+  - id: non-SI_acceptable
+    type: nist
   name: non-SI but acceptable
 - acceptable: true
-  id: non-SI_nist_acceptable
+  short: nonsi-nist-acceptable
+  identifiers:
+  - id: non-SI_nist_acceptable
+    type: nist
   name: non-SI but acceptable by NIST SP 811
 - acceptable: false
-  id: non-SI_not_acceptable
+  short: nonsi-unacceptable
+  identifiers:
+  - id: non-SI_not_acceptable
+    type: nist
   name: non-SI and not acceptable
