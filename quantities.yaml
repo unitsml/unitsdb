@@ -242,6 +242,7 @@ quantities:
   names:
   - area
   quantity_type: base
+  short: area
   unit_references:
   - id: NISTu164
     type: nist
@@ -273,6 +274,7 @@ quantities:
   - plane angle
   - angle
   quantity_type: derived
+  short: plane_angle
   unit_references:
   - id: NISTu147
     type: nist
@@ -295,6 +297,7 @@ quantities:
   names:
   - volume
   quantity_type: derived
+  short: volume
   unit_references:
   - id: NISTu115
     type: nist
@@ -371,6 +374,7 @@ quantities:
   names:
   - solid angle
   quantity_type: derived
+  short: solid_angle
   unit_references:
   - id: NISTu10
     type: nist
@@ -386,6 +390,7 @@ quantities:
   - velocity
   - speed
   quantity_type: derived
+  short: velocity
   unit_references:
   - id: NISTu1.u3e-1/1
     type: nist
@@ -418,6 +423,7 @@ quantities:
   names:
   - force
   quantity_type: derived
+  short: force
   unit_references:
   - id: NISTu11
     type: nist
@@ -452,6 +458,7 @@ quantities:
   names:
   - magnetic flux density
   quantity_type: derived
+  short: magnetic_flux_density
   unit_references:
   - id: NISTu116
     type: nist
@@ -472,6 +479,7 @@ quantities:
   names:
   - pressure
   quantity_type: derived
+  short: pressure
   unit_references:
   - id: NISTu12
     type: nist
@@ -538,6 +546,7 @@ quantities:
   names:
   - stress
   quantity_type: derived
+  short: stress
   unit_references:
   - id: NISTu12
     type: nist
@@ -598,6 +607,7 @@ quantities:
   names:
   - energy
   quantity_type: derived
+  short: energy
   unit_references:
   - id: NISTu117
     type: nist
@@ -644,6 +654,7 @@ quantities:
   names:
   - work
   quantity_type: derived
+  short: work
   unit_references:
   - id: NISTu117
     type: nist
@@ -681,6 +692,7 @@ quantities:
   - amount of heat
   - heat
   quantity_type: derived
+  short: amount_of_heat
   unit_references:
   - id: NISTu117
     type: nist
@@ -725,6 +737,7 @@ quantities:
   names:
   - power
   quantity_type: derived
+  short: power
   unit_references:
   - id: NISTu127
     type: nist
@@ -765,6 +778,7 @@ quantities:
   names:
   - radiant flux
   quantity_type: derived
+  short: radiant_flux
   unit_references:
   - id: NISTu127
     type: nist
@@ -785,6 +799,7 @@ quantities:
   names:
   - electric charge
   quantity_type: derived
+  short: electric_charge
   unit_references:
   - id: NISTu15
     type: nist
@@ -805,6 +820,7 @@ quantities:
   names:
   - amount of electricity
   quantity_type: derived
+  short: amount_of_electricity
   unit_references:
   - id: NISTu15
     type: nist
@@ -823,6 +839,7 @@ quantities:
   names:
   - electric potential difference
   quantity_type: derived
+  short: electric_potential_difference
   unit_references:
   - id: NISTu16
     type: nist
@@ -841,6 +858,7 @@ quantities:
   names:
   - potential difference
   quantity_type: derived
+  short: potential_difference
   unit_references:
   - id: NISTu16
     type: nist
@@ -855,6 +873,7 @@ quantities:
   names:
   - electromotive force
   quantity_type: derived
+  short: electromotive_force
   unit_references:
   - id: NISTu16
     type: nist
@@ -873,6 +892,7 @@ quantities:
   names:
   - capacitance
   quantity_type: derived
+  short: capacitance
   unit_references:
   - id: NISTu17
     type: nist
@@ -887,6 +907,7 @@ quantities:
   names:
   - electric resistance
   quantity_type: derived
+  short: electric_resistance
   unit_references:
   - id: NISTu18
     type: nist
@@ -903,6 +924,7 @@ quantities:
   names:
   - electric conductance
   quantity_type: derived
+  short: electric_conductance
   unit_references:
   - id: NISTu19
     type: nist
@@ -919,6 +941,7 @@ quantities:
   names:
   - magnetic flux
   quantity_type: derived
+  short: magnetic_flux
   unit_references:
   - id: NISTu20
     type: nist
@@ -936,6 +959,7 @@ quantities:
   - surface density
   - areic mass
   quantity_type: derived
+  short: surface_density
   unit_references:
   - id: NISTu27p10'3.u1e-2/1
     type: nist
@@ -948,6 +972,7 @@ quantities:
   names:
   - inductance
   quantity_type: derived
+  short: inductance
   unit_references:
   - id: NISTu22
     type: nist
@@ -962,6 +987,7 @@ quantities:
   names:
   - mass concentration
   quantity_type: derived
+  short: mass_concentration
   unit_references:
   - id: NISTu27p10'3.u1e-3/1
     type: nist
@@ -974,6 +1000,7 @@ quantities:
   names:
   - Celsius temperature
   quantity_type: derived
+  short: celsius_temperature
   unit_references:
   - id: NISTu23
     type: nist
@@ -986,6 +1013,7 @@ quantities:
   names:
   - activity referred to a radionuclide
   quantity_type: derived
+  short: activity_referred_to_a_radionuclide
   unit_references:
   - id: NISTu25
     type: nist
@@ -1000,6 +1028,7 @@ quantities:
   names:
   - absorbed dose
   quantity_type: derived
+  short: absorbed_dose
   unit_references:
   - id: NISTu28
     type: nist
@@ -1014,6 +1043,7 @@ quantities:
   names:
   - specific energy imparted
   quantity_type: derived
+  short: specific_energy_imparted
   unit_references:
   - id: NISTu28
     type: nist
@@ -1026,6 +1056,7 @@ quantities:
   names:
   - kerma
   quantity_type: derived
+  short: kerma
   unit_references:
   - id: NISTu28
     type: nist
@@ -1038,6 +1069,7 @@ quantities:
   names:
   - dose equivalent
   quantity_type: derived
+  short: dose_equivalent
   unit_references:
   - id: NISTu100
     type: nist
@@ -1052,6 +1084,7 @@ quantities:
   names:
   - ambient dose equivalent
   quantity_type: derived
+  short: ambient_dose_equivalent
   dimension_reference:
     id: NISTd25
     type: nist
@@ -1061,6 +1094,7 @@ quantities:
   names:
   - directional dose equivalent
   quantity_type: derived
+  short: directional_dose_equivalent
   dimension_reference:
     id: NISTd25
     type: nist
@@ -1070,6 +1104,7 @@ quantities:
   names:
   - personal dose equivalent
   quantity_type: derived
+  short: personal_dose_equivalent
   dimension_reference:
     id: NISTd25
     type: nist
@@ -1079,6 +1114,7 @@ quantities:
   names:
   - organ dose equivalent
   quantity_type: derived
+  short: organ_dose_equivalent
   dimension_reference:
     id: NISTd25
     type: nist
@@ -1088,6 +1124,7 @@ quantities:
   names:
   - catalytic activity
   quantity_type: derived
+  short: catalytic_activity
   unit_references:
   - id: NISTu30
     type: nist
@@ -1100,6 +1137,7 @@ quantities:
   names:
   - frequency
   quantity_type: derived
+  short: frequency
   unit_references:
   - id: NISTu31
     type: nist
@@ -1112,6 +1150,7 @@ quantities:
   names:
   - luminous flux
   quantity_type: derived
+  short: luminous_flux
   unit_references:
   - id: NISTu32
     type: nist
@@ -1124,6 +1163,7 @@ quantities:
   names:
   - illuminance
   quantity_type: derived
+  short: illuminance
   unit_references:
   - id: NISTu276
     type: nist
@@ -1140,6 +1180,7 @@ quantities:
   names:
   - distance
   quantity_type: base
+  short: distance
   unit_references:
   - id: NISTu1
     type: nist
@@ -1174,6 +1215,7 @@ quantities:
   names:
   - acceleration
   quantity_type: derived
+  short: acceleration
   unit_references:
   - id: NISTu1.u3e-2/1
     type: nist
@@ -1191,6 +1233,7 @@ quantities:
   - wavenumber
   - repetency
   quantity_type: derived
+  short: wavenumber
   unit_references:
   - id: NISTu120
     type: nist
@@ -1206,6 +1249,7 @@ quantities:
   - density
   - mass density
   quantity_type: derived
+  short: density
   unit_references:
   - id: NISTu185
     type: nist
@@ -1227,6 +1271,7 @@ quantities:
   - specific volume
   - massic volume
   quantity_type: derived
+  short: specific_volume
   unit_references:
   - id: NISTu101
     type: nist
@@ -1239,6 +1284,7 @@ quantities:
   names:
   - current density
   quantity_type: derived
+  short: current_density
   unit_references:
   - id: NISTu4.u1e-2/1
     type: nist
@@ -1251,6 +1297,7 @@ quantities:
   names:
   - magnetic field strength
   quantity_type: derived
+  short: magnetic_field_strength
   unit_references:
   - id: NISTu4.u1e-1/1
     type: nist
@@ -1263,6 +1310,7 @@ quantities:
   names:
   - amount concentration
   quantity_type: derived
+  short: amount_concentration
   unit_references:
   - id: NISTu366
     type: nist
@@ -1277,6 +1325,7 @@ quantities:
   names:
   - luminance
   quantity_type: derived
+  short: luminance
   unit_references:
   - id: NISTu124
     type: nist
@@ -1295,6 +1344,7 @@ quantities:
   names:
   - angular velocity
   quantity_type: derived
+  short: angular_velocity
   unit_references:
   - id: NISTu9.u3e-1/1
     type: nist
@@ -1307,6 +1357,7 @@ quantities:
   names:
   - angular acceleration
   quantity_type: derived
+  short: angular_acceleration
   unit_references:
   - id: NISTu9.u3e-2/1
     type: nist
@@ -1319,6 +1370,7 @@ quantities:
   names:
   - dynamic viscosity
   quantity_type: derived
+  short: dynamic_viscosity
   unit_references:
   - id: NISTu12.u3
     type: nist
@@ -1335,6 +1387,7 @@ quantities:
   names:
   - moment of force
   quantity_type: derived
+  short: moment_of_force
   unit_references:
   - id: NISTu11.u1
     type: nist
@@ -1353,6 +1406,7 @@ quantities:
   names:
   - surface tension
   quantity_type: derived
+  short: surface_tension
   unit_references:
   - id: NISTu11.u1e-1/1
     type: nist
@@ -1365,6 +1419,7 @@ quantities:
   names:
   - heat flux density
   quantity_type: derived
+  short: heat_flux_density
   unit_references:
   - id: NISTu14.u1e-2/1
     type: nist
@@ -1377,6 +1432,7 @@ quantities:
   names:
   - heat capacity
   quantity_type: derived
+  short: heat_capacity
   unit_references:
   - id: NISTu13.u5e-1/1
     type: nist
@@ -1389,6 +1445,7 @@ quantities:
   names:
   - specific heat capacity
   quantity_type: derived
+  short: specific_heat_capacity
   unit_references:
   - id: NISTu13.u27p10'3e-1/1.u5e-1/1
     type: nist
@@ -1401,6 +1458,7 @@ quantities:
   names:
   - specific energy
   quantity_type: derived
+  short: specific_energy
   unit_references:
   - id: NISTu13.u27p10'3e-1/1
     type: nist
@@ -1413,6 +1471,7 @@ quantities:
   names:
   - thermal conductivity
   quantity_type: derived
+  short: thermal_conductivity
   unit_references:
   - id: NISTu14.u1e-1/1.u5e-1/1
     type: nist
@@ -1425,6 +1484,7 @@ quantities:
   names:
   - energy density
   quantity_type: derived
+  short: energy_density
   unit_references:
   - id: NISTu13.u1e-3/1
     type: nist
@@ -1437,6 +1497,7 @@ quantities:
   names:
   - electric field strength
   quantity_type: derived
+  short: electric_field_strength
   unit_references:
   - id: NISTu16.u1e-1/1
     type: nist
@@ -1451,6 +1512,7 @@ quantities:
   names:
   - electric charge density
   quantity_type: derived
+  short: electric_charge_density
   unit_references:
   - id: NISTu15.u1e-3/1
     type: nist
@@ -1465,6 +1527,7 @@ quantities:
   names:
   - electric flux density
   quantity_type: derived
+  short: electric_flux_density
   dimension_reference:
     id: NISTd44
     type: nist
@@ -1474,6 +1537,7 @@ quantities:
   names:
   - permittivity
   quantity_type: derived
+  short: permittivity
   unit_references:
   - id: NISTu17.u1e-1/1
     type: nist
@@ -1488,6 +1552,7 @@ quantities:
   names:
   - permeability
   quantity_type: derived
+  short: permeability
   unit_references:
   - id: NISTu157
     type: nist
@@ -1502,6 +1567,7 @@ quantities:
   names:
   - molar energy
   quantity_type: derived
+  short: molar_energy
   unit_references:
   - id: NISTu13.u6e-1/1
     type: nist
@@ -1514,6 +1580,7 @@ quantities:
   names:
   - molar entropy
   quantity_type: derived
+  short: molar_entropy
   unit_references:
   - id: NISTu13.u6e-1/1.u5e-1/1
     type: nist
@@ -1526,6 +1593,7 @@ quantities:
   names:
   - exposure (x and gamma rays)
   quantity_type: derived
+  short: exposure_x_and_gamma_rays
   unit_references:
   - id: NISTu118
     type: nist
@@ -1540,6 +1608,7 @@ quantities:
   names:
   - absorbed dose rate
   quantity_type: derived
+  short: absorbed_dose_rate
   unit_references:
   - id: NISTu28.u3e-1/1
     type: nist
@@ -1552,6 +1621,7 @@ quantities:
   names:
   - potential energy
   quantity_type: derived
+  short: potential_energy
   unit_references:
   - id: NISTu117
     type: nist
@@ -1586,6 +1656,7 @@ quantities:
   names:
   - irradiance
   quantity_type: derived
+  short: irradiance
   unit_references:
   - id: NISTu14.u1e-2/1
     type: nist
@@ -1598,6 +1669,7 @@ quantities:
   names:
   - entropy
   quantity_type: derived
+  short: entropy
   unit_references:
   - id: NISTu13.u5e-1/1
     type: nist
@@ -1610,6 +1682,7 @@ quantities:
   names:
   - specific entropy
   quantity_type: derived
+  short: specific_entropy
   unit_references:
   - id: NISTu13.u27p10'3e-1/1.u5e-1/1
     type: nist
@@ -1622,6 +1695,7 @@ quantities:
   names:
   - surface charge density
   quantity_type: derived
+  short: surface_charge_density
   unit_references:
   - id: NISTu15.u1e-2/1
     type: nist
@@ -1634,6 +1708,7 @@ quantities:
   names:
   - electric displacement
   quantity_type: derived
+  short: electric_displacement
   unit_references:
   - id: NISTu15.u1e-2/1
     type: nist
@@ -1646,6 +1721,7 @@ quantities:
   names:
   - molar heat capacity
   quantity_type: derived
+  short: molar_heat_capacity
   unit_references:
   - id: NISTu13.u6e-1/1.u5e-1/1
     type: nist
@@ -1658,6 +1734,7 @@ quantities:
   names:
   - catalytic activity concentration
   quantity_type: derived
+  short: catalytic_activity_concentration
   unit_references:
   - id: NISTu30.u1e-3/1
     type: nist
@@ -1670,6 +1747,7 @@ quantities:
   names:
   - kinematic viscosity
   quantity_type: derived
+  short: kinematic_viscosity
   unit_references:
   - id: NISTu121
     type: nist
@@ -1688,6 +1766,7 @@ quantities:
   names:
   - magnetic field
   quantity_type: derived
+  short: magnetic_field
   unit_references:
   - id: NISTu144
     type: nist
@@ -1700,6 +1779,7 @@ quantities:
   names:
   - radiant intensity
   quantity_type: derived
+  short: radiant_intensity
   unit_references:
   - id: NISTu14.u10e-1/1
     type: nist
@@ -1712,6 +1792,7 @@ quantities:
   names:
   - radiance
   quantity_type: derived
+  short: radiance
   unit_references:
   - id: NISTu14.u1e-2/1.u10e-1/1
     type: nist
@@ -1724,6 +1805,7 @@ quantities:
   names:
   - logarithmic ratio quantities
   quantity_type: derived
+  short: logarithmic_ratio_quantities
   unit_references:
   - id: NISTu153
     type: nist
@@ -1741,6 +1823,7 @@ quantities:
   - fluidity
   - reciprocal of dynamic viscosity
   quantity_type: derived
+  short: fluidity
   unit_references:
   - id: NISTu129
     type: nist
@@ -1753,6 +1836,7 @@ quantities:
   names:
   - hydrodynamic permeability
   quantity_type: derived
+  short: hydrodynamic_permeability
   unit_references:
   - id: NISTu157
     type: nist
@@ -1765,6 +1849,7 @@ quantities:
   names:
   - refractive index
   quantity_type: derived
+  short: refractive_index
   unit_references:
   - id: NISTu61
     type: nist
@@ -1777,6 +1862,7 @@ quantities:
   names:
   - relative permeability
   quantity_type: derived
+  short: relative_permeability
   unit_references:
   - id: NISTu61
     type: nist
@@ -1789,6 +1875,7 @@ quantities:
   names:
   - breadth
   quantity_type: derived
+  short: breadth
   unit_references:
   - id: NISTu1
     type: nist
@@ -1801,6 +1888,7 @@ quantities:
   names:
   - height
   quantity_type: derived
+  short: height
   unit_references:
   - id: NISTu1
     type: nist
@@ -1813,6 +1901,7 @@ quantities:
   names:
   - thickness
   quantity_type: derived
+  short: thickness
   unit_references:
   - id: NISTu1
     type: nist
@@ -1825,6 +1914,7 @@ quantities:
   names:
   - radius
   quantity_type: derived
+  short: radius
   unit_references:
   - id: NISTu1
     type: nist
@@ -1837,6 +1927,7 @@ quantities:
   names:
   - radial distance
   quantity_type: derived
+  short: radial_distance
   unit_references:
   - id: NISTu1
     type: nist
@@ -1849,6 +1940,7 @@ quantities:
   names:
   - diameter
   quantity_type: derived
+  short: diameter
   unit_references:
   - id: NISTu1
     type: nist
@@ -1861,6 +1953,7 @@ quantities:
   names:
   - length of path
   quantity_type: derived
+  short: length_of_path
   unit_references:
   - id: NISTu1
     type: nist
@@ -1873,6 +1966,7 @@ quantities:
   names:
   - cartesian coordinates
   quantity_type: derived
+  short: cartesian_coordinates
   unit_references:
   - id: NISTu1
     type: nist
@@ -1885,6 +1979,7 @@ quantities:
   names:
   - position vector
   quantity_type: derived
+  short: position_vector
   unit_references:
   - id: NISTu1
     type: nist
@@ -1897,6 +1992,7 @@ quantities:
   names:
   - displacement
   quantity_type: derived
+  short: displacement
   unit_references:
   - id: NISTu1
     type: nist
@@ -1909,6 +2005,7 @@ quantities:
   names:
   - radius of curvature
   quantity_type: derived
+  short: radius_of_curvature
   unit_references:
   - id: NISTu1
     type: nist
@@ -1921,6 +2018,7 @@ quantities:
   names:
   - curvature
   quantity_type: derived
+  short: curvature
   unit_references:
   - id: NISTu1e-1/1
     type: nist
@@ -1933,6 +2031,7 @@ quantities:
   names:
   - speed of propagation of waves
   quantity_type: derived
+  short: speed_of_propagation_of_waves
   unit_references:
   - id: NISTu1.u3e-1/1
     type: nist
@@ -1947,6 +2046,7 @@ quantities:
   names:
   - acceleration of free fall
   quantity_type: derived
+  short: acceleration_of_free_fall
   unit_references:
   - id: NISTu1.u3e-2/1
     type: nist
@@ -1960,6 +2060,7 @@ quantities:
   - period duration
   - period
   quantity_type: derived
+  short: period_duration
   unit_references:
   - id: NISTu3
     type: nist
@@ -1972,6 +2073,7 @@ quantities:
   names:
   - time constant
   quantity_type: derived
+  short: time_constant
   unit_references:
   - id: NISTu3
     type: nist
@@ -1984,6 +2086,7 @@ quantities:
   names:
   - rotation
   quantity_type: derived
+  short: rotation
   unit_references:
   - id: NISTu61
     type: nist
@@ -1996,6 +2099,7 @@ quantities:
   names:
   - rotational frequency
   quantity_type: derived
+  short: rotational_frequency
   unit_references:
   - id: NISTu3e-1/1
     type: nist
@@ -2008,6 +2112,7 @@ quantities:
   names:
   - angular frequency
   quantity_type: derived
+  short: angular_frequency
   unit_references:
   - id: NISTu3e-1/1
     type: nist
@@ -2022,6 +2127,7 @@ quantities:
   names:
   - wavelength
   quantity_type: derived
+  short: wavelength
   unit_references:
   - id: NISTu1
     type: nist
@@ -2035,6 +2141,7 @@ quantities:
   - angular wavenumber
   - angular repetency
   quantity_type: derived
+  short: angular_wavenumber
   unit_references:
   - id: NISTu1e-1/1
     type: nist
@@ -2050,6 +2157,7 @@ quantities:
   - phase velocity
   - phase speed
   quantity_type: derived
+  short: phase_velocity
   unit_references:
   - id: NISTu1.u3e-1/1
     type: nist
@@ -2063,6 +2171,7 @@ quantities:
   - group velocity
   - group speed
   quantity_type: derived
+  short: group_velocity
   unit_references:
   - id: NISTu1.u3e-1/1
     type: nist
@@ -2075,6 +2184,7 @@ quantities:
   names:
   - level of a field quantity
   quantity_type: derived
+  short: level_of_a_field_quantity
   unit_references:
   - id: NISTu153
     type: nist
@@ -2089,6 +2199,7 @@ quantities:
   names:
   - level of a power quantity
   quantity_type: derived
+  short: level_of_a_power_quantity
   unit_references:
   - id: NISTu153
     type: nist
@@ -2103,6 +2214,7 @@ quantities:
   names:
   - damping coefficient
   quantity_type: derived
+  short: damping_coefficient
   unit_references:
   - id: NISTu163
     type: nist
@@ -2117,6 +2229,7 @@ quantities:
   names:
   - logarithmic decrement
   quantity_type: derived
+  short: logarithmic_decrement
   unit_references:
   - id: NISTu61
     type: nist
@@ -2131,6 +2244,7 @@ quantities:
   names:
   - attenuation coefficient
   quantity_type: derived
+  short: attenuation_coefficient
   unit_references:
   - id: NISTu1e-1/1
     type: nist
@@ -2143,6 +2257,7 @@ quantities:
   names:
   - phase coefficient
   quantity_type: derived
+  short: phase_coefficient
   unit_references:
   - id: NISTu1e-1/1
     type: nist
@@ -2155,6 +2270,7 @@ quantities:
   names:
   - propagation coefficient
   quantity_type: derived
+  short: propagation_coefficient
   unit_references:
   - id: NISTu1e-1/1
     type: nist
@@ -2168,6 +2284,7 @@ quantities:
   - relative mass density
   - relative density
   quantity_type: derived
+  short: relative_mass_density
   unit_references:
   - id: NISTu61
     type: nist
@@ -2181,6 +2298,7 @@ quantities:
   - linear density
   - lineic mass
   quantity_type: derived
+  short: linear_density
   unit_references:
   - id: NISTu213
     type: nist
@@ -2196,6 +2314,7 @@ quantities:
   - mass moment of inertia
   - moment of inertia
   quantity_type: derived
+  short: mass_moment_of_inertia
   unit_references:
   - id: NISTu27p10'3.u1e2/1
     type: nist
@@ -2208,6 +2327,7 @@ quantities:
   names:
   - weight
   quantity_type: derived
+  short: weight
   unit_references:
   - id: NISTu205
     type: nist
@@ -2228,6 +2348,7 @@ quantities:
   names:
   - impulse
   quantity_type: derived
+  short: impulse
   unit_references:
   - id: NISTu11.u3
     type: nist
@@ -2240,6 +2361,7 @@ quantities:
   names:
   - gravitational constant
   quantity_type: derived
+  short: gravitational_constant
   unit_references:
   - id: NISTu11.u1e2/1.u27p10'3e-2/1
     type: nist
@@ -2252,6 +2374,7 @@ quantities:
   names:
   - momentum
   quantity_type: derived
+  short: momentum
   unit_references:
   - id: NISTu255
     type: nist
@@ -2271,6 +2394,7 @@ quantities:
   - moment of momentum
   - angular momentum
   quantity_type: derived
+  short: moment_of_momentum
   unit_references:
   - id: NISTu27p10'3.u1e2/1.u3e-1/1
     type: nist
@@ -2283,6 +2407,7 @@ quantities:
   names:
   - angular impulse
   quantity_type: derived
+  short: angular_impulse
   unit_references:
   - id: NISTu11.u1.u3
     type: nist
@@ -2295,6 +2420,7 @@ quantities:
   names:
   - normal stress
   quantity_type: derived
+  short: normal_stress
   unit_references:
   - id: NISTu12
     type: nist
@@ -2307,6 +2433,7 @@ quantities:
   names:
   - shear stress
   quantity_type: derived
+  short: shear_stress
   unit_references:
   - id: NISTu12
     type: nist
@@ -2319,6 +2446,7 @@ quantities:
   names:
   - linear strain
   quantity_type: derived
+  short: linear_strain
   unit_references:
   - id: NISTu61
     type: nist
@@ -2331,6 +2459,7 @@ quantities:
   names:
   - shear strain
   quantity_type: derived
+  short: shear_strain
   unit_references:
   - id: NISTu61
     type: nist
@@ -2343,6 +2472,7 @@ quantities:
   names:
   - volume strain
   quantity_type: derived
+  short: volume_strain
   unit_references:
   - id: NISTu61
     type: nist
@@ -2355,6 +2485,7 @@ quantities:
   names:
   - compressibility
   quantity_type: derived
+  short: compressibility
   unit_references:
   - id: NISTu12e-1/1
     type: nist
@@ -2367,6 +2498,7 @@ quantities:
   names:
   - Poisson number
   quantity_type: derived
+  short: poisson_number
   unit_references:
   - id: NISTu61
     type: nist
@@ -2379,6 +2511,7 @@ quantities:
   names:
   - modulus of elasticity
   quantity_type: derived
+  short: modulus_of_elasticity
   unit_references:
   - id: NISTu12
     type: nist
@@ -2392,6 +2525,7 @@ quantities:
   - modulus of rigidity
   - shear modulus
   quantity_type: derived
+  short: modulus_of_rigidity
   unit_references:
   - id: NISTu12
     type: nist
@@ -2405,6 +2539,7 @@ quantities:
   - modulus of compression
   - bulk modulus
   quantity_type: derived
+  short: modulus_of_compression
   unit_references:
   - id: NISTu12
     type: nist
@@ -2417,6 +2552,7 @@ quantities:
   names:
   - second axial moment of area
   quantity_type: derived
+  short: second_axial_moment_of_area
   unit_references:
   - id: NISTu185
     type: nist
@@ -2429,6 +2565,7 @@ quantities:
   names:
   - second polar moment of area
   quantity_type: derived
+  short: second_polar_moment_of_area
   unit_references:
   - id: NISTu185
     type: nist
@@ -2441,6 +2578,7 @@ quantities:
   names:
   - section modulus
   quantity_type: derived
+  short: section_modulus
   unit_references:
   - id: NISTu1e3/1
     type: nist
@@ -2455,6 +2593,7 @@ quantities:
   names:
   - dynamic friction factor
   quantity_type: derived
+  short: dynamic_friction_factor
   unit_references:
   - id: NISTu61
     type: nist
@@ -2467,6 +2606,7 @@ quantities:
   names:
   - mass flow rate
   quantity_type: derived
+  short: mass_flow_rate
   unit_references:
   - id: NISTu27p10'3.u3e-1/1
     type: nist
@@ -2479,6 +2619,7 @@ quantities:
   names:
   - volume flow rate
   quantity_type: derived
+  short: volume_flow_rate
   unit_references:
   - id: NISTu1e3/1.u3e-1/1
     type: nist
@@ -2499,6 +2640,7 @@ quantities:
   names:
   - Lagrange function
   quantity_type: derived
+  short: lagrange_function
   unit_references:
   - id: NISTu13
     type: nist
@@ -2511,6 +2653,7 @@ quantities:
   names:
   - Hamilton function
   quantity_type: derived
+  short: hamilton_function
   unit_references:
   - id: NISTu13
     type: nist
@@ -2523,6 +2666,7 @@ quantities:
   names:
   - action
   quantity_type: derived
+  short: action
   unit_references:
   - id: NISTu13.u3
     type: nist
@@ -2542,6 +2686,7 @@ quantities:
   - area moment of inertia
   - second moment of area
   quantity_type: derived
+  short: area_moment_of_inertia
   unit_references:
   - id: NISTu208
     type: nist
@@ -2554,6 +2699,7 @@ quantities:
   names:
   - linear expansion coefficient
   quantity_type: derived
+  short: linear_expansion_coefficient
   unit_references:
   - id: NISTu5e-1/1
     type: nist
@@ -2566,6 +2712,7 @@ quantities:
   names:
   - cubic expansion coefficient
   quantity_type: derived
+  short: cubic_expansion_coefficient
   unit_references:
   - id: NISTu5e-1/1
     type: nist
@@ -2578,6 +2725,7 @@ quantities:
   names:
   - relative pressure coefficient
   quantity_type: derived
+  short: relative_pressure_coefficient
   unit_references:
   - id: NISTu5e-1/1
     type: nist
@@ -2590,6 +2738,7 @@ quantities:
   names:
   - pressure coefficient
   quantity_type: derived
+  short: pressure_coefficient
   unit_references:
   - id: NISTu12.u5e-1/1
     type: nist
@@ -2602,6 +2751,7 @@ quantities:
   names:
   - isothermal compressibility
   quantity_type: derived
+  short: isothermal_compressibility
   unit_references:
   - id: NISTu12e-1/1
     type: nist
@@ -2614,6 +2764,7 @@ quantities:
   names:
   - magnetomotive force (Cardelli) (-SP811)
   quantity_type: derived
+  short: magnetomotive_force
   unit_references:
   - id: NISTu223
     type: nist
@@ -2626,6 +2777,7 @@ quantities:
   names:
   - electric dipole moment
   quantity_type: derived
+  short: electric_dipole_moment
   unit_references:
   - id: NISTu224
     type: nist
@@ -2640,6 +2792,7 @@ quantities:
   names:
   - magnetizability
   quantity_type: derived
+  short: magnetizability
   unit_references:
   - id: NISTu252
     type: nist
@@ -2652,6 +2805,7 @@ quantities:
   names:
   - magnetic dipole moment
   quantity_type: derived
+  short: magnetic_dipole_moment
   unit_references:
   - id: NISTu254
     type: nist
@@ -2664,6 +2818,7 @@ quantities:
   names:
   - electric field gradient
   quantity_type: derived
+  short: electric_field_gradient
   unit_references:
   - id: NISTu260
     type: nist
@@ -2676,6 +2831,7 @@ quantities:
   names:
   - electric potential
   quantity_type: derived
+  short: electric_potential
   unit_references:
   - id: NISTu261
     type: nist
@@ -2690,6 +2846,7 @@ quantities:
   names:
   - electric quadrupole moment
   quantity_type: derived
+  short: electric_quadrupole_moment
   unit_references:
   - id: NISTu263
     type: nist
@@ -2702,6 +2859,7 @@ quantities:
   names:
   - polarizability
   quantity_type: derived
+  short: polarizability
   unit_references:
   - id: NISTu264
     type: nist
@@ -2714,6 +2872,7 @@ quantities:
   names:
   - electric capacitance
   quantity_type: derived
+  short: electric_capacitance
   unit_references:
   - id: NISTu266
     type: nist
@@ -2726,6 +2885,7 @@ quantities:
   names:
   - electric current intensity
   quantity_type: derived
+  short: electric_current_intensity
   unit_references:
   - id: NISTu267
     type: nist
@@ -2738,6 +2898,7 @@ quantities:
   names:
   - electric inductance
   quantity_type: derived
+  short: electric_inductance
   unit_references:
   - id: NISTu269
     type: nist
@@ -2750,6 +2911,7 @@ quantities:
   names:
   - 1st hyperpolarizability
   quantity_type: derived
+  short: first_hyperpolarizability
   unit_references:
   - id: NISTu291
     type: nist
@@ -2762,6 +2924,7 @@ quantities:
   names:
   - 2nd hyperpolarizability
   quantity_type: derived
+  short: second_hyperpolarizability
   unit_references:
   - id: NISTu292
     type: nist
@@ -2774,6 +2937,7 @@ quantities:
   names:
   - index of acidity
   quantity_type: derived
+  short: index_of_acidity
   unit_references:
   - id: NISTu332
     type: nist
@@ -2786,6 +2950,7 @@ quantities:
   names:
   - Fahrenheit temperature
   quantity_type: derived
+  short: fahrenheit_temperature
   unit_references:
   - id: NISTu133
     type: nist
@@ -2798,6 +2963,7 @@ quantities:
   names:
   - mass divided by length
   quantity_type: derived
+  short: mass_divided_by_length
   unit_references:
   - id: NISTu346
     type: nist
@@ -2811,6 +2977,7 @@ quantities:
   - storage capacity
   - storage size
   quantity_type: derived
+  short: storage_capacity
   unit_references:
   - id: NISTu350
     type: nist
@@ -2825,6 +2992,7 @@ quantities:
   names:
   - molality of solute B
   quantity_type: derived
+  short: molality_of_solute_B
   unit_references:
   - id: NISTu6.u27p10'3e-1/1
     type: nist
@@ -2837,6 +3005,7 @@ quantities:
   names:
   - coefficient of heat transfer
   quantity_type: derived
+  short: coefficient_of_heat_transfer
   unit_references:
   - id: NISTu221
     type: nist
@@ -2849,6 +3018,7 @@ quantities:
   names:
   - surface coefficient of heat transfer
   quantity_type: derived
+  short: surface_coefficient_of_heat_transfer
   unit_references:
   - id: NISTu221
     type: nist
@@ -2861,6 +3031,7 @@ quantities:
   names:
   - kinetic energy
   quantity_type: derived
+  short: kinetic_energy
   unit_references:
   - id: NISTu117
     type: nist
@@ -2895,6 +3066,7 @@ quantities:
   names:
   - mechanical energy
   quantity_type: derived
+  short: mechanical_energy
   unit_references:
   - id: NISTu117
     type: nist
@@ -2929,6 +3101,7 @@ quantities:
   names:
   - torque
   quantity_type: derived
+  short: torque
   unit_references:
   - id: NISTu11.u1
     type: nist
@@ -2947,6 +3120,7 @@ quantities:
   names:
   - bending moment of force
   quantity_type: derived
+  short: bending_moment_of_force
   unit_references:
   - id: NISTu11.u1
     type: nist
@@ -2966,6 +3140,7 @@ quantities:
   - mass fraction
   - mole fraction
   quantity_type: derived
+  short: mass_fraction
   unit_references:
   - id: NISTu400
     type: nist
@@ -2978,6 +3153,7 @@ quantities:
   names:
   - apparent power
   quantity_type: derived
+  short: apparent_power
   unit_references:
   - id: NISTu401
     type: nist
@@ -2990,6 +3166,7 @@ quantities:
   names:
   - nil
   quantity_type: derived
+  short: nil
   unit_references:
   - id: NISTu61
     type: nist
