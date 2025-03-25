@@ -7888,9 +7888,6 @@ units:
     html: pH
     id: pH
     mathml: "<mi mathvariant='normal'>pH</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
