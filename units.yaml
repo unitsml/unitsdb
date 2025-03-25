@@ -5580,13 +5580,7 @@ units:
   - id: NISTu239
     type: nist
   quantity_references:
-  - id: NISTq128
-    type: nist
-  - id: NISTq13
-    type: nist
   - id: NISTq15
-    type: nist
-  - id: NISTq16
     type: nist
   names:
   - barye
@@ -5599,9 +5593,6 @@ units:
     html: barye
     id: barye
     mathml: "<mi mathvariant='normal'>barye</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
