@@ -70,6 +70,14 @@ quantities:
     type: nist
   - id: NISTu84
     type: nist
+  - id: NISTu376
+    type: nist
+  - id: NISTu377
+    type: nist
+  - id: NISTu378
+    type: nist
+  - id: NISTu379
+    type: nist
   dimension_reference:
     id: NISTd1
     type: nist
@@ -1426,6 +1434,8 @@ quantities:
   short: specific_volume
   unit_references:
   - id: NISTu101
+    type: nist
+  - id: NISTu1e3/1.u27p10'3
     type: nist
   dimension_reference:
     id: NISTd31
