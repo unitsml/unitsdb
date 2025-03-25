@@ -345,9 +345,6 @@ units:
     html: sr
     id: sr
     mathml: "<mi mathvariant='normal'>sr</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
