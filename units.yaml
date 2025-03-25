@@ -599,6 +599,8 @@ units:
   quantity_references:
   - id: NISTq24
     type: nist
+  - id: NISTq25
+    type: nist
   - id: NISTq26
     type: nist
   si_derived_bases:
@@ -1656,6 +1658,8 @@ units:
     type: nist
   quantity_references:
   - id: NISTq24
+    type: nist
+  - id: NISTq25
     type: nist
   - id: NISTq26
     type: nist
