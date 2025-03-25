@@ -4988,12 +4988,6 @@ units:
     type: nist
   - id: NISTq15
     type: nist
-  - id: NISTq184
-    type: nist
-  - id: NISTq185
-    type: nist
-  - id: NISTq60
-    type: nist
   names:
   - torr
   root: true
@@ -5005,9 +4999,6 @@ units:
     html: Torr
     id: Torr
     mathml: "<mi mathvariant='normal'>Torr</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
