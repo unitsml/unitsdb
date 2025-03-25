@@ -3945,9 +3945,6 @@ units:
     html: Np/s
     id: Np*s^-1
     mathml: "<mrow><mi mathvariant='normal'>Np</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
