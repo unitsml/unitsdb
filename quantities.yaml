@@ -1473,6 +1473,7 @@ quantities:
     type: nist
   names:
   - amount concentration
+  - amount of substance concentration
   quantity_type: derived
   short: amount_concentration
   unit_references:
@@ -1483,6 +1484,10 @@ quantities:
   dimension_reference:
     id: NISTd34
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/AMSC
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq56
     type: nist
