@@ -3801,9 +3801,6 @@ units:
     html: dB
     id: dB
     mathml: "<mi mathvariant='normal'>dB</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
