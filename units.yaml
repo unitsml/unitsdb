@@ -8683,9 +8683,6 @@ units:
     html: mi/gal
     id: mi/gal
     mathml: "<mrow><mi mathvariant='normal'>mi</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>gal</mi></mrow>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
