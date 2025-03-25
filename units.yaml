@@ -1424,10 +1424,6 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/SI/units/bel
-    type: normative
-    authority: si-digital-framework
 - identifiers:
   - id: NISTu44
     type: nist

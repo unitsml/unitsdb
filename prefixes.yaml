@@ -136,7 +136,7 @@ prefixes:
     id: quecto
     mathml: "<mi>q</mi>"
   references:
-  - uri: http://si-digital-framework.org/SI/prefixes/quetta
+  - uri: http://si-digital-framework.org/SI/prefixes/quecto
     type: normative
     authority: si-digital-framework
 - identifiers:
@@ -363,6 +363,10 @@ prefixes:
     html: '1'
     id: unity
     mathml: "<mn>1</mn>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/none
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_1
     type: nist
