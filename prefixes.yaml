@@ -135,6 +135,10 @@ prefixes:
     html: q
     id: quecto
     mathml: "<mi>q</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/quetta
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-27
     type: nist
@@ -150,6 +154,10 @@ prefixes:
     html: r
     id: ronto
     mathml: "<mi>r</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/ronto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-24
     type: nist
@@ -165,6 +173,10 @@ prefixes:
     html: "y"
     id: yocto
     mathml: "<mi>y</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/yocto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-21
     type: nist
@@ -180,6 +192,10 @@ prefixes:
     html: z
     id: zepto
     mathml: "<mi>z</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/zepto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-18
     type: nist
@@ -195,6 +211,10 @@ prefixes:
     html: a
     id: atto
     mathml: "<mi>a</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/atto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-15
     type: nist
@@ -210,6 +230,10 @@ prefixes:
     html: f
     id: femto
     mathml: "<mi>f</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/femto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-12
     type: nist
@@ -225,6 +249,10 @@ prefixes:
     html: p
     id: pico
     mathml: "<mi>p</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/pico
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-9
     type: nist
@@ -240,6 +268,10 @@ prefixes:
     html: "n"
     id: nano
     mathml: "<mi>n</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/nano
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-6
     type: nist
@@ -255,6 +287,10 @@ prefixes:
     html: "&micro;"
     id: micro
     mathml: "<mi>&micro;</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/micro
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-3
     type: nist
@@ -270,6 +306,10 @@ prefixes:
     html: m
     id: milli
     mathml: "<mi>m</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/milli
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-2
     type: nist
@@ -285,6 +325,10 @@ prefixes:
     html: c
     id: centi
     mathml: "<mi>c</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/centi
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_-1
     type: nist
@@ -300,6 +344,10 @@ prefixes:
     html: d
     id: deci
     mathml: "<mi>d</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/deci
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_0
     type: nist
@@ -330,6 +378,10 @@ prefixes:
     html: da
     id: deka
     mathml: "<mi>da</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/deca
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_2
     type: nist
@@ -345,6 +397,10 @@ prefixes:
     html: h
     id: hecto
     mathml: "<mi>h</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/hecto
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_3
     type: nist
@@ -360,6 +416,10 @@ prefixes:
     html: k
     id: kilo
     mathml: "<mi>k</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/kilo
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_6
     type: nist
@@ -375,6 +435,10 @@ prefixes:
     html: M
     id: mega
     mathml: "<mi>M</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/mega
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_9
     type: nist
@@ -390,6 +454,10 @@ prefixes:
     html: G
     id: giga
     mathml: "<mi>G</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/giga
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_12
     type: nist
@@ -405,6 +473,10 @@ prefixes:
     html: T
     id: tera
     mathml: "<mi>T</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/tera
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_15
     type: nist
@@ -420,6 +492,10 @@ prefixes:
     html: P
     id: peta
     mathml: "<mi>P</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/peta
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_18
     type: nist
@@ -435,6 +511,10 @@ prefixes:
     html: E
     id: exa
     mathml: "<mi>E</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/exa
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_21
     type: nist
@@ -450,6 +530,10 @@ prefixes:
     html: Z
     id: zetta
     mathml: "<mi>Z</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/zetta
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_24
     type: nist
@@ -465,6 +549,10 @@ prefixes:
     html: Y
     id: yotta
     mathml: "<mi>Y</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/yotta
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_27
     type: nist
@@ -480,6 +568,10 @@ prefixes:
     html: R
     id: ronna
     mathml: "<mi>R</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/ronna
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTp10_30
     type: nist
@@ -495,3 +587,7 @@ prefixes:
     html: Q
     id: quetta
     mathml: "<mi>Q</mi>"
+  references:
+  - uri: http://si-digital-framework.org/SI/prefixes/quetta
+    type: normative
+    authority: si-digital-framework
