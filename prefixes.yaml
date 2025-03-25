@@ -8,8 +8,8 @@ prefixes:
   - kibi
   short: kibi
   power: 10
-  symbol:
-    latex: Ki
+  symbols:
+  - latex: Ki
     unicode: Ki
     ascii: Ki
     html: Ki
@@ -23,8 +23,8 @@ prefixes:
   - mebi
   short: mebi
   power: 20
-  symbol:
-    latex: Mi
+  symbols:
+  - latex: Mi
     unicode: Mi
     ascii: Mi
     html: Mi
@@ -38,8 +38,8 @@ prefixes:
   - gibi
   short: gibi
   power: 30
-  symbol:
-    latex: Gi
+  symbols:
+  - latex: Gi
     unicode: Gi
     ascii: Gi
     html: Gi
@@ -53,8 +53,8 @@ prefixes:
   - tebi
   short: tebi
   power: 40
-  symbol:
-    latex: Ti
+  symbols:
+  - latex: Ti
     unicode: Ti
     ascii: Ti
     html: Ti
@@ -68,8 +68,8 @@ prefixes:
   - pebi
   short: pebi
   power: 50
-  symbol:
-    latex: Pi
+  symbols:
+  - latex: Pi
     unicode: Pi
     ascii: Pi
     html: Pi
@@ -83,8 +83,8 @@ prefixes:
   - exbi
   short: exbi
   power: 60
-  symbol:
-    latex: Ei
+  symbols:
+  - latex: Ei
     unicode: Ei
     ascii: Ei
     html: Ei
@@ -98,8 +98,8 @@ prefixes:
   - zebi
   short: zebi
   power: 70
-  symbol:
-    latex: Zi
+  symbols:
+  - latex: Zi
     unicode: Zi
     ascii: Zi
     html: Zi
@@ -113,8 +113,8 @@ prefixes:
   - yobi
   short: yobi
   power: 80
-  symbol:
-    latex: Yi
+  symbols:
+  - latex: Yi
     unicode: Yi
     ascii: Yi
     html: Yi
@@ -128,8 +128,8 @@ prefixes:
   - quecto
   short: quecto
   power: -30
-  symbol:
-    latex: q
+  symbols:
+  - latex: q
     unicode: q
     ascii: q
     html: q
@@ -147,8 +147,8 @@ prefixes:
   - ronto
   short: ronto
   power: -27
-  symbol:
-    latex: r
+  symbols:
+  - latex: r
     unicode: r
     ascii: r
     html: r
@@ -166,8 +166,8 @@ prefixes:
   - yocto
   short: yocto
   power: -24
-  symbol:
-    latex: "y"
+  symbols:
+  - latex: "y"
     unicode: "y"
     ascii: "y"
     html: "y"
@@ -185,8 +185,8 @@ prefixes:
   - zepto
   short: zepto
   power: -21
-  symbol:
-    latex: z
+  symbols:
+  - latex: z
     unicode: z
     ascii: z
     html: z
@@ -204,8 +204,8 @@ prefixes:
   - atto
   short: atto
   power: -18
-  symbol:
-    latex: a
+  symbols:
+  - latex: a
     unicode: a
     ascii: a
     html: a
@@ -223,8 +223,8 @@ prefixes:
   - femto
   short: femto
   power: -15
-  symbol:
-    latex: f
+  symbols:
+  - latex: f
     unicode: f
     ascii: f
     html: f
@@ -242,8 +242,8 @@ prefixes:
   - pico
   short: pico
   power: -12
-  symbol:
-    latex: p
+  symbols:
+  - latex: p
     unicode: p
     ascii: p
     html: p
@@ -261,8 +261,8 @@ prefixes:
   - nano
   short: nano
   power: -9
-  symbol:
-    latex: "n"
+  symbols:
+  - latex: "n"
     unicode: "n"
     ascii: "n"
     html: "n"
@@ -280,8 +280,8 @@ prefixes:
   - micro
   short: micro
   power: -6
-  symbol:
-    latex: "$mu$"
+  symbols:
+  - latex: "$mu$"
     unicode: μ
     ascii: u
     html: "&micro;"
@@ -299,8 +299,8 @@ prefixes:
   - milli
   short: milli
   power: -3
-  symbol:
-    latex: m
+  symbols:
+  - latex: m
     unicode: m
     ascii: m
     html: m
@@ -318,8 +318,8 @@ prefixes:
   - centi
   short: centi
   power: -2
-  symbol:
-    latex: c
+  symbols:
+  - latex: c
     unicode: c
     ascii: c
     html: c
@@ -337,8 +337,8 @@ prefixes:
   - deci
   short: deci
   power: -1
-  symbol:
-    latex: d
+  symbols:
+  - latex: d
     unicode: d
     ascii: d
     html: d
@@ -356,8 +356,8 @@ prefixes:
   - none
   short: none
   power: 0
-  symbol:
-    latex: '1'
+  symbols:
+  - latex: '1'
     unicode: '1'
     ascii: '1'
     html: '1'
@@ -375,8 +375,8 @@ prefixes:
   - deka
   short: deka
   power: 1
-  symbol:
-    latex: da
+  symbols:
+  - latex: da
     unicode: da
     ascii: da
     html: da
@@ -394,8 +394,8 @@ prefixes:
   - hecto
   short: hecto
   power: 2
-  symbol:
-    latex: h
+  symbols:
+  - latex: h
     unicode: h
     ascii: h
     html: h
@@ -413,8 +413,8 @@ prefixes:
   - kilo
   short: kilo
   power: 3
-  symbol:
-    latex: k
+  symbols:
+  - latex: k
     unicode: k
     ascii: k
     html: k
@@ -432,8 +432,8 @@ prefixes:
   - mega
   short: mega
   power: 6
-  symbol:
-    latex: M
+  symbols:
+  - latex: M
     unicode: M
     ascii: M
     html: M
@@ -451,8 +451,8 @@ prefixes:
   - giga
   short: giga
   power: 9
-  symbol:
-    latex: G
+  symbols:
+  - latex: G
     unicode: G
     ascii: G
     html: G
@@ -470,8 +470,8 @@ prefixes:
   - tera
   short: tera
   power: 12
-  symbol:
-    latex: T
+  symbols:
+  - latex: T
     unicode: T
     ascii: T
     html: T
@@ -489,8 +489,8 @@ prefixes:
   - peta
   short: peta
   power: 15
-  symbol:
-    latex: P
+  symbols:
+  - latex: P
     unicode: P
     ascii: P
     html: P
@@ -508,8 +508,8 @@ prefixes:
   - exa
   short: exa
   power: 18
-  symbol:
-    latex: E
+  symbols:
+  - latex: E
     unicode: E
     ascii: E
     html: E
@@ -527,8 +527,8 @@ prefixes:
   - zetta
   short: zetta
   power: 21
-  symbol:
-    latex: Z
+  symbols:
+  - latex: Z
     unicode: Z
     ascii: Z
     html: Z
@@ -546,8 +546,8 @@ prefixes:
   - yotta
   short: yotta
   power: 24
-  symbol:
-    latex: Y
+  symbols:
+  - latex: Y
     unicode: Y
     ascii: Y
     html: Y
@@ -565,8 +565,8 @@ prefixes:
   - ronna
   short: ronna
   power: 27
-  symbol:
-    latex: R
+  symbols:
+  - latex: R
     unicode: R
     ascii: R
     html: R
@@ -584,8 +584,8 @@ prefixes:
   - quetta
   short: quetta
   power: 30
-  symbol:
-    latex: Q
+  symbols:
+  - latex: Q
     unicode: Q
     ascii: Q
     html: Q
