@@ -4821,8 +4821,6 @@ units:
   - id: NISTu208
     type: nist
   quantity_references:
-  - id: NISTq13
-    type: nist
   - id: NISTq155
     type: nist
   names:
