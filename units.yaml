@@ -3654,6 +3654,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/arcminute
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu148
     type: nist
@@ -3689,6 +3693,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/second
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu149
     type: nist
@@ -3712,6 +3720,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/degree
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu152
     type: nist
