@@ -7234,7 +7234,7 @@ units:
   - id: NISTu309
     type: nist
   quantity_references:
-  - id: NISTq10
+  - id: NISTq2
     type: nist
   names:
   - ounce (FDA)
@@ -7248,9 +7248,6 @@ units:
     html: oz (US label)
     id: oz (US label)
     mathml: "<mi mathvariant='normal'>oz (US label)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
