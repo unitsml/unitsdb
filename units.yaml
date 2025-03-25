@@ -4482,8 +4482,6 @@ units:
     type: nist
   - id: NISTq145
     type: nist
-  - id: NISTq51
-    type: nist
   names:
   - meter to the power four
   root: false
