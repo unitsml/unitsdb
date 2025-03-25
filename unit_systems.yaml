@@ -5,40 +5,47 @@ unit_systems:
   identifiers:
   - id: SI_compatible
     type: nist
-  name: Units compatible with SI
+  names:
+  - Units compatible with SI
 - acceptable: true
   short: si-base
   identifiers:
   - id: SI_base
     type: nist
-  name: SI base units
+  names:
+  - SI base units
 - acceptable: true
   short: si-derived-special
   identifiers:
   - id: SI_derived_special
     type: nist
-  name: SI-derived units special
+  names:
+  - SI-derived units special
 - acceptable: true
   short: si-derived-nonspecial
   identifiers:
   - id: SI_derived_non-special
     type: nist
-  name: SI-derived units non-special
+  names:
+  - SI-derived units non-special
 - acceptable: true
   short: nonsi-acceptable
   identifiers:
   - id: non-SI_acceptable
     type: nist
-  name: non-SI but acceptable
+  names:
+  - non-SI but acceptable
 - acceptable: true
   short: nonsi-nist-acceptable
   identifiers:
   - id: non-SI_nist_acceptable
     type: nist
-  name: non-SI but acceptable by NIST SP 811
+  names:
+  - non-SI but acceptable by NIST SP 811
 - acceptable: false
   short: nonsi-unacceptable
   identifiers:
   - id: non-SI_not_acceptable
     type: nist
-  name: non-SI and not acceptable
+  names:
+  - non-SI and not acceptable
