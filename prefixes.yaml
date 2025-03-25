@@ -353,8 +353,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - one
-  short: one
+  - none
+  short: none
   power: 0
   symbol:
     latex: '1'
