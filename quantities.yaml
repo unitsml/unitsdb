@@ -73,6 +73,10 @@ quantities:
   dimension_reference:
     id: NISTd1
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/LENG
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq2
     type: nist
@@ -134,6 +138,10 @@ quantities:
   dimension_reference:
     id: NISTd2
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MASS
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq3
     type: nist
@@ -174,6 +182,10 @@ quantities:
   dimension_reference:
     id: NISTd3
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/TIME
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq4
     type: nist
@@ -193,6 +205,10 @@ quantities:
   dimension_reference:
     id: NISTd4
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELCU
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq5
     type: nist
@@ -208,6 +224,10 @@ quantities:
   dimension_reference:
     id: NISTd5
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/TEMT
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq6
     type: nist
@@ -223,6 +243,10 @@ quantities:
   dimension_reference:
     id: NISTd6
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/AMSU
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq7
     type: nist
@@ -236,6 +260,10 @@ quantities:
   dimension_reference:
     id: NISTd7
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/LUIN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq8
     type: nist
@@ -267,6 +295,10 @@ quantities:
   dimension_reference:
     id: NISTd8
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/AREA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq9
     type: nist
@@ -291,6 +323,10 @@ quantities:
   dimension_reference:
     id: NISTd9
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ANGP
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq10
     type: nist
@@ -368,6 +404,10 @@ quantities:
   dimension_reference:
     id: NISTd10
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/VOLU
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq11
     type: nist
@@ -383,6 +423,10 @@ quantities:
   dimension_reference:
     id: NISTd64
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ANGS
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq12
     type: nist
@@ -417,6 +461,10 @@ quantities:
   dimension_reference:
     id: NISTd11
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/VELO
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq13
     type: nist
@@ -452,6 +500,10 @@ quantities:
   dimension_reference:
     id: NISTd12
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/FORC
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq14
     type: nist
@@ -473,6 +525,10 @@ quantities:
   dimension_reference:
     id: NISTd13
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MGFD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq15
     type: nist
@@ -540,6 +596,10 @@ quantities:
   dimension_reference:
     id: NISTd14
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/PRES
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq16
     type: nist
@@ -648,6 +708,10 @@ quantities:
   dimension_reference:
     id: NISTd15
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ENGY
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq18
     type: nist
@@ -772,6 +836,10 @@ quantities:
   dimension_reference:
     id: NISTd16
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/POWR
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq21
     type: nist
@@ -814,6 +882,10 @@ quantities:
   dimension_reference:
     id: NISTd17
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELCH
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq23
     type: nist
@@ -852,6 +924,10 @@ quantities:
   dimension_reference:
     id: NISTd18
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELPD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq25
     type: nist
@@ -901,6 +977,10 @@ quantities:
   dimension_reference:
     id: NISTd19
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELCA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq28
     type: nist
@@ -918,6 +998,10 @@ quantities:
   dimension_reference:
     id: NISTd20
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELRE
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq29
     type: nist
@@ -935,6 +1019,10 @@ quantities:
   dimension_reference:
     id: NISTd21
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELCO
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq30
     type: nist
@@ -952,6 +1040,10 @@ quantities:
   dimension_reference:
     id: NISTd22
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MGFL
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq31
     type: nist
@@ -966,6 +1058,10 @@ quantities:
   dimension_reference:
     id: NISTd51
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SUDE
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq32
     type: nist
@@ -981,6 +1077,10 @@ quantities:
   dimension_reference:
     id: NISTd23
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELIN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq33
     type: nist
@@ -994,6 +1094,10 @@ quantities:
   dimension_reference:
     id: NISTd30
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MACO
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq34
     type: nist
@@ -1007,6 +1111,10 @@ quantities:
   dimension_reference:
     id: NISTd5
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/TEMC
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq35
     type: nist
@@ -1022,6 +1130,10 @@ quantities:
   dimension_reference:
     id: NISTd24
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ARRN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq36
     type: nist
@@ -1037,6 +1149,10 @@ quantities:
   dimension_reference:
     id: NISTd25
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ABDO
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq37
     type: nist
@@ -1063,6 +1179,10 @@ quantities:
   dimension_reference:
     id: NISTd25
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/KRMA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq39
     type: nist
@@ -1078,6 +1198,10 @@ quantities:
   dimension_reference:
     id: NISTd25
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/DOEQ
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq40
     type: nist
@@ -1131,6 +1255,10 @@ quantities:
   dimension_reference:
     id: NISTd26
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/CATA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq45
     type: nist
@@ -1144,6 +1272,10 @@ quantities:
   dimension_reference:
     id: NISTd24
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/FREQ
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq46
     type: nist
@@ -1157,6 +1289,10 @@ quantities:
   dimension_reference:
     id: NISTd7
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/LUFL
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq47
     type: nist
@@ -1174,6 +1310,10 @@ quantities:
   dimension_reference:
     id: NISTd27
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ILLU
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq48
     type: nist
@@ -1226,6 +1366,10 @@ quantities:
   dimension_reference:
     id: NISTd28
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ACCE
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq50
     type: nist
@@ -1242,6 +1386,10 @@ quantities:
   dimension_reference:
     id: NISTd29
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/WANU
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq51
     type: nist
@@ -1264,6 +1412,10 @@ quantities:
   dimension_reference:
     id: NISTd30
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/DENS
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq52
     type: nist
@@ -1278,6 +1430,10 @@ quantities:
   dimension_reference:
     id: NISTd31
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SPVO
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq53
     type: nist
@@ -1291,6 +1447,10 @@ quantities:
   dimension_reference:
     id: NISTd32
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/CUDE
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq54
     type: nist
@@ -1304,6 +1464,10 @@ quantities:
   dimension_reference:
     id: NISTd33
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MAFD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq55
     type: nist
@@ -1338,6 +1502,10 @@ quantities:
   dimension_reference:
     id: NISTd27
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/LUMA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq57
     type: nist
@@ -1351,6 +1519,10 @@ quantities:
   dimension_reference:
     id: NISTd24
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/VELA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq58
     type: nist
@@ -1364,6 +1536,10 @@ quantities:
   dimension_reference:
     id: NISTd35
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ACCA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq59
     type: nist
@@ -1381,6 +1557,10 @@ quantities:
   dimension_reference:
     id: NISTd36
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/DYVI
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq60
     type: nist
@@ -1400,6 +1580,10 @@ quantities:
   dimension_reference:
     id: NISTd15
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/TORQ
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq61
     type: nist
@@ -1413,6 +1597,10 @@ quantities:
   dimension_reference:
     id: NISTd37
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SUTE
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq62
     type: nist
@@ -1426,6 +1614,10 @@ quantities:
   dimension_reference:
     id: NISTd38
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/HEFD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq63
     type: nist
@@ -1439,6 +1631,10 @@ quantities:
   dimension_reference:
     id: NISTd39
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/HECA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq64
     type: nist
@@ -1452,6 +1648,10 @@ quantities:
   dimension_reference:
     id: NISTd40
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SHEC
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq65
     type: nist
@@ -1465,6 +1665,10 @@ quantities:
   dimension_reference:
     id: NISTd25
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SENG
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq66
     type: nist
@@ -1478,6 +1682,10 @@ quantities:
   dimension_reference:
     id: NISTd41
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/TCON
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq67
     type: nist
@@ -1491,6 +1699,10 @@ quantities:
   dimension_reference:
     id: NISTd14
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ENGD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq68
     type: nist
@@ -1506,6 +1718,10 @@ quantities:
   dimension_reference:
     id: NISTd42
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELFS
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq69
     type: nist
@@ -1521,6 +1737,10 @@ quantities:
   dimension_reference:
     id: NISTd43
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELCD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq70
     type: nist
@@ -1531,6 +1751,10 @@ quantities:
   dimension_reference:
     id: NISTd44
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ELFD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq71
     type: nist
@@ -1546,6 +1770,10 @@ quantities:
   dimension_reference:
     id: NISTd45
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/PRMI
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq72
     type: nist
@@ -1561,6 +1789,10 @@ quantities:
   dimension_reference:
     id: NISTd46
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/PRME
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq73
     type: nist
@@ -1574,6 +1806,10 @@ quantities:
   dimension_reference:
     id: NISTd47
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MOEG
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq74
     type: nist
@@ -1587,6 +1823,10 @@ quantities:
   dimension_reference:
     id: NISTd48
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/MOEN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq75
     type: nist
@@ -1615,6 +1855,10 @@ quantities:
   dimension_reference:
     id: NISTd50
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ABDR
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq77
     type: nist
@@ -1702,6 +1946,10 @@ quantities:
   dimension_reference:
     id: NISTd53
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/SUCD
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq82
     type: nist
@@ -1741,6 +1989,10 @@ quantities:
   dimension_reference:
     id: NISTd55
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/CTAC
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq85
     type: nist
@@ -1760,6 +2012,10 @@ quantities:
   dimension_reference:
     id: NISTd56
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/KIVI
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq87
     type: nist
@@ -1786,6 +2042,10 @@ quantities:
   dimension_reference:
     id: NISTd16
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/RAIN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq89
     type: nist
@@ -1799,6 +2059,10 @@ quantities:
   dimension_reference:
     id: NISTd38
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/RADI
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq90
     type: nist
