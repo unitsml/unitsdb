@@ -2792,9 +2792,6 @@ units:
     html: ft/min
     id: ft*min^-1
     mathml: "<mrow><mi mathvariant='normal'>ft</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2824,9 +2821,6 @@ units:
     html: ft/s
     id: ft*s^-1
     mathml: "<mrow><mi mathvariant='normal'>ft</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2856,9 +2850,6 @@ units:
     html: in/s
     id: in*s^-1
     mathml: "<mrow><mi mathvariant='normal'>in</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2888,9 +2879,6 @@ units:
     html: mi/h
     id: mi*h^-1
     mathml: "<mrow><mi mathvariant='normal'>mi</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>h</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2920,9 +2908,6 @@ units:
     html: mi/min
     id: mi*min^-1
     mathml: "<mrow><mi mathvariant='normal'>mi</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2952,9 +2937,6 @@ units:
     html: mi/s
     id: mi*s^-1
     mathml: "<mrow><mi mathvariant='normal'>mi</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
