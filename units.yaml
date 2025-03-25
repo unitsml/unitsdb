@@ -3694,7 +3694,7 @@ units:
   - id: non-SI_acceptable
     type: nist
   references:
-  - uri: http://si-digital-framework.org/SI/units/second
+  - uri: http://si-digital-framework.org/SI/units/arcsecond
     type: normative
     authority: si-digital-framework
 - identifiers:
