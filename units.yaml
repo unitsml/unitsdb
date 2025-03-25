@@ -3761,9 +3761,6 @@ units:
     html: Np
     id: Np
     mathml: "<mi mathvariant='normal'>Np</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
