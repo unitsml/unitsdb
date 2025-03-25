@@ -43,9 +43,6 @@ units:
     html: m
     id: m
     mathml: "<mi mathvariant='normal'>m</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -79,9 +76,6 @@ units:
     html: kg
     id: kg
     mathml: "<mi mathvariant='normal'>kg</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -122,9 +116,6 @@ units:
     html: "&#8243;"
     id: dprime_s
     mathml: "<mi mathvariant='normal'>&#8243;</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -149,9 +140,6 @@ units:
     html: A
     id: A
     mathml: "<mi mathvariant='normal'>A</mi>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -182,9 +170,6 @@ units:
     html: "&#176;K"
     id: degK
     mathml: "<mi mathvariant='normal'>&#176;K</mi>"
-  dimension_reference:
-    id: NISTd5
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -209,9 +194,6 @@ units:
     html: mol
     id: mol
     mathml: "<mi mathvariant='normal'>mol</mi>"
-  dimension_reference:
-    id: NISTd6
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -236,9 +218,6 @@ units:
     html: cd
     id: cd
     mathml: "<mi mathvariant='normal'>cd</mi>"
-  dimension_reference:
-    id: NISTd7
-    type: nist
   unit_system_reference:
   - id: si-base
     type: unitsml
@@ -277,9 +256,6 @@ units:
     html: "&#8243;"
     id: dprime_in
     mathml: "<mi mathvariant='normal'>&#8243;</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -309,9 +285,6 @@ units:
     html: rad
     id: rad
     mathml: "<mi mathvariant='normal'>rad</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -385,9 +358,6 @@ units:
     html: N
     id: N
     mathml: "<mi mathvariant='normal'>N</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -440,9 +410,6 @@ units:
     html: Pa
     id: Pa
     mathml: "<mi mathvariant='normal'>Pa</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -497,9 +464,6 @@ units:
     html: J
     id: J
     mathml: "<mi mathvariant='normal'>J</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -542,9 +506,6 @@ units:
     html: W
     id: W
     mathml: "<mi mathvariant='normal'>W</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -580,9 +541,6 @@ units:
     html: C
     id: C
     mathml: "<mi mathvariant='normal'>C</mi>"
-  dimension_reference:
-    id: NISTd17
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -631,9 +589,6 @@ units:
     html: V
     id: V
     mathml: "<mi mathvariant='normal'>V</mi>"
-  dimension_reference:
-    id: NISTd18
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -678,9 +633,6 @@ units:
     html: F
     id: F
     mathml: "<mi mathvariant='normal'>F</mi>"
-  dimension_reference:
-    id: NISTd19
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -725,9 +677,6 @@ units:
     html: "&#8486;"
     id: Ohm
     mathml: "<mi mathvariant='normal'>&#8486;</mi>"
-  dimension_reference:
-    id: NISTd20
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -772,9 +721,6 @@ units:
     html: S
     id: S
     mathml: "<mi mathvariant='normal'>S</mi>"
-  dimension_reference:
-    id: NISTd21
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -819,9 +765,6 @@ units:
     html: Wb
     id: Wb
     mathml: "<mi mathvariant='normal'>Wb</mi>"
-  dimension_reference:
-    id: NISTd22
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -862,9 +805,6 @@ units:
     html: T
     id: T
     mathml: "<mi mathvariant='normal'>T</mi>"
-  dimension_reference:
-    id: NISTd13
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -909,9 +849,6 @@ units:
     html: H
     id: H
     mathml: "<mi mathvariant='normal'>H</mi>"
-  dimension_reference:
-    id: NISTd23
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -941,9 +878,6 @@ units:
     html: "&#176;C"
     id: degC
     mathml: "<mi mathvariant='normal'>&#176;C</mi>"
-  dimension_reference:
-    id: NISTd5
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -973,9 +907,6 @@ units:
     html: Bq
     id: Bq
     mathml: "<mi mathvariant='normal'>Bq</mi>"
-  dimension_reference:
-    id: NISTd24
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1010,9 +941,6 @@ units:
     html: fermi
     id: fermi
     mathml: "<mi mathvariant='normal'>fermi</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1038,9 +966,6 @@ units:
     html: g
     id: g
     mathml: "<mi mathvariant='normal'>g</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   references:
   - uri: http://si-digital-framework.org/SI/units/gram
     type: normative
@@ -1075,9 +1000,6 @@ units:
     html: Gy
     id: Gy
     mathml: "<mi mathvariant='normal'>Gy</mi>"
-  dimension_reference:
-    id: NISTd25
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1111,9 +1033,6 @@ units:
     html: Sv
     id: Sv
     mathml: "<mi mathvariant='normal'>Sv</mi>"
-  dimension_reference:
-    id: NISTd25
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1147,9 +1066,6 @@ units:
     html: kat
     id: kat
     mathml: "<mi mathvariant='normal'>kat</mi>"
-  dimension_reference:
-    id: NISTd26
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1179,9 +1095,6 @@ units:
     html: Hz
     id: Hz
     mathml: "<mi mathvariant='normal'>Hz</mi>"
-  dimension_reference:
-    id: NISTd24
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1211,9 +1124,6 @@ units:
     html: lm
     id: lm
     mathml: "<mi mathvariant='normal'>lm</mi>"
-  dimension_reference:
-    id: NISTd7
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1247,9 +1157,6 @@ units:
     html: lx
     id: lx
     mathml: "<mi mathvariant='normal'>lx</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: SI_derived_special
     type: nist
@@ -1286,9 +1193,6 @@ units:
     html: "&#8242;"
     id: prime_min
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1313,9 +1217,6 @@ units:
     html: h
     id: h
     mathml: "<mi mathvariant='normal'>h</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1340,9 +1241,6 @@ units:
     html: d
     id: d
     mathml: "<mi mathvariant='normal'>d</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1369,9 +1267,6 @@ units:
     html: "&#197;"
     id: Aring
     mathml: "<mi mathvariant='normal'>&#197;</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1392,9 +1287,6 @@ units:
     html: a
     id: a
     mathml: "<mi mathvariant='normal'>a</mi>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1417,9 +1309,6 @@ units:
     html: b
     id: barn
     mathml: "<mi mathvariant='normal'>b</mi>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1440,9 +1329,6 @@ units:
     html: ha
     id: ha
     mathml: "<mi mathvariant='normal'>ha</mi>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1472,9 +1358,6 @@ units:
     html: ft<sup>2</sup>
     id: ft^2
     mathml: "<msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>2</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1500,9 +1383,6 @@ units:
     html: in<sup>2</sup>
     id: in^2
     mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>2</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1524,9 +1404,6 @@ units:
     html: abA
     id: abA
     mathml: "<mi mathvariant='normal'>abA</mi>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1549,9 +1426,6 @@ units:
     html: abC
     id: abC
     mathml: "<mi mathvariant='normal'>abC</mi>"
-  dimension_reference:
-    id: NISTd17
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1573,9 +1447,6 @@ units:
     html: abF
     id: abF
     mathml: "<mi mathvariant='normal'>abF</mi>"
-  dimension_reference:
-    id: NISTd19
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1597,9 +1468,6 @@ units:
     html: abH
     id: abH
     mathml: "<mi mathvariant='normal'>abH</mi>"
-  dimension_reference:
-    id: NISTd23
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1620,9 +1488,6 @@ units:
     html: "(ab&#937;)<sup>-1</sup>"
     id: abS
     mathml: "<mrow><msup><mi mathvariant='normal'>(ab&#937;)</mi><mn>-1</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd21
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1644,9 +1509,6 @@ units:
     html: ab&#937;
     id: abohm
     mathml: "<mi mathvariant='normal'>ab&#937;</mi>"
-  dimension_reference:
-    id: NISTd20
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1672,9 +1534,6 @@ units:
     html: abV
     id: abV
     mathml: "<mi mathvariant='normal'>abV</mi>"
-  dimension_reference:
-    id: NISTd18
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1706,9 +1565,6 @@ units:
     html: A&#8201;&#183;&#8201;h
     id: A*h
     mathml: "<mrow><mi mathvariant='normal'>A</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
-  dimension_reference:
-    id: NISTd17
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -1734,9 +1590,6 @@ units:
     html: Bi
     id: Bi
     mathml: "<mi mathvariant='normal'>Bi</mi>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1767,9 +1620,6 @@ units:
     html: ac&#8201;&#183;&#8201;ft
     id: ac*ft
     mathml: "<mrow><mi mathvariant='normal'>ac</mi><mo>&#183;</mo><mi mathvariant='normal'>ft</mi></mrow>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1790,9 +1640,6 @@ units:
     html: Mx
     id: Mx
     mathml: "<mi mathvariant='normal'>Mx</mi>"
-  dimension_reference:
-    id: NISTd22
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1825,9 +1672,6 @@ units:
     html: cal<sub>IT</sub>
     id: cal_IT
     mathml: "<msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>IT</mi></mrow></msub>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1868,9 +1712,6 @@ units:
     html: '1'
     id: '1'
     mathml: "<mi mathvariant='normal'>1</mi>"
-  dimension_reference:
-    id: NISTd80
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -1901,9 +1742,6 @@ units:
     html: erg
     id: erg
     mathml: "<mi mathvariant='normal'>erg</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1935,9 +1773,6 @@ units:
     html: kcal<sub>IT</sub>
     id: kcal_IT
     mathml: "<msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>IT</mi></mrow></msub>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -1969,9 +1804,6 @@ units:
     html: kcal<sub>th</sub>
     id: kcal_th
     mathml: "<msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2015,9 +1847,6 @@ units:
     html: kW&#8201;&#183;&#8201;h
     id: kW*h
     mathml: "<mrow><mi mathvariant='normal'>kW</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -2057,9 +1886,6 @@ units:
     html: W&#8201;&#183;&#8201;h
     id: W*h
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>&#183;</mo><mi mathvariant='normal'>h</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -2080,9 +1906,6 @@ units:
     html: dyn
     id: dyn
     mathml: "<mi mathvariant='normal'>dyn</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2112,9 +1935,6 @@ units:
     html: kgf
     id: kgf
     mathml: "<mi mathvariant='normal'>kgf</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2140,9 +1960,6 @@ units:
     html: kp
     id: kp
     mathml: "<mi mathvariant='normal'>kp</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2175,9 +1992,6 @@ units:
     id: cal_th*s^-1
     mathml: "<mrow><msub><mrow><mi mathvariant='normal'>cal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2214,9 +2028,6 @@ units:
     id: kcal_th*s^-1
     mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi
       mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2251,9 +2062,6 @@ units:
     html: "&#8242;"
     id: prime_ft
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2276,9 +2084,6 @@ units:
     html: mi
     id: mi
     mathml: "<mi mathvariant='normal'>mi</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2301,9 +2106,6 @@ units:
     html: yd
     id: yd
     mathml: "<mi mathvariant='normal'>yd</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2324,9 +2126,6 @@ units:
     html: ph
     id: ph
     mathml: "<mi mathvariant='normal'>ph</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2350,9 +2149,6 @@ units:
     html: gr
     id: gr
     mathml: "<mi mathvariant='normal'>gr</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2374,9 +2170,6 @@ units:
     html: t
     id: t
     mathml: "<mi mathvariant='normal'>t</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -2412,9 +2205,6 @@ units:
     html: erg/s
     id: erg*s^-1
     mathml: "<mrow><mi mathvariant='normal'>erg</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2437,9 +2227,6 @@ units:
     html: bar
     id: bar
     mathml: "<mi mathvariant='normal'>bar</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -2474,9 +2261,6 @@ units:
     html: dyn/cm<sup>2</sup>
     id: dyn*cm^-2
     mathml: "<mrow><mi mathvariant='normal'>dyn</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2511,9 +2295,6 @@ units:
     html: gf/cm<sup>2</sup>
     id: gf*cm^-2
     mathml: "<mrow><mi mathvariant='normal'>gf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2552,9 +2333,6 @@ units:
     html: kgf/cm<sup>2</sup>
     id: kgf*cm^-2
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>cm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2589,9 +2367,6 @@ units:
     html: kgf/m<sup>2</sup>
     id: kgf*m^-2
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2629,9 +2404,6 @@ units:
     html: kgf/mm<sup>2</sup>
     id: kgf*mm^-2
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>mm</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2661,9 +2433,6 @@ units:
     html: cP
     id: cP
     mathml: "<mi mathvariant='normal'>cP</mi>"
-  dimension_reference:
-    id: NISTd36
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2684,9 +2453,6 @@ units:
     html: Ci
     id: Ci
     mathml: "<mi mathvariant='normal'>Ci</mi>"
-  dimension_reference:
-    id: NISTd24
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2709,9 +2475,6 @@ units:
     html: rad
     id: rad_radiation
     mathml: "<mi mathvariant='normal'>rad</mi>"
-  dimension_reference:
-    id: NISTd25
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2734,9 +2497,6 @@ units:
     html: rem
     id: rem
     mathml: "<mi mathvariant='normal'>rem</mi>"
-  dimension_reference:
-    id: NISTd25
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2760,9 +2520,6 @@ units:
     html: a
     id: a_year
     mathml: "<mi mathvariant='normal'>a</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -2962,9 +2719,6 @@ units:
     html: st
     id: st
     mathml: "<mi mathvariant='normal'>st</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -2993,9 +2747,6 @@ units:
     html: "&#947;"
     id: gamma
     mathml: "<mi mathvariant='normal'>&#947;</mi>"
-  dimension_reference:
-    id: NISTd13
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3026,9 +2777,6 @@ units:
     html: thm (EC)
     id: thm (EC)
     mathml: "<mi mathvariant='normal'>thm (EC)</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3049,9 +2797,6 @@ units:
     html: R
     id: R
     mathml: "<mi mathvariant='normal'>R</mi>"
-  dimension_reference:
-    id: NISTd49
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3080,9 +2825,6 @@ units:
     html: G
     id: G
     mathml: "<mi mathvariant='normal'>G</mi>"
-  dimension_reference:
-    id: NISTd13
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3103,9 +2845,6 @@ units:
     html: K
     id: kayser
     mathml: "<mi mathvariant='normal'>K</mi>"
-  dimension_reference:
-    id: NISTd29
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3135,9 +2874,6 @@ units:
     html: cSt
     id: cSt
     mathml: "<mi mathvariant='normal'>cSt</mi>"
-  dimension_reference:
-    id: NISTd56
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3168,9 +2904,6 @@ units:
     html: "&#956;"
     id: micron
     mathml: "<mi mathvariant='normal'>&#956;</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3209,9 +2942,6 @@ units:
     html: thou
     id: thou
     mathml: "<mi mathvariant='normal'>thou</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3232,9 +2962,6 @@ units:
     html: sb
     id: sb
     mathml: "<mi mathvariant='normal'>sb</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3271,9 +2998,6 @@ units:
     html: kgf&#8201;&#183;&#8201;s<sup>2</sup>/m
     id: kgf*s^2/m
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3314,9 +3038,6 @@ units:
     html: kgf&#8201;&#183;&#8201;m
     id: kgf*m
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3340,9 +3061,6 @@ units:
     html: hp
     id: hp_electric
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3350,8 +3068,6 @@ units:
   - id: NISTu128
     type: nist
   quantity_references:
-  - id: NISTq11
-    type: nist
   - id: NISTq59
     type: nist
   names:
@@ -3365,9 +3081,6 @@ units:
     html: P
     id: P
     mathml: "<mi mathvariant='normal'>P</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3388,9 +3101,6 @@ units:
     html: rhe
     id: rhe
     mathml: "<mi mathvariant='normal'>rhe</mi>"
-  dimension_reference:
-    id: NISTd52
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3417,9 +3127,6 @@ units:
     html: L
     id: L
     mathml: "<mi mathvariant='normal'>L</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3446,9 +3153,6 @@ units:
     html: M
     id: M
     mathml: "<mi mathvariant='normal'>M</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3469,9 +3173,6 @@ units:
     html: "&#176;F"
     id: degF
     mathml: "<mi mathvariant='normal'>&#176;F</mi>"
-  dimension_reference:
-    id: NISTd5
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3494,9 +3195,6 @@ units:
     html: atm
     id: atm
     mathml: "<mi mathvariant='normal'>atm</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3519,9 +3217,6 @@ units:
     html: at
     id: at
     mathml: "<mi mathvariant='normal'>at</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3542,9 +3237,6 @@ units:
     html: St
     id: St
     mathml: "<mi mathvariant='normal'>St</mi>"
-  dimension_reference:
-    id: NISTd56
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3565,9 +3257,6 @@ units:
     html: Gal
     id: Gal
     mathml: "<mi mathvariant='normal'>Gal</mi>"
-  dimension_reference:
-    id: NISTd28
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3588,9 +3277,6 @@ units:
     html: Oe
     id: Oe
     mathml: "<mi mathvariant='normal'>Oe</mi>"
-  dimension_reference:
-    id: NISTd33
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3617,9 +3303,6 @@ units:
     html: "&#8242;"
     id: prime
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3656,9 +3339,6 @@ units:
     html: as
     id: as
     mathml: "<mi mathvariant='normal'>as</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3683,9 +3363,6 @@ units:
     html: "&#176;"
     id: deg
     mathml: "<mi mathvariant='normal'>&#176;</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3711,9 +3388,6 @@ units:
     html: kn
     id: kn
     mathml: "<mi mathvariant='normal'>kn</mi>"
-  dimension_reference:
-    id: NISTd11
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3825,9 +3499,6 @@ units:
     html: mmHg
     id: mmHg
     mathml: "<mi mathvariant='normal'>mmHg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3876,9 +3547,6 @@ units:
     html: gon
     id: gon
     mathml: "<mi mathvariant='normal'>gon</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3913,9 +3581,6 @@ units:
     html: kh/h
     id: km/h
     mathml: "<mrow><mi mathvariant='normal'>kh</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>h</mi></mrow>"
-  dimension_reference:
-    id: NISTd11
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -3970,9 +3635,6 @@ units:
     html: yd<sup>2</sup>
     id: yd^2
     mathml: "<msup><mrow><mi mathvariant='normal'>yd</mi></mrow><mrow><mn>2</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -3998,9 +3660,6 @@ units:
     html: mi<sup>2</sup>
     id: mi^2
     mathml: "<msup><mrow><mi mathvariant='normal'>mi</mi></mrow><mrow><mn>2</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4022,9 +3681,6 @@ units:
     html: ton
     id: ton_TNT
     mathml: "<mi mathvariant='normal'>ton</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4054,9 +3710,6 @@ units:
     html: ft/s<sup>2</sup>
     id: ft*s^-2
     mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd28
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4082,9 +3735,6 @@ units:
     html: in<sup>3</sup>
     id: in^3
     mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4110,9 +3760,6 @@ units:
     html: ft<sup>3</sup>
     id: ft^3
     mathml: "<msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4138,9 +3785,6 @@ units:
     html: yd<sup>3</sup>
     id: yd^3
     mathml: "<msup><mrow><mi mathvariant='normal'>yd</mi></mrow><mrow><mn>3</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4163,9 +3807,6 @@ units:
     html: gal (UK)
     id: gal (UK)
     mathml: "<mi mathvariant='normal'>gal (UK)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4187,9 +3828,6 @@ units:
     html: pt (UK)
     id: pt (UK)
     mathml: "<mi mathvariant='normal'>pt (UK)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4212,9 +3850,6 @@ units:
     html: fl oz (UK)
     id: fl oz (UK)
     mathml: "<mi mathvariant='normal'>fl oz (UK)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4236,9 +3871,6 @@ units:
     html: gal (US)
     id: gal (US)
     mathml: "<mi mathvariant='normal'>gal (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4260,9 +3892,6 @@ units:
     html: liq pint (US)
     id: liq pint (US)
     mathml: "<mi mathvariant='normal'>liq pint (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4285,9 +3914,6 @@ units:
     html: fl oz (US)
     id: fl oz (US)
     mathml: "<mi mathvariant='normal'>fl oz (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4309,9 +3935,6 @@ units:
     html: bbl (US)
     id: bbl (US)
     mathml: "<mi mathvariant='normal'>bbl (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4333,9 +3956,6 @@ units:
     html: bu (US)
     id: bu (US)
     mathml: "<mi mathvariant='normal'>bu (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4357,9 +3977,6 @@ units:
     html: dry pt (US)
     id: dry pt (US)
     mathml: "<mi mathvariant='normal'>dry pt (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4380,9 +3997,6 @@ units:
     html: l.y.
     id: l.y.
     mathml: "<mi mathvariant='normal'>l.y.</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4403,9 +4017,6 @@ units:
     html: ua
     id: ua
     mathml: "<mi mathvariant='normal'>ua</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -4430,9 +4041,6 @@ units:
     html: pc
     id: pc
     mathml: "<mi mathvariant='normal'>pc</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4460,9 +4068,6 @@ units:
     html: m<sup>4</sup>
     id: m^4
     mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>4</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd57
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4495,9 +4100,6 @@ units:
     html: kg/l
     id: kg*l^-1
     mathml: "<mrow><mi mathvariant='normal'>kg</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>l</mi></mrow>"
-  dimension_reference:
-    id: NISTd30
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -4527,9 +4129,6 @@ units:
     html: t/m<sup>3</sup>
     id: t*m^-3
     mathml: "<mrow><mi mathvariant='normal'>t</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd30
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -4558,9 +4157,6 @@ units:
     html: gf
     id: gf
     mathml: "<mi mathvariant='normal'>gf</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4583,9 +4179,6 @@ units:
     html: lb
     id: lb
     mathml: "<mi mathvariant='normal'>lb</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4608,9 +4201,6 @@ units:
     html: oz
     id: oz
     mathml: "<mi mathvariant='normal'>oz</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4632,9 +4222,6 @@ units:
     html: cwt (UK)
     id: cwt (UK)
     mathml: "<mi mathvariant='normal'>cwt (UK)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4664,9 +4251,6 @@ units:
     html: lb/ft<sup>3</sup>
     id: lb*ft^-3
     mathml: "<mrow><mi mathvariant='normal'>lb</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd30
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4689,9 +4273,6 @@ units:
     html: lbf
     id: lbf
     mathml: "<mi mathvariant='normal'>lbf</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4735,9 +4316,6 @@ units:
     html: ft&#8201;&#183;&#8201;lbf
     id: ft*lbf
     mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>&#183;</mo><mi mathvariant='normal'>lbf</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4773,9 +4351,6 @@ units:
     html: psi
     id: psi
     mathml: "<mi mathvariant='normal'>psi</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4801,9 +4376,6 @@ units:
     html: in<sup>4</sup>
     id: in^4
     mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>4</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd57
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4829,9 +4401,6 @@ units:
     html: in<sup>3</sup>
     id: in^3_section_modulus
     mathml: "<msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4862,9 +4431,6 @@ units:
     id: ft^2*s^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd56
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4899,9 +4465,6 @@ units:
     id: ft*lbf*s^-1
     mathml: "<mrow><mi mathvariant='normal'>ft</mi><mo>&#183;</mo><mi mathvariant='normal'>lbf</mi><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4924,9 +4487,6 @@ units:
     html: ct
     id: ct
     mathml: "<mi mathvariant='normal'>ct</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4947,9 +4507,6 @@ units:
     html: tex
     id: tex
     mathml: "<mi mathvariant='normal'>tex</mi>"
-  dimension_reference:
-    id: NISTd58
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -4957,8 +4514,6 @@ units:
   - id: NISTu214
     type: nist
   quantity_references:
-  - id: NISTq13
-    type: nist
   - id: NISTq15
     type: nist
   names:
@@ -4995,9 +4550,6 @@ units:
     id: mmH_2O
     mathml: "<mrow><mi mathvariant='normal'>mm</mi><msup><mi mathvariant='normal'>H</mi><mn>2</mn></msup><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5019,9 +4571,6 @@ units:
     html: Btu<sub>th</sub>
     id: Btu_th
     mathml: "<msub><mrow><mi mathvariant='normal'>Btu</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5059,9 +4608,6 @@ units:
     id: kgf*m*s^-1
     mathml: "<mrow><mi mathvariant='normal'>kgf</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5083,9 +4629,6 @@ units:
     html: hp
     id: hp_metric
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5115,9 +4658,6 @@ units:
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
       mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
-  dimension_reference:
-    id: NISTd71
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5138,9 +4678,6 @@ units:
     html: L
     id: Lambert
     mathml: "<mi mathvariant='normal'>L</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5161,9 +4698,6 @@ units:
     html: Gi
     id: Gi
     mathml: "<mi mathvariant='normal'>Gi</mi>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5184,9 +4718,6 @@ units:
     html: D
     id: D
     mathml: "<mi mathvariant='normal'>D</mi>"
-  dimension_reference:
-    id: NISTd72
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5207,9 +4738,6 @@ units:
     html: aW
     id: aW (Cardelli)
     mathml: "<mi mathvariant='normal'>aW</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5230,9 +4758,6 @@ units:
     html: slug
     id: slug
     mathml: "<mi mathvariant='normal'>slug</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5271,9 +4796,6 @@ units:
     html: cal
     id: cal
     mathml: "<mi mathvariant='normal'>cal</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5295,9 +4817,6 @@ units:
     html: t
     id: ton_short
     mathml: "<mi mathvariant='normal'>t</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5319,9 +4838,6 @@ units:
     html: t
     id: ton_long
     mathml: "<mi mathvariant='normal'>t</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5348,9 +4864,6 @@ units:
     html: cwt (US)
     id: cwt (US)
     mathml: "<mi mathvariant='normal'>cwt (US)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5373,9 +4886,6 @@ units:
     html: oz
     id: oz_troy
     mathml: "<mi mathvariant='normal'>oz</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5398,9 +4908,6 @@ units:
     html: lb
     id: lb_troy
     mathml: "<mi mathvariant='normal'>lb</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5421,9 +4928,6 @@ units:
     html: dwt (troy)
     id: dwt (troy)
     mathml: "<mi mathvariant='normal'>dwt (troy)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5446,9 +4950,6 @@ units:
     html: dr
     id: dr
     mathml: "<mi mathvariant='normal'>dr</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5470,9 +4971,6 @@ units:
     html: scr (ap.)
     id: scr (ap.)
     mathml: "<mi mathvariant='normal'>scr (ap.)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5495,9 +4993,6 @@ units:
     html: pdl
     id: pdl
     mathml: "<mi mathvariant='normal'>pdl</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5518,9 +5013,6 @@ units:
     html: kip
     id: kip
     mathml: "<mi mathvariant='normal'>kip</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5543,9 +5035,6 @@ units:
     html: ton-force (2000 lb)
     id: ton-force (2000 lb)
     mathml: "<mi mathvariant='normal'>ton-force (2000 lb)</mi>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5586,9 +5075,6 @@ units:
     html: eV
     id: eV
     mathml: "<mi mathvariant='normal'>eV</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -5613,9 +5099,6 @@ units:
     html: u
     id: u
     mathml: "<mi mathvariant='normal'>u</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -5642,9 +5125,6 @@ units:
     html: "<i>c</i>"
     id: c
     mathml: "<mi mathvariant='italic'>c</mi>"
-  dimension_reference:
-    id: NISTd11
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5665,9 +5145,6 @@ units:
     html: "<i>&#295;</i>"
     id: h-bar
     mathml: "<mi mathvariant='italic'>&#295;</mi>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5688,9 +5165,6 @@ units:
     html: "<i>m</i><sub>e</sub>"
     id: m_e
     mathml: "<msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5712,9 +5186,6 @@ units:
     id: h-bar*(m_e*c^2)
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msup><mi mathvariant='italic'>m</mi><mi
       mathvariant='normal'>e</mi></msup><msup><mi mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5735,9 +5206,6 @@ units:
     html: "<i>e</i>"
     id: e
     mathml: "<mi mathvariant='italic'>e</mi>"
-  dimension_reference:
-    id: NISTd17
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5758,9 +5226,6 @@ units:
     html: "<i>m</i><sub>e</sub>"
     id: m_e_atomic
     mathml: "<msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5781,9 +5246,6 @@ units:
     html: "<i>&#295;</i>"
     id: h-bar_atomic
     mathml: "<mi mathvariant='italic'>&#295;</mi>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5804,9 +5266,6 @@ units:
     html: "<i>a</i><sub>0</sub>"
     id: a_0
     mathml: "<msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5827,9 +5286,6 @@ units:
     html: "<i>E</i><sub>h</sub>"
     id: E_h
     mathml: "<msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5851,9 +5307,6 @@ units:
     id: h-bar/E_h
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msub><mi mathvariant='italic'>E</mi><mi
       mathvariant='normal'>h</mi></msub></mrow>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5876,9 +5329,6 @@ units:
     mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
-  dimension_reference:
-    id: NISTd54
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5900,9 +5350,6 @@ units:
     id: h-bar*(e*a_0^2)-1
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><mi mathvariant='italic'>e</mi><msup><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd13
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5924,9 +5371,6 @@ units:
     id: h-bar*e*(m_e)-1
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mi mathvariant='italic'>e</mi><mo>/</mo><msub><mi
       mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
-  dimension_reference:
-    id: NISTd73
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5947,9 +5391,6 @@ units:
     html: "<i>&#295;</i>/<i>a</i><sub>0</sub>"
     id: h-bar*(a_0)-1
     mathml: "<mrow><mi mathvariant='italic'>&#295;</mi><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
-  dimension_reference:
-    id: NISTd61
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5970,9 +5411,6 @@ units:
     html: "<i>e</i><i>a</i><sub>0</sub><sup>3</sup>"
     id: e*(a_0^3)
     mathml: "<mrow><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd43
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -5994,9 +5432,6 @@ units:
     id: eE_h*h-bar^-1
     mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi
       mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6017,9 +5452,6 @@ units:
     html: "<i>ea</i><sub>0</sub>"
     id: e*a_0
     mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
-  dimension_reference:
-    id: NISTd72
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6041,9 +5473,6 @@ units:
     id: E_h*(e*a_0)
     mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
       mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
-  dimension_reference:
-    id: NISTd42
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6065,9 +5494,6 @@ units:
     id: E_h*(e*a_0^2)
     mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
       mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd74
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6093,9 +5519,6 @@ units:
     id: E_h*e-1
     mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
       mathvariant='italic'>e</mi></mrow>"
-  dimension_reference:
-    id: NISTd18
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6119,9 +5542,6 @@ units:
     id: E_h*(a_0)-1
     mathml: "<mrow><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub></mrow>"
-  dimension_reference:
-    id: NISTd12
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6142,9 +5562,6 @@ units:
     html: "<i>e</i><i>a</i><sub>0</sub><sup>2</sup>"
     id: e*a_0^2
     mathml: "<mrow><mi mathvariant='italic'>e</mi><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub>><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd75
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6167,9 +5584,6 @@ units:
     mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
-  dimension_reference:
-    id: NISTd76
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6191,9 +5605,6 @@ units:
     html: statohm
     id: statohm
     mathml: "<mi mathvariant='normal'>statohm</mi>"
-  dimension_reference:
-    id: NISTd20
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6215,9 +5626,6 @@ units:
     html: statF
     id: statF
     mathml: "<mi mathvariant='normal'>statF</mi>"
-  dimension_reference:
-    id: NISTd19
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6239,9 +5647,6 @@ units:
     html: statA
     id: statA
     mathml: "<mi mathvariant='normal'>statA</mi>"
-  dimension_reference:
-    id: NISTd4
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6288,9 +5693,6 @@ units:
     html: statH
     id: statH
     mathml: "<mi mathvariant='normal'>statH</mi>"
-  dimension_reference:
-    id: NISTd23
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6312,9 +5714,6 @@ units:
     html: statmho
     id: statmho
     mathml: "<mi mathvariant='normal'>statmho</mi>"
-  dimension_reference:
-    id: NISTd21
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6338,9 +5737,6 @@ units:
     html: statcoulomb
     id: statcoulomb
     mathml: "<mi mathvariant='normal'>statcoulomb</mi>"
-  dimension_reference:
-    id: NISTd17
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6361,9 +5757,6 @@ units:
     html: statWb
     id: statWb
     mathml: "<mi mathvariant='normal'>statWb</mi>"
-  dimension_reference:
-    id: NISTd22
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6384,9 +5777,6 @@ units:
     html: statT
     id: statT
     mathml: "<mi mathvariant='normal'>statT</mi>"
-  dimension_reference:
-    id: NISTd13
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6407,9 +5797,6 @@ units:
     html: statwatt
     id: statwatt
     mathml: "<mi mathvariant='normal'>statwatt</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6431,9 +5818,6 @@ units:
     html: dr (avdp)
     id: dr (avdp)
     mathml: "<mi mathvariant='normal'>dr (avdp)</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6454,9 +5838,6 @@ units:
     html: ft.c
     id: ft.c
     mathml: "<mi mathvariant='normal'>ft.c</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6477,9 +5858,6 @@ units:
     html: ft.L
     id: ft.L
     mathml: "<mi mathvariant='normal'>ft.L</mi>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6502,9 +5880,6 @@ units:
     html: pc
     id: pica_computer
     mathml: "<mi mathvariant='normal'>pc</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6525,9 +5900,6 @@ units:
     html: pc
     id: pica_printer
     mathml: "<mi mathvariant='normal'>pc</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6550,9 +5922,6 @@ units:
     html: pt
     id: pt_computer
     mathml: "<mi mathvariant='normal'>pt</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6574,9 +5943,6 @@ units:
     html: rd
     id: rd
     mathml: "<mi mathvariant='normal'>rd</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6598,9 +5964,6 @@ units:
     html: fath
     id: fath
     mathml: "<mi mathvariant='normal'>fath</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6621,9 +5984,6 @@ units:
     html: cmil
     id: cmil
     mathml: "<mi mathvariant='normal'>cmil</mi>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6644,9 +6004,6 @@ units:
     html: hp
     id: hp
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6668,9 +6025,6 @@ units:
     html: hp
     id: hp_boiler
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6692,9 +6046,6 @@ units:
     html: hp
     id: hp_water
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6715,9 +6066,6 @@ units:
     html: hp
     id: hp_UK
     mathml: "<mi mathvariant='normal'>hp</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6738,9 +6086,6 @@ units:
     html: "&#176;R"
     id: degR
     mathml: "<mi mathvariant='normal'>&#176;R</mi>"
-  dimension_reference:
-    id: NISTd5
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6766,9 +6111,6 @@ units:
     html: Da
     id: Da
     mathml: "<mi mathvariant='normal'>Da</mi>"
-  dimension_reference:
-    id: NISTd2
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -6793,9 +6135,6 @@ units:
     html: "&#x19b;<sub>C</sub>"
     id: lambda-bar_C
     mathml: "<msub><mi mathvariant='normal'>&#x19b;</mi><mi mathvariant='normal'>C</mi></msub>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6818,9 +6157,6 @@ units:
     mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd77
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6843,9 +6179,6 @@ units:
     mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd78
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6868,9 +6201,6 @@ units:
     mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi
       mathvariant='normal'>h</mi></msub></mrow>"
-  dimension_reference:
-    id: NISTd45
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6914,9 +6244,6 @@ units:
     id: m_e*c^2
     mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><msup><mi
       mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6938,9 +6265,6 @@ units:
     id: m_e*c
     mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
       mathvariant='italic'>c</mi></mrow>"
-  dimension_reference:
-    id: NISTd61
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6961,9 +6285,6 @@ units:
     html: "&#295;"
     id: h-bar_eV_s
     mathml: "<mi mathvariant='italic'>&#295;</mi>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -6985,9 +6306,6 @@ units:
     id: m_e*c^2_MeV
     mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><msup><mi
       mathvariant='italic'>c</mi><mn>2</mn></msup></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7009,9 +6327,6 @@ units:
     id: m_e*c_MeV/C
     mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
       mathvariant='italic'>c</mi></mrow>"
-  dimension_reference:
-    id: NISTd61
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7033,9 +6348,6 @@ units:
     html: qt (UK)
     id: qt (UK)
     mathml: "<mi mathvariant='normal'>qt (UK)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7057,9 +6369,6 @@ units:
     html: dry qt (US)
     id: dry qt (US)
     mathml: "<mi mathvariant='normal'>dry qt (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7081,9 +6390,6 @@ units:
     html: liq qt (US)
     id: liq qt (US)
     mathml: "<mi mathvariant='normal'>liq qt (US)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7104,9 +6410,6 @@ units:
     html: tsp
     id: tsp
     mathml: "<mi mathvariant='normal'>tsp</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7127,9 +6430,6 @@ units:
     html: tbsp
     id: tbsp
     mathml: "<mi mathvariant='normal'>tbsp</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7151,9 +6451,6 @@ units:
     html: tbsp
     id: tbsp_label
     mathml: "<mi mathvariant='normal'>tbsp</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7175,9 +6472,6 @@ units:
     html: tsp
     id: tsp_label
     mathml: "<mi mathvariant='normal'>tsp</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7199,9 +6493,6 @@ units:
     html: cup
     id: cup_label
     mathml: "<mi mathvariant='normal'>cup</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7224,9 +6515,6 @@ units:
     html: fl oz (US label)
     id: fl oz (US label)
     mathml: "<mi mathvariant='normal'>fl oz (US label)</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7271,9 +6559,6 @@ units:
     html: ch
     id: ch
     mathml: "<mi mathvariant='normal'>ch</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7297,9 +6582,6 @@ units:
     html: lnk
     id: lnk
     mathml: "<mi mathvariant='normal'>lnk</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7321,9 +6603,6 @@ units:
     html: fur
     id: fur
     mathml: "<mi mathvariant='normal'>fur</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7346,9 +6625,6 @@ units:
     html: mi
     id: mi_US_survey
     mathml: "<mi mathvariant='normal'>mi</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7370,9 +6646,6 @@ units:
     html: yd
     id: yd_US_survey
     mathml: "<mi mathvariant='normal'>yd</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7395,9 +6668,6 @@ units:
     html: ft
     id: ft_US_survey
     mathml: "<mi mathvariant='normal'>ft</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7419,9 +6689,6 @@ units:
     html: in
     id: in_US_survey
     mathml: "<mi mathvariant='normal'>in</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7467,9 +6734,6 @@ units:
     html: cmHg
     id: cmHg
     mathml: "<mi mathvariant='normal'>cmHg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7492,9 +6756,6 @@ units:
     html: cmHg
     id: cmHg_0degC
     mathml: "<mi mathvariant='normal'>cmHg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7518,9 +6779,6 @@ units:
     id: cmH_2O_4degC
     mathml: "<mrow><mi mathvariant='normal'>cm</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7546,9 +6804,6 @@ units:
     id: cmH_2O
     mathml: "<mrow><mi mathvariant='normal'>cm</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7574,9 +6829,6 @@ units:
     id: inH_2O
     mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7600,9 +6852,6 @@ units:
     id: inH_2O_39degF
     mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7626,9 +6875,6 @@ units:
     id: inH_2O_60degF
     mathml: "<mrow><mi mathvariant='normal'>in</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7654,9 +6900,6 @@ units:
     id: ftH_2O
     mathml: "<mrow><mi mathvariant='normal'>ft</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7680,9 +6923,6 @@ units:
     id: ftH_2O_39degF
     mathml: "<mrow><mi mathvariant='normal'>ft</mi><msub><mi mathvariant='normal'>H</mi><mn>2</mn></msub><mi
       mathvariant='normal'>O</mi></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7717,9 +6957,6 @@ units:
     html: "&#8243;Hg"
     id: dprime_Hg_32degF
     mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7754,9 +6991,6 @@ units:
     html: "&#8243;Hg"
     id: dprime_Hg_60degF
     mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7793,9 +7027,6 @@ units:
     html: "&#8243;Hg"
     id: dprime_Hg
     mathml: "<mi mathvariant='normal'>&#8243;Hg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7832,9 +7063,6 @@ units:
     html: "&#8242;Hg"
     id: prime_Hg
     mathml: "<mi mathvariant='normal'>&#8242;Hg</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7865,9 +7093,6 @@ units:
     html: thm (US)
     id: thm (US)
     mathml: "<mi mathvariant='normal'>thm (US)</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7910,9 +7135,6 @@ units:
     html: Btu
     id: Btu
     mathml: "<mi mathvariant='normal'>Btu</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7933,9 +7155,6 @@ units:
     html: Btu
     id: Btu_mean
     mathml: "<mi mathvariant='normal'>Btu</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7956,9 +7175,6 @@ units:
     html: Btu
     id: Btu_39degF
     mathml: "<mi mathvariant='normal'>Btu</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -7979,9 +7195,6 @@ units:
     html: Btu
     id: Btu_59degF
     mathml: "<mi mathvariant='normal'>Btu</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8002,9 +7215,6 @@ units:
     html: Btu
     id: Btu_60degF
     mathml: "<mi mathvariant='normal'>Btu</mi>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8027,9 +7237,6 @@ units:
     html: a
     id: a_tropical_year
     mathml: "<mi mathvariant='normal'>a</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8052,9 +7259,6 @@ units:
     html: a
     id: a_sidereal_year
     mathml: "<mi mathvariant='normal'>a</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8077,9 +7281,6 @@ units:
     html: d
     id: d_sidereal
     mathml: "<mi mathvariant='normal'>d</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8102,9 +7303,6 @@ units:
     html: h
     id: h_sidereal
     mathml: "<mi mathvariant='normal'>h</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8127,9 +7325,6 @@ units:
     html: min
     id: min_sidereal
     mathml: "<mi mathvariant='normal'>min</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8152,9 +7347,6 @@ units:
     html: s
     id: s_sidereal
     mathml: "<mi mathvariant='normal'>s</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8175,9 +7367,6 @@ units:
     html: pt
     id: pt_printer
     mathml: "<mi mathvariant='normal'>pt</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8198,9 +7387,6 @@ units:
     html: shake
     id: shake
     mathml: "<mi mathvariant='normal'>shake</mi>"
-  dimension_reference:
-    id: NISTd3
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8221,9 +7407,6 @@ units:
     html: den
     id: den
     mathml: "<mi mathvariant='normal'>den</mi>"
-  dimension_reference:
-    id: NISTd58
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8246,9 +7429,6 @@ units:
     html: mil
     id: mil_nato
     mathml: "<mi mathvariant='normal'>mil</mi>"
-  dimension_reference:
-    id: NISTd9
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8270,9 +7450,6 @@ units:
     html: lbmol
     id: lbmol
     mathml: "<mi mathvariant='normal'>lbmol</mi>"
-  dimension_reference:
-    id: NISTd6
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8295,9 +7472,6 @@ units:
     html: ton
     id: ton_refrigeration
     mathml: "<mi mathvariant='normal'>ton</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8358,9 +7532,6 @@ units:
     html: pk
     id: pk
     mathml: "<mi mathvariant='normal'>pk</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8381,9 +7552,6 @@ units:
     html: min
     id: minim
     mathml: "<mi mathvariant='normal'>min</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8405,9 +7573,6 @@ units:
     html: cup
     id: cup
     mathml: "<mi mathvariant='normal'>cup</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8430,9 +7595,6 @@ units:
     html: fl dr
     id: fl dr
     mathml: "<mi mathvariant='normal'>fl dr</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8454,9 +7616,6 @@ units:
     html: gi
     id: gi
     mathml: "<mi mathvariant='normal'>gi</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8479,9 +7638,6 @@ units:
     html: gi
     id: gi_imperial
     mathml: "<mi mathvariant='normal'>gi</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8512,9 +7668,6 @@ units:
     id: ft^3*min^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>min</mi></mrow>"
-  dimension_reference:
-    id: NISTd66
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8545,9 +7698,6 @@ units:
     id: ft^3*sec^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>ft</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>sec</mi></mrow>"
-  dimension_reference:
-    id: NISTd66
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8578,9 +7728,6 @@ units:
     id: in^3*min^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>in</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>min</mi></mrow>"
-  dimension_reference:
-    id: NISTd66
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8610,9 +7757,6 @@ units:
     html: "&#956;in"
     id: uin
     mathml: "<mi mathvariant='normal'>&#956;in</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8644,9 +7788,6 @@ units:
     html: mbar
     id: mbar
     mathml: "<mi mathvariant='normal'>mbar</mi>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8719,9 +7860,6 @@ units:
     html: gal/min
     id: gal*min^-1
     mathml: "<mrow><mi mathvariant='normal'>gal</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>min</mi></mrow>"
-  dimension_reference:
-    id: NISTd66
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8757,9 +7895,6 @@ units:
     html: ml
     id: ml
     mathml: "<mi mathvariant='normal'>ml</mi>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
@@ -8795,9 +7930,6 @@ units:
     html: mol/L
     id: mol*L^-1
     mathml: "<mrow><mi mathvariant='normal'>mol</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>L</mi></mrow>"
-  dimension_reference:
-    id: NISTd34
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8818,9 +7950,6 @@ units:
     html: l.w.
     id: l.w.
     mathml: "<mi mathvariant='normal'>l.w.</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8841,9 +7970,6 @@ units:
     html: l.h.
     id: l.h.
     mathml: "<mi mathvariant='normal'>l.h.</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8864,9 +7990,6 @@ units:
     html: l.m.
     id: l.m.
     mathml: "<mi mathvariant='normal'>l.m.</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8887,9 +8010,6 @@ units:
     html: l.s.
     id: l.s.
     mathml: "<mi mathvariant='normal'>l.s.</mi>"
-  dimension_reference:
-    id: NISTd1
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
@@ -8955,9 +8075,6 @@ units:
     html: var
     id: var
     mathml: "<mi mathvariant='normal'>var</mi>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -8991,9 +8108,6 @@ units:
     html: N&#8201;&#183;&#8201;m
     id: N*m
     mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9028,9 +8142,6 @@ units:
     id: N*m*s
     mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>&#183;</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9060,9 +8171,6 @@ units:
     html: N&#8201;&#183;&#8201;s
     id: N*s
     mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd61
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9092,9 +8200,6 @@ units:
     html: Pa&#8201;&#183;&#8201;s
     id: Pa*s
     mathml: "<mrow><mi mathvariant='normal'>Pa</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd36
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9124,9 +8229,6 @@ units:
     html: J&#8201;&#183;&#8201;s
     id: J*s
     mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9166,9 +8268,6 @@ units:
     html: W&#8201;&#183;&#8201;s
     id: W*s
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>&#183;</mo><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd15
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9235,9 +8334,6 @@ units:
     html: m/s<sup>2</sup>
     id: m*s^-2
     mathml: "<mrow><mi mathvariant='normal'>m</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd28
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9267,9 +8363,6 @@ units:
     html: N/m
     id: N*m^-1
     mathml: "<mrow><mi mathvariant='normal'>N</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd37
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9307,9 +8400,6 @@ units:
     id: N*m^2*kg^-2
     mathml: "<mrow><mi mathvariant='normal'>N</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><msup><mrow><mi
       mathvariant='normal'>kg</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd62
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9339,9 +8429,6 @@ units:
     html: Pa/K
     id: Pa*K^-1
     mathml: "<mrow><mi mathvariant='normal'>Pa</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>K</mi></mrow>"
-  dimension_reference:
-    id: NISTd69
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9369,9 +8456,6 @@ units:
     html: Pa<sup>-1</sup>
     id: Pa^-1
     mathml: "<msup><mrow><mi mathvariant='normal'>Pa</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd63
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9401,9 +8485,6 @@ units:
     html: J/m<sup>3</sup>
     id: J*m^-3
     mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd14
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9436,9 +8517,6 @@ units:
     html: J/kg
     id: J*kg^-1
     mathml: "<mrow><mi mathvariant='normal'>J</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
-  dimension_reference:
-    id: NISTd25
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9478,9 +8556,6 @@ units:
     id: J*kg^-1*K^-1
     mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
-  dimension_reference:
-    id: NISTd40
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9512,9 +8587,6 @@ units:
     html: J/K
     id: J*K^-1
     mathml: "<mrow><mi mathvariant='normal'>J</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>K</mi></mrow>"
-  dimension_reference:
-    id: NISTd39
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9544,9 +8616,6 @@ units:
     html: J/mol
     id: J*mol^-1
     mathml: "<mrow><mi mathvariant='normal'>J</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>mol</mi></mrow>"
-  dimension_reference:
-    id: NISTd47
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9575,9 +8644,6 @@ units:
     id: J*mol^-1*K^-1
     mathml: "<mrow><mi mathvariant='normal'>J</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>mol</mi><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
-  dimension_reference:
-    id: NISTd48
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9607,9 +8673,6 @@ units:
     html: W/sr
     id: W*sr^-1
     mathml: "<mrow><mi mathvariant='normal'>W</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>sr</mi></mrow>"
-  dimension_reference:
-    id: NISTd16
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9636,9 +8699,6 @@ units:
     id: W*m^-1*K^-1
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><mi mathvariant='normal'>m</mi><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
-  dimension_reference:
-    id: NISTd41
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9670,9 +8730,6 @@ units:
     html: W/m<sup>2</sup>
     id: W*m^-2
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd38
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9708,9 +8765,6 @@ units:
     mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
       mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>sr</mi><mo>)</mo></mrow></mrow>"
-  dimension_reference:
-    id: NISTd38
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9742,9 +8796,6 @@ units:
     html: C/m<sup>2</sup>
     id: C*m^-2
     mathml: "<mrow><mi mathvariant='normal'>C</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd32
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9774,9 +8825,6 @@ units:
     html: C/m<sup>3</sup>
     id: C*m^-3
     mathml: "<mrow><mi mathvariant='normal'>C</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd43
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9809,9 +8857,6 @@ units:
     html: C/kg
     id: C*kg^-1
     mathml: "<mrow><mi mathvariant='normal'>C</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
-  dimension_reference:
-    id: NISTd49
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9841,9 +8886,6 @@ units:
     html: V/m
     id: V*m^-1
     mathml: "<mrow><mi mathvariant='normal'>V</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd42
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9873,9 +8915,6 @@ units:
     html: F/m
     id: F*m^-1
     mathml: "<mrow><mi mathvariant='normal'>F</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd45
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9912,9 +8951,6 @@ units:
     html: m<sup>-1</sup>
     id: m^-1
     mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd29
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9940,9 +8976,6 @@ units:
     html: m<sup>2</sup>
     id: m^2
     mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd8
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -9973,9 +9006,6 @@ units:
     id: m^2*s^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd56
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10003,9 +9033,6 @@ units:
     html: m<sup>3</sup>
     id: m^3
     mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd10
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10039,9 +9066,6 @@ units:
     id: m^3*kg
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>kg</mi></mrow>"
-  dimension_reference:
-    id: NISTd31
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10072,9 +9096,6 @@ units:
     id: m^3*s^-1
     mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd66
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10104,9 +9125,6 @@ units:
     html: H/m
     id: H*m^-1
     mathml: "<mrow><mi mathvariant='normal'>H</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd46
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10144,9 +9162,6 @@ units:
     id: kg*m*s^-1
     mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><mi mathvariant='normal'>m</mi><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd61
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10179,9 +9194,6 @@ units:
     html: kg/m
     id: kg*m^-1
     mathml: "<mrow><mi mathvariant='normal'>kg</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd58
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10214,9 +9226,6 @@ units:
     html: kg/m<sup>2</sup>
     id: kg*m^-2
     mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd51
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10251,9 +9260,6 @@ units:
     html: kg/m<sup>3</sup>
     id: kg*m^-3
     mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd30
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10287,9 +9293,6 @@ units:
     id: kg*m^2
     mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
       mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd59
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10330,9 +9333,6 @@ units:
     mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
       mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd60
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10365,9 +9365,6 @@ units:
     html: kg/s
     id: kg*s^-1
     mathml: "<mrow><mi mathvariant='normal'>kg</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd65
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10397,9 +9394,6 @@ units:
     html: Gy/s
     id: Gy*s^-1
     mathml: "<mrow><mi mathvariant='normal'>Gy</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd50
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10429,9 +9423,6 @@ units:
     html: kat/m<sup>3</sup>
     id: kat*m^-3
     mathml: "<mrow><mi mathvariant='normal'>kat</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd55
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10461,9 +9452,6 @@ units:
     html: s<sup>-1</sup>
     id: s^-1
     mathml: "<msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd24
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10493,9 +9481,6 @@ units:
     html: A/m
     id: A*m^-1
     mathml: "<mrow><mi mathvariant='normal'>A</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd33
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10525,9 +9510,6 @@ units:
     html: A/m<sup>2</sup>
     id: A*m^-2
     mathml: "<mrow><mi mathvariant='normal'>A</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd32
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10557,9 +9539,6 @@ units:
     html: K<sup>-1</sup>
     id: K^-1
     mathml: "<msup><mrow><mi mathvariant='normal'>K</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup>"
-  dimension_reference:
-    id: NISTd68
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10589,9 +9568,6 @@ units:
     html: mol/m<sup>3</sup>
     id: mol*m^-3
     mathml: "<mrow><mi mathvariant='normal'>mol</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd34
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10624,9 +9600,6 @@ units:
     html: mol/kg
     id: mol*kg^-1
     mathml: "<mrow><mi mathvariant='normal'>mol</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>kg</mi></mrow>"
-  dimension_reference:
-    id: NISTd79
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10656,9 +9629,6 @@ units:
     html: cd/m<sup>2</sup>
     id: cd*m^-2
     mathml: "<mrow><mi mathvariant='normal'>cd</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd27
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10688,9 +9658,6 @@ units:
     html: rad/m
     id: rad*m^-1
     mathml: "<mrow><mi mathvariant='normal'>rad</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>m</mi></mrow>"
-  dimension_reference:
-    id: NISTd29
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10722,9 +9689,6 @@ units:
     html: rad/s
     id: rad*s^-1
     mathml: "<mrow><mi mathvariant='normal'>rad</mi></mrow><mo>/</mo><mrow><mi mathvariant='normal'>s</mi></mrow>"
-  dimension_reference:
-    id: NISTd24
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -10754,9 +9718,6 @@ units:
     html: rad/s<sup>2</sup>
     id: rad*s^-2
     mathml: "<mrow><mi mathvariant='normal'>rad</mi><mo>/</mo><msup><mrow><mi mathvariant='normal'>s</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
-  dimension_reference:
-    id: NISTd35
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
