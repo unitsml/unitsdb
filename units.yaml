@@ -8913,9 +8913,6 @@ units:
     html: ppm
     id: ppm
     mathml: "<mi mathvariant='normal'>ppm</mi>"
-  dimension_reference:
-    id: NISTd80
-    type: nist
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
