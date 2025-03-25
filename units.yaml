@@ -3111,8 +3111,6 @@ units:
   - id: NISTu120
     type: nist
   quantity_references:
-  - id: NISTq1
-    type: nist
   - id: NISTq50
     type: nist
   names:
