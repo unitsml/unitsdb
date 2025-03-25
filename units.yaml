@@ -1401,10 +1401,6 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/SI/units/ampere
-    type: normative
-    authority: si-digital-framework
 - identifiers:
   - id: NISTu43
     type: nist
@@ -2724,10 +2720,6 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/SI/units/radian
-    type: normative
-    authority: si-digital-framework
 - identifiers:
   - id: NISTu100
     type: nist
