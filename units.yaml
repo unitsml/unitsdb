@@ -49,6 +49,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/metre
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu2
     type: nist
@@ -81,6 +85,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/kilogram
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu3
     type: nist
@@ -120,6 +128,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/second
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu4
     type: nist
@@ -143,6 +155,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/ampere
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu5
     type: nist
@@ -172,6 +188,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/kelvin
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu6
     type: nist
@@ -195,6 +215,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/mole
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu7
     type: nist
@@ -218,6 +242,10 @@ units:
   unit_system_reference:
   - id: si-base
     type: unitsml
+  references:
+  - uri: http://si-digital-framework.org/SI/units/candela
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu8
     type: nist
@@ -287,6 +315,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/radian
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu10
     type: nist
@@ -319,6 +351,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/steradian
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu11
     type: nist
@@ -358,6 +394,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/newton
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu12
     type: nist
@@ -409,6 +449,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/pascal
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu13
     type: nist
@@ -462,6 +506,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/joule
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu14
     type: nist
@@ -503,6 +551,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/watt
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu15
     type: nist
@@ -537,6 +589,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/coulomb
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu16
     type: nist
@@ -582,6 +638,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/volt
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu17
     type: nist
@@ -625,6 +685,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/farad
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu18
     type: nist
@@ -668,6 +732,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/ohm
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu19
     type: nist
@@ -711,6 +779,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/siemens
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu20
     type: nist
@@ -754,6 +826,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/weber
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu21
     type: nist
@@ -793,6 +869,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/tesla
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu22
     type: nist
@@ -836,6 +916,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/henry
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu23
     type: nist
@@ -864,6 +948,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/degreeCelsius
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu25
     type: nist
@@ -892,6 +980,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/becquerel
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu26
     type: nist
@@ -950,6 +1042,10 @@ units:
   dimension_reference:
     id: NISTd2
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/gram
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu28
     type: nist
@@ -986,6 +1082,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/gray
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu29
     type: nist
@@ -1018,6 +1118,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/sievert
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu30
     type: nist
@@ -1050,6 +1154,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/katal
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu31
     type: nist
@@ -1078,6 +1186,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/hertz
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu32
     type: nist
@@ -1106,6 +1218,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/lumen
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu33
     type: nist
@@ -1138,6 +1254,10 @@ units:
   unit_system_reference:
   - id: SI_derived_special
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/lux
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu36
     type: nist
@@ -1173,6 +1293,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/minute
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu37
     type: nist
@@ -1196,6 +1320,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/hour
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu38
     type: nist
@@ -1219,6 +1347,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/day
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu39
     type: nist
@@ -1269,6 +1401,10 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/ampere
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu43
     type: nist
@@ -1292,6 +1428,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/bel
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu44
     type: nist
@@ -1315,6 +1455,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/hectare
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu45
     type: nist
@@ -2243,6 +2387,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/tonne
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu89
     type: nist
@@ -2576,6 +2724,10 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/radian
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu100
     type: nist
@@ -3302,6 +3454,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/litre
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu131
     type: nist
@@ -3609,6 +3765,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/neper
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu154
     type: nist
@@ -3636,6 +3796,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/bel
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu155
     type: nist
@@ -4279,6 +4443,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/astronomicalunit
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu184
     type: nist
@@ -5480,6 +5648,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/electronvolt
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu241
     type: nist
@@ -6659,6 +6831,10 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/SI/units/dalton
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTu290
     type: nist
