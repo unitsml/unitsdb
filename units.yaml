@@ -6893,9 +6893,6 @@ units:
     mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
       mathvariant='italic'>&#295;</mi></mrow>"
-  dimension_reference:
-    id: NISTd65
-    type: nist
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
