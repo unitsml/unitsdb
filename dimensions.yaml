@@ -1,4 +1,4 @@
-schema_version: "2.0.0"
+schema_version: 2.0.0
 dimensions:
 - identifiers:
   - id: NISTd1
@@ -8,12 +8,14 @@ dimensions:
     symbol: L
     symbols:
     - ascii: L
-      html: "&#x1D5AB;"
+      html: '&#x1D5AB;'
       id: dim_L
-      latex: "\\ensuremath{\\mathsf{L}}"
-      mathml: "<mi mathvariant='sans-serif'>L</mi>"
+      latex: \ensuremath{\mathsf{L}}
+      mathml: <mi mathvariant='sans-serif'>L</mi>
       unicode: "\U0001D5AB"
   short: length
+  names:
+  - length
 - identifiers:
   - id: NISTd2
     type: nist
@@ -22,25 +24,29 @@ dimensions:
     symbol: M
     symbols:
     - ascii: M
-      html: "&#x1D5AC;"
+      html: '&#x1D5AC;'
       id: dim_M
-      latex: "\\ensuremath{\\mathsf{M}}"
-      mathml: "<mi mathvariant='sans-serif'>M</mi>"
+      latex: \ensuremath{\mathsf{M}}
+      mathml: <mi mathvariant='sans-serif'>M</mi>
       unicode: "\U0001D5AC"
   short: mass
+  names:
+  - mass
 - identifiers:
   - id: NISTd3
     type: nist
   short: time
+  names:
+  - time
   time:
     power: 1
     symbol: T
     symbols:
     - ascii: T
-      html: "&#x1D5B3;"
+      html: '&#x1D5B3;'
       id: dim_T
-      latex: "\\ensuremath{\\mathsf{T}}"
-      mathml: "<mi mathvariant='sans-serif'>T</mi>"
+      latex: \ensuremath{\mathsf{T}}
+      mathml: <mi mathvariant='sans-serif'>T</mi>
       unicode: "\U0001D5B3"
 - identifiers:
   - id: NISTd4
@@ -50,40 +56,46 @@ dimensions:
     symbol: I
     symbols:
     - ascii: I
-      html: "&#x1D5A8;"
+      html: '&#x1D5A8;'
       id: dim_I
-      latex: "\\ensuremath{\\mathsf{I}}"
-      mathml: "<mi mathvariant='sans-serif'>I</mi>"
+      latex: \ensuremath{\mathsf{I}}
+      mathml: <mi mathvariant='sans-serif'>I</mi>
       unicode: "\U0001D5A8"
   short: electric_current
+  names:
+  - electric current
 - identifiers:
   - id: NISTd5
     type: nist
   short: temperature
+  names:
+  - temperature
   thermodynamic_temperature:
     power: 1
     symbol: Theta
     symbols:
     - ascii: Theta
-      html: "&#x1D760;"
+      html: '&#x1D760;'
       id: dim_Theta
-      latex: "\\ensuremath{\\mathsf{\\Theta}}"
-      mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
+      latex: \ensuremath{\mathsf{\Theta}}
+      mathml: <mi mathvariant='sans-serif'>&#x398;</mi>
       unicode: "\U0001D767"
 - identifiers:
   - id: NISTd6
     type: nist
   amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
     symbols:
-    - ascii: "N"
-      html: "&#x1D5AD;"
+    - ascii: N
+      html: '&#x1D5AD;'
       id: dim_N
-      latex: "\\ensuremath{\\mathsf{N}}"
-      mathml: "<mi mathvariant='sans-serif'>N</mi>"
+      latex: \ensuremath{\mathsf{N}}
+      mathml: <mi mathvariant='sans-serif'>N</mi>
       unicode: "\U0001D5AD"
   short: substance_amount
+  names:
+  - substance amount
 - identifiers:
   - id: NISTd7
     type: nist
@@ -92,12 +104,14 @@ dimensions:
     symbol: J
     symbols:
     - ascii: J
-      html: "&#x1D5A9;"
+      html: '&#x1D5A9;'
       id: dim_J
-      latex: "\\ensuremath{\\mathsf{J}}"
-      mathml: "<mi mathvariant='sans-serif'>J</mi>"
+      latex: \ensuremath{\mathsf{J}}
+      mathml: <mi mathvariant='sans-serif'>J</mi>
       unicode: "\U0001D5A9"
   short: luminous_intensity
+  names:
+  - luminous intensity
 - identifiers:
   - id: NISTd8
     type: nist
@@ -105,6 +119,8 @@ dimensions:
     power: 2
     symbol: L
   short: area
+  names:
+  - area
 - identifiers:
   - id: NISTd9
     type: nist
@@ -114,12 +130,14 @@ dimensions:
     symbol: phi
     symbols:
     - ascii: phi
-      html: "&#x1D785;"
+      html: '&#x1D785;'
       id: dim_phi
-      latex: "\\ensuremath{\\mathsf{\\phi}}"
-      mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
+      latex: \ensuremath{\mathsf{\phi}}
+      mathml: <mi mathvariant='sans-serif'>&#x3c6;</mi>
       unicode: "\U0001D785"
   short: plane_angle
+  names:
+  - plane angle
 - identifiers:
   - id: NISTd10
     type: nist
@@ -127,6 +145,8 @@ dimensions:
     power: 3
     symbol: L
   short: volume
+  names:
+  - volume
 - identifiers:
   - id: NISTd11
     type: nist
@@ -134,6 +154,8 @@ dimensions:
     power: 1
     symbol: L
   short: velocity
+  names:
+  - velocity
   time:
     power: -1
     symbol: T
@@ -147,6 +169,8 @@ dimensions:
     power: 1
     symbol: M
   short: force
+  names:
+  - force
   time:
     power: -2
     symbol: T
@@ -160,6 +184,8 @@ dimensions:
     power: 1
     symbol: M
   short: magnetic_flux_density
+  names:
+  - magnetic flux density
   time:
     power: -2
     symbol: T
@@ -173,6 +199,8 @@ dimensions:
     power: 1
     symbol: M
   short: pressure
+  names:
+  - pressure
   time:
     power: -2
     symbol: T
@@ -186,6 +214,8 @@ dimensions:
     power: 1
     symbol: M
   short: energy
+  names:
+  - energy
   time:
     power: -2
     symbol: T
@@ -199,6 +229,8 @@ dimensions:
     power: 1
     symbol: M
   short: power
+  names:
+  - power
   time:
     power: -3
     symbol: T
@@ -209,6 +241,8 @@ dimensions:
     power: 1
     symbol: I
   short: electric_charge
+  names:
+  - electric charge
   time:
     power: 1
     symbol: T
@@ -225,6 +259,8 @@ dimensions:
     power: 1
     symbol: M
   short: electric_potential_difference
+  names:
+  - electric potential difference
   time:
     power: -3
     symbol: T
@@ -241,6 +277,8 @@ dimensions:
     power: -1
     symbol: M
   short: capacitance
+  names:
+  - capacitance
   time:
     power: 4
     symbol: T
@@ -257,6 +295,8 @@ dimensions:
     power: 1
     symbol: M
   short: electric_resistance
+  names:
+  - electric resistance
   time:
     power: -3
     symbol: T
@@ -273,6 +313,8 @@ dimensions:
     power: -1
     symbol: M
   short: electric_conductance
+  names:
+  - electric conductance
   time:
     power: 3
     symbol: T
@@ -289,6 +331,8 @@ dimensions:
     power: 1
     symbol: M
   short: magnetic_flux
+  names:
+  - magnetic flux
   time:
     power: -2
     symbol: T
@@ -305,6 +349,8 @@ dimensions:
     power: 1
     symbol: M
   short: inductance
+  names:
+  - inductance
   time:
     power: -2
     symbol: T
@@ -312,6 +358,8 @@ dimensions:
   - id: NISTd24
     type: nist
   short: frequency
+  names:
+  - frequency
   time:
     power: -1
     symbol: T
@@ -322,6 +370,8 @@ dimensions:
     power: 2
     symbol: L
   short: absorbed_dose
+  names:
+  - absorbed dose
   time:
     power: -2
     symbol: T
@@ -330,8 +380,10 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   short: catalytic_activity
+  names:
+  - catalytic activity
   time:
     power: -1
     symbol: T
@@ -345,6 +397,8 @@ dimensions:
     power: 1
     symbol: J
   short: illuminance
+  names:
+  - illuminance
 - identifiers:
   - id: NISTd28
     type: nist
@@ -352,6 +406,8 @@ dimensions:
     power: 1
     symbol: L
   short: acceleration
+  names:
+  - acceleration
   time:
     power: -2
     symbol: T
@@ -362,6 +418,8 @@ dimensions:
     power: -1
     symbol: L
   short: wavenumber
+  names:
+  - wavenumber
 - identifiers:
   - id: NISTd30
     type: nist
@@ -372,6 +430,8 @@ dimensions:
     power: 1
     symbol: M
   short: mass_density
+  names:
+  - mass density
 - identifiers:
   - id: NISTd31
     type: nist
@@ -382,6 +442,8 @@ dimensions:
     power: -1
     symbol: M
   short: specific_volume
+  names:
+  - specific volume
 - identifiers:
   - id: NISTd32
     type: nist
@@ -392,6 +454,8 @@ dimensions:
     power: -2
     symbol: L
   short: current_density
+  names:
+  - current density
 - identifiers:
   - id: NISTd33
     type: nist
@@ -402,20 +466,26 @@ dimensions:
     power: -1
     symbol: L
   short: magnetic_field_strength
+  names:
+  - magnetic field strength
 - identifiers:
   - id: NISTd34
     type: nist
   amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   length:
     power: -3
     symbol: L
   short: concentration
+  names:
+  - concentration
 - identifiers:
   - id: NISTd35
     type: nist
   short: angular_acceleration
+  names:
+  - angular acceleration
   time:
     power: -2
     symbol: T
@@ -429,6 +499,8 @@ dimensions:
     power: 1
     symbol: M
   short: dynamic_viscosity
+  names:
+  - dynamic viscosity
   time:
     power: -1
     symbol: T
@@ -439,6 +511,8 @@ dimensions:
     power: 1
     symbol: M
   short: surface_tension
+  names:
+  - surface tension
   time:
     power: -2
     symbol: T
@@ -449,6 +523,8 @@ dimensions:
     power: 1
     symbol: M
   short: heat_flux_density
+  names:
+  - heat flux density
   time:
     power: -3
     symbol: T
@@ -462,6 +538,8 @@ dimensions:
     power: 1
     symbol: M
   short: heat_capacity
+  names:
+  - heat capacity
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -475,6 +553,8 @@ dimensions:
     power: 2
     symbol: L
   short: specific_heat_capacity
+  names:
+  - specific heat capacity
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -491,6 +571,8 @@ dimensions:
     power: 1
     symbol: M
   short: thermal_conductivity
+  names:
+  - thermal conductivity
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -510,6 +592,8 @@ dimensions:
     power: 1
     symbol: M
   short: electric_field_strength
+  names:
+  - electric field strength
   time:
     power: -3
     symbol: T
@@ -523,6 +607,8 @@ dimensions:
     power: -3
     symbol: L
   short: electric_charge_density
+  names:
+  - electric charge density
   time:
     power: 1
     symbol: T
@@ -536,6 +622,8 @@ dimensions:
     power: -2
     symbol: L
   short: electric_flux_density
+  names:
+  - electric flux density
   time:
     power: 1
     symbol: T
@@ -552,6 +640,8 @@ dimensions:
     power: -1
     symbol: M
   short: permittivity
+  names:
+  - permittivity
   time:
     power: 4
     symbol: T
@@ -568,6 +658,8 @@ dimensions:
     power: 1
     symbol: M
   short: permeability
+  names:
+  - permeability
   time:
     power: -2
     symbol: T
@@ -576,7 +668,7 @@ dimensions:
     type: nist
   amount_of_substance:
     power: -1
-    symbol: "N"
+    symbol: N
   length:
     power: 2
     symbol: L
@@ -584,6 +676,8 @@ dimensions:
     power: 1
     symbol: M
   short: molar_energy
+  names:
+  - molar energy
   time:
     power: -2
     symbol: T
@@ -592,7 +686,7 @@ dimensions:
     type: nist
   amount_of_substance:
     power: -1
-    symbol: "N"
+    symbol: N
   length:
     power: 2
     symbol: L
@@ -600,6 +694,8 @@ dimensions:
     power: 1
     symbol: M
   short: molar_entropy
+  names:
+  - molar entropy
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -616,6 +712,8 @@ dimensions:
     power: -1
     symbol: M
   short: exposure
+  names:
+  - exposure
   time:
     power: 1
     symbol: T
@@ -626,6 +724,8 @@ dimensions:
     power: 2
     symbol: L
   short: absorbed_dose_rate
+  names:
+  - absorbed dose rate
   time:
     power: -3
     symbol: T
@@ -639,6 +739,8 @@ dimensions:
     power: 1
     symbol: M
   short: surface_density
+  names:
+  - surface density
 - identifiers:
   - id: NISTd52
     type: nist
@@ -649,6 +751,8 @@ dimensions:
     power: -1
     symbol: M
   short: fluidity
+  names:
+  - fluidity
   time:
     power: 1
     symbol: T
@@ -662,6 +766,8 @@ dimensions:
     power: -2
     symbol: M
   short: surface_charge_density
+  names:
+  - surface charge density
   time:
     power: 1
     symbol: T
@@ -678,6 +784,8 @@ dimensions:
     power: 1
     symbol: M
   short: magnetizability
+  names:
+  - magnetizability
   time:
     power: 2
     symbol: T
@@ -686,11 +794,13 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   mass:
     power: -3
     symbol: M
   short: catalytic_activity_concentration
+  names:
+  - catalytic activity concentration
   time:
     power: -1
     symbol: T
@@ -701,6 +811,8 @@ dimensions:
     power: 2
     symbol: L
   short: kinematic_viscosity
+  names:
+  - kinematic viscosity
   time:
     power: -1
     symbol: T
@@ -711,6 +823,8 @@ dimensions:
     power: 4
     symbol: L
   short: area_moment_of_inertia
+  names:
+  - area moment of inertia
 - identifiers:
   - id: NISTd58
     type: nist
@@ -721,6 +835,8 @@ dimensions:
     power: 1
     symbol: M
   short: linear_density
+  names:
+  - linear density
 - identifiers:
   - id: NISTd59
     type: nist
@@ -731,6 +847,8 @@ dimensions:
     power: 1
     symbol: M
   short: mass_moment_of_inertia
+  names:
+  - mass moment of inertia
 - identifiers:
   - id: NISTd60
     type: nist
@@ -741,6 +859,8 @@ dimensions:
     power: 1
     symbol: M
   short: action
+  names:
+  - action
   time:
     power: -1
     symbol: T
@@ -754,6 +874,8 @@ dimensions:
     power: 1
     symbol: M
   short: momentum
+  names:
+  - momentum
   time:
     power: -1
     symbol: T
@@ -767,6 +889,8 @@ dimensions:
     power: -1
     symbol: M
   short: gravitational_constant
+  names:
+  - gravitational constant
   time:
     power: -2
     symbol: T
@@ -780,6 +904,8 @@ dimensions:
     power: -1
     symbol: M
   short: compressibility
+  names:
+  - compressibility
   time:
     power: 2
     symbol: T
@@ -791,6 +917,8 @@ dimensions:
     power: 1
     symbol: phi
   short: solid_angle
+  names:
+  - solid angle
 - identifiers:
   - id: NISTd65
     type: nist
@@ -798,6 +926,8 @@ dimensions:
     power: 1
     symbol: M
   short: mass_flow_rate
+  names:
+  - mass flow rate
   time:
     power: -1
     symbol: T
@@ -808,6 +938,8 @@ dimensions:
     power: 3
     symbol: L
   short: volume_flow_rate
+  names:
+  - volume flow rate
   time:
     power: -1
     symbol: T
@@ -816,10 +948,14 @@ dimensions:
     type: nist
   dimensionless: true
   short: logarithmic_ratio
+  names:
+  - logarithmic ratio
 - identifiers:
   - id: NISTd68
     type: nist
   short: linear_expansion_coefficient
+  names:
+  - linear expansion coefficient
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -833,6 +969,8 @@ dimensions:
     power: 1
     symbol: M
   short: pressure_coefficient
+  names:
+  - pressure coefficient
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -849,6 +987,8 @@ dimensions:
     power: -1
     symbol: M
   short: isothermal_compressibility
+  names:
+  - isothermal compressibility
   time:
     power: 2
     symbol: T
@@ -859,6 +999,8 @@ dimensions:
     power: 1
     symbol: M
   short: heat_transfer_coefficient
+  names:
+  - heat transfer coefficient
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -875,6 +1017,8 @@ dimensions:
     power: 1
     symbol: L
   short: electric_dipole_moment
+  names:
+  - electric dipole moment
   time:
     power: 1
     symbol: T
@@ -888,6 +1032,8 @@ dimensions:
     power: 2
     symbol: L
   short: magnetic_dipole_moment
+  names:
+  - magnetic dipole moment
 - identifiers:
   - id: NISTd74
     type: nist
@@ -898,6 +1044,8 @@ dimensions:
     power: 1
     symbol: M
   short: electric_field_gradient
+  names:
+  - electric field gradient
   time:
     power: -3
     symbol: T
@@ -911,6 +1059,8 @@ dimensions:
     power: 2
     symbol: L
   short: electric_quadrupole_moment
+  names:
+  - electric quadrupole moment
   time:
     power: 1
     symbol: T
@@ -924,6 +1074,8 @@ dimensions:
     power: 1
     symbol: M
   short: polarizability
+  names:
+  - polarizability
   time:
     power: 4
     symbol: T
@@ -940,6 +1092,8 @@ dimensions:
     power: -2
     symbol: M
   short: hyperpolarizability_1st
+  names:
+  - hyperpolarizability 1st
   time:
     power: 7
     symbol: T
@@ -956,6 +1110,8 @@ dimensions:
     power: -3
     symbol: M
   short: hyperpolarizability_2nd
+  names:
+  - hyperpolarizability 2nd
   time:
     power: 10
     symbol: T
@@ -964,38 +1120,52 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   mass:
     power: 1
     symbol: M
   short: molality
+  names:
+  - molality
 - identifiers:
   - id: NISTd80
     type: nist
   dimensionless: true
   short: ratio_quantity
+  names:
+  - ratio quantity
 - identifiers:
   - id: NISTd83
     type: nist
   dimensionless: true
   short: level_of_field_quantity
+  names:
+  - level of field quantity
 - identifiers:
   - id: NISTd84
     type: nist
   dimensionless: true
   short: field_power_level
+  names:
+  - field power level
 - identifiers:
   - id: NISTd85
     type: nist
   dimensionless: true
   short: mass_mole_fraction
+  names:
+  - mass mole fraction
 - identifiers:
   - id: NISTd94
     type: nist
   dimensionless: true
   short: acidity_index
+  names:
+  - acidity index
 - identifiers:
   - id: NISTd95
     type: nist
   dimensionless: true
   short: storage_capacity
+  names:
+  - storage capacity
