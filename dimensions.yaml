@@ -1169,3 +1169,12 @@ dimensions:
   short: storage_capacity
   names:
   - storage capacity
+- identifiers:
+  - id: NISTd96
+    type: nist
+  short: fluence
+  names:
+  - fluence
+  length:
+    power: -2
+    symbol: L

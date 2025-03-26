@@ -2156,3 +2156,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/EMIR
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq190
+    type: nist
+  names:
+  - fluence
+  quantity_type: derived
+  short: fluence
+  dimension_reference:
+    id: NISTd96
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/FLUE
+    type: normative
+    authority: si-digital-framework
