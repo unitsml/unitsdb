@@ -2279,3 +2279,13 @@ quantities:
   dimension_reference:
     id: NISTd99
     type: nist
+- identifiers:
+  - id: NISTq199
+    type: nist
+  names:
+  - relative humidity
+  quantity_type: derived
+  short: relative_humidity
+  dimension_reference:
+    id: NISTd80
+    type: nist

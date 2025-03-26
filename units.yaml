@@ -8087,6 +8087,33 @@ units:
   - id: non-SI_not_acceptable
     type: nist
 - identifiers:
+  - id: NISTu382
+    type: nist
+  quantity_references:
+  - id: NISTq199
+    type: nist
+  names:
+  - relative humidity
+  - percent relative humidity
+  root: true
+  short: relative_humidity
+  symbols:
+  - latex: '\ensuremath{\mathrm{RH}}'
+    unicode: 'RH'
+    ascii: 'RH'
+    html: 'RH'
+    id: rh
+    mathml: "<mi mathvariant='normal'>RH</mi>"
+  - latex: '\ensuremath{\mathrm{\%rh}}'
+    unicode: '%rh'
+    ascii: '%rh'
+    html: '%rh'
+    id: rh_percent
+    mathml: "<mi mathvariant='normal'>%rh</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
   - id: NISTu400
     type: nist
   quantity_references:
