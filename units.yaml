@@ -9378,6 +9378,8 @@ units:
   quantity_references:
   - id: NISTq76
     type: nist
+  - id: NISTq194
+    type: nist
   names:
   - gray per second
   root: false
