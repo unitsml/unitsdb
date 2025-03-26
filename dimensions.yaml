@@ -1200,3 +1200,12 @@ dimensions:
   short: phase
   names:
   - phase
+- identifiers:
+  - id: NISTd99
+    type: nist
+  length:
+    power: -2
+    symbol: L
+  short: fuel_efficiency
+  names:
+  - fuel efficiency
