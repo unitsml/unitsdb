@@ -2142,3 +2142,17 @@ quantities:
   dimension_reference:
     id: NISTd80
     type: nist
+- identifiers:
+  - id: NISTq189
+    type: nist
+  names:
+  - emission rate
+  quantity_type: derived
+  short: emission_rate
+  dimension_reference:
+    id: NISTd24
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/EMIR
+    type: normative
+    authority: si-digital-framework

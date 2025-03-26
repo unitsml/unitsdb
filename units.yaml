@@ -9436,6 +9436,8 @@ units:
     type: nist
   - id: NISTq120
     type: nist
+  - id: NISTq189
+    type: nist
   names:
   - second to the power minus one
   root: false
