@@ -155,6 +155,8 @@ units:
     type: nist
   - id: NISTq193
     type: nist
+  - id: NISTq196
+    type: nist
   names:
   - kelvin
   root: true
