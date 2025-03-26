@@ -8842,6 +8842,8 @@ units:
   quantity_references:
   - id: NISTq75
     type: nist
+  - id: NISTq197
+    type: nist
   names:
   - coulomb per kilogram
   root: false
