@@ -1163,11 +1163,16 @@ quantities:
     type: nist
   names:
   - logarithmic ratio quantities (power-like quantities using decimal logarithms)
+  - ratio logarithm (B)
   quantity_type: derived
   short: logarithmic_ratio_quantities
   dimension_reference:
     id: NISTd67
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/RLGB
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq91
     type: nist
@@ -1478,11 +1483,16 @@ quantities:
     type: nist
   names:
   - logarithmic decrement (field quantities using natural logarithms)
+  - ratio logarithm (Np)
   quantity_type: derived
   short: logarithmic_decrement
   dimension_reference:
     id: NISTd67
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/RLGN
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq122
     type: nist
