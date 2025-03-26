@@ -1699,7 +1699,7 @@ units:
     type: nist
   - id: NISTq121
     type: nist
-  - id: NISTq1002
+  - id: NISTq188
     type: nist
   names:
   - one
@@ -8017,7 +8017,7 @@ units:
   - id: NISTu400
     type: nist
   quantity_references:
-  - id: NISTq1000
+  - id: NISTq186
     type: nist
   names:
   - parts per million
@@ -8037,7 +8037,7 @@ units:
   - id: NISTu401
     type: nist
   quantity_references:
-  - id: NISTq1001
+  - id: NISTq187
     type: nist
   si_derived_bases:
   - power: 2

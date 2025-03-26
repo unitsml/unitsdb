@@ -2112,7 +2112,7 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
-  - id: NISTq1000
+  - id: NISTq186
     type: nist
   names:
   - mass fraction
@@ -2123,7 +2123,7 @@ quantities:
     id: NISTd85
     type: nist
 - identifiers:
-  - id: NISTq1001
+  - id: NISTq187
     type: nist
   names:
   - apparent power
@@ -2133,7 +2133,7 @@ quantities:
     id: NISTd16
     type: nist
 - identifiers:
-  - id: NISTq1002
+  - id: NISTq188
     type: nist
   names:
   - nil
