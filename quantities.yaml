@@ -2212,3 +2212,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/ITSK
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq194
+    type: nist
+  names:
+  - kerma rate
+  quantity_type: derived
+  short: kerma_rate
+  dimension_reference:
+    id: NISTd50
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/KRMR
+    type: normative
+    authority: si-digital-framework
