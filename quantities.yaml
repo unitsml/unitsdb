@@ -2226,3 +2226,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/KRMR
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq195
+    type: nist
+  names:
+  - phase
+  quantity_type: derived
+  short: phase
+  dimension_reference:
+    id: NISTd98
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/PHAS
+    type: normative
+    authority: si-digital-framework
