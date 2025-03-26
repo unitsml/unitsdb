@@ -1178,3 +1178,15 @@ dimensions:
   length:
     power: -2
     symbol: L
+- identifiers:
+  - id: NISTd97
+    type: nist
+  short: fluence_rate
+  names:
+  - fluence_rate
+  length:
+    power: -2
+    symbol: L
+  time:
+    power: -1
+    symbol: T

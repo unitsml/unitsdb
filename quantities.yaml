@@ -2170,3 +2170,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/FLUE
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq191
+    type: nist
+  names:
+  - fluence rate
+  quantity_type: derived
+  short: fluence_rate
+  dimension_reference:
+    id: NISTd97
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/FLUR
+    type: normative
+    authority: si-digital-framework

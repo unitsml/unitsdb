@@ -9749,3 +9749,34 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+- identifiers:
+  - id: NISTu1e-2/1.u3e-1/1
+    type: nist
+  quantity_references:
+  - id: NISTq191
+    type: nist
+  names:
+  - meter to the power minus two per second
+  - reciprocal square meter per second
+  root: false
+  root_units:
+  - power: -2
+    unit_reference:
+      id: NISTu1
+      type: nist
+  - power: -1
+    unit_reference:
+      id: NISTu3
+      type: nist
+  short: meter_to_the_power_minus_two_per_second
+  symbols:
+  - latex: \ensuremath{\mathrm{m^{-2}/s}}
+    unicode: "m\u207B\xB2\xB7s\u207B\xB9"
+    ascii: m^-2*s^-1
+    html: m<sup>-2</sup>/s
+    id: m^-2*s^-1
+    mathml: <mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo>/</mo><mi
+      mathvariant='normal'>s</mi></mrow>
+  unit_system_reference:
+  - id: SI_derived_non-special
+    type: nist
