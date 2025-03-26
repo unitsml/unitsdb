@@ -2254,3 +2254,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/PLTS
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq197
+    type: nist
+  names:
+  - exposure
+  quantity_type: derived
+  short: exposure
+  dimension_reference:
+    id: NISTd49
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/XPOS
+    type: normative
+    authority: si-digital-framework
