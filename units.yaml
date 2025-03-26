@@ -267,6 +267,8 @@ units:
   quantity_references:
   - id: NISTq9
     type: nist
+  - id: NISTq195
+    type: nist
   si_derived_bases:
   - power: 2
     unit_reference:

@@ -1190,3 +1190,13 @@ dimensions:
   time:
     power: -1
     symbol: T
+- identifiers:
+  - id: NISTd98
+    type: nist
+  dimensionless: true
+  plane_angle:
+    power: 1
+    symbol: phi
+  short: phase
+  names:
+  - phase
