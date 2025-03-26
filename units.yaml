@@ -153,6 +153,8 @@ units:
   quantity_references:
   - id: NISTq5
     type: nist
+  - id: NISTq193
+    type: nist
   names:
   - kelvin
   root: true
