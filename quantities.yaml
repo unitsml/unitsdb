@@ -750,7 +750,7 @@ quantities:
   quantity_type: derived
   short: angular_velocity
   dimension_reference:
-    id: NISTd24
+    id: NISTd11
     type: nist
   references:
   - uri: http://si-digital-framework.org/quantities/VELA
