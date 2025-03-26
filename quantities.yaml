@@ -2240,3 +2240,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/PHAS
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq196
+    type: nist
+  names:
+  - PLTS-2000 temperature (K)
+  quantity_type: derived
+  short: PLTS-2000_temperature
+  dimension_reference:
+    id: NISTd5
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/PLTS
+    type: normative
+    authority: si-digital-framework
