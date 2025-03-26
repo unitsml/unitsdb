@@ -2268,3 +2268,14 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/XPOS
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq198
+    type: nist
+  names:
+  - fuel efficiency
+  - fuel economy
+  quantity_type: derived
+  short: fuel_efficiency
+  dimension_reference:
+    id: NISTd99
+    type: nist

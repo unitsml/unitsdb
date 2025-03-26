@@ -7803,7 +7803,7 @@ units:
   - id: NISTu363
     type: nist
   quantity_references:
-  - id: NISTq1
+  - id: NISTq198
     type: nist
   names:
   - mile per gallon (US)
