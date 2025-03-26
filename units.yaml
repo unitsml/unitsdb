@@ -9791,7 +9791,7 @@ units:
   short: meter_to_the_power_minus_two
   symbols:
   - latex: \ensuremath{\mathrm{m^{-2}}}
-    unicode: "m\u207B\xB2"
+    unicode: m⁻²
     ascii: m^-2
     html: m<sup>-2</sup>
     id: m^-2
@@ -9821,7 +9821,7 @@ units:
   short: meter_to_the_power_minus_two_per_second
   symbols:
   - latex: \ensuremath{\mathrm{m^{-2}/s}}
-    unicode: "m\u207B\xB2\xB7s\u207B\xB9"
+    unicode: m⁻²·s⁻¹
     ascii: m^-2*s^-1
     html: m<sup>-2</sup>/s
     id: m^-2*s^-1
