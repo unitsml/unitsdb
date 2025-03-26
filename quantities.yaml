@@ -2184,3 +2184,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/FLUR
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq192
+    type: nist
+  names:
+  - "ITS-90 temperature (°C)"
+  quantity_type: derived
+  short: ITS-90_temperature_celsius
+  dimension_reference:
+    id: NISTd5
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ITSC
+    type: normative
+    authority: si-digital-framework

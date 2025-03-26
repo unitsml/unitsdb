@@ -862,6 +862,8 @@ units:
   quantity_references:
   - id: NISTq34
     type: nist
+  - id: NISTq192
+    type: nist
   si_derived_bases:
   - power: 1
     unit_reference:
