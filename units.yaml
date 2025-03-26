@@ -8060,6 +8060,33 @@ units:
   - id: non-SI_acceptable
     type: nist
 - identifiers:
+  - id: NISTu381
+    type: nist
+  quantity_references:
+  - id: NISTq90
+    type: nist
+  names:
+  - dBm
+  - decibel-milliwatt
+  root: true
+  short: decibel_milliwatt
+  symbols:
+  - latex: '\ensuremath{\mathrm{dBm}}'
+    unicode: dBm
+    ascii: dBm
+    html: dBm
+    id: dBm
+    mathml: "<mi mathvariant='normal'>dBm</mi>"
+  - latex: "\\ensuremath{\\mathrm{dB_{mW}}}"
+    unicode: dB_mW
+    ascii: dB_mW
+    html: dB<sub>mW</sub>
+    id: dB_mW
+    mathml: "<msub><mrow><mi mathvariant='normal'>dB</mi></mrow><mrow><mi mathvariant='normal'>mW</mi></mrow></msub>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
   - id: NISTu400
     type: nist
   quantity_references:
