@@ -2198,3 +2198,17 @@ quantities:
   - uri: http://si-digital-framework.org/quantities/ITSC
     type: normative
     authority: si-digital-framework
+- identifiers:
+  - id: NISTq193
+    type: nist
+  names:
+  - ITS-90 temperature (K)
+  quantity_type: derived
+  short: ITS-90_temperature_kelvin
+  dimension_reference:
+    id: NISTd5
+    type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/ITSK
+    type: normative
+    authority: si-digital-framework
