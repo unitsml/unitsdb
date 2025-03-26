@@ -1162,7 +1162,7 @@ quantities:
   - id: NISTq90
     type: nist
   names:
-  - logarithmic ratio quantities
+  - logarithmic ratio quantities (power-like quantities using decimal logarithms)
   quantity_type: derived
   short: logarithmic_ratio_quantities
   dimension_reference:
@@ -1477,11 +1477,11 @@ quantities:
   - id: NISTq121
     type: nist
   names:
-  - logarithmic decrement
+  - logarithmic decrement (field quantities using natural logarithms)
   quantity_type: derived
   short: logarithmic_decrement
   dimension_reference:
-    id: NISTd80
+    id: NISTd67
     type: nist
 - identifiers:
   - id: NISTq122
