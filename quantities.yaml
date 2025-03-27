@@ -2289,3 +2289,13 @@ quantities:
   dimension_reference:
     id: NISTd80
     type: nist
+- identifiers:
+  - id: NISTq200
+    type: nist
+  names:
+  - logarithmic frequency range
+  quantity_type: derived
+  short: logarithmic_frequency_range
+  dimension_reference:
+    id: NISTd67
+    type: nist
