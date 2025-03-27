@@ -8114,6 +8114,46 @@ units:
   - id: non-SI_not_acceptable
     type: nist
 - identifiers:
+  - id: NISTu383
+    type: nist
+  quantity_references:
+  - id: NISTq200
+    type: nist
+  names:
+  - octave
+  root: true
+  short: octave
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{oct}}"
+    unicode: oct
+    ascii: oct
+    html: oct
+    id: oct
+    mathml: "<mi mathvariant='normal'>oct</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
+  - id: NISTu384
+    type: nist
+  quantity_references:
+  - id: NISTq200
+    type: nist
+  names:
+  - decade
+  root: true
+  short: decade
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{dec}}"
+    unicode: dec
+    ascii: dec
+    html: dec
+    id: dec
+    mathml: "<mi mathvariant='normal'>dec</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
   - id: NISTu400
     type: nist
   quantity_references:
