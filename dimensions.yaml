@@ -1209,3 +1209,26 @@ dimensions:
   short: fuel_efficiency
   names:
   - fuel efficiency
+- identifiers:
+  - id: NISTd100
+    type: nist
+  dimensionless: true
+  short: traffic_intensity
+  names:
+  - traffic intensity
+- identifiers:
+  - id: NISTd101
+    type: nist
+  short: symbol_rate
+  names:
+  - symbol rate
+  time:
+    power: -1
+    symbol: T
+- identifiers:
+  - id: NISTd102
+    type: nist
+  dimensionless: true
+  short: information_content
+  names:
+  - information content

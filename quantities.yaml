@@ -2299,3 +2299,34 @@ quantities:
   dimension_reference:
     id: NISTd67
     type: nist
+- identifiers:
+  - id: NISTq201
+    type: nist
+  names:
+  - traffic intensity
+  quantity_type: derived
+  short: traffic_intensity
+  dimension_reference:
+    id: NISTd100
+    type: nist
+- identifiers:
+  - id: NISTq202
+    type: nist
+  names:
+  - symbol rate
+  quantity_type: derived
+  short: symbol_rate
+  dimension_reference:
+    id: NISTd101
+    type: nist
+- identifiers:
+  - id: NISTq203
+    type: nist
+  names:
+  - information content
+  - information entropy
+  quantity_type: derived
+  short: information_content
+  dimension_reference:
+    id: NISTd102
+    type: nist
