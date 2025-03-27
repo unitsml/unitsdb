@@ -8154,6 +8154,86 @@ units:
   - id: non-SI_not_acceptable
     type: nist
 - identifiers:
+  - id: NISTu385
+    type: nist
+  quantity_references:
+  - id: NISTq201
+    type: nist
+  names:
+  - erlang
+  root: true
+  short: erlang
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{E}}"
+    unicode: E
+    ascii: E
+    html: E
+    id: E_erlang
+    mathml: "<mi mathvariant='normal'>E</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
+  - id: NISTu386
+    type: nist
+  quantity_references:
+  - id: NISTq202
+    type: nist
+  names:
+  - baud
+  root: true
+  short: baud
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{Bd}}"
+    unicode: Bd
+    ascii: Bd
+    html: Bd
+    id: Bd
+    mathml: "<mi mathvariant='normal'>Bd</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
+  - id: NISTu387
+    type: nist
+  quantity_references:
+  - id: NISTq203
+    type: nist
+  names:
+  - shannon
+  root: true
+  short: shannon
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{Sh}}"
+    unicode: Sh
+    ascii: Sh
+    html: Sh
+    id: Sh
+    mathml: "<mi mathvariant='normal'>Sh</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
+  - id: NISTu388
+    type: nist
+  quantity_references:
+  - id: NISTq203
+    type: nist
+  names:
+  - hartley
+  root: true
+  short: hartley
+  symbols:
+  - latex: "\\ensuremath{\\mathrm{Hart}}"
+    unicode: Hart
+    ascii: Hart
+    html: Hart
+    id: Hart
+    mathml: "<mi mathvariant='normal'>Hart</mi>"
+  unit_system_reference:
+  - id: non-SI_not_acceptable
+    type: nist
+- identifiers:
   - id: NISTu400
     type: nist
   quantity_references:
