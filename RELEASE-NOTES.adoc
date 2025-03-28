@@ -38,8 +38,19 @@ Relevant issues/pull requests:
 [source,yaml]
 ----
 identifiers:
-  - id: NISTd1
-    type: nist
+- id: NISTd1
+  type: nist
+----
+
+* Added organization-neutral 'unitsml' type identifiers to all entities:
++
+[source,yaml]
+----
+identifiers:
+- id: u:meter
+  type: unitsml
+- id: NISTu1
+  type: nist
 ----
 
 * Added standard `references` field to entities linking to external resources:
@@ -47,15 +58,16 @@ identifiers:
 [source,yaml]
 ----
 references:
-  - uri: http://si-digital-framework.org/quantities/LENG
-    type: normative
-    authority: si-digital-framework
+- uri: http://si-digital-framework.org/quantities/LENG
+  type: normative
+  authority: si-digital-framework
 ----
 
 Relevant issues/pull requests:
 
 * link:https://github.com/unitsml/unitsdb/pull/85[#85]
 * link:https://github.com/unitsml/unitsdb/issues/86[#86]
+* link:https://github.com/unitsml/unitsdb/issues/63[#63]
 
 ==== Multilingual support
 
@@ -64,10 +76,10 @@ Relevant issues/pull requests:
 [source,yaml]
 ----
 names:
-  - value: length
-    lang: en
-  - value: longueur
-    lang: fr
+- value: length
+  lang: en
+- value: longueur
+  lang: fr
 ----
 
 * Added French names for units and quantities, sourced from BIPM
@@ -83,12 +95,12 @@ Relevant issues/pull requests:
 [source,yaml]
 ----
 symbols:
-  - ascii: L
-    html: "&#x1D5AB;"
-    id: dim_L
-    latex: "\\ensuremath{\\mathsf{L}}"
-    mathml: "<mi mathvariant='sans-serif'>L</mi>"
-    unicode: "\U0001D5AB"
+- ascii: L
+  html: "&#x1D5AB;"
+  id: dim_L
+  latex: "\\ensuremath{\\mathsf{L}}"
+  mathml: "<mi mathvariant='sans-serif'>L</mi>"
+  unicode: "\U0001D5AB"
 ----
 
 * Changed `dim_symbols` to `symbols` in dimensions.yaml
