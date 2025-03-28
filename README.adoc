@@ -21,6 +21,8 @@ This repository contains the following YAML files:
 
 `prefixes.yaml`:: Contains the SI prefixes and their symbols.
 
+`scales.yaml`:: Contains the measurement scale types and their properties.
+
 `units.yaml`:: Contains the units and their symbols.
 
 `unit_systems.yaml`:: Contains the unit systems and their symbols.
@@ -427,6 +429,88 @@ For example:
   - id: si-base
     type: unitsml
 ----
+
+
+=== Scales
+
+==== General
+
+A scale object in `scales.yaml` typically has the following structure:
+
+[source,yaml]
+----
+- identifiers:
+  - id: scale_id
+    type: type_identifier
+  names:
+  - scale_name
+  short: short_name
+  description:
+  - description of scale type
+  properties:
+    continuous: true|false
+    ordered: true|false
+    logarithmic: true|false
+    interval: true|false
+    ratio: true|false
+----
+
+For example:
+
+[source,yaml]
+----
+- identifiers:
+  - id: continuous_ratio
+    type: unitsml
+  names:
+  - continuous ratio scale
+  short: continuous_ratio
+  description:
+  - A measurement scale with continuous values and a true zero point, allowing for ratio comparisons
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: false
+    interval: true
+    ratio: true
+- identifiers:
+  - id: logarithmic_ratio
+    type: unitsml
+  names:
+  - logarithmic ratio scale
+  short: logarithmic_ratio
+  description:
+  - A scale where equal ratios appear as equal intervals, with a zero point representing a reference value
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: true
+    interval: true
+    ratio: true
+----
+
+Units refer to scales using a `scale_reference` object:
+
+[source,yaml]
+----
+scale_reference:
+  id: scale_id
+  type: type_identifier
+----
+
+==== Notes
+
+The following scale types are currently defined:
+
+`continuous_ratio`:: A measurement scale with continuous values and a true zero point (most physical quantities)
+
+`continuous_interval`:: A measurement scale with continuous values but an arbitrary zero point (e.g., temperature in °C)
+
+`logarithmic_ratio`:: A logarithmic scale where equal ratios appear as equal intervals (e.g., decibels)
+
+`logarithmic_field`:: A logarithmic scale used for field quantities that uses natural logarithms (e.g., neper)
+
+`discrete`:: A scale consisting of discrete, countable values (e.g., bits)
 
 
 == Unit systems

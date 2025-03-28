@@ -50,6 +50,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/metre
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu2
     type: nist
@@ -83,6 +86,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/kilogram
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu3
     type: nist
@@ -123,6 +129,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/second
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu4
     type: nist
@@ -147,6 +156,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/ampere
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu5
     type: nist
@@ -181,6 +193,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/kelvin
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu6
     type: nist
@@ -205,6 +220,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/mole
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu7
     type: nist
@@ -229,6 +247,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/candela
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu8
     type: nist
@@ -263,6 +284,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu9
     type: nist
@@ -298,6 +322,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/radian
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu10
     type: nist
@@ -331,6 +358,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/steradian
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11
     type: nist
@@ -371,6 +401,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/newton
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu12
     type: nist
@@ -423,6 +456,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/pascal
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13
     type: nist
@@ -477,6 +513,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/joule
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14
     type: nist
@@ -519,6 +558,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/watt
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu15
     type: nist
@@ -554,6 +596,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/coulomb
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu16
     type: nist
@@ -602,6 +647,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/volt
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu17
     type: nist
@@ -646,6 +694,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/farad
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu18
     type: nist
@@ -690,6 +741,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/ohm
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu19
     type: nist
@@ -734,6 +788,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/siemens
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu20
     type: nist
@@ -778,6 +835,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/weber
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu21
     type: nist
@@ -818,6 +878,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/tesla
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu22
     type: nist
@@ -862,6 +925,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/henry
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu23
     type: nist
@@ -893,6 +959,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/degreeCelsius
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_interval
+    type: unitsml
 - identifiers:
   - id: NISTu25
     type: nist
@@ -922,6 +991,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/becquerel
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu26
     type: nist
@@ -952,6 +1024,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27
     type: nist
@@ -978,6 +1053,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/gram
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu28
     type: nist
@@ -1015,6 +1093,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/gray
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu29
     type: nist
@@ -1048,6 +1129,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/sievert
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu30
     type: nist
@@ -1081,6 +1165,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/katal
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu31
     type: nist
@@ -1110,6 +1197,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/hertz
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu32
     type: nist
@@ -1139,6 +1229,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/lumen
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu33
     type: nist
@@ -1172,6 +1265,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/lux
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu36
     type: nist
@@ -1208,6 +1304,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/minute
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu37
     type: nist
@@ -1232,6 +1331,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/hour
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu38
     type: nist
@@ -1256,6 +1358,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/day
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu39
     type: nist
@@ -1278,6 +1383,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu42
     type: nist
@@ -1300,6 +1408,9 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu43
     type: nist
@@ -1320,6 +1431,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu44
     type: nist
@@ -1344,6 +1458,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/hectare
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu45
     type: nist
@@ -1369,6 +1486,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu46
     type: nist
@@ -1394,6 +1514,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu47
     type: nist
@@ -1415,6 +1538,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu48
     type: nist
@@ -1437,6 +1563,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu49
     type: nist
@@ -1458,6 +1587,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu50
     type: nist
@@ -1479,6 +1611,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu51
     type: nist
@@ -1499,6 +1634,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu52
     type: nist
@@ -1520,6 +1658,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu53
     type: nist
@@ -1545,6 +1686,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu54
     type: nist
@@ -1576,6 +1720,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu55
     type: nist
@@ -1601,6 +1748,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu57
     type: nist
@@ -1631,6 +1781,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu58
     type: nist
@@ -1651,6 +1804,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu60
     type: nist
@@ -1683,6 +1839,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu61
     type: nist
@@ -1723,6 +1882,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu62
     type: nist
@@ -1753,6 +1915,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu63
     type: nist
@@ -1784,6 +1949,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu64
     type: nist
@@ -1815,6 +1983,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu65
     type: nist
@@ -1858,6 +2029,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu69
     type: nist
@@ -1897,6 +2071,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu71
     type: nist
@@ -1917,6 +2094,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu72
     type: nist
@@ -1946,6 +2126,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu73
     type: nist
@@ -1971,6 +2154,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu74
     type: nist
@@ -2003,6 +2189,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu75
     type: nist
@@ -2039,6 +2228,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu78
     type: nist
@@ -2073,6 +2265,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu83
     type: nist
@@ -2095,6 +2290,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu84
     type: nist
@@ -2117,6 +2315,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu85
     type: nist
@@ -2137,6 +2338,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu86
     type: nist
@@ -2160,6 +2364,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu88
     type: nist
@@ -2185,6 +2392,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/tonne
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu89
     type: nist
@@ -2216,6 +2426,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu91
     type: nist
@@ -2238,6 +2451,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu92
     type: nist
@@ -2272,6 +2488,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu93
     type: nist
@@ -2306,6 +2525,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu94
     type: nist
@@ -2344,6 +2566,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu95
     type: nist
@@ -2378,6 +2603,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu96
     type: nist
@@ -2415,6 +2643,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu97
     type: nist
@@ -2444,6 +2675,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu98
     type: nist
@@ -2466,6 +2700,9 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu99
     type: nist
@@ -2488,6 +2725,9 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu100
     type: nist
@@ -2510,6 +2750,9 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu106
     type: nist
@@ -2531,6 +2774,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu107
     type: nist
@@ -2560,6 +2806,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu108
     type: nist
@@ -2589,6 +2838,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu109
     type: nist
@@ -2618,6 +2870,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu110
     type: nist
@@ -2647,6 +2902,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu111
     type: nist
@@ -2676,6 +2934,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu112
     type: nist
@@ -2705,6 +2966,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu115
     type: nist
@@ -2730,6 +2994,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu116
     type: nist
@@ -2758,6 +3025,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu117
     type: nist
@@ -2788,6 +3058,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu118
     type: nist
@@ -2810,6 +3083,9 @@ units:
     type: nist
   - id: non-SI_nist_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu119
     type: nist
@@ -2836,6 +3112,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu120
     type: nist
@@ -2856,6 +3135,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu121
     type: nist
@@ -2885,6 +3167,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu122
     type: nist
@@ -2915,6 +3200,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu123
     type: nist
@@ -2953,6 +3241,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu124
     type: nist
@@ -2973,6 +3264,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu125
     type: nist
@@ -3009,6 +3303,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu126
     type: nist
@@ -3049,6 +3346,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu127
     type: nist
@@ -3072,6 +3372,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu128
     type: nist
@@ -3092,6 +3395,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu129
     type: nist
@@ -3112,6 +3418,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu130
     type: nist
@@ -3142,6 +3451,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/litre
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu131
     type: nist
@@ -3164,6 +3476,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu133
     type: nist
@@ -3184,6 +3499,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_interval
+    type: unitsml
 - identifiers:
   - id: NISTu134
     type: nist
@@ -3206,6 +3524,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu135
     type: nist
@@ -3228,6 +3549,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu142
     type: nist
@@ -3248,6 +3572,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu143
     type: nist
@@ -3268,6 +3595,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu144
     type: nist
@@ -3288,6 +3618,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu147
     type: nist
@@ -3318,6 +3651,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/arcminute
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu148
     type: nist
@@ -3354,6 +3690,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/arcsecond
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu149
     type: nist
@@ -3378,6 +3717,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/degree
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu152
     type: nist
@@ -3399,6 +3741,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu153
     type: nist
@@ -3429,6 +3774,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/neper
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: logarithmic_field
+    type: unitsml
 - identifiers:
   - id: NISTu154
     type: nist
@@ -3457,6 +3805,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/bel
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: logarithmic_field
+    type: unitsml
 - identifiers:
   - id: NISTu155
     type: nist
@@ -3486,6 +3837,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: logarithmic_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu156
     type: nist
@@ -3510,6 +3864,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu157
     type: nist
@@ -3538,6 +3895,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu159
     type: nist
@@ -3558,6 +3918,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu160
     type: nist
@@ -3592,6 +3955,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu163
     type: nist
@@ -3621,6 +3987,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu164
     type: nist
@@ -3646,6 +4015,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu165
     type: nist
@@ -3671,6 +4043,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu166
     type: nist
@@ -3692,6 +4067,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu167
     type: nist
@@ -3721,6 +4099,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu168
     type: nist
@@ -3746,6 +4127,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu169
     type: nist
@@ -3771,6 +4155,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu170
     type: nist
@@ -3796,6 +4183,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu171
     type: nist
@@ -3818,6 +4208,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu172
     type: nist
@@ -3839,6 +4232,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu173
     type: nist
@@ -3861,6 +4257,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu175
     type: nist
@@ -3882,6 +4281,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_interval
+    type: unitsml
 - identifiers:
   - id: NISTu176
     type: nist
@@ -3903,6 +4305,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu177
     type: nist
@@ -3925,6 +4330,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu178
     type: nist
@@ -3946,6 +4354,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu179
     type: nist
@@ -3967,6 +4378,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu180
     type: nist
@@ -3988,6 +4402,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu182
     type: nist
@@ -4008,6 +4425,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu183
     type: nist
@@ -4032,6 +4452,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/astronomicalunit
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu184
     type: nist
@@ -4052,6 +4475,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu185
     type: nist
@@ -4079,6 +4505,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu188
     type: nist
@@ -4111,6 +4540,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu189
     type: nist
@@ -4140,6 +4572,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu196
     type: nist
@@ -4168,6 +4603,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu201
     type: nist
@@ -4190,6 +4628,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu202
     type: nist
@@ -4212,6 +4653,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu203
     type: nist
@@ -4233,6 +4677,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu204
     type: nist
@@ -4262,6 +4709,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu205
     type: nist
@@ -4284,6 +4734,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu206
     type: nist
@@ -4327,6 +4780,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu207
     type: nist
@@ -4362,6 +4818,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu208
     type: nist
@@ -4387,6 +4846,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu209
     type: nist
@@ -4412,6 +4874,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu210
     type: nist
@@ -4442,6 +4907,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu211
     type: nist
@@ -4476,6 +4944,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu212
     type: nist
@@ -4498,6 +4969,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu213
     type: nist
@@ -4518,6 +4992,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu214
     type: nist
@@ -4538,6 +5015,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu215
     type: nist
@@ -4561,6 +5041,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu216
     type: nist
@@ -4582,6 +5065,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu217
     type: nist
@@ -4619,6 +5105,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu218
     type: nist
@@ -4640,6 +5129,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu221
     type: nist
@@ -4669,6 +5161,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu222
     type: nist
@@ -4689,6 +5184,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu223
     type: nist
@@ -4709,6 +5207,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu224
     type: nist
@@ -4729,6 +5230,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu225
     type: nist
@@ -4749,6 +5253,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu226
     type: nist
@@ -4769,6 +5276,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu227
     type: nist
@@ -4807,6 +5317,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu228
     type: nist
@@ -4828,6 +5341,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu229
     type: nist
@@ -4849,6 +5365,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu230
     type: nist
@@ -4875,6 +5394,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu231
     type: nist
@@ -4897,6 +5419,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu232
     type: nist
@@ -4919,6 +5444,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu233
     type: nist
@@ -4939,6 +5467,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu234
     type: nist
@@ -4961,6 +5492,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu235
     type: nist
@@ -4982,6 +5516,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu236
     type: nist
@@ -5004,6 +5541,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu237
     type: nist
@@ -5024,6 +5564,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu238
     type: nist
@@ -5046,6 +5589,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu239
     type: nist
@@ -5066,6 +5612,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu240
     type: nist
@@ -5090,6 +5639,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/electronvolt
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu241
     type: nist
@@ -5110,6 +5662,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu242
     type: nist
@@ -5136,6 +5691,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu243
     type: nist
@@ -5156,6 +5714,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu244
     type: nist
@@ -5176,6 +5737,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu245
     type: nist
@@ -5197,6 +5761,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu246
     type: nist
@@ -5217,6 +5784,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu247
     type: nist
@@ -5237,6 +5807,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu248
     type: nist
@@ -5257,6 +5830,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu249
     type: nist
@@ -5277,6 +5853,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu250
     type: nist
@@ -5297,6 +5876,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu251
     type: nist
@@ -5318,6 +5900,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu252
     type: nist
@@ -5340,6 +5925,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu253
     type: nist
@@ -5361,6 +5949,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu254
     type: nist
@@ -5382,6 +5973,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu255
     type: nist
@@ -5402,6 +5996,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu256
     type: nist
@@ -5422,6 +6019,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu257
     type: nist
@@ -5443,6 +6043,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu258
     type: nist
@@ -5463,6 +6066,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu259
     type: nist
@@ -5484,6 +6090,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu260
     type: nist
@@ -5505,6 +6114,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu261
     type: nist
@@ -5530,6 +6142,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu262
     type: nist
@@ -5553,6 +6168,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu263
     type: nist
@@ -5573,6 +6191,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu264
     type: nist
@@ -5595,6 +6216,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu265
     type: nist
@@ -5616,6 +6240,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu266
     type: nist
@@ -5637,6 +6264,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu267
     type: nist
@@ -5658,6 +6288,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu268
     type: nist
@@ -5683,6 +6316,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu269
     type: nist
@@ -5704,6 +6340,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu270
     type: nist
@@ -5725,6 +6364,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu271
     type: nist
@@ -5748,6 +6390,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu272
     type: nist
@@ -5768,6 +6413,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu273
     type: nist
@@ -5788,6 +6436,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu274
     type: nist
@@ -5808,6 +6459,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu275
     type: nist
@@ -5829,6 +6483,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu276
     type: nist
@@ -5849,6 +6506,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu277
     type: nist
@@ -5869,6 +6529,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu278
     type: nist
@@ -5891,6 +6554,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu279
     type: nist
@@ -5911,6 +6577,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu280
     type: nist
@@ -5933,6 +6602,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu281
     type: nist
@@ -5954,6 +6626,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu282
     type: nist
@@ -5975,6 +6650,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu283
     type: nist
@@ -5995,6 +6673,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu284
     type: nist
@@ -6015,6 +6696,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu285
     type: nist
@@ -6036,6 +6720,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu286
     type: nist
@@ -6057,6 +6744,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu287
     type: nist
@@ -6077,6 +6767,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu288
     type: nist
@@ -6097,6 +6790,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu289
     type: nist
@@ -6126,6 +6822,9 @@ units:
   - uri: http://si-digital-framework.org/SI/units/dalton
     type: normative
     authority: si-digital-framework
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu290
     type: nist
@@ -6146,6 +6845,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu291
     type: nist
@@ -6168,6 +6870,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu292
     type: nist
@@ -6190,6 +6895,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu293
     type: nist
@@ -6212,6 +6920,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu294
     type: nist
@@ -6234,6 +6945,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu295
     type: nist
@@ -6255,6 +6969,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu296
     type: nist
@@ -6276,6 +6993,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu297
     type: nist
@@ -6296,6 +7016,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu298
     type: nist
@@ -6317,6 +7040,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu299
     type: nist
@@ -6338,6 +7064,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu300
     type: nist
@@ -6359,6 +7088,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu301
     type: nist
@@ -6380,6 +7112,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu302
     type: nist
@@ -6401,6 +7136,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu303
     type: nist
@@ -6421,6 +7159,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu304
     type: nist
@@ -6441,6 +7182,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu305
     type: nist
@@ -6462,6 +7206,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu306
     type: nist
@@ -6483,6 +7230,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu307
     type: nist
@@ -6504,6 +7254,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu308
     type: nist
@@ -6526,6 +7279,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu309
     type: nist
@@ -6547,6 +7303,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu310
     type: nist
@@ -6570,6 +7329,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu311
     type: nist
@@ -6593,6 +7355,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu312
     type: nist
@@ -6614,6 +7379,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu313
     type: nist
@@ -6636,6 +7404,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu314
     type: nist
@@ -6657,6 +7428,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu315
     type: nist
@@ -6679,6 +7453,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu316
     type: nist
@@ -6700,6 +7477,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu317
     type: nist
@@ -6721,6 +7501,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu318
     type: nist
@@ -6745,6 +7528,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu319
     type: nist
@@ -6767,6 +7553,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu320
     type: nist
@@ -6790,6 +7579,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu321
     type: nist
@@ -6815,6 +7607,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu322
     type: nist
@@ -6840,6 +7635,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu323
     type: nist
@@ -6863,6 +7661,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu324
     type: nist
@@ -6886,6 +7687,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu325
     type: nist
@@ -6911,6 +7715,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu326
     type: nist
@@ -6934,6 +7741,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu327
     type: nist
@@ -6968,6 +7778,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu328
     type: nist
@@ -7002,6 +7815,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu329
     type: nist
@@ -7038,6 +7854,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu330
     type: nist
@@ -7074,6 +7893,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu331
     type: nist
@@ -7104,6 +7926,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu332
     type: nist
@@ -7124,6 +7949,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: logarithmic_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu333
     type: nist
@@ -7146,6 +7974,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu334
     type: nist
@@ -7166,6 +7997,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu335
     type: nist
@@ -7186,6 +8020,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu336
     type: nist
@@ -7206,6 +8043,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu337
     type: nist
@@ -7226,6 +8066,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu338
     type: nist
@@ -7248,6 +8091,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu339
     type: nist
@@ -7270,6 +8116,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu340
     type: nist
@@ -7292,6 +8141,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu341
     type: nist
@@ -7314,6 +8166,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu342
     type: nist
@@ -7336,6 +8191,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu343
     type: nist
@@ -7358,6 +8216,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu344
     type: nist
@@ -7378,6 +8239,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu345
     type: nist
@@ -7398,6 +8262,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu346
     type: nist
@@ -7418,6 +8285,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu347
     type: nist
@@ -7440,6 +8310,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu348
     type: nist
@@ -7461,6 +8334,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu349
     type: nist
@@ -7483,6 +8359,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu350
     type: nist
@@ -7503,6 +8382,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: discrete
+    type: unitsml
 - identifiers:
   - id: NISTu351
     type: nist
@@ -7523,6 +8405,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: discrete
+    type: unitsml
 - identifiers:
   - id: NISTu352
     type: nist
@@ -7543,6 +8428,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu353
     type: nist
@@ -7563,6 +8451,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu354
     type: nist
@@ -7584,6 +8475,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu355
     type: nist
@@ -7606,6 +8500,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu356
     type: nist
@@ -7627,6 +8524,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu357
     type: nist
@@ -7649,6 +8549,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu358
     type: nist
@@ -7679,6 +8582,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu359
     type: nist
@@ -7709,6 +8615,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu360
     type: nist
@@ -7739,6 +8648,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu361
     type: nist
@@ -7768,6 +8680,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu362
     type: nist
@@ -7799,6 +8714,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu363
     type: nist
@@ -7835,6 +8753,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu364
     type: nist
@@ -7871,6 +8792,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu365
     type: nist
@@ -7906,6 +8830,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu366
     type: nist
@@ -7941,6 +8868,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu376
     type: nist
@@ -7961,6 +8891,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu377
     type: nist
@@ -7981,6 +8914,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu378
     type: nist
@@ -8001,6 +8937,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu379
     type: nist
@@ -8021,6 +8960,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu380
     type: nist
@@ -8059,6 +9001,9 @@ units:
   unit_system_reference:
   - id: non-SI_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu381
     type: nist
@@ -8086,6 +9031,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: logarithmic_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu382
     type: nist
@@ -8113,6 +9061,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu383
     type: nist
@@ -8133,6 +9084,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu384
     type: nist
@@ -8153,6 +9107,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu385
     type: nist
@@ -8173,6 +9130,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu386
     type: nist
@@ -8193,6 +9153,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: discrete
+    type: unitsml
 - identifiers:
   - id: NISTu387
     type: nist
@@ -8213,6 +9176,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: discrete
+    type: unitsml
 - identifiers:
   - id: NISTu388
     type: nist
@@ -8233,6 +9199,9 @@ units:
   unit_system_reference:
   - id: non-SI_not_acceptable
     type: nist
+  scale_reference:
+    id: discrete
+    type: unitsml
 - identifiers:
   - id: NISTu400
     type: nist
@@ -8253,6 +9222,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu401
     type: nist
@@ -8298,6 +9270,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11.u1
     type: nist
@@ -8331,6 +9306,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11.u1.u3
     type: nist
@@ -8365,6 +9343,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11.u3
     type: nist
@@ -8394,6 +9375,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu12.u3
     type: nist
@@ -8423,6 +9407,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u3
     type: nist
@@ -8452,6 +9439,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14.u3
     type: nist
@@ -8491,6 +9481,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1.u3e-1/1
     type: nist
@@ -8526,6 +9519,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1.u3e-2/1
     type: nist
@@ -8557,6 +9553,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11.u1e-1/1
     type: nist
@@ -8586,6 +9585,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu11.u1e2/1.u27p10'3e-2/1
     type: nist
@@ -8623,6 +9625,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu12.u5e-1/1
     type: nist
@@ -8652,6 +9657,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu12e-1/1
     type: nist
@@ -8679,6 +9687,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u1e-3/1
     type: nist
@@ -8708,6 +9719,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u27p10'3e-1/1
     type: nist
@@ -8740,6 +9754,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u27p10'3e-1/1.u5e-1/1
     type: nist
@@ -8779,6 +9796,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u5e-1/1
     type: nist
@@ -8810,6 +9830,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u6e-1/1
     type: nist
@@ -8839,6 +9862,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu13.u6e-1/1.u5e-1/1
     type: nist
@@ -8867,6 +9893,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14.u10e-1/1
     type: nist
@@ -8896,6 +9925,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14.u1e-1/1.u5e-1/1
     type: nist
@@ -8922,6 +9954,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14.u1e-2/1
     type: nist
@@ -8953,6 +9988,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu14.u1e-2/1.u10e-1/1
     type: nist
@@ -8988,6 +10026,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu15.u1e-2/1
     type: nist
@@ -9019,6 +10060,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu15.u1e-3/1
     type: nist
@@ -9048,6 +10092,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu15.u27p10'3e-1/1
     type: nist
@@ -9082,6 +10129,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu16.u1e-1/1
     type: nist
@@ -9111,6 +10161,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu17.u1e-1/1
     type: nist
@@ -9140,6 +10193,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e-1/1
     type: nist
@@ -9176,6 +10232,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e2/1
     type: nist
@@ -9201,6 +10260,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e2/1.u3e-1/1
     type: nist
@@ -9231,6 +10293,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e3/1
     type: nist
@@ -9258,6 +10323,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e3/1.u27p10'3
     type: nist
@@ -9291,6 +10359,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e3/1.u3e-1/1
     type: nist
@@ -9321,6 +10392,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu22.u1e-1/1
     type: nist
@@ -9350,6 +10424,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1.u3e-1/1
     type: nist
@@ -9387,6 +10464,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1e-1/1
     type: nist
@@ -9419,6 +10499,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1e-2/1
     type: nist
@@ -9451,6 +10534,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1e-3/1
     type: nist
@@ -9485,6 +10571,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1e2/1
     type: nist
@@ -9518,6 +10607,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u1e2/1.u3e-1/1
     type: nist
@@ -9558,6 +10650,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu27p10'3.u3e-1/1
     type: nist
@@ -9590,6 +10685,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu28.u3e-1/1
     type: nist
@@ -9621,6 +10719,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu30.u1e-3/1
     type: nist
@@ -9650,6 +10751,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu3e-1/1
     type: nist
@@ -9681,6 +10785,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu4.u1e-1/1
     type: nist
@@ -9710,6 +10817,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu4.u1e-2/1
     type: nist
@@ -9739,6 +10849,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu5e-1/1
     type: nist
@@ -9768,6 +10881,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu6.u1e-3/1
     type: nist
@@ -9797,6 +10913,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu6.u27p10'3e-1/1
     type: nist
@@ -9829,6 +10948,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu7.u1e-2/1
     type: nist
@@ -9858,6 +10980,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu9.u1e-1/1
     type: nist
@@ -9887,6 +11012,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu9.u3e-1/1
     type: nist
@@ -9918,6 +11046,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu9.u3e-2/1
     type: nist
@@ -9947,6 +11078,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e-2/1
     type: nist
@@ -9973,6 +11107,9 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
 - identifiers:
   - id: NISTu1e-2/1.u3e-1/1
     type: nist
@@ -10004,3 +11141,6 @@ units:
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
+  scale_reference:
+    id: continuous_ratio
+    type: unitsml
