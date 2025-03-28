@@ -861,9 +861,9 @@ quantities:
   - id: NISTq55
     type: nist
   names:
-  - value: amount concentration
-    lang: en
   - value: amount of substance concentration
+    lang: en
+  - value: amount concentration
     lang: en
   - value: concentration de quantité de matière
     lang: fr
@@ -1393,9 +1393,9 @@ quantities:
   - id: NISTq90
     type: nist
   names:
-  - value: logarithmic ratio quantities (power-like quantities using decimal logarithms)
-    lang: en
   - value: ratio logarithm (B)
+    lang: en
+  - value: logarithmic ratio quantities (power-like quantities using decimal logarithms)
     lang: en
   - value: logarithme d'un rapport (B)
     lang: fr
@@ -1752,9 +1752,9 @@ quantities:
   - id: NISTq121
     type: nist
   names:
-  - value: logarithmic decrement (field quantities using natural logarithms)
-    lang: en
   - value: ratio logarithm (Np)
+    lang: en
+  - value: logarithmic decrement (field quantities using natural logarithms)
     lang: en
   - value: logarithme d'un rapport (Np)
     lang: fr

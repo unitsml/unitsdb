@@ -34,6 +34,8 @@ units:
   - id: NISTq99
     type: nist
   names:
+  - value: metre
+    lang: en
   - value: meter
     lang: en
   - value: mètre
@@ -2523,6 +2525,8 @@ units:
   - id: NISTq2
     type: nist
   names:
+  - value: tonne
+    lang: en
   - value: metric ton
     lang: en
   - value: ton
@@ -3618,6 +3622,8 @@ units:
   - id: NISTq10
     type: nist
   names:
+  - value: litre
+    lang: en
   - value: liter
     lang: en
   - value: litre
@@ -3828,6 +3834,8 @@ units:
   - id: NISTq9
     type: nist
   names:
+  - value: arcminute
+    lang: en
   - value: minute (minute of arc)
     lang: en
   - value: arcminute
@@ -3864,6 +3872,8 @@ units:
   - id: NISTq9
     type: nist
   names:
+  - value: arcsecond
+    lang: en
   - value: second (second of arc)
     lang: en
   - value: arcseconde
