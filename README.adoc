@@ -111,6 +111,171 @@ Applications consuming UnitsDB should:
 
 == Content classes
 
+=== Basic structures
+
+==== General
+
+Several shared content models are used across the different entities.
+
+==== Identifier
+
+The Identifier object represents a unique identifier within the identifier type.
+
+Every entity in the database includes an `identifiers` array that contains one or
+more identifiers.
+
+Each identifier has:
+
+`id`:: A unique string that identifies the entity
+`type`:: The system or authority that defines the identifier
+
+The `type: unitsml` identifier is mandatory for every entry, where it uniquely
+identifies the entity within the UnitsML framework.
+
+Other types of identifier types are also supported, such as `type: nist` for
+legacy UnitsML identifiers that start with a prefix of `NIST`.
+
+The UnitsML identifier follows a specific format:
+
+[source,yaml]
+----
+id: {entity-type}:{entity-name}
+type: unitsml
+----
+
+Where,
+
+`entity-type`:: Abbreviated code for the type of entity.
+`u`::: Unit
+`d`::: Dimension
+`p`::: Prefix
+`q`::: Quantity
+`s`::: Scale
+`us`::: Unit system
+
+`entity-name`:: The short name of the entity, typically identical to the
+`short:` attribute of the entity.
+
+The legacy UnitsML identifier ("NIST" prefix) is used for backward compatibility
+and is not required for new entries.
+
+[source,yaml]
+----
+id: NIST{entity-type}{entity-code}
+type: nist
+----
+
+Where,
+
+`entity-type`:: Abbreviated code for the type of entity.
+`u`::: Unit
+`d`::: Dimension
+`p`::: Prefix
+`q`::: Quantity
+
+`entity-code`:: A unique code for the entity. It is a number for units, quantities and
+dimensions, and a string pattern of `{base_number}_{power}` for prefixes.
+
+[example]
+====
+[source,yaml]
+----
+identifiers:
+- id: u:meter
+  type: unitsml
+- id: NISTu1
+  type: nist
+----
+====
+
+
+==== Symbols
+
+The Symbol object represents the notation used to represent the entity in different
+contexts and formats.
+
+The Symbol object is used for units, prefixes, certain quantities and certain dimensions.
+
+A Symbol object contains the following attributes which allow for rendering in
+various formats:
+
+`id`:: A unique identifier identifying the symbol across UnitsDB
+`ascii`:: Plain text ASCII representation
+`unicode`:: Unicode representation, used in UnicodeMath
+`html`:: HTML markup representation
+`mathml`:: MathML markup representation
+`latex`:: LaTeX markup representation
+
+This multi-format approach ensures that the symbols can be rendered correctly
+across various applications and documents.
+
+[example]
+====
+[source,yaml]
+----
+symbols:
+- latex: "\\ensuremath{\\mathrm{m}}"
+  unicode: m
+  ascii: m
+  html: m
+  id: m
+  mathml: "<mi mathvariant='normal'>m</mi>"
+----
+====
+
+==== Localized string
+
+The localized string object represents a human-readable string that can be
+localized into different languages.
+
+It is used for names, descriptions, and other text fields that may require
+translation or localization. Multiple values are allowed per language.
+
+A localized string object contains the following attributes:
+
+`value`:: The localized string value
+`lang`:: The language code (e.g., "en" for English, "fr" for French)
+
+[example]
+====
+[source,yaml]
+----
+names:
+- value: metre
+  lang: en
+- value: meter
+  lang: en
+- value: mètre
+  lang: fr
+----
+====
+
+==== References
+
+A reference object represents a link to an external resource or standard
+that provides additional context or information about the entity.
+
+Currently, UnitsDB units, quantities and prefixes link to the SI Digital
+Framework only.
+
+A reference contains the following attributes:
+
+`uri`:: The URI or URL of the reference
+`type`:: The type of reference (e.g., "normative", "informative")
+`authority`:: The authority responsible for the reference
+
+[example]
+====
+[source,yaml]
+----
+references:
+- uri: http://si-digital-framework.org/SI/units/metre
+  type: normative
+  authority: si-digital-framework
+----
+====
+
+
 === Dimensions
 
 ==== General
@@ -730,6 +895,7 @@ acceptable for SI usage) but also as `nonsi-nist-acceptable` (meaning NIST SP
 When using unit systems in applications, the `acceptable` property can be used
 as a quick filter for SI-compliant units, while more specific categorization can
 be achieved using the individual unit system references.
+
 
 == Contributing
 
