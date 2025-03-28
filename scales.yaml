@@ -1,0 +1,76 @@
+schema_version: "2.0.0"
+scales:
+- identifiers:
+  - id: continuous_ratio
+    type: unitsml
+  names:
+  - continuous ratio scale
+  short: continuous_ratio
+  description:
+  - A measurement scale with continuous values and a true zero point, allowing for ratio comparisons
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: false
+    interval: true
+    ratio: true
+
+- identifiers:
+  - id: continuous_interval
+    type: unitsml
+  names:
+  - continuous interval scale
+  short: continuous_interval
+  description:
+  - A measurement scale with continuous values but an arbitrary zero point, allowing for interval but not ratio comparisons
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: false
+    interval: true
+    ratio: false
+
+- identifiers:
+  - id: logarithmic_ratio
+    type: unitsml
+  names:
+  - logarithmic ratio scale
+  short: logarithmic_ratio
+  description:
+  - A scale where equal ratios appear as equal intervals, with a zero point representing a reference value
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: true
+    interval: true
+    ratio: true
+
+- identifiers:
+  - id: logarithmic_field
+    type: unitsml
+  names:
+  - logarithmic field scale
+  short: logarithmic_field
+  description:
+  - A logarithmic scale used for field quantities that uses natural logarithms
+  properties:
+    continuous: true
+    ordered: true
+    logarithmic: true
+    interval: true
+    ratio: false
+
+- identifiers:
+  - id: discrete
+    type: unitsml
+  names:
+  - discrete scale
+  short: discrete
+  description:
+  - A scale consisting of discrete, countable values
+  properties:
+    continuous: false
+    ordered: true
+    logarithmic: false
+    interval: true
+    ratio: true
