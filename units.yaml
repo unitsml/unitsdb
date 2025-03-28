@@ -1,4 +1,5 @@
-schema_version: "2.0.0"
+---
+schema_version: 2.0.0
 units:
 - identifiers:
   - id: NISTu1
@@ -33,7 +34,10 @@ units:
   - id: NISTq99
     type: nist
   names:
-  - meter
+  - value: meter
+    lang: en
+  - value: mètre
+    lang: fr
   root: true
   short: meter
   symbols:
@@ -61,7 +65,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - kilogram
+  - value: kilogram
+    lang: en
+  - value: kilogramme
+    lang: fr
   root: false
   root_units:
   - power: 1
@@ -100,7 +107,10 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - second
+  - value: second
+    lang: en
+  - value: seconde
+    lang: fr
   root: true
   short: second
   symbols:
@@ -139,7 +149,10 @@ units:
   - id: NISTq4
     type: nist
   names:
-  - ampere
+  - value: ampere
+    lang: en
+  - value: ampère
+    lang: fr
   root: true
   short: ampere
   symbols:
@@ -170,7 +183,10 @@ units:
   - id: NISTq196
     type: nist
   names:
-  - kelvin
+  - value: kelvin
+    lang: en
+  - value: kelvin
+    lang: fr
   root: true
   short: kelvin
   symbols:
@@ -203,7 +219,10 @@ units:
   - id: NISTq6
     type: nist
   names:
-  - mole
+  - value: mole
+    lang: en
+  - value: mole
+    lang: fr
   root: true
   short: mole
   symbols:
@@ -230,7 +249,10 @@ units:
   - id: NISTq7
     type: nist
   names:
-  - candela
+  - value: candela
+    lang: en
+  - value: candela
+    lang: fr
   root: true
   short: candela
   symbols:
@@ -259,7 +281,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - inch
+  - value: inch
+    lang: en
   root: true
   short: inch
   symbols:
@@ -305,7 +328,10 @@ units:
       id: NISTu1
       type: nist
   names:
-  - radian
+  - value: radian
+    lang: en
+  - value: radian
+    lang: fr
   root: true
   short: radian
   symbols:
@@ -341,7 +367,10 @@ units:
       id: NISTu1
       type: nist
   names:
-  - steradian
+  - value: steradian
+    lang: en
+  - value: stéradian
+    lang: fr
   root: true
   short: steradian
   symbols:
@@ -384,15 +413,18 @@ units:
       id: NISTu3
       type: nist
   names:
-  - newton
+  - value: newton
+    lang: en
+  - value: newton
+    lang: fr
   root: true
   short: newton
   symbols:
   - latex: "\\ensuremath{\\mathrm{N}}"
-    unicode: N
-    ascii: N
-    html: N
-    id: N
+    unicode: "N"
+    ascii: "N"
+    html: "N"
+    id: "N"
     mathml: "<mi mathvariant='normal'>N</mi>"
   unit_system_reference:
   - id: SI_derived_special
@@ -439,7 +471,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - pascal
+  - value: pascal
+    lang: en
+  - value: pascal
+    lang: fr
   root: true
   short: pascal
   symbols:
@@ -496,7 +531,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - joule
+  - value: joule
+    lang: en
+  - value: joule
+    lang: fr
   root: true
   short: joule
   symbols:
@@ -541,7 +579,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - watt
+  - value: watt
+    lang: en
+  - value: watt
+    lang: fr
   root: true
   short: watt
   symbols:
@@ -579,7 +620,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - coulomb
+  - value: coulomb
+    lang: en
+  - value: coulomb
+    lang: fr
   root: true
   short: coulomb
   symbols:
@@ -630,7 +674,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - volt
+  - value: volt
+    lang: en
+  - value: volt
+    lang: fr
   root: true
   short: volt
   symbols:
@@ -677,7 +724,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - farad
+  - value: farad
+    lang: en
+  - value: farad
+    lang: fr
   root: true
   short: farad
   symbols:
@@ -724,7 +774,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - ohm
+  - value: ohm
+    lang: en
+  - value: ohm
+    lang: fr
   root: true
   short: ohm
   symbols:
@@ -771,7 +824,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - siemens
+  - value: siemens
+    lang: en
+  - value: siemens
+    lang: fr
   root: true
   short: siemens
   symbols:
@@ -818,7 +874,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - weber
+  - value: weber
+    lang: en
+  - value: weber
+    lang: fr
   root: true
   short: weber
   symbols:
@@ -861,7 +920,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - tesla
+  - value: tesla
+    lang: en
+  - value: tesla
+    lang: fr
   root: true
   short: tesla
   symbols:
@@ -908,7 +970,10 @@ units:
       id: NISTu4
       type: nist
   names:
-  - henry
+  - value: henry
+    lang: en
+  - value: henry
+    lang: fr
   root: true
   short: henry
   symbols:
@@ -942,7 +1007,10 @@ units:
       id: NISTu5
       type: nist
   names:
-  - degree Celsius
+  - value: degree Celsius
+    lang: en
+  - value: degré Celsius
+    lang: fr
   root: true
   short: degree_Celsius
   symbols:
@@ -974,7 +1042,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - becquerel
+  - value: becquerel
+    lang: en
+  - value: becquerel
+    lang: fr
   root: true
   short: becquerel
   symbols:
@@ -1003,7 +1074,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - fermi
+  - value: fermi
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -1034,7 +1106,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - gram
+  - value: gram
+    lang: en
+  - value: gramme
+    lang: fr
   si_derived_bases:
   - power: -3
     unit_reference:
@@ -1076,7 +1151,10 @@ units:
       id: NISTu7
       type: nist
   names:
-  - gray
+  - value: gray
+    lang: en
+  - value: gray
+    lang: fr
   root: true
   short: gray
   symbols:
@@ -1112,7 +1190,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - sievert
+  - value: sievert
+    lang: en
+  - value: sievert
+    lang: fr
   root: true
   short: sievert
   symbols:
@@ -1148,7 +1229,10 @@ units:
       id: NISTu6
       type: nist
   names:
-  - katal
+  - value: katal
+    lang: en
+  - value: katal
+    lang: fr
   root: true
   short: katal
   symbols:
@@ -1180,7 +1264,10 @@ units:
       id: NISTu3
       type: nist
   names:
-  - hertz
+  - value: hertz
+    lang: en
+  - value: hertz
+    lang: fr
   root: true
   short: hertz
   symbols:
@@ -1212,7 +1299,10 @@ units:
       id: NISTu7
       type: nist
   names:
-  - lumen
+  - value: lumen
+    lang: en
+  - value: lumen
+    lang: fr
   root: true
   short: lumen
   symbols:
@@ -1248,7 +1338,10 @@ units:
       id: NISTu7
       type: nist
   names:
-  - lux
+  - value: lux
+    lang: en
+  - value: lux
+    lang: fr
   root: true
   short: lux
   symbols:
@@ -1275,7 +1368,10 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - minute
+  - value: minute
+    lang: en
+  - value: minute
+    lang: fr
   root: true
   short: minute
   symbols:
@@ -1314,7 +1410,10 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - hour
+  - value: hour
+    lang: en
+  - value: heure
+    lang: fr
   root: true
   short: hour
   symbols:
@@ -1341,7 +1440,10 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - day
+  - value: day
+    lang: en
+  - value: jour
+    lang: fr
   root: true
   short: day
   symbols:
@@ -1370,7 +1472,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - ångström
+  - value: ångström
+    lang: en
   root: true
   short: angstrom
   symbols:
@@ -1393,7 +1496,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - are
+  - value: are
+    lang: en
   root: true
   short: are
   symbols:
@@ -1418,7 +1522,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - barn
+  - value: barn
+    lang: en
   root: true
   short: barn
   symbols:
@@ -1441,7 +1546,10 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - hectare
+  - value: hectare
+    lang: en
+  - value: hectare
+    lang: fr
   root: true
   short: hectare
   symbols:
@@ -1468,7 +1576,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - square foot
+  - value: square foot
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -1496,7 +1605,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - square inch
+  - value: square inch
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -1524,8 +1634,10 @@ units:
   - id: NISTq4
     type: nist
   names:
-  - abampere
-  - EMU of current
+  - value: abampere
+    lang: en
+  - value: EMU of current
+    lang: en
   root: true
   short: abampere
   symbols:
@@ -1550,7 +1662,8 @@ units:
   - id: NISTq23
     type: nist
   names:
-  - abcoulomb
+  - value: abcoulomb
+    lang: en
   root: true
   short: abcoulomb
   symbols:
@@ -1573,8 +1686,10 @@ units:
   - id: NISTq27
     type: nist
   names:
-  - abfarad
-  - EMU of capacitance
+  - value: abfarad
+    lang: en
+  - value: EMU of capacitance
+    lang: en
   root: true
   short: abfarad
   symbols:
@@ -1597,8 +1712,10 @@ units:
   - id: NISTq32
     type: nist
   names:
-  - abhenry
-  - EMU of inductance
+  - value: abhenry
+    lang: en
+  - value: EMU of inductance
+    lang: en
   root: true
   short: abhenry
   symbols:
@@ -1621,7 +1738,8 @@ units:
   - id: NISTq29
     type: nist
   names:
-  - abmho
+  - value: abmho
+    lang: en
   root: true
   short: abmho
   symbols:
@@ -1644,8 +1762,10 @@ units:
   - id: NISTq28
     type: nist
   names:
-  - abohm
-  - EMU of resistance
+  - value: abohm
+    lang: en
+  - value: EMU of resistance
+    lang: en
   root: true
   short: abohm
   symbols:
@@ -1672,8 +1792,10 @@ units:
   - id: NISTq26
     type: nist
   names:
-  - abvolt
-  - EMU of electric potential
+  - value: abvolt
+    lang: en
+  - value: EMU of electric potential
+    lang: en
   root: true
   short: abvolt
   symbols:
@@ -1698,7 +1820,8 @@ units:
   - id: NISTq23
     type: nist
   names:
-  - ampere hour
+  - value: ampere hour
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -1730,7 +1853,8 @@ units:
   - id: NISTq4
     type: nist
   names:
-  - biot
+  - value: biot
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -1758,8 +1882,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - acre-foot (based on US survey foot)
-  - acre-foot
+  - value: acre-foot (based on US survey foot)
+    lang: en
+  - value: acre-foot
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -1791,7 +1917,8 @@ units:
   - id: NISTq30
     type: nist
   names:
-  - maxwell
+  - value: maxwell
+    lang: en
   root: true
   short: maxwell
   symbols:
@@ -1824,9 +1951,12 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - I.T. calorie
-  - calorie_IT
-  - calorie
+  - value: I.T. calorie
+    lang: en
+  - value: calorie_IT
+    lang: en
+  - value: calorie
+    lang: en
   root: true
   short: table_calorie
   symbols:
@@ -1869,7 +1999,8 @@ units:
   - id: NISTq188
     type: nist
   names:
-  - one
+  - value: one
+    lang: en
   root: false
   short: one
   symbols:
@@ -1902,7 +2033,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - erg
+  - value: erg
+    lang: en
   root: true
   short: erg
   symbols:
@@ -1936,7 +2068,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - kilocalorie_IT
+  - value: kilocalorie_IT
+    lang: en
   root: true
   short: table_kg_calorie
   symbols:
@@ -1970,7 +2103,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - kilocalorie_th
+  - value: kilocalorie_th
+    lang: en
   root: true
   short: thermo_kg_calorie
   symbols:
@@ -2004,7 +2138,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - kilowatt hour
+  - value: kilowatt hour
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2049,7 +2184,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - watt hour
+  - value: watt hour
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2081,7 +2217,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - dyne
+  - value: dyne
+    lang: en
   root: true
   short: dyne
   symbols:
@@ -2105,7 +2242,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - kilogram-force
+  - value: kilogram-force
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2136,7 +2274,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - kilopond
+  - value: kilopond
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2166,7 +2305,8 @@ units:
   - id: NISTq21
     type: nist
   names:
-  - calorie_th per second
+  - value: calorie_th per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2202,7 +2342,8 @@ units:
   - id: NISTq21
     type: nist
   names:
-  - kilocalorie_th per second
+  - value: kilocalorie_th per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2240,7 +2381,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - foot
+  - value: foot
+    lang: en
   root: true
   short: foot
   symbols:
@@ -2277,7 +2419,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - mile
+  - value: mile
+    lang: en
   root: true
   short: mile
   symbols:
@@ -2302,7 +2445,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - yard
+  - value: yard
+    lang: en
   root: true
   short: yard
   symbols:
@@ -2325,7 +2469,8 @@ units:
   - id: NISTq47
     type: nist
   names:
-  - phot
+  - value: phot
+    lang: en
   root: true
   short: phot
   symbols:
@@ -2348,10 +2493,14 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - grain (troy or apothecary)
-  - troy grain
-  - apothecary grain
-  - grain
+  - value: grain (troy or apothecary)
+    lang: en
+  - value: troy grain
+    lang: en
+  - value: apothecary grain
+    lang: en
+  - value: grain
+    lang: en
   root: true
   short: grain
   symbols:
@@ -2374,8 +2523,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - metric ton
-  - ton
+  - value: metric ton
+    lang: en
+  - value: ton
+    lang: en
+  - value: tonne
+    lang: fr
   root: true
   short: metric_ton
   symbols:
@@ -2404,7 +2557,8 @@ units:
   - id: NISTq21
     type: nist
   names:
-  - erg per second
+  - value: erg per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2438,7 +2592,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - bar
+  - value: bar
+    lang: en
   root: true
   short: bar
   symbols:
@@ -2463,7 +2618,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - dyne per square centimeter
+  - value: dyne per square centimeter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2500,7 +2656,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - gram-force per square centimeter
+  - value: gram-force per square centimeter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2538,7 +2695,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - kilogram-force per square centimeter
+  - value: kilogram-force per square centimeter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2578,7 +2736,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - kilogram-force per square meter
+  - value: kilogram-force per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2615,7 +2774,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - kilogram-force per square millimeter
+  - value: kilogram-force per square millimeter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2654,7 +2814,8 @@ units:
   - id: NISTq59
     type: nist
   names:
-  - centipoise
+  - value: centipoise
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2685,7 +2846,8 @@ units:
   - id: NISTq35
     type: nist
   names:
-  - curie
+  - value: curie
+    lang: en
   root: true
   short: curie
   symbols:
@@ -2710,7 +2872,8 @@ units:
   - id: NISTq36
     type: nist
   names:
-  - rad (absorbed dose)
+  - value: rad (absorbed dose)
+    lang: en
   root: true
   short: rad
   symbols:
@@ -2735,7 +2898,8 @@ units:
   - id: NISTq39
     type: nist
   names:
-  - rem
+  - value: rem
+    lang: en
   root: true
   short: rem
   symbols:
@@ -2760,8 +2924,10 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - year (365 days)
-  - year
+  - value: year (365 days)
+    lang: en
+  - value: year
+    lang: en
   root: true
   short: year_365
   symbols:
@@ -2784,7 +2950,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - foot per minute
+  - value: foot per minute
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2816,7 +2983,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - foot per second
+  - value: foot per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2848,7 +3016,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - inch per second
+  - value: inch per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2880,7 +3049,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - mile per hour
+  - value: mile per hour
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2912,7 +3082,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - mile per minute
+  - value: mile per minute
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2944,7 +3115,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - mile per second
+  - value: mile per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -2976,7 +3148,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - stere
+  - value: stere
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -3004,7 +3177,8 @@ units:
   - id: NISTq14
     type: nist
   names:
-  - gamma
+  - value: gamma
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3045,7 +3219,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - therm (EC)
+  - value: therm (EC)
+    lang: en
   root: true
   short: ec_therm
   symbols:
@@ -3068,7 +3243,8 @@ units:
   - id: NISTq75
     type: nist
   names:
-  - roentgen
+  - value: roentgen
+    lang: en
   root: true
   short: roentgen
   symbols:
@@ -3093,7 +3269,8 @@ units:
   - id: NISTq14
     type: nist
   names:
-  - gauss
+  - value: gauss
+    lang: en
   root: true
   short: gauss
   symbols:
@@ -3122,7 +3299,8 @@ units:
   - id: NISTq50
     type: nist
   names:
-  - kayser
+  - value: kayser
+    lang: en
   root: true
   short: kayser
   symbols:
@@ -3146,7 +3324,8 @@ units:
   - id: NISTq85
     type: nist
   names:
-  - centistokes
+  - value: centistokes
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3179,7 +3358,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - micron
+  - value: micron
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3212,9 +3392,12 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - mil (length)
-  - mil
-  - thou
+  - value: mil (length)
+    lang: en
+  - value: mil
+    lang: en
+  - value: thou
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3251,7 +3434,8 @@ units:
   - id: NISTq56
     type: nist
   names:
-  - stilb
+  - value: stilb
+    lang: en
   root: true
   short: stilb
   symbols:
@@ -3274,7 +3458,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - kilogram-force second squared per meter
+  - value: kilogram-force second squared per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3321,7 +3506,8 @@ units:
   - id: NISTq60
     type: nist
   names:
-  - kilogram-force meter
+  - value: kilogram-force meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3358,8 +3544,10 @@ units:
   - id: NISTq21
     type: nist
   names:
-  - horsepower, electric
-  - electric horsepower
+  - value: horsepower, electric
+    lang: en
+  - value: electric horsepower
+    lang: en
   root: true
   short: electric_horsepower
   symbols:
@@ -3382,7 +3570,8 @@ units:
   - id: NISTq59
     type: nist
   names:
-  - poise
+  - value: poise
+    lang: en
   root: true
   short: poise
   symbols:
@@ -3405,7 +3594,8 @@ units:
   - id: NISTq91
     type: nist
   names:
-  - rhe
+  - value: rhe
+    lang: en
   root: true
   short: rhe
   symbols:
@@ -3428,7 +3618,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - liter
+  - value: liter
+    lang: en
+  - value: litre
+    lang: fr
   root: true
   short: liter
   symbols:
@@ -3463,7 +3656,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - nautical mile
+  - value: nautical mile
+    lang: en
   root: true
   short: nautical_mile
   symbols:
@@ -3486,7 +3680,8 @@ units:
   - id: NISTq175
     type: nist
   names:
-  - degree Fahrenheit
+  - value: degree Fahrenheit
+    lang: en
   root: true
   short: degree_Fahrenheit
   symbols:
@@ -3511,7 +3706,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - standard atmosphere
+  - value: standard atmosphere
+    lang: en
   root: true
   short: standard_atmosphere
   symbols:
@@ -3536,7 +3732,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - technical atmosphere
+  - value: technical atmosphere
+    lang: en
   root: true
   short: technical_atmosphere
   symbols:
@@ -3559,7 +3756,8 @@ units:
   - id: NISTq85
     type: nist
   names:
-  - stokes
+  - value: stokes
+    lang: en
   root: true
   short: stokes
   symbols:
@@ -3582,7 +3780,8 @@ units:
   - id: NISTq49
     type: nist
   names:
-  - gal
+  - value: gal
+    lang: en
   root: true
   short: gal
   symbols:
@@ -3605,7 +3804,8 @@ units:
   - id: NISTq87
     type: nist
   names:
-  - oersted
+  - value: oersted
+    lang: en
   root: true
   short: oersted
   symbols:
@@ -3628,7 +3828,10 @@ units:
   - id: NISTq9
     type: nist
   names:
-  - minute (minute of arc)
+  - value: minute (minute of arc)
+    lang: en
+  - value: arcminute
+    lang: fr
   root: true
   short: arc_minute
   symbols:
@@ -3661,7 +3864,10 @@ units:
   - id: NISTq9
     type: nist
   names:
-  - second (second of arc)
+  - value: second (second of arc)
+    lang: en
+  - value: arcseconde
+    lang: fr
   root: true
   short: arc_second
   symbols:
@@ -3700,7 +3906,10 @@ units:
   - id: NISTq9
     type: nist
   names:
-  - degree (degree of arc)
+  - value: degree (degree of arc)
+    lang: en
+  - value: degré
+    lang: fr
   root: true
   short: arc_degree
   symbols:
@@ -3727,8 +3936,10 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - nautical mile per hour
-  - knot
+  - value: nautical mile per hour
+    lang: en
+  - value: knot
+    lang: en
   root: true
   short: knot
   symbols:
@@ -3757,7 +3968,10 @@ units:
   - id: NISTq90
     type: nist
   names:
-  - neper
+  - value: neper
+    lang: en
+  - value: néper
+    lang: fr
   root: true
   short: neper
   symbols:
@@ -3788,7 +4002,10 @@ units:
   - id: NISTq90
     type: nist
   names:
-  - bel
+  - value: bel
+    lang: en
+  - value: bel
+    lang: fr
   root: true
   short: bel
   symbols:
@@ -3816,7 +4033,8 @@ units:
   - id: NISTq90
     type: nist
   names:
-  - decibel
+  - value: decibel
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3849,9 +4067,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional millimeter of mercury
-  - millimeter of mercury, conventional
-  - millimeter of mercury
+  - value: conventional millimeter of mercury
+    lang: en
+  - value: millimeter of mercury, conventional
+    lang: en
+  - value: millimeter of mercury
+    lang: en
   root: true
   short: mm_Hg
   symbols:
@@ -3876,7 +4097,8 @@ units:
   - id: NISTq92
     type: nist
   names:
-  - darcy
+  - value: darcy
+    lang: en
   root: true
   short: darcy
   symbols:
@@ -3905,7 +4127,8 @@ units:
   - id: NISTq9
     type: nist
   names:
-  - gon
+  - value: gon
+    lang: en
   root: true
   short: gon
   symbols:
@@ -3930,7 +4153,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - kilometer per hour
+  - value: kilometer per hour
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3965,7 +4189,8 @@ units:
   - id: NISTq120
     type: nist
   names:
-  - neper per second
+  - value: neper per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -3997,7 +4222,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - square yard
+  - value: square yard
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -4025,7 +4251,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - square mile
+  - value: square mile
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -4053,8 +4280,10 @@ units:
   - id: NISTq17
     type: nist
   names:
-  - ton of TNT (energy equivalent)
-  - ton
+  - value: ton of TNT (energy equivalent)
+    lang: en
+  - value: ton
+    lang: en
   root: true
   short: tons_of_tnt
   symbols:
@@ -4077,7 +4306,8 @@ units:
   - id: NISTq49
     type: nist
   names:
-  - foot per second squared
+  - value: foot per second squared
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4109,7 +4339,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - cubic inch
+  - value: cubic inch
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -4137,7 +4368,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - cubic foot
+  - value: cubic foot
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -4165,7 +4397,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - cubic yard
+  - value: cubic yard
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -4193,9 +4426,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - gallon (UK)
-  - imperial gallon
-  - gallon
+  - value: gallon (UK)
+    lang: en
+  - value: imperial gallon
+    lang: en
+  - value: gallon
+    lang: en
   root: true
   short: imperial_gallon
   symbols:
@@ -4218,8 +4454,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - pint (UK)
-  - pint
+  - value: pint (UK)
+    lang: en
+  - value: pint
+    lang: en
   root: true
   short: imperial_pint
   symbols:
@@ -4242,9 +4480,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - fluid ounce (UK)
-  - fluid ounce
-  - ounce
+  - value: fluid ounce (UK)
+    lang: en
+  - value: fluid ounce
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: imperial_ounce
   symbols:
@@ -4267,8 +4508,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - gallon (US)
-  - gallon
+  - value: gallon (US)
+    lang: en
+  - value: gallon
+    lang: en
   root: true
   short: us_gallon
   symbols:
@@ -4291,8 +4534,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - liquid pint (US)
-  - pint
+  - value: liquid pint (US)
+    lang: en
+  - value: pint
+    lang: en
   root: true
   short: us_pint
   symbols:
@@ -4315,9 +4560,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - fluid ounce (US)
-  - fluid ounce
-  - ounce
+  - value: fluid ounce (US)
+    lang: en
+  - value: fluid ounce
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: us_fluid_ounce
   symbols:
@@ -4340,8 +4588,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - barrel (US) for petroleum
-  - barrel
+  - value: barrel (US) for petroleum
+    lang: en
+  - value: barrel
+    lang: en
   root: true
   short: petro_barrel
   symbols:
@@ -4364,8 +4614,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - bushel (US)
-  - bushel
+  - value: bushel (US)
+    lang: en
+  - value: bushel
+    lang: en
   root: true
   short: us_bushel
   symbols:
@@ -4388,8 +4640,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - dry pint (US)
-  - pint
+  - value: dry pint (US)
+    lang: en
+  - value: pint
+    lang: en
   root: true
   short: us_dry_pint
   symbols:
@@ -4412,7 +4666,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - light year
+  - value: light year
+    lang: en
   root: true
   short: light_year
   symbols:
@@ -4435,7 +4690,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - astronomical unit
+  - value: astronomical unit
+    lang: en
+  - value: unité astronomique
+    lang: fr
   root: true
   short: astronomical_unit
   symbols:
@@ -4462,7 +4720,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - parsec
+  - value: parsec
+    lang: en
   root: true
   short: parsec
   symbols:
@@ -4487,7 +4746,8 @@ units:
   - id: NISTq145
     type: nist
   names:
-  - meter to the power four
+  - value: meter to the power four
+    lang: en
   root: false
   root_units:
   - power: 4
@@ -4515,7 +4775,8 @@ units:
   - id: NISTq51
     type: nist
   names:
-  - kilogram per liter
+  - value: kilogram per liter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4550,7 +4811,8 @@ units:
   - id: NISTq51
     type: nist
   names:
-  - metric ton per cubic meter
+  - value: metric ton per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4582,7 +4844,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - gram-force
+  - value: gram-force
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4613,9 +4876,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - pound (avoirdupois)
-  - avoirdupois pound
-  - pound
+  - value: pound (avoirdupois)
+    lang: en
+  - value: avoirdupois pound
+    lang: en
+  - value: pound
+    lang: en
   root: true
   short: av_pound
   symbols:
@@ -4638,9 +4904,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - ounce (avoirdupois)
-  - avoirdupois ounce
-  - ounce
+  - value: ounce (avoirdupois)
+    lang: en
+  - value: avoirdupois ounce
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: av_ounce
   symbols:
@@ -4663,8 +4932,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - hundredweight (long, 112 lb)
-  - hundredweight
+  - value: hundredweight (long, 112 lb)
+    lang: en
+  - value: hundredweight
+    lang: en
   root: true
   short: gross_hundredweight
   symbols:
@@ -4687,7 +4958,8 @@ units:
   - id: NISTq51
     type: nist
   names:
-  - pound per cubic foot
+  - value: pound per cubic foot
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4721,7 +4993,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - pound-force
+  - value: pound-force
+    lang: en
   root: true
   short: pound_force
   symbols:
@@ -4758,7 +5031,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - foot pound-force
+  - value: foot pound-force
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4790,7 +5064,8 @@ units:
   - id: NISTq15
     type: nist
   names:
-  - pound-force per square inch
+  - value: pound-force per square inch
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4828,7 +5103,8 @@ units:
   - id: NISTq155
     type: nist
   names:
-  - inch to the fourth power
+  - value: inch to the fourth power
+    lang: en
   root: false
   root_units:
   - power: 4
@@ -4856,7 +5132,8 @@ units:
   - id: NISTq146
     type: nist
   names:
-  - inch cubed
+  - value: inch cubed
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -4884,7 +5161,8 @@ units:
   - id: NISTq85
     type: nist
   names:
-  - foot squared per second
+  - value: foot squared per second
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -4917,7 +5195,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - foot pound-force per second
+  - value: foot pound-force per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -4954,9 +5233,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - carat
-  - metric carat
-  - carat, metric
+  - value: carat
+    lang: en
+  - value: metric carat
+    lang: en
+  - value: carat, metric
+    lang: en
   root: true
   short: carat
   symbols:
@@ -4979,7 +5261,8 @@ units:
   - id: NISTq126
     type: nist
   names:
-  - tex
+  - value: tex
+    lang: en
   root: true
   short: tex
   symbols:
@@ -5002,7 +5285,8 @@ units:
   - id: NISTq15
     type: nist
   names:
-  - torr
+  - value: torr
+    lang: en
   root: true
   short: torr
   symbols:
@@ -5025,9 +5309,12 @@ units:
   - id: NISTq15
     type: nist
   names:
-  - conventional millimeter of water
-  - millimeter of water, conventional
-  - millimeter of water
+  - value: conventional millimeter of water
+    lang: en
+  - value: millimeter of water, conventional
+    lang: en
+  - value: millimeter of water
+    lang: en
   root: true
   short: mm_water
   symbols:
@@ -5051,8 +5338,10 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit_th
-  - thermochemical Btu
+  - value: British thermal unit_th
+    lang: en
+  - value: thermochemical Btu
+    lang: en
   root: true
   short: thermo_btu
   symbols:
@@ -5075,7 +5364,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - kilogram-force meter per second
+  - value: kilogram-force meter per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -5115,8 +5405,10 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - horsepower, metric
-  - metric horsepower
+  - value: horsepower, metric
+    lang: en
+  - value: metric horsepower
+    lang: en
   root: true
   short: metric_horsepower
   symbols:
@@ -5141,7 +5433,8 @@ units:
   - id: NISTq181
     type: nist
   names:
-  - watt per square meter kelvin
+  - value: watt per square meter kelvin
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -5171,7 +5464,8 @@ units:
   - id: NISTq56
     type: nist
   names:
-  - lambert
+  - value: lambert
+    lang: en
   root: true
   short: lambert
   symbols:
@@ -5194,7 +5488,8 @@ units:
   - id: NISTq161
     type: nist
   names:
-  - gilbert
+  - value: gilbert
+    lang: en
   root: true
   short: gilbert
   symbols:
@@ -5217,7 +5512,8 @@ units:
   - id: NISTq162
     type: nist
   names:
-  - debye
+  - value: debye
+    lang: en
   root: true
   short: debye
   symbols:
@@ -5240,7 +5536,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - abwatt
+  - value: abwatt
+    lang: en
   root: true
   short: abwatt
   symbols:
@@ -5263,7 +5560,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - slug
+  - value: slug
+    lang: en
   root: true
   short: slug
   symbols:
@@ -5296,9 +5594,12 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - thermochemical calorie
-  - calorie_th
-  - calorie
+  - value: thermochemical calorie
+    lang: en
+  - value: calorie_th
+    lang: en
+  - value: calorie
+    lang: en
   root: true
   short: thermo_calorie
   symbols:
@@ -5327,8 +5628,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - short ton
-  - ton
+  - value: short ton
+    lang: en
+  - value: ton
+    lang: en
   root: true
   short: short_ton
   symbols:
@@ -5351,8 +5654,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - long ton
-  - ton
+  - value: long ton
+    lang: en
+  - value: ton
+    lang: en
   root: true
   short: long_ton
   symbols:
@@ -5375,8 +5680,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - hundredweight (short, 100 lb)
-  - hundredweight
+  - value: hundredweight (short, 100 lb)
+    lang: en
+  - value: hundredweight
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -5404,9 +5711,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - ounce (troy or apothecary)
-  - troy ounce
-  - ounce
+  - value: ounce (troy or apothecary)
+    lang: en
+  - value: troy ounce
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: troy_ounce
   symbols:
@@ -5429,9 +5739,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - pound (troy or apothecary)
-  - troy pound
-  - pound
+  - value: pound (troy or apothecary)
+    lang: en
+  - value: troy pound
+    lang: en
+  - value: pound
+    lang: en
   root: true
   short: troy_pound
   symbols:
@@ -5454,7 +5767,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - pennyweight
+  - value: pennyweight
+    lang: en
   root: true
   short: pennyweight
   symbols:
@@ -5477,9 +5791,12 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - dram (apothecary)
-  - apothecary dram
-  - dram
+  - value: dram (apothecary)
+    lang: en
+  - value: apothecary dram
+    lang: en
+  - value: dram
+    lang: en
   root: true
   short: apothecaries_dram
   symbols:
@@ -5502,8 +5819,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - scruple
-  - apothecary scruple
+  - value: scruple
+    lang: en
+  - value: apothecary scruple
+    lang: en
   root: true
   short: scruple
   symbols:
@@ -5528,7 +5847,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - poundal
+  - value: poundal
+    lang: en
   root: true
   short: poundal
   symbols:
@@ -5551,7 +5871,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - kip
+  - value: kip
+    lang: en
   root: true
   short: kip
   symbols:
@@ -5576,7 +5897,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - ton-force (2000 lb)
+  - value: ton-force (2000 lb)
+    lang: en
   root: true
   short: ton_force
   symbols:
@@ -5599,7 +5921,8 @@ units:
   - id: NISTq15
     type: nist
   names:
-  - barye
+  - value: barye
+    lang: en
   root: true
   short: barye
   symbols:
@@ -5622,7 +5945,10 @@ units:
   - id: NISTq17
     type: nist
   names:
-  - electronvolt
+  - value: electronvolt
+    lang: en
+  - value: électronvolt
+    lang: fr
   root: true
   short: electronvolt
   symbols:
@@ -5649,7 +5975,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - unified atomic mass unit
+  - value: unified atomic mass unit
+    lang: en
   root: true
   short: unified_atomic_mass_unit
   symbols:
@@ -5672,7 +5999,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - natural unit of velocity
+  - value: natural unit of velocity
+    lang: en
   root: true
   short: natural_unit_of_velocity
   symbols:
@@ -5701,7 +6029,8 @@ units:
   - id: NISTq154
     type: nist
   names:
-  - natural unit of action
+  - value: natural unit of action
+    lang: en
   root: true
   short: natural_unit_of_action
   symbols:
@@ -5724,7 +6053,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - natural unit of mass
+  - value: natural unit of mass
+    lang: en
   root: true
   short: natural_unit_of_mass
   symbols:
@@ -5747,7 +6077,8 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - natural unit of time
+  - value: natural unit of time
+    lang: en
   root: true
   short: natural_unit_of_time
   symbols:
@@ -5771,7 +6102,8 @@ units:
   - id: NISTq22
     type: nist
   names:
-  - atomic unit of charge
+  - value: atomic unit of charge
+    lang: en
   root: true
   short: atomic_unit_of_charge
   symbols:
@@ -5794,7 +6126,8 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - atomic unit of mass
+  - value: atomic unit of mass
+    lang: en
   root: true
   short: atomic_unit_of_mass
   symbols:
@@ -5817,7 +6150,8 @@ units:
   - id: NISTq154
     type: nist
   names:
-  - atomic unit of action
+  - value: atomic unit of action
+    lang: en
   root: true
   short: atomic_unit_of_action
   symbols:
@@ -5840,7 +6174,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - atomic unit of length
+  - value: atomic unit of length
+    lang: en
   root: true
   short: atomic_unit_of_length
   symbols:
@@ -5863,7 +6198,8 @@ units:
   - id: NISTq17
     type: nist
   names:
-  - atomic unit of energy
+  - value: atomic unit of energy
+    lang: en
   root: true
   short: atomic_unit_of_energy
   symbols:
@@ -5886,7 +6222,8 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - atomic unit of time
+  - value: atomic unit of time
+    lang: en
   root: true
   short: atomic_unit_of_time
   symbols:
@@ -5910,7 +6247,8 @@ units:
   - id: NISTq163
     type: nist
   names:
-  - atomic unit of magnetizability
+  - value: atomic unit of magnetizability
+    lang: en
   root: true
   short: atomic_unit_of_magnetizability
   symbols:
@@ -5935,7 +6273,8 @@ units:
   - id: NISTq14
     type: nist
   names:
-  - atomic unit of magnetic flux density
+  - value: atomic unit of magnetic flux density
+    lang: en
   root: true
   short: atomic_unit_of_magnetic_flux_density
   symbols:
@@ -5959,7 +6298,8 @@ units:
   - id: NISTq164
     type: nist
   names:
-  - atomic unit of magnetic dipole moment
+  - value: atomic unit of magnetic dipole moment
+    lang: en
   root: true
   short: atomic_unit_of_magnetic_dipole_moment
   symbols:
@@ -5983,7 +6323,8 @@ units:
   - id: NISTq131
     type: nist
   names:
-  - atomic unit of momentum
+  - value: atomic unit of momentum
+    lang: en
   root: true
   short: atomic_unit_of_momentum
   symbols:
@@ -6006,7 +6347,8 @@ units:
   - id: NISTq69
     type: nist
   names:
-  - atomic unit of charge density
+  - value: atomic unit of charge density
+    lang: en
   root: true
   short: atomic_unit_of_charge_density
   symbols:
@@ -6029,7 +6371,8 @@ units:
   - id: NISTq4
     type: nist
   names:
-  - atomic unit of current
+  - value: atomic unit of current
+    lang: en
   root: true
   short: atomic_unit_of_current
   symbols:
@@ -6053,7 +6396,8 @@ units:
   - id: NISTq162
     type: nist
   names:
-  - atomic unit of electric dipole moment
+  - value: atomic unit of electric dipole moment
+    lang: en
   root: true
   short: atomic_unit_of_electric_dipole_moment
   symbols:
@@ -6076,7 +6420,8 @@ units:
   - id: NISTq68
     type: nist
   names:
-  - atomic unit of electric field
+  - value: atomic unit of electric field
+    lang: en
   root: true
   short: atomic_unit_of_electric_field
   symbols:
@@ -6100,7 +6445,8 @@ units:
   - id: NISTq165
     type: nist
   names:
-  - atomic unit of electric field gradient
+  - value: atomic unit of electric field gradient
+    lang: en
   root: true
   short: atomic_unit_of_electric_field_gradient
   symbols:
@@ -6128,7 +6474,8 @@ units:
   - id: NISTq26
     type: nist
   names:
-  - atomic unit of electric potential
+  - value: atomic unit of electric potential
+    lang: en
   root: true
   short: atomic_unit_of_electric_potential
   symbols:
@@ -6154,7 +6501,8 @@ units:
   - id: NISTq13
     type: nist
   names:
-  - atomic unit of force
+  - value: atomic unit of force
+    lang: en
   root: true
   short: atomic_unit_of_force
   symbols:
@@ -6178,7 +6526,8 @@ units:
   - id: NISTq167
     type: nist
   names:
-  - atomic unit of electric quadrupole moment
+  - value: atomic unit of electric quadrupole moment
+    lang: en
   root: true
   short: atomic_unit_of_electric_quadrupole_moment
   symbols:
@@ -6201,7 +6550,8 @@ units:
   - id: NISTq168
     type: nist
   names:
-  - atomic unit of electric polarizability
+  - value: atomic unit of electric polarizability
+    lang: en
   root: true
   short: atomic_unit_of_electric_polarizability
   symbols:
@@ -6226,8 +6576,10 @@ units:
   - id: NISTq28
     type: nist
   names:
-  - statohm
-  - ESU of resistance
+  - value: statohm
+    lang: en
+  - value: ESU of resistance
+    lang: en
   root: true
   short: statohm
   symbols:
@@ -6250,8 +6602,10 @@ units:
   - id: NISTq169
     type: nist
   names:
-  - statfarad
-  - ESU of capacitance
+  - value: statfarad
+    lang: en
+  - value: ESU of capacitance
+    lang: en
   root: true
   short: statfarad
   symbols:
@@ -6274,8 +6628,10 @@ units:
   - id: NISTq170
     type: nist
   names:
-  - statampere
-  - ESU of current
+  - value: statampere
+    lang: en
+  - value: ESU of current
+    lang: en
   root: true
   short: statampere
   symbols:
@@ -6302,8 +6658,10 @@ units:
   - id: NISTq26
     type: nist
   names:
-  - statvolt
-  - ESU of Electric potential
+  - value: statvolt
+    lang: en
+  - value: ESU of Electric potential
+    lang: en
   root: true
   short: statvolt
   symbols:
@@ -6326,8 +6684,10 @@ units:
   - id: NISTq171
     type: nist
   names:
-  - stathenry
-  - ESU of inductance
+  - value: stathenry
+    lang: en
+  - value: ESU of inductance
+    lang: en
   root: true
   short: stathenry
   symbols:
@@ -6350,8 +6710,10 @@ units:
   - id: NISTq29
     type: nist
   names:
-  - statmho
-  - ESU of conductance
+  - value: statmho
+    lang: en
+  - value: ESU of conductance
+    lang: en
   root: true
   short: statmho
   symbols:
@@ -6376,8 +6738,10 @@ units:
   - id: NISTq23
     type: nist
   names:
-  - statcoulomb
-  - ESU of charge
+  - value: statcoulomb
+    lang: en
+  - value: ESU of charge
+    lang: en
   root: true
   short: statcoulomb
   symbols:
@@ -6400,7 +6764,8 @@ units:
   - id: NISTq30
     type: nist
   names:
-  - statweber
+  - value: statweber
+    lang: en
   root: true
   short: statweber
   symbols:
@@ -6423,7 +6788,8 @@ units:
   - id: NISTq14
     type: nist
   names:
-  - stattesla
+  - value: stattesla
+    lang: en
   root: true
   short: stattesla
   symbols:
@@ -6446,7 +6812,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - statwatt
+  - value: statwatt
+    lang: en
   root: true
   short: statwatt
   symbols:
@@ -6469,8 +6836,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - dram (avoirdupois)
-  - dram
+  - value: dram (avoirdupois)
+    lang: en
+  - value: dram
+    lang: en
   root: true
   short: av_dram
   symbols:
@@ -6493,7 +6862,8 @@ units:
   - id: NISTq47
     type: nist
   names:
-  - footcandle
+  - value: footcandle
+    lang: en
   root: true
   short: footcandle
   symbols:
@@ -6516,7 +6886,8 @@ units:
   - id: NISTq56
     type: nist
   names:
-  - footlambert
+  - value: footlambert
+    lang: en
   root: true
   short: footlambert
   symbols:
@@ -6541,7 +6912,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - pica (computer)
+  - value: pica (computer)
+    lang: en
   root: true
   short: computer_pica
   symbols:
@@ -6564,7 +6936,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - pica (printer's)
+  - value: pica (printer's)
+    lang: en
   root: true
   short: printers_pica
   symbols:
@@ -6589,7 +6962,8 @@ units:
   - id: NISTq48
     type: nist
   names:
-  - point (computer)
+  - value: point (computer)
+    lang: en
   root: true
   short: computer_point
   symbols:
@@ -6612,8 +6986,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - rod (based on US survey foot)
-  - rod
+  - value: rod (based on US survey foot)
+    lang: en
+  - value: rod
+    lang: en
   root: true
   short: us_survey_rod
   symbols:
@@ -6636,8 +7012,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - fathom (based on US survey foot)
-  - fathom
+  - value: fathom (based on US survey foot)
+    lang: en
+  - value: fathom
+    lang: en
   root: true
   short: us_survey_fathom
   symbols:
@@ -6660,7 +7038,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - circular mil
+  - value: circular mil
+    lang: en
   root: true
   short: circular_mil
   symbols:
@@ -6683,7 +7062,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - horsepower
+  - value: horsepower
+    lang: en
   root: true
   short: horsepower
   symbols:
@@ -6706,8 +7086,10 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - horsepower, boiler
-  - boiler horsepower
+  - value: horsepower, boiler
+    lang: en
+  - value: boiler horsepower
+    lang: en
   root: true
   short: boiler_horsepower
   symbols:
@@ -6730,8 +7112,10 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - horsepower, water
-  - water horsepower
+  - value: horsepower, water
+    lang: en
+  - value: water horsepower
+    lang: en
   root: true
   short: water_horsepower
   symbols:
@@ -6754,7 +7138,8 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - horsepower (UK)
+  - value: horsepower (UK)
+    lang: en
   root: true
   short: uk_horsepower
   symbols:
@@ -6777,7 +7162,8 @@ units:
   - id: NISTq5
     type: nist
   names:
-  - degree Rankine
+  - value: degree Rankine
+    lang: en
   root: true
   short: degree_Rankine
   symbols:
@@ -6800,7 +7186,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - dalton
+  - value: dalton
+    lang: en
+  - value: dalton
+    lang: fr
   root: false
   root_units:
   - power: 1
@@ -6832,7 +7221,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - natural unit of length
+  - value: natural unit of length
+    lang: en
   root: true
   short: natural_unit_of_length
   symbols:
@@ -6855,7 +7245,8 @@ units:
   - id: NISTq172
     type: nist
   names:
-  - atomic unit of 1st hyperpolarizability
+  - value: atomic unit of 1st hyperpolarizability
+    lang: en
   root: true
   short: atomic_unit_of_1st_hyperpolarizability
   symbols:
@@ -6880,7 +7271,8 @@ units:
   - id: NISTq173
     type: nist
   names:
-  - atomic unit of 2nd hyperpolarizability
+  - value: atomic unit of 2nd hyperpolarizability
+    lang: en
   root: true
   short: atomic_unit_of_2nd_hyperpolarizability
   symbols:
@@ -6905,7 +7297,8 @@ units:
   - id: NISTq71
     type: nist
   names:
-  - atomic unit of permittivity
+  - value: atomic unit of permittivity
+    lang: en
   root: true
   short: atomic_unit_of_permittivity
   symbols:
@@ -6930,7 +7323,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - atomic unit of velocity
+  - value: atomic unit of velocity
+    lang: en
   root: true
   short: atomic_unit_of_velocity
   symbols:
@@ -6955,7 +7349,8 @@ units:
   - id: NISTq17
     type: nist
   names:
-  - natural unit of energy
+  - value: natural unit of energy
+    lang: en
   root: true
   short: natural_unit_of_energy
   symbols:
@@ -6979,7 +7374,8 @@ units:
   - id: NISTq131
     type: nist
   names:
-  - natural unit of momentum
+  - value: natural unit of momentum
+    lang: en
   root: true
   short: natural_unit_of_momentum
   symbols:
@@ -7003,7 +7399,8 @@ units:
   - id: NISTq154
     type: nist
   names:
-  - natural unit of action in eV s
+  - value: natural unit of action in eV s
+    lang: en
   root: true
   short: natural_unit_of_action_in_eV_s
   symbols:
@@ -7026,7 +7423,8 @@ units:
   - id: NISTq17
     type: nist
   names:
-  - natural unit of energy in MeV
+  - value: natural unit of energy in MeV
+    lang: en
   root: true
   short: natural_unit_of_energy_in_MeV
   symbols:
@@ -7050,7 +7448,8 @@ units:
   - id: NISTq131
     type: nist
   names:
-  - natural unit of momentum in MeV/c
+  - value: natural unit of momentum in MeV/c
+    lang: en
   root: true
   short: natural_unit_of_momentum_in_MeV_per_c
   symbols:
@@ -7074,8 +7473,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - quart (UK)
-  - quart
+  - value: quart (UK)
+    lang: en
+  - value: quart
+    lang: en
   root: true
   short: imperial_quart
   symbols:
@@ -7098,8 +7499,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - dry quart (US)
-  - quart
+  - value: dry quart (US)
+    lang: en
+  - value: quart
+    lang: en
   root: true
   short: us_dry_quart
   symbols:
@@ -7122,8 +7525,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - liquid quart (US)
-  - quart
+  - value: liquid quart (US)
+    lang: en
+  - value: quart
+    lang: en
   root: true
   short: us_quart
   symbols:
@@ -7146,7 +7551,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - teaspoon
+  - value: teaspoon
+    lang: en
   root: true
   short: us_teaspoon
   symbols:
@@ -7169,7 +7575,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - tablespoon
+  - value: tablespoon
+    lang: en
   root: true
   short: us_tablespoon
   symbols:
@@ -7192,8 +7599,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - tablespoon (FDA)
-  - teaspoon
+  - value: tablespoon (FDA)
+    lang: en
+  - value: teaspoon
+    lang: en
   root: true
   short: us_label_tablespoon
   symbols:
@@ -7216,8 +7625,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - teaspoon (FDA)
-  - teaspoon
+  - value: teaspoon (FDA)
+    lang: en
+  - value: teaspoon
+    lang: en
   root: true
   short: us_label_teaspoon
   symbols:
@@ -7240,8 +7651,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - cup (FDA)
-  - cup
+  - value: cup (FDA)
+    lang: en
+  - value: cup
+    lang: en
   root: true
   short: us_label_cup
   symbols:
@@ -7264,9 +7677,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - fluid ounce (FDA)
-  - fluid ounce
-  - ounce
+  - value: fluid ounce (FDA)
+    lang: en
+  - value: fluid ounce
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: us_label_fluid_ounce
   symbols:
@@ -7289,8 +7705,10 @@ units:
   - id: NISTq2
     type: nist
   names:
-  - ounce (FDA)
-  - ounce
+  - value: ounce (FDA)
+    lang: en
+  - value: ounce
+    lang: en
   root: true
   short: us_label_ounce
   symbols:
@@ -7313,10 +7731,14 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - chain (based on US survey foot)
-  - surveyors chain
-  - Gunter's chain
-  - chain
+  - value: chain (based on US survey foot)
+    lang: en
+  - value: surveyors chain
+    lang: en
+  - value: Gunter's chain
+    lang: en
+  - value: chain
+    lang: en
   root: true
   short: us_survey_chain
   symbols:
@@ -7339,10 +7761,14 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - link (based on US survey foot)
-  - surveyors link
-  - Gunter's link
-  - link
+  - value: link (based on US survey foot)
+    lang: en
+  - value: surveyors link
+    lang: en
+  - value: Gunter's link
+    lang: en
+  - value: link
+    lang: en
   root: true
   short: us_survey_link
   symbols:
@@ -7365,8 +7791,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - furlong (based on US survey foot)
-  - furlong
+  - value: furlong (based on US survey foot)
+    lang: en
+  - value: furlong
+    lang: en
   root: true
   short: us_survey_furlong
   symbols:
@@ -7389,9 +7817,12 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - mile (based on US survey foot)
-  - survey mile
-  - mile
+  - value: mile (based on US survey foot)
+    lang: en
+  - value: survey mile
+    lang: en
+  - value: mile
+    lang: en
   root: true
   short: us_survey_mile
   symbols:
@@ -7414,8 +7845,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - yard (based on US survey foot)
-  - yard
+  - value: yard (based on US survey foot)
+    lang: en
+  - value: yard
+    lang: en
   root: true
   short: us_survey_yard
   symbols:
@@ -7438,9 +7871,12 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - foot (based on US survey foot)
-  - survey foot
-  - foot
+  - value: foot (based on US survey foot)
+    lang: en
+  - value: survey foot
+    lang: en
+  - value: foot
+    lang: en
   root: true
   short: us_survey_foot
   symbols:
@@ -7463,8 +7899,10 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - inch (based on US survey foot)
-  - inch
+  - value: inch (based on US survey foot)
+    lang: en
+  - value: inch
+    lang: en
   root: true
   short: us_survey_inch
   symbols:
@@ -7487,8 +7925,10 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - acre (based on US survey foot)
-  - acre
+  - value: acre (based on US survey foot)
+    lang: en
+  - value: acre
+    lang: en
   root: true
   short: us_acre
   symbols:
@@ -7513,9 +7953,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional centimeter of mercury
-  - centimeter of mercury, conventional
-  - centimeter of mercury
+  - value: conventional centimeter of mercury
+    lang: en
+  - value: centimeter of mercury, conventional
+    lang: en
+  - value: centimeter of mercury
+    lang: en
   root: true
   short: cm_Hg
   symbols:
@@ -7540,7 +7983,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - centimeter of mercury (0 degC)
+  - value: centimeter of mercury (0 degC)
+    lang: en
   root: true
   short: 0C_cm_Hg
   symbols:
@@ -7565,7 +8009,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - centimeter of water (4 degC)
+  - value: centimeter of water (4 degC)
+    lang: en
   root: true
   short: 4C_cm_water
   symbols:
@@ -7591,9 +8036,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional centimeter of water
-  - centimeter of water, conventional
-  - centimeter of water
+  - value: conventional centimeter of water
+    lang: en
+  - value: centimeter of water, conventional
+    lang: en
+  - value: centimeter of water
+    lang: en
   root: true
   short: cm_water
   symbols:
@@ -7619,9 +8067,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional inch of water
-  - inch of water, conventional
-  - inch of water
+  - value: conventional inch of water
+    lang: en
+  - value: inch of water, conventional
+    lang: en
+  - value: inch of water
+    lang: en
   root: true
   short: in_water
   symbols:
@@ -7647,7 +8098,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - inch of water (39.2 degF)
+  - value: inch of water (39.2 degF)
+    lang: en
   root: true
   short: 39F_in_water
   symbols:
@@ -7673,7 +8125,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - inch of water (60 degF)
+  - value: inch of water (60 degF)
+    lang: en
   root: true
   short: 60F_in_water
   symbols:
@@ -7699,9 +8152,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional foot of water
-  - foot of water, conventional
-  - foot of water
+  - value: conventional foot of water
+    lang: en
+  - value: foot of water, conventional
+    lang: en
+  - value: foot of water
+    lang: en
   root: true
   short: ft_water
   symbols:
@@ -7727,7 +8183,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - foot of water (39.2 degF)
+  - value: foot of water (39.2 degF)
+    lang: en
   root: true
   short: 39F_ft_water
   symbols:
@@ -7753,7 +8210,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - inch of mercury (32 degF)
+  - value: inch of mercury (32 degF)
+    lang: en
   root: true
   short: 32F_in_Hg
   symbols:
@@ -7790,7 +8248,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - inch of mercury (60 degF)
+  - value: inch of mercury (60 degF)
+    lang: en
   root: true
   short: 60F_in_Hg
   symbols:
@@ -7827,9 +8286,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional inch of mercury
-  - inch of mercury, conventional
-  - inch of mercury
+  - value: conventional inch of mercury
+    lang: en
+  - value: inch of mercury, conventional
+    lang: en
+  - value: inch of mercury
+    lang: en
   root: true
   short: in_Hg
   symbols:
@@ -7866,9 +8328,12 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - conventional foot of mercury
-  - 'foot of mercury, conventional '
-  - foot of mercury
+  - value: conventional foot of mercury
+    lang: en
+  - value: 'foot of mercury, conventional'
+    lang: en
+  - value: foot of mercury
+    lang: en
   root: true
   short: ft_Hg
   symbols:
@@ -7913,7 +8378,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - therm (US)
+  - value: therm (US)
+    lang: en
   root: true
   short: us_therm
   symbols:
@@ -7936,7 +8402,8 @@ units:
   - id: NISTq174
     type: nist
   names:
-  - pH
+  - value: pH
+    lang: en
   root: true
   short: pH
   symbols:
@@ -7959,9 +8426,12 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit_IT
-  - International Table Btu
-  - British thermal unit
+  - value: British thermal unit_IT
+    lang: en
+  - value: International Table Btu
+    lang: en
+  - value: British thermal unit
+    lang: en
   root: true
   short: table_btu
   symbols:
@@ -7984,7 +8454,8 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit (mean)
+  - value: British thermal unit (mean)
+    lang: en
   root: true
   short: mean_btu
   symbols:
@@ -8007,7 +8478,8 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit (39 degF)
+  - value: British thermal unit (39 degF)
+    lang: en
   root: true
   short: 39F_btu
   symbols:
@@ -8030,7 +8502,8 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit (59 degF)
+  - value: British thermal unit (59 degF)
+    lang: en
   root: true
   short: 59F_btu
   symbols:
@@ -8053,7 +8526,8 @@ units:
   - id: NISTq19
     type: nist
   names:
-  - British thermal unit (60 degF)
+  - value: British thermal unit (60 degF)
+    lang: en
   root: true
   short: 60F_btu
   symbols:
@@ -8076,9 +8550,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - year, tropical
-  - tropical year
-  - year
+  - value: year, tropical
+    lang: en
+  - value: tropical year
+    lang: en
+  - value: year
+    lang: en
   root: true
   short: tropical_year
   symbols:
@@ -8101,9 +8578,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - year, sidereal
-  - sidereal year
-  - year
+  - value: year, sidereal
+    lang: en
+  - value: sidereal year
+    lang: en
+  - value: year
+    lang: en
   root: true
   short: sidereal_year
   symbols:
@@ -8126,9 +8606,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - day, sidereal
-  - sidereal day
-  - day
+  - value: day, sidereal
+    lang: en
+  - value: sidereal day
+    lang: en
+  - value: day
+    lang: en
   root: true
   short: sidereal_day
   symbols:
@@ -8151,9 +8634,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - hour, sidereal
-  - sidereal hour
-  - hour
+  - value: hour, sidereal
+    lang: en
+  - value: sidereal hour
+    lang: en
+  - value: hour
+    lang: en
   root: true
   short: sidereal_hour
   symbols:
@@ -8176,9 +8662,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - minute, sidereal
-  - sidereal minute
-  - minute
+  - value: minute, sidereal
+    lang: en
+  - value: sidereal minute
+    lang: en
+  - value: minute
+    lang: en
   root: true
   short: sidereal_minute
   symbols:
@@ -8201,9 +8690,12 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - second, sidereal
-  - sidereal second
-  - second
+  - value: second, sidereal
+    lang: en
+  - value: sidereal second
+    lang: en
+  - value: second
+    lang: en
   root: true
   short: sidereal_second
   symbols:
@@ -8226,7 +8718,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - point (printer's)
+  - value: point (printer's)
+    lang: en
   root: true
   short: printers_point
   symbols:
@@ -8249,7 +8742,8 @@ units:
   - id: NISTq3
     type: nist
   names:
-  - shake
+  - value: shake
+    lang: en
   root: true
   short: shake
   symbols:
@@ -8272,7 +8766,8 @@ units:
   - id: NISTq176
     type: nist
   names:
-  - denier
+  - value: denier
+    lang: en
   root: true
   short: denier
   symbols:
@@ -8295,9 +8790,12 @@ units:
   - id: NISTq9
     type: nist
   names:
-  - angular mil (NATO)
-  - angular mil
-  - mil
+  - value: angular mil (NATO)
+    lang: en
+  - value: angular mil
+    lang: en
+  - value: mil
+    lang: en
   root: true
   short: nato_mil
   symbols:
@@ -8320,8 +8818,10 @@ units:
   - id: NISTq6
     type: nist
   names:
-  - pound-mole
-  - pound mole
+  - value: pound-mole
+    lang: en
+  - value: pound mole
+    lang: en
   root: true
   short: pound_mole
   symbols:
@@ -8344,9 +8844,12 @@ units:
   - id: NISTq20
     type: nist
   names:
-  - ton of refrigeration (12 000 Btu_IT/h)
-  - ton of refrigeration
-  - ton
+  - value: ton of refrigeration (12 000 Btu_IT/h)
+    lang: en
+  - value: ton of refrigeration
+    lang: en
+  - value: ton
+    lang: en
   root: true
   short: ton_refrigeration
   symbols:
@@ -8369,7 +8872,8 @@ units:
   - id: NISTq177
     type: nist
   names:
-  - bit
+  - value: bit
+    lang: en
   root: true
   short: bit
   symbols:
@@ -8392,7 +8896,8 @@ units:
   - id: NISTq177
     type: nist
   names:
-  - byte
+  - value: byte
+    lang: en
   root: true
   short: byte
   symbols:
@@ -8415,7 +8920,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - peck
+  - value: peck
+    lang: en
   root: true
   short: us_peck
   symbols:
@@ -8438,7 +8944,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - minim
+  - value: minim
+    lang: en
   root: true
   short: us_minim
   symbols:
@@ -8461,8 +8968,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - cup (US)
-  - cup
+  - value: cup (US)
+    lang: en
+  - value: cup
+    lang: en
   root: true
   short: us_cup
   symbols:
@@ -8485,9 +8994,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - fluid dram
-  - dram, fluid
-  - dram
+  - value: fluid dram
+    lang: en
+  - value: dram, fluid
+    lang: en
+  - value: dram
+    lang: en
   root: true
   short: us_fluid_dram
   symbols:
@@ -8510,8 +9022,10 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - gill (US)
-  - gill
+  - value: gill (US)
+    lang: en
+  - value: gill
+    lang: en
   root: true
   short: us_gill
   symbols:
@@ -8534,9 +9048,12 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - gill [Canadian and UK (Imperial)]
-  - imperial gill
-  - gill
+  - value: gill [Canadian and UK (Imperial)]
+    lang: en
+  - value: imperial gill
+    lang: en
+  - value: gill
+    lang: en
   root: true
   short: imperial_gill
   symbols:
@@ -8559,7 +9076,8 @@ units:
   - id: NISTq151
     type: nist
   names:
-  - cubic foot per minute
+  - value: cubic foot per minute
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -8592,7 +9110,8 @@ units:
   - id: NISTq151
     type: nist
   names:
-  - cubic foot per second
+  - value: cubic foot per second
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -8625,7 +9144,8 @@ units:
   - id: NISTq151
     type: nist
   names:
-  - cubic inch per minute
+  - value: cubic inch per minute
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -8659,7 +9179,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - microinch
+  - value: microinch
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8693,7 +9214,8 @@ units:
   - id: NISTq16
     type: nist
   names:
-  - millibar
+  - value: millibar
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8724,8 +9246,10 @@ units:
   - id: NISTq198
     type: nist
   names:
-  - mile per gallon (US)
-  - mile per gallon
+  - value: mile per gallon (US)
+    lang: en
+  - value: mile per gallon
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8763,8 +9287,10 @@ units:
   - id: NISTq151
     type: nist
   names:
-  - gallon (US) per minute
-  - gallon per minute
+  - value: gallon (US) per minute
+    lang: en
+  - value: gallon per minute
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8803,7 +9329,8 @@ units:
   - id: NISTq10
     type: nist
   names:
-  - milliliter
+  - value: milliliter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8840,7 +9367,8 @@ units:
   - id: NISTq55
     type: nist
   names:
-  - mole per liter
+  - value: mole per liter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -8878,7 +9406,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - light week
+  - value: light week
+    lang: en
   root: true
   short: light_week
   symbols:
@@ -8901,7 +9430,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - light hour
+  - value: light hour
+    lang: en
   root: true
   short: light_hour
   symbols:
@@ -8924,7 +9454,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - light minute
+  - value: light minute
+    lang: en
   root: true
   short: light_minute
   symbols:
@@ -8947,7 +9478,8 @@ units:
   - id: NISTq1
     type: nist
   names:
-  - light second
+  - value: light second
+    lang: en
   root: true
   short: light_second
   symbols:
@@ -8970,7 +9502,8 @@ units:
   - id: NISTq198
     type: nist
   names:
-  - kilometer per liter
+  - value: kilometer per liter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9011,12 +9544,14 @@ units:
   - id: NISTq90
     type: nist
   names:
-  - dBm
-  - decibel-milliwatt
+  - value: dBm
+    lang: en
+  - value: decibel-milliwatt
+    lang: en
   root: true
   short: decibel_milliwatt
   symbols:
-  - latex: '\ensuremath{\mathrm{dBm}}'
+  - latex: "\\ensuremath{\\mathrm{dBm}}"
     unicode: dBm
     ascii: dBm
     html: dBm
@@ -9041,21 +9576,23 @@ units:
   - id: NISTq199
     type: nist
   names:
-  - relative humidity
-  - percent relative humidity
+  - value: relative humidity
+    lang: en
+  - value: percent relative humidity
+    lang: en
   root: true
   short: relative_humidity
   symbols:
-  - latex: '\ensuremath{\mathrm{RH}}'
-    unicode: 'RH'
-    ascii: 'RH'
-    html: 'RH'
+  - latex: "\\ensuremath{\\mathrm{RH}}"
+    unicode: RH
+    ascii: RH
+    html: RH
     id: rh
     mathml: "<mi mathvariant='normal'>RH</mi>"
-  - latex: '\ensuremath{\mathrm{\%rh}}'
-    unicode: '%rh'
-    ascii: '%rh'
-    html: '%rh'
+  - latex: "\\ensuremath{\\mathrm{\\%rh}}"
+    unicode: "%rh"
+    ascii: "%rh"
+    html: "%rh"
     id: rh_percent
     mathml: "<mi mathvariant='normal'>%rh</mi>"
   unit_system_reference:
@@ -9071,7 +9608,8 @@ units:
   - id: NISTq200
     type: nist
   names:
-  - octave
+  - value: octave
+    lang: en
   root: true
   short: octave
   symbols:
@@ -9094,7 +9632,8 @@ units:
   - id: NISTq200
     type: nist
   names:
-  - decade
+  - value: decade
+    lang: en
   root: true
   short: decade
   symbols:
@@ -9117,7 +9656,8 @@ units:
   - id: NISTq201
     type: nist
   names:
-  - erlang
+  - value: erlang
+    lang: en
   root: true
   short: erlang
   symbols:
@@ -9140,7 +9680,8 @@ units:
   - id: NISTq202
     type: nist
   names:
-  - baud
+  - value: baud
+    lang: en
   root: true
   short: baud
   symbols:
@@ -9163,7 +9704,8 @@ units:
   - id: NISTq203
     type: nist
   names:
-  - shannon
+  - value: shannon
+    lang: en
   root: true
   short: shannon
   symbols:
@@ -9186,7 +9728,8 @@ units:
   - id: NISTq203
     type: nist
   names:
-  - hartley
+  - value: hartley
+    lang: en
   root: true
   short: hartley
   symbols:
@@ -9209,7 +9752,8 @@ units:
   - id: NISTq186
     type: nist
   names:
-  - parts per million
+  - value: parts per million
+    lang: en
   root: false
   short: parts_per_million
   symbols:
@@ -9248,7 +9792,8 @@ units:
       id: NISTu3
       type: nist
   names:
-  - var
+  - value: var
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9284,7 +9829,8 @@ units:
   - id: NISTq60
     type: nist
   names:
-  - newton meter
+  - value: newton meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9316,7 +9862,8 @@ units:
   - id: NISTq133
     type: nist
   names:
-  - newton meter second
+  - value: newton meter second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9353,7 +9900,8 @@ units:
   - id: NISTq129
     type: nist
   names:
-  - newton second
+  - value: newton second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9385,7 +9933,8 @@ units:
   - id: NISTq59
     type: nist
   names:
-  - pascal second
+  - value: pascal second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9417,7 +9966,8 @@ units:
   - id: NISTq154
     type: nist
   names:
-  - joule second
+  - value: joule second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9459,7 +10009,8 @@ units:
   - id: NISTq77
     type: nist
   names:
-  - watt second
+  - value: watt second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9497,7 +10048,8 @@ units:
   - id: NISTq12
     type: nist
   names:
-  - meter per second
+  - value: meter per second
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -9531,7 +10083,8 @@ units:
   - id: NISTq49
     type: nist
   names:
-  - meter per second squared
+  - value: meter per second squared
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9563,7 +10116,8 @@ units:
   - id: NISTq61
     type: nist
   names:
-  - newton per meter
+  - value: newton per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9595,7 +10149,8 @@ units:
   - id: NISTq130
     type: nist
   names:
-  - newton meter squared per kilogram squared
+  - value: newton meter squared per kilogram squared
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9635,7 +10190,8 @@ units:
   - id: NISTq159
     type: nist
   names:
-  - pascal per kelvin
+  - value: pascal per kelvin
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9669,7 +10225,8 @@ units:
   - id: NISTq160
     type: nist
   names:
-  - pascal to the power minus one
+  - value: pascal to the power minus one
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -9697,7 +10254,8 @@ units:
   - id: NISTq67
     type: nist
   names:
-  - joule per cubic meter
+  - value: joule per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9729,7 +10287,8 @@ units:
   - id: NISTq65
     type: nist
   names:
-  - joule per kilogram
+  - value: joule per kilogram
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9766,7 +10325,8 @@ units:
   - id: NISTq80
     type: nist
   names:
-  - joule per kilogram kelvin
+  - value: joule per kilogram kelvin
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9808,7 +10368,8 @@ units:
   - id: NISTq79
     type: nist
   names:
-  - joule per kelvin
+  - value: joule per kelvin
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9840,7 +10401,8 @@ units:
   - id: NISTq73
     type: nist
   names:
-  - joule per mole
+  - value: joule per mole
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9874,7 +10436,8 @@ units:
   - id: NISTq83
     type: nist
   names:
-  - joule per mole kelvin
+  - value: joule per mole kelvin
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -9903,7 +10466,8 @@ units:
   - id: NISTq88
     type: nist
   names:
-  - watt per steradian
+  - value: watt per steradian
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9935,7 +10499,8 @@ units:
   - id: NISTq66
     type: nist
   names:
-  - watt per meter kelvin
+  - value: watt per meter kelvin
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -9966,7 +10531,8 @@ units:
   - id: NISTq78
     type: nist
   names:
-  - watt per square meter
+  - value: watt per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -9998,7 +10564,8 @@ units:
   - id: NISTq89
     type: nist
   names:
-  - watt per square meter steradian
+  - value: watt per square meter steradian
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10038,7 +10605,8 @@ units:
   - id: NISTq82
     type: nist
   names:
-  - coulomb per square meter
+  - value: coulomb per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10070,7 +10638,8 @@ units:
   - id: NISTq69
     type: nist
   names:
-  - coulomb per cubic meter
+  - value: coulomb per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10104,7 +10673,8 @@ units:
   - id: NISTq197
     type: nist
   names:
-  - coulomb per kilogram
+  - value: coulomb per kilogram
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10139,7 +10709,8 @@ units:
   - id: NISTq68
     type: nist
   names:
-  - volt per meter
+  - value: volt per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10171,7 +10742,8 @@ units:
   - id: NISTq71
     type: nist
   names:
-  - farad per meter
+  - value: farad per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10213,8 +10785,10 @@ units:
   - id: NISTq50
     type: nist
   names:
-  - meter to the power minus one
-  - reciprocal meter
+  - value: meter to the power minus one
+    lang: en
+  - value: reciprocal meter
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -10242,7 +10816,8 @@ units:
   - id: NISTq8
     type: nist
   names:
-  - square meter
+  - value: square meter
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -10270,7 +10845,8 @@ units:
   - id: NISTq85
     type: nist
   names:
-  - meter squared per second
+  - value: meter squared per second
+    lang: en
   root: false
   root_units:
   - power: 2
@@ -10305,7 +10881,8 @@ units:
   - id: NISTq146
     type: nist
   names:
-  - cubic meter
+  - value: cubic meter
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -10333,7 +10910,8 @@ units:
   - id: NISTq52
     type: nist
   names:
-  - cubic meter per kilogram
+  - value: cubic meter per kilogram
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -10369,7 +10947,8 @@ units:
   - id: NISTq151
     type: nist
   names:
-  - cubic meter per second
+  - value: cubic meter per second
+    lang: en
   root: false
   root_units:
   - power: 3
@@ -10402,7 +10981,8 @@ units:
   - id: NISTq72
     type: nist
   names:
-  - henry per meter
+  - value: henry per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10434,7 +11014,8 @@ units:
   - id: NISTq131
     type: nist
   names:
-  - kilogram meter per second
+  - value: kilogram meter per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10474,7 +11055,8 @@ units:
   - id: NISTq126
     type: nist
   names:
-  - kilogram per meter
+  - value: kilogram per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10509,7 +11091,8 @@ units:
   - id: NISTq31
     type: nist
   names:
-  - kilogram per square meter
+  - value: kilogram per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10546,7 +11129,8 @@ units:
   - id: NISTq51
     type: nist
   names:
-  - kilogram per cubic meter
+  - value: kilogram per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10581,7 +11165,8 @@ units:
   - id: NISTq127
     type: nist
   names:
-  - kilogram meter squared
+  - value: kilogram meter squared
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10619,7 +11204,8 @@ units:
   - id: NISTq132
     type: nist
   names:
-  - kilogram meter squared per second
+  - value: kilogram meter squared per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10660,7 +11246,8 @@ units:
   - id: NISTq150
     type: nist
   names:
-  - kilogram per second
+  - value: kilogram per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10697,7 +11284,8 @@ units:
   - id: NISTq194
     type: nist
   names:
-  - gray per second
+  - value: gray per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10729,7 +11317,8 @@ units:
   - id: NISTq84
     type: nist
   names:
-  - katal per cubic meter
+  - value: katal per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10767,7 +11356,8 @@ units:
   - id: NISTq189
     type: nist
   names:
-  - second to the power minus one
+  - value: second to the power minus one
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -10795,7 +11385,8 @@ units:
   - id: NISTq54
     type: nist
   names:
-  - ampere per meter
+  - value: ampere per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10827,7 +11418,8 @@ units:
   - id: NISTq53
     type: nist
   names:
-  - ampere per square meter
+  - value: ampere per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10863,7 +11455,8 @@ units:
   - id: NISTq158
     type: nist
   names:
-  - kelvin to the power minus one
+  - value: kelvin to the power minus one
+    lang: en
   root: false
   root_units:
   - power: -1
@@ -10891,7 +11484,8 @@ units:
   - id: NISTq55
     type: nist
   names:
-  - mole per cubic meter
+  - value: mole per cubic meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10923,7 +11517,8 @@ units:
   - id: NISTq179
     type: nist
   names:
-  - mole per kilogram
+  - value: mole per kilogram
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10958,7 +11553,8 @@ units:
   - id: NISTq56
     type: nist
   names:
-  - candela per square meter
+  - value: candela per square meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -10990,7 +11586,8 @@ units:
   - id: NISTq115
     type: nist
   names:
-  - radian per meter
+  - value: radian per meter
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -11024,7 +11621,8 @@ units:
   - id: NISTq57
     type: nist
   names:
-  - radian per second
+  - value: radian per second
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -11056,7 +11654,8 @@ units:
   - id: NISTq58
     type: nist
   names:
-  - radian per second squared
+  - value: radian per second squared
+    lang: en
   root: false
   root_units:
   - power: 1
@@ -11088,8 +11687,10 @@ units:
   - id: NISTq190
     type: nist
   names:
-  - meter to the power minus two
-  - reciprocal square meter
+  - value: meter to the power minus two
+    lang: en
+  - value: reciprocal square meter
+    lang: en
   root: false
   root_units:
   - power: -2
@@ -11098,12 +11699,12 @@ units:
       type: nist
   short: meter_to_the_power_minus_two
   symbols:
-  - latex: \ensuremath{\mathrm{m^{-2}}}
+  - latex: "\\ensuremath{\\mathrm{m^{-2}}}"
     unicode: m⁻²
     ascii: m^-2
     html: m<sup>-2</sup>
     id: m^-2
-    mathml: <msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup>
+    mathml: "<msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup>"
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist
@@ -11117,8 +11718,10 @@ units:
   - id: NISTq191
     type: nist
   names:
-  - meter to the power minus two per second
-  - reciprocal square meter per second
+  - value: meter to the power minus two per second
+    lang: en
+  - value: reciprocal square meter per second
+    lang: en
   root: false
   root_units:
   - power: -2
@@ -11131,13 +11734,13 @@ units:
       type: nist
   short: meter_to_the_power_minus_two_per_second
   symbols:
-  - latex: \ensuremath{\mathrm{m^{-2}/s}}
+  - latex: "\\ensuremath{\\mathrm{m^{-2}/s}}"
     unicode: m⁻²·s⁻¹
     ascii: m^-2*s^-1
     html: m<sup>-2</sup>/s
     id: m^-2*s^-1
-    mathml: <mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo>/</mo><mi
-      mathvariant='normal'>s</mi></mrow>
+    mathml: "<mrow><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo>/</mo><mi
+      mathvariant='normal'>s</mi></mrow>"
   unit_system_reference:
   - id: SI_derived_non-special
     type: nist

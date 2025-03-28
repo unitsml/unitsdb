@@ -23,18 +23,33 @@ This repository contains the following YAML files:
 
 `scales.yaml`:: Contains the measurement scale types and their properties.
 
-`units.yaml`:: Contains the units and their symbols.
+`units.yaml`:: Contains the units and their symbols, with English and French
+names. French translations come from BIPM.
 
 `unit_systems.yaml`:: Contains the unit systems and their symbols.
 
-`quantities.yaml`:: Contains the quantities and their symbols.
+`quantities.yaml`:: Contains the quantities and their symbols, with English and
+French names. French translations come from BIPM.
+
+
+== Supported languages
+
+The database currently supports the following languages:
+
+* English (en): Primary language for all entries
+
+* French (fr): Provided for units and quantities, sourced from the BIPM SI
+Digital Framework
 
 
 == Versioning
 
-=== Version Scheme
+=== Version scheme
 
-UnitsDB follows semantic versioning (https://semver.org/[SemVer]) using a `MAJOR.MINOR.PATCH` structure:
+UnitsDB follows semantic versioning (https://semver.org/[SemVer]) using a
+`MAJOR.MINOR.PATCH` structure.
+
+Where,
 
 `MAJOR`:: Incremented for incompatible changes that may require updates to consuming applications
 
@@ -45,7 +60,8 @@ UnitsDB follows semantic versioning (https://semver.org/[SemVer]) using a `MAJOR
 
 === Version field
 
-Each YAML file in the database contains a `schema_version` field at the top level:
+Each YAML file in the database contains a `schema_version` field (string) at the
+top level.
 
 [source,yaml]
 ----
@@ -98,6 +114,21 @@ Applications consuming UnitsDB should:
 === Dimensions
 
 ==== General
+
+Dimensions represent the fundamental physical quantities that form the basis of
+any measurement system. They are the abstract properties that define the nature
+of a physical quantity, independent of any specific unit of measurement.
+
+* The SI system defines seven base dimensions (length, mass, time, electric
+current, thermodynamic temperature, amount of substance, and luminous intensity).
+
+* A special dimensionless dimension is also defined, which has no physical
+significance but is used in certain contexts.
+
+* Derived dimensions are formed by combining base dimensions through
+multiplication, division, or exponentiation. For example, velocity is a derived
+dimension formed from length and time (L/T), and force is derived from mass
+and acceleration (ML/T²).
 
 A dimension object in `dimensions.yaml` typically has the following structure:
 
@@ -184,6 +215,16 @@ The following dimensions are identified by NIST but they are excluded from
 
 ==== General
 
+Prefixes are modifiers that can be attached to units to indicate decimal
+multiples or submultiples. They provide a concise way to express very large or
+small quantities without resorting to scientific notation.
+
+[example]
+The prefix "kilo" (k) multiplies a unit by 1000, so 1 kilometer equals 1000
+meters.
+
+The SI system defines a set of standard prefixes included in UnitsDB.
+
 A prefix object in `prefixes.yaml` typically has the following structure:
 
 [source,yaml]
@@ -254,6 +295,29 @@ Binary prefixes are identified by their power of 2, e.g. `NISTp2_10`
 
 ==== General
 
+Quantities are measurable properties of physical phenomena, objects, or
+substances. They represent the attributes that can be measured and expressed
+with numbers. Each quantity is associated with a specific dimension (or
+combination of dimensions) and can be measured using various units.
+
+The SI system categorizes quantities into two main types:
+
+* Base quantities: The seven fundamental quantities from which all others are
+derived (length, mass, time, electric current, thermodynamic temperature, amount
+of substance, and luminous intensity)
+
+* Derived quantities: Quantities formed by algebraic combinations of base
+quantities (e.g., area, volume, velocity, force)
+
+Each quantity has a unique identity and can be measured in specific units that
+share the same dimension.
+
+[example]
+"length" is a quantity that can be measured in meters, feet, or kilometers.
+
+A quantity can be combined with other quantities to form compound quantities,
+such as velocity (length/time) or force (mass × acceleration).
+
 A quantity object in `quantities.yaml` typically has the following structure:
 
 [source,yaml]
@@ -271,6 +335,10 @@ A quantity object in `quantities.yaml` typically has the following structure:
   dimension_reference:
     id: dimension_id
     type: type_identifier
+  references:
+  - uri: http://si-digital-framework.org/quantities/QUANTITY_ID
+    type: normative
+    authority: si-digital-framework
 ----
 
 For example:
@@ -281,7 +349,10 @@ For example:
   - id: NISTq8
     type: nist
   names:
-  - area
+  - value: area
+    lang: en
+  - value: superficie
+    lang: fr
   quantity_type: base
   unit_references:
   - id: NISTu164
@@ -307,6 +378,10 @@ For example:
   dimension_reference:
     id: NISTd8
     type: nist
+  references:
+  - uri: http://si-digital-framework.org/quantities/AREA
+    type: normative
+    authority: si-digital-framework
 - identifiers:
   - id: NISTq166
     type: nist
@@ -340,6 +415,30 @@ For example:
 === Units
 
 ==== General
+
+Units are standardized quantities used to express measurements of physical
+properties. They provide a reference scale for measuring quantities, allowing
+values to be communicated uniformly. Each unit is associated with a specific
+physical quantity and dimension, and has a defined relationship to other units
+in the same dimension.
+
+The SI system classifies units into several categories:
+
+* Base units: The seven fundamental units corresponding to the base quantities
+(meter, kilogram, second, ampere, kelvin, mole, and candela)
+
+* Derived units: Units formed from combinations of base units (e.g., newton,
+joule, pascal)
+
+* Special named units: Derived units that have been given unique names for
+convenience (e.g., newton for kg·m/s²)
+
+* Units outside the SI: Non-SI units that are accepted for use with the SI
+(e.g., minute, hour, degree)
+
+Units can be combined with prefixes to express multiples or submultiples, and
+can be combined algebraically (through multiplication and division) to form
+compound units.
 
 A unit object in `units.yaml` typically has the following structure:
 
@@ -406,7 +505,10 @@ For example:
   - id: NISTq5
     type: nist
   names:
-  - kelvin
+  - value: kelvin
+    lang: en
+  - value: kelvin
+    lang: fr
   root: true
   short: kelvin
   symbols:
@@ -434,6 +536,25 @@ For example:
 === Scales
 
 ==== General
+
+Scales define the mathematical properties of measurement systems and how values
+relate to each other. They specify important characteristics like whether a
+scale has a true zero point, whether equal intervals represent equal
+differences, or whether the scale uses logarithmic relationships.
+
+Understanding the scale type is crucial for proper interpretation of
+measurements and for determining what mathematical operations can legitimately
+be performed on the values.
+
+[example]
+On a ratio scale (like length), you can say that 10 meters is twice as long as 5
+meters. On an interval scale (like Celsius temperature), 20°C is not "twice as
+hot" as 10°C.
+
+UnitsDB defines several scale types including continuous ratio scales,
+continuous interval scales, logarithmic scales, and discrete scales, each with
+specific properties that determine how measurements should be interpreted and
+what mathematical operations are valid.
 
 A scale object in `scales.yaml` typically has the following structure:
 
@@ -502,13 +623,17 @@ scale_reference:
 
 The following scale types are currently defined:
 
-`continuous_ratio`:: A measurement scale with continuous values and a true zero point (most physical quantities)
+`continuous_ratio`:: A measurement scale with continuous values and a true zero
+point (most physical quantities)
 
-`continuous_interval`:: A measurement scale with continuous values but an arbitrary zero point (e.g., temperature in °C)
+`continuous_interval`:: A measurement scale with continuous values but an
+arbitrary zero point (e.g., temperature in °C)
 
-`logarithmic_ratio`:: A logarithmic scale where equal ratios appear as equal intervals (e.g., decibels)
+`logarithmic_ratio`:: A logarithmic scale where equal ratios appear as equal
+intervals (e.g., decibels)
 
-`logarithmic_field`:: A logarithmic scale used for field quantities that uses natural logarithms (e.g., neper)
+`logarithmic_field`:: A logarithmic scale used for field quantities that uses
+natural logarithms (e.g., neper)
 
 `discrete`:: A scale consisting of discrete, countable values (e.g., bits)
 
@@ -516,6 +641,25 @@ The following scale types are currently defined:
 == Unit systems
 
 === General
+
+Unit systems are coherent collections of units that are used together to express
+measurements in a consistent way. Each unit system has its own set of base units
+and derived units, organized according to specific principles.
+
+The most widely used unit system is the International System of Units (SI), but
+the database also includes information about other unit systems and their
+relationships to SI.
+
+Unit systems help provide context for units, indicating whether they are part of
+the official SI system, acceptable for use with SI (like minutes or degrees), or
+belong to entirely different measurement frameworks (like imperial units). This
+context is important for interoperability and conversion between different
+measurement standards.
+
+In the UnitsDB, units are associated with their respective unit systems through
+references, allowing applications to identify which units belong to which
+systems and to determine compatibility between measurements expressed in
+different systems.
 
 A unit system object in `unit_systems.yaml` typically has the following structure:
 
@@ -547,6 +691,45 @@ For example:
   name: SI base units
 ----
 
+=== Notes
+
+The following unit systems are currently defined:
+
+`si-base`:: Contains the seven SI base units (meter, kilogram, second, ampere,
+kelvin, mole, and candela). These form the foundation of the SI system.
+
+`si-derived-special`:: Contains SI-derived units with special names and symbols
+(e.g., newton, pascal, joule). These units are derived from base units but have
+been given unique names for convenience.
+
+`si-derived-nonspecial`:: Contains SI-derived units that use combinations of
+base unit symbols without special names (e.g., m/s, kg/m³).
+
+`si-compatible`:: Contains all units that are compatible with the SI system,
+including base units, derived units, and accepted non-SI units.
+
+`nonsi-acceptable`:: Contains non-SI units that are accepted for use with the SI
+system based on the BIPM SI Brochure (e.g., minute, hour, degree).
+
+`nonsi-unacceptable`:: Contains non-SI units that are not acceptable for use
+with the SI system (e.g., deprecated or obsolete units).
+
+`nonsi-nist-acceptable`:: Contains non-SI units that are acceptable according to
+NIST SP 811 but may not be officially accepted by BIPM (e.g., certain customary
+or traditional units).
+
+
+In UnitsDB, a unit can belong to multiple unit systems. This classification
+helps applications determine the appropriate use contexts for each unit.
+
+[example]
+A unit might be categorized as both `nonsi-unacceptable` (meaning it is not
+acceptable for SI usage) but also as `nonsi-nist-acceptable` (meaning NIST SP
+811 considers it acceptable in certain contexts).
+
+When using unit systems in applications, the `acceptable` property can be used
+as a quick filter for SI-compliant units, while more specific categorization can
+be achieved using the individual unit system references.
 
 == Contributing
 

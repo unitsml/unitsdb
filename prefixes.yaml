@@ -1,11 +1,13 @@
-schema_version: "2.0.0"
+---
+schema_version: 2.0.0
 prefixes:
 - identifiers:
   - id: NISTp2_10
     type: nist
   base: 2
   names:
-  - kibi
+  - value: kibi
+    lang: en
   short: kibi
   power: 10
   symbols:
@@ -20,7 +22,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - mebi
+  - value: mebi
+    lang: en
   short: mebi
   power: 20
   symbols:
@@ -35,7 +38,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - gibi
+  - value: gibi
+    lang: en
   short: gibi
   power: 30
   symbols:
@@ -50,7 +54,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - tebi
+  - value: tebi
+    lang: en
   short: tebi
   power: 40
   symbols:
@@ -65,7 +70,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - pebi
+  - value: pebi
+    lang: en
   short: pebi
   power: 50
   symbols:
@@ -80,7 +86,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - exbi
+  - value: exbi
+    lang: en
   short: exbi
   power: 60
   symbols:
@@ -95,7 +102,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - zebi
+  - value: zebi
+    lang: en
   short: zebi
   power: 70
   symbols:
@@ -110,7 +118,8 @@ prefixes:
     type: nist
   base: 2
   names:
-  - yobi
+  - value: yobi
+    lang: en
   short: yobi
   power: 80
   symbols:
@@ -125,7 +134,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - quecto
+  - value: quecto
+    lang: en
   short: quecto
   power: -30
   symbols:
@@ -144,7 +154,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - ronto
+  - value: ronto
+    lang: en
   short: ronto
   power: -27
   symbols:
@@ -163,7 +174,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - yocto
+  - value: yocto
+    lang: en
   short: yocto
   power: -24
   symbols:
@@ -182,7 +194,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - zepto
+  - value: zepto
+    lang: en
   short: zepto
   power: -21
   symbols:
@@ -201,7 +214,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - atto
+  - value: atto
+    lang: en
   short: atto
   power: -18
   symbols:
@@ -220,7 +234,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - femto
+  - value: femto
+    lang: en
   short: femto
   power: -15
   symbols:
@@ -239,7 +254,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - pico
+  - value: pico
+    lang: en
   short: pico
   power: -12
   symbols:
@@ -258,7 +274,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - nano
+  - value: nano
+    lang: en
   short: nano
   power: -9
   symbols:
@@ -277,7 +294,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - micro
+  - value: micro
+    lang: en
   short: micro
   power: -6
   symbols:
@@ -296,7 +314,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - milli
+  - value: milli
+    lang: en
   short: milli
   power: -3
   symbols:
@@ -315,7 +334,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - centi
+  - value: centi
+    lang: en
   short: centi
   power: -2
   symbols:
@@ -334,7 +354,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - deci
+  - value: deci
+    lang: en
   short: deci
   power: -1
   symbols:
@@ -353,7 +374,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - none
+  - value: none
+    lang: en
   short: none
   power: 0
   symbols:
@@ -372,7 +394,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - deka
+  - value: deka
+    lang: en
   short: deka
   power: 1
   symbols:
@@ -391,7 +414,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - hecto
+  - value: hecto
+    lang: en
   short: hecto
   power: 2
   symbols:
@@ -410,7 +434,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - kilo
+  - value: kilo
+    lang: en
   short: kilo
   power: 3
   symbols:
@@ -429,7 +454,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - mega
+  - value: mega
+    lang: en
   short: mega
   power: 6
   symbols:
@@ -448,7 +474,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - giga
+  - value: giga
+    lang: en
   short: giga
   power: 9
   symbols:
@@ -467,7 +494,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - tera
+  - value: tera
+    lang: en
   short: tera
   power: 12
   symbols:
@@ -486,7 +514,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - peta
+  - value: peta
+    lang: en
   short: peta
   power: 15
   symbols:
@@ -505,7 +534,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - exa
+  - value: exa
+    lang: en
   short: exa
   power: 18
   symbols:
@@ -524,7 +554,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - zetta
+  - value: zetta
+    lang: en
   short: zetta
   power: 21
   symbols:
@@ -543,14 +574,15 @@ prefixes:
     type: nist
   base: 10
   names:
-  - yotta
+  - value: yotta
+    lang: en
   short: yotta
   power: 24
   symbols:
-  - latex: Y
-    unicode: Y
-    ascii: Y
-    html: Y
+  - latex: "Y"
+    unicode: "Y"
+    ascii: "Y"
+    html: "Y"
     id: yotta
     mathml: "<mi>Y</mi>"
   references:
@@ -562,7 +594,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - ronna
+  - value: ronna
+    lang: en
   short: ronna
   power: 27
   symbols:
@@ -581,7 +614,8 @@ prefixes:
     type: nist
   base: 10
   names:
-  - quetta
+  - value: quetta
+    lang: en
   short: quetta
   power: 30
   symbols:
