@@ -1,4 +1,5 @@
-schema_version: "2.0.0"
+---
+schema_version: 2.0.0
 unit_systems:
 - acceptable: true
   short: si-compatible
@@ -6,46 +7,53 @@ unit_systems:
   - id: SI_compatible
     type: nist
   names:
-  - Units compatible with SI
+  - value: Units compatible with SI
+    lang: en
 - acceptable: true
   short: si-base
   identifiers:
   - id: SI_base
     type: nist
   names:
-  - SI base units
+  - value: SI base units
+    lang: en
 - acceptable: true
   short: si-derived-special
   identifiers:
   - id: SI_derived_special
     type: nist
   names:
-  - SI-derived units special
+  - value: SI-derived units special
+    lang: en
 - acceptable: true
   short: si-derived-nonspecial
   identifiers:
   - id: SI_derived_non-special
     type: nist
   names:
-  - SI-derived units non-special
+  - value: SI-derived units non-special
+    lang: en
 - acceptable: true
   short: nonsi-acceptable
   identifiers:
   - id: non-SI_acceptable
     type: nist
   names:
-  - non-SI but acceptable
+  - value: non-SI but acceptable
+    lang: en
 - acceptable: true
   short: nonsi-nist-acceptable
   identifiers:
   - id: non-SI_nist_acceptable
     type: nist
   names:
-  - non-SI but acceptable by NIST SP 811
+  - value: non-SI but acceptable by NIST SP 811
+    lang: en
 - acceptable: false
   short: nonsi-unacceptable
   identifiers:
   - id: non-SI_not_acceptable
     type: nist
   names:
-  - non-SI and not acceptable
+  - value: non-SI and not acceptable
+    lang: en

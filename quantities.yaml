@@ -5,7 +5,10 @@ quantities:
   - id: NISTq1
     type: nist
   names:
-  - length
+  - value: length
+    lang: en
+  - value: longueur
+    lang: fr
   quantity_type: base
   short: length
   dimension_reference:
@@ -19,7 +22,10 @@ quantities:
   - id: NISTq2
     type: nist
   names:
-  - mass
+  - value: mass
+    lang: en
+  - value: masse
+    lang: fr
   quantity_type: base
   short: mass
   dimension_reference:
@@ -33,8 +39,12 @@ quantities:
   - id: NISTq3
     type: nist
   names:
-  - time
-  - duration
+  - value: time
+    lang: en
+  - value: duration
+    lang: en
+  - value: temps
+    lang: fr
   quantity_type: base
   short: time
   dimension_reference:
@@ -48,7 +58,10 @@ quantities:
   - id: NISTq4
     type: nist
   names:
-  - electric current
+  - value: electric current
+    lang: en
+  - value: courant électrique
+    lang: fr
   quantity_type: base
   short: electric_current
   dimension_reference:
@@ -62,7 +75,10 @@ quantities:
   - id: NISTq5
     type: nist
   names:
-  - thermodynamic temperature
+  - value: thermodynamic temperature
+    lang: en
+  - value: température thermodynamique
+    lang: fr
   quantity_type: base
   short: temperature
   dimension_reference:
@@ -76,7 +92,10 @@ quantities:
   - id: NISTq6
     type: nist
   names:
-  - amount of substance
+  - value: amount of substance
+    lang: en
+  - value: quantité de matière
+    lang: fr
   quantity_type: base
   short: substance_amount
   dimension_reference:
@@ -90,7 +109,10 @@ quantities:
   - id: NISTq7
     type: nist
   names:
-  - luminous intensity
+  - value: luminous intensity
+    lang: en
+  - value: intensité lumineuse
+    lang: fr
   quantity_type: base
   short: luminous_intensity
   dimension_reference:
@@ -104,7 +126,10 @@ quantities:
   - id: NISTq8
     type: nist
   names:
-  - area
+  - value: area
+    lang: en
+  - value: superficie
+    lang: fr
   quantity_type: derived
   short: area
   dimension_reference:
@@ -118,8 +143,12 @@ quantities:
   - id: NISTq9
     type: nist
   names:
-  - plane angle
-  - angle
+  - value: plane angle
+    lang: en
+  - value: angle
+    lang: en
+  - value: angle plan
+    lang: fr
   quantity_type: derived
   short: plane_angle
   dimension_reference:
@@ -133,7 +162,10 @@ quantities:
   - id: NISTq10
     type: nist
   names:
-  - volume
+  - value: volume
+    lang: en
+  - value: volume
+    lang: fr
   quantity_type: derived
   short: volume
   dimension_reference:
@@ -147,7 +179,10 @@ quantities:
   - id: NISTq11
     type: nist
   names:
-  - solid angle
+  - value: solid angle
+    lang: en
+  - value: angle solide
+    lang: fr
   quantity_type: derived
   short: solid_angle
   dimension_reference:
@@ -161,8 +196,12 @@ quantities:
   - id: NISTq12
     type: nist
   names:
-  - velocity
-  - speed
+  - value: velocity
+    lang: en
+  - value: speed
+    lang: en
+  - value: vitesse
+    lang: fr
   quantity_type: derived
   short: velocity
   dimension_reference:
@@ -176,7 +215,10 @@ quantities:
   - id: NISTq13
     type: nist
   names:
-  - force
+  - value: force
+    lang: en
+  - value: force
+    lang: fr
   quantity_type: derived
   short: force
   dimension_reference:
@@ -190,7 +232,10 @@ quantities:
   - id: NISTq14
     type: nist
   names:
-  - magnetic flux density
+  - value: magnetic flux density
+    lang: en
+  - value: induction magnétique
+    lang: fr
   quantity_type: derived
   short: magnetic_flux_density
   dimension_reference:
@@ -204,7 +249,10 @@ quantities:
   - id: NISTq15
     type: nist
   names:
-  - pressure
+  - value: pressure
+    lang: en
+  - value: pression, contrainte
+    lang: fr
   quantity_type: derived
   short: pressure
   dimension_reference:
@@ -218,7 +266,8 @@ quantities:
   - id: NISTq16
     type: nist
   names:
-  - stress
+  - value: stress
+    lang: en
   quantity_type: derived
   short: stress
   dimension_reference:
@@ -228,7 +277,10 @@ quantities:
   - id: NISTq17
     type: nist
   names:
-  - energy
+  - value: energy
+    lang: en
+  - value: énergie
+    lang: fr
   quantity_type: derived
   short: energy
   dimension_reference:
@@ -242,7 +294,8 @@ quantities:
   - id: NISTq18
     type: nist
   names:
-  - work
+  - value: work
+    lang: en
   quantity_type: derived
   short: work
   dimension_reference:
@@ -252,8 +305,10 @@ quantities:
   - id: NISTq19
     type: nist
   names:
-  - amount of heat
-  - heat
+  - value: amount of heat
+    lang: en
+  - value: heat
+    lang: en
   quantity_type: derived
   short: amount_of_heat
   dimension_reference:
@@ -263,7 +318,10 @@ quantities:
   - id: NISTq20
     type: nist
   names:
-  - power
+  - value: power
+    lang: en
+  - value: puissance, flux énergétique
+    lang: fr
   quantity_type: derived
   short: power
   dimension_reference:
@@ -277,7 +335,8 @@ quantities:
   - id: NISTq21
     type: nist
   names:
-  - radiant flux
+  - value: radiant flux
+    lang: en
   quantity_type: derived
   short: radiant_flux
   dimension_reference:
@@ -287,7 +346,10 @@ quantities:
   - id: NISTq22
     type: nist
   names:
-  - electric charge
+  - value: electric charge
+    lang: en
+  - value: charge électrique
+    lang: fr
   quantity_type: derived
   short: electric_charge
   dimension_reference:
@@ -301,7 +363,8 @@ quantities:
   - id: NISTq23
     type: nist
   names:
-  - amount of electricity
+  - value: amount of electricity
+    lang: en
   quantity_type: derived
   short: amount_of_electricity
   dimension_reference:
@@ -311,7 +374,10 @@ quantities:
   - id: NISTq24
     type: nist
   names:
-  - electric potential difference
+  - value: electric potential difference
+    lang: en
+  - value: différence de potentiel électrique
+    lang: fr
   quantity_type: derived
   short: electric_potential_difference
   dimension_reference:
@@ -325,7 +391,8 @@ quantities:
   - id: NISTq25
     type: nist
   names:
-  - potential difference
+  - value: potential difference
+    lang: en
   quantity_type: derived
   short: potential_difference
   dimension_reference:
@@ -335,7 +402,8 @@ quantities:
   - id: NISTq26
     type: nist
   names:
-  - electromotive force
+  - value: electromotive force
+    lang: en
   quantity_type: derived
   short: electromotive_force
   dimension_reference:
@@ -345,7 +413,10 @@ quantities:
   - id: NISTq27
     type: nist
   names:
-  - capacitance
+  - value: capacitance
+    lang: en
+  - value: capacité électrique
+    lang: fr
   quantity_type: derived
   short: capacitance
   dimension_reference:
@@ -359,7 +430,10 @@ quantities:
   - id: NISTq28
     type: nist
   names:
-  - electric resistance
+  - value: electric resistance
+    lang: en
+  - value: résistance électrique
+    lang: fr
   quantity_type: derived
   short: electric_resistance
   dimension_reference:
@@ -373,7 +447,10 @@ quantities:
   - id: NISTq29
     type: nist
   names:
-  - electric conductance
+  - value: electric conductance
+    lang: en
+  - value: conductance électrique
+    lang: fr
   quantity_type: derived
   short: electric_conductance
   dimension_reference:
@@ -387,7 +464,10 @@ quantities:
   - id: NISTq30
     type: nist
   names:
-  - magnetic flux
+  - value: magnetic flux
+    lang: en
+  - value: flux d'induction magnétique
+    lang: fr
   quantity_type: derived
   short: magnetic_flux
   dimension_reference:
@@ -401,8 +481,12 @@ quantities:
   - id: NISTq31
     type: nist
   names:
-  - surface density
-  - areic mass
+  - value: surface density
+    lang: en
+  - value: areic mass
+    lang: en
+  - value: masse surfacique
+    lang: fr
   quantity_type: derived
   short: surface_density
   dimension_reference:
@@ -416,7 +500,10 @@ quantities:
   - id: NISTq32
     type: nist
   names:
-  - inductance
+  - value: inductance
+    lang: en
+  - value: inductance
+    lang: fr
   quantity_type: derived
   short: inductance
   dimension_reference:
@@ -430,7 +517,10 @@ quantities:
   - id: NISTq33
     type: nist
   names:
-  - mass concentration
+  - value: mass concentration
+    lang: en
+  - value: concentration massique
+    lang: fr
   quantity_type: derived
   short: mass_concentration
   dimension_reference:
@@ -444,7 +534,10 @@ quantities:
   - id: NISTq34
     type: nist
   names:
-  - Celsius temperature
+  - value: Celsius temperature
+    lang: en
+  - value: température Celsius
+    lang: fr
   quantity_type: derived
   short: celsius_temperature
   dimension_reference:
@@ -458,7 +551,10 @@ quantities:
   - id: NISTq35
     type: nist
   names:
-  - activity referred to a radionuclide
+  - value: activity referred to a radionuclide
+    lang: en
+  - value: activité d'un radionucléide
+    lang: fr
   quantity_type: derived
   short: activity_referred_to_a_radionuclide
   dimension_reference:
@@ -472,7 +568,10 @@ quantities:
   - id: NISTq36
     type: nist
   names:
-  - absorbed dose
+  - value: absorbed dose
+    lang: en
+  - value: dose absorbée
+    lang: fr
   quantity_type: derived
   short: absorbed_dose
   dimension_reference:
@@ -486,7 +585,8 @@ quantities:
   - id: NISTq37
     type: nist
   names:
-  - specific energy imparted
+  - value: specific energy imparted
+    lang: en
   quantity_type: derived
   short: specific_energy_imparted
   dimension_reference:
@@ -496,7 +596,10 @@ quantities:
   - id: NISTq38
     type: nist
   names:
-  - kerma
+  - value: kerma
+    lang: en
+  - value: kerma
+    lang: fr
   quantity_type: derived
   short: kerma
   dimension_reference:
@@ -510,7 +613,10 @@ quantities:
   - id: NISTq39
     type: nist
   names:
-  - dose equivalent
+  - value: dose equivalent
+    lang: en
+  - value: équivalent de dose
+    lang: fr
   quantity_type: derived
   short: dose_equivalent
   dimension_reference:
@@ -524,7 +630,8 @@ quantities:
   - id: NISTq40
     type: nist
   names:
-  - ambient dose equivalent
+  - value: ambient dose equivalent
+    lang: en
   quantity_type: derived
   short: ambient_dose_equivalent
   dimension_reference:
@@ -534,7 +641,8 @@ quantities:
   - id: NISTq41
     type: nist
   names:
-  - directional dose equivalent
+  - value: directional dose equivalent
+    lang: en
   quantity_type: derived
   short: directional_dose_equivalent
   dimension_reference:
@@ -544,7 +652,8 @@ quantities:
   - id: NISTq42
     type: nist
   names:
-  - personal dose equivalent
+  - value: personal dose equivalent
+    lang: en
   quantity_type: derived
   short: personal_dose_equivalent
   dimension_reference:
@@ -554,7 +663,8 @@ quantities:
   - id: NISTq43
     type: nist
   names:
-  - organ dose equivalent
+  - value: organ dose equivalent
+    lang: en
   quantity_type: derived
   short: organ_dose_equivalent
   dimension_reference:
@@ -564,7 +674,10 @@ quantities:
   - id: NISTq44
     type: nist
   names:
-  - catalytic activity
+  - value: catalytic activity
+    lang: en
+  - value: activité catalytique
+    lang: fr
   quantity_type: derived
   short: catalytic_activity
   dimension_reference:
@@ -578,7 +691,10 @@ quantities:
   - id: NISTq45
     type: nist
   names:
-  - frequency
+  - value: frequency
+    lang: en
+  - value: fréquence
+    lang: fr
   quantity_type: derived
   short: frequency
   dimension_reference:
@@ -592,7 +708,10 @@ quantities:
   - id: NISTq46
     type: nist
   names:
-  - luminous flux
+  - value: luminous flux
+    lang: en
+  - value: flux lumineux
+    lang: fr
   quantity_type: derived
   short: luminous_flux
   dimension_reference:
@@ -606,7 +725,10 @@ quantities:
   - id: NISTq47
     type: nist
   names:
-  - illuminance
+  - value: illuminance
+    lang: en
+  - value: éclairement lumineux
+    lang: fr
   quantity_type: derived
   short: illuminance
   dimension_reference:
@@ -620,7 +742,8 @@ quantities:
   - id: NISTq48
     type: nist
   names:
-  - distance
+  - value: distance
+    lang: en
   quantity_type: base
   short: distance
   dimension_reference:
@@ -630,7 +753,10 @@ quantities:
   - id: NISTq49
     type: nist
   names:
-  - acceleration
+  - value: acceleration
+    lang: en
+  - value: accélération
+    lang: fr
   quantity_type: derived
   short: acceleration
   dimension_reference:
@@ -644,8 +770,12 @@ quantities:
   - id: NISTq50
     type: nist
   names:
-  - wavenumber
-  - repetency
+  - value: wavenumber
+    lang: en
+  - value: repetency
+    lang: en
+  - value: nombre d'ondes
+    lang: fr
   quantity_type: derived
   short: wavenumber
   dimension_reference:
@@ -659,8 +789,12 @@ quantities:
   - id: NISTq51
     type: nist
   names:
-  - density
-  - mass density
+  - value: density
+    lang: en
+  - value: mass density
+    lang: en
+  - value: masse volumique
+    lang: fr
   quantity_type: derived
   short: density
   dimension_reference:
@@ -674,8 +808,12 @@ quantities:
   - id: NISTq52
     type: nist
   names:
-  - specific volume
-  - massic volume
+  - value: specific volume
+    lang: en
+  - value: massic volume
+    lang: en
+  - value: volume massique
+    lang: fr
   quantity_type: derived
   short: specific_volume
   dimension_reference:
@@ -689,7 +827,10 @@ quantities:
   - id: NISTq53
     type: nist
   names:
-  - current density
+  - value: current density
+    lang: en
+  - value: densité de courant
+    lang: fr
   quantity_type: derived
   short: current_density
   dimension_reference:
@@ -703,7 +844,10 @@ quantities:
   - id: NISTq54
     type: nist
   names:
-  - magnetic field strength
+  - value: magnetic field strength
+    lang: en
+  - value: champ magnétique
+    lang: fr
   quantity_type: derived
   short: magnetic_field_strength
   dimension_reference:
@@ -717,8 +861,12 @@ quantities:
   - id: NISTq55
     type: nist
   names:
-  - amount concentration
-  - amount of substance concentration
+  - value: amount concentration
+    lang: en
+  - value: amount of substance concentration
+    lang: en
+  - value: concentration de quantité de matière
+    lang: fr
   quantity_type: derived
   short: amount_concentration
   dimension_reference:
@@ -732,7 +880,10 @@ quantities:
   - id: NISTq56
     type: nist
   names:
-  - luminance
+  - value: luminance
+    lang: en
+  - value: luminance lumineuse
+    lang: fr
   quantity_type: derived
   short: luminance
   dimension_reference:
@@ -746,7 +897,10 @@ quantities:
   - id: NISTq57
     type: nist
   names:
-  - angular velocity
+  - value: angular velocity
+    lang: en
+  - value: 'vitesse angulaire'
+    lang: fr
   quantity_type: derived
   short: angular_velocity
   dimension_reference:
@@ -760,7 +914,10 @@ quantities:
   - id: NISTq58
     type: nist
   names:
-  - angular acceleration
+  - value: angular acceleration
+    lang: en
+  - value: 'accelération angulaire'
+    lang: fr
   quantity_type: derived
   short: angular_acceleration
   dimension_reference:
@@ -774,7 +931,10 @@ quantities:
   - id: NISTq59
     type: nist
   names:
-  - dynamic viscosity
+  - value: dynamic viscosity
+    lang: en
+  - value: 'viscosité dynamique'
+    lang: fr
   quantity_type: derived
   short: dynamic_viscosity
   dimension_reference:
@@ -788,7 +948,10 @@ quantities:
   - id: NISTq60
     type: nist
   names:
-  - moment of force
+  - value: moment of force
+    lang: en
+  - value: 'moment d’une force'
+    lang: fr
   quantity_type: derived
   short: moment_of_force
   dimension_reference:
@@ -802,7 +965,10 @@ quantities:
   - id: NISTq61
     type: nist
   names:
-  - surface tension
+  - value: surface tension
+    lang: en
+  - value: 'tension superficielle'
+    lang: fr
   quantity_type: derived
   short: surface_tension
   dimension_reference:
@@ -816,7 +982,10 @@ quantities:
   - id: NISTq62
     type: nist
   names:
-  - heat flux density
+  - value: heat flux density
+    lang: en
+  - value: 'flux thermique surfacique'
+    lang: fr
   quantity_type: derived
   short: heat_flux_density
   dimension_reference:
@@ -830,7 +999,10 @@ quantities:
   - id: NISTq63
     type: nist
   names:
-  - heat capacity
+  - value: heat capacity
+    lang: en
+  - value: 'capacité thermique'
+    lang: fr
   quantity_type: derived
   short: heat_capacity
   dimension_reference:
@@ -844,7 +1016,10 @@ quantities:
   - id: NISTq64
     type: nist
   names:
-  - specific heat capacity
+  - value: specific heat capacity
+    lang: en
+  - value: 'capacité thermique massique'
+    lang: fr
   quantity_type: derived
   short: specific_heat_capacity
   dimension_reference:
@@ -858,7 +1033,10 @@ quantities:
   - id: NISTq65
     type: nist
   names:
-  - specific energy
+  - value: specific energy
+    lang: en
+  - value: 'énergie massique'
+    lang: fr
   quantity_type: derived
   short: specific_energy
   dimension_reference:
@@ -872,7 +1050,10 @@ quantities:
   - id: NISTq66
     type: nist
   names:
-  - thermal conductivity
+  - value: thermal conductivity
+    lang: en
+  - value: 'conductivité thermique'
+    lang: fr
   quantity_type: derived
   short: thermal_conductivity
   dimension_reference:
@@ -886,7 +1067,10 @@ quantities:
   - id: NISTq67
     type: nist
   names:
-  - energy density
+  - value: energy density
+    lang: en
+  - value: énergie volumique
+    lang: fr
   quantity_type: derived
   short: energy_density
   dimension_reference:
@@ -900,7 +1084,10 @@ quantities:
   - id: NISTq68
     type: nist
   names:
-  - electric field strength
+  - value: electric field strength
+    lang: en
+  - value: champ électrique
+    lang: fr
   quantity_type: derived
   short: electric_field_strength
   dimension_reference:
@@ -914,7 +1101,10 @@ quantities:
   - id: NISTq69
     type: nist
   names:
-  - electric charge density
+  - value: electric charge density
+    lang: en
+  - value: 'charge électrique volumique'
+    lang: fr
   quantity_type: derived
   short: electric_charge_density
   dimension_reference:
@@ -928,7 +1118,10 @@ quantities:
   - id: NISTq70
     type: nist
   names:
-  - electric flux density
+  - value: electric flux density
+    lang: en
+  - value: 'induction électrique'
+    lang: fr
   quantity_type: derived
   short: electric_flux_density
   dimension_reference:
@@ -942,7 +1135,10 @@ quantities:
   - id: NISTq71
     type: nist
   names:
-  - permittivity
+  - value: permittivity
+    lang: en
+  - value: permittivité
+    lang: fr
   quantity_type: derived
   short: permittivity
   dimension_reference:
@@ -956,7 +1152,10 @@ quantities:
   - id: NISTq72
     type: nist
   names:
-  - permeability
+  - value: permeability
+    lang: en
+  - value: perméabilitté
+    lang: fr
   quantity_type: derived
   short: permeability
   dimension_reference:
@@ -970,7 +1169,10 @@ quantities:
   - id: NISTq73
     type: nist
   names:
-  - molar energy
+  - value: molar energy
+    lang: en
+  - value: 'énergie molaire'
+    lang: fr
   quantity_type: derived
   short: molar_energy
   dimension_reference:
@@ -984,7 +1186,10 @@ quantities:
   - id: NISTq74
     type: nist
   names:
-  - molar entropy
+  - value: molar entropy
+    lang: en
+  - value: entropie molaire
+    lang: fr
   quantity_type: derived
   short: molar_entropy
   dimension_reference:
@@ -998,7 +1203,8 @@ quantities:
   - id: NISTq75
     type: nist
   names:
-  - exposure (x and gamma rays)
+  - value: exposure (x and gamma rays)
+    lang: en
   quantity_type: derived
   short: exposure_x_and_gamma_rays
   dimension_reference:
@@ -1008,7 +1214,10 @@ quantities:
   - id: NISTq76
     type: nist
   names:
-  - absorbed dose rate
+  - value: absorbed dose rate
+    lang: en
+  - value: 'débit de dose absorbée'
+    lang: fr
   quantity_type: derived
   short: absorbed_dose_rate
   dimension_reference:
@@ -1022,7 +1231,8 @@ quantities:
   - id: NISTq77
     type: nist
   names:
-  - potential energy
+  - value: potential energy
+    lang: en
   quantity_type: derived
   short: potential_energy
   dimension_reference:
@@ -1032,7 +1242,8 @@ quantities:
   - id: NISTq78
     type: nist
   names:
-  - irradiance
+  - value: irradiance
+    lang: en
   quantity_type: derived
   short: irradiance
   dimension_reference:
@@ -1042,7 +1253,8 @@ quantities:
   - id: NISTq79
     type: nist
   names:
-  - entropy
+  - value: entropy
+    lang: en
   quantity_type: derived
   short: entropy
   dimension_reference:
@@ -1052,7 +1264,8 @@ quantities:
   - id: NISTq80
     type: nist
   names:
-  - specific entropy
+  - value: specific entropy
+    lang: en
   quantity_type: derived
   short: specific_entropy
   dimension_reference:
@@ -1062,7 +1275,10 @@ quantities:
   - id: NISTq81
     type: nist
   names:
-  - surface charge density
+  - value: surface charge density
+    lang: en
+  - value: 'charge électrique surfacique'
+    lang: fr
   quantity_type: derived
   short: surface_charge_density
   dimension_reference:
@@ -1076,7 +1292,8 @@ quantities:
   - id: NISTq82
     type: nist
   names:
-  - electric displacement
+  - value: electric displacement
+    lang: en
   quantity_type: derived
   short: electric_displacement
   dimension_reference:
@@ -1086,7 +1303,8 @@ quantities:
   - id: NISTq83
     type: nist
   names:
-  - molar heat capacity
+  - value: molar heat capacity
+    lang: en
   quantity_type: derived
   short: molar_heat_capacity
   dimension_reference:
@@ -1096,7 +1314,10 @@ quantities:
   - id: NISTq84
     type: nist
   names:
-  - catalytic activity concentration
+  - value: catalytic activity concentration
+    lang: en
+  - value: 'concentration de l’activité catalytique'
+    lang: fr
   quantity_type: derived
   short: catalytic_activity_concentration
   dimension_reference:
@@ -1110,7 +1331,10 @@ quantities:
   - id: NISTq85
     type: nist
   names:
-  - kinematic viscosity
+  - value: kinematic viscosity
+    lang: en
+  - value: 'viscosité cinématique'
+    lang: fr
   quantity_type: derived
   short: kinematic_viscosity
   dimension_reference:
@@ -1124,7 +1348,8 @@ quantities:
   - id: NISTq87
     type: nist
   names:
-  - magnetic field
+  - value: magnetic field
+    lang: en
   quantity_type: derived
   short: magnetic_field
   dimension_reference:
@@ -1134,7 +1359,10 @@ quantities:
   - id: NISTq88
     type: nist
   names:
-  - radiant intensity
+  - value: radiant intensity
+    lang: en
+  - value: 'intensité énergétique'
+    lang: fr
   quantity_type: derived
   short: radiant_intensity
   dimension_reference:
@@ -1148,7 +1376,10 @@ quantities:
   - id: NISTq89
     type: nist
   names:
-  - radiance
+  - value: radiance
+    lang: en
+  - value: 'luminance énergétique'
+    lang: fr
   quantity_type: derived
   short: radiance
   dimension_reference:
@@ -1162,8 +1393,12 @@ quantities:
   - id: NISTq90
     type: nist
   names:
-  - logarithmic ratio quantities (power-like quantities using decimal logarithms)
-  - ratio logarithm (B)
+  - value: logarithmic ratio quantities (power-like quantities using decimal logarithms)
+    lang: en
+  - value: ratio logarithm (B)
+    lang: en
+  - value: logarithme d'un rapport (B)
+    lang: fr
   quantity_type: derived
   short: logarithmic_ratio_quantities
   dimension_reference:
@@ -1177,8 +1412,10 @@ quantities:
   - id: NISTq91
     type: nist
   names:
-  - fluidity
-  - reciprocal of dynamic viscosity
+  - value: fluidity
+    lang: en
+  - value: reciprocal of dynamic viscosity
+    lang: en
   quantity_type: derived
   short: fluidity
   dimension_reference:
@@ -1188,7 +1425,8 @@ quantities:
   - id: NISTq92
     type: nist
   names:
-  - hydrodynamic permeability
+  - value: hydrodynamic permeability
+    lang: en
   quantity_type: derived
   short: hydrodynamic_permeability
   dimension_reference:
@@ -1198,7 +1436,8 @@ quantities:
   - id: NISTq93
     type: nist
   names:
-  - refractive index
+  - value: refractive index
+    lang: en
   quantity_type: derived
   short: refractive_index
   dimension_reference:
@@ -1208,7 +1447,8 @@ quantities:
   - id: NISTq94
     type: nist
   names:
-  - relative permeability
+  - value: relative permeability
+    lang: en
   quantity_type: derived
   short: relative_permeability
   dimension_reference:
@@ -1218,7 +1458,8 @@ quantities:
   - id: NISTq95
     type: nist
   names:
-  - breadth
+  - value: breadth
+    lang: en
   quantity_type: derived
   short: breadth
   dimension_reference:
@@ -1228,7 +1469,8 @@ quantities:
   - id: NISTq96
     type: nist
   names:
-  - height
+  - value: height
+    lang: en
   quantity_type: derived
   short: height
   dimension_reference:
@@ -1238,7 +1480,8 @@ quantities:
   - id: NISTq97
     type: nist
   names:
-  - thickness
+  - value: thickness
+    lang: en
   quantity_type: derived
   short: thickness
   dimension_reference:
@@ -1248,7 +1491,8 @@ quantities:
   - id: NISTq98
     type: nist
   names:
-  - radius
+  - value: radius
+    lang: en
   quantity_type: derived
   short: radius
   dimension_reference:
@@ -1258,7 +1502,8 @@ quantities:
   - id: NISTq99
     type: nist
   names:
-  - radial distance
+  - value: radial distance
+    lang: en
   quantity_type: derived
   short: radial_distance
   dimension_reference:
@@ -1268,7 +1513,8 @@ quantities:
   - id: NISTq100
     type: nist
   names:
-  - diameter
+  - value: diameter
+    lang: en
   quantity_type: derived
   short: diameter
   dimension_reference:
@@ -1278,7 +1524,8 @@ quantities:
   - id: NISTq101
     type: nist
   names:
-  - length of path
+  - value: length of path
+    lang: en
   quantity_type: derived
   short: length_of_path
   dimension_reference:
@@ -1288,7 +1535,8 @@ quantities:
   - id: NISTq102
     type: nist
   names:
-  - cartesian coordinates
+  - value: cartesian coordinates
+    lang: en
   quantity_type: derived
   short: cartesian_coordinates
   dimension_reference:
@@ -1298,7 +1546,8 @@ quantities:
   - id: NISTq103
     type: nist
   names:
-  - position vector
+  - value: position vector
+    lang: en
   quantity_type: derived
   short: position_vector
   dimension_reference:
@@ -1308,7 +1557,8 @@ quantities:
   - id: NISTq104
     type: nist
   names:
-  - displacement
+  - value: displacement
+    lang: en
   quantity_type: derived
   short: displacement
   dimension_reference:
@@ -1318,7 +1568,8 @@ quantities:
   - id: NISTq105
     type: nist
   names:
-  - radius of curvature
+  - value: radius of curvature
+    lang: en
   quantity_type: derived
   short: radius_of_curvature
   dimension_reference:
@@ -1328,7 +1579,8 @@ quantities:
   - id: NISTq106
     type: nist
   names:
-  - curvature
+  - value: curvature
+    lang: en
   quantity_type: derived
   short: curvature
   dimension_reference:
@@ -1338,7 +1590,8 @@ quantities:
   - id: NISTq107
     type: nist
   names:
-  - speed of propagation of waves
+  - value: speed of propagation of waves
+    lang: en
   quantity_type: derived
   short: speed_of_propagation_of_waves
   dimension_reference:
@@ -1348,7 +1601,8 @@ quantities:
   - id: NISTq108
     type: nist
   names:
-  - acceleration of free fall
+  - value: acceleration of free fall
+    lang: en
   quantity_type: derived
   short: acceleration_of_free_fall
   dimension_reference:
@@ -1358,8 +1612,10 @@ quantities:
   - id: NISTq109
     type: nist
   names:
-  - period duration
-  - period
+  - value: period duration
+    lang: en
+  - value: period
+    lang: en
   quantity_type: derived
   short: period_duration
   dimension_reference:
@@ -1369,7 +1625,8 @@ quantities:
   - id: NISTq110
     type: nist
   names:
-  - time constant
+  - value: time constant
+    lang: en
   quantity_type: derived
   short: time_constant
   dimension_reference:
@@ -1379,7 +1636,8 @@ quantities:
   - id: NISTq111
     type: nist
   names:
-  - rotation
+  - value: rotation
+    lang: en
   quantity_type: derived
   short: rotation
   dimension_reference:
@@ -1389,7 +1647,8 @@ quantities:
   - id: NISTq112
     type: nist
   names:
-  - rotational frequency
+  - value: rotational frequency
+    lang: en
   quantity_type: derived
   short: rotational_frequency
   dimension_reference:
@@ -1399,7 +1658,8 @@ quantities:
   - id: NISTq113
     type: nist
   names:
-  - angular frequency
+  - value: angular frequency
+    lang: en
   quantity_type: derived
   short: angular_frequency
   dimension_reference:
@@ -1409,7 +1669,8 @@ quantities:
   - id: NISTq114
     type: nist
   names:
-  - wavelength
+  - value: wavelength
+    lang: en
   quantity_type: derived
   short: wavelength
   dimension_reference:
@@ -1419,8 +1680,10 @@ quantities:
   - id: NISTq115
     type: nist
   names:
-  - angular wavenumber
-  - angular repetency
+  - value: angular wavenumber
+    lang: en
+  - value: angular repetency
+    lang: en
   quantity_type: derived
   short: angular_wavenumber
   dimension_reference:
@@ -1430,8 +1693,10 @@ quantities:
   - id: NISTq116
     type: nist
   names:
-  - phase velocity
-  - phase speed
+  - value: phase velocity
+    lang: en
+  - value: phase speed
+    lang: en
   quantity_type: derived
   short: phase_velocity
   dimension_reference:
@@ -1441,8 +1706,10 @@ quantities:
   - id: NISTq117
     type: nist
   names:
-  - group velocity
-  - group speed
+  - value: group velocity
+    lang: en
+  - value: group speed
+    lang: en
   quantity_type: derived
   short: group_velocity
   dimension_reference:
@@ -1452,7 +1719,8 @@ quantities:
   - id: NISTq118
     type: nist
   names:
-  - level of a field quantity
+  - value: level of a field quantity
+    lang: en
   quantity_type: derived
   short: level_of_a_field_quantity
   dimension_reference:
@@ -1462,7 +1730,8 @@ quantities:
   - id: NISTq119
     type: nist
   names:
-  - level of a power quantity
+  - value: level of a power quantity
+    lang: en
   quantity_type: derived
   short: level_of_a_power_quantity
   dimension_reference:
@@ -1472,7 +1741,8 @@ quantities:
   - id: NISTq120
     type: nist
   names:
-  - damping coefficient
+  - value: damping coefficient
+    lang: en
   quantity_type: derived
   short: damping_coefficient
   dimension_reference:
@@ -1482,8 +1752,12 @@ quantities:
   - id: NISTq121
     type: nist
   names:
-  - logarithmic decrement (field quantities using natural logarithms)
-  - ratio logarithm (Np)
+  - value: logarithmic decrement (field quantities using natural logarithms)
+    lang: en
+  - value: ratio logarithm (Np)
+    lang: en
+  - value: logarithme d'un rapport (Np)
+    lang: fr
   quantity_type: derived
   short: logarithmic_decrement
   dimension_reference:
@@ -1497,7 +1771,8 @@ quantities:
   - id: NISTq122
     type: nist
   names:
-  - attenuation coefficient
+  - value: attenuation coefficient
+    lang: en
   quantity_type: derived
   short: attenuation_coefficient
   dimension_reference:
@@ -1507,7 +1782,8 @@ quantities:
   - id: NISTq123
     type: nist
   names:
-  - phase coefficient
+  - value: phase coefficient
+    lang: en
   quantity_type: derived
   short: phase_coefficient
   dimension_reference:
@@ -1517,7 +1793,8 @@ quantities:
   - id: NISTq124
     type: nist
   names:
-  - propagation coefficient
+  - value: propagation coefficient
+    lang: en
   quantity_type: derived
   short: propagation_coefficient
   dimension_reference:
@@ -1527,8 +1804,10 @@ quantities:
   - id: NISTq125
     type: nist
   names:
-  - relative mass density
-  - relative density
+  - value: relative mass density
+    lang: en
+  - value: relative density
+    lang: en
   quantity_type: derived
   short: relative_mass_density
   dimension_reference:
@@ -1538,8 +1817,10 @@ quantities:
   - id: NISTq126
     type: nist
   names:
-  - linear density
-  - lineic mass
+  - value: linear density
+    lang: en
+  - value: lineic mass
+    lang: en
   quantity_type: derived
   short: linear_density
   dimension_reference:
@@ -1549,8 +1830,10 @@ quantities:
   - id: NISTq127
     type: nist
   names:
-  - mass moment of inertia
-  - moment of inertia
+  - value: mass moment of inertia
+    lang: en
+  - value: moment of inertia
+    lang: en
   quantity_type: derived
   short: mass_moment_of_inertia
   dimension_reference:
@@ -1560,7 +1843,8 @@ quantities:
   - id: NISTq128
     type: nist
   names:
-  - weight
+  - value: weight
+    lang: en
   quantity_type: derived
   short: weight
   dimension_reference:
@@ -1570,7 +1854,8 @@ quantities:
   - id: NISTq129
     type: nist
   names:
-  - impulse
+  - value: impulse
+    lang: en
   quantity_type: derived
   short: impulse
   dimension_reference:
@@ -1580,7 +1865,8 @@ quantities:
   - id: NISTq130
     type: nist
   names:
-  - gravitational constant
+  - value: gravitational constant
+    lang: en
   quantity_type: derived
   short: gravitational_constant
   dimension_reference:
@@ -1590,7 +1876,8 @@ quantities:
   - id: NISTq131
     type: nist
   names:
-  - momentum
+  - value: momentum
+    lang: en
   quantity_type: derived
   short: momentum
   dimension_reference:
@@ -1600,8 +1887,10 @@ quantities:
   - id: NISTq132
     type: nist
   names:
-  - moment of momentum
-  - angular momentum
+  - value: moment of momentum
+    lang: en
+  - value: angular momentum
+    lang: en
   quantity_type: derived
   short: moment_of_momentum
   dimension_reference:
@@ -1611,7 +1900,8 @@ quantities:
   - id: NISTq133
     type: nist
   names:
-  - angular impulse
+  - value: angular impulse
+    lang: en
   quantity_type: derived
   short: angular_impulse
   dimension_reference:
@@ -1621,7 +1911,8 @@ quantities:
   - id: NISTq134
     type: nist
   names:
-  - normal stress
+  - value: normal stress
+    lang: en
   quantity_type: derived
   short: normal_stress
   dimension_reference:
@@ -1631,7 +1922,8 @@ quantities:
   - id: NISTq135
     type: nist
   names:
-  - shear stress
+  - value: shear stress
+    lang: en
   quantity_type: derived
   short: shear_stress
   dimension_reference:
@@ -1641,7 +1933,8 @@ quantities:
   - id: NISTq136
     type: nist
   names:
-  - linear strain
+  - value: linear strain
+    lang: en
   quantity_type: derived
   short: linear_strain
   dimension_reference:
@@ -1651,7 +1944,8 @@ quantities:
   - id: NISTq137
     type: nist
   names:
-  - shear strain
+  - value: shear strain
+    lang: en
   quantity_type: derived
   short: shear_strain
   dimension_reference:
@@ -1661,7 +1955,8 @@ quantities:
   - id: NISTq138
     type: nist
   names:
-  - volume strain
+  - value: volume strain
+    lang: en
   quantity_type: derived
   short: volume_strain
   dimension_reference:
@@ -1671,7 +1966,8 @@ quantities:
   - id: NISTq139
     type: nist
   names:
-  - compressibility
+  - value: compressibility
+    lang: en
   quantity_type: derived
   short: compressibility
   dimension_reference:
@@ -1681,7 +1977,8 @@ quantities:
   - id: NISTq140
     type: nist
   names:
-  - Poisson number
+  - value: Poisson number
+    lang: en
   quantity_type: derived
   short: poisson_number
   dimension_reference:
@@ -1691,7 +1988,8 @@ quantities:
   - id: NISTq141
     type: nist
   names:
-  - modulus of elasticity
+  - value: modulus of elasticity
+    lang: en
   quantity_type: derived
   short: modulus_of_elasticity
   dimension_reference:
@@ -1701,8 +1999,10 @@ quantities:
   - id: NISTq142
     type: nist
   names:
-  - modulus of rigidity
-  - shear modulus
+  - value: modulus of rigidity
+    lang: en
+  - value: shear modulus
+    lang: en
   quantity_type: derived
   short: modulus_of_rigidity
   dimension_reference:
@@ -1712,8 +2012,10 @@ quantities:
   - id: NISTq143
     type: nist
   names:
-  - modulus of compression
-  - bulk modulus
+  - value: modulus of compression
+    lang: en
+  - value: bulk modulus
+    lang: en
   quantity_type: derived
   short: modulus_of_compression
   dimension_reference:
@@ -1723,7 +2025,8 @@ quantities:
   - id: NISTq144
     type: nist
   names:
-  - second axial moment of area
+  - value: second axial moment of area
+    lang: en
   quantity_type: derived
   short: second_axial_moment_of_area
   dimension_reference:
@@ -1733,7 +2036,8 @@ quantities:
   - id: NISTq145
     type: nist
   names:
-  - second polar moment of area
+  - value: second polar moment of area
+    lang: en
   quantity_type: derived
   short: second_polar_moment_of_area
   dimension_reference:
@@ -1743,7 +2047,8 @@ quantities:
   - id: NISTq146
     type: nist
   names:
-  - section modulus
+  - value: section modulus
+    lang: en
   quantity_type: derived
   short: section_modulus
   dimension_reference:
@@ -1753,7 +2058,8 @@ quantities:
   - id: NISTq147
     type: nist
   names:
-  - dynamic friction factor
+  - value: dynamic friction factor
+    lang: en
   quantity_type: derived
   short: dynamic_friction_factor
   dimension_reference:
@@ -1763,7 +2069,8 @@ quantities:
   - id: NISTq150
     type: nist
   names:
-  - mass flow rate
+  - value: mass flow rate
+    lang: en
   quantity_type: derived
   short: mass_flow_rate
   dimension_reference:
@@ -1773,7 +2080,8 @@ quantities:
   - id: NISTq151
     type: nist
   names:
-  - volume flow rate
+  - value: volume flow rate
+    lang: en
   quantity_type: derived
   short: volume_flow_rate
   dimension_reference:
@@ -1783,7 +2091,8 @@ quantities:
   - id: NISTq152
     type: nist
   names:
-  - Lagrange function
+  - value: Lagrange function
+    lang: en
   quantity_type: derived
   short: lagrange_function
   dimension_reference:
@@ -1793,7 +2102,8 @@ quantities:
   - id: NISTq153
     type: nist
   names:
-  - Hamilton function
+  - value: Hamilton function
+    lang: en
   quantity_type: derived
   short: hamilton_function
   dimension_reference:
@@ -1803,7 +2113,8 @@ quantities:
   - id: NISTq154
     type: nist
   names:
-  - action
+  - value: action
+    lang: en
   quantity_type: derived
   short: action
   dimension_reference:
@@ -1813,8 +2124,10 @@ quantities:
   - id: NISTq155
     type: nist
   names:
-  - area moment of inertia
-  - second moment of area
+  - value: area moment of inertia
+    lang: en
+  - value: second moment of area
+    lang: en
   quantity_type: derived
   short: area_moment_of_inertia
   dimension_reference:
@@ -1824,7 +2137,8 @@ quantities:
   - id: NISTq156
     type: nist
   names:
-  - linear expansion coefficient
+  - value: linear expansion coefficient
+    lang: en
   quantity_type: derived
   short: linear_expansion_coefficient
   dimension_reference:
@@ -1834,7 +2148,8 @@ quantities:
   - id: NISTq157
     type: nist
   names:
-  - cubic expansion coefficient
+  - value: cubic expansion coefficient
+    lang: en
   quantity_type: derived
   short: cubic_expansion_coefficient
   dimension_reference:
@@ -1844,7 +2159,8 @@ quantities:
   - id: NISTq158
     type: nist
   names:
-  - relative pressure coefficient
+  - value: relative pressure coefficient
+    lang: en
   quantity_type: derived
   short: relative_pressure_coefficient
   dimension_reference:
@@ -1854,7 +2170,8 @@ quantities:
   - id: NISTq159
     type: nist
   names:
-  - pressure coefficient
+  - value: pressure coefficient
+    lang: en
   quantity_type: derived
   short: pressure_coefficient
   dimension_reference:
@@ -1864,7 +2181,8 @@ quantities:
   - id: NISTq160
     type: nist
   names:
-  - isothermal compressibility
+  - value: isothermal compressibility
+    lang: en
   quantity_type: derived
   short: isothermal_compressibility
   dimension_reference:
@@ -1874,7 +2192,8 @@ quantities:
   - id: NISTq161
     type: nist
   names:
-  - magnetomotive force (Cardelli) (-SP811)
+  - value: magnetomotive force (Cardelli) (-SP811)
+    lang: en
   quantity_type: derived
   short: magnetomotive_force
   dimension_reference:
@@ -1884,7 +2203,8 @@ quantities:
   - id: NISTq162
     type: nist
   names:
-  - electric dipole moment
+  - value: electric dipole moment
+    lang: en
   quantity_type: derived
   short: electric_dipole_moment
   dimension_reference:
@@ -1894,7 +2214,8 @@ quantities:
   - id: NISTq163
     type: nist
   names:
-  - magnetizability
+  - value: magnetizability
+    lang: en
   quantity_type: derived
   short: magnetizability
   dimension_reference:
@@ -1904,7 +2225,8 @@ quantities:
   - id: NISTq164
     type: nist
   names:
-  - magnetic dipole moment
+  - value: magnetic dipole moment
+    lang: en
   quantity_type: derived
   short: magnetic_dipole_moment
   dimension_reference:
@@ -1914,7 +2236,8 @@ quantities:
   - id: NISTq165
     type: nist
   names:
-  - electric field gradient
+  - value: electric field gradient
+    lang: en
   quantity_type: derived
   short: electric_field_gradient
   dimension_reference:
@@ -1924,7 +2247,8 @@ quantities:
   - id: NISTq166
     type: nist
   names:
-  - electric potential
+  - value: electric potential
+    lang: en
   quantity_type: derived
   short: electric_potential
   dimension_reference:
@@ -1934,7 +2258,8 @@ quantities:
   - id: NISTq167
     type: nist
   names:
-  - electric quadrupole moment
+  - value: electric quadrupole moment
+    lang: en
   quantity_type: derived
   short: electric_quadrupole_moment
   dimension_reference:
@@ -1944,7 +2269,8 @@ quantities:
   - id: NISTq168
     type: nist
   names:
-  - polarizability
+  - value: polarizability
+    lang: en
   quantity_type: derived
   short: polarizability
   dimension_reference:
@@ -1954,7 +2280,8 @@ quantities:
   - id: NISTq169
     type: nist
   names:
-  - electric capacitance
+  - value: electric capacitance
+    lang: en
   quantity_type: derived
   short: electric_capacitance
   dimension_reference:
@@ -1964,7 +2291,8 @@ quantities:
   - id: NISTq170
     type: nist
   names:
-  - electric current intensity
+  - value: electric current intensity
+    lang: en
   quantity_type: derived
   short: electric_current_intensity
   dimension_reference:
@@ -1974,7 +2302,8 @@ quantities:
   - id: NISTq171
     type: nist
   names:
-  - electric inductance
+  - value: electric inductance
+    lang: en
   quantity_type: derived
   short: electric_inductance
   dimension_reference:
@@ -1984,7 +2313,8 @@ quantities:
   - id: NISTq172
     type: nist
   names:
-  - 1st hyperpolarizability
+  - value: 1st hyperpolarizability
+    lang: en
   quantity_type: derived
   short: first_hyperpolarizability
   dimension_reference:
@@ -1994,7 +2324,8 @@ quantities:
   - id: NISTq173
     type: nist
   names:
-  - 2nd hyperpolarizability
+  - value: 2nd hyperpolarizability
+    lang: en
   quantity_type: derived
   short: second_hyperpolarizability
   dimension_reference:
@@ -2004,7 +2335,8 @@ quantities:
   - id: NISTq174
     type: nist
   names:
-  - index of acidity
+  - value: index of acidity
+    lang: en
   quantity_type: derived
   short: index_of_acidity
   dimension_reference:
@@ -2014,7 +2346,8 @@ quantities:
   - id: NISTq175
     type: nist
   names:
-  - Fahrenheit temperature
+  - value: Fahrenheit temperature
+    lang: en
   quantity_type: derived
   short: fahrenheit_temperature
   dimension_reference:
@@ -2024,7 +2357,8 @@ quantities:
   - id: NISTq176
     type: nist
   names:
-  - mass divided by length
+  - value: mass divided by length
+    lang: en
   quantity_type: derived
   short: mass_divided_by_length
   dimension_reference:
@@ -2034,8 +2368,10 @@ quantities:
   - id: NISTq177
     type: nist
   names:
-  - storage capacity
-  - storage size
+  - value: storage capacity
+    lang: en
+  - value: storage size
+    lang: en
   quantity_type: derived
   short: storage_capacity
   dimension_reference:
@@ -2045,7 +2381,8 @@ quantities:
   - id: NISTq179
     type: nist
   names:
-  - molality of solute B
+  - value: molality of solute B
+    lang: en
   quantity_type: derived
   short: molality_of_solute_B
   dimension_reference:
@@ -2055,7 +2392,8 @@ quantities:
   - id: NISTq180
     type: nist
   names:
-  - coefficient of heat transfer
+  - value: coefficient of heat transfer
+    lang: en
   quantity_type: derived
   short: coefficient_of_heat_transfer
   dimension_reference:
@@ -2065,7 +2403,8 @@ quantities:
   - id: NISTq181
     type: nist
   names:
-  - surface coefficient of heat transfer
+  - value: surface coefficient of heat transfer
+    lang: en
   quantity_type: derived
   short: surface_coefficient_of_heat_transfer
   dimension_reference:
@@ -2075,7 +2414,8 @@ quantities:
   - id: NISTq182
     type: nist
   names:
-  - kinetic energy
+  - value: kinetic energy
+    lang: en
   quantity_type: derived
   short: kinetic_energy
   dimension_reference:
@@ -2085,7 +2425,8 @@ quantities:
   - id: NISTq183
     type: nist
   names:
-  - mechanical energy
+  - value: mechanical energy
+    lang: en
   quantity_type: derived
   short: mechanical_energy
   dimension_reference:
@@ -2095,7 +2436,8 @@ quantities:
   - id: NISTq184
     type: nist
   names:
-  - torque
+  - value: torque
+    lang: en
   quantity_type: derived
   short: torque
   dimension_reference:
@@ -2105,7 +2447,8 @@ quantities:
   - id: NISTq185
     type: nist
   names:
-  - bending moment of force
+  - value: bending moment of force
+    lang: en
   quantity_type: derived
   short: bending_moment_of_force
   dimension_reference:
@@ -2115,8 +2458,10 @@ quantities:
   - id: NISTq186
     type: nist
   names:
-  - mass fraction
-  - mole fraction
+  - value: mass fraction
+    lang: en
+  - value: mole fraction
+    lang: en
   quantity_type: derived
   short: mass_fraction
   dimension_reference:
@@ -2126,7 +2471,8 @@ quantities:
   - id: NISTq187
     type: nist
   names:
-  - apparent power
+  - value: apparent power
+    lang: en
   quantity_type: derived
   short: apparent_power
   dimension_reference:
@@ -2136,7 +2482,8 @@ quantities:
   - id: NISTq188
     type: nist
   names:
-  - nil
+  - value: nil
+    lang: en
   quantity_type: derived
   short: nil
   dimension_reference:
@@ -2146,7 +2493,10 @@ quantities:
   - id: NISTq189
     type: nist
   names:
-  - emission rate
+  - value: emission rate
+    lang: en
+  - value: taux d'émission
+    lang: fr
   quantity_type: derived
   short: emission_rate
   dimension_reference:
@@ -2160,7 +2510,10 @@ quantities:
   - id: NISTq190
     type: nist
   names:
-  - fluence
+  - value: fluence
+    lang: en
+  - value: fluence
+    lang: fr
   quantity_type: derived
   short: fluence
   dimension_reference:
@@ -2174,7 +2527,10 @@ quantities:
   - id: NISTq191
     type: nist
   names:
-  - fluence rate
+  - value: fluence rate
+    lang: en
+  - value: débit de fluence
+    lang: fr
   quantity_type: derived
   short: fluence_rate
   dimension_reference:
@@ -2188,7 +2544,10 @@ quantities:
   - id: NISTq192
     type: nist
   names:
-  - "ITS-90 temperature (°C)"
+  - value: ITS-90 temperature (°C)
+    lang: en
+  - value: température ITS-90 (℃)
+    lang: fr
   quantity_type: derived
   short: ITS-90_temperature_celsius
   dimension_reference:
@@ -2202,7 +2561,10 @@ quantities:
   - id: NISTq193
     type: nist
   names:
-  - ITS-90 temperature (K)
+  - value: ITS-90 temperature (K)
+    lang: en
+  - value: température ITS-90 (K)
+    lang: fr
   quantity_type: derived
   short: ITS-90_temperature_kelvin
   dimension_reference:
@@ -2216,7 +2578,10 @@ quantities:
   - id: NISTq194
     type: nist
   names:
-  - kerma rate
+  - value: kerma rate
+    lang: en
+  - value: kerma rate
+    lang: fr
   quantity_type: derived
   short: kerma_rate
   dimension_reference:
@@ -2230,7 +2595,10 @@ quantities:
   - id: NISTq195
     type: nist
   names:
-  - phase
+  - value: phase
+    lang: en
+  - value: phase
+    lang: fr
   quantity_type: derived
   short: phase
   dimension_reference:
@@ -2244,7 +2612,10 @@ quantities:
   - id: NISTq196
     type: nist
   names:
-  - PLTS-2000 temperature (K)
+  - value: PLTS-2000 temperature (K)
+    lang: en
+  - value: température PLTS-2000 (K)
+    lang: fr
   quantity_type: derived
   short: PLTS-2000_temperature
   dimension_reference:
@@ -2258,7 +2629,10 @@ quantities:
   - id: NISTq197
     type: nist
   names:
-  - exposure
+  - value: exposure
+    lang: en
+  - value: 'exposition (rayons x et γ)'
+    lang: fr
   quantity_type: derived
   short: exposure
   dimension_reference:
@@ -2272,8 +2646,10 @@ quantities:
   - id: NISTq198
     type: nist
   names:
-  - fuel efficiency
-  - fuel economy
+  - value: fuel efficiency
+    lang: en
+  - value: fuel economy
+    lang: en
   quantity_type: derived
   short: fuel_efficiency
   dimension_reference:
@@ -2283,7 +2659,8 @@ quantities:
   - id: NISTq199
     type: nist
   names:
-  - relative humidity
+  - value: relative humidity
+    lang: en
   quantity_type: derived
   short: relative_humidity
   dimension_reference:
@@ -2293,7 +2670,8 @@ quantities:
   - id: NISTq200
     type: nist
   names:
-  - logarithmic frequency range
+  - value: logarithmic frequency range
+    lang: en
   quantity_type: derived
   short: logarithmic_frequency_range
   dimension_reference:
@@ -2303,7 +2681,8 @@ quantities:
   - id: NISTq201
     type: nist
   names:
-  - traffic intensity
+  - value: traffic intensity
+    lang: en
   quantity_type: derived
   short: traffic_intensity
   dimension_reference:
@@ -2313,7 +2692,8 @@ quantities:
   - id: NISTq202
     type: nist
   names:
-  - symbol rate
+  - value: symbol rate
+    lang: en
   quantity_type: derived
   short: symbol_rate
   dimension_reference:
@@ -2323,8 +2703,10 @@ quantities:
   - id: NISTq203
     type: nist
   names:
-  - information content
-  - information entropy
+  - value: information content
+    lang: en
+  - value: information entropy
+    lang: en
   quantity_type: derived
   short: information_content
   dimension_reference:

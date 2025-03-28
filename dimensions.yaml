@@ -1,3 +1,4 @@
+---
 schema_version: 2.0.0
 dimensions:
 - identifiers:
@@ -8,14 +9,15 @@ dimensions:
     symbol: L
     symbols:
     - ascii: L
-      html: '&#x1D5AB;'
+      html: "&#x1D5AB;"
       id: dim_L
-      latex: \ensuremath{\mathsf{L}}
-      mathml: <mi mathvariant='sans-serif'>L</mi>
+      latex: "\\ensuremath{\\mathsf{L}}"
+      mathml: "<mi mathvariant='sans-serif'>L</mi>"
       unicode: "\U0001D5AB"
   short: length
   names:
-  - length
+  - value: length
+    lang: en
 - identifiers:
   - id: NISTd2
     type: nist
@@ -24,29 +26,31 @@ dimensions:
     symbol: M
     symbols:
     - ascii: M
-      html: '&#x1D5AC;'
+      html: "&#x1D5AC;"
       id: dim_M
-      latex: \ensuremath{\mathsf{M}}
-      mathml: <mi mathvariant='sans-serif'>M</mi>
+      latex: "\\ensuremath{\\mathsf{M}}"
+      mathml: "<mi mathvariant='sans-serif'>M</mi>"
       unicode: "\U0001D5AC"
   short: mass
   names:
-  - mass
+  - value: mass
+    lang: en
 - identifiers:
   - id: NISTd3
     type: nist
   short: time
   names:
-  - time
+  - value: time
+    lang: en
   time:
     power: 1
     symbol: T
     symbols:
     - ascii: T
-      html: '&#x1D5B3;'
+      html: "&#x1D5B3;"
       id: dim_T
-      latex: \ensuremath{\mathsf{T}}
-      mathml: <mi mathvariant='sans-serif'>T</mi>
+      latex: "\\ensuremath{\\mathsf{T}}"
+      mathml: "<mi mathvariant='sans-serif'>T</mi>"
       unicode: "\U0001D5B3"
 - identifiers:
   - id: NISTd4
@@ -56,46 +60,49 @@ dimensions:
     symbol: I
     symbols:
     - ascii: I
-      html: '&#x1D5A8;'
+      html: "&#x1D5A8;"
       id: dim_I
-      latex: \ensuremath{\mathsf{I}}
-      mathml: <mi mathvariant='sans-serif'>I</mi>
+      latex: "\\ensuremath{\\mathsf{I}}"
+      mathml: "<mi mathvariant='sans-serif'>I</mi>"
       unicode: "\U0001D5A8"
   short: electric_current
   names:
-  - electric current
+  - value: electric current
+    lang: en
 - identifiers:
   - id: NISTd5
     type: nist
   short: temperature
   names:
-  - temperature
+  - value: temperature
+    lang: en
   thermodynamic_temperature:
     power: 1
     symbol: Theta
     symbols:
     - ascii: Theta
-      html: '&#x1D760;'
+      html: "&#x1D760;"
       id: dim_Theta
-      latex: \ensuremath{\mathsf{\Theta}}
-      mathml: <mi mathvariant='sans-serif'>&#x398;</mi>
+      latex: "\\ensuremath{\\mathsf{\\Theta}}"
+      mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
       unicode: "\U0001D767"
 - identifiers:
   - id: NISTd6
     type: nist
   amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
     symbols:
-    - ascii: N
-      html: '&#x1D5AD;'
+    - ascii: "N"
+      html: "&#x1D5AD;"
       id: dim_N
-      latex: \ensuremath{\mathsf{N}}
-      mathml: <mi mathvariant='sans-serif'>N</mi>
+      latex: "\\ensuremath{\\mathsf{N}}"
+      mathml: "<mi mathvariant='sans-serif'>N</mi>"
       unicode: "\U0001D5AD"
   short: substance_amount
   names:
-  - substance amount
+  - value: substance amount
+    lang: en
 - identifiers:
   - id: NISTd7
     type: nist
@@ -104,14 +111,15 @@ dimensions:
     symbol: J
     symbols:
     - ascii: J
-      html: '&#x1D5A9;'
+      html: "&#x1D5A9;"
       id: dim_J
-      latex: \ensuremath{\mathsf{J}}
-      mathml: <mi mathvariant='sans-serif'>J</mi>
+      latex: "\\ensuremath{\\mathsf{J}}"
+      mathml: "<mi mathvariant='sans-serif'>J</mi>"
       unicode: "\U0001D5A9"
   short: luminous_intensity
   names:
-  - luminous intensity
+  - value: luminous intensity
+    lang: en
 - identifiers:
   - id: NISTd8
     type: nist
@@ -120,7 +128,8 @@ dimensions:
     symbol: L
   short: area
   names:
-  - area
+  - value: area
+    lang: en
 - identifiers:
   - id: NISTd9
     type: nist
@@ -130,14 +139,15 @@ dimensions:
     symbol: phi
     symbols:
     - ascii: phi
-      html: '&#x1D785;'
+      html: "&#x1D785;"
       id: dim_phi
-      latex: \ensuremath{\mathsf{\phi}}
-      mathml: <mi mathvariant='sans-serif'>&#x3c6;</mi>
+      latex: "\\ensuremath{\\mathsf{\\phi}}"
+      mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
       unicode: "\U0001D785"
   short: plane_angle
   names:
-  - plane angle
+  - value: plane angle
+    lang: en
 - identifiers:
   - id: NISTd10
     type: nist
@@ -146,7 +156,8 @@ dimensions:
     symbol: L
   short: volume
   names:
-  - volume
+  - value: volume
+    lang: en
 - identifiers:
   - id: NISTd11
     type: nist
@@ -155,7 +166,8 @@ dimensions:
     symbol: L
   short: velocity
   names:
-  - velocity
+  - value: velocity
+    lang: en
   time:
     power: -1
     symbol: T
@@ -170,7 +182,8 @@ dimensions:
     symbol: M
   short: force
   names:
-  - force
+  - value: force
+    lang: en
   time:
     power: -2
     symbol: T
@@ -185,7 +198,8 @@ dimensions:
     symbol: M
   short: magnetic_flux_density
   names:
-  - magnetic flux density
+  - value: magnetic flux density
+    lang: en
   time:
     power: -2
     symbol: T
@@ -200,7 +214,8 @@ dimensions:
     symbol: M
   short: pressure
   names:
-  - pressure
+  - value: pressure
+    lang: en
   time:
     power: -2
     symbol: T
@@ -215,7 +230,8 @@ dimensions:
     symbol: M
   short: energy
   names:
-  - energy
+  - value: energy
+    lang: en
   time:
     power: -2
     symbol: T
@@ -230,7 +246,8 @@ dimensions:
     symbol: M
   short: power
   names:
-  - power
+  - value: power
+    lang: en
   time:
     power: -3
     symbol: T
@@ -242,7 +259,8 @@ dimensions:
     symbol: I
   short: electric_charge
   names:
-  - electric charge
+  - value: electric charge
+    lang: en
   time:
     power: 1
     symbol: T
@@ -260,7 +278,8 @@ dimensions:
     symbol: M
   short: electric_potential_difference
   names:
-  - electric potential difference
+  - value: electric potential difference
+    lang: en
   time:
     power: -3
     symbol: T
@@ -278,7 +297,8 @@ dimensions:
     symbol: M
   short: capacitance
   names:
-  - capacitance
+  - value: capacitance
+    lang: en
   time:
     power: 4
     symbol: T
@@ -296,7 +316,8 @@ dimensions:
     symbol: M
   short: electric_resistance
   names:
-  - electric resistance
+  - value: electric resistance
+    lang: en
   time:
     power: -3
     symbol: T
@@ -314,7 +335,8 @@ dimensions:
     symbol: M
   short: electric_conductance
   names:
-  - electric conductance
+  - value: electric conductance
+    lang: en
   time:
     power: 3
     symbol: T
@@ -332,7 +354,8 @@ dimensions:
     symbol: M
   short: magnetic_flux
   names:
-  - magnetic flux
+  - value: magnetic flux
+    lang: en
   time:
     power: -2
     symbol: T
@@ -350,7 +373,8 @@ dimensions:
     symbol: M
   short: inductance
   names:
-  - inductance
+  - value: inductance
+    lang: en
   time:
     power: -2
     symbol: T
@@ -359,7 +383,8 @@ dimensions:
     type: nist
   short: frequency
   names:
-  - frequency
+  - value: frequency
+    lang: en
   time:
     power: -1
     symbol: T
@@ -371,7 +396,8 @@ dimensions:
     symbol: L
   short: absorbed_dose
   names:
-  - absorbed dose
+  - value: absorbed dose
+    lang: en
   time:
     power: -2
     symbol: T
@@ -380,10 +406,11 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   short: catalytic_activity
   names:
-  - catalytic activity
+  - value: catalytic activity
+    lang: en
   time:
     power: -1
     symbol: T
@@ -398,7 +425,8 @@ dimensions:
     symbol: J
   short: illuminance
   names:
-  - illuminance
+  - value: illuminance
+    lang: en
 - identifiers:
   - id: NISTd28
     type: nist
@@ -407,7 +435,8 @@ dimensions:
     symbol: L
   short: acceleration
   names:
-  - acceleration
+  - value: acceleration
+    lang: en
   time:
     power: -2
     symbol: T
@@ -419,7 +448,8 @@ dimensions:
     symbol: L
   short: wavenumber
   names:
-  - wavenumber
+  - value: wavenumber
+    lang: en
 - identifiers:
   - id: NISTd30
     type: nist
@@ -431,7 +461,8 @@ dimensions:
     symbol: M
   short: mass_density
   names:
-  - mass density
+  - value: mass density
+    lang: en
 - identifiers:
   - id: NISTd31
     type: nist
@@ -443,7 +474,8 @@ dimensions:
     symbol: M
   short: specific_volume
   names:
-  - specific volume
+  - value: specific volume
+    lang: en
 - identifiers:
   - id: NISTd32
     type: nist
@@ -455,7 +487,8 @@ dimensions:
     symbol: L
   short: current_density
   names:
-  - current density
+  - value: current density
+    lang: en
 - identifiers:
   - id: NISTd33
     type: nist
@@ -467,25 +500,28 @@ dimensions:
     symbol: L
   short: magnetic_field_strength
   names:
-  - magnetic field strength
+  - value: magnetic field strength
+    lang: en
 - identifiers:
   - id: NISTd34
     type: nist
   amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   length:
     power: -3
     symbol: L
   short: concentration
   names:
-  - concentration
+  - value: concentration
+    lang: en
 - identifiers:
   - id: NISTd35
     type: nist
   short: angular_acceleration
   names:
-  - angular acceleration
+  - value: angular acceleration
+    lang: en
   time:
     power: -2
     symbol: T
@@ -500,7 +536,8 @@ dimensions:
     symbol: M
   short: dynamic_viscosity
   names:
-  - dynamic viscosity
+  - value: dynamic viscosity
+    lang: en
   time:
     power: -1
     symbol: T
@@ -512,7 +549,8 @@ dimensions:
     symbol: M
   short: surface_tension
   names:
-  - surface tension
+  - value: surface tension
+    lang: en
   time:
     power: -2
     symbol: T
@@ -524,7 +562,8 @@ dimensions:
     symbol: M
   short: heat_flux_density
   names:
-  - heat flux density
+  - value: heat flux density
+    lang: en
   time:
     power: -3
     symbol: T
@@ -539,7 +578,8 @@ dimensions:
     symbol: M
   short: heat_capacity
   names:
-  - heat capacity
+  - value: heat capacity
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -554,7 +594,8 @@ dimensions:
     symbol: L
   short: specific_heat_capacity
   names:
-  - specific heat capacity
+  - value: specific heat capacity
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -572,7 +613,8 @@ dimensions:
     symbol: M
   short: thermal_conductivity
   names:
-  - thermal conductivity
+  - value: thermal conductivity
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -593,7 +635,8 @@ dimensions:
     symbol: M
   short: electric_field_strength
   names:
-  - electric field strength
+  - value: electric field strength
+    lang: en
   time:
     power: -3
     symbol: T
@@ -608,7 +651,8 @@ dimensions:
     symbol: L
   short: electric_charge_density
   names:
-  - electric charge density
+  - value: electric charge density
+    lang: en
   time:
     power: 1
     symbol: T
@@ -623,7 +667,8 @@ dimensions:
     symbol: L
   short: electric_flux_density
   names:
-  - electric flux density
+  - value: electric flux density
+    lang: en
   time:
     power: 1
     symbol: T
@@ -641,7 +686,8 @@ dimensions:
     symbol: M
   short: permittivity
   names:
-  - permittivity
+  - value: permittivity
+    lang: en
   time:
     power: 4
     symbol: T
@@ -659,7 +705,8 @@ dimensions:
     symbol: M
   short: permeability
   names:
-  - permeability
+  - value: permeability
+    lang: en
   time:
     power: -2
     symbol: T
@@ -668,7 +715,7 @@ dimensions:
     type: nist
   amount_of_substance:
     power: -1
-    symbol: N
+    symbol: "N"
   length:
     power: 2
     symbol: L
@@ -677,7 +724,8 @@ dimensions:
     symbol: M
   short: molar_energy
   names:
-  - molar energy
+  - value: molar energy
+    lang: en
   time:
     power: -2
     symbol: T
@@ -686,7 +734,7 @@ dimensions:
     type: nist
   amount_of_substance:
     power: -1
-    symbol: N
+    symbol: "N"
   length:
     power: 2
     symbol: L
@@ -695,7 +743,8 @@ dimensions:
     symbol: M
   short: molar_entropy
   names:
-  - molar entropy
+  - value: molar entropy
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -713,7 +762,8 @@ dimensions:
     symbol: M
   short: exposure
   names:
-  - exposure
+  - value: exposure
+    lang: en
   time:
     power: 1
     symbol: T
@@ -725,7 +775,8 @@ dimensions:
     symbol: L
   short: absorbed_dose_rate
   names:
-  - absorbed dose rate
+  - value: absorbed dose rate
+    lang: en
   time:
     power: -3
     symbol: T
@@ -740,7 +791,8 @@ dimensions:
     symbol: M
   short: surface_density
   names:
-  - surface density
+  - value: surface density
+    lang: en
 - identifiers:
   - id: NISTd52
     type: nist
@@ -752,7 +804,8 @@ dimensions:
     symbol: M
   short: fluidity
   names:
-  - fluidity
+  - value: fluidity
+    lang: en
   time:
     power: 1
     symbol: T
@@ -767,7 +820,8 @@ dimensions:
     symbol: M
   short: surface_charge_density
   names:
-  - surface charge density
+  - value: surface charge density
+    lang: en
   time:
     power: 1
     symbol: T
@@ -785,7 +839,8 @@ dimensions:
     symbol: M
   short: magnetizability
   names:
-  - magnetizability
+  - value: magnetizability
+    lang: en
   time:
     power: 2
     symbol: T
@@ -794,13 +849,14 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   mass:
     power: -3
     symbol: M
   short: catalytic_activity_concentration
   names:
-  - catalytic activity concentration
+  - value: catalytic activity concentration
+    lang: en
   time:
     power: -1
     symbol: T
@@ -812,7 +868,8 @@ dimensions:
     symbol: L
   short: kinematic_viscosity
   names:
-  - kinematic viscosity
+  - value: kinematic viscosity
+    lang: en
   time:
     power: -1
     symbol: T
@@ -824,7 +881,8 @@ dimensions:
     symbol: L
   short: area_moment_of_inertia
   names:
-  - area moment of inertia
+  - value: area moment of inertia
+    lang: en
 - identifiers:
   - id: NISTd58
     type: nist
@@ -836,7 +894,8 @@ dimensions:
     symbol: M
   short: linear_density
   names:
-  - linear density
+  - value: linear density
+    lang: en
 - identifiers:
   - id: NISTd59
     type: nist
@@ -848,7 +907,8 @@ dimensions:
     symbol: M
   short: mass_moment_of_inertia
   names:
-  - mass moment of inertia
+  - value: mass moment of inertia
+    lang: en
 - identifiers:
   - id: NISTd60
     type: nist
@@ -860,7 +920,8 @@ dimensions:
     symbol: M
   short: action
   names:
-  - action
+  - value: action
+    lang: en
   time:
     power: -1
     symbol: T
@@ -875,7 +936,8 @@ dimensions:
     symbol: M
   short: momentum
   names:
-  - momentum
+  - value: momentum
+    lang: en
   time:
     power: -1
     symbol: T
@@ -890,7 +952,8 @@ dimensions:
     symbol: M
   short: gravitational_constant
   names:
-  - gravitational constant
+  - value: gravitational constant
+    lang: en
   time:
     power: -2
     symbol: T
@@ -905,7 +968,8 @@ dimensions:
     symbol: M
   short: compressibility
   names:
-  - compressibility
+  - value: compressibility
+    lang: en
   time:
     power: 2
     symbol: T
@@ -918,7 +982,8 @@ dimensions:
     symbol: phi
   short: solid_angle
   names:
-  - solid angle
+  - value: solid angle
+    lang: en
 - identifiers:
   - id: NISTd65
     type: nist
@@ -927,7 +992,8 @@ dimensions:
     symbol: M
   short: mass_flow_rate
   names:
-  - mass flow rate
+  - value: mass flow rate
+    lang: en
   time:
     power: -1
     symbol: T
@@ -939,7 +1005,8 @@ dimensions:
     symbol: L
   short: volume_flow_rate
   names:
-  - volume flow rate
+  - value: volume flow rate
+    lang: en
   time:
     power: -1
     symbol: T
@@ -949,13 +1016,15 @@ dimensions:
   dimensionless: true
   short: logarithmic_ratio
   names:
-  - logarithmic ratio
+  - value: logarithmic ratio
+    lang: en
 - identifiers:
   - id: NISTd68
     type: nist
   short: linear_expansion_coefficient
   names:
-  - linear expansion coefficient
+  - value: linear expansion coefficient
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -970,7 +1039,8 @@ dimensions:
     symbol: M
   short: pressure_coefficient
   names:
-  - pressure coefficient
+  - value: pressure coefficient
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -988,7 +1058,8 @@ dimensions:
     symbol: M
   short: isothermal_compressibility
   names:
-  - isothermal compressibility
+  - value: isothermal compressibility
+    lang: en
   time:
     power: 2
     symbol: T
@@ -1000,7 +1071,8 @@ dimensions:
     symbol: M
   short: heat_transfer_coefficient
   names:
-  - heat transfer coefficient
+  - value: heat transfer coefficient
+    lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -1018,7 +1090,8 @@ dimensions:
     symbol: L
   short: electric_dipole_moment
   names:
-  - electric dipole moment
+  - value: electric dipole moment
+    lang: en
   time:
     power: 1
     symbol: T
@@ -1033,7 +1106,8 @@ dimensions:
     symbol: L
   short: magnetic_dipole_moment
   names:
-  - magnetic dipole moment
+  - value: magnetic dipole moment
+    lang: en
 - identifiers:
   - id: NISTd74
     type: nist
@@ -1045,7 +1119,8 @@ dimensions:
     symbol: M
   short: electric_field_gradient
   names:
-  - electric field gradient
+  - value: electric field gradient
+    lang: en
   time:
     power: -3
     symbol: T
@@ -1060,7 +1135,8 @@ dimensions:
     symbol: L
   short: electric_quadrupole_moment
   names:
-  - electric quadrupole moment
+  - value: electric quadrupole moment
+    lang: en
   time:
     power: 1
     symbol: T
@@ -1075,7 +1151,8 @@ dimensions:
     symbol: M
   short: polarizability
   names:
-  - polarizability
+  - value: polarizability
+    lang: en
   time:
     power: 4
     symbol: T
@@ -1093,7 +1170,8 @@ dimensions:
     symbol: M
   short: hyperpolarizability_1st
   names:
-  - hyperpolarizability 1st
+  - value: hyperpolarizability 1st
+    lang: en
   time:
     power: 7
     symbol: T
@@ -1111,7 +1189,8 @@ dimensions:
     symbol: M
   short: hyperpolarizability_2nd
   names:
-  - hyperpolarizability 2nd
+  - value: hyperpolarizability 2nd
+    lang: en
   time:
     power: 10
     symbol: T
@@ -1120,61 +1199,69 @@ dimensions:
     type: nist
   amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   mass:
     power: 1
     symbol: M
   short: molality
   names:
-  - molality
+  - value: molality
+    lang: en
 - identifiers:
   - id: NISTd80
     type: nist
   dimensionless: true
   short: ratio_quantity
   names:
-  - ratio quantity
+  - value: ratio quantity
+    lang: en
 - identifiers:
   - id: NISTd83
     type: nist
   dimensionless: true
   short: level_of_field_quantity
   names:
-  - level of field quantity
+  - value: level of field quantity
+    lang: en
 - identifiers:
   - id: NISTd84
     type: nist
   dimensionless: true
   short: field_power_level
   names:
-  - field power level
+  - value: field power level
+    lang: en
 - identifiers:
   - id: NISTd85
     type: nist
   dimensionless: true
   short: mass_mole_fraction
   names:
-  - mass mole fraction
+  - value: mass mole fraction
+    lang: en
 - identifiers:
   - id: NISTd94
     type: nist
   dimensionless: true
   short: acidity_index
   names:
-  - acidity index
+  - value: acidity index
+    lang: en
 - identifiers:
   - id: NISTd95
     type: nist
   dimensionless: true
   short: storage_capacity
   names:
-  - storage capacity
+  - value: storage capacity
+    lang: en
 - identifiers:
   - id: NISTd96
     type: nist
   short: fluence
   names:
-  - fluence
+  - value: fluence
+    lang: en
   length:
     power: -2
     symbol: L
@@ -1183,7 +1270,8 @@ dimensions:
     type: nist
   short: fluence_rate
   names:
-  - fluence_rate
+  - value: fluence_rate
+    lang: en
   length:
     power: -2
     symbol: L
@@ -1199,7 +1287,8 @@ dimensions:
     symbol: phi
   short: phase
   names:
-  - phase
+  - value: phase
+    lang: en
 - identifiers:
   - id: NISTd99
     type: nist
@@ -1208,20 +1297,23 @@ dimensions:
     symbol: L
   short: fuel_efficiency
   names:
-  - fuel efficiency
+  - value: fuel efficiency
+    lang: en
 - identifiers:
   - id: NISTd100
     type: nist
   dimensionless: true
   short: traffic_intensity
   names:
-  - traffic intensity
+  - value: traffic intensity
+    lang: en
 - identifiers:
   - id: NISTd101
     type: nist
   short: symbol_rate
   names:
-  - symbol rate
+  - value: symbol rate
+    lang: en
   time:
     power: -1
     symbol: T
@@ -1231,4 +1323,5 @@ dimensions:
   dimensionless: true
   short: information_content
   names:
-  - information content
+  - value: information content
+    lang: en
