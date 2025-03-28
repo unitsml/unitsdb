@@ -1,0 +1,257 @@
+= UnitsDB release notes
+
+== v2.0.0
+
+=== Introduction
+
+This document describes the changes introduced in UnitsDB version 2.0.0 compared
+to version 1.0.0. UnitsDB 2.0.0 represents a major architectural and content
+update with significant structural changes and content enhancements.
+
+=== Benefits
+
+* Better multilingual support enables localized applications
+* More comprehensive symbol formats simplify integration with various display technologies
+* Standardized references to external resources provide better interoperability
+* Enhanced structure allows for more consistent data validation
+* Additional quantities and dimensions support a wider range of scientific applications
+
+=== Major structural changes
+
+These changes represent the significant architectural updates in UnitsDB 2.0.0.
+
+==== Schema structure
+
+* Added `schema_version: "2.0.0"` field to all YAML files for consistent versioning
+* Reorganized YAML structure with more consistent hierarchical organization
+* Changed from flat object structure to list-based structure with common fields pattern
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/101[#101]
+* link:https://github.com/unitsml/unitsdb/issues/100[#100]
+
+==== Identifiers and references
+
+* Introduced formalized `identifiers` section for all entities:
++
+[source,yaml]
+----
+identifiers:
+  - id: NISTd1
+    type: nist
+----
+
+* Added standard `references` field to entities linking to external resources:
++
+[source,yaml]
+----
+references:
+  - uri: http://si-digital-framework.org/quantities/LENG
+    type: normative
+    authority: si-digital-framework
+----
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/85[#85]
+* link:https://github.com/unitsml/unitsdb/issues/86[#86]
+
+==== Multilingual support
+
+* Restructured `names` field to support multiple languages:
++
+[source,yaml]
+----
+names:
+  - value: length
+    lang: en
+  - value: longueur
+    lang: fr
+----
+
+* Added French names for units and quantities, sourced from BIPM
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/112[#112]
+
+==== Symbols representation
+
+* Enhanced `symbols` structure with multiple representation formats:
++
+[source,yaml]
+----
+symbols:
+  - ascii: L
+    html: "&#x1D5AB;"
+    id: dim_L
+    latex: "\\ensuremath{\\mathsf{L}}"
+    mathml: "<mi mathvariant='sans-serif'>L</mi>"
+    unicode: "\U0001D5AB"
+----
+
+* Changed `dim_symbols` to `symbols` in dimensions.yaml
+* Provided more comprehensive symbol representations across all formats
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/101[#101]
+
+==== Property naming
+
+* Renamed `powerNumerator` to `power` for clarity and consistency
+* Made field naming more consistent across files
+* Standardized property types and formats
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/101[#101]
+
+=== File-specific changes
+
+==== dimensions.yaml
+
+* Added `names` array with language-specific dimension names
+* Added the following new dimensions:
+** NISTd96: fluence (L^-2)
+** NISTd97: fluence_rate (L^-2 T^-1)
+** NISTd98: phase (plane_angle)
+** NISTd99: fuel_efficiency (L^-2)
+** NISTd100: traffic_intensity (dimensionless)
+** NISTd101: symbol_rate (T^-1)
+** NISTd102: information_content (dimensionless)
+* Improved dimensionless quantity representation
+* Enhanced symbols representation with mathml and other formats
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/109[#109]
+* link:https://github.com/unitsml/unitsdb/issues/102[#102]
+
+==== prefixes.yaml
+
+* Added short name property to all prefixes
+* Added SI Digital Framework references to SI prefixes
+* Changed the representation of `NISTp10_0` (unity) to use '1' as the symbol instead of empty string
+* Added mathml representations for all prefix symbols
+* Reorganized structure to make prefixes consistently represented
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/issues/100[#100]
+
+==== quantities.yaml
+
+* Added 15+ new quantities including:
+** NISTq189: emission_rate
+** NISTq190: fluence
+** NISTq191: fluence_rate
+** NISTq192: ITS-90_temperature_celsius
+** NISTq193: ITS-90_temperature_kelvin
+** NISTq194: kerma_rate
+** NISTq195: phase
+** NISTq196: PLTS-2000_temperature
+** NISTq197: exposure
+** NISTq198: fuel_efficiency
+** NISTq199: relative_humidity
+** NISTq200: logarithmic_frequency_range
+** NISTq201: traffic_intensity
+** NISTq202: symbol_rate
+** NISTq203: information_content
+* Changed from `unit_reference` array to `unit_references` for consistency
+* Replaced URLs with formal dimension references:
++
+[source,yaml]
+----
+dimension_reference:
+  id: NISTd1
+  type: nist
+----
+
+* Added French translations for quantity names
+* Added SI Digital Framework URI references
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/99[#99]
+* link:https://github.com/unitsml/unitsdb/issues/98[#98]
+* link:https://github.com/unitsml/unitsdb/pull/109[#109]
+* link:https://github.com/unitsml/unitsdb/pull/108[#108]
+* link:https://github.com/unitsml/unitsdb/pull/106[#106]
+
+==== unit_systems.yaml
+
+* Added more comprehensive system descriptions
+* Improved classification of units within systems
+* Added clearer acceptable/unacceptable designations
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/85[#85]
+
+==== scales.yaml
+
+* Added formal structure for scale definitions
+* Defined properties for different scale types:
+** continuous_ratio
+** continuous_interval
+** logarithmic_ratio
+** logarithmic_field
+** discrete
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/110[#110]
+* link:https://github.com/unitsml/unitsdb/issues/43[#43]
+
+=== Impact on applications
+
+Applications using UnitsDB will need to adapt to these changes when upgrading from v1.0.0 to v2.0.0:
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/issues/90[#90]
+* link:https://github.com/unitsml/unitsdb/issues/92[#92]
+
+==== Required updates
+
+* Update parsers to handle the new schema structure with `schema_version` field
+* Modify code that accesses dimension power values (`power` vs `powerNumerator`)
+* Update name access code to handle language-specific name objects
+* Revise symbol handling to work with the expanded symbol representation formats
+* Update code that accesses unit references to use the new reference structure
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/issues/93[#93]
+* link:https://github.com/unitsml/unitsdb/pull/97[#97]
+* link:https://github.com/unitsml/unitsdb/pull/101[#101]
+* link:https://github.com/unitsml/unitsdb/pull/112[#112]
+* link:https://github.com/unitsml/unitsdb/pull/85[#85]
+* link:https://github.com/unitsml/unitsdb/pull/99[#99]
+
+=== Documentation updates
+
+For more information on the UnitsDB structure and how to use it effectively, refer to the README.adoc file in the repository, which has been significantly expanded to include detailed information about the database structure and content.
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/114[#114]
+
+=== Additional content
+
+French translations are sourced from the BIPM SI Digital Framework.
+
+This release includes contributions to fix errors and inconsistencies as well as adding new units and quantities to align with ISO and IEC standards.
+
+Relevant issues/pull requests:
+
+* link:https://github.com/unitsml/unitsdb/pull/112[#112]
+* link:https://github.com/unitsml/unitsdb/pull/107[#107]
+* link:https://github.com/unitsml/unitsdb/pull/95[#95]
+* link:https://github.com/unitsml/unitsdb/pull/89[#89]
+* link:https://github.com/unitsml/unitsdb/pull/109[#109]
+* link:https://github.com/unitsml/unitsdb/issues/37[#37]
+* link:https://github.com/unitsml/unitsdb/issues/40[#40]
+* link:https://github.com/unitsml/unitsdb/issues/48[#48]
