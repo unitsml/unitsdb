@@ -2,6 +2,8 @@
 schema_version: 2.0.0
 prefixes:
 - identifiers:
+  - id: p:kibi
+    type: unitsml
   - id: NISTp2_10
     type: nist
   base: 2
@@ -18,6 +20,8 @@ prefixes:
     id: kibi
     mathml: "<mi>Ki</mi>"
 - identifiers:
+  - id: p:mebi
+    type: unitsml
   - id: NISTp2_20
     type: nist
   base: 2
@@ -34,6 +38,8 @@ prefixes:
     id: mebi
     mathml: "<mi>Mi</mi>"
 - identifiers:
+  - id: p:gibi
+    type: unitsml
   - id: NISTp2_30
     type: nist
   base: 2
@@ -50,6 +56,8 @@ prefixes:
     id: gibi
     mathml: "<mi>Gi</mi>"
 - identifiers:
+  - id: p:tebi
+    type: unitsml
   - id: NISTp2_40
     type: nist
   base: 2
@@ -66,6 +74,8 @@ prefixes:
     id: tebi
     mathml: "<mi>Ti</mi>"
 - identifiers:
+  - id: p:pebi
+    type: unitsml
   - id: NISTp2_50
     type: nist
   base: 2
@@ -82,6 +92,8 @@ prefixes:
     id: pebi
     mathml: "<mi>Pi</mi>"
 - identifiers:
+  - id: p:exbi
+    type: unitsml
   - id: NISTp2_60
     type: nist
   base: 2
@@ -98,6 +110,8 @@ prefixes:
     id: exbi
     mathml: "<mi>Ei</mi>"
 - identifiers:
+  - id: p:zebi
+    type: unitsml
   - id: NISTp2_70
     type: nist
   base: 2
@@ -114,6 +128,8 @@ prefixes:
     id: zebi
     mathml: "<mi>Zi</mi>"
 - identifiers:
+  - id: p:yobi
+    type: unitsml
   - id: NISTp2_80
     type: nist
   base: 2
@@ -130,6 +146,8 @@ prefixes:
     id: yobi
     mathml: "<mi>Yi</mi>"
 - identifiers:
+  - id: p:quecto
+    type: unitsml
   - id: NISTp10_-30
     type: nist
   base: 10
@@ -150,6 +168,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:ronto
+    type: unitsml
   - id: NISTp10_-27
     type: nist
   base: 10
@@ -170,6 +190,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:yocto
+    type: unitsml
   - id: NISTp10_-24
     type: nist
   base: 10
@@ -190,6 +212,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:zepto
+    type: unitsml
   - id: NISTp10_-21
     type: nist
   base: 10
@@ -210,6 +234,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:atto
+    type: unitsml
   - id: NISTp10_-18
     type: nist
   base: 10
@@ -230,6 +256,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:femto
+    type: unitsml
   - id: NISTp10_-15
     type: nist
   base: 10
@@ -250,6 +278,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:pico
+    type: unitsml
   - id: NISTp10_-12
     type: nist
   base: 10
@@ -270,6 +300,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:nano
+    type: unitsml
   - id: NISTp10_-9
     type: nist
   base: 10
@@ -290,6 +322,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:micro
+    type: unitsml
   - id: NISTp10_-6
     type: nist
   base: 10
@@ -310,6 +344,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:milli
+    type: unitsml
   - id: NISTp10_-3
     type: nist
   base: 10
@@ -330,6 +366,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:centi
+    type: unitsml
   - id: NISTp10_-2
     type: nist
   base: 10
@@ -350,6 +388,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:deci
+    type: unitsml
   - id: NISTp10_-1
     type: nist
   base: 10
@@ -370,6 +410,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:none
+    type: unitsml
   - id: NISTp10_0
     type: nist
   base: 10
@@ -390,6 +432,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:deka
+    type: unitsml
   - id: NISTp10_1
     type: nist
   base: 10
@@ -410,6 +454,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:hecto
+    type: unitsml
   - id: NISTp10_2
     type: nist
   base: 10
@@ -430,6 +476,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:kilo
+    type: unitsml
   - id: NISTp10_3
     type: nist
   base: 10
@@ -450,6 +498,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:mega
+    type: unitsml
   - id: NISTp10_6
     type: nist
   base: 10
@@ -470,6 +520,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:giga
+    type: unitsml
   - id: NISTp10_9
     type: nist
   base: 10
@@ -490,6 +542,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:tera
+    type: unitsml
   - id: NISTp10_12
     type: nist
   base: 10
@@ -510,6 +564,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:peta
+    type: unitsml
   - id: NISTp10_15
     type: nist
   base: 10
@@ -530,6 +586,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:exa
+    type: unitsml
   - id: NISTp10_18
     type: nist
   base: 10
@@ -550,6 +608,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:zetta
+    type: unitsml
   - id: NISTp10_21
     type: nist
   base: 10
@@ -570,6 +630,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:yotta
+    type: unitsml
   - id: NISTp10_24
     type: nist
   base: 10
@@ -590,6 +652,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:ronna
+    type: unitsml
   - id: NISTp10_27
     type: nist
   base: 10
@@ -610,6 +674,8 @@ prefixes:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: p:quetta
+    type: unitsml
   - id: NISTp10_30
     type: nist
   base: 10

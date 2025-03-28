@@ -4,6 +4,8 @@ scales:
 - identifiers:
   - id: continuous_ratio
     type: unitsml
+  - id: s:continuous_ratio
+    type: unitsml
   names:
   - value: continuous ratio scale
     lang: en
@@ -20,6 +22,8 @@ scales:
     ratio: true
 - identifiers:
   - id: continuous_interval
+    type: unitsml
+  - id: s:continuous_interval
     type: unitsml
   names:
   - value: continuous interval scale
@@ -38,6 +42,8 @@ scales:
 - identifiers:
   - id: logarithmic_ratio
     type: unitsml
+  - id: s:logarithmic_ratio
+    type: unitsml
   names:
   - value: logarithmic ratio scale
     lang: en
@@ -55,6 +61,8 @@ scales:
 - identifiers:
   - id: logarithmic_field
     type: unitsml
+  - id: s:logarithmic_field
+    type: unitsml
   names:
   - value: logarithmic field scale
     lang: en
@@ -70,6 +78,8 @@ scales:
     ratio: false
 - identifiers:
   - id: discrete
+    type: unitsml
+  - id: s:discrete
     type: unitsml
   names:
   - value: discrete scale

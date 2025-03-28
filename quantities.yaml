@@ -2,6 +2,8 @@
 schema_version: 2.0.0
 quantities:
 - identifiers:
+  - id: q:length
+    type: unitsml
   - id: NISTq1
     type: nist
   names:
@@ -19,6 +21,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:mass
+    type: unitsml
   - id: NISTq2
     type: nist
   names:
@@ -36,6 +40,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:time
+    type: unitsml
   - id: NISTq3
     type: nist
   names:
@@ -55,6 +61,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_current
+    type: unitsml
   - id: NISTq4
     type: nist
   names:
@@ -72,6 +80,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:temperature
+    type: unitsml
   - id: NISTq5
     type: nist
   names:
@@ -89,6 +99,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:substance_amount
+    type: unitsml
   - id: NISTq6
     type: nist
   names:
@@ -106,6 +118,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:luminous_intensity
+    type: unitsml
   - id: NISTq7
     type: nist
   names:
@@ -123,6 +137,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:area
+    type: unitsml
   - id: NISTq8
     type: nist
   names:
@@ -140,6 +156,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:plane_angle
+    type: unitsml
   - id: NISTq9
     type: nist
   names:
@@ -159,6 +177,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:volume
+    type: unitsml
   - id: NISTq10
     type: nist
   names:
@@ -176,6 +196,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:solid_angle
+    type: unitsml
   - id: NISTq11
     type: nist
   names:
@@ -193,6 +215,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:velocity
+    type: unitsml
   - id: NISTq12
     type: nist
   names:
@@ -212,6 +236,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:force
+    type: unitsml
   - id: NISTq13
     type: nist
   names:
@@ -229,6 +255,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:magnetic_flux_density
+    type: unitsml
   - id: NISTq14
     type: nist
   names:
@@ -246,6 +274,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:pressure
+    type: unitsml
   - id: NISTq15
     type: nist
   names:
@@ -263,6 +293,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:stress
+    type: unitsml
   - id: NISTq16
     type: nist
   names:
@@ -274,6 +306,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:energy
+    type: unitsml
   - id: NISTq17
     type: nist
   names:
@@ -291,6 +325,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:work
+    type: unitsml
   - id: NISTq18
     type: nist
   names:
@@ -302,6 +338,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:amount_of_heat
+    type: unitsml
   - id: NISTq19
     type: nist
   names:
@@ -315,6 +353,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:power
+    type: unitsml
   - id: NISTq20
     type: nist
   names:
@@ -332,6 +372,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:radiant_flux
+    type: unitsml
   - id: NISTq21
     type: nist
   names:
@@ -343,6 +385,8 @@ quantities:
     id: NISTd16
     type: nist
 - identifiers:
+  - id: q:electric_charge
+    type: unitsml
   - id: NISTq22
     type: nist
   names:
@@ -360,6 +404,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:amount_of_electricity
+    type: unitsml
   - id: NISTq23
     type: nist
   names:
@@ -371,6 +417,8 @@ quantities:
     id: NISTd17
     type: nist
 - identifiers:
+  - id: q:electric_potential_difference
+    type: unitsml
   - id: NISTq24
     type: nist
   names:
@@ -388,6 +436,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:potential_difference
+    type: unitsml
   - id: NISTq25
     type: nist
   names:
@@ -399,6 +449,8 @@ quantities:
     id: NISTd18
     type: nist
 - identifiers:
+  - id: q:electromotive_force
+    type: unitsml
   - id: NISTq26
     type: nist
   names:
@@ -410,6 +462,8 @@ quantities:
     id: NISTd18
     type: nist
 - identifiers:
+  - id: q:capacitance
+    type: unitsml
   - id: NISTq27
     type: nist
   names:
@@ -427,6 +481,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_resistance
+    type: unitsml
   - id: NISTq28
     type: nist
   names:
@@ -444,6 +500,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_conductance
+    type: unitsml
   - id: NISTq29
     type: nist
   names:
@@ -461,6 +519,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:magnetic_flux
+    type: unitsml
   - id: NISTq30
     type: nist
   names:
@@ -478,6 +538,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:surface_density
+    type: unitsml
   - id: NISTq31
     type: nist
   names:
@@ -497,6 +559,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:inductance
+    type: unitsml
   - id: NISTq32
     type: nist
   names:
@@ -514,6 +578,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:mass_concentration
+    type: unitsml
   - id: NISTq33
     type: nist
   names:
@@ -531,6 +597,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:celsius_temperature
+    type: unitsml
   - id: NISTq34
     type: nist
   names:
@@ -548,6 +616,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:activity_referred_to_a_radionuclide
+    type: unitsml
   - id: NISTq35
     type: nist
   names:
@@ -565,6 +635,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:absorbed_dose
+    type: unitsml
   - id: NISTq36
     type: nist
   names:
@@ -582,6 +654,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:specific_energy_imparted
+    type: unitsml
   - id: NISTq37
     type: nist
   names:
@@ -593,6 +667,8 @@ quantities:
     id: NISTd25
     type: nist
 - identifiers:
+  - id: q:kerma
+    type: unitsml
   - id: NISTq38
     type: nist
   names:
@@ -610,6 +686,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:dose_equivalent
+    type: unitsml
   - id: NISTq39
     type: nist
   names:
@@ -627,6 +705,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:ambient_dose_equivalent
+    type: unitsml
   - id: NISTq40
     type: nist
   names:
@@ -638,6 +718,8 @@ quantities:
     id: NISTd25
     type: nist
 - identifiers:
+  - id: q:directional_dose_equivalent
+    type: unitsml
   - id: NISTq41
     type: nist
   names:
@@ -649,6 +731,8 @@ quantities:
     id: NISTd25
     type: nist
 - identifiers:
+  - id: q:personal_dose_equivalent
+    type: unitsml
   - id: NISTq42
     type: nist
   names:
@@ -660,6 +744,8 @@ quantities:
     id: NISTd25
     type: nist
 - identifiers:
+  - id: q:organ_dose_equivalent
+    type: unitsml
   - id: NISTq43
     type: nist
   names:
@@ -671,6 +757,8 @@ quantities:
     id: NISTd25
     type: nist
 - identifiers:
+  - id: q:catalytic_activity
+    type: unitsml
   - id: NISTq44
     type: nist
   names:
@@ -688,6 +776,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:frequency
+    type: unitsml
   - id: NISTq45
     type: nist
   names:
@@ -705,6 +795,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:luminous_flux
+    type: unitsml
   - id: NISTq46
     type: nist
   names:
@@ -722,6 +814,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:illuminance
+    type: unitsml
   - id: NISTq47
     type: nist
   names:
@@ -739,6 +833,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:distance
+    type: unitsml
   - id: NISTq48
     type: nist
   names:
@@ -750,6 +846,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:acceleration
+    type: unitsml
   - id: NISTq49
     type: nist
   names:
@@ -767,6 +865,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:wavenumber
+    type: unitsml
   - id: NISTq50
     type: nist
   names:
@@ -786,6 +886,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:density
+    type: unitsml
   - id: NISTq51
     type: nist
   names:
@@ -805,6 +907,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:specific_volume
+    type: unitsml
   - id: NISTq52
     type: nist
   names:
@@ -824,6 +928,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:current_density
+    type: unitsml
   - id: NISTq53
     type: nist
   names:
@@ -841,6 +947,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:magnetic_field_strength
+    type: unitsml
   - id: NISTq54
     type: nist
   names:
@@ -858,6 +966,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:amount_concentration
+    type: unitsml
   - id: NISTq55
     type: nist
   names:
@@ -877,6 +987,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:luminance
+    type: unitsml
   - id: NISTq56
     type: nist
   names:
@@ -894,12 +1006,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:angular_velocity
+    type: unitsml
   - id: NISTq57
     type: nist
   names:
   - value: angular velocity
     lang: en
-  - value: 'vitesse angulaire'
+  - value: vitesse angulaire
     lang: fr
   quantity_type: derived
   short: angular_velocity
@@ -911,12 +1025,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:angular_acceleration
+    type: unitsml
   - id: NISTq58
     type: nist
   names:
   - value: angular acceleration
     lang: en
-  - value: 'accelération angulaire'
+  - value: accelération angulaire
     lang: fr
   quantity_type: derived
   short: angular_acceleration
@@ -928,12 +1044,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:dynamic_viscosity
+    type: unitsml
   - id: NISTq59
     type: nist
   names:
   - value: dynamic viscosity
     lang: en
-  - value: 'viscosité dynamique'
+  - value: viscosité dynamique
     lang: fr
   quantity_type: derived
   short: dynamic_viscosity
@@ -945,12 +1063,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:moment_of_force
+    type: unitsml
   - id: NISTq60
     type: nist
   names:
   - value: moment of force
     lang: en
-  - value: 'moment d’une force'
+  - value: moment d’une force
     lang: fr
   quantity_type: derived
   short: moment_of_force
@@ -962,12 +1082,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:surface_tension
+    type: unitsml
   - id: NISTq61
     type: nist
   names:
   - value: surface tension
     lang: en
-  - value: 'tension superficielle'
+  - value: tension superficielle
     lang: fr
   quantity_type: derived
   short: surface_tension
@@ -979,12 +1101,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:heat_flux_density
+    type: unitsml
   - id: NISTq62
     type: nist
   names:
   - value: heat flux density
     lang: en
-  - value: 'flux thermique surfacique'
+  - value: flux thermique surfacique
     lang: fr
   quantity_type: derived
   short: heat_flux_density
@@ -996,12 +1120,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:heat_capacity
+    type: unitsml
   - id: NISTq63
     type: nist
   names:
   - value: heat capacity
     lang: en
-  - value: 'capacité thermique'
+  - value: capacité thermique
     lang: fr
   quantity_type: derived
   short: heat_capacity
@@ -1013,12 +1139,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:specific_heat_capacity
+    type: unitsml
   - id: NISTq64
     type: nist
   names:
   - value: specific heat capacity
     lang: en
-  - value: 'capacité thermique massique'
+  - value: capacité thermique massique
     lang: fr
   quantity_type: derived
   short: specific_heat_capacity
@@ -1030,12 +1158,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:specific_energy
+    type: unitsml
   - id: NISTq65
     type: nist
   names:
   - value: specific energy
     lang: en
-  - value: 'énergie massique'
+  - value: énergie massique
     lang: fr
   quantity_type: derived
   short: specific_energy
@@ -1047,12 +1177,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:thermal_conductivity
+    type: unitsml
   - id: NISTq66
     type: nist
   names:
   - value: thermal conductivity
     lang: en
-  - value: 'conductivité thermique'
+  - value: conductivité thermique
     lang: fr
   quantity_type: derived
   short: thermal_conductivity
@@ -1064,6 +1196,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:energy_density
+    type: unitsml
   - id: NISTq67
     type: nist
   names:
@@ -1081,6 +1215,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_field_strength
+    type: unitsml
   - id: NISTq68
     type: nist
   names:
@@ -1098,12 +1234,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_charge_density
+    type: unitsml
   - id: NISTq69
     type: nist
   names:
   - value: electric charge density
     lang: en
-  - value: 'charge électrique volumique'
+  - value: charge électrique volumique
     lang: fr
   quantity_type: derived
   short: electric_charge_density
@@ -1115,12 +1253,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_flux_density
+    type: unitsml
   - id: NISTq70
     type: nist
   names:
   - value: electric flux density
     lang: en
-  - value: 'induction électrique'
+  - value: induction électrique
     lang: fr
   quantity_type: derived
   short: electric_flux_density
@@ -1132,6 +1272,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:permittivity
+    type: unitsml
   - id: NISTq71
     type: nist
   names:
@@ -1149,6 +1291,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:permeability
+    type: unitsml
   - id: NISTq72
     type: nist
   names:
@@ -1166,12 +1310,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:molar_energy
+    type: unitsml
   - id: NISTq73
     type: nist
   names:
   - value: molar energy
     lang: en
-  - value: 'énergie molaire'
+  - value: énergie molaire
     lang: fr
   quantity_type: derived
   short: molar_energy
@@ -1183,6 +1329,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:molar_entropy
+    type: unitsml
   - id: NISTq74
     type: nist
   names:
@@ -1200,6 +1348,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:exposure_x_and_gamma_rays
+    type: unitsml
   - id: NISTq75
     type: nist
   names:
@@ -1211,12 +1361,14 @@ quantities:
     id: NISTd49
     type: nist
 - identifiers:
+  - id: q:absorbed_dose_rate
+    type: unitsml
   - id: NISTq76
     type: nist
   names:
   - value: absorbed dose rate
     lang: en
-  - value: 'débit de dose absorbée'
+  - value: débit de dose absorbée
     lang: fr
   quantity_type: derived
   short: absorbed_dose_rate
@@ -1228,6 +1380,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:potential_energy
+    type: unitsml
   - id: NISTq77
     type: nist
   names:
@@ -1239,6 +1393,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:irradiance
+    type: unitsml
   - id: NISTq78
     type: nist
   names:
@@ -1250,6 +1406,8 @@ quantities:
     id: NISTd38
     type: nist
 - identifiers:
+  - id: q:entropy
+    type: unitsml
   - id: NISTq79
     type: nist
   names:
@@ -1261,6 +1419,8 @@ quantities:
     id: NISTd39
     type: nist
 - identifiers:
+  - id: q:specific_entropy
+    type: unitsml
   - id: NISTq80
     type: nist
   names:
@@ -1272,12 +1432,14 @@ quantities:
     id: NISTd40
     type: nist
 - identifiers:
+  - id: q:surface_charge_density
+    type: unitsml
   - id: NISTq81
     type: nist
   names:
   - value: surface charge density
     lang: en
-  - value: 'charge électrique surfacique'
+  - value: charge électrique surfacique
     lang: fr
   quantity_type: derived
   short: surface_charge_density
@@ -1289,6 +1451,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:electric_displacement
+    type: unitsml
   - id: NISTq82
     type: nist
   names:
@@ -1300,6 +1464,8 @@ quantities:
     id: NISTd44
     type: nist
 - identifiers:
+  - id: q:molar_heat_capacity
+    type: unitsml
   - id: NISTq83
     type: nist
   names:
@@ -1311,12 +1477,14 @@ quantities:
     id: NISTd48
     type: nist
 - identifiers:
+  - id: q:catalytic_activity_concentration
+    type: unitsml
   - id: NISTq84
     type: nist
   names:
   - value: catalytic activity concentration
     lang: en
-  - value: 'concentration de l’activité catalytique'
+  - value: concentration de l’activité catalytique
     lang: fr
   quantity_type: derived
   short: catalytic_activity_concentration
@@ -1328,12 +1496,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:kinematic_viscosity
+    type: unitsml
   - id: NISTq85
     type: nist
   names:
   - value: kinematic viscosity
     lang: en
-  - value: 'viscosité cinématique'
+  - value: viscosité cinématique
     lang: fr
   quantity_type: derived
   short: kinematic_viscosity
@@ -1345,6 +1515,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:magnetic_field
+    type: unitsml
   - id: NISTq87
     type: nist
   names:
@@ -1356,12 +1528,14 @@ quantities:
     id: NISTd33
     type: nist
 - identifiers:
+  - id: q:radiant_intensity
+    type: unitsml
   - id: NISTq88
     type: nist
   names:
   - value: radiant intensity
     lang: en
-  - value: 'intensité énergétique'
+  - value: intensité énergétique
     lang: fr
   quantity_type: derived
   short: radiant_intensity
@@ -1373,12 +1547,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:radiance
+    type: unitsml
   - id: NISTq89
     type: nist
   names:
   - value: radiance
     lang: en
-  - value: 'luminance énergétique'
+  - value: luminance énergétique
     lang: fr
   quantity_type: derived
   short: radiance
@@ -1390,6 +1566,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:logarithmic_ratio_quantities
+    type: unitsml
   - id: NISTq90
     type: nist
   names:
@@ -1409,6 +1587,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:fluidity
+    type: unitsml
   - id: NISTq91
     type: nist
   names:
@@ -1422,6 +1602,8 @@ quantities:
     id: NISTd52
     type: nist
 - identifiers:
+  - id: q:hydrodynamic_permeability
+    type: unitsml
   - id: NISTq92
     type: nist
   names:
@@ -1433,6 +1615,8 @@ quantities:
     id: NISTd8
     type: nist
 - identifiers:
+  - id: q:refractive_index
+    type: unitsml
   - id: NISTq93
     type: nist
   names:
@@ -1444,6 +1628,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:relative_permeability
+    type: unitsml
   - id: NISTq94
     type: nist
   names:
@@ -1455,6 +1641,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:breadth
+    type: unitsml
   - id: NISTq95
     type: nist
   names:
@@ -1466,6 +1654,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:height
+    type: unitsml
   - id: NISTq96
     type: nist
   names:
@@ -1477,6 +1667,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:thickness
+    type: unitsml
   - id: NISTq97
     type: nist
   names:
@@ -1488,6 +1680,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:radius
+    type: unitsml
   - id: NISTq98
     type: nist
   names:
@@ -1499,6 +1693,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:radial_distance
+    type: unitsml
   - id: NISTq99
     type: nist
   names:
@@ -1510,6 +1706,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:diameter
+    type: unitsml
   - id: NISTq100
     type: nist
   names:
@@ -1521,6 +1719,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:length_of_path
+    type: unitsml
   - id: NISTq101
     type: nist
   names:
@@ -1532,6 +1732,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:cartesian_coordinates
+    type: unitsml
   - id: NISTq102
     type: nist
   names:
@@ -1543,6 +1745,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:position_vector
+    type: unitsml
   - id: NISTq103
     type: nist
   names:
@@ -1554,6 +1758,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:displacement
+    type: unitsml
   - id: NISTq104
     type: nist
   names:
@@ -1565,6 +1771,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:radius_of_curvature
+    type: unitsml
   - id: NISTq105
     type: nist
   names:
@@ -1576,6 +1784,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:curvature
+    type: unitsml
   - id: NISTq106
     type: nist
   names:
@@ -1587,6 +1797,8 @@ quantities:
     id: NISTd29
     type: nist
 - identifiers:
+  - id: q:speed_of_propagation_of_waves
+    type: unitsml
   - id: NISTq107
     type: nist
   names:
@@ -1598,6 +1810,8 @@ quantities:
     id: NISTd11
     type: nist
 - identifiers:
+  - id: q:acceleration_of_free_fall
+    type: unitsml
   - id: NISTq108
     type: nist
   names:
@@ -1609,6 +1823,8 @@ quantities:
     id: NISTd28
     type: nist
 - identifiers:
+  - id: q:period_duration
+    type: unitsml
   - id: NISTq109
     type: nist
   names:
@@ -1622,6 +1838,8 @@ quantities:
     id: NISTd3
     type: nist
 - identifiers:
+  - id: q:time_constant
+    type: unitsml
   - id: NISTq110
     type: nist
   names:
@@ -1633,6 +1851,8 @@ quantities:
     id: NISTd3
     type: nist
 - identifiers:
+  - id: q:rotation
+    type: unitsml
   - id: NISTq111
     type: nist
   names:
@@ -1644,6 +1864,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:rotational_frequency
+    type: unitsml
   - id: NISTq112
     type: nist
   names:
@@ -1655,6 +1877,8 @@ quantities:
     id: NISTd24
     type: nist
 - identifiers:
+  - id: q:angular_frequency
+    type: unitsml
   - id: NISTq113
     type: nist
   names:
@@ -1666,6 +1890,8 @@ quantities:
     id: NISTd24
     type: nist
 - identifiers:
+  - id: q:wavelength
+    type: unitsml
   - id: NISTq114
     type: nist
   names:
@@ -1677,6 +1903,8 @@ quantities:
     id: NISTd1
     type: nist
 - identifiers:
+  - id: q:angular_wavenumber
+    type: unitsml
   - id: NISTq115
     type: nist
   names:
@@ -1690,6 +1918,8 @@ quantities:
     id: NISTd29
     type: nist
 - identifiers:
+  - id: q:phase_velocity
+    type: unitsml
   - id: NISTq116
     type: nist
   names:
@@ -1703,6 +1933,8 @@ quantities:
     id: NISTd11
     type: nist
 - identifiers:
+  - id: q:group_velocity
+    type: unitsml
   - id: NISTq117
     type: nist
   names:
@@ -1716,6 +1948,8 @@ quantities:
     id: NISTd11
     type: nist
 - identifiers:
+  - id: q:level_of_a_field_quantity
+    type: unitsml
   - id: NISTq118
     type: nist
   names:
@@ -1727,6 +1961,8 @@ quantities:
     id: NISTd83
     type: nist
 - identifiers:
+  - id: q:level_of_a_power_quantity
+    type: unitsml
   - id: NISTq119
     type: nist
   names:
@@ -1738,6 +1974,8 @@ quantities:
     id: NISTd84
     type: nist
 - identifiers:
+  - id: q:damping_coefficient
+    type: unitsml
   - id: NISTq120
     type: nist
   names:
@@ -1749,6 +1987,8 @@ quantities:
     id: NISTd24
     type: nist
 - identifiers:
+  - id: q:logarithmic_decrement
+    type: unitsml
   - id: NISTq121
     type: nist
   names:
@@ -1768,6 +2008,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:attenuation_coefficient
+    type: unitsml
   - id: NISTq122
     type: nist
   names:
@@ -1779,6 +2021,8 @@ quantities:
     id: NISTd29
     type: nist
 - identifiers:
+  - id: q:phase_coefficient
+    type: unitsml
   - id: NISTq123
     type: nist
   names:
@@ -1790,6 +2034,8 @@ quantities:
     id: NISTd29
     type: nist
 - identifiers:
+  - id: q:propagation_coefficient
+    type: unitsml
   - id: NISTq124
     type: nist
   names:
@@ -1801,6 +2047,8 @@ quantities:
     id: NISTd29
     type: nist
 - identifiers:
+  - id: q:relative_mass_density
+    type: unitsml
   - id: NISTq125
     type: nist
   names:
@@ -1814,6 +2062,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:linear_density
+    type: unitsml
   - id: NISTq126
     type: nist
   names:
@@ -1827,6 +2077,8 @@ quantities:
     id: NISTd58
     type: nist
 - identifiers:
+  - id: q:mass_moment_of_inertia
+    type: unitsml
   - id: NISTq127
     type: nist
   names:
@@ -1840,6 +2092,8 @@ quantities:
     id: NISTd59
     type: nist
 - identifiers:
+  - id: q:weight
+    type: unitsml
   - id: NISTq128
     type: nist
   names:
@@ -1851,6 +2105,8 @@ quantities:
     id: NISTd12
     type: nist
 - identifiers:
+  - id: q:impulse
+    type: unitsml
   - id: NISTq129
     type: nist
   names:
@@ -1862,6 +2118,8 @@ quantities:
     id: NISTd61
     type: nist
 - identifiers:
+  - id: q:gravitational_constant
+    type: unitsml
   - id: NISTq130
     type: nist
   names:
@@ -1873,6 +2131,8 @@ quantities:
     id: NISTd62
     type: nist
 - identifiers:
+  - id: q:momentum
+    type: unitsml
   - id: NISTq131
     type: nist
   names:
@@ -1884,6 +2144,8 @@ quantities:
     id: NISTd61
     type: nist
 - identifiers:
+  - id: q:moment_of_momentum
+    type: unitsml
   - id: NISTq132
     type: nist
   names:
@@ -1897,6 +2159,8 @@ quantities:
     id: NISTd60
     type: nist
 - identifiers:
+  - id: q:angular_impulse
+    type: unitsml
   - id: NISTq133
     type: nist
   names:
@@ -1908,6 +2172,8 @@ quantities:
     id: NISTd60
     type: nist
 - identifiers:
+  - id: q:normal_stress
+    type: unitsml
   - id: NISTq134
     type: nist
   names:
@@ -1919,6 +2185,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:shear_stress
+    type: unitsml
   - id: NISTq135
     type: nist
   names:
@@ -1930,6 +2198,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:linear_strain
+    type: unitsml
   - id: NISTq136
     type: nist
   names:
@@ -1941,6 +2211,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:shear_strain
+    type: unitsml
   - id: NISTq137
     type: nist
   names:
@@ -1952,6 +2224,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:volume_strain
+    type: unitsml
   - id: NISTq138
     type: nist
   names:
@@ -1963,6 +2237,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:compressibility
+    type: unitsml
   - id: NISTq139
     type: nist
   names:
@@ -1974,6 +2250,8 @@ quantities:
     id: NISTd63
     type: nist
 - identifiers:
+  - id: q:poisson_number
+    type: unitsml
   - id: NISTq140
     type: nist
   names:
@@ -1985,6 +2263,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:modulus_of_elasticity
+    type: unitsml
   - id: NISTq141
     type: nist
   names:
@@ -1996,6 +2276,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:modulus_of_rigidity
+    type: unitsml
   - id: NISTq142
     type: nist
   names:
@@ -2009,6 +2291,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:modulus_of_compression
+    type: unitsml
   - id: NISTq143
     type: nist
   names:
@@ -2022,6 +2306,8 @@ quantities:
     id: NISTd14
     type: nist
 - identifiers:
+  - id: q:second_axial_moment_of_area
+    type: unitsml
   - id: NISTq144
     type: nist
   names:
@@ -2033,6 +2319,8 @@ quantities:
     id: NISTd57
     type: nist
 - identifiers:
+  - id: q:second_polar_moment_of_area
+    type: unitsml
   - id: NISTq145
     type: nist
   names:
@@ -2044,6 +2332,8 @@ quantities:
     id: NISTd57
     type: nist
 - identifiers:
+  - id: q:section_modulus
+    type: unitsml
   - id: NISTq146
     type: nist
   names:
@@ -2055,6 +2345,8 @@ quantities:
     id: NISTd10
     type: nist
 - identifiers:
+  - id: q:dynamic_friction_factor
+    type: unitsml
   - id: NISTq147
     type: nist
   names:
@@ -2066,6 +2358,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:mass_flow_rate
+    type: unitsml
   - id: NISTq150
     type: nist
   names:
@@ -2077,6 +2371,8 @@ quantities:
     id: NISTd65
     type: nist
 - identifiers:
+  - id: q:volume_flow_rate
+    type: unitsml
   - id: NISTq151
     type: nist
   names:
@@ -2088,6 +2384,8 @@ quantities:
     id: NISTd66
     type: nist
 - identifiers:
+  - id: q:lagrange_function
+    type: unitsml
   - id: NISTq152
     type: nist
   names:
@@ -2099,6 +2397,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:hamilton_function
+    type: unitsml
   - id: NISTq153
     type: nist
   names:
@@ -2110,6 +2410,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:action
+    type: unitsml
   - id: NISTq154
     type: nist
   names:
@@ -2121,6 +2423,8 @@ quantities:
     id: NISTd60
     type: nist
 - identifiers:
+  - id: q:area_moment_of_inertia
+    type: unitsml
   - id: NISTq155
     type: nist
   names:
@@ -2134,6 +2438,8 @@ quantities:
     id: NISTd57
     type: nist
 - identifiers:
+  - id: q:linear_expansion_coefficient
+    type: unitsml
   - id: NISTq156
     type: nist
   names:
@@ -2145,6 +2451,8 @@ quantities:
     id: NISTd68
     type: nist
 - identifiers:
+  - id: q:cubic_expansion_coefficient
+    type: unitsml
   - id: NISTq157
     type: nist
   names:
@@ -2156,6 +2464,8 @@ quantities:
     id: NISTd68
     type: nist
 - identifiers:
+  - id: q:relative_pressure_coefficient
+    type: unitsml
   - id: NISTq158
     type: nist
   names:
@@ -2167,6 +2477,8 @@ quantities:
     id: NISTd68
     type: nist
 - identifiers:
+  - id: q:pressure_coefficient
+    type: unitsml
   - id: NISTq159
     type: nist
   names:
@@ -2178,6 +2490,8 @@ quantities:
     id: NISTd69
     type: nist
 - identifiers:
+  - id: q:isothermal_compressibility
+    type: unitsml
   - id: NISTq160
     type: nist
   names:
@@ -2189,6 +2503,8 @@ quantities:
     id: NISTd70
     type: nist
 - identifiers:
+  - id: q:magnetomotive_force
+    type: unitsml
   - id: NISTq161
     type: nist
   names:
@@ -2200,6 +2516,8 @@ quantities:
     id: NISTd4
     type: nist
 - identifiers:
+  - id: q:electric_dipole_moment
+    type: unitsml
   - id: NISTq162
     type: nist
   names:
@@ -2211,6 +2529,8 @@ quantities:
     id: NISTd72
     type: nist
 - identifiers:
+  - id: q:magnetizability
+    type: unitsml
   - id: NISTq163
     type: nist
   names:
@@ -2222,6 +2542,8 @@ quantities:
     id: NISTd54
     type: nist
 - identifiers:
+  - id: q:magnetic_dipole_moment
+    type: unitsml
   - id: NISTq164
     type: nist
   names:
@@ -2233,6 +2555,8 @@ quantities:
     id: NISTd73
     type: nist
 - identifiers:
+  - id: q:electric_field_gradient
+    type: unitsml
   - id: NISTq165
     type: nist
   names:
@@ -2244,6 +2568,8 @@ quantities:
     id: NISTd74
     type: nist
 - identifiers:
+  - id: q:electric_potential
+    type: unitsml
   - id: NISTq166
     type: nist
   names:
@@ -2255,6 +2581,8 @@ quantities:
     id: NISTd18
     type: nist
 - identifiers:
+  - id: q:electric_quadrupole_moment
+    type: unitsml
   - id: NISTq167
     type: nist
   names:
@@ -2266,6 +2594,8 @@ quantities:
     id: NISTd75
     type: nist
 - identifiers:
+  - id: q:polarizability
+    type: unitsml
   - id: NISTq168
     type: nist
   names:
@@ -2277,6 +2607,8 @@ quantities:
     id: NISTd76
     type: nist
 - identifiers:
+  - id: q:electric_capacitance
+    type: unitsml
   - id: NISTq169
     type: nist
   names:
@@ -2288,6 +2620,8 @@ quantities:
     id: NISTd19
     type: nist
 - identifiers:
+  - id: q:electric_current_intensity
+    type: unitsml
   - id: NISTq170
     type: nist
   names:
@@ -2299,6 +2633,8 @@ quantities:
     id: NISTd4
     type: nist
 - identifiers:
+  - id: q:electric_inductance
+    type: unitsml
   - id: NISTq171
     type: nist
   names:
@@ -2310,6 +2646,8 @@ quantities:
     id: NISTd23
     type: nist
 - identifiers:
+  - id: q:first_hyperpolarizability
+    type: unitsml
   - id: NISTq172
     type: nist
   names:
@@ -2321,6 +2659,8 @@ quantities:
     id: NISTd77
     type: nist
 - identifiers:
+  - id: q:second_hyperpolarizability
+    type: unitsml
   - id: NISTq173
     type: nist
   names:
@@ -2332,6 +2672,8 @@ quantities:
     id: NISTd78
     type: nist
 - identifiers:
+  - id: q:index_of_acidity
+    type: unitsml
   - id: NISTq174
     type: nist
   names:
@@ -2343,6 +2685,8 @@ quantities:
     id: NISTd94
     type: nist
 - identifiers:
+  - id: q:fahrenheit_temperature
+    type: unitsml
   - id: NISTq175
     type: nist
   names:
@@ -2354,6 +2698,8 @@ quantities:
     id: NISTd5
     type: nist
 - identifiers:
+  - id: q:mass_divided_by_length
+    type: unitsml
   - id: NISTq176
     type: nist
   names:
@@ -2365,6 +2711,8 @@ quantities:
     id: NISTd58
     type: nist
 - identifiers:
+  - id: q:storage_capacity
+    type: unitsml
   - id: NISTq177
     type: nist
   names:
@@ -2378,6 +2726,8 @@ quantities:
     id: NISTd95
     type: nist
 - identifiers:
+  - id: q:molality_of_solute_B
+    type: unitsml
   - id: NISTq179
     type: nist
   names:
@@ -2389,6 +2739,8 @@ quantities:
     id: NISTd79
     type: nist
 - identifiers:
+  - id: q:coefficient_of_heat_transfer
+    type: unitsml
   - id: NISTq180
     type: nist
   names:
@@ -2400,6 +2752,8 @@ quantities:
     id: NISTd71
     type: nist
 - identifiers:
+  - id: q:surface_coefficient_of_heat_transfer
+    type: unitsml
   - id: NISTq181
     type: nist
   names:
@@ -2411,6 +2765,8 @@ quantities:
     id: NISTd71
     type: nist
 - identifiers:
+  - id: q:kinetic_energy
+    type: unitsml
   - id: NISTq182
     type: nist
   names:
@@ -2422,6 +2778,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:mechanical_energy
+    type: unitsml
   - id: NISTq183
     type: nist
   names:
@@ -2433,6 +2791,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:torque
+    type: unitsml
   - id: NISTq184
     type: nist
   names:
@@ -2444,6 +2804,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:bending_moment_of_force
+    type: unitsml
   - id: NISTq185
     type: nist
   names:
@@ -2455,6 +2817,8 @@ quantities:
     id: NISTd15
     type: nist
 - identifiers:
+  - id: q:mass_fraction
+    type: unitsml
   - id: NISTq186
     type: nist
   names:
@@ -2468,6 +2832,8 @@ quantities:
     id: NISTd85
     type: nist
 - identifiers:
+  - id: q:apparent_power
+    type: unitsml
   - id: NISTq187
     type: nist
   names:
@@ -2479,6 +2845,8 @@ quantities:
     id: NISTd16
     type: nist
 - identifiers:
+  - id: q:nil
+    type: unitsml
   - id: NISTq188
     type: nist
   names:
@@ -2490,6 +2858,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:emission_rate
+    type: unitsml
   - id: NISTq189
     type: nist
   names:
@@ -2507,6 +2877,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:fluence
+    type: unitsml
   - id: NISTq190
     type: nist
   names:
@@ -2524,6 +2896,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:fluence_rate
+    type: unitsml
   - id: NISTq191
     type: nist
   names:
@@ -2541,6 +2915,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:ITS-90_temperature_celsius
+    type: unitsml
   - id: NISTq192
     type: nist
   names:
@@ -2558,6 +2934,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:ITS-90_temperature_kelvin
+    type: unitsml
   - id: NISTq193
     type: nist
   names:
@@ -2575,6 +2953,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:kerma_rate
+    type: unitsml
   - id: NISTq194
     type: nist
   names:
@@ -2592,6 +2972,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:phase
+    type: unitsml
   - id: NISTq195
     type: nist
   names:
@@ -2609,6 +2991,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:PLTS-2000_temperature
+    type: unitsml
   - id: NISTq196
     type: nist
   names:
@@ -2626,12 +3010,14 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:exposure
+    type: unitsml
   - id: NISTq197
     type: nist
   names:
   - value: exposure
     lang: en
-  - value: 'exposition (rayons x et γ)'
+  - value: exposition (rayons x et γ)
     lang: fr
   quantity_type: derived
   short: exposure
@@ -2643,6 +3029,8 @@ quantities:
     type: normative
     authority: si-digital-framework
 - identifiers:
+  - id: q:fuel_efficiency
+    type: unitsml
   - id: NISTq198
     type: nist
   names:
@@ -2656,6 +3044,8 @@ quantities:
     id: NISTd99
     type: nist
 - identifiers:
+  - id: q:relative_humidity
+    type: unitsml
   - id: NISTq199
     type: nist
   names:
@@ -2667,6 +3057,8 @@ quantities:
     id: NISTd80
     type: nist
 - identifiers:
+  - id: q:logarithmic_frequency_range
+    type: unitsml
   - id: NISTq200
     type: nist
   names:
@@ -2678,6 +3070,8 @@ quantities:
     id: NISTd67
     type: nist
 - identifiers:
+  - id: q:traffic_intensity
+    type: unitsml
   - id: NISTq201
     type: nist
   names:
@@ -2689,6 +3083,8 @@ quantities:
     id: NISTd100
     type: nist
 - identifiers:
+  - id: q:symbol_rate
+    type: unitsml
   - id: NISTq202
     type: nist
   names:
@@ -2700,6 +3096,8 @@ quantities:
     id: NISTd101
     type: nist
 - identifiers:
+  - id: q:information_content
+    type: unitsml
   - id: NISTq203
     type: nist
   names:
