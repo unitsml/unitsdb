@@ -983,7 +983,32 @@ $ unitsdb release --format=yaml --database={unitsdb_yaml_dir} --output-dir=relea
 
 # Create only ZIP archive
 $ unitsdb release --format=zip --database={unitsdb_yaml_dir} --output-dir=release
+
+# Specify a custom version
+$ unitsdb release --version=2.1.0 --database={unitsdb_yaml_dir} --output-dir=release
 ----
+
+=== Automated releases with GitHub Actions
+
+This repository includes a GitHub Actions workflow that automatically creates
+release artifacts when a new version tag is pushed. To create a new release:
+
+. Tag the repository with the version number (prefixed with 'v'):
++
+[source,bash]
+----
+$ git tag v2.1.0
+$ git push origin v2.1.0
+----
+
+. The GitHub Actions workflow will automatically:
+
+** Generate the unified YAML file
+** Create a ZIP archive of all database files
+** Upload both files as release assets
+** Create a GitHub release with the tag name
+
+The release artifacts will be available on the GitHub releases page.
 
 The unified YAML file combines all database files into a single file for easier
 integration:
