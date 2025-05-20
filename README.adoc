@@ -982,7 +982,10 @@ $ unitsdb release --database={unitsdb_yaml_dir} --output-dir=release
 $ unitsdb release --format=yaml --database={unitsdb_yaml_dir} --output-dir=release
 
 # Create only ZIP archive
-$ unitsdb release --format=zip --database={unitsdb_yaml_dir} --output-dir=release
+$ unitsdb release --format=zip --database={unitsdb_yaml_dir} --output-dir=release --version=2.1.0
+
+# Specify a version (required)
+$ unitsdb release --version=2.1.0 --database={unitsdb_yaml_dir} --output-dir=release
 
 # Specify a custom version
 $ unitsdb release --version=2.1.0 --database={unitsdb_yaml_dir} --output-dir=release

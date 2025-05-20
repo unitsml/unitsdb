@@ -6,11 +6,9 @@ on:
     tags: [ v* ]
     paths:
       - '*.yaml'
-      - 'spec/**/*'
   pull_request:
     paths:
       - '*.yaml'
-      - 'spec/**/*'
   workflow_dispatch:
 
 jobs:
@@ -24,16 +22,15 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
-          working-directory: ./scripts
 
-      - name: Run tests
-        working-directory: ./scripts
-        run: bundle exec rspec ../spec --format documentation
+      - name: Install unitsdb gem
+        run: gem install unitsdb
 
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: rspec-results
-          path: scripts/tmp/rspec_results.html
-          if-no-files-found: ignore
+      - name: Validate identifiers
+        run: unitsdb validate identifiers --database=.
+
+      - name: Validate references
+        run: unitsdb validate references --database=.
+
+      - name: Validate SI references
+        run: unitsdb validate si_references --database=.
