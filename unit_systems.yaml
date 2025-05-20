@@ -2,72 +2,72 @@
 schema_version: 2.0.0
 unit_systems:
 - acceptable: true
-  short: si-compatible
   identifiers:
-  - id: us:si-compatible
-    type: unitsml
-  - id: SI_compatible
-    type: nist
-  names:
-  - value: Units compatible with SI
-    lang: en
-- acceptable: true
-  short: si-base
-  identifiers:
-  - id: us:si-base
-    type: unitsml
-  - id: SI_base
-    type: nist
+  - type: nist
+    id: SI_base
+  - type: unitsml
+    id: us:si-base
   names:
   - value: SI base units
     lang: en
+  short: si-base
 - acceptable: true
-  short: si-derived-special
   identifiers:
-  - id: us:si-derived-special
-    type: unitsml
-  - id: SI_derived_special
-    type: nist
+  - type: nist
+    id: SI_compatible
+  - type: unitsml
+    id: us:si-compatible
   names:
-  - value: SI-derived units special
+  - value: Units compatible with SI
     lang: en
+  short: si-compatible
 - acceptable: true
-  short: si-derived-nonspecial
   identifiers:
-  - id: us:si-derived-nonspecial
-    type: unitsml
-  - id: SI_derived_non-special
-    type: nist
+  - type: nist
+    id: SI_derived_non-special
+  - type: unitsml
+    id: us:si-derived-nonspecial
   names:
   - value: SI-derived units non-special
     lang: en
+  short: si-derived-nonspecial
 - acceptable: true
-  short: nonsi-acceptable
   identifiers:
-  - id: us:nonsi-acceptable
-    type: unitsml
-  - id: non-SI_acceptable
-    type: nist
+  - type: nist
+    id: SI_derived_special
+  - type: unitsml
+    id: us:si-derived-special
+  names:
+  - value: SI-derived units special
+    lang: en
+  short: si-derived-special
+- acceptable: true
+  identifiers:
+  - type: nist
+    id: non-SI_acceptable
+  - type: unitsml
+    id: us:nonsi-acceptable
   names:
   - value: non-SI but acceptable
     lang: en
+  short: nonsi-acceptable
 - acceptable: true
-  short: nonsi-nist-acceptable
   identifiers:
-  - id: us:nonsi-nist-acceptable
-    type: unitsml
-  - id: non-SI_nist_acceptable
-    type: nist
+  - type: nist
+    id: non-SI_nist_acceptable
+  - type: unitsml
+    id: us:nonsi-nist-acceptable
   names:
   - value: non-SI but acceptable by NIST SP 811
     lang: en
+  short: nonsi-nist-acceptable
 - acceptable: false
-  short: nonsi-unacceptable
   identifiers:
-  - id: us:nonsi-unacceptable
-    type: unitsml
-  - id: non-SI_not_acceptable
-    type: nist
+  - type: nist
+    id: non-SI_not_acceptable
+  - type: unitsml
+    id: us:nonsi-unacceptable
   names:
   - value: non-SI and not acceptable
     lang: en
+  short: nonsi-unacceptable

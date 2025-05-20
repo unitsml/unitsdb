@@ -2,49 +2,422 @@
 schema_version: 2.0.0
 dimensions:
 - identifiers:
-  - id: d:length
-    type: unitsml
-  - id: NISTd1
-    type: nist
+  - type: nist
+    id: NISTd1
+  - type: unitsml
+    id: d:length
   length:
     power: 1
     symbol: L
     symbols:
-    - ascii: L
+    - latex: "\\ensuremath{\\mathsf{L}}"
+      unicode: "\U0001D5AB"
+      ascii: L
       html: "&#x1D5AB;"
       id: dim_L
-      latex: "\\ensuremath{\\mathsf{L}}"
       mathml: "<mi mathvariant='sans-serif'>L</mi>"
-      unicode: "\U0001D5AB"
-  short: length
   names:
   - value: length
     lang: en
+  short: length
 - identifiers:
-  - id: d:mass
-    type: unitsml
-  - id: NISTd2
-    type: nist
+  - type: nist
+    id: NISTd10
+  - type: unitsml
+    id: d:volume
+  length:
+    power: 3
+    symbol: L
+  names:
+  - value: volume
+    lang: en
+  short: volume
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd100
+  - type: unitsml
+    id: d:traffic_intensity
+  names:
+  - value: traffic intensity
+    lang: en
+  short: traffic_intensity
+- identifiers:
+  - type: nist
+    id: NISTd101
+  - type: unitsml
+    id: d:symbol_rate
+  names:
+  - value: symbol rate
+    lang: en
+  time:
+    power: -1
+    symbol: T
+  short: symbol_rate
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd102
+  - type: unitsml
+    id: d:information_content
+  names:
+  - value: information content
+    lang: en
+  short: information_content
+- identifiers:
+  - type: nist
+    id: NISTd11
+  - type: unitsml
+    id: d:velocity
+  length:
+    power: 1
+    symbol: L
+  names:
+  - value: velocity
+    lang: en
+  time:
+    power: -1
+    symbol: T
+  short: velocity
+- identifiers:
+  - type: nist
+    id: NISTd12
+  - type: unitsml
+    id: d:force
+  length:
+    power: 1
+    symbol: L
+  names:
+  - value: force
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: force
+- electric_current:
+    power: -1
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd13
+  - type: unitsml
+    id: d:magnetic_flux_density
+  names:
+  - value: magnetic flux density
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: magnetic_flux_density
+- identifiers:
+  - type: nist
+    id: NISTd14
+  - type: unitsml
+    id: d:pressure
+  length:
+    power: -1
+    symbol: L
+  names:
+  - value: pressure
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: pressure
+- identifiers:
+  - type: nist
+    id: NISTd15
+  - type: unitsml
+    id: d:energy
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: energy
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: energy
+- identifiers:
+  - type: nist
+    id: NISTd16
+  - type: unitsml
+    id: d:power
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: power
+    lang: en
+  time:
+    power: -3
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: power
+- electric_current:
+    power: 1
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd17
+  - type: unitsml
+    id: d:electric_charge
+  names:
+  - value: electric charge
+    lang: en
+  time:
+    power: 1
+    symbol: T
+  short: electric_charge
+- electric_current:
+    power: -1
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd18
+  - type: unitsml
+    id: d:electric_potential_difference
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: electric potential difference
+    lang: en
+  time:
+    power: -3
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: electric_potential_difference
+- electric_current:
+    power: 2
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd19
+  - type: unitsml
+    id: d:capacitance
+  length:
+    power: -2
+    symbol: L
+  names:
+  - value: capacitance
+    lang: en
+  time:
+    power: 4
+    symbol: T
+  mass:
+    power: -1
+    symbol: M
+  short: capacitance
+- identifiers:
+  - type: nist
+    id: NISTd2
+  - type: unitsml
+    id: d:mass
+  names:
+  - value: mass
+    lang: en
   mass:
     power: 1
     symbol: M
     symbols:
-    - ascii: M
+    - latex: "\\ensuremath{\\mathsf{M}}"
+      unicode: "\U0001D5AC"
+      ascii: M
       html: "&#x1D5AC;"
       id: dim_M
-      latex: "\\ensuremath{\\mathsf{M}}"
       mathml: "<mi mathvariant='sans-serif'>M</mi>"
-      unicode: "\U0001D5AC"
   short: mass
+- electric_current:
+    power: -2
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd20
+  - type: unitsml
+    id: d:electric_resistance
+  length:
+    power: 2
+    symbol: L
   names:
-  - value: mass
+  - value: electric resistance
     lang: en
+  time:
+    power: -3
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: electric_resistance
+- electric_current:
+    power: 2
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd21
+  - type: unitsml
+    id: d:electric_conductance
+  length:
+    power: -2
+    symbol: L
+  names:
+  - value: electric conductance
+    lang: en
+  time:
+    power: 3
+    symbol: T
+  mass:
+    power: -1
+    symbol: M
+  short: electric_conductance
+- electric_current:
+    power: -1
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd22
+  - type: unitsml
+    id: d:magnetic_flux
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: magnetic flux
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: magnetic_flux
+- electric_current:
+    power: -2
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd23
+  - type: unitsml
+    id: d:inductance
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: inductance
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: inductance
 - identifiers:
-  - id: d:time
-    type: unitsml
-  - id: NISTd3
-    type: nist
-  short: time
+  - type: nist
+    id: NISTd24
+  - type: unitsml
+    id: d:frequency
+  names:
+  - value: frequency
+    lang: en
+  time:
+    power: -1
+    symbol: T
+  short: frequency
+- identifiers:
+  - type: nist
+    id: NISTd25
+  - type: unitsml
+    id: d:absorbed_dose
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: absorbed dose
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  short: absorbed_dose
+- amount_of_substance:
+    power: 1
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd26
+  - type: unitsml
+    id: d:catalytic_activity
+  names:
+  - value: catalytic activity
+    lang: en
+  time:
+    power: -1
+    symbol: T
+  short: catalytic_activity
+- identifiers:
+  - type: nist
+    id: NISTd27
+  - type: unitsml
+    id: d:illuminance
+  length:
+    power: -2
+    symbol: L
+  luminous_intensity:
+    power: 1
+    symbol: J
+  names:
+  - value: illuminance
+    lang: en
+  short: illuminance
+- identifiers:
+  - type: nist
+    id: NISTd28
+  - type: unitsml
+    id: d:acceleration
+  length:
+    power: 1
+    symbol: L
+  names:
+  - value: acceleration
+    lang: en
+  time:
+    power: -2
+    symbol: T
+  short: acceleration
+- identifiers:
+  - type: nist
+    id: NISTd29
+  - type: unitsml
+    id: d:wavenumber
+  length:
+    power: -1
+    symbol: L
+  names:
+  - value: wavenumber
+    lang: en
+  short: wavenumber
+- identifiers:
+  - type: nist
+    id: NISTd3
+  - type: unitsml
+    id: d:time
   names:
   - value: time
     lang: en
@@ -52,609 +425,156 @@ dimensions:
     power: 1
     symbol: T
     symbols:
-    - ascii: T
+    - latex: "\\ensuremath{\\mathsf{T}}"
+      unicode: "\U0001D5B3"
+      ascii: T
       html: "&#x1D5B3;"
       id: dim_T
-      latex: "\\ensuremath{\\mathsf{T}}"
       mathml: "<mi mathvariant='sans-serif'>T</mi>"
-      unicode: "\U0001D5B3"
+  short: time
 - identifiers:
-  - id: d:electric_current
-    type: unitsml
-  - id: NISTd4
-    type: nist
-  electric_current:
-    power: 1
-    symbol: I
-    symbols:
-    - ascii: I
-      html: "&#x1D5A8;"
-      id: dim_I
-      latex: "\\ensuremath{\\mathsf{I}}"
-      mathml: "<mi mathvariant='sans-serif'>I</mi>"
-      unicode: "\U0001D5A8"
-  short: electric_current
-  names:
-  - value: electric current
-    lang: en
-- identifiers:
-  - id: d:temperature
-    type: unitsml
-  - id: NISTd5
-    type: nist
-  short: temperature
-  names:
-  - value: temperature
-    lang: en
-  thermodynamic_temperature:
-    power: 1
-    symbol: Theta
-    symbols:
-    - ascii: Theta
-      html: "&#x1D760;"
-      id: dim_Theta
-      latex: "\\ensuremath{\\mathsf{\\Theta}}"
-      mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
-      unicode: "\U0001D767"
-- identifiers:
-  - id: d:substance_amount
-    type: unitsml
-  - id: NISTd6
-    type: nist
-  amount_of_substance:
-    power: 1
-    symbol: "N"
-    symbols:
-    - ascii: "N"
-      html: "&#x1D5AD;"
-      id: dim_N
-      latex: "\\ensuremath{\\mathsf{N}}"
-      mathml: "<mi mathvariant='sans-serif'>N</mi>"
-      unicode: "\U0001D5AD"
-  short: substance_amount
-  names:
-  - value: substance amount
-    lang: en
-- identifiers:
-  - id: d:luminous_intensity
-    type: unitsml
-  - id: NISTd7
-    type: nist
-  luminous_intensity:
-    power: 1
-    symbol: J
-    symbols:
-    - ascii: J
-      html: "&#x1D5A9;"
-      id: dim_J
-      latex: "\\ensuremath{\\mathsf{J}}"
-      mathml: "<mi mathvariant='sans-serif'>J</mi>"
-      unicode: "\U0001D5A9"
-  short: luminous_intensity
-  names:
-  - value: luminous intensity
-    lang: en
-- identifiers:
-  - id: d:area
-    type: unitsml
-  - id: NISTd8
-    type: nist
-  length:
-    power: 2
-    symbol: L
-  short: area
-  names:
-  - value: area
-    lang: en
-- identifiers:
-  - id: d:plane_angle
-    type: unitsml
-  - id: NISTd9
-    type: nist
-  dimensionless: true
-  plane_angle:
-    power: 1
-    symbol: phi
-    symbols:
-    - ascii: phi
-      html: "&#x1D785;"
-      id: dim_phi
-      latex: "\\ensuremath{\\mathsf{\\phi}}"
-      mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
-      unicode: "\U0001D785"
-  short: plane_angle
-  names:
-  - value: plane angle
-    lang: en
-- identifiers:
-  - id: d:volume
-    type: unitsml
-  - id: NISTd10
-    type: nist
-  length:
-    power: 3
-    symbol: L
-  short: volume
-  names:
-  - value: volume
-    lang: en
-- identifiers:
-  - id: d:velocity
-    type: unitsml
-  - id: NISTd11
-    type: nist
-  length:
-    power: 1
-    symbol: L
-  short: velocity
-  names:
-  - value: velocity
-    lang: en
-  time:
-    power: -1
-    symbol: T
-- identifiers:
-  - id: d:force
-    type: unitsml
-  - id: NISTd12
-    type: nist
-  length:
-    power: 1
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: force
-  names:
-  - value: force
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:magnetic_flux_density
-    type: unitsml
-  - id: NISTd13
-    type: nist
-  electric_current:
-    power: -1
-    symbol: I
-  mass:
-    power: 1
-    symbol: M
-  short: magnetic_flux_density
-  names:
-  - value: magnetic flux density
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:pressure
-    type: unitsml
-  - id: NISTd14
-    type: nist
-  length:
-    power: -1
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: pressure
-  names:
-  - value: pressure
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:energy
-    type: unitsml
-  - id: NISTd15
-    type: nist
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: energy
-  names:
-  - value: energy
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:power
-    type: unitsml
-  - id: NISTd16
-    type: nist
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: power
-  names:
-  - value: power
-    lang: en
-  time:
-    power: -3
-    symbol: T
-- identifiers:
-  - id: d:electric_charge
-    type: unitsml
-  - id: NISTd17
-    type: nist
-  electric_current:
-    power: 1
-    symbol: I
-  short: electric_charge
-  names:
-  - value: electric charge
-    lang: en
-  time:
-    power: 1
-    symbol: T
-- identifiers:
-  - id: d:electric_potential_difference
-    type: unitsml
-  - id: NISTd18
-    type: nist
-  electric_current:
-    power: -1
-    symbol: I
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: electric_potential_difference
-  names:
-  - value: electric potential difference
-    lang: en
-  time:
-    power: -3
-    symbol: T
-- identifiers:
-  - id: d:capacitance
-    type: unitsml
-  - id: NISTd19
-    type: nist
-  electric_current:
-    power: 2
-    symbol: I
-  length:
-    power: -2
-    symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: capacitance
-  names:
-  - value: capacitance
-    lang: en
-  time:
-    power: 4
-    symbol: T
-- identifiers:
-  - id: d:electric_resistance
-    type: unitsml
-  - id: NISTd20
-    type: nist
-  electric_current:
-    power: -2
-    symbol: I
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: electric_resistance
-  names:
-  - value: electric resistance
-    lang: en
-  time:
-    power: -3
-    symbol: T
-- identifiers:
-  - id: d:electric_conductance
-    type: unitsml
-  - id: NISTd21
-    type: nist
-  electric_current:
-    power: 2
-    symbol: I
-  length:
-    power: -2
-    symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: electric_conductance
-  names:
-  - value: electric conductance
-    lang: en
-  time:
-    power: 3
-    symbol: T
-- identifiers:
-  - id: d:magnetic_flux
-    type: unitsml
-  - id: NISTd22
-    type: nist
-  electric_current:
-    power: -1
-    symbol: I
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: magnetic_flux
-  names:
-  - value: magnetic flux
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:inductance
-    type: unitsml
-  - id: NISTd23
-    type: nist
-  electric_current:
-    power: -2
-    symbol: I
-  length:
-    power: 2
-    symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: inductance
-  names:
-  - value: inductance
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:frequency
-    type: unitsml
-  - id: NISTd24
-    type: nist
-  short: frequency
-  names:
-  - value: frequency
-    lang: en
-  time:
-    power: -1
-    symbol: T
-- identifiers:
-  - id: d:absorbed_dose
-    type: unitsml
-  - id: NISTd25
-    type: nist
-  length:
-    power: 2
-    symbol: L
-  short: absorbed_dose
-  names:
-  - value: absorbed dose
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:catalytic_activity
-    type: unitsml
-  - id: NISTd26
-    type: nist
-  amount_of_substance:
-    power: 1
-    symbol: "N"
-  short: catalytic_activity
-  names:
-  - value: catalytic activity
-    lang: en
-  time:
-    power: -1
-    symbol: T
-- identifiers:
-  - id: d:illuminance
-    type: unitsml
-  - id: NISTd27
-    type: nist
-  length:
-    power: -2
-    symbol: L
-  luminous_intensity:
-    power: 1
-    symbol: J
-  short: illuminance
-  names:
-  - value: illuminance
-    lang: en
-- identifiers:
-  - id: d:acceleration
-    type: unitsml
-  - id: NISTd28
-    type: nist
-  length:
-    power: 1
-    symbol: L
-  short: acceleration
-  names:
-  - value: acceleration
-    lang: en
-  time:
-    power: -2
-    symbol: T
-- identifiers:
-  - id: d:wavenumber
-    type: unitsml
-  - id: NISTd29
-    type: nist
-  length:
-    power: -1
-    symbol: L
-  short: wavenumber
-  names:
-  - value: wavenumber
-    lang: en
-- identifiers:
-  - id: d:mass_density
-    type: unitsml
-  - id: NISTd30
-    type: nist
+  - type: nist
+    id: NISTd30
+  - type: unitsml
+    id: d:mass_density
   length:
     power: -3
     symbol: L
+  names:
+  - value: mass density
+    lang: en
   mass:
     power: 1
     symbol: M
   short: mass_density
-  names:
-  - value: mass density
-    lang: en
 - identifiers:
-  - id: d:specific_volume
-    type: unitsml
-  - id: NISTd31
-    type: nist
+  - type: nist
+    id: NISTd31
+  - type: unitsml
+    id: d:specific_volume
   length:
     power: 3
     symbol: L
+  names:
+  - value: specific volume
+    lang: en
   mass:
     power: -1
     symbol: M
   short: specific_volume
-  names:
-  - value: specific volume
-    lang: en
-- identifiers:
-  - id: d:current_density
-    type: unitsml
-  - id: NISTd32
-    type: nist
-  electric_current:
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd32
+  - type: unitsml
+    id: d:current_density
   length:
     power: -2
     symbol: L
-  short: current_density
   names:
   - value: current density
     lang: en
-- identifiers:
-  - id: d:magnetic_field_strength
-    type: unitsml
-  - id: NISTd33
-    type: nist
-  electric_current:
+  short: current_density
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd33
+  - type: unitsml
+    id: d:magnetic_field_strength
   length:
     power: -1
     symbol: L
-  short: magnetic_field_strength
   names:
   - value: magnetic field strength
     lang: en
-- identifiers:
-  - id: d:concentration
-    type: unitsml
-  - id: NISTd34
-    type: nist
-  amount_of_substance:
+  short: magnetic_field_strength
+- amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd34
+  - type: unitsml
+    id: d:concentration
   length:
     power: -3
     symbol: L
-  short: concentration
   names:
   - value: concentration
     lang: en
+  short: concentration
 - identifiers:
-  - id: d:angular_acceleration
-    type: unitsml
-  - id: NISTd35
-    type: nist
-  short: angular_acceleration
+  - type: nist
+    id: NISTd35
+  - type: unitsml
+    id: d:angular_acceleration
   names:
   - value: angular acceleration
     lang: en
   time:
     power: -2
     symbol: T
+  short: angular_acceleration
 - identifiers:
-  - id: d:dynamic_viscosity
-    type: unitsml
-  - id: NISTd36
-    type: nist
+  - type: nist
+    id: NISTd36
+  - type: unitsml
+    id: d:dynamic_viscosity
   length:
     power: -1
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: dynamic_viscosity
   names:
   - value: dynamic viscosity
     lang: en
   time:
     power: -1
     symbol: T
-- identifiers:
-  - id: d:surface_tension
-    type: unitsml
-  - id: NISTd37
-    type: nist
   mass:
     power: 1
     symbol: M
-  short: surface_tension
+  short: dynamic_viscosity
+- identifiers:
+  - type: nist
+    id: NISTd37
+  - type: unitsml
+    id: d:surface_tension
   names:
   - value: surface tension
     lang: en
   time:
     power: -2
     symbol: T
-- identifiers:
-  - id: d:heat_flux_density
-    type: unitsml
-  - id: NISTd38
-    type: nist
   mass:
     power: 1
     symbol: M
-  short: heat_flux_density
+  short: surface_tension
+- identifiers:
+  - type: nist
+    id: NISTd38
+  - type: unitsml
+    id: d:heat_flux_density
   names:
   - value: heat flux density
     lang: en
   time:
     power: -3
     symbol: T
-- identifiers:
-  - id: d:heat_capacity
-    type: unitsml
-  - id: NISTd39
-    type: nist
-  length:
-    power: 2
-    symbol: L
   mass:
     power: 1
     symbol: M
-  short: heat_capacity
+  short: heat_flux_density
+- identifiers:
+  - type: nist
+    id: NISTd39
+  - type: unitsml
+    id: d:heat_capacity
+  length:
+    power: 2
+    symbol: L
   names:
   - value: heat capacity
     lang: en
@@ -664,15 +584,37 @@ dimensions:
   time:
     power: -2
     symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: heat_capacity
+- electric_current:
+    power: 1
+    symbol: I
+    symbols:
+    - latex: "\\ensuremath{\\mathsf{I}}"
+      unicode: "\U0001D5A8"
+      ascii: I
+      html: "&#x1D5A8;"
+      id: dim_I
+      mathml: "<mi mathvariant='sans-serif'>I</mi>"
+  identifiers:
+  - type: nist
+    id: NISTd4
+  - type: unitsml
+    id: d:electric_current
+  names:
+  - value: electric current
+    lang: en
+  short: electric_current
 - identifiers:
-  - id: d:specific_heat_capacity
-    type: unitsml
-  - id: NISTd40
-    type: nist
+  - type: nist
+    id: NISTd40
+  - type: unitsml
+    id: d:specific_heat_capacity
   length:
     power: 2
     symbol: L
-  short: specific_heat_capacity
   names:
   - value: specific heat capacity
     lang: en
@@ -682,18 +624,15 @@ dimensions:
   time:
     power: -2
     symbol: T
+  short: specific_heat_capacity
 - identifiers:
-  - id: d:thermal_conductivity
-    type: unitsml
-  - id: NISTd41
-    type: nist
+  - type: nist
+    id: NISTd41
+  - type: unitsml
+    id: d:thermal_conductivity
   length:
     power: 1
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: thermal_conductivity
   names:
   - value: thermal conductivity
     lang: en
@@ -703,141 +642,141 @@ dimensions:
   time:
     power: -3
     symbol: T
-- identifiers:
-  - id: d:electric_field_strength
-    type: unitsml
-  - id: NISTd42
-    type: nist
-  electric_current:
-    power: -1
-    symbol: I
-  length:
-    power: 1
-    symbol: L
   mass:
     power: 1
     symbol: M
-  short: electric_field_strength
+  short: thermal_conductivity
+- electric_current:
+    power: -1
+    symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd42
+  - type: unitsml
+    id: d:electric_field_strength
+  length:
+    power: 1
+    symbol: L
   names:
   - value: electric field strength
     lang: en
   time:
     power: -3
     symbol: T
-- identifiers:
-  - id: d:electric_charge_density
-    type: unitsml
-  - id: NISTd43
-    type: nist
-  electric_current:
+  mass:
+    power: 1
+    symbol: M
+  short: electric_field_strength
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd43
+  - type: unitsml
+    id: d:electric_charge_density
   length:
     power: -3
     symbol: L
-  short: electric_charge_density
   names:
   - value: electric charge density
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:electric_flux_density
-    type: unitsml
-  - id: NISTd44
-    type: nist
-  electric_current:
+  short: electric_charge_density
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd44
+  - type: unitsml
+    id: d:electric_flux_density
   length:
     power: -2
     symbol: L
-  short: electric_flux_density
   names:
   - value: electric flux density
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:permittivity
-    type: unitsml
-  - id: NISTd45
-    type: nist
-  electric_current:
+  short: electric_flux_density
+- electric_current:
     power: 2
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd45
+  - type: unitsml
+    id: d:permittivity
   length:
     power: -3
     symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: permittivity
   names:
   - value: permittivity
     lang: en
   time:
     power: 4
     symbol: T
-- identifiers:
-  - id: d:permeability
-    type: unitsml
-  - id: NISTd46
-    type: nist
-  electric_current:
+  mass:
+    power: -1
+    symbol: M
+  short: permittivity
+- electric_current:
     power: -2
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd46
+  - type: unitsml
+    id: d:permeability
   length:
     power: 1
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: permeability
   names:
   - value: permeability
     lang: en
   time:
     power: -2
     symbol: T
-- identifiers:
-  - id: d:molar_energy
-    type: unitsml
-  - id: NISTd47
-    type: nist
-  amount_of_substance:
-    power: -1
-    symbol: "N"
-  length:
-    power: 2
-    symbol: L
   mass:
     power: 1
     symbol: M
-  short: molar_energy
+  short: permeability
+- amount_of_substance:
+    power: -1
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd47
+  - type: unitsml
+    id: d:molar_energy
+  length:
+    power: 2
+    symbol: L
   names:
   - value: molar energy
     lang: en
   time:
     power: -2
     symbol: T
-- identifiers:
-  - id: d:molar_entropy
-    type: unitsml
-  - id: NISTd48
-    type: nist
-  amount_of_substance:
-    power: -1
-    symbol: "N"
-  length:
-    power: 2
-    symbol: L
   mass:
     power: 1
     symbol: M
-  short: molar_entropy
+  short: molar_energy
+- amount_of_substance:
+    power: -1
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd48
+  - type: unitsml
+    id: d:molar_entropy
+  length:
+    power: 2
+    symbol: L
   names:
   - value: molar entropy
     lang: en
@@ -847,335 +786,373 @@ dimensions:
   time:
     power: -2
     symbol: T
-- identifiers:
-  - id: d:exposure
-    type: unitsml
-  - id: NISTd49
-    type: nist
-  electric_current:
+  mass:
+    power: 1
+    symbol: M
+  short: molar_entropy
+- electric_current:
     power: 1
     symbol: I
-  mass:
-    power: -1
-    symbol: M
-  short: exposure
+  identifiers:
+  - type: nist
+    id: NISTd49
+  - type: unitsml
+    id: d:exposure
   names:
   - value: exposure
     lang: en
   time:
     power: 1
     symbol: T
+  mass:
+    power: -1
+    symbol: M
+  short: exposure
 - identifiers:
-  - id: d:absorbed_dose_rate
-    type: unitsml
-  - id: NISTd50
-    type: nist
+  - type: nist
+    id: NISTd5
+  - type: unitsml
+    id: d:temperature
+  names:
+  - value: temperature
+    lang: en
+  thermodynamic_temperature:
+    power: 1
+    symbol: Theta
+    symbols:
+    - latex: "\\ensuremath{\\mathsf{\\Theta}}"
+      unicode: "\U0001D767"
+      ascii: Theta
+      html: "&#x1D760;"
+      id: dim_Theta
+      mathml: "<mi mathvariant='sans-serif'>&#x398;</mi>"
+  short: temperature
+- identifiers:
+  - type: nist
+    id: NISTd50
+  - type: unitsml
+    id: d:absorbed_dose_rate
   length:
     power: 2
     symbol: L
-  short: absorbed_dose_rate
   names:
   - value: absorbed dose rate
     lang: en
   time:
     power: -3
     symbol: T
+  short: absorbed_dose_rate
 - identifiers:
-  - id: d:surface_density
-    type: unitsml
-  - id: NISTd51
-    type: nist
+  - type: nist
+    id: NISTd51
+  - type: unitsml
+    id: d:surface_density
   length:
     power: -2
     symbol: L
+  names:
+  - value: surface density
+    lang: en
   mass:
     power: 1
     symbol: M
   short: surface_density
-  names:
-  - value: surface density
-    lang: en
 - identifiers:
-  - id: d:fluidity
-    type: unitsml
-  - id: NISTd52
-    type: nist
+  - type: nist
+    id: NISTd52
+  - type: unitsml
+    id: d:fluidity
   length:
     power: 1
     symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: fluidity
   names:
   - value: fluidity
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:surface_charge_density
-    type: unitsml
-  - id: NISTd53
-    type: nist
-  electric_current:
+  mass:
+    power: -1
+    symbol: M
+  short: fluidity
+- electric_current:
     power: 1
     symbol: I
-  mass:
-    power: -2
-    symbol: M
-  short: surface_charge_density
+  identifiers:
+  - type: nist
+    id: NISTd53
+  - type: unitsml
+    id: d:surface_charge_density
   names:
   - value: surface charge density
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:magnetizability
-    type: unitsml
-  - id: NISTd54
-    type: nist
-  electric_current:
+  mass:
+    power: -2
+    symbol: M
+  short: surface_charge_density
+- electric_current:
     power: 2
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd54
+  - type: unitsml
+    id: d:magnetizability
   length:
     power: 2
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: magnetizability
   names:
   - value: magnetizability
     lang: en
   time:
     power: 2
     symbol: T
-- identifiers:
-  - id: d:catalytic_activity_concentration
-    type: unitsml
-  - id: NISTd55
-    type: nist
-  amount_of_substance:
-    power: 1
-    symbol: "N"
   mass:
-    power: -3
+    power: 1
     symbol: M
-  short: catalytic_activity_concentration
+  short: magnetizability
+- amount_of_substance:
+    power: 1
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd55
+  - type: unitsml
+    id: d:catalytic_activity_concentration
   names:
   - value: catalytic activity concentration
     lang: en
   time:
     power: -1
     symbol: T
+  mass:
+    power: -3
+    symbol: M
+  short: catalytic_activity_concentration
 - identifiers:
-  - id: d:kinematic_viscosity
-    type: unitsml
-  - id: NISTd56
-    type: nist
+  - type: nist
+    id: NISTd56
+  - type: unitsml
+    id: d:kinematic_viscosity
   length:
     power: 2
     symbol: L
-  short: kinematic_viscosity
   names:
   - value: kinematic viscosity
     lang: en
   time:
     power: -1
     symbol: T
+  short: kinematic_viscosity
 - identifiers:
-  - id: d:area_moment_of_inertia
-    type: unitsml
-  - id: NISTd57
-    type: nist
+  - type: nist
+    id: NISTd57
+  - type: unitsml
+    id: d:area_moment_of_inertia
   length:
     power: 4
     symbol: L
-  short: area_moment_of_inertia
   names:
   - value: area moment of inertia
     lang: en
+  short: area_moment_of_inertia
 - identifiers:
-  - id: d:linear_density
-    type: unitsml
-  - id: NISTd58
-    type: nist
+  - type: nist
+    id: NISTd58
+  - type: unitsml
+    id: d:linear_density
   length:
     power: -1
     symbol: L
+  names:
+  - value: linear density
+    lang: en
   mass:
     power: 1
     symbol: M
   short: linear_density
-  names:
-  - value: linear density
-    lang: en
 - identifiers:
-  - id: d:mass_moment_of_inertia
-    type: unitsml
-  - id: NISTd59
-    type: nist
+  - type: nist
+    id: NISTd59
+  - type: unitsml
+    id: d:mass_moment_of_inertia
   length:
     power: 2
     symbol: L
+  names:
+  - value: mass moment of inertia
+    lang: en
   mass:
     power: 1
     symbol: M
   short: mass_moment_of_inertia
+- amount_of_substance:
+    power: 1
+    symbol: N
+    symbols:
+    - latex: "\\ensuremath{\\mathsf{N}}"
+      unicode: "\U0001D5AD"
+      ascii: N
+      html: "&#x1D5AD;"
+      id: dim_N
+      mathml: "<mi mathvariant='sans-serif'>N</mi>"
+  identifiers:
+  - type: nist
+    id: NISTd6
+  - type: unitsml
+    id: d:substance_amount
   names:
-  - value: mass moment of inertia
+  - value: substance amount
     lang: en
+  short: substance_amount
 - identifiers:
-  - id: d:action
-    type: unitsml
-  - id: NISTd60
-    type: nist
+  - type: nist
+    id: NISTd60
+  - type: unitsml
+    id: d:action
   length:
     power: 2
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: action
   names:
   - value: action
     lang: en
   time:
     power: -1
     symbol: T
-- identifiers:
-  - id: d:momentum
-    type: unitsml
-  - id: NISTd61
-    type: nist
-  length:
-    power: 1
-    symbol: L
   mass:
     power: 1
     symbol: M
-  short: momentum
+  short: action
+- identifiers:
+  - type: nist
+    id: NISTd61
+  - type: unitsml
+    id: d:momentum
+  length:
+    power: 1
+    symbol: L
   names:
   - value: momentum
     lang: en
   time:
     power: -1
     symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: momentum
 - identifiers:
-  - id: d:gravitational_constant
-    type: unitsml
-  - id: NISTd62
-    type: nist
+  - type: nist
+    id: NISTd62
+  - type: unitsml
+    id: d:gravitational_constant
   length:
     power: 3
     symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: gravitational_constant
   names:
   - value: gravitational constant
     lang: en
   time:
     power: -2
     symbol: T
-- identifiers:
-  - id: d:compressibility
-    type: unitsml
-  - id: NISTd63
-    type: nist
-  length:
-    power: 1
-    symbol: L
   mass:
     power: -1
     symbol: M
-  short: compressibility
+  short: gravitational_constant
+- identifiers:
+  - type: nist
+    id: NISTd63
+  - type: unitsml
+    id: d:compressibility
+  length:
+    power: 1
+    symbol: L
   names:
   - value: compressibility
     lang: en
   time:
     power: 2
     symbol: T
-- identifiers:
-  - id: d:solid_angle
-    type: unitsml
-  - id: NISTd64
-    type: nist
-  dimensionless: true
+  mass:
+    power: -1
+    symbol: M
+  short: compressibility
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd64
+  - type: unitsml
+    id: d:solid_angle
+  names:
+  - value: solid angle
+    lang: en
   plane_angle:
     power: 1
     symbol: phi
   short: solid_angle
-  names:
-  - value: solid angle
-    lang: en
 - identifiers:
-  - id: d:mass_flow_rate
-    type: unitsml
-  - id: NISTd65
-    type: nist
-  mass:
-    power: 1
-    symbol: M
-  short: mass_flow_rate
+  - type: nist
+    id: NISTd65
+  - type: unitsml
+    id: d:mass_flow_rate
   names:
   - value: mass flow rate
     lang: en
   time:
     power: -1
     symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: mass_flow_rate
 - identifiers:
-  - id: d:volume_flow_rate
-    type: unitsml
-  - id: NISTd66
-    type: nist
+  - type: nist
+    id: NISTd66
+  - type: unitsml
+    id: d:volume_flow_rate
   length:
     power: 3
     symbol: L
-  short: volume_flow_rate
   names:
   - value: volume flow rate
     lang: en
   time:
     power: -1
     symbol: T
-- identifiers:
-  - id: d:logarithmic_ratio
-    type: unitsml
-  - id: NISTd67
-    type: nist
-  dimensionless: true
-  short: logarithmic_ratio
+  short: volume_flow_rate
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd67
+  - type: unitsml
+    id: d:logarithmic_ratio
   names:
   - value: logarithmic ratio
     lang: en
+  short: logarithmic_ratio
 - identifiers:
-  - id: d:linear_expansion_coefficient
-    type: unitsml
-  - id: NISTd68
-    type: nist
-  short: linear_expansion_coefficient
+  - type: nist
+    id: NISTd68
+  - type: unitsml
+    id: d:linear_expansion_coefficient
   names:
   - value: linear expansion coefficient
     lang: en
   thermodynamic_temperature:
     power: -1
     symbol: Theta
+  short: linear_expansion_coefficient
 - identifiers:
-  - id: d:pressure_coefficient
-    type: unitsml
-  - id: NISTd69
-    type: nist
+  - type: nist
+    id: NISTd69
+  - type: unitsml
+    id: d:pressure_coefficient
   length:
     power: -1
     symbol: L
-  mass:
-    power: 1
-    symbol: M
-  short: pressure_coefficient
   names:
   - value: pressure coefficient
     lang: en
@@ -1185,33 +1162,52 @@ dimensions:
   time:
     power: -2
     symbol: T
+  mass:
+    power: 1
+    symbol: M
+  short: pressure_coefficient
 - identifiers:
-  - id: d:isothermal_compressibility
-    type: unitsml
-  - id: NISTd70
-    type: nist
+  - type: nist
+    id: NISTd7
+  - type: unitsml
+    id: d:luminous_intensity
+  luminous_intensity:
+    power: 1
+    symbol: J
+    symbols:
+    - latex: "\\ensuremath{\\mathsf{J}}"
+      unicode: "\U0001D5A9"
+      ascii: J
+      html: "&#x1D5A9;"
+      id: dim_J
+      mathml: "<mi mathvariant='sans-serif'>J</mi>"
+  names:
+  - value: luminous intensity
+    lang: en
+  short: luminous_intensity
+- identifiers:
+  - type: nist
+    id: NISTd70
+  - type: unitsml
+    id: d:isothermal_compressibility
   length:
     power: 1
     symbol: L
-  mass:
-    power: -1
-    symbol: M
-  short: isothermal_compressibility
   names:
   - value: isothermal compressibility
     lang: en
   time:
     power: 2
     symbol: T
-- identifiers:
-  - id: d:heat_transfer_coefficient
-    type: unitsml
-  - id: NISTd71
-    type: nist
   mass:
-    power: 1
+    power: -1
     symbol: M
-  short: heat_transfer_coefficient
+  short: isothermal_compressibility
+- identifiers:
+  - type: nist
+    id: NISTd71
+  - type: unitsml
+    id: d:heat_transfer_coefficient
   names:
   - value: heat transfer coefficient
     lang: en
@@ -1221,291 +1217,295 @@ dimensions:
   time:
     power: -3
     symbol: T
-- identifiers:
-  - id: d:electric_dipole_moment
-    type: unitsml
-  - id: NISTd72
-    type: nist
-  electric_current:
+  mass:
+    power: 1
+    symbol: M
+  short: heat_transfer_coefficient
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd72
+  - type: unitsml
+    id: d:electric_dipole_moment
   length:
     power: 1
     symbol: L
-  short: electric_dipole_moment
   names:
   - value: electric dipole moment
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:magnetic_dipole_moment
-    type: unitsml
-  - id: NISTd73
-    type: nist
-  electric_current:
+  short: electric_dipole_moment
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd73
+  - type: unitsml
+    id: d:magnetic_dipole_moment
   length:
     power: 2
     symbol: L
-  short: magnetic_dipole_moment
   names:
   - value: magnetic dipole moment
     lang: en
-- identifiers:
-  - id: d:electric_field_gradient
-    type: unitsml
-  - id: NISTd74
-    type: nist
-  electric_current:
+  short: magnetic_dipole_moment
+- electric_current:
     power: -1
     symbol: I
-  mass:
-    power: 1
-    symbol: M
-  short: electric_field_gradient
+  identifiers:
+  - type: nist
+    id: NISTd74
+  - type: unitsml
+    id: d:electric_field_gradient
   names:
   - value: electric field gradient
     lang: en
   time:
     power: -3
     symbol: T
-- identifiers:
-  - id: d:electric_quadrupole_moment
-    type: unitsml
-  - id: NISTd75
-    type: nist
-  electric_current:
+  mass:
+    power: 1
+    symbol: M
+  short: electric_field_gradient
+- electric_current:
     power: 1
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd75
+  - type: unitsml
+    id: d:electric_quadrupole_moment
   length:
     power: 2
     symbol: L
-  short: electric_quadrupole_moment
   names:
   - value: electric quadrupole moment
     lang: en
   time:
     power: 1
     symbol: T
-- identifiers:
-  - id: d:polarizability
-    type: unitsml
-  - id: NISTd76
-    type: nist
-  electric_current:
+  short: electric_quadrupole_moment
+- electric_current:
     power: 2
     symbol: I
-  mass:
-    power: 1
-    symbol: M
-  short: polarizability
+  identifiers:
+  - type: nist
+    id: NISTd76
+  - type: unitsml
+    id: d:polarizability
   names:
   - value: polarizability
     lang: en
   time:
     power: 4
     symbol: T
-- identifiers:
-  - id: d:hyperpolarizability_1st
-    type: unitsml
-  - id: NISTd77
-    type: nist
-  electric_current:
+  mass:
+    power: 1
+    symbol: M
+  short: polarizability
+- electric_current:
     power: 3
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd77
+  - type: unitsml
+    id: d:hyperpolarizability_1st
   length:
     power: -1
     symbol: L
-  mass:
-    power: -2
-    symbol: M
-  short: hyperpolarizability_1st
   names:
   - value: hyperpolarizability 1st
     lang: en
   time:
     power: 7
     symbol: T
-- identifiers:
-  - id: d:hyperpolarizability_2nd
-    type: unitsml
-  - id: NISTd78
-    type: nist
-  electric_current:
+  mass:
+    power: -2
+    symbol: M
+  short: hyperpolarizability_1st
+- electric_current:
     power: 4
     symbol: I
+  identifiers:
+  - type: nist
+    id: NISTd78
+  - type: unitsml
+    id: d:hyperpolarizability_2nd
   length:
     power: -2
     symbol: L
-  mass:
-    power: -3
-    symbol: M
-  short: hyperpolarizability_2nd
   names:
   - value: hyperpolarizability 2nd
     lang: en
   time:
     power: 10
     symbol: T
-- identifiers:
-  - id: d:molality
-    type: unitsml
-  - id: NISTd79
-    type: nist
-  amount_of_substance:
+  mass:
+    power: -3
+    symbol: M
+  short: hyperpolarizability_2nd
+- amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
+  identifiers:
+  - type: nist
+    id: NISTd79
+  - type: unitsml
+    id: d:molality
+  names:
+  - value: molality
+    lang: en
   mass:
     power: 1
     symbol: M
   short: molality
-  names:
-  - value: molality
-    lang: en
 - identifiers:
-  - id: d:ratio_quantity
-    type: unitsml
-  - id: NISTd80
-    type: nist
-  dimensionless: true
-  short: ratio_quantity
+  - type: nist
+    id: NISTd8
+  - type: unitsml
+    id: d:area
+  length:
+    power: 2
+    symbol: L
+  names:
+  - value: area
+    lang: en
+  short: area
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd80
+  - type: unitsml
+    id: d:ratio_quantity
   names:
   - value: ratio quantity
     lang: en
-- identifiers:
-  - id: d:level_of_field_quantity
-    type: unitsml
-  - id: NISTd83
-    type: nist
-  dimensionless: true
-  short: level_of_field_quantity
+  short: ratio_quantity
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd83
+  - type: unitsml
+    id: d:level_of_field_quantity
   names:
   - value: level of field quantity
     lang: en
-- identifiers:
-  - id: d:field_power_level
-    type: unitsml
-  - id: NISTd84
-    type: nist
-  dimensionless: true
-  short: field_power_level
+  short: level_of_field_quantity
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd84
+  - type: unitsml
+    id: d:field_power_level
   names:
   - value: field power level
     lang: en
-- identifiers:
-  - id: d:mass_mole_fraction
-    type: unitsml
-  - id: NISTd85
-    type: nist
-  dimensionless: true
-  short: mass_mole_fraction
+  short: field_power_level
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd85
+  - type: unitsml
+    id: d:mass_mole_fraction
   names:
   - value: mass mole fraction
     lang: en
-- identifiers:
-  - id: d:acidity_index
-    type: unitsml
-  - id: NISTd94
-    type: nist
-  dimensionless: true
-  short: acidity_index
+  short: mass_mole_fraction
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd9
+  - type: unitsml
+    id: d:plane_angle
+  names:
+  - value: plane angle
+    lang: en
+  plane_angle:
+    power: 1
+    symbol: phi
+    symbols:
+    - latex: "\\ensuremath{\\mathsf{\\phi}}"
+      unicode: "\U0001D785"
+      ascii: phi
+      html: "&#x1D785;"
+      id: dim_phi
+      mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
+  short: plane_angle
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd94
+  - type: unitsml
+    id: d:acidity_index
   names:
   - value: acidity index
     lang: en
-- identifiers:
-  - id: d:storage_capacity
-    type: unitsml
-  - id: NISTd95
-    type: nist
-  dimensionless: true
-  short: storage_capacity
+  short: acidity_index
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd95
+  - type: unitsml
+    id: d:storage_capacity
   names:
   - value: storage capacity
     lang: en
+  short: storage_capacity
 - identifiers:
-  - id: d:fluence
-    type: unitsml
-  - id: NISTd96
-    type: nist
-  short: fluence
+  - type: nist
+    id: NISTd96
+  - type: unitsml
+    id: d:fluence
+  length:
+    power: -2
+    symbol: L
   names:
   - value: fluence
     lang: en
+  short: fluence
+- identifiers:
+  - type: nist
+    id: NISTd97
+  - type: unitsml
+    id: d:fluence_rate
   length:
     power: -2
     symbol: L
-- identifiers:
-  - id: d:fluence_rate
-    type: unitsml
-  - id: NISTd97
-    type: nist
-  short: fluence_rate
   names:
   - value: fluence_rate
     lang: en
-  length:
-    power: -2
-    symbol: L
   time:
     power: -1
     symbol: T
-- identifiers:
-  - id: d:phase
-    type: unitsml
-  - id: NISTd98
-    type: nist
-  dimensionless: true
+  short: fluence_rate
+- dimensionless: true
+  identifiers:
+  - type: nist
+    id: NISTd98
+  - type: unitsml
+    id: d:phase
+  names:
+  - value: phase
+    lang: en
   plane_angle:
     power: 1
     symbol: phi
   short: phase
-  names:
-  - value: phase
-    lang: en
 - identifiers:
-  - id: d:fuel_efficiency
-    type: unitsml
-  - id: NISTd99
-    type: nist
+  - type: nist
+    id: NISTd99
+  - type: unitsml
+    id: d:fuel_efficiency
   length:
     power: -2
     symbol: L
-  short: fuel_efficiency
   names:
   - value: fuel efficiency
     lang: en
-- identifiers:
-  - id: d:traffic_intensity
-    type: unitsml
-  - id: NISTd100
-    type: nist
-  dimensionless: true
-  short: traffic_intensity
-  names:
-  - value: traffic intensity
-    lang: en
-- identifiers:
-  - id: d:symbol_rate
-    type: unitsml
-  - id: NISTd101
-    type: nist
-  short: symbol_rate
-  names:
-  - value: symbol rate
-    lang: en
-  time:
-    power: -1
-    symbol: T
-- identifiers:
-  - id: d:information_content
-    type: unitsml
-  - id: NISTd102
-    type: nist
-  dimensionless: true
-  short: information_content
-  names:
-  - value: information content
-    lang: en
+  short: fuel_efficiency

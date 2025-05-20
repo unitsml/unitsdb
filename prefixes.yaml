@@ -1,403 +1,21 @@
 ---
 schema_version: 2.0.0
 prefixes:
-- identifiers:
-  - id: p:kibi
-    type: unitsml
-  - id: NISTp2_10
-    type: nist
-  base: 2
-  names:
-  - value: kibi
-    lang: en
-  short: kibi
-  power: 10
-  symbols:
-  - latex: Ki
-    unicode: Ki
-    ascii: Ki
-    html: Ki
-    id: kibi
-    mathml: "<mi>Ki</mi>"
-- identifiers:
-  - id: p:mebi
-    type: unitsml
-  - id: NISTp2_20
-    type: nist
-  base: 2
-  names:
-  - value: mebi
-    lang: en
-  short: mebi
-  power: 20
-  symbols:
-  - latex: Mi
-    unicode: Mi
-    ascii: Mi
-    html: Mi
-    id: mebi
-    mathml: "<mi>Mi</mi>"
-- identifiers:
-  - id: p:gibi
-    type: unitsml
-  - id: NISTp2_30
-    type: nist
-  base: 2
-  names:
-  - value: gibi
-    lang: en
-  short: gibi
-  power: 30
-  symbols:
-  - latex: Gi
-    unicode: Gi
-    ascii: Gi
-    html: Gi
-    id: gibi
-    mathml: "<mi>Gi</mi>"
-- identifiers:
-  - id: p:tebi
-    type: unitsml
-  - id: NISTp2_40
-    type: nist
-  base: 2
-  names:
-  - value: tebi
-    lang: en
-  short: tebi
-  power: 40
-  symbols:
-  - latex: Ti
-    unicode: Ti
-    ascii: Ti
-    html: Ti
-    id: tebi
-    mathml: "<mi>Ti</mi>"
-- identifiers:
-  - id: p:pebi
-    type: unitsml
-  - id: NISTp2_50
-    type: nist
-  base: 2
-  names:
-  - value: pebi
-    lang: en
-  short: pebi
-  power: 50
-  symbols:
-  - latex: Pi
-    unicode: Pi
-    ascii: Pi
-    html: Pi
-    id: pebi
-    mathml: "<mi>Pi</mi>"
-- identifiers:
-  - id: p:exbi
-    type: unitsml
-  - id: NISTp2_60
-    type: nist
-  base: 2
-  names:
-  - value: exbi
-    lang: en
-  short: exbi
-  power: 60
-  symbols:
-  - latex: Ei
-    unicode: Ei
-    ascii: Ei
-    html: Ei
-    id: exbi
-    mathml: "<mi>Ei</mi>"
-- identifiers:
-  - id: p:zebi
-    type: unitsml
-  - id: NISTp2_70
-    type: nist
-  base: 2
-  names:
-  - value: zebi
-    lang: en
-  short: zebi
-  power: 70
-  symbols:
-  - latex: Zi
-    unicode: Zi
-    ascii: Zi
-    html: Zi
-    id: zebi
-    mathml: "<mi>Zi</mi>"
-- identifiers:
-  - id: p:yobi
-    type: unitsml
-  - id: NISTp2_80
-    type: nist
-  base: 2
-  names:
-  - value: yobi
-    lang: en
-  short: yobi
-  power: 80
-  symbols:
-  - latex: Yi
-    unicode: Yi
-    ascii: Yi
-    html: Yi
-    id: yobi
-    mathml: "<mi>Yi</mi>"
-- identifiers:
-  - id: p:quecto
-    type: unitsml
-  - id: NISTp10_-30
-    type: nist
-  base: 10
-  names:
-  - value: quecto
-    lang: en
-  short: quecto
-  power: -30
-  symbols:
-  - latex: q
-    unicode: q
-    ascii: q
-    html: q
-    id: quecto
-    mathml: "<mi>q</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/quecto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:ronto
-    type: unitsml
-  - id: NISTp10_-27
-    type: nist
-  base: 10
-  names:
-  - value: ronto
-    lang: en
-  short: ronto
-  power: -27
-  symbols:
-  - latex: r
-    unicode: r
-    ascii: r
-    html: r
-    id: ronto
-    mathml: "<mi>r</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/ronto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:yocto
-    type: unitsml
-  - id: NISTp10_-24
-    type: nist
-  base: 10
-  names:
-  - value: yocto
-    lang: en
-  short: yocto
-  power: -24
-  symbols:
-  - latex: "y"
-    unicode: "y"
-    ascii: "y"
-    html: "y"
-    id: yocto
-    mathml: "<mi>y</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/yocto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:zepto
-    type: unitsml
-  - id: NISTp10_-21
-    type: nist
-  base: 10
-  names:
-  - value: zepto
-    lang: en
-  short: zepto
-  power: -21
-  symbols:
-  - latex: z
-    unicode: z
-    ascii: z
-    html: z
-    id: zepto
-    mathml: "<mi>z</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/zepto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:atto
-    type: unitsml
-  - id: NISTp10_-18
-    type: nist
-  base: 10
-  names:
-  - value: atto
-    lang: en
-  short: atto
-  power: -18
-  symbols:
-  - latex: a
-    unicode: a
-    ascii: a
-    html: a
-    id: atto
-    mathml: "<mi>a</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/atto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:femto
-    type: unitsml
-  - id: NISTp10_-15
-    type: nist
-  base: 10
-  names:
-  - value: femto
-    lang: en
-  short: femto
-  power: -15
-  symbols:
-  - latex: f
-    unicode: f
-    ascii: f
-    html: f
-    id: femto
-    mathml: "<mi>f</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/femto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:pico
-    type: unitsml
-  - id: NISTp10_-12
-    type: nist
-  base: 10
-  names:
-  - value: pico
-    lang: en
-  short: pico
-  power: -12
-  symbols:
-  - latex: p
-    unicode: p
-    ascii: p
-    html: p
-    id: pico
-    mathml: "<mi>p</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/pico
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:nano
-    type: unitsml
-  - id: NISTp10_-9
-    type: nist
-  base: 10
-  names:
-  - value: nano
-    lang: en
-  short: nano
-  power: -9
-  symbols:
-  - latex: "n"
-    unicode: "n"
-    ascii: "n"
-    html: "n"
-    id: nano
-    mathml: "<mi>n</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/nano
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:micro
-    type: unitsml
-  - id: NISTp10_-6
-    type: nist
-  base: 10
-  names:
-  - value: micro
-    lang: en
-  short: micro
-  power: -6
-  symbols:
-  - latex: "$mu$"
-    unicode: μ
-    ascii: u
-    html: "&micro;"
-    id: micro
-    mathml: "<mi>&micro;</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/micro
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:milli
-    type: unitsml
-  - id: NISTp10_-3
-    type: nist
-  base: 10
-  names:
-  - value: milli
-    lang: en
-  short: milli
-  power: -3
-  symbols:
-  - latex: m
-    unicode: m
-    ascii: m
-    html: m
-    id: milli
-    mathml: "<mi>m</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/milli
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:centi
-    type: unitsml
-  - id: NISTp10_-2
-    type: nist
-  base: 10
-  names:
-  - value: centi
-    lang: en
-  short: centi
-  power: -2
-  symbols:
-  - latex: c
-    unicode: c
-    ascii: c
-    html: c
-    id: centi
-    mathml: "<mi>c</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/centi
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:deci
-    type: unitsml
-  - id: NISTp10_-1
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-1
+  - type: unitsml
+    id: p:deci
   names:
   - value: deci
     lang: en
-  short: deci
   power: -1
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/deci
+  short: deci
   symbols:
   - latex: d
     unicode: d
@@ -405,21 +23,263 @@ prefixes:
     html: d
     id: deci
     mathml: "<mi>d</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-12
+  - type: unitsml
+    id: p:pico
+  names:
+  - value: pico
+    lang: en
+  power: -12
   references:
-  - uri: http://si-digital-framework.org/SI/prefixes/deci
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: p:none
-    type: unitsml
-  - id: NISTp10_0
-    type: nist
-  base: 10
+    uri: http://si-digital-framework.org/SI/prefixes/pico
+  short: pico
+  symbols:
+  - latex: p
+    unicode: p
+    ascii: p
+    html: p
+    id: pico
+    mathml: "<mi>p</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-15
+  - type: unitsml
+    id: p:femto
+  names:
+  - value: femto
+    lang: en
+  power: -15
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/femto
+  short: femto
+  symbols:
+  - latex: f
+    unicode: f
+    ascii: f
+    html: f
+    id: femto
+    mathml: "<mi>f</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-18
+  - type: unitsml
+    id: p:atto
+  names:
+  - value: atto
+    lang: en
+  power: -18
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/atto
+  short: atto
+  symbols:
+  - latex: a
+    unicode: a
+    ascii: a
+    html: a
+    id: atto
+    mathml: "<mi>a</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-2
+  - type: unitsml
+    id: p:centi
+  names:
+  - value: centi
+    lang: en
+  power: -2
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/centi
+  short: centi
+  symbols:
+  - latex: c
+    unicode: c
+    ascii: c
+    html: c
+    id: centi
+    mathml: "<mi>c</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-21
+  - type: unitsml
+    id: p:zepto
+  names:
+  - value: zepto
+    lang: en
+  power: -21
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/zepto
+  short: zepto
+  symbols:
+  - latex: z
+    unicode: z
+    ascii: z
+    html: z
+    id: zepto
+    mathml: "<mi>z</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-24
+  - type: unitsml
+    id: p:yocto
+  names:
+  - value: yocto
+    lang: en
+  power: -24
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/yocto
+  short: yocto
+  symbols:
+  - latex: "y"
+    unicode: "y"
+    ascii: "y"
+    html: "y"
+    id: yocto
+    mathml: "<mi>y</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-27
+  - type: unitsml
+    id: p:ronto
+  names:
+  - value: ronto
+    lang: en
+  power: -27
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/ronto
+  short: ronto
+  symbols:
+  - latex: r
+    unicode: r
+    ascii: r
+    html: r
+    id: ronto
+    mathml: "<mi>r</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-3
+  - type: unitsml
+    id: p:milli
+  names:
+  - value: milli
+    lang: en
+  power: -3
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/milli
+  short: milli
+  symbols:
+  - latex: m
+    unicode: m
+    ascii: m
+    html: m
+    id: milli
+    mathml: "<mi>m</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-30
+  - type: unitsml
+    id: p:quecto
+  names:
+  - value: quecto
+    lang: en
+  power: -30
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/quecto
+  short: quecto
+  symbols:
+  - latex: q
+    unicode: q
+    ascii: q
+    html: q
+    id: quecto
+    mathml: "<mi>q</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-6
+  - type: unitsml
+    id: p:micro
+  names:
+  - value: micro
+    lang: en
+  power: -6
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/micro
+  short: micro
+  symbols:
+  - latex: "$mu$"
+    unicode: μ
+    ascii: u
+    html: "&micro;"
+    id: micro
+    mathml: "<mi>&micro;</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_-9
+  - type: unitsml
+    id: p:nano
+  names:
+  - value: nano
+    lang: en
+  power: -9
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/nano
+  short: nano
+  symbols:
+  - latex: "n"
+    unicode: "n"
+    ascii: "n"
+    html: "n"
+    id: nano
+    mathml: "<mi>n</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_0
+  - type: unitsml
+    id: p:none
   names:
   - value: none
     lang: en
-  short: none
   power: 0
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/none
+  short: none
   symbols:
   - latex: '1'
     unicode: '1'
@@ -427,21 +287,21 @@ prefixes:
     html: '1'
     id: unity
     mathml: "<mn>1</mn>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/none
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:deka
-    type: unitsml
-  - id: NISTp10_1
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_1
+  - type: unitsml
+    id: p:deka
   names:
   - value: deka
     lang: en
-  short: deka
   power: 1
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/deca
+  short: deka
   symbols:
   - latex: da
     unicode: da
@@ -449,109 +309,21 @@ prefixes:
     html: da
     id: deka
     mathml: "<mi>da</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/deca
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:hecto
-    type: unitsml
-  - id: NISTp10_2
-    type: nist
-  base: 10
-  names:
-  - value: hecto
-    lang: en
-  short: hecto
-  power: 2
-  symbols:
-  - latex: h
-    unicode: h
-    ascii: h
-    html: h
-    id: hecto
-    mathml: "<mi>h</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/hecto
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:kilo
-    type: unitsml
-  - id: NISTp10_3
-    type: nist
-  base: 10
-  names:
-  - value: kilo
-    lang: en
-  short: kilo
-  power: 3
-  symbols:
-  - latex: k
-    unicode: k
-    ascii: k
-    html: k
-    id: kilo
-    mathml: "<mi>k</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/kilo
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:mega
-    type: unitsml
-  - id: NISTp10_6
-    type: nist
-  base: 10
-  names:
-  - value: mega
-    lang: en
-  short: mega
-  power: 6
-  symbols:
-  - latex: M
-    unicode: M
-    ascii: M
-    html: M
-    id: mega
-    mathml: "<mi>M</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/mega
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:giga
-    type: unitsml
-  - id: NISTp10_9
-    type: nist
-  base: 10
-  names:
-  - value: giga
-    lang: en
-  short: giga
-  power: 9
-  symbols:
-  - latex: G
-    unicode: G
-    ascii: G
-    html: G
-    id: giga
-    mathml: "<mi>G</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/giga
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:tera
-    type: unitsml
-  - id: NISTp10_12
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_12
+  - type: unitsml
+    id: p:tera
   names:
   - value: tera
     lang: en
-  short: tera
   power: 12
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/tera
+  short: tera
   symbols:
   - latex: T
     unicode: T
@@ -559,21 +331,21 @@ prefixes:
     html: T
     id: tera
     mathml: "<mi>T</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/tera
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:peta
-    type: unitsml
-  - id: NISTp10_15
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_15
+  - type: unitsml
+    id: p:peta
   names:
   - value: peta
     lang: en
-  short: peta
   power: 15
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/peta
+  short: peta
   symbols:
   - latex: P
     unicode: P
@@ -581,21 +353,21 @@ prefixes:
     html: P
     id: peta
     mathml: "<mi>P</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/peta
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:exa
-    type: unitsml
-  - id: NISTp10_18
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_18
+  - type: unitsml
+    id: p:exa
   names:
   - value: exa
     lang: en
-  short: exa
   power: 18
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/exa
+  short: exa
   symbols:
   - latex: E
     unicode: E
@@ -603,21 +375,43 @@ prefixes:
     html: E
     id: exa
     mathml: "<mi>E</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_2
+  - type: unitsml
+    id: p:hecto
+  names:
+  - value: hecto
+    lang: en
+  power: 2
   references:
-  - uri: http://si-digital-framework.org/SI/prefixes/exa
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: p:zetta
-    type: unitsml
-  - id: NISTp10_21
-    type: nist
-  base: 10
+    uri: http://si-digital-framework.org/SI/prefixes/hecto
+  short: hecto
+  symbols:
+  - latex: h
+    unicode: h
+    ascii: h
+    html: h
+    id: hecto
+    mathml: "<mi>h</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_21
+  - type: unitsml
+    id: p:zetta
   names:
   - value: zetta
     lang: en
-  short: zetta
   power: 21
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/zetta
+  short: zetta
   symbols:
   - latex: Z
     unicode: Z
@@ -625,43 +419,43 @@ prefixes:
     html: Z
     id: zetta
     mathml: "<mi>Z</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/zetta
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:yotta
-    type: unitsml
-  - id: NISTp10_24
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_24
+  - type: unitsml
+    id: p:yotta
   names:
   - value: yotta
     lang: en
-  short: yotta
   power: 24
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/yotta
+  short: yotta
   symbols:
-  - latex: "Y"
-    unicode: "Y"
-    ascii: "Y"
-    html: "Y"
+  - latex: Y
+    unicode: Y
+    ascii: Y
+    html: Y
     id: yotta
     mathml: "<mi>Y</mi>"
-  references:
-  - uri: http://si-digital-framework.org/SI/prefixes/yotta
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: p:ronna
-    type: unitsml
-  - id: NISTp10_27
-    type: nist
-  base: 10
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_27
+  - type: unitsml
+    id: p:ronna
   names:
   - value: ronna
     lang: en
-  short: ronna
   power: 27
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/ronna
+  short: ronna
   symbols:
   - latex: R
     unicode: R
@@ -669,21 +463,43 @@ prefixes:
     html: R
     id: ronna
     mathml: "<mi>R</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_3
+  - type: unitsml
+    id: p:kilo
+  names:
+  - value: kilo
+    lang: en
+  power: 3
   references:
-  - uri: http://si-digital-framework.org/SI/prefixes/ronna
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: p:quetta
-    type: unitsml
-  - id: NISTp10_30
-    type: nist
-  base: 10
+    uri: http://si-digital-framework.org/SI/prefixes/kilo
+  short: kilo
+  symbols:
+  - latex: k
+    unicode: k
+    ascii: k
+    html: k
+    id: kilo
+    mathml: "<mi>k</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_30
+  - type: unitsml
+    id: p:quetta
   names:
   - value: quetta
     lang: en
-  short: quetta
   power: 30
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/quetta
+  short: quetta
   symbols:
   - latex: Q
     unicode: Q
@@ -691,7 +507,191 @@ prefixes:
     html: Q
     id: quetta
     mathml: "<mi>Q</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_6
+  - type: unitsml
+    id: p:mega
+  names:
+  - value: mega
+    lang: en
+  power: 6
   references:
-  - uri: http://si-digital-framework.org/SI/prefixes/quetta
-    type: normative
+  - type: normative
     authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/mega
+  short: mega
+  symbols:
+  - latex: M
+    unicode: M
+    ascii: M
+    html: M
+    id: mega
+    mathml: "<mi>M</mi>"
+- base: 10
+  identifiers:
+  - type: nist
+    id: NISTp10_9
+  - type: unitsml
+    id: p:giga
+  names:
+  - value: giga
+    lang: en
+  power: 9
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/SI/prefixes/giga
+  short: giga
+  symbols:
+  - latex: G
+    unicode: G
+    ascii: G
+    html: G
+    id: giga
+    mathml: "<mi>G</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_10
+  - type: unitsml
+    id: p:kibi
+  names:
+  - value: kibi
+    lang: en
+  power: 10
+  short: kibi
+  symbols:
+  - latex: Ki
+    unicode: Ki
+    ascii: Ki
+    html: Ki
+    id: kibi
+    mathml: "<mi>Ki</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_20
+  - type: unitsml
+    id: p:mebi
+  names:
+  - value: mebi
+    lang: en
+  power: 20
+  short: mebi
+  symbols:
+  - latex: Mi
+    unicode: Mi
+    ascii: Mi
+    html: Mi
+    id: mebi
+    mathml: "<mi>Mi</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_30
+  - type: unitsml
+    id: p:gibi
+  names:
+  - value: gibi
+    lang: en
+  power: 30
+  short: gibi
+  symbols:
+  - latex: Gi
+    unicode: Gi
+    ascii: Gi
+    html: Gi
+    id: gibi
+    mathml: "<mi>Gi</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_40
+  - type: unitsml
+    id: p:tebi
+  names:
+  - value: tebi
+    lang: en
+  power: 40
+  short: tebi
+  symbols:
+  - latex: Ti
+    unicode: Ti
+    ascii: Ti
+    html: Ti
+    id: tebi
+    mathml: "<mi>Ti</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_50
+  - type: unitsml
+    id: p:pebi
+  names:
+  - value: pebi
+    lang: en
+  power: 50
+  short: pebi
+  symbols:
+  - latex: Pi
+    unicode: Pi
+    ascii: Pi
+    html: Pi
+    id: pebi
+    mathml: "<mi>Pi</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_60
+  - type: unitsml
+    id: p:exbi
+  names:
+  - value: exbi
+    lang: en
+  power: 60
+  short: exbi
+  symbols:
+  - latex: Ei
+    unicode: Ei
+    ascii: Ei
+    html: Ei
+    id: exbi
+    mathml: "<mi>Ei</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_70
+  - type: unitsml
+    id: p:zebi
+  names:
+  - value: zebi
+    lang: en
+  power: 70
+  short: zebi
+  symbols:
+  - latex: Zi
+    unicode: Zi
+    ascii: Zi
+    html: Zi
+    id: zebi
+    mathml: "<mi>Zi</mi>"
+- base: 2
+  identifiers:
+  - type: nist
+    id: NISTp2_80
+  - type: unitsml
+    id: p:yobi
+  names:
+  - value: yobi
+    lang: en
+  power: 80
+  short: yobi
+  symbols:
+  - latex: Yi
+    unicode: Yi
+    ascii: Yi
+    html: Yi
+    id: yobi
+    mathml: "<mi>Yi</mi>"
