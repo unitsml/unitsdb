@@ -1,224 +1,339 @@
 ---
 schema_version: 2.0.0
 quantities:
-- identifiers:
-  - id: q:length
-    type: unitsml
-  - id: NISTq1
+- dimension_reference:
     type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq1
+  - type: unitsml
+    id: q:length
   names:
   - value: length
     lang: en
   - value: longueur
     lang: fr
   quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/LENG
   short: length
-  dimension_reference:
-    id: NISTd1
+- dimension_reference:
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/LENG
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:mass
-    type: unitsml
-  - id: NISTq2
-    type: nist
-  names:
-  - value: mass
-    lang: en
-  - value: masse
-    lang: fr
-  quantity_type: base
-  short: mass
-  dimension_reference:
-    id: NISTd2
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MASS
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:time
-    type: unitsml
-  - id: NISTq3
-    type: nist
-  names:
-  - value: time
-    lang: en
-  - value: duration
-    lang: en
-  - value: temps
-    lang: fr
-  quantity_type: base
-  short: time
-  dimension_reference:
-    id: NISTd3
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/TIME
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_current
-    type: unitsml
-  - id: NISTq4
-    type: nist
-  names:
-  - value: electric current
-    lang: en
-  - value: courant électrique
-    lang: fr
-  quantity_type: base
-  short: electric_current
-  dimension_reference:
-    id: NISTd4
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELCU
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:temperature
-    type: unitsml
-  - id: NISTq5
-    type: nist
-  names:
-  - value: thermodynamic temperature
-    lang: en
-  - value: température thermodynamique
-    lang: fr
-  quantity_type: base
-  short: temperature
-  dimension_reference:
-    id: NISTd5
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/TEMT
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:substance_amount
-    type: unitsml
-  - id: NISTq6
-    type: nist
-  names:
-  - value: amount of substance
-    lang: en
-  - value: quantité de matière
-    lang: fr
-  quantity_type: base
-  short: substance_amount
-  dimension_reference:
-    id: NISTd6
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/AMSU
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:luminous_intensity
-    type: unitsml
-  - id: NISTq7
-    type: nist
-  names:
-  - value: luminous intensity
-    lang: en
-  - value: intensité lumineuse
-    lang: fr
-  quantity_type: base
-  short: luminous_intensity
-  dimension_reference:
-    id: NISTd7
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/LUIN
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:area
-    type: unitsml
-  - id: NISTq8
-    type: nist
-  names:
-  - value: area
-    lang: en
-  - value: superficie
-    lang: fr
-  quantity_type: derived
-  short: area
-  dimension_reference:
-    id: NISTd8
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/AREA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:plane_angle
-    type: unitsml
-  - id: NISTq9
-    type: nist
-  names:
-  - value: plane angle
-    lang: en
-  - value: angle
-    lang: en
-  - value: angle plan
-    lang: fr
-  quantity_type: derived
-  short: plane_angle
-  dimension_reference:
-    id: NISTd9
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ANGP
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:volume
-    type: unitsml
-  - id: NISTq10
-    type: nist
-  names:
-  - value: volume
-    lang: en
-  - value: volume
-    lang: fr
-  quantity_type: derived
-  short: volume
-  dimension_reference:
     id: NISTd10
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq10
+  - type: unitsml
+    id: q:volume
+  names:
+  - value: volume
+    lang: en
+  - value: volume
+    lang: fr
+  quantity_type: derived
   references:
-  - uri: http://si-digital-framework.org/quantities/VOLU
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:solid_angle
-    type: unitsml
-  - id: NISTq11
+    uri: http://si-digital-framework.org/quantities/VOLU
+  short: volume
+- dimension_reference:
     type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq100
+  - type: unitsml
+    id: q:diameter
+  names:
+  - value: diameter
+    lang: en
+  quantity_type: derived
+  short: diameter
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq101
+  - type: unitsml
+    id: q:length_of_path
+  names:
+  - value: length of path
+    lang: en
+  quantity_type: derived
+  short: length_of_path
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq102
+  - type: unitsml
+    id: q:cartesian_coordinates
+  names:
+  - value: cartesian coordinates
+    lang: en
+  quantity_type: derived
+  short: cartesian_coordinates
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq103
+  - type: unitsml
+    id: q:position_vector
+  names:
+  - value: position vector
+    lang: en
+  quantity_type: derived
+  short: position_vector
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq104
+  - type: unitsml
+    id: q:displacement
+  names:
+  - value: displacement
+    lang: en
+  quantity_type: derived
+  short: displacement
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq105
+  - type: unitsml
+    id: q:radius_of_curvature
+  names:
+  - value: radius of curvature
+    lang: en
+  quantity_type: derived
+  short: radius_of_curvature
+- dimension_reference:
+    type: nist
+    id: NISTd29
+  identifiers:
+  - type: nist
+    id: NISTq106
+  - type: unitsml
+    id: q:curvature
+  names:
+  - value: curvature
+    lang: en
+  quantity_type: derived
+  short: curvature
+- dimension_reference:
+    type: nist
+    id: NISTd11
+  identifiers:
+  - type: nist
+    id: NISTq107
+  - type: unitsml
+    id: q:speed_of_propagation_of_waves
+  names:
+  - value: speed of propagation of waves
+    lang: en
+  quantity_type: derived
+  short: speed_of_propagation_of_waves
+- dimension_reference:
+    type: nist
+    id: NISTd28
+  identifiers:
+  - type: nist
+    id: NISTq108
+  - type: unitsml
+    id: q:acceleration_of_free_fall
+  names:
+  - value: acceleration of free fall
+    lang: en
+  quantity_type: derived
+  short: acceleration_of_free_fall
+- dimension_reference:
+    type: nist
+    id: NISTd3
+  identifiers:
+  - type: nist
+    id: NISTq109
+  - type: unitsml
+    id: q:period_duration
+  names:
+  - value: period duration
+    lang: en
+  - value: period
+    lang: en
+  quantity_type: derived
+  short: period_duration
+- dimension_reference:
+    type: nist
+    id: NISTd64
+  identifiers:
+  - type: nist
+    id: NISTq11
+  - type: unitsml
+    id: q:solid_angle
   names:
   - value: solid angle
     lang: en
   - value: angle solide
     lang: fr
   quantity_type: derived
-  short: solid_angle
-  dimension_reference:
-    id: NISTd64
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/ANGS
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:velocity
-    type: unitsml
-  - id: NISTq12
+    uri: http://si-digital-framework.org/quantities/ANGS
+  short: solid_angle
+- dimension_reference:
     type: nist
+    id: NISTd3
+  identifiers:
+  - type: nist
+    id: NISTq110
+  - type: unitsml
+    id: q:time_constant
+  names:
+  - value: time constant
+    lang: en
+  quantity_type: derived
+  short: time_constant
+- dimension_reference:
+    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq111
+  - type: unitsml
+    id: q:rotation
+  names:
+  - value: rotation
+    lang: en
+  quantity_type: derived
+  short: rotation
+- dimension_reference:
+    type: nist
+    id: NISTd24
+  identifiers:
+  - type: nist
+    id: NISTq112
+  - type: unitsml
+    id: q:rotational_frequency
+  names:
+  - value: rotational frequency
+    lang: en
+  quantity_type: derived
+  short: rotational_frequency
+- dimension_reference:
+    type: nist
+    id: NISTd24
+  identifiers:
+  - type: nist
+    id: NISTq113
+  - type: unitsml
+    id: q:angular_frequency
+  names:
+  - value: angular frequency
+    lang: en
+  quantity_type: derived
+  short: angular_frequency
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq114
+  - type: unitsml
+    id: q:wavelength
+  names:
+  - value: wavelength
+    lang: en
+  quantity_type: derived
+  short: wavelength
+- dimension_reference:
+    type: nist
+    id: NISTd29
+  identifiers:
+  - type: nist
+    id: NISTq115
+  - type: unitsml
+    id: q:angular_wavenumber
+  names:
+  - value: angular wavenumber
+    lang: en
+  - value: angular repetency
+    lang: en
+  quantity_type: derived
+  short: angular_wavenumber
+- dimension_reference:
+    type: nist
+    id: NISTd11
+  identifiers:
+  - type: nist
+    id: NISTq116
+  - type: unitsml
+    id: q:phase_velocity
+  names:
+  - value: phase velocity
+    lang: en
+  - value: phase speed
+    lang: en
+  quantity_type: derived
+  short: phase_velocity
+- dimension_reference:
+    type: nist
+    id: NISTd11
+  identifiers:
+  - type: nist
+    id: NISTq117
+  - type: unitsml
+    id: q:group_velocity
+  names:
+  - value: group velocity
+    lang: en
+  - value: group speed
+    lang: en
+  quantity_type: derived
+  short: group_velocity
+- dimension_reference:
+    type: nist
+    id: NISTd83
+  identifiers:
+  - type: nist
+    id: NISTq118
+  - type: unitsml
+    id: q:level_of_a_field_quantity
+  names:
+  - value: level of a field quantity
+    lang: en
+  quantity_type: derived
+  short: level_of_a_field_quantity
+- dimension_reference:
+    type: nist
+    id: NISTd84
+  identifiers:
+  - type: nist
+    id: NISTq119
+  - type: unitsml
+    id: q:level_of_a_power_quantity
+  names:
+  - value: level of a power quantity
+    lang: en
+  quantity_type: derived
+  short: level_of_a_power_quantity
+- dimension_reference:
+    type: nist
+    id: NISTd11
+  identifiers:
+  - type: nist
+    id: NISTq12
+  - type: unitsml
+    id: q:velocity
   names:
   - value: velocity
     lang: en
@@ -227,1770 +342,32 @@ quantities:
   - value: vitesse
     lang: fr
   quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/VELO
   short: velocity
-  dimension_reference:
-    id: NISTd11
+- dimension_reference:
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/VELO
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:force
-    type: unitsml
-  - id: NISTq13
-    type: nist
-  names:
-  - value: force
-    lang: en
-  - value: force
-    lang: fr
-  quantity_type: derived
-  short: force
-  dimension_reference:
-    id: NISTd12
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/FORC
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:magnetic_flux_density
-    type: unitsml
-  - id: NISTq14
-    type: nist
-  names:
-  - value: magnetic flux density
-    lang: en
-  - value: induction magnétique
-    lang: fr
-  quantity_type: derived
-  short: magnetic_flux_density
-  dimension_reference:
-    id: NISTd13
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MGFD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:pressure
-    type: unitsml
-  - id: NISTq15
-    type: nist
-  names:
-  - value: pressure
-    lang: en
-  - value: pression, contrainte
-    lang: fr
-  quantity_type: derived
-  short: pressure
-  dimension_reference:
-    id: NISTd14
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/PRES
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:stress
-    type: unitsml
-  - id: NISTq16
-    type: nist
-  names:
-  - value: stress
-    lang: en
-  quantity_type: derived
-  short: stress
-  dimension_reference:
-    id: NISTd14
-    type: nist
-- identifiers:
-  - id: q:energy
-    type: unitsml
-  - id: NISTq17
-    type: nist
-  names:
-  - value: energy
-    lang: en
-  - value: énergie
-    lang: fr
-  quantity_type: derived
-  short: energy
-  dimension_reference:
-    id: NISTd15
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ENGY
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:work
-    type: unitsml
-  - id: NISTq18
-    type: nist
-  names:
-  - value: work
-    lang: en
-  quantity_type: derived
-  short: work
-  dimension_reference:
-    id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:amount_of_heat
-    type: unitsml
-  - id: NISTq19
-    type: nist
-  names:
-  - value: amount of heat
-    lang: en
-  - value: heat
-    lang: en
-  quantity_type: derived
-  short: amount_of_heat
-  dimension_reference:
-    id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:power
-    type: unitsml
-  - id: NISTq20
-    type: nist
-  names:
-  - value: power
-    lang: en
-  - value: puissance, flux énergétique
-    lang: fr
-  quantity_type: derived
-  short: power
-  dimension_reference:
-    id: NISTd16
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/POWR
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:radiant_flux
-    type: unitsml
-  - id: NISTq21
-    type: nist
-  names:
-  - value: radiant flux
-    lang: en
-  quantity_type: derived
-  short: radiant_flux
-  dimension_reference:
-    id: NISTd16
-    type: nist
-- identifiers:
-  - id: q:electric_charge
-    type: unitsml
-  - id: NISTq22
-    type: nist
-  names:
-  - value: electric charge
-    lang: en
-  - value: charge électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_charge
-  dimension_reference:
-    id: NISTd17
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELCH
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:amount_of_electricity
-    type: unitsml
-  - id: NISTq23
-    type: nist
-  names:
-  - value: amount of electricity
-    lang: en
-  quantity_type: derived
-  short: amount_of_electricity
-  dimension_reference:
-    id: NISTd17
-    type: nist
-- identifiers:
-  - id: q:electric_potential_difference
-    type: unitsml
-  - id: NISTq24
-    type: nist
-  names:
-  - value: electric potential difference
-    lang: en
-  - value: différence de potentiel électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_potential_difference
-  dimension_reference:
-    id: NISTd18
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELPD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:potential_difference
-    type: unitsml
-  - id: NISTq25
-    type: nist
-  names:
-  - value: potential difference
-    lang: en
-  quantity_type: derived
-  short: potential_difference
-  dimension_reference:
-    id: NISTd18
-    type: nist
-- identifiers:
-  - id: q:electromotive_force
-    type: unitsml
-  - id: NISTq26
-    type: nist
-  names:
-  - value: electromotive force
-    lang: en
-  quantity_type: derived
-  short: electromotive_force
-  dimension_reference:
-    id: NISTd18
-    type: nist
-- identifiers:
-  - id: q:capacitance
-    type: unitsml
-  - id: NISTq27
-    type: nist
-  names:
-  - value: capacitance
-    lang: en
-  - value: capacité électrique
-    lang: fr
-  quantity_type: derived
-  short: capacitance
-  dimension_reference:
-    id: NISTd19
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELCA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_resistance
-    type: unitsml
-  - id: NISTq28
-    type: nist
-  names:
-  - value: electric resistance
-    lang: en
-  - value: résistance électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_resistance
-  dimension_reference:
-    id: NISTd20
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELRE
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_conductance
-    type: unitsml
-  - id: NISTq29
-    type: nist
-  names:
-  - value: electric conductance
-    lang: en
-  - value: conductance électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_conductance
-  dimension_reference:
-    id: NISTd21
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELCO
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:magnetic_flux
-    type: unitsml
-  - id: NISTq30
-    type: nist
-  names:
-  - value: magnetic flux
-    lang: en
-  - value: flux d'induction magnétique
-    lang: fr
-  quantity_type: derived
-  short: magnetic_flux
-  dimension_reference:
-    id: NISTd22
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MGFL
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:surface_density
-    type: unitsml
-  - id: NISTq31
-    type: nist
-  names:
-  - value: surface density
-    lang: en
-  - value: areic mass
-    lang: en
-  - value: masse surfacique
-    lang: fr
-  quantity_type: derived
-  short: surface_density
-  dimension_reference:
-    id: NISTd51
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SUDE
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:inductance
-    type: unitsml
-  - id: NISTq32
-    type: nist
-  names:
-  - value: inductance
-    lang: en
-  - value: inductance
-    lang: fr
-  quantity_type: derived
-  short: inductance
-  dimension_reference:
-    id: NISTd23
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELIN
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:mass_concentration
-    type: unitsml
-  - id: NISTq33
-    type: nist
-  names:
-  - value: mass concentration
-    lang: en
-  - value: concentration massique
-    lang: fr
-  quantity_type: derived
-  short: mass_concentration
-  dimension_reference:
-    id: NISTd30
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MACO
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:celsius_temperature
-    type: unitsml
-  - id: NISTq34
-    type: nist
-  names:
-  - value: Celsius temperature
-    lang: en
-  - value: température Celsius
-    lang: fr
-  quantity_type: derived
-  short: celsius_temperature
-  dimension_reference:
-    id: NISTd5
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/TEMC
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:activity_referred_to_a_radionuclide
-    type: unitsml
-  - id: NISTq35
-    type: nist
-  names:
-  - value: activity referred to a radionuclide
-    lang: en
-  - value: activité d'un radionucléide
-    lang: fr
-  quantity_type: derived
-  short: activity_referred_to_a_radionuclide
-  dimension_reference:
     id: NISTd24
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ARRN
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:absorbed_dose
-    type: unitsml
-  - id: NISTq36
-    type: nist
-  names:
-  - value: absorbed dose
-    lang: en
-  - value: dose absorbée
-    lang: fr
-  quantity_type: derived
-  short: absorbed_dose
-  dimension_reference:
-    id: NISTd25
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ABDO
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:specific_energy_imparted
-    type: unitsml
-  - id: NISTq37
-    type: nist
-  names:
-  - value: specific energy imparted
-    lang: en
-  quantity_type: derived
-  short: specific_energy_imparted
-  dimension_reference:
-    id: NISTd25
-    type: nist
-- identifiers:
-  - id: q:kerma
-    type: unitsml
-  - id: NISTq38
-    type: nist
-  names:
-  - value: kerma
-    lang: en
-  - value: kerma
-    lang: fr
-  quantity_type: derived
-  short: kerma
-  dimension_reference:
-    id: NISTd25
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/KRMA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:dose_equivalent
-    type: unitsml
-  - id: NISTq39
-    type: nist
-  names:
-  - value: dose equivalent
-    lang: en
-  - value: équivalent de dose
-    lang: fr
-  quantity_type: derived
-  short: dose_equivalent
-  dimension_reference:
-    id: NISTd25
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/DOEQ
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:ambient_dose_equivalent
-    type: unitsml
-  - id: NISTq40
-    type: nist
-  names:
-  - value: ambient dose equivalent
-    lang: en
-  quantity_type: derived
-  short: ambient_dose_equivalent
-  dimension_reference:
-    id: NISTd25
-    type: nist
-- identifiers:
-  - id: q:directional_dose_equivalent
-    type: unitsml
-  - id: NISTq41
-    type: nist
-  names:
-  - value: directional dose equivalent
-    lang: en
-  quantity_type: derived
-  short: directional_dose_equivalent
-  dimension_reference:
-    id: NISTd25
-    type: nist
-- identifiers:
-  - id: q:personal_dose_equivalent
-    type: unitsml
-  - id: NISTq42
-    type: nist
-  names:
-  - value: personal dose equivalent
-    lang: en
-  quantity_type: derived
-  short: personal_dose_equivalent
-  dimension_reference:
-    id: NISTd25
-    type: nist
-- identifiers:
-  - id: q:organ_dose_equivalent
-    type: unitsml
-  - id: NISTq43
-    type: nist
-  names:
-  - value: organ dose equivalent
-    lang: en
-  quantity_type: derived
-  short: organ_dose_equivalent
-  dimension_reference:
-    id: NISTd25
-    type: nist
-- identifiers:
-  - id: q:catalytic_activity
-    type: unitsml
-  - id: NISTq44
-    type: nist
-  names:
-  - value: catalytic activity
-    lang: en
-  - value: activité catalytique
-    lang: fr
-  quantity_type: derived
-  short: catalytic_activity
-  dimension_reference:
-    id: NISTd26
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/CATA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:frequency
-    type: unitsml
-  - id: NISTq45
-    type: nist
-  names:
-  - value: frequency
-    lang: en
-  - value: fréquence
-    lang: fr
-  quantity_type: derived
-  short: frequency
-  dimension_reference:
-    id: NISTd24
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/FREQ
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:luminous_flux
-    type: unitsml
-  - id: NISTq46
-    type: nist
-  names:
-  - value: luminous flux
-    lang: en
-  - value: flux lumineux
-    lang: fr
-  quantity_type: derived
-  short: luminous_flux
-  dimension_reference:
-    id: NISTd7
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/LUFL
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:illuminance
-    type: unitsml
-  - id: NISTq47
-    type: nist
-  names:
-  - value: illuminance
-    lang: en
-  - value: éclairement lumineux
-    lang: fr
-  quantity_type: derived
-  short: illuminance
-  dimension_reference:
-    id: NISTd27
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ILLU
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:distance
-    type: unitsml
-  - id: NISTq48
-    type: nist
-  names:
-  - value: distance
-    lang: en
-  quantity_type: base
-  short: distance
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:acceleration
-    type: unitsml
-  - id: NISTq49
-    type: nist
-  names:
-  - value: acceleration
-    lang: en
-  - value: accélération
-    lang: fr
-  quantity_type: derived
-  short: acceleration
-  dimension_reference:
-    id: NISTd28
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ACCE
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:wavenumber
-    type: unitsml
-  - id: NISTq50
-    type: nist
-  names:
-  - value: wavenumber
-    lang: en
-  - value: repetency
-    lang: en
-  - value: nombre d'ondes
-    lang: fr
-  quantity_type: derived
-  short: wavenumber
-  dimension_reference:
-    id: NISTd29
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/WANU
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:density
-    type: unitsml
-  - id: NISTq51
-    type: nist
-  names:
-  - value: density
-    lang: en
-  - value: mass density
-    lang: en
-  - value: masse volumique
-    lang: fr
-  quantity_type: derived
-  short: density
-  dimension_reference:
-    id: NISTd30
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/DENS
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:specific_volume
-    type: unitsml
-  - id: NISTq52
-    type: nist
-  names:
-  - value: specific volume
-    lang: en
-  - value: massic volume
-    lang: en
-  - value: volume massique
-    lang: fr
-  quantity_type: derived
-  short: specific_volume
-  dimension_reference:
-    id: NISTd31
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SPVO
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:current_density
-    type: unitsml
-  - id: NISTq53
-    type: nist
-  names:
-  - value: current density
-    lang: en
-  - value: densité de courant
-    lang: fr
-  quantity_type: derived
-  short: current_density
-  dimension_reference:
-    id: NISTd32
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/CUDE
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:magnetic_field_strength
-    type: unitsml
-  - id: NISTq54
-    type: nist
-  names:
-  - value: magnetic field strength
-    lang: en
-  - value: champ magnétique
-    lang: fr
-  quantity_type: derived
-  short: magnetic_field_strength
-  dimension_reference:
-    id: NISTd33
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MAFD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:amount_concentration
-    type: unitsml
-  - id: NISTq55
-    type: nist
-  names:
-  - value: amount of substance concentration
-    lang: en
-  - value: amount concentration
-    lang: en
-  - value: concentration de quantité de matière
-    lang: fr
-  quantity_type: derived
-  short: amount_concentration
-  dimension_reference:
-    id: NISTd34
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/AMSC
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:luminance
-    type: unitsml
-  - id: NISTq56
-    type: nist
-  names:
-  - value: luminance
-    lang: en
-  - value: luminance lumineuse
-    lang: fr
-  quantity_type: derived
-  short: luminance
-  dimension_reference:
-    id: NISTd27
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/LUMA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:angular_velocity
-    type: unitsml
-  - id: NISTq57
-    type: nist
-  names:
-  - value: angular velocity
-    lang: en
-  - value: vitesse angulaire
-    lang: fr
-  quantity_type: derived
-  short: angular_velocity
-  dimension_reference:
-    id: NISTd11
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/VELA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:angular_acceleration
-    type: unitsml
-  - id: NISTq58
-    type: nist
-  names:
-  - value: angular acceleration
-    lang: en
-  - value: accelération angulaire
-    lang: fr
-  quantity_type: derived
-  short: angular_acceleration
-  dimension_reference:
-    id: NISTd35
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ACCA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:dynamic_viscosity
-    type: unitsml
-  - id: NISTq59
-    type: nist
-  names:
-  - value: dynamic viscosity
-    lang: en
-  - value: viscosité dynamique
-    lang: fr
-  quantity_type: derived
-  short: dynamic_viscosity
-  dimension_reference:
-    id: NISTd36
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/DYVI
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:moment_of_force
-    type: unitsml
-  - id: NISTq60
-    type: nist
-  names:
-  - value: moment of force
-    lang: en
-  - value: moment d’une force
-    lang: fr
-  quantity_type: derived
-  short: moment_of_force
-  dimension_reference:
-    id: NISTd15
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/TORQ
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:surface_tension
-    type: unitsml
-  - id: NISTq61
-    type: nist
-  names:
-  - value: surface tension
-    lang: en
-  - value: tension superficielle
-    lang: fr
-  quantity_type: derived
-  short: surface_tension
-  dimension_reference:
-    id: NISTd37
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SUTE
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:heat_flux_density
-    type: unitsml
-  - id: NISTq62
-    type: nist
-  names:
-  - value: heat flux density
-    lang: en
-  - value: flux thermique surfacique
-    lang: fr
-  quantity_type: derived
-  short: heat_flux_density
-  dimension_reference:
-    id: NISTd38
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/HEFD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:heat_capacity
-    type: unitsml
-  - id: NISTq63
-    type: nist
-  names:
-  - value: heat capacity
-    lang: en
-  - value: capacité thermique
-    lang: fr
-  quantity_type: derived
-  short: heat_capacity
-  dimension_reference:
-    id: NISTd39
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/HECA
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:specific_heat_capacity
-    type: unitsml
-  - id: NISTq64
-    type: nist
-  names:
-  - value: specific heat capacity
-    lang: en
-  - value: capacité thermique massique
-    lang: fr
-  quantity_type: derived
-  short: specific_heat_capacity
-  dimension_reference:
-    id: NISTd40
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SHEC
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:specific_energy
-    type: unitsml
-  - id: NISTq65
-    type: nist
-  names:
-  - value: specific energy
-    lang: en
-  - value: énergie massique
-    lang: fr
-  quantity_type: derived
-  short: specific_energy
-  dimension_reference:
-    id: NISTd25
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SENG
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:thermal_conductivity
-    type: unitsml
-  - id: NISTq66
-    type: nist
-  names:
-  - value: thermal conductivity
-    lang: en
-  - value: conductivité thermique
-    lang: fr
-  quantity_type: derived
-  short: thermal_conductivity
-  dimension_reference:
-    id: NISTd41
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/TCON
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:energy_density
-    type: unitsml
-  - id: NISTq67
-    type: nist
-  names:
-  - value: energy density
-    lang: en
-  - value: énergie volumique
-    lang: fr
-  quantity_type: derived
-  short: energy_density
-  dimension_reference:
-    id: NISTd14
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ENGD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_field_strength
-    type: unitsml
-  - id: NISTq68
-    type: nist
-  names:
-  - value: electric field strength
-    lang: en
-  - value: champ électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_field_strength
-  dimension_reference:
-    id: NISTd42
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELFS
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_charge_density
-    type: unitsml
-  - id: NISTq69
-    type: nist
-  names:
-  - value: electric charge density
-    lang: en
-  - value: charge électrique volumique
-    lang: fr
-  quantity_type: derived
-  short: electric_charge_density
-  dimension_reference:
-    id: NISTd43
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELCD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_flux_density
-    type: unitsml
-  - id: NISTq70
-    type: nist
-  names:
-  - value: electric flux density
-    lang: en
-  - value: induction électrique
-    lang: fr
-  quantity_type: derived
-  short: electric_flux_density
-  dimension_reference:
-    id: NISTd44
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ELFD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:permittivity
-    type: unitsml
-  - id: NISTq71
-    type: nist
-  names:
-  - value: permittivity
-    lang: en
-  - value: permittivité
-    lang: fr
-  quantity_type: derived
-  short: permittivity
-  dimension_reference:
-    id: NISTd45
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/PRMI
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:permeability
-    type: unitsml
-  - id: NISTq72
-    type: nist
-  names:
-  - value: permeability
-    lang: en
-  - value: perméabilitté
-    lang: fr
-  quantity_type: derived
-  short: permeability
-  dimension_reference:
-    id: NISTd46
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/PRME
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:molar_energy
-    type: unitsml
-  - id: NISTq73
-    type: nist
-  names:
-  - value: molar energy
-    lang: en
-  - value: énergie molaire
-    lang: fr
-  quantity_type: derived
-  short: molar_energy
-  dimension_reference:
-    id: NISTd47
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MOEG
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:molar_entropy
-    type: unitsml
-  - id: NISTq74
-    type: nist
-  names:
-  - value: molar entropy
-    lang: en
-  - value: entropie molaire
-    lang: fr
-  quantity_type: derived
-  short: molar_entropy
-  dimension_reference:
-    id: NISTd48
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/MOEN
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:exposure_x_and_gamma_rays
-    type: unitsml
-  - id: NISTq75
-    type: nist
-  names:
-  - value: exposure (x and gamma rays)
-    lang: en
-  quantity_type: derived
-  short: exposure_x_and_gamma_rays
-  dimension_reference:
-    id: NISTd49
-    type: nist
-- identifiers:
-  - id: q:absorbed_dose_rate
-    type: unitsml
-  - id: NISTq76
-    type: nist
-  names:
-  - value: absorbed dose rate
-    lang: en
-  - value: débit de dose absorbée
-    lang: fr
-  quantity_type: derived
-  short: absorbed_dose_rate
-  dimension_reference:
-    id: NISTd50
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ABDR
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:potential_energy
-    type: unitsml
-  - id: NISTq77
-    type: nist
-  names:
-  - value: potential energy
-    lang: en
-  quantity_type: derived
-  short: potential_energy
-  dimension_reference:
-    id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:irradiance
-    type: unitsml
-  - id: NISTq78
-    type: nist
-  names:
-  - value: irradiance
-    lang: en
-  quantity_type: derived
-  short: irradiance
-  dimension_reference:
-    id: NISTd38
-    type: nist
-- identifiers:
-  - id: q:entropy
-    type: unitsml
-  - id: NISTq79
-    type: nist
-  names:
-  - value: entropy
-    lang: en
-  quantity_type: derived
-  short: entropy
-  dimension_reference:
-    id: NISTd39
-    type: nist
-- identifiers:
-  - id: q:specific_entropy
-    type: unitsml
-  - id: NISTq80
-    type: nist
-  names:
-  - value: specific entropy
-    lang: en
-  quantity_type: derived
-  short: specific_entropy
-  dimension_reference:
-    id: NISTd40
-    type: nist
-- identifiers:
-  - id: q:surface_charge_density
-    type: unitsml
-  - id: NISTq81
-    type: nist
-  names:
-  - value: surface charge density
-    lang: en
-  - value: charge électrique surfacique
-    lang: fr
-  quantity_type: derived
-  short: surface_charge_density
-  dimension_reference:
-    id: NISTd53
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/SUCD
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:electric_displacement
-    type: unitsml
-  - id: NISTq82
-    type: nist
-  names:
-  - value: electric displacement
-    lang: en
-  quantity_type: derived
-  short: electric_displacement
-  dimension_reference:
-    id: NISTd44
-    type: nist
-- identifiers:
-  - id: q:molar_heat_capacity
-    type: unitsml
-  - id: NISTq83
-    type: nist
-  names:
-  - value: molar heat capacity
-    lang: en
-  quantity_type: derived
-  short: molar_heat_capacity
-  dimension_reference:
-    id: NISTd48
-    type: nist
-- identifiers:
-  - id: q:catalytic_activity_concentration
-    type: unitsml
-  - id: NISTq84
-    type: nist
-  names:
-  - value: catalytic activity concentration
-    lang: en
-  - value: concentration de l’activité catalytique
-    lang: fr
-  quantity_type: derived
-  short: catalytic_activity_concentration
-  dimension_reference:
-    id: NISTd55
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/CTAC
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:kinematic_viscosity
-    type: unitsml
-  - id: NISTq85
-    type: nist
-  names:
-  - value: kinematic viscosity
-    lang: en
-  - value: viscosité cinématique
-    lang: fr
-  quantity_type: derived
-  short: kinematic_viscosity
-  dimension_reference:
-    id: NISTd56
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/KIVI
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:magnetic_field
-    type: unitsml
-  - id: NISTq87
-    type: nist
-  names:
-  - value: magnetic field
-    lang: en
-  quantity_type: derived
-  short: magnetic_field
-  dimension_reference:
-    id: NISTd33
-    type: nist
-- identifiers:
-  - id: q:radiant_intensity
-    type: unitsml
-  - id: NISTq88
-    type: nist
-  names:
-  - value: radiant intensity
-    lang: en
-  - value: intensité énergétique
-    lang: fr
-  quantity_type: derived
-  short: radiant_intensity
-  dimension_reference:
-    id: NISTd16
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/RAIN
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:radiance
-    type: unitsml
-  - id: NISTq89
-    type: nist
-  names:
-  - value: radiance
-    lang: en
-  - value: luminance énergétique
-    lang: fr
-  quantity_type: derived
-  short: radiance
-  dimension_reference:
-    id: NISTd38
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/RADI
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:logarithmic_ratio_quantities
-    type: unitsml
-  - id: NISTq90
-    type: nist
-  names:
-  - value: ratio logarithm (B)
-    lang: en
-  - value: logarithmic ratio quantities (power-like quantities using decimal logarithms)
-    lang: en
-  - value: logarithme d'un rapport (B)
-    lang: fr
-  quantity_type: derived
-  short: logarithmic_ratio_quantities
-  dimension_reference:
-    id: NISTd67
-    type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/RLGB
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:fluidity
-    type: unitsml
-  - id: NISTq91
-    type: nist
-  names:
-  - value: fluidity
-    lang: en
-  - value: reciprocal of dynamic viscosity
-    lang: en
-  quantity_type: derived
-  short: fluidity
-  dimension_reference:
-    id: NISTd52
-    type: nist
-- identifiers:
-  - id: q:hydrodynamic_permeability
-    type: unitsml
-  - id: NISTq92
-    type: nist
-  names:
-  - value: hydrodynamic permeability
-    lang: en
-  quantity_type: derived
-  short: hydrodynamic_permeability
-  dimension_reference:
-    id: NISTd8
-    type: nist
-- identifiers:
-  - id: q:refractive_index
-    type: unitsml
-  - id: NISTq93
-    type: nist
-  names:
-  - value: refractive index
-    lang: en
-  quantity_type: derived
-  short: refractive_index
-  dimension_reference:
-    id: NISTd80
-    type: nist
-- identifiers:
-  - id: q:relative_permeability
-    type: unitsml
-  - id: NISTq94
-    type: nist
-  names:
-  - value: relative permeability
-    lang: en
-  quantity_type: derived
-  short: relative_permeability
-  dimension_reference:
-    id: NISTd80
-    type: nist
-- identifiers:
-  - id: q:breadth
-    type: unitsml
-  - id: NISTq95
-    type: nist
-  names:
-  - value: breadth
-    lang: en
-  quantity_type: derived
-  short: breadth
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:height
-    type: unitsml
-  - id: NISTq96
-    type: nist
-  names:
-  - value: height
-    lang: en
-  quantity_type: derived
-  short: height
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:thickness
-    type: unitsml
-  - id: NISTq97
-    type: nist
-  names:
-  - value: thickness
-    lang: en
-  quantity_type: derived
-  short: thickness
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:radius
-    type: unitsml
-  - id: NISTq98
-    type: nist
-  names:
-  - value: radius
-    lang: en
-  quantity_type: derived
-  short: radius
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:radial_distance
-    type: unitsml
-  - id: NISTq99
-    type: nist
-  names:
-  - value: radial distance
-    lang: en
-  quantity_type: derived
-  short: radial_distance
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:diameter
-    type: unitsml
-  - id: NISTq100
-    type: nist
-  names:
-  - value: diameter
-    lang: en
-  quantity_type: derived
-  short: diameter
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:length_of_path
-    type: unitsml
-  - id: NISTq101
-    type: nist
-  names:
-  - value: length of path
-    lang: en
-  quantity_type: derived
-  short: length_of_path
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:cartesian_coordinates
-    type: unitsml
-  - id: NISTq102
-    type: nist
-  names:
-  - value: cartesian coordinates
-    lang: en
-  quantity_type: derived
-  short: cartesian_coordinates
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:position_vector
-    type: unitsml
-  - id: NISTq103
-    type: nist
-  names:
-  - value: position vector
-    lang: en
-  quantity_type: derived
-  short: position_vector
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:displacement
-    type: unitsml
-  - id: NISTq104
-    type: nist
-  names:
-  - value: displacement
-    lang: en
-  quantity_type: derived
-  short: displacement
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:radius_of_curvature
-    type: unitsml
-  - id: NISTq105
-    type: nist
-  names:
-  - value: radius of curvature
-    lang: en
-  quantity_type: derived
-  short: radius_of_curvature
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:curvature
-    type: unitsml
-  - id: NISTq106
-    type: nist
-  names:
-  - value: curvature
-    lang: en
-  quantity_type: derived
-  short: curvature
-  dimension_reference:
-    id: NISTd29
-    type: nist
-- identifiers:
-  - id: q:speed_of_propagation_of_waves
-    type: unitsml
-  - id: NISTq107
-    type: nist
-  names:
-  - value: speed of propagation of waves
-    lang: en
-  quantity_type: derived
-  short: speed_of_propagation_of_waves
-  dimension_reference:
-    id: NISTd11
-    type: nist
-- identifiers:
-  - id: q:acceleration_of_free_fall
-    type: unitsml
-  - id: NISTq108
-    type: nist
-  names:
-  - value: acceleration of free fall
-    lang: en
-  quantity_type: derived
-  short: acceleration_of_free_fall
-  dimension_reference:
-    id: NISTd28
-    type: nist
-- identifiers:
-  - id: q:period_duration
-    type: unitsml
-  - id: NISTq109
-    type: nist
-  names:
-  - value: period duration
-    lang: en
-  - value: period
-    lang: en
-  quantity_type: derived
-  short: period_duration
-  dimension_reference:
-    id: NISTd3
-    type: nist
-- identifiers:
-  - id: q:time_constant
-    type: unitsml
-  - id: NISTq110
-    type: nist
-  names:
-  - value: time constant
-    lang: en
-  quantity_type: derived
-  short: time_constant
-  dimension_reference:
-    id: NISTd3
-    type: nist
-- identifiers:
-  - id: q:rotation
-    type: unitsml
-  - id: NISTq111
-    type: nist
-  names:
-  - value: rotation
-    lang: en
-  quantity_type: derived
-  short: rotation
-  dimension_reference:
-    id: NISTd80
-    type: nist
-- identifiers:
-  - id: q:rotational_frequency
-    type: unitsml
-  - id: NISTq112
-    type: nist
-  names:
-  - value: rotational frequency
-    lang: en
-  quantity_type: derived
-  short: rotational_frequency
-  dimension_reference:
-    id: NISTd24
-    type: nist
-- identifiers:
-  - id: q:angular_frequency
-    type: unitsml
-  - id: NISTq113
-    type: nist
-  names:
-  - value: angular frequency
-    lang: en
-  quantity_type: derived
-  short: angular_frequency
-  dimension_reference:
-    id: NISTd24
-    type: nist
-- identifiers:
-  - id: q:wavelength
-    type: unitsml
-  - id: NISTq114
-    type: nist
-  names:
-  - value: wavelength
-    lang: en
-  quantity_type: derived
-  short: wavelength
-  dimension_reference:
-    id: NISTd1
-    type: nist
-- identifiers:
-  - id: q:angular_wavenumber
-    type: unitsml
-  - id: NISTq115
-    type: nist
-  names:
-  - value: angular wavenumber
-    lang: en
-  - value: angular repetency
-    lang: en
-  quantity_type: derived
-  short: angular_wavenumber
-  dimension_reference:
-    id: NISTd29
-    type: nist
-- identifiers:
-  - id: q:phase_velocity
-    type: unitsml
-  - id: NISTq116
-    type: nist
-  names:
-  - value: phase velocity
-    lang: en
-  - value: phase speed
-    lang: en
-  quantity_type: derived
-  short: phase_velocity
-  dimension_reference:
-    id: NISTd11
-    type: nist
-- identifiers:
-  - id: q:group_velocity
-    type: unitsml
-  - id: NISTq117
-    type: nist
-  names:
-  - value: group velocity
-    lang: en
-  - value: group speed
-    lang: en
-  quantity_type: derived
-  short: group_velocity
-  dimension_reference:
-    id: NISTd11
-    type: nist
-- identifiers:
-  - id: q:level_of_a_field_quantity
-    type: unitsml
-  - id: NISTq118
-    type: nist
-  names:
-  - value: level of a field quantity
-    lang: en
-  quantity_type: derived
-  short: level_of_a_field_quantity
-  dimension_reference:
-    id: NISTd83
-    type: nist
-- identifiers:
-  - id: q:level_of_a_power_quantity
-    type: unitsml
-  - id: NISTq119
-    type: nist
-  names:
-  - value: level of a power quantity
-    lang: en
-  quantity_type: derived
-  short: level_of_a_power_quantity
-  dimension_reference:
-    id: NISTd84
-    type: nist
-- identifiers:
-  - id: q:damping_coefficient
-    type: unitsml
-  - id: NISTq120
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq120
+  - type: unitsml
+    id: q:damping_coefficient
   names:
   - value: damping coefficient
     lang: en
   quantity_type: derived
   short: damping_coefficient
-  dimension_reference:
-    id: NISTd24
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:logarithmic_decrement
-    type: unitsml
-  - id: NISTq121
-    type: nist
+    id: NISTd67
+  identifiers:
+  - type: nist
+    id: NISTq121
+  - type: unitsml
+    id: q:logarithmic_decrement
   names:
   - value: ratio logarithm (Np)
     lang: en
@@ -1999,58 +376,58 @@ quantities:
   - value: logarithme d'un rapport (Np)
     lang: fr
   quantity_type: derived
-  short: logarithmic_decrement
-  dimension_reference:
-    id: NISTd67
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/RLGN
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:attenuation_coefficient
-    type: unitsml
-  - id: NISTq122
+    uri: http://si-digital-framework.org/quantities/RLGN
+  short: logarithmic_decrement
+- dimension_reference:
     type: nist
+    id: NISTd29
+  identifiers:
+  - type: nist
+    id: NISTq122
+  - type: unitsml
+    id: q:attenuation_coefficient
   names:
   - value: attenuation coefficient
     lang: en
   quantity_type: derived
   short: attenuation_coefficient
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd29
-    type: nist
-- identifiers:
-  - id: q:phase_coefficient
-    type: unitsml
-  - id: NISTq123
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq123
+  - type: unitsml
+    id: q:phase_coefficient
   names:
   - value: phase coefficient
     lang: en
   quantity_type: derived
   short: phase_coefficient
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd29
-    type: nist
-- identifiers:
-  - id: q:propagation_coefficient
-    type: unitsml
-  - id: NISTq124
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq124
+  - type: unitsml
+    id: q:propagation_coefficient
   names:
   - value: propagation coefficient
     lang: en
   quantity_type: derived
   short: propagation_coefficient
-  dimension_reference:
-    id: NISTd29
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:relative_mass_density
-    type: unitsml
-  - id: NISTq125
-    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq125
+  - type: unitsml
+    id: q:relative_mass_density
   names:
   - value: relative mass density
     lang: en
@@ -2058,14 +435,14 @@ quantities:
     lang: en
   quantity_type: derived
   short: relative_mass_density
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:linear_density
-    type: unitsml
-  - id: NISTq126
-    type: nist
+    id: NISTd58
+  identifiers:
+  - type: nist
+    id: NISTq126
+  - type: unitsml
+    id: q:linear_density
   names:
   - value: linear density
     lang: en
@@ -2073,14 +450,14 @@ quantities:
     lang: en
   quantity_type: derived
   short: linear_density
-  dimension_reference:
-    id: NISTd58
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:mass_moment_of_inertia
-    type: unitsml
-  - id: NISTq127
-    type: nist
+    id: NISTd59
+  identifiers:
+  - type: nist
+    id: NISTq127
+  - type: unitsml
+    id: q:mass_moment_of_inertia
   names:
   - value: mass moment of inertia
     lang: en
@@ -2088,66 +465,85 @@ quantities:
     lang: en
   quantity_type: derived
   short: mass_moment_of_inertia
-  dimension_reference:
-    id: NISTd59
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:weight
-    type: unitsml
-  - id: NISTq128
-    type: nist
+    id: NISTd12
+  identifiers:
+  - type: nist
+    id: NISTq128
+  - type: unitsml
+    id: q:weight
   names:
   - value: weight
     lang: en
   quantity_type: derived
   short: weight
-  dimension_reference:
-    id: NISTd12
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:impulse
-    type: unitsml
-  - id: NISTq129
-    type: nist
+    id: NISTd61
+  identifiers:
+  - type: nist
+    id: NISTq129
+  - type: unitsml
+    id: q:impulse
   names:
   - value: impulse
     lang: en
   quantity_type: derived
   short: impulse
-  dimension_reference:
-    id: NISTd61
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:gravitational_constant
-    type: unitsml
-  - id: NISTq130
+    id: NISTd12
+  identifiers:
+  - type: nist
+    id: NISTq13
+  - type: unitsml
+    id: q:force
+  names:
+  - value: force
+    lang: en
+  - value: force
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/FORC
+  short: force
+- dimension_reference:
     type: nist
+    id: NISTd62
+  identifiers:
+  - type: nist
+    id: NISTq130
+  - type: unitsml
+    id: q:gravitational_constant
   names:
   - value: gravitational constant
     lang: en
   quantity_type: derived
   short: gravitational_constant
-  dimension_reference:
-    id: NISTd62
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:momentum
-    type: unitsml
-  - id: NISTq131
-    type: nist
+    id: NISTd61
+  identifiers:
+  - type: nist
+    id: NISTq131
+  - type: unitsml
+    id: q:momentum
   names:
   - value: momentum
     lang: en
   quantity_type: derived
   short: momentum
-  dimension_reference:
-    id: NISTd61
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:moment_of_momentum
-    type: unitsml
-  - id: NISTq132
-    type: nist
+    id: NISTd60
+  identifiers:
+  - type: nist
+    id: NISTq132
+  - type: unitsml
+    id: q:moment_of_momentum
   names:
   - value: moment of momentum
     lang: en
@@ -2155,131 +551,150 @@ quantities:
     lang: en
   quantity_type: derived
   short: moment_of_momentum
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd60
-    type: nist
-- identifiers:
-  - id: q:angular_impulse
-    type: unitsml
-  - id: NISTq133
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq133
+  - type: unitsml
+    id: q:angular_impulse
   names:
   - value: angular impulse
     lang: en
   quantity_type: derived
   short: angular_impulse
-  dimension_reference:
-    id: NISTd60
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:normal_stress
-    type: unitsml
-  - id: NISTq134
-    type: nist
+    id: NISTd14
+  identifiers:
+  - type: nist
+    id: NISTq134
+  - type: unitsml
+    id: q:normal_stress
   names:
   - value: normal stress
     lang: en
   quantity_type: derived
   short: normal_stress
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd14
-    type: nist
-- identifiers:
-  - id: q:shear_stress
-    type: unitsml
-  - id: NISTq135
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq135
+  - type: unitsml
+    id: q:shear_stress
   names:
   - value: shear stress
     lang: en
   quantity_type: derived
   short: shear_stress
-  dimension_reference:
-    id: NISTd14
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:linear_strain
-    type: unitsml
-  - id: NISTq136
-    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq136
+  - type: unitsml
+    id: q:linear_strain
   names:
   - value: linear strain
     lang: en
   quantity_type: derived
   short: linear_strain
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd80
-    type: nist
-- identifiers:
-  - id: q:shear_strain
-    type: unitsml
-  - id: NISTq137
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq137
+  - type: unitsml
+    id: q:shear_strain
   names:
   - value: shear strain
     lang: en
   quantity_type: derived
   short: shear_strain
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd80
-    type: nist
-- identifiers:
-  - id: q:volume_strain
-    type: unitsml
-  - id: NISTq138
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq138
+  - type: unitsml
+    id: q:volume_strain
   names:
   - value: volume strain
     lang: en
   quantity_type: derived
   short: volume_strain
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:compressibility
-    type: unitsml
-  - id: NISTq139
-    type: nist
+    id: NISTd63
+  identifiers:
+  - type: nist
+    id: NISTq139
+  - type: unitsml
+    id: q:compressibility
   names:
   - value: compressibility
     lang: en
   quantity_type: derived
   short: compressibility
-  dimension_reference:
-    id: NISTd63
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:poisson_number
-    type: unitsml
-  - id: NISTq140
+    id: NISTd13
+  identifiers:
+  - type: nist
+    id: NISTq14
+  - type: unitsml
+    id: q:magnetic_flux_density
+  names:
+  - value: magnetic flux density
+    lang: en
+  - value: induction magnétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MGFD
+  short: magnetic_flux_density
+- dimension_reference:
     type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq140
+  - type: unitsml
+    id: q:poisson_number
   names:
   - value: Poisson number
     lang: en
   quantity_type: derived
   short: poisson_number
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:modulus_of_elasticity
-    type: unitsml
-  - id: NISTq141
-    type: nist
+    id: NISTd14
+  identifiers:
+  - type: nist
+    id: NISTq141
+  - type: unitsml
+    id: q:modulus_of_elasticity
   names:
   - value: modulus of elasticity
     lang: en
   quantity_type: derived
   short: modulus_of_elasticity
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd14
-    type: nist
-- identifiers:
-  - id: q:modulus_of_rigidity
-    type: unitsml
-  - id: NISTq142
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq142
+  - type: unitsml
+    id: q:modulus_of_rigidity
   names:
   - value: modulus of rigidity
     lang: en
@@ -2287,14 +702,14 @@ quantities:
     lang: en
   quantity_type: derived
   short: modulus_of_rigidity
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd14
-    type: nist
-- identifiers:
-  - id: q:modulus_of_compression
-    type: unitsml
-  - id: NISTq143
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq143
+  - type: unitsml
+    id: q:modulus_of_compression
   names:
   - value: modulus of compression
     lang: en
@@ -2302,131 +717,150 @@ quantities:
     lang: en
   quantity_type: derived
   short: modulus_of_compression
-  dimension_reference:
-    id: NISTd14
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:second_axial_moment_of_area
-    type: unitsml
-  - id: NISTq144
-    type: nist
+    id: NISTd57
+  identifiers:
+  - type: nist
+    id: NISTq144
+  - type: unitsml
+    id: q:second_axial_moment_of_area
   names:
   - value: second axial moment of area
     lang: en
   quantity_type: derived
   short: second_axial_moment_of_area
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd57
-    type: nist
-- identifiers:
-  - id: q:second_polar_moment_of_area
-    type: unitsml
-  - id: NISTq145
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq145
+  - type: unitsml
+    id: q:second_polar_moment_of_area
   names:
   - value: second polar moment of area
     lang: en
   quantity_type: derived
   short: second_polar_moment_of_area
-  dimension_reference:
-    id: NISTd57
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:section_modulus
-    type: unitsml
-  - id: NISTq146
-    type: nist
+    id: NISTd10
+  identifiers:
+  - type: nist
+    id: NISTq146
+  - type: unitsml
+    id: q:section_modulus
   names:
   - value: section modulus
     lang: en
   quantity_type: derived
   short: section_modulus
-  dimension_reference:
-    id: NISTd10
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:dynamic_friction_factor
-    type: unitsml
-  - id: NISTq147
-    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq147
+  - type: unitsml
+    id: q:dynamic_friction_factor
   names:
   - value: dynamic friction factor
     lang: en
   quantity_type: derived
   short: dynamic_friction_factor
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:mass_flow_rate
-    type: unitsml
-  - id: NISTq150
+    id: NISTd14
+  identifiers:
+  - type: nist
+    id: NISTq15
+  - type: unitsml
+    id: q:pressure
+  names:
+  - value: pressure
+    lang: en
+  - value: pression, contrainte
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/PRES
+  short: pressure
+- dimension_reference:
     type: nist
+    id: NISTd65
+  identifiers:
+  - type: nist
+    id: NISTq150
+  - type: unitsml
+    id: q:mass_flow_rate
   names:
   - value: mass flow rate
     lang: en
   quantity_type: derived
   short: mass_flow_rate
-  dimension_reference:
-    id: NISTd65
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:volume_flow_rate
-    type: unitsml
-  - id: NISTq151
-    type: nist
+    id: NISTd66
+  identifiers:
+  - type: nist
+    id: NISTq151
+  - type: unitsml
+    id: q:volume_flow_rate
   names:
   - value: volume flow rate
     lang: en
   quantity_type: derived
   short: volume_flow_rate
-  dimension_reference:
-    id: NISTd66
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:lagrange_function
-    type: unitsml
-  - id: NISTq152
-    type: nist
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq152
+  - type: unitsml
+    id: q:lagrange_function
   names:
   - value: Lagrange function
     lang: en
   quantity_type: derived
   short: lagrange_function
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:hamilton_function
-    type: unitsml
-  - id: NISTq153
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq153
+  - type: unitsml
+    id: q:hamilton_function
   names:
   - value: Hamilton function
     lang: en
   quantity_type: derived
   short: hamilton_function
-  dimension_reference:
-    id: NISTd15
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:action
-    type: unitsml
-  - id: NISTq154
-    type: nist
+    id: NISTd60
+  identifiers:
+  - type: nist
+    id: NISTq154
+  - type: unitsml
+    id: q:action
   names:
   - value: action
     lang: en
   quantity_type: derived
   short: action
-  dimension_reference:
-    id: NISTd60
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:area_moment_of_inertia
-    type: unitsml
-  - id: NISTq155
-    type: nist
+    id: NISTd57
+  identifiers:
+  - type: nist
+    id: NISTq155
+  - type: unitsml
+    id: q:area_moment_of_inertia
   names:
   - value: area moment of inertia
     lang: en
@@ -2434,287 +868,319 @@ quantities:
     lang: en
   quantity_type: derived
   short: area_moment_of_inertia
-  dimension_reference:
-    id: NISTd57
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:linear_expansion_coefficient
-    type: unitsml
-  - id: NISTq156
-    type: nist
+    id: NISTd68
+  identifiers:
+  - type: nist
+    id: NISTq156
+  - type: unitsml
+    id: q:linear_expansion_coefficient
   names:
   - value: linear expansion coefficient
     lang: en
   quantity_type: derived
   short: linear_expansion_coefficient
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd68
-    type: nist
-- identifiers:
-  - id: q:cubic_expansion_coefficient
-    type: unitsml
-  - id: NISTq157
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq157
+  - type: unitsml
+    id: q:cubic_expansion_coefficient
   names:
   - value: cubic expansion coefficient
     lang: en
   quantity_type: derived
   short: cubic_expansion_coefficient
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd68
-    type: nist
-- identifiers:
-  - id: q:relative_pressure_coefficient
-    type: unitsml
-  - id: NISTq158
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq158
+  - type: unitsml
+    id: q:relative_pressure_coefficient
   names:
   - value: relative pressure coefficient
     lang: en
   quantity_type: derived
   short: relative_pressure_coefficient
-  dimension_reference:
-    id: NISTd68
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:pressure_coefficient
-    type: unitsml
-  - id: NISTq159
-    type: nist
+    id: NISTd69
+  identifiers:
+  - type: nist
+    id: NISTq159
+  - type: unitsml
+    id: q:pressure_coefficient
   names:
   - value: pressure coefficient
     lang: en
   quantity_type: derived
   short: pressure_coefficient
-  dimension_reference:
-    id: NISTd69
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:isothermal_compressibility
-    type: unitsml
-  - id: NISTq160
+    id: NISTd14
+  identifiers:
+  - type: nist
+    id: NISTq16
+  - type: unitsml
+    id: q:stress
+  names:
+  - value: stress
+    lang: en
+  quantity_type: derived
+  short: stress
+- dimension_reference:
     type: nist
+    id: NISTd70
+  identifiers:
+  - type: nist
+    id: NISTq160
+  - type: unitsml
+    id: q:isothermal_compressibility
   names:
   - value: isothermal compressibility
     lang: en
   quantity_type: derived
   short: isothermal_compressibility
-  dimension_reference:
-    id: NISTd70
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:magnetomotive_force
-    type: unitsml
-  - id: NISTq161
-    type: nist
+    id: NISTd4
+  identifiers:
+  - type: nist
+    id: NISTq161
+  - type: unitsml
+    id: q:magnetomotive_force
   names:
   - value: magnetomotive force (Cardelli) (-SP811)
     lang: en
   quantity_type: derived
   short: magnetomotive_force
-  dimension_reference:
-    id: NISTd4
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_dipole_moment
-    type: unitsml
-  - id: NISTq162
-    type: nist
+    id: NISTd72
+  identifiers:
+  - type: nist
+    id: NISTq162
+  - type: unitsml
+    id: q:electric_dipole_moment
   names:
   - value: electric dipole moment
     lang: en
   quantity_type: derived
   short: electric_dipole_moment
-  dimension_reference:
-    id: NISTd72
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:magnetizability
-    type: unitsml
-  - id: NISTq163
-    type: nist
+    id: NISTd54
+  identifiers:
+  - type: nist
+    id: NISTq163
+  - type: unitsml
+    id: q:magnetizability
   names:
   - value: magnetizability
     lang: en
   quantity_type: derived
   short: magnetizability
-  dimension_reference:
-    id: NISTd54
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:magnetic_dipole_moment
-    type: unitsml
-  - id: NISTq164
-    type: nist
+    id: NISTd73
+  identifiers:
+  - type: nist
+    id: NISTq164
+  - type: unitsml
+    id: q:magnetic_dipole_moment
   names:
   - value: magnetic dipole moment
     lang: en
   quantity_type: derived
   short: magnetic_dipole_moment
-  dimension_reference:
-    id: NISTd73
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_field_gradient
-    type: unitsml
-  - id: NISTq165
-    type: nist
+    id: NISTd74
+  identifiers:
+  - type: nist
+    id: NISTq165
+  - type: unitsml
+    id: q:electric_field_gradient
   names:
   - value: electric field gradient
     lang: en
   quantity_type: derived
   short: electric_field_gradient
-  dimension_reference:
-    id: NISTd74
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_potential
-    type: unitsml
-  - id: NISTq166
-    type: nist
+    id: NISTd18
+  identifiers:
+  - type: nist
+    id: NISTq166
+  - type: unitsml
+    id: q:electric_potential
   names:
   - value: electric potential
     lang: en
   quantity_type: derived
   short: electric_potential
-  dimension_reference:
-    id: NISTd18
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_quadrupole_moment
-    type: unitsml
-  - id: NISTq167
-    type: nist
+    id: NISTd75
+  identifiers:
+  - type: nist
+    id: NISTq167
+  - type: unitsml
+    id: q:electric_quadrupole_moment
   names:
   - value: electric quadrupole moment
     lang: en
   quantity_type: derived
   short: electric_quadrupole_moment
-  dimension_reference:
-    id: NISTd75
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:polarizability
-    type: unitsml
-  - id: NISTq168
-    type: nist
+    id: NISTd76
+  identifiers:
+  - type: nist
+    id: NISTq168
+  - type: unitsml
+    id: q:polarizability
   names:
   - value: polarizability
     lang: en
   quantity_type: derived
   short: polarizability
-  dimension_reference:
-    id: NISTd76
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_capacitance
-    type: unitsml
-  - id: NISTq169
-    type: nist
+    id: NISTd19
+  identifiers:
+  - type: nist
+    id: NISTq169
+  - type: unitsml
+    id: q:electric_capacitance
   names:
   - value: electric capacitance
     lang: en
   quantity_type: derived
   short: electric_capacitance
-  dimension_reference:
-    id: NISTd19
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_current_intensity
-    type: unitsml
-  - id: NISTq170
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq17
+  - type: unitsml
+    id: q:energy
+  names:
+  - value: energy
+    lang: en
+  - value: énergie
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ENGY
+  short: energy
+- dimension_reference:
     type: nist
+    id: NISTd4
+  identifiers:
+  - type: nist
+    id: NISTq170
+  - type: unitsml
+    id: q:electric_current_intensity
   names:
   - value: electric current intensity
     lang: en
   quantity_type: derived
   short: electric_current_intensity
-  dimension_reference:
-    id: NISTd4
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:electric_inductance
-    type: unitsml
-  - id: NISTq171
-    type: nist
+    id: NISTd23
+  identifiers:
+  - type: nist
+    id: NISTq171
+  - type: unitsml
+    id: q:electric_inductance
   names:
   - value: electric inductance
     lang: en
   quantity_type: derived
   short: electric_inductance
-  dimension_reference:
-    id: NISTd23
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:first_hyperpolarizability
-    type: unitsml
-  - id: NISTq172
-    type: nist
+    id: NISTd77
+  identifiers:
+  - type: nist
+    id: NISTq172
+  - type: unitsml
+    id: q:first_hyperpolarizability
   names:
   - value: 1st hyperpolarizability
     lang: en
   quantity_type: derived
   short: first_hyperpolarizability
-  dimension_reference:
-    id: NISTd77
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:second_hyperpolarizability
-    type: unitsml
-  - id: NISTq173
-    type: nist
+    id: NISTd78
+  identifiers:
+  - type: nist
+    id: NISTq173
+  - type: unitsml
+    id: q:second_hyperpolarizability
   names:
   - value: 2nd hyperpolarizability
     lang: en
   quantity_type: derived
   short: second_hyperpolarizability
-  dimension_reference:
-    id: NISTd78
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:index_of_acidity
-    type: unitsml
-  - id: NISTq174
-    type: nist
+    id: NISTd94
+  identifiers:
+  - type: nist
+    id: NISTq174
+  - type: unitsml
+    id: q:index_of_acidity
   names:
   - value: index of acidity
     lang: en
   quantity_type: derived
   short: index_of_acidity
-  dimension_reference:
-    id: NISTd94
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:fahrenheit_temperature
-    type: unitsml
-  - id: NISTq175
-    type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq175
+  - type: unitsml
+    id: q:fahrenheit_temperature
   names:
   - value: Fahrenheit temperature
     lang: en
   quantity_type: derived
   short: fahrenheit_temperature
-  dimension_reference:
-    id: NISTd5
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:mass_divided_by_length
-    type: unitsml
-  - id: NISTq176
-    type: nist
+    id: NISTd58
+  identifiers:
+  - type: nist
+    id: NISTq176
+  - type: unitsml
+    id: q:mass_divided_by_length
   names:
   - value: mass divided by length
     lang: en
   quantity_type: derived
   short: mass_divided_by_length
-  dimension_reference:
-    id: NISTd58
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:storage_capacity
-    type: unitsml
-  - id: NISTq177
-    type: nist
+    id: NISTd95
+  identifiers:
+  - type: nist
+    id: NISTq177
+  - type: unitsml
+    id: q:storage_capacity
   names:
   - value: storage capacity
     lang: en
@@ -2722,105 +1188,118 @@ quantities:
     lang: en
   quantity_type: derived
   short: storage_capacity
-  dimension_reference:
-    id: NISTd95
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:molality_of_solute_B
-    type: unitsml
-  - id: NISTq179
-    type: nist
+    id: NISTd79
+  identifiers:
+  - type: nist
+    id: NISTq179
+  - type: unitsml
+    id: q:molality_of_solute_B
   names:
   - value: molality of solute B
     lang: en
   quantity_type: derived
   short: molality_of_solute_B
-  dimension_reference:
-    id: NISTd79
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:coefficient_of_heat_transfer
-    type: unitsml
-  - id: NISTq180
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq18
+  - type: unitsml
+    id: q:work
+  names:
+  - value: work
+    lang: en
+  quantity_type: derived
+  short: work
+- dimension_reference:
     type: nist
+    id: NISTd71
+  identifiers:
+  - type: nist
+    id: NISTq180
+  - type: unitsml
+    id: q:coefficient_of_heat_transfer
   names:
   - value: coefficient of heat transfer
     lang: en
   quantity_type: derived
   short: coefficient_of_heat_transfer
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd71
-    type: nist
-- identifiers:
-  - id: q:surface_coefficient_of_heat_transfer
-    type: unitsml
-  - id: NISTq181
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq181
+  - type: unitsml
+    id: q:surface_coefficient_of_heat_transfer
   names:
   - value: surface coefficient of heat transfer
     lang: en
   quantity_type: derived
   short: surface_coefficient_of_heat_transfer
-  dimension_reference:
-    id: NISTd71
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:kinetic_energy
-    type: unitsml
-  - id: NISTq182
-    type: nist
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq182
+  - type: unitsml
+    id: q:kinetic_energy
   names:
   - value: kinetic energy
     lang: en
   quantity_type: derived
   short: kinetic_energy
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:mechanical_energy
-    type: unitsml
-  - id: NISTq183
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq183
+  - type: unitsml
+    id: q:mechanical_energy
   names:
   - value: mechanical energy
     lang: en
   quantity_type: derived
   short: mechanical_energy
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:torque
-    type: unitsml
-  - id: NISTq184
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq184
+  - type: unitsml
+    id: q:torque
   names:
   - value: torque
     lang: en
   quantity_type: derived
   short: torque
-  dimension_reference:
+- dimension_reference:
+    type: nist
     id: NISTd15
-    type: nist
-- identifiers:
-  - id: q:bending_moment_of_force
-    type: unitsml
-  - id: NISTq185
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq185
+  - type: unitsml
+    id: q:bending_moment_of_force
   names:
   - value: bending moment of force
     lang: en
   quantity_type: derived
   short: bending_moment_of_force
-  dimension_reference:
-    id: NISTd15
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:mass_fraction
-    type: unitsml
-  - id: NISTq186
-    type: nist
+    id: NISTd85
+  identifiers:
+  - type: nist
+    id: NISTq186
+  - type: unitsml
+    id: q:mass_fraction
   names:
   - value: mass fraction
     lang: en
@@ -2828,211 +1307,226 @@ quantities:
     lang: en
   quantity_type: derived
   short: mass_fraction
-  dimension_reference:
-    id: NISTd85
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:apparent_power
-    type: unitsml
-  - id: NISTq187
-    type: nist
+    id: NISTd16
+  identifiers:
+  - type: nist
+    id: NISTq187
+  - type: unitsml
+    id: q:apparent_power
   names:
   - value: apparent power
     lang: en
   quantity_type: derived
   short: apparent_power
-  dimension_reference:
-    id: NISTd16
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:nil
-    type: unitsml
-  - id: NISTq188
-    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq188
+  - type: unitsml
+    id: q:nil
   names:
   - value: nil
     lang: en
   quantity_type: derived
   short: nil
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:emission_rate
-    type: unitsml
-  - id: NISTq189
-    type: nist
+    id: NISTd24
+  identifiers:
+  - type: nist
+    id: NISTq189
+  - type: unitsml
+    id: q:emission_rate
   names:
   - value: emission rate
     lang: en
   - value: taux d'émission
     lang: fr
   quantity_type: derived
-  short: emission_rate
-  dimension_reference:
-    id: NISTd24
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/EMIR
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:fluence
-    type: unitsml
-  - id: NISTq190
+    uri: http://si-digital-framework.org/quantities/EMIR
+  short: emission_rate
+- dimension_reference:
     type: nist
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq19
+  - type: unitsml
+    id: q:amount_of_heat
+  names:
+  - value: amount of heat
+    lang: en
+  - value: heat
+    lang: en
+  quantity_type: derived
+  short: amount_of_heat
+- dimension_reference:
+    type: nist
+    id: NISTd96
+  identifiers:
+  - type: nist
+    id: NISTq190
+  - type: unitsml
+    id: q:fluence
   names:
   - value: fluence
     lang: en
   - value: fluence
     lang: fr
   quantity_type: derived
-  short: fluence
-  dimension_reference:
-    id: NISTd96
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/FLUE
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:fluence_rate
-    type: unitsml
-  - id: NISTq191
+    uri: http://si-digital-framework.org/quantities/FLUE
+  short: fluence
+- dimension_reference:
     type: nist
+    id: NISTd97
+  identifiers:
+  - type: nist
+    id: NISTq191
+  - type: unitsml
+    id: q:fluence_rate
   names:
   - value: fluence rate
     lang: en
   - value: débit de fluence
     lang: fr
   quantity_type: derived
-  short: fluence_rate
-  dimension_reference:
-    id: NISTd97
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/FLUR
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:ITS-90_temperature_celsius
-    type: unitsml
-  - id: NISTq192
+    uri: http://si-digital-framework.org/quantities/FLUR
+  short: fluence_rate
+- dimension_reference:
     type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq192
+  - type: unitsml
+    id: q:ITS-90_temperature_celsius
   names:
   - value: ITS-90 temperature (°C)
     lang: en
   - value: température ITS-90 (℃)
     lang: fr
   quantity_type: derived
-  short: ITS-90_temperature_celsius
-  dimension_reference:
-    id: NISTd5
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/ITSC
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:ITS-90_temperature_kelvin
-    type: unitsml
-  - id: NISTq193
+    uri: http://si-digital-framework.org/quantities/ITSC
+  short: ITS-90_temperature_celsius
+- dimension_reference:
     type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq193
+  - type: unitsml
+    id: q:ITS-90_temperature_kelvin
   names:
   - value: ITS-90 temperature (K)
     lang: en
   - value: température ITS-90 (K)
     lang: fr
   quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ITSK
   short: ITS-90_temperature_kelvin
-  dimension_reference:
-    id: NISTd5
+- dimension_reference:
     type: nist
-  references:
-  - uri: http://si-digital-framework.org/quantities/ITSK
-    type: normative
-    authority: si-digital-framework
-- identifiers:
-  - id: q:kerma_rate
-    type: unitsml
-  - id: NISTq194
-    type: nist
-  names:
-  - value: kerma rate
-    lang: en
-  - value: kerma rate
-    lang: fr
-  quantity_type: derived
-  short: kerma_rate
-  dimension_reference:
     id: NISTd50
-    type: nist
+  identifiers:
+  - type: nist
+    id: NISTq194
+  - type: unitsml
+    id: q:kerma_rate
+  names:
+  - value: kerma rate
+    lang: en
+  - value: kerma rate
+    lang: fr
+  quantity_type: derived
   references:
-  - uri: http://si-digital-framework.org/quantities/KRMR
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:phase
-    type: unitsml
-  - id: NISTq195
+    uri: http://si-digital-framework.org/quantities/KRMR
+  short: kerma_rate
+- dimension_reference:
     type: nist
+    id: NISTd98
+  identifiers:
+  - type: nist
+    id: NISTq195
+  - type: unitsml
+    id: q:phase
   names:
   - value: phase
     lang: en
   - value: phase
     lang: fr
   quantity_type: derived
-  short: phase
-  dimension_reference:
-    id: NISTd98
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/PHAS
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:PLTS-2000_temperature
-    type: unitsml
-  - id: NISTq196
+    uri: http://si-digital-framework.org/quantities/PHAS
+  short: phase
+- dimension_reference:
     type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq196
+  - type: unitsml
+    id: q:PLTS-2000_temperature
   names:
   - value: PLTS-2000 temperature (K)
     lang: en
   - value: température PLTS-2000 (K)
     lang: fr
   quantity_type: derived
-  short: PLTS-2000_temperature
-  dimension_reference:
-    id: NISTd5
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/PLTS
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:exposure
-    type: unitsml
-  - id: NISTq197
+    uri: http://si-digital-framework.org/quantities/PLTS
+  short: PLTS-2000_temperature
+- dimension_reference:
     type: nist
+    id: NISTd49
+  identifiers:
+  - type: nist
+    id: NISTq197
+  - type: unitsml
+    id: q:exposure
   names:
   - value: exposure
     lang: en
   - value: exposition (rayons x et γ)
     lang: fr
   quantity_type: derived
-  short: exposure
-  dimension_reference:
-    id: NISTd49
-    type: nist
   references:
-  - uri: http://si-digital-framework.org/quantities/XPOS
-    type: normative
+  - type: normative
     authority: si-digital-framework
-- identifiers:
-  - id: q:fuel_efficiency
-    type: unitsml
-  - id: NISTq198
+    uri: http://si-digital-framework.org/quantities/XPOS
+  short: exposure
+- dimension_reference:
     type: nist
+    id: NISTd99
+  identifiers:
+  - type: nist
+    id: NISTq198
+  - type: unitsml
+    id: q:fuel_efficiency
   names:
   - value: fuel efficiency
     lang: en
@@ -3040,66 +1534,104 @@ quantities:
     lang: en
   quantity_type: derived
   short: fuel_efficiency
-  dimension_reference:
-    id: NISTd99
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:relative_humidity
-    type: unitsml
-  - id: NISTq199
-    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq199
+  - type: unitsml
+    id: q:relative_humidity
   names:
   - value: relative humidity
     lang: en
   quantity_type: derived
   short: relative_humidity
-  dimension_reference:
-    id: NISTd80
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:logarithmic_frequency_range
-    type: unitsml
-  - id: NISTq200
+    id: NISTd2
+  identifiers:
+  - type: nist
+    id: NISTq2
+  - type: unitsml
+    id: q:mass
+  names:
+  - value: mass
+    lang: en
+  - value: masse
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MASS
+  short: mass
+- dimension_reference:
     type: nist
+    id: NISTd16
+  identifiers:
+  - type: nist
+    id: NISTq20
+  - type: unitsml
+    id: q:power
+  names:
+  - value: power
+    lang: en
+  - value: puissance, flux énergétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/POWR
+  short: power
+- dimension_reference:
+    type: nist
+    id: NISTd67
+  identifiers:
+  - type: nist
+    id: NISTq200
+  - type: unitsml
+    id: q:logarithmic_frequency_range
   names:
   - value: logarithmic frequency range
     lang: en
   quantity_type: derived
   short: logarithmic_frequency_range
-  dimension_reference:
-    id: NISTd67
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:traffic_intensity
-    type: unitsml
-  - id: NISTq201
-    type: nist
+    id: NISTd100
+  identifiers:
+  - type: nist
+    id: NISTq201
+  - type: unitsml
+    id: q:traffic_intensity
   names:
   - value: traffic intensity
     lang: en
   quantity_type: derived
   short: traffic_intensity
-  dimension_reference:
-    id: NISTd100
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:symbol_rate
-    type: unitsml
-  - id: NISTq202
-    type: nist
+    id: NISTd101
+  identifiers:
+  - type: nist
+    id: NISTq202
+  - type: unitsml
+    id: q:symbol_rate
   names:
   - value: symbol rate
     lang: en
   quantity_type: derived
   short: symbol_rate
-  dimension_reference:
-    id: NISTd101
+- dimension_reference:
     type: nist
-- identifiers:
-  - id: q:information_content
-    type: unitsml
-  - id: NISTq203
-    type: nist
+    id: NISTd102
+  identifiers:
+  - type: nist
+    id: NISTq203
+  - type: unitsml
+    id: q:information_content
   names:
   - value: information content
     lang: en
@@ -3107,6 +1639,1474 @@ quantities:
     lang: en
   quantity_type: derived
   short: information_content
-  dimension_reference:
-    id: NISTd102
+- dimension_reference:
     type: nist
+    id: NISTd16
+  identifiers:
+  - type: nist
+    id: NISTq21
+  - type: unitsml
+    id: q:radiant_flux
+  names:
+  - value: radiant flux
+    lang: en
+  quantity_type: derived
+  short: radiant_flux
+- dimension_reference:
+    type: nist
+    id: NISTd17
+  identifiers:
+  - type: nist
+    id: NISTq22
+  - type: unitsml
+    id: q:electric_charge
+  names:
+  - value: electric charge
+    lang: en
+  - value: charge électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELCH
+  short: electric_charge
+- dimension_reference:
+    type: nist
+    id: NISTd17
+  identifiers:
+  - type: nist
+    id: NISTq23
+  - type: unitsml
+    id: q:amount_of_electricity
+  names:
+  - value: amount of electricity
+    lang: en
+  quantity_type: derived
+  short: amount_of_electricity
+- dimension_reference:
+    type: nist
+    id: NISTd18
+  identifiers:
+  - type: nist
+    id: NISTq24
+  - type: unitsml
+    id: q:electric_potential_difference
+  names:
+  - value: electric potential difference
+    lang: en
+  - value: différence de potentiel électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELPD
+  short: electric_potential_difference
+- dimension_reference:
+    type: nist
+    id: NISTd18
+  identifiers:
+  - type: nist
+    id: NISTq25
+  - type: unitsml
+    id: q:potential_difference
+  names:
+  - value: potential difference
+    lang: en
+  quantity_type: derived
+  short: potential_difference
+- dimension_reference:
+    type: nist
+    id: NISTd18
+  identifiers:
+  - type: nist
+    id: NISTq26
+  - type: unitsml
+    id: q:electromotive_force
+  names:
+  - value: electromotive force
+    lang: en
+  quantity_type: derived
+  short: electromotive_force
+- dimension_reference:
+    type: nist
+    id: NISTd19
+  identifiers:
+  - type: nist
+    id: NISTq27
+  - type: unitsml
+    id: q:capacitance
+  names:
+  - value: capacitance
+    lang: en
+  - value: capacité électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELCA
+  short: capacitance
+- dimension_reference:
+    type: nist
+    id: NISTd20
+  identifiers:
+  - type: nist
+    id: NISTq28
+  - type: unitsml
+    id: q:electric_resistance
+  names:
+  - value: electric resistance
+    lang: en
+  - value: résistance électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELRE
+  short: electric_resistance
+- dimension_reference:
+    type: nist
+    id: NISTd21
+  identifiers:
+  - type: nist
+    id: NISTq29
+  - type: unitsml
+    id: q:electric_conductance
+  names:
+  - value: electric conductance
+    lang: en
+  - value: conductance électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELCO
+  short: electric_conductance
+- dimension_reference:
+    type: nist
+    id: NISTd3
+  identifiers:
+  - type: nist
+    id: NISTq3
+  - type: unitsml
+    id: q:time
+  names:
+  - value: time
+    lang: en
+  - value: duration
+    lang: en
+  - value: temps
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/TIME
+  short: time
+- dimension_reference:
+    type: nist
+    id: NISTd22
+  identifiers:
+  - type: nist
+    id: NISTq30
+  - type: unitsml
+    id: q:magnetic_flux
+  names:
+  - value: magnetic flux
+    lang: en
+  - value: flux d'induction magnétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MGFL
+  short: magnetic_flux
+- dimension_reference:
+    type: nist
+    id: NISTd51
+  identifiers:
+  - type: nist
+    id: NISTq31
+  - type: unitsml
+    id: q:surface_density
+  names:
+  - value: surface density
+    lang: en
+  - value: areic mass
+    lang: en
+  - value: masse surfacique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SUDE
+  short: surface_density
+- dimension_reference:
+    type: nist
+    id: NISTd23
+  identifiers:
+  - type: nist
+    id: NISTq32
+  - type: unitsml
+    id: q:inductance
+  names:
+  - value: inductance
+    lang: en
+  - value: inductance
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELIN
+  short: inductance
+- dimension_reference:
+    type: nist
+    id: NISTd30
+  identifiers:
+  - type: nist
+    id: NISTq33
+  - type: unitsml
+    id: q:mass_concentration
+  names:
+  - value: mass concentration
+    lang: en
+  - value: concentration massique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MACO
+  short: mass_concentration
+- dimension_reference:
+    type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq34
+  - type: unitsml
+    id: q:celsius_temperature
+  names:
+  - value: Celsius temperature
+    lang: en
+  - value: température Celsius
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/TEMC
+  short: celsius_temperature
+- dimension_reference:
+    type: nist
+    id: NISTd24
+  identifiers:
+  - type: nist
+    id: NISTq35
+  - type: unitsml
+    id: q:activity_referred_to_a_radionuclide
+  names:
+  - value: activity referred to a radionuclide
+    lang: en
+  - value: activité d'un radionucléide
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ARRN
+  short: activity_referred_to_a_radionuclide
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq36
+  - type: unitsml
+    id: q:absorbed_dose
+  names:
+  - value: absorbed dose
+    lang: en
+  - value: dose absorbée
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ABDO
+  short: absorbed_dose
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq37
+  - type: unitsml
+    id: q:specific_energy_imparted
+  names:
+  - value: specific energy imparted
+    lang: en
+  quantity_type: derived
+  short: specific_energy_imparted
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq38
+  - type: unitsml
+    id: q:kerma
+  names:
+  - value: kerma
+    lang: en
+  - value: kerma
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/KRMA
+  short: kerma
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq39
+  - type: unitsml
+    id: q:dose_equivalent
+  names:
+  - value: dose equivalent
+    lang: en
+  - value: équivalent de dose
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/DOEQ
+  short: dose_equivalent
+- dimension_reference:
+    type: nist
+    id: NISTd4
+  identifiers:
+  - type: nist
+    id: NISTq4
+  - type: unitsml
+    id: q:electric_current
+  names:
+  - value: electric current
+    lang: en
+  - value: courant électrique
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELCU
+  short: electric_current
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq40
+  - type: unitsml
+    id: q:ambient_dose_equivalent
+  names:
+  - value: ambient dose equivalent
+    lang: en
+  quantity_type: derived
+  short: ambient_dose_equivalent
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq41
+  - type: unitsml
+    id: q:directional_dose_equivalent
+  names:
+  - value: directional dose equivalent
+    lang: en
+  quantity_type: derived
+  short: directional_dose_equivalent
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq42
+  - type: unitsml
+    id: q:personal_dose_equivalent
+  names:
+  - value: personal dose equivalent
+    lang: en
+  quantity_type: derived
+  short: personal_dose_equivalent
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq43
+  - type: unitsml
+    id: q:organ_dose_equivalent
+  names:
+  - value: organ dose equivalent
+    lang: en
+  quantity_type: derived
+  short: organ_dose_equivalent
+- dimension_reference:
+    type: nist
+    id: NISTd26
+  identifiers:
+  - type: nist
+    id: NISTq44
+  - type: unitsml
+    id: q:catalytic_activity
+  names:
+  - value: catalytic activity
+    lang: en
+  - value: activité catalytique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/CATA
+  short: catalytic_activity
+- dimension_reference:
+    type: nist
+    id: NISTd24
+  identifiers:
+  - type: nist
+    id: NISTq45
+  - type: unitsml
+    id: q:frequency
+  names:
+  - value: frequency
+    lang: en
+  - value: fréquence
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/FREQ
+  short: frequency
+- dimension_reference:
+    type: nist
+    id: NISTd7
+  identifiers:
+  - type: nist
+    id: NISTq46
+  - type: unitsml
+    id: q:luminous_flux
+  names:
+  - value: luminous flux
+    lang: en
+  - value: flux lumineux
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/LUFL
+  short: luminous_flux
+- dimension_reference:
+    type: nist
+    id: NISTd27
+  identifiers:
+  - type: nist
+    id: NISTq47
+  - type: unitsml
+    id: q:illuminance
+  names:
+  - value: illuminance
+    lang: en
+  - value: éclairement lumineux
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ILLU
+  short: illuminance
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq48
+  - type: unitsml
+    id: q:distance
+  names:
+  - value: distance
+    lang: en
+  quantity_type: base
+  short: distance
+- dimension_reference:
+    type: nist
+    id: NISTd28
+  identifiers:
+  - type: nist
+    id: NISTq49
+  - type: unitsml
+    id: q:acceleration
+  names:
+  - value: acceleration
+    lang: en
+  - value: accélération
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ACCE
+  short: acceleration
+- dimension_reference:
+    type: nist
+    id: NISTd5
+  identifiers:
+  - type: nist
+    id: NISTq5
+  - type: unitsml
+    id: q:temperature
+  names:
+  - value: thermodynamic temperature
+    lang: en
+  - value: température thermodynamique
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/TEMT
+  short: temperature
+- dimension_reference:
+    type: nist
+    id: NISTd29
+  identifiers:
+  - type: nist
+    id: NISTq50
+  - type: unitsml
+    id: q:wavenumber
+  names:
+  - value: wavenumber
+    lang: en
+  - value: repetency
+    lang: en
+  - value: nombre d'ondes
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/WANU
+  short: wavenumber
+- dimension_reference:
+    type: nist
+    id: NISTd30
+  identifiers:
+  - type: nist
+    id: NISTq51
+  - type: unitsml
+    id: q:density
+  names:
+  - value: density
+    lang: en
+  - value: mass density
+    lang: en
+  - value: masse volumique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/DENS
+  short: density
+- dimension_reference:
+    type: nist
+    id: NISTd31
+  identifiers:
+  - type: nist
+    id: NISTq52
+  - type: unitsml
+    id: q:specific_volume
+  names:
+  - value: specific volume
+    lang: en
+  - value: massic volume
+    lang: en
+  - value: volume massique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SPVO
+  short: specific_volume
+- dimension_reference:
+    type: nist
+    id: NISTd32
+  identifiers:
+  - type: nist
+    id: NISTq53
+  - type: unitsml
+    id: q:current_density
+  names:
+  - value: current density
+    lang: en
+  - value: densité de courant
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/CUDE
+  short: current_density
+- dimension_reference:
+    type: nist
+    id: NISTd33
+  identifiers:
+  - type: nist
+    id: NISTq54
+  - type: unitsml
+    id: q:magnetic_field_strength
+  names:
+  - value: magnetic field strength
+    lang: en
+  - value: champ magnétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MAFD
+  short: magnetic_field_strength
+- dimension_reference:
+    type: nist
+    id: NISTd34
+  identifiers:
+  - type: nist
+    id: NISTq55
+  - type: unitsml
+    id: q:amount_concentration
+  names:
+  - value: amount of substance concentration
+    lang: en
+  - value: amount concentration
+    lang: en
+  - value: concentration de quantité de matière
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/AMSC
+  short: amount_concentration
+- dimension_reference:
+    type: nist
+    id: NISTd27
+  identifiers:
+  - type: nist
+    id: NISTq56
+  - type: unitsml
+    id: q:luminance
+  names:
+  - value: luminance
+    lang: en
+  - value: luminance lumineuse
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/LUMA
+  short: luminance
+- dimension_reference:
+    type: nist
+    id: NISTd11
+  identifiers:
+  - type: nist
+    id: NISTq57
+  - type: unitsml
+    id: q:angular_velocity
+  names:
+  - value: angular velocity
+    lang: en
+  - value: vitesse angulaire
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/VELA
+  short: angular_velocity
+- dimension_reference:
+    type: nist
+    id: NISTd35
+  identifiers:
+  - type: nist
+    id: NISTq58
+  - type: unitsml
+    id: q:angular_acceleration
+  names:
+  - value: angular acceleration
+    lang: en
+  - value: accelération angulaire
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ACCA
+  short: angular_acceleration
+- dimension_reference:
+    type: nist
+    id: NISTd36
+  identifiers:
+  - type: nist
+    id: NISTq59
+  - type: unitsml
+    id: q:dynamic_viscosity
+  names:
+  - value: dynamic viscosity
+    lang: en
+  - value: viscosité dynamique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/DYVI
+  short: dynamic_viscosity
+- dimension_reference:
+    type: nist
+    id: NISTd6
+  identifiers:
+  - type: nist
+    id: NISTq6
+  - type: unitsml
+    id: q:substance_amount
+  names:
+  - value: amount of substance
+    lang: en
+  - value: quantité de matière
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/AMSU
+  short: substance_amount
+- dimension_reference:
+    type: nist
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq60
+  - type: unitsml
+    id: q:moment_of_force
+  names:
+  - value: moment of force
+    lang: en
+  - value: moment d’une force
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/TORQ
+  short: moment_of_force
+- dimension_reference:
+    type: nist
+    id: NISTd37
+  identifiers:
+  - type: nist
+    id: NISTq61
+  - type: unitsml
+    id: q:surface_tension
+  names:
+  - value: surface tension
+    lang: en
+  - value: tension superficielle
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SUTE
+  short: surface_tension
+- dimension_reference:
+    type: nist
+    id: NISTd38
+  identifiers:
+  - type: nist
+    id: NISTq62
+  - type: unitsml
+    id: q:heat_flux_density
+  names:
+  - value: heat flux density
+    lang: en
+  - value: flux thermique surfacique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/HEFD
+  short: heat_flux_density
+- dimension_reference:
+    type: nist
+    id: NISTd39
+  identifiers:
+  - type: nist
+    id: NISTq63
+  - type: unitsml
+    id: q:heat_capacity
+  names:
+  - value: heat capacity
+    lang: en
+  - value: capacité thermique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/HECA
+  short: heat_capacity
+- dimension_reference:
+    type: nist
+    id: NISTd40
+  identifiers:
+  - type: nist
+    id: NISTq64
+  - type: unitsml
+    id: q:specific_heat_capacity
+  names:
+  - value: specific heat capacity
+    lang: en
+  - value: capacité thermique massique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SHEC
+  short: specific_heat_capacity
+- dimension_reference:
+    type: nist
+    id: NISTd25
+  identifiers:
+  - type: nist
+    id: NISTq65
+  - type: unitsml
+    id: q:specific_energy
+  names:
+  - value: specific energy
+    lang: en
+  - value: énergie massique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SENG
+  short: specific_energy
+- dimension_reference:
+    type: nist
+    id: NISTd41
+  identifiers:
+  - type: nist
+    id: NISTq66
+  - type: unitsml
+    id: q:thermal_conductivity
+  names:
+  - value: thermal conductivity
+    lang: en
+  - value: conductivité thermique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/TCON
+  short: thermal_conductivity
+- dimension_reference:
+    type: nist
+    id: NISTd14
+  identifiers:
+  - type: nist
+    id: NISTq67
+  - type: unitsml
+    id: q:energy_density
+  names:
+  - value: energy density
+    lang: en
+  - value: énergie volumique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ENGD
+  short: energy_density
+- dimension_reference:
+    type: nist
+    id: NISTd42
+  identifiers:
+  - type: nist
+    id: NISTq68
+  - type: unitsml
+    id: q:electric_field_strength
+  names:
+  - value: electric field strength
+    lang: en
+  - value: champ électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELFS
+  short: electric_field_strength
+- dimension_reference:
+    type: nist
+    id: NISTd43
+  identifiers:
+  - type: nist
+    id: NISTq69
+  - type: unitsml
+    id: q:electric_charge_density
+  names:
+  - value: electric charge density
+    lang: en
+  - value: charge électrique volumique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELCD
+  short: electric_charge_density
+- dimension_reference:
+    type: nist
+    id: NISTd7
+  identifiers:
+  - type: nist
+    id: NISTq7
+  - type: unitsml
+    id: q:luminous_intensity
+  names:
+  - value: luminous intensity
+    lang: en
+  - value: intensité lumineuse
+    lang: fr
+  quantity_type: base
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/LUIN
+  short: luminous_intensity
+- dimension_reference:
+    type: nist
+    id: NISTd44
+  identifiers:
+  - type: nist
+    id: NISTq70
+  - type: unitsml
+    id: q:electric_flux_density
+  names:
+  - value: electric flux density
+    lang: en
+  - value: induction électrique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ELFD
+  short: electric_flux_density
+- dimension_reference:
+    type: nist
+    id: NISTd45
+  identifiers:
+  - type: nist
+    id: NISTq71
+  - type: unitsml
+    id: q:permittivity
+  names:
+  - value: permittivity
+    lang: en
+  - value: permittivité
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/PRMI
+  short: permittivity
+- dimension_reference:
+    type: nist
+    id: NISTd46
+  identifiers:
+  - type: nist
+    id: NISTq72
+  - type: unitsml
+    id: q:permeability
+  names:
+  - value: permeability
+    lang: en
+  - value: perméabilitté
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/PRME
+  short: permeability
+- dimension_reference:
+    type: nist
+    id: NISTd47
+  identifiers:
+  - type: nist
+    id: NISTq73
+  - type: unitsml
+    id: q:molar_energy
+  names:
+  - value: molar energy
+    lang: en
+  - value: énergie molaire
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MOEG
+  short: molar_energy
+- dimension_reference:
+    type: nist
+    id: NISTd48
+  identifiers:
+  - type: nist
+    id: NISTq74
+  - type: unitsml
+    id: q:molar_entropy
+  names:
+  - value: molar entropy
+    lang: en
+  - value: entropie molaire
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/MOEN
+  short: molar_entropy
+- dimension_reference:
+    type: nist
+    id: NISTd49
+  identifiers:
+  - type: nist
+    id: NISTq75
+  - type: unitsml
+    id: q:exposure_x_and_gamma_rays
+  names:
+  - value: exposure (x and gamma rays)
+    lang: en
+  quantity_type: derived
+  short: exposure_x_and_gamma_rays
+- dimension_reference:
+    type: nist
+    id: NISTd50
+  identifiers:
+  - type: nist
+    id: NISTq76
+  - type: unitsml
+    id: q:absorbed_dose_rate
+  names:
+  - value: absorbed dose rate
+    lang: en
+  - value: débit de dose absorbée
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ABDR
+  short: absorbed_dose_rate
+- dimension_reference:
+    type: nist
+    id: NISTd15
+  identifiers:
+  - type: nist
+    id: NISTq77
+  - type: unitsml
+    id: q:potential_energy
+  names:
+  - value: potential energy
+    lang: en
+  quantity_type: derived
+  short: potential_energy
+- dimension_reference:
+    type: nist
+    id: NISTd38
+  identifiers:
+  - type: nist
+    id: NISTq78
+  - type: unitsml
+    id: q:irradiance
+  names:
+  - value: irradiance
+    lang: en
+  quantity_type: derived
+  short: irradiance
+- dimension_reference:
+    type: nist
+    id: NISTd39
+  identifiers:
+  - type: nist
+    id: NISTq79
+  - type: unitsml
+    id: q:entropy
+  names:
+  - value: entropy
+    lang: en
+  quantity_type: derived
+  short: entropy
+- dimension_reference:
+    type: nist
+    id: NISTd8
+  identifiers:
+  - type: nist
+    id: NISTq8
+  - type: unitsml
+    id: q:area
+  names:
+  - value: area
+    lang: en
+  - value: superficie
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/AREA
+  short: area
+- dimension_reference:
+    type: nist
+    id: NISTd40
+  identifiers:
+  - type: nist
+    id: NISTq80
+  - type: unitsml
+    id: q:specific_entropy
+  names:
+  - value: specific entropy
+    lang: en
+  quantity_type: derived
+  short: specific_entropy
+- dimension_reference:
+    type: nist
+    id: NISTd53
+  identifiers:
+  - type: nist
+    id: NISTq81
+  - type: unitsml
+    id: q:surface_charge_density
+  names:
+  - value: surface charge density
+    lang: en
+  - value: charge électrique surfacique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/SUCD
+  short: surface_charge_density
+- dimension_reference:
+    type: nist
+    id: NISTd44
+  identifiers:
+  - type: nist
+    id: NISTq82
+  - type: unitsml
+    id: q:electric_displacement
+  names:
+  - value: electric displacement
+    lang: en
+  quantity_type: derived
+  short: electric_displacement
+- dimension_reference:
+    type: nist
+    id: NISTd48
+  identifiers:
+  - type: nist
+    id: NISTq83
+  - type: unitsml
+    id: q:molar_heat_capacity
+  names:
+  - value: molar heat capacity
+    lang: en
+  quantity_type: derived
+  short: molar_heat_capacity
+- dimension_reference:
+    type: nist
+    id: NISTd55
+  identifiers:
+  - type: nist
+    id: NISTq84
+  - type: unitsml
+    id: q:catalytic_activity_concentration
+  names:
+  - value: catalytic activity concentration
+    lang: en
+  - value: concentration de l’activité catalytique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/CTAC
+  short: catalytic_activity_concentration
+- dimension_reference:
+    type: nist
+    id: NISTd56
+  identifiers:
+  - type: nist
+    id: NISTq85
+  - type: unitsml
+    id: q:kinematic_viscosity
+  names:
+  - value: kinematic viscosity
+    lang: en
+  - value: viscosité cinématique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/KIVI
+  short: kinematic_viscosity
+- dimension_reference:
+    type: nist
+    id: NISTd33
+  identifiers:
+  - type: nist
+    id: NISTq87
+  - type: unitsml
+    id: q:magnetic_field
+  names:
+  - value: magnetic field
+    lang: en
+  quantity_type: derived
+  short: magnetic_field
+- dimension_reference:
+    type: nist
+    id: NISTd16
+  identifiers:
+  - type: nist
+    id: NISTq88
+  - type: unitsml
+    id: q:radiant_intensity
+  names:
+  - value: radiant intensity
+    lang: en
+  - value: intensité énergétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/RAIN
+  short: radiant_intensity
+- dimension_reference:
+    type: nist
+    id: NISTd38
+  identifiers:
+  - type: nist
+    id: NISTq89
+  - type: unitsml
+    id: q:radiance
+  names:
+  - value: radiance
+    lang: en
+  - value: luminance énergétique
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/RADI
+  short: radiance
+- dimension_reference:
+    type: nist
+    id: NISTd9
+  identifiers:
+  - type: nist
+    id: NISTq9
+  - type: unitsml
+    id: q:plane_angle
+  names:
+  - value: plane angle
+    lang: en
+  - value: angle
+    lang: en
+  - value: angle plan
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/ANGP
+  short: plane_angle
+- dimension_reference:
+    type: nist
+    id: NISTd67
+  identifiers:
+  - type: nist
+    id: NISTq90
+  - type: unitsml
+    id: q:logarithmic_ratio_quantities
+  names:
+  - value: ratio logarithm (B)
+    lang: en
+  - value: logarithmic ratio quantities (power-like quantities using decimal logarithms)
+    lang: en
+  - value: logarithme d'un rapport (B)
+    lang: fr
+  quantity_type: derived
+  references:
+  - type: normative
+    authority: si-digital-framework
+    uri: http://si-digital-framework.org/quantities/RLGB
+  short: logarithmic_ratio_quantities
+- dimension_reference:
+    type: nist
+    id: NISTd52
+  identifiers:
+  - type: nist
+    id: NISTq91
+  - type: unitsml
+    id: q:fluidity
+  names:
+  - value: fluidity
+    lang: en
+  - value: reciprocal of dynamic viscosity
+    lang: en
+  quantity_type: derived
+  short: fluidity
+- dimension_reference:
+    type: nist
+    id: NISTd8
+  identifiers:
+  - type: nist
+    id: NISTq92
+  - type: unitsml
+    id: q:hydrodynamic_permeability
+  names:
+  - value: hydrodynamic permeability
+    lang: en
+  quantity_type: derived
+  short: hydrodynamic_permeability
+- dimension_reference:
+    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq93
+  - type: unitsml
+    id: q:refractive_index
+  names:
+  - value: refractive index
+    lang: en
+  quantity_type: derived
+  short: refractive_index
+- dimension_reference:
+    type: nist
+    id: NISTd80
+  identifiers:
+  - type: nist
+    id: NISTq94
+  - type: unitsml
+    id: q:relative_permeability
+  names:
+  - value: relative permeability
+    lang: en
+  quantity_type: derived
+  short: relative_permeability
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq95
+  - type: unitsml
+    id: q:breadth
+  names:
+  - value: breadth
+    lang: en
+  quantity_type: derived
+  short: breadth
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq96
+  - type: unitsml
+    id: q:height
+  names:
+  - value: height
+    lang: en
+  quantity_type: derived
+  short: height
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq97
+  - type: unitsml
+    id: q:thickness
+  names:
+  - value: thickness
+    lang: en
+  quantity_type: derived
+  short: thickness
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq98
+  - type: unitsml
+    id: q:radius
+  names:
+  - value: radius
+    lang: en
+  quantity_type: derived
+  short: radius
+- dimension_reference:
+    type: nist
+    id: NISTd1
+  identifiers:
+  - type: nist
+    id: NISTq99
+  - type: unitsml
+    id: q:radial_distance
+  names:
+  - value: radial distance
+    lang: en
+  quantity_type: derived
+  short: radial_distance

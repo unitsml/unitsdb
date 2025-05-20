@@ -919,23 +919,51 @@ When contributing to this repository, please follow these guidelines.
 . Address any comments or suggestions made during the review process.
 . Once approved, the pull request will be merged into the main branch.
 
-=== UnitsML validation
 
-All YAML files must be validated against the UnitsML schema before submitting a
-pull request.
+=== Database normalization
 
-To validate UnitsDB content using UnitsML Ruby:
+For ease of use, the database is normalized to avoid redundancy and ensure
+consistency.
+
+UnitsDB uses the `unitsdb` gem to normalize the database.
+
+NOTE: The `--sort=nist` option ensures that the output is sorted according to
+legacy NIST identifiers for stability reasons, which may change in the future.
+
+Please run the following commands to ensure that the database is
+normalized before submitting a pull request:
 
 [source,bash]
 ----
-# Navigate to the scripts directory
-cd scripts
+$ gem install unitsdb
 
-# Install dependencies
-bundle install
+$ unitsdb _modify normalize --all --database={unitsdb_yaml_dir} --sort=nist
 
-# Validate content using RSpec which uses UnitsML Ruby
-BUNDLE_GEMFILE=scripts/Gemfile bundle exec rspec ../spec --format documentation
+Normalized {unitsdb_yaml_dir}/dimensions.yaml
+Normalized {unitsdb_yaml_dir}/prefixes.yaml
+Normalized {unitsdb_yaml_dir}/quantities.yaml
+Normalized {unitsdb_yaml_dir}/unit_systems.yaml
+Normalized {unitsdb_yaml_dir}/units.yaml
+All YAML files normalized successfully!
+
+----
+
+=== Database validation
+
+All YAML files must be validated before submitting a pull request.
+
+UnitsDB uses the `unitsdb` gem to validate the database.
+
+[source,bash]
+----
+# Validate all references
+$ unitsdb validate references --database={unitsdb_yaml_dir}
+
+# Validate all identifiers
+$ unitsdb validate identifiers --database={unitsdb_yaml_dir}
+
+# Check for duplicate SI references:
+$ unitsdb validate si_references --database={unitsdb_yaml_dir}
 ----
 
 
