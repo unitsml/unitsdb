@@ -966,6 +966,51 @@ $ unitsdb validate identifiers --database={unitsdb_yaml_dir}
 $ unitsdb validate si_references --database={unitsdb_yaml_dir}
 ----
 
+=== Creating release files
+
+When preparing an official release of UnitsDB, create unified release files for
+users.
+
+UnitsDB uses the `unitsdb` gem to create release files.
+
+[source,bash]
+----
+# Create both unified YAML and ZIP archive files
+$ unitsdb release --database={unitsdb_yaml_dir} --output-dir=release
+
+# Create only unified YAML file
+$ unitsdb release --format=yaml --database={unitsdb_yaml_dir} --output-dir=release
+
+# Create only ZIP archive
+$ unitsdb release --format=zip --database={unitsdb_yaml_dir} --output-dir=release
+----
+
+The unified YAML file combines all database files into a single file for easier
+integration:
+
+[source,yaml]
+----
+schema_version: "2.0.0"
+dimensions:
+  - identifiers: [...]
+    length: {...}
+    names: [...]
+  # ...
+prefixes: [...]
+quantities: [...]
+units: [...]
+unit_systems: [...]
+----
+
+This unified format makes it more convenient for users to work with the entire
+database while ensuring all components are compatible with each other.
+
+The ZIP archive contains all individual database files for users who prefer to
+work with separate files.
+
+Both release formats include version information in their filenames (e.g.,
+`unitsdb-2.0.0.yaml` and `unitsdb-2.0.0.zip`).
+
 
 == Copyright and license
 
