@@ -46,6 +46,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/metre
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:m
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -156,6 +159,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/steradian
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:sr
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -221,6 +227,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:a
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -358,6 +368,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/newton
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:N
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -697,6 +710,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:st
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -798,6 +815,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq75
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:R
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -826,6 +847,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq14
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:G
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -876,6 +901,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/pascal
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Pa
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -988,6 +1016,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq50
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Ky
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1091,6 +1123,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[mil_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1131,6 +1167,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq56
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:sb
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1275,6 +1315,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq59
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:P
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1380,6 +1424,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/joule
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:J
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1689,6 +1736,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/litre
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:l
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1723,6 +1773,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[nmi_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1749,6 +1803,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq175
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:[degF]
   scale_reference:
     type: unitsml
     id: continuous_interval
@@ -1777,6 +1835,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:const:code:atm
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1805,6 +1867,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:att
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1839,6 +1905,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/watt
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:W
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2071,6 +2140,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq85
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:St
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2097,6 +2170,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq49
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Gal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2123,6 +2200,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq87
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Oe
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2157,6 +2238,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/arcminute
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:'
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2275,6 +2359,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/coulomb
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:C
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2424,6 +2511,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[kn_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2462,6 +2553,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/neper
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:levels:code:Np
   scale_reference:
     type: unitsml
     id: logarithmic_field
@@ -2498,6 +2592,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/bel
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:levels:code:B
   scale_reference:
     type: unitsml
     id: logarithmic_field
@@ -2593,6 +2690,10 @@ units:
     id: NISTq72
   - type: nist
     id: NISTq92
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:d
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2625,6 +2726,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq9
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:gon
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2661,6 +2766,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/volt
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:V
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2817,6 +2925,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[syd_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2848,6 +2960,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-lengths:code:[smi_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2942,6 +3058,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[cin_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2973,6 +3093,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[cft_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3010,6 +3134,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/farad
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3091,6 +3218,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[cyd_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3126,6 +3257,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:brit-volumes:code:[gal_br]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3154,6 +3289,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[pt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3184,6 +3323,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[foz_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3212,6 +3355,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:brit-volumes:code:[gal_br]
   scale_reference:
     type: unitsml
     id: continuous_interval
@@ -3240,6 +3387,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[pt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3270,6 +3421,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[foz_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3298,6 +3453,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[bbl_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3326,6 +3485,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[bu_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3358,6 +3521,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/ohm
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Ohm
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3406,6 +3572,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[pt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3432,6 +3602,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:const:code:[ly]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3490,6 +3664,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:pc
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3628,6 +3806,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/siemens
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:S
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3674,6 +3855,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:const:code:gf
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4044,6 +4229,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/weber
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Wb
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4094,6 +4282,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[lb_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4124,6 +4316,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[oz_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4215,6 +4411,10 @@ units:
     id: NISTq128
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:const:code:[lbf_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4290,6 +4490,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq15
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:[psi]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4399,6 +4603,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/tesla
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:T
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4521,6 +4728,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:[car_m]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4547,6 +4758,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq126
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:tex
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4735,6 +4950,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/henry
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:H
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4851,6 +5069,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq56
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Lmb
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4877,6 +5099,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq161
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Gb
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4995,6 +5221,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:cal_th
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5029,6 +5259,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[ston_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5057,6 +5291,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[lton_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5091,6 +5329,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/degreeCelsius
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Cel
   scale_reference:
     type: unitsml
     id: continuous_interval
@@ -5159,6 +5400,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[oz_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5189,6 +5434,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[lb_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5215,6 +5464,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:troy:code:[pwt_tr]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5245,6 +5498,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[dr_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5273,6 +5530,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:apoth:code:[sc_ap]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5413,6 +5674,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/electronvolt
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:eV
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5439,6 +5703,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:u
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5686,6 +5954,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/becquerel
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Bq
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6311,6 +6582,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/gram
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:g
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6477,6 +6751,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[dr_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6557,6 +6835,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:pc
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6583,6 +6865,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:pc
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6901,6 +7187,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/gray
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Gy
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7003,6 +7292,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-lengths:code:[rd_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7031,6 +7324,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[fth_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7057,6 +7354,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[cml_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7083,6 +7384,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:[HP]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7191,6 +7496,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq5
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:[degR]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7260,6 +7569,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/sievert
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Sv
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7577,6 +7889,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/second
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:s
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7621,6 +7936,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/katal
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:chemical:code:kat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7693,6 +8011,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[qt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7721,6 +8043,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[qt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7749,6 +8075,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[qt_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7775,6 +8105,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[tsp_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7801,6 +8135,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[tbs_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7829,6 +8167,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[tsp_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7857,6 +8199,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[tsp_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7885,6 +8231,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[cup_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7915,6 +8265,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[foz_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7943,6 +8297,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[oz_av]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7975,6 +8333,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/hertz
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:Hz
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8012,6 +8373,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-lengths:code:[ch_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8072,6 +8437,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-lengths:code:[fur_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8102,6 +8471,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[mi_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8130,6 +8503,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[yd_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8160,6 +8537,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[ft_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8188,6 +8569,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[in_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8216,6 +8601,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-lengths:code:[acr_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8308,6 +8697,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/lumen
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:lm
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8684,6 +9076,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/lux
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:lx
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8799,6 +9194,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq174
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:chemical:code:[pH]
   scale_reference:
     type: unitsml
     id: logarithmic_ratio
@@ -8829,6 +9228,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq19
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:[Btu]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8963,6 +9366,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:a_t
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8993,6 +9400,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:a
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9023,6 +9434,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:d
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9053,6 +9468,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:h
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9083,6 +9502,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:'
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9113,6 +9536,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:s
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9191,6 +9618,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq176
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:[den]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9221,6 +9652,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq9
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[mil_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9305,6 +9740,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq177
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:infotech:code:bit_s
   scale_reference:
     type: unitsml
     id: discrete
@@ -9331,6 +9770,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq177
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:infotech:code:By
   scale_reference:
     type: unitsml
     id: discrete
@@ -9357,6 +9800,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[pk_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9383,6 +9830,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[min_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9411,6 +9862,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[cup_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9441,6 +9896,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[fdr_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9469,6 +9928,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[gil_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9499,6 +9962,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:us-volumes:code:[gil_us]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9603,6 +10070,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/minute
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:'
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9923,6 +10393,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/hour
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:h
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10059,6 +10532,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/day
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:d
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10275,6 +10751,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq202
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:infotech:code:Bd
   scale_reference:
     type: unitsml
     id: discrete
@@ -10355,6 +10835,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:Ao
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10424,6 +10908,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/ampere
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:A
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10520,6 +11007,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq186
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:dimless:code:[ppm]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10597,6 +11088,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:ar
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10625,6 +11120,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:misc:code:b
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10683,6 +11182,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[sft_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10714,6 +11217,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[sin_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10839,6 +11346,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/kelvin
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11022,6 +11532,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq4
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Bi
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11090,6 +11604,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq30
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Mx
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11157,6 +11675,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/mole
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:si:code:mol
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11270,6 +11791,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:heat:code:cal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11352,6 +11877,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:erg
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11552,6 +12081,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/candela
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:cd
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11613,6 +12145,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:dyn
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11787,6 +12323,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[ft_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11827,6 +12367,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[in_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11867,6 +12411,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[mi_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11895,6 +12443,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:intcust:code:[yd_i]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11921,6 +12473,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq47
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:ph
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11953,6 +12509,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:avoirdupois:code:[gr]
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11989,6 +12549,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/tonne
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:t
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12060,6 +12623,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/radian
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:rad
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12204,6 +12770,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:iso1000:code:bar
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12472,6 +13042,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq35
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:unit:cgs:code:Ci
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12500,6 +13074,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq36
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:base-unit:code:rad
   scale_reference:
     type: unitsml
     id: continuous_ratio

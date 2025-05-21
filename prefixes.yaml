@@ -15,6 +15,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/deci
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:d
   short: deci
   symbols:
   - latex: d
@@ -37,6 +40,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/pico
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:p
   short: pico
   symbols:
   - latex: p
@@ -59,6 +65,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/femto
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:f
   short: femto
   symbols:
   - latex: f
@@ -81,6 +90,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/atto
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:a
   short: atto
   symbols:
   - latex: a
@@ -103,6 +115,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/centi
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:c
   short: centi
   symbols:
   - latex: c
@@ -125,6 +140,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/zepto
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:z
   short: zepto
   symbols:
   - latex: z
@@ -147,6 +165,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/yocto
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:y
   short: yocto
   symbols:
   - latex: "y"
@@ -191,6 +212,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/milli
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:m
   short: milli
   symbols:
   - latex: m
@@ -235,6 +259,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/micro
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:u
   short: micro
   symbols:
   - latex: "$mu$"
@@ -257,6 +284,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/nano
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:n
   short: nano
   symbols:
   - latex: "n"
@@ -301,6 +331,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/deca
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:da
   short: deka
   symbols:
   - latex: da
@@ -323,6 +356,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/tera
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:T
   short: tera
   symbols:
   - latex: T
@@ -345,6 +381,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/peta
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:P
   short: peta
   symbols:
   - latex: P
@@ -367,6 +406,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/exa
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:E
   short: exa
   symbols:
   - latex: E
@@ -389,6 +431,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/hecto
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:h
   short: hecto
   symbols:
   - latex: h
@@ -411,6 +456,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/zetta
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Z
   short: zetta
   symbols:
   - latex: Z
@@ -433,6 +481,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/yotta
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Y
   short: yotta
   symbols:
   - latex: "Y"
@@ -477,6 +528,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/kilo
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:k
   short: kilo
   symbols:
   - latex: k
@@ -521,6 +575,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/mega
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:M
   short: mega
   symbols:
   - latex: M
@@ -543,6 +600,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/giga
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:G
   short: giga
   symbols:
   - latex: G
@@ -561,6 +621,10 @@ prefixes:
   - value: kibi
     lang: en
   power: 10
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Ki
   short: kibi
   symbols:
   - latex: Ki
@@ -579,6 +643,10 @@ prefixes:
   - value: mebi
     lang: en
   power: 20
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Mi
   short: mebi
   symbols:
   - latex: Mi
@@ -597,6 +665,10 @@ prefixes:
   - value: gibi
     lang: en
   power: 30
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Gi
   short: gibi
   symbols:
   - latex: Gi
@@ -615,6 +687,10 @@ prefixes:
   - value: tebi
     lang: en
   power: 40
+  references:
+  - type: informative
+    authority: ucum
+    uri: ucum:prefix:code:Ti
   short: tebi
   symbols:
   - latex: Ti
