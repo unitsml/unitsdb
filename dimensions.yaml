@@ -358,7 +358,7 @@ dimensions:
   short: absorbed_dose
 - amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd26
@@ -494,7 +494,7 @@ dimensions:
   short: magnetic_field_strength
 - amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd34
@@ -747,7 +747,7 @@ dimensions:
   short: permeability
 - amount_of_substance:
     power: -1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd47
@@ -768,7 +768,7 @@ dimensions:
   short: molar_energy
 - amount_of_substance:
     power: -1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd48
@@ -916,7 +916,7 @@ dimensions:
   short: magnetizability
 - amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd55
@@ -991,11 +991,11 @@ dimensions:
   short: mass_moment_of_inertia
 - amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
     symbols:
     - latex: "\\ensuremath{\\mathsf{N}}"
       unicode: "\U0001D5AD"
-      ascii: N
+      ascii: "N"
       html: "&#x1D5AD;"
       id: dim_N
       mathml: "<mi mathvariant='sans-serif'>N</mi>"
@@ -1352,7 +1352,7 @@ dimensions:
   short: hyperpolarizability_2nd
 - amount_of_substance:
     power: 1
-    symbol: N
+    symbol: "N"
   identifiers:
   - type: nist
     id: NISTd79

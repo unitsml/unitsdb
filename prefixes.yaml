@@ -435,10 +435,10 @@ prefixes:
     uri: http://si-digital-framework.org/SI/prefixes/yotta
   short: yotta
   symbols:
-  - latex: Y
-    unicode: Y
-    ascii: Y
-    html: Y
+  - latex: "Y"
+    unicode: "Y"
+    ascii: "Y"
+    html: "Y"
     id: yotta
     mathml: "<mi>Y</mi>"
 - base: 10

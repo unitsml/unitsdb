@@ -384,10 +384,10 @@ units:
   short: newton
   symbols:
   - latex: "\\ensuremath{\\mathrm{N}}"
-    unicode: N
-    ascii: N
-    html: N
-    id: N
+    unicode: "N"
+    ascii: "N"
+    html: "N"
+    id: "N"
     mathml: "<mi mathvariant='normal'>N</mi>"
 - identifiers:
   - type: nist
