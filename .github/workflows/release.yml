@@ -30,7 +30,7 @@ jobs:
       id: get_version
       run: |
         TAG_VERSION=${GITHUB_REF_NAME#v}
-        echo "VERSION=$TAG_VERSION" >> $GITHUB_ENV
+        echo "version=$TAG_VERSION" >> $GITHUB_OUTPUT
         echo "Tag version: $TAG_VERSION"
 
     - name: Create release directory
@@ -38,15 +38,15 @@ jobs:
 
     - name: Generate release files
       run: |
-        unitsdb release --database=. --output-dir=release --version=$VERSION
+        unitsdb release --database=. --output-dir=release --version=${{ steps.get_version.outputs.version }}
 
     - name: Create GitHub Release
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          release/unitsdb-$VERSION.yaml
-          release/unitsdb-$VERSION.zip
+          release/unitsdb-${{ steps.get_version.outputs.version }}.yaml
+          release/unitsdb-${{ steps.get_version.outputs.version }}.zip
         draft: false
         prerelease: false
         generate_release_notes: true
