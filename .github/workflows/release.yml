@@ -29,7 +29,7 @@ jobs:
     - name: Extract tag version without 'v' prefix
       id: get_version
       run: |
-        TAG_VERSION=${ref_name#v}
+        TAG_VERSION=${GITHUB_REF_NAME#v}
         echo "VERSION=$TAG_VERSION" >> $GITHUB_ENV
         echo "Tag version: $TAG_VERSION"
 
