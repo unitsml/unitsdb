@@ -255,8 +255,10 @@ names:
 A reference object represents a link to an external resource or standard
 that provides additional context or information about the entity.
 
-Currently, UnitsDB units, quantities and prefixes link to the SI Digital
-Framework only.
+Currently, UnitsDB units, quantities and prefixes link to:
+
+* the SI Digital Framework
+* UCUM
 
 A reference contains the following attributes:
 
@@ -272,8 +274,17 @@ references:
 - uri: http://si-digital-framework.org/SI/units/metre
   type: normative
   authority: si-digital-framework
+- type: informative
+  authority: ucum
+  uri: ucum:base-unit:code:m
 ----
 ====
+
+The SI Digital Framework reference is a normative reference to the
+official SI unit definitions.
+
+The UCUM URI format is a custom one used inside UnitsML with the pattern
+`ucum:{type}:{klass}:code:{unit_code}`, and is listed as informative.
 
 
 === Dimensions
