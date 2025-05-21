@@ -26,20 +26,27 @@ jobs:
     - name: Install unitsdb gem
       run: gem install unitsdb
 
+    - name: Extract tag version without 'v' prefix
+      id: get_version
+      run: |
+        TAG_VERSION=${ref_name#v}
+        echo "VERSION=$TAG_VERSION" >> $GITHUB_ENV
+        echo "Tag version: $TAG_VERSION"
+
     - name: Create release directory
       run: mkdir -p release
 
     - name: Generate release files
       run: |
-        unitsdb release --database=. --output-dir=release --version=${{ github.ref_name }}
+        unitsdb release --database=. --output-dir=release --version=$VERSION
 
     - name: Create GitHub Release
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          release/unitsdb-${{ github.ref_name }}.yaml
-          release/unitsdb-${{ github.ref_name }}.zip
+          release/unitsdb-$VERSION.yaml
+          release/unitsdb-$VERSION.zip
         draft: false
         prerelease: false
         generate_release_notes: true
