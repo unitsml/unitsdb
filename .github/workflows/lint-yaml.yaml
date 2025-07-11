@@ -18,17 +18,14 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
-          working-directory: ./scripts
 
       - name: Check YAML normalization
         id: check_yaml
-        working-directory: ./scripts
         run: |
           bundle exec unitsdb-utils normalize --all --dir ..
 
       - name: Check field uniqueness
         id: check_uniqueness
-        working-directory: ./scripts
         run: |
           bundle exec unitsdb-utils check_uniqueness --all --dir ..
 
