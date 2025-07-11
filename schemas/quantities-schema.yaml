@@ -1,0 +1,120 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/quantities-schema.yaml"
+title: "Quantities Database Schema"
+description: "Schema for quantities.yaml - defines physical quantities with their dimensional analysis"
+
+type: object
+required: ["schema_version", "quantities"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  quantities:
+    type: array
+    description: "Array of quantity definitions"
+    items:
+      $ref: "#/definitions/Quantity"
+
+definitions:
+  Quantity:
+    type: object
+    required: ["identifiers", "names", "dimension_reference", "quantity_type", "short"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this quantity"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this quantity"
+        items:
+          $ref: "#/definitions/Name"
+      dimension_reference:
+        $ref: "#/definitions/DimensionReference"
+        description: "Reference to the dimension"
+      quantity_type:
+        type: string
+        enum: ["base", "derived"]
+        description: "Type of quantity (base or derived)"
+      short:
+        type: string
+        description: "Short identifier for the quantity"
+      references:
+        type: array
+        description: "External references and citations"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  DimensionReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        const: "nist"
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Dimension identifier"
+
+  Symbol:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        description: "Type of symbol representation"
+      value:
+        type: string
+        description: "Symbol value"
+
+  Reference:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        description: "Type of reference"
+      authority:
+        type: string
+        description: "Authoritative body or organization"
+      uri:
+        type: string
+        format: "uri"
+        description: "URI to the reference"
+      title:
+        type: string
+        description: "Title of the reference"
+      year:
+        type: integer
+        minimum: 1000
+        maximum: 9999
+        description: "Publication year"

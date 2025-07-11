@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/scales-schema.yaml"
+title: "Scales Database Schema"
+description: "Schema for scales.yaml - defines measurement scales with their mathematical properties"
+
+type: object
+required: ["schema_version", "scales"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  scales:
+    type: array
+    description: "Array of scale definitions"
+    items:
+      $ref: "#/definitions/Scale"
+
+definitions:
+  Scale:
+    type: object
+    required: ["identifiers", "names", "properties"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this scale"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this scale"
+        items:
+          $ref: "#/definitions/Name"
+      properties:
+        $ref: "#/definitions/ScaleProperties"
+        description: "Mathematical properties of the scale"
+      references:
+        type: array
+        description: "External references and citations"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  ScaleProperties:
+    type: object
+    required: ["continuous", "ordered", "logarithmic", "interval", "ratio"]
+    properties:
+      continuous:
+        type: boolean
+        description: "Whether the scale is continuous"
+      ordered:
+        type: boolean
+        description: "Whether the scale has an ordering"
+      logarithmic:
+        type: boolean
+        description: "Whether the scale is logarithmic"
+      interval:
+        type: boolean
+        description: "Whether the scale has meaningful intervals"
+      ratio:
+        type: boolean
+        description: "Whether the scale has a meaningful zero point"
+
+  Reference:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        description: "Type of reference"
+      authority:
+        type: string
+        description: "Authoritative body or organization"
+      uri:
+        type: string
+        format: "uri"
+        description: "URI to the reference"
+      title:
+        type: string
+        description: "Title of the reference"
+      year:
+        type: integer
+        minimum: 1000
+        maximum: 9999
+        description: "Publication year"
