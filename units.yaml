@@ -6595,6 +6595,9 @@ units:
       id: NISTu2
   root: true
   short: gram
+  unit_system_reference:
+  - type: unitsml
+    id: si-base
   symbols:
   - latex: "\\ensuremath{\\mathrm{g}}"
     unicode: g
