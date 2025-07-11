@@ -1,0 +1,217 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/units-schema.yaml"
+title: "Units Database Schema"
+description: "Schema for units.yaml - defines measurement units with their properties, symbols, and relationships"
+
+type: object
+required: ["schema_version", "units"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  units:
+    type: array
+    description: "Array of unit definitions"
+    items:
+      $ref: "#/definitions/Unit"
+
+definitions:
+  Unit:
+    type: object
+    required: ["identifiers", "names", "scale_reference", "unit_system_reference", "root", "short", "symbols"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this unit"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this unit"
+        items:
+          $ref: "#/definitions/Name"
+      scale_reference:
+        $ref: "#/definitions/ScaleReference"
+        description: "Reference to the measurement scale"
+      unit_system_reference:
+        type: array
+        description: "Reference to the unit system"
+        items:
+          $ref: "#/definitions/UnitSystemReference"
+      root:
+        type: boolean
+        description: "Whether this unit is a root unit in its system"
+      root_units:
+        type: array
+        description: "Root units that compose this unit"
+        items:
+          $ref: "#/definitions/RootUnit"
+      short:
+        type: string
+        description: "Short description or definition"
+      symbols:
+        type: array
+        description: "Mathematical and textual representations"
+        items:
+          $ref: "#/definitions/Symbol"
+      quantity_reference:
+        $ref: "#/definitions/QuantityReference"
+        description: "Reference to the physical quantity (optional)"
+      references:
+        type: array
+        description: "External references and citations"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        enum: ["nist", "unitsml", "ucum", "si-digital-framework"]
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  ScaleReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Reference type indicator"
+        enum: ["unitsml"]
+      id:
+        type: string
+        description: "Scale identifier"
+
+  UnitSystemReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Unit system identifier"
+
+  QuantityReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Reference type indicator"
+        enum: ["unitsml", "ucum", "nist"]
+      id:
+        type: string
+        description: "Quantity identifier"
+
+  RootUnit:
+    type: object
+    required: ["power", "unit_reference"]
+    properties:
+      power:
+        type: integer
+        description: "Exponent for this unit in the composition"
+      unit_reference:
+        $ref: "#/definitions/UnitReference"
+        description: "Reference to the base unit"
+
+  UnitReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Unit identifier"
+      prefix_reference:
+        $ref: "#/definitions/PrefixReference"
+        description: "Optional prefix applied to the unit"
+
+  PrefixReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Prefix identifier"
+
+    # - latex: "\\ensuremath{\\mathrm{m}}"
+    # unicode: m
+    # ascii: m
+    # html: m
+    # id: m
+    # mathml: "<mi mathvariant='normal'>m</mi>"
+
+  Symbol:
+    type: object
+    required: ["latex", "unicode", "ascii", "html", "id", "mathml"]
+    description: "Mathematical and textual representations of the unit"
+    properties:
+      latex:
+        type: string
+        description: "LaTeX representation"
+      unicode:
+        type: string
+        description: "Unicode representation"
+      ascii:
+        type: string
+        description: "ASCII representation"
+      html:
+        type: string
+        description: "HTML representation"
+      id:
+        type: string
+        description: "Symbol identifier"
+      mathml:
+        type: string
+        description: "MathML representation"
+
+  Reference:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        enum: ["normative", "informative"]
+        description: "Type of reference"
+      authority:
+        type: string
+        description: "Authoritative body or organization"
+      uri:
+        type: string
+        format: "uri"
+        description: "URI to the reference"
+      title:
+        type: string
+        description: "Title of the reference"
+      year:
+        type: integer
+        minimum: 1000
+        maximum: 9999
+        description: "Publication year"

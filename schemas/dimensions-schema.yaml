@@ -1,0 +1,157 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/dimensions-schema.yaml"
+title: "Dimensions Database Schema"
+description: "Schema for dimensions.yaml - defines fundamental physical dimensions"
+
+type: object
+required: ["schema_version", "dimensions"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  dimensions:
+    type: array
+    description: "Array of dimension definitions"
+    items:
+      $ref: "#/definitions/Dimension"
+
+definitions:
+  Dimension:
+    type: object
+    required: ["identifiers", "names", "short"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this dimension"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this dimension"
+        items:
+          $ref: "#/definitions/Name"
+      short:
+        type: string
+        description: "Short identifier for the dimension"
+      dimensionless:
+        type: boolean
+        description: "Whether this is a dimensionless quantity"
+      length:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Length dimension component"
+      mass:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Mass dimension component"
+      time:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Time dimension component"
+      electric_current:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Electric current dimension component"
+      thermodynamic_temperature:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Thermodynamic temperature dimension component"
+      amount_of_substance:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Amount of substance dimension component"
+      luminous_intensity:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Luminous intensity dimension component"
+      plane_angle:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Plane angle dimension component"
+      references:
+        type: array
+        description: "External references and citations"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        enum: ["nist", "unitsml", "si-digital-framework"]
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  Symbol:
+    type: object
+    required: ["latex", "unicode", "ascii", "html", "id", "mathml"]
+    properties:
+      latex:
+        type: string
+        description: "LaTeX representation"
+      unicode:
+        type: string
+        description: "Unicode representation"
+      ascii:
+        type: string
+        description: "ASCII representation"
+      html:
+        type: string
+        description: "HTML representation"
+      id:
+        type: string
+        description: "Identifier for the symbol"
+      mathml:
+        type: string
+        description: "MathML representation"
+
+  DimensionComponent:
+    type: object
+    required: ["power", "symbol"]
+    properties:
+      power:
+        type: integer
+        description: "Exponent for this dimension component"
+      symbol:
+        type: string
+        description: "Symbol representing this dimension"
+      symbols:
+        type: array
+        description: "Mathematical and textual representations"
+        items:
+          $ref: "#/definitions/Symbol"
+
+  Reference:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        enum: ["standard", "specification", "publication", "website"]
+        description: "Type of reference"
+      authority:
+        type: string
+        description: "Authoritative body or organization"
+      uri:
+        type: string
+        format: "uri"
+        description: "URI to the reference"
+      title:
+        type: string
+        description: "Title of the reference"
+      year:
+        type: integer
+        minimum: 1000
+        maximum: 9999
+        description: "Publication year"

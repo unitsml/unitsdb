@@ -1,0 +1,120 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/unit_systems-schema.yaml"
+title: "Unit Systems Database Schema"
+description: "Schema for unit_systems.yaml - defines systems of measurement units"
+
+type: object
+required: ["schema_version", "unit_systems"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  unit_systems:
+    type: array
+    description: "Array of unit system definitions"
+    items:
+      $ref: "#/definitions/UnitSystem"
+
+definitions:
+  UnitSystem:
+    type: object
+    required: ["identifiers", "names"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this unit system"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this unit system"
+        items:
+          $ref: "#/definitions/Name"
+      base_units:
+        type: array
+        description: "Base units that define this system"
+        items:
+          $ref: "#/definitions/BaseUnitReference"
+      references:
+        type: array
+        description: "External references and citations"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        enum: ["nist", "unitsml", "si-digital-framework"]
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  BaseUnitReference:
+    type: object
+    required: ["type", "id", "quantity_reference"]
+    properties:
+      type:
+        type: string
+        const: "unit"
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Unit identifier"
+      quantity_reference:
+        $ref: "#/definitions/QuantityReference"
+        description: "Physical quantity this base unit measures"
+
+  QuantityReference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        const: "quantity"
+        description: "Reference type indicator"
+      id:
+        type: string
+        description: "Quantity identifier"
+
+  Reference:
+    type: object
+    required: ["type"]
+    properties:
+      type:
+        type: string
+        enum: ["standard", "specification", "publication", "website"]
+        description: "Type of reference"
+      authority:
+        type: string
+        description: "Authoritative body or organization"
+      uri:
+        type: string
+        format: "uri"
+        description: "URI to the reference"
+      title:
+        type: string
+        description: "Title of the reference"
+      year:
+        type: integer
+        minimum: 1000
+        maximum: 9999
+        description: "Publication year"
