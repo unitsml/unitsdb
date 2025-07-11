@@ -41,6 +41,7 @@ definitions:
         description: "Reference to the unit system"
         items:
           $ref: "#/definitions/UnitSystemReference"
+        minimum: 1
       root:
         type: boolean
         description: "Whether this unit is a root unit in its system"
@@ -109,6 +110,7 @@ definitions:
       type:
         type: string
         description: "Reference type indicator"
+        enum: ["unitsml", "ucum", "nist"]
       id:
         type: string
         description: "Unit system identifier"
