@@ -20,6 +20,10 @@ dimensions:
   names:
   - value: length
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0
   short: length
 - identifiers:
   - type: nist
@@ -32,6 +36,10 @@ dimensions:
   names:
   - value: volume
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L3I0M0H0T0D0
   short: volume
 - dimensionless: true
   identifiers:
@@ -42,6 +50,10 @@ dimensions:
   names:
   - value: traffic intensity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: traffic_intensity
 - identifiers:
   - type: nist
@@ -51,6 +63,10 @@ dimensions:
   names:
   - value: symbol rate
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-0dot5I0M0dot5H0T-1D0
   time:
     power: -1
     symbol: T
@@ -64,6 +80,10 @@ dimensions:
   names:
   - value: information content
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: information_content
 - identifiers:
   - type: nist
@@ -76,6 +96,10 @@ dimensions:
   names:
   - value: velocity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0
   time:
     power: -1
     symbol: T
@@ -91,6 +115,10 @@ dimensions:
   names:
   - value: force
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -109,6 +137,10 @@ dimensions:
   names:
   - value: magnetic flux density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-1L0I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -127,6 +159,10 @@ dimensions:
   names:
   - value: pressure
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-1I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -145,6 +181,10 @@ dimensions:
   names:
   - value: energy
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -163,6 +203,10 @@ dimensions:
   names:
   - value: power
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M1H0T-3D-1
   time:
     power: -3
     symbol: T
@@ -181,6 +225,10 @@ dimensions:
   names:
   - value: electric charge
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L0I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -199,6 +247,10 @@ dimensions:
   names:
   - value: electric potential difference
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-1L2I0M1H0T-3D0
   time:
     power: -3
     symbol: T
@@ -220,6 +272,10 @@ dimensions:
   names:
   - value: capacitance
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E2L-2I0M-1H0T4D0
   time:
     power: 4
     symbol: T
@@ -235,6 +291,10 @@ dimensions:
   names:
   - value: mass
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0
   mass:
     power: 1
     symbol: M
@@ -260,6 +320,10 @@ dimensions:
   names:
   - value: electric resistance
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-2L2I0M1H0T-3D0
   time:
     power: -3
     symbol: T
@@ -281,6 +345,10 @@ dimensions:
   names:
   - value: electric conductance
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E2L-2I0M-1H0T3D0
   time:
     power: 3
     symbol: T
@@ -302,6 +370,10 @@ dimensions:
   names:
   - value: magnetic flux
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-1L2I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -323,6 +395,10 @@ dimensions:
   names:
   - value: inductance
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-2L2I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -338,6 +414,10 @@ dimensions:
   names:
   - value: frequency
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-0dot5I0M0dot5H0T-1D0
   time:
     power: -1
     symbol: T
@@ -353,13 +433,17 @@ dimensions:
   names:
   - value: absorbed dose
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T-2D0
   time:
     power: -2
     symbol: T
   short: absorbed_dose
 - amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd26
@@ -368,6 +452,10 @@ dimensions:
   names:
   - value: catalytic activity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A1E0L0I0M0H0T-1D0
   time:
     power: -1
     symbol: T
@@ -386,6 +474,10 @@ dimensions:
   names:
   - value: illuminance
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-2I1M0H0T0D0
   short: illuminance
 - identifiers:
   - type: nist
@@ -398,6 +490,10 @@ dimensions:
   names:
   - value: acceleration
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-2D0
   time:
     power: -2
     symbol: T
@@ -413,6 +509,10 @@ dimensions:
   names:
   - value: wavenumber
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-1I0M0H0T0D0
   short: wavenumber
 - identifiers:
   - type: nist
@@ -422,6 +522,10 @@ dimensions:
   names:
   - value: time
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -444,6 +548,10 @@ dimensions:
   names:
   - value: mass density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-3I0M1H0T0D0
   mass:
     power: 1
     symbol: M
@@ -459,6 +567,10 @@ dimensions:
   names:
   - value: specific volume
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L3I0M-1H0T0D0
   mass:
     power: -1
     symbol: M
@@ -477,6 +589,10 @@ dimensions:
   names:
   - value: current density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L-2I0M0H0T0D0
   short: current_density
 - electric_current:
     power: 1
@@ -492,10 +608,14 @@ dimensions:
   names:
   - value: magnetic field strength
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L-1I0M0H0T0D0
   short: magnetic_field_strength
 - amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd34
@@ -507,6 +627,10 @@ dimensions:
   names:
   - value: concentration
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A1E0L-3I0M0H0T0D0
   short: concentration
 - identifiers:
   - type: nist
@@ -516,6 +640,10 @@ dimensions:
   names:
   - value: angular acceleration
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-0dot5I0M0dot5H0T-2D0
   time:
     power: -2
     symbol: T
@@ -531,6 +659,10 @@ dimensions:
   names:
   - value: dynamic viscosity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-1I0M1H0T-1D0
   time:
     power: -1
     symbol: T
@@ -546,6 +678,10 @@ dimensions:
   names:
   - value: surface tension
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-0dot5I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -561,6 +697,10 @@ dimensions:
   names:
   - value: heat flux density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T-3D0
   time:
     power: -3
     symbol: T
@@ -579,6 +719,10 @@ dimensions:
   names:
   - value: heat capacity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M1H-1T-2D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -607,6 +751,10 @@ dimensions:
   names:
   - value: electric current
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L0I0M0H0T0D-1
   short: electric_current
 - identifiers:
   - type: nist
@@ -619,6 +767,10 @@ dimensions:
   names:
   - value: specific heat capacity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H-1T-2D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -637,6 +789,10 @@ dimensions:
   names:
   - value: thermal conductivity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M1H-1T-3D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -661,6 +817,10 @@ dimensions:
   names:
   - value: electric field strength
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-1L1I0M1H0T-3D0
   time:
     power: -3
     symbol: T
@@ -682,6 +842,10 @@ dimensions:
   names:
   - value: electric charge density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L-3I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -700,6 +864,10 @@ dimensions:
   names:
   - value: electric flux density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L-2I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -718,6 +886,10 @@ dimensions:
   names:
   - value: permittivity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E2L-3I0M-1H0T4D0
   time:
     power: 4
     symbol: T
@@ -739,6 +911,10 @@ dimensions:
   names:
   - value: permeability
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-2L1I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -748,7 +924,7 @@ dimensions:
   short: permeability
 - amount_of_substance:
     power: -1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd47
@@ -760,6 +936,10 @@ dimensions:
   names:
   - value: molar energy
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A-1E0L2I0M1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -769,7 +949,7 @@ dimensions:
   short: molar_energy
 - amount_of_substance:
     power: -1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd48
@@ -781,6 +961,10 @@ dimensions:
   names:
   - value: molar entropy
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A-1E0L2I0M1H-1T-2D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -802,6 +986,10 @@ dimensions:
   names:
   - value: exposure
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L0I0M-1H0T1D0
   time:
     power: 1
     symbol: T
@@ -817,6 +1005,10 @@ dimensions:
   names:
   - value: temperature
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H1T0D0
   thermodynamic_temperature:
     power: 1
     symbol: Theta
@@ -839,6 +1031,10 @@ dimensions:
   names:
   - value: absorbed dose rate
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T-3D0
   time:
     power: -3
     symbol: T
@@ -854,6 +1050,10 @@ dimensions:
   names:
   - value: surface density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-2I0M1H0T0D0
   mass:
     power: 1
     symbol: M
@@ -869,6 +1069,10 @@ dimensions:
   names:
   - value: fluidity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M-1H0T1D0
   time:
     power: 1
     symbol: T
@@ -917,7 +1121,7 @@ dimensions:
   short: magnetizability
 - amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd55
@@ -944,6 +1148,10 @@ dimensions:
   names:
   - value: kinematic viscosity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T-1D0
   time:
     power: -1
     symbol: T
@@ -959,6 +1167,10 @@ dimensions:
   names:
   - value: area moment of inertia
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L4I0M0H0T0D0
   short: area_moment_of_inertia
 - identifiers:
   - type: nist
@@ -971,6 +1183,10 @@ dimensions:
   names:
   - value: linear density
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-1I0M1H0T0D0
   mass:
     power: 1
     symbol: M
@@ -986,17 +1202,21 @@ dimensions:
   names:
   - value: mass moment of inertia
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M1H0T0D0
   mass:
     power: 1
     symbol: M
   short: mass_moment_of_inertia
 - amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
     symbols:
     - latex: "\\ensuremath{\\mathsf{N}}"
       unicode: "\U0001D5AD"
-      ascii: "N"
+      ascii: N
       html: "&#x1D5AD;"
       id: dim_N
       mathml: "<mi mathvariant='sans-serif'>N</mi>"
@@ -1008,6 +1228,10 @@ dimensions:
   names:
   - value: substance amount
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A1E0L0I0M0H0T0D0
   short: substance_amount
 - identifiers:
   - type: nist
@@ -1020,6 +1244,10 @@ dimensions:
   names:
   - value: action
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M1H0T-1D0
   time:
     power: -1
     symbol: T
@@ -1038,6 +1266,10 @@ dimensions:
   names:
   - value: momentum
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M1H0T-1D0
   time:
     power: -1
     symbol: T
@@ -1056,6 +1288,10 @@ dimensions:
   names:
   - value: gravitational constant
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L3I0M-1H0T-2D0
   time:
     power: -2
     symbol: T
@@ -1074,6 +1310,10 @@ dimensions:
   names:
   - value: compressibility
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M-1H0T2D0
   time:
     power: 2
     symbol: T
@@ -1093,6 +1333,10 @@ dimensions:
   plane_angle:
     power: 1
     symbol: phi
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: solid_angle
 - identifiers:
   - type: nist
@@ -1102,6 +1346,10 @@ dimensions:
   names:
   - value: mass flow rate
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T-1D0
   time:
     power: -1
     symbol: T
@@ -1120,6 +1368,10 @@ dimensions:
   names:
   - value: volume flow rate
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L3I0M0H0T-1D0
   time:
     power: -1
     symbol: T
@@ -1133,6 +1385,10 @@ dimensions:
   names:
   - value: logarithmic ratio
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: logarithmic_ratio
 - identifiers:
   - type: nist
@@ -1142,6 +1398,10 @@ dimensions:
   names:
   - value: linear expansion coefficient
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H-1T0D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -1157,6 +1417,10 @@ dimensions:
   names:
   - value: pressure coefficient
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-1I0M1H-1T-2D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -1185,6 +1449,10 @@ dimensions:
   names:
   - value: luminous intensity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I1M0H0T0D0
   short: luminous_intensity
 - identifiers:
   - type: nist
@@ -1197,6 +1465,10 @@ dimensions:
   names:
   - value: isothermal compressibility
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L1I0M-1H0T2D0
   time:
     power: 2
     symbol: T
@@ -1212,6 +1484,10 @@ dimensions:
   names:
   - value: heat transfer coefficient
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H-1T-3D0
   thermodynamic_temperature:
     power: -1
     symbol: Theta
@@ -1236,6 +1512,10 @@ dimensions:
   names:
   - value: electric dipole moment
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L1I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -1254,6 +1534,10 @@ dimensions:
   names:
   - value: magnetic dipole moment
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L2I0M0H0T0D0
   short: magnetic_dipole_moment
 - electric_current:
     power: -1
@@ -1266,6 +1550,10 @@ dimensions:
   names:
   - value: electric field gradient
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E-1L0I0M1H0T-3D0
   time:
     power: -3
     symbol: T
@@ -1287,6 +1575,10 @@ dimensions:
   names:
   - value: electric quadrupole moment
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E1L2I0M0H0T1D0
   time:
     power: 1
     symbol: T
@@ -1323,6 +1615,10 @@ dimensions:
   names:
   - value: hyperpolarizability 1st
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E3L-1I0M-2H0T7D0
   time:
     power: 7
     symbol: T
@@ -1344,6 +1640,10 @@ dimensions:
   names:
   - value: hyperpolarizability 2nd
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E4L-2I0M-3H0T10D0
   time:
     power: 10
     symbol: T
@@ -1353,7 +1653,7 @@ dimensions:
   short: hyperpolarizability_2nd
 - amount_of_substance:
     power: 1
-    symbol: "N"
+    symbol: N
   identifiers:
   - type: nist
     id: NISTd79
@@ -1362,6 +1662,10 @@ dimensions:
   names:
   - value: molality
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A1E0L0I0M1H0T0D0
   mass:
     power: 1
     symbol: M
@@ -1377,6 +1681,10 @@ dimensions:
   names:
   - value: area
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0
   short: area
 - dimensionless: true
   identifiers:
@@ -1387,6 +1695,10 @@ dimensions:
   names:
   - value: ratio quantity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: ratio_quantity
 - dimensionless: true
   identifiers:
@@ -1397,6 +1709,10 @@ dimensions:
   names:
   - value: level of field quantity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: level_of_field_quantity
 - dimensionless: true
   identifiers:
@@ -1407,6 +1723,10 @@ dimensions:
   names:
   - value: field power level
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: field_power_level
 - dimensionless: true
   identifiers:
@@ -1417,6 +1737,10 @@ dimensions:
   names:
   - value: mass mole fraction
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: mass_mole_fraction
 - dimensionless: true
   identifiers:
@@ -1437,6 +1761,10 @@ dimensions:
       html: "&#x1D785;"
       id: dim_phi
       mathml: "<mi mathvariant='sans-serif'>&#x3c6;</mi>"
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: plane_angle
 - dimensionless: true
   identifiers:
@@ -1447,6 +1775,10 @@ dimensions:
   names:
   - value: acidity index
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: acidity_index
 - dimensionless: true
   identifiers:
@@ -1457,6 +1789,10 @@ dimensions:
   names:
   - value: storage capacity
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: storage_capacity
 - identifiers:
   - type: nist
@@ -1469,6 +1805,10 @@ dimensions:
   names:
   - value: fluence
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-2I0M0H0T0D0
   short: fluence
 - identifiers:
   - type: nist
@@ -1481,6 +1821,10 @@ dimensions:
   names:
   - value: fluence_rate
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-2I0M0H0T-1D0
   time:
     power: -1
     symbol: T
@@ -1497,6 +1841,10 @@ dimensions:
   plane_angle:
     power: 1
     symbol: phi
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
   short: phase
 - identifiers:
   - type: nist
@@ -1509,4 +1857,8 @@ dimensions:
   names:
   - value: fuel efficiency
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/dimensionvector/A0E0L-2I0M0H0T0D0
   short: fuel_efficiency

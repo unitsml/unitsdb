@@ -11,6 +11,10 @@ unit_systems:
   names:
   - value: SI base units
     lang: en
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/sou/SI
   short: si-base
 - acceptable: true
   identifiers:
