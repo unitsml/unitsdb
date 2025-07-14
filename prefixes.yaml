@@ -19,6 +19,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:d
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Deci
   short: deci
   symbols:
   - latex: d
@@ -44,6 +47,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:p
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Pico
   short: pico
   symbols:
   - latex: p
@@ -69,6 +75,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:f
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Femto
   short: femto
   symbols:
   - latex: f
@@ -94,6 +103,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:a
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Atto
   short: atto
   symbols:
   - latex: a
@@ -119,6 +131,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:c
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Centi
   short: centi
   symbols:
   - latex: c
@@ -144,6 +159,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:z
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Zepto
   short: zepto
   symbols:
   - latex: z
@@ -169,6 +187,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:y
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Yocto
   short: yocto
   symbols:
   - latex: "y"
@@ -191,6 +212,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/ronto
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Ronto
   short: ronto
   symbols:
   - latex: r
@@ -216,6 +240,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:m
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Milli
   short: milli
   symbols:
   - latex: m
@@ -238,6 +265,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/quecto
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Quecto
   short: quecto
   symbols:
   - latex: q
@@ -263,6 +293,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:u
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Micro
   short: micro
   symbols:
   - latex: "$mu$"
@@ -288,6 +321,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:n
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Nano
   short: nano
   symbols:
   - latex: "n"
@@ -335,6 +371,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:da
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Deca
   short: deka
   symbols:
   - latex: da
@@ -360,6 +399,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:T
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Tera
   short: tera
   symbols:
   - latex: T
@@ -385,6 +427,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:P
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Peta
   short: peta
   symbols:
   - latex: P
@@ -410,6 +455,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:E
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Exa
   short: exa
   symbols:
   - latex: E
@@ -435,6 +483,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:h
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Hecto
   short: hecto
   symbols:
   - latex: h
@@ -460,6 +511,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Z
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Zetta
   short: zetta
   symbols:
   - latex: Z
@@ -485,12 +539,15 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Y
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Yotta
   short: yotta
   symbols:
-  - latex: "Y"
-    unicode: "Y"
-    ascii: "Y"
-    html: "Y"
+  - latex: Y
+    unicode: Y
+    ascii: Y
+    html: Y
     id: yotta
     mathml: "<mi>Y</mi>"
 - base: 10
@@ -507,6 +564,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/ronna
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Ronna
   short: ronna
   symbols:
   - latex: R
@@ -532,6 +592,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:k
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Kilo
   short: kilo
   symbols:
   - latex: k
@@ -554,6 +617,9 @@ prefixes:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/prefixes/quetta
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Quetta
   short: quetta
   symbols:
   - latex: Q
@@ -579,6 +645,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:M
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Mega
   short: mega
   symbols:
   - latex: M
@@ -604,6 +673,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:G
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/Giga
   short: giga
   symbols:
   - latex: G
@@ -626,6 +698,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Ki
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Kibi
   short: kibi
   symbols:
   - latex: Ki
@@ -648,6 +723,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Mi
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Mebi
   short: mebi
   symbols:
   - latex: Mi
@@ -670,6 +748,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Gi
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Gibi
   short: gibi
   symbols:
   - latex: Gi
@@ -692,6 +773,9 @@ prefixes:
   - type: informative
     authority: ucum
     uri: ucum:prefix:code:Ti
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Tebi
   short: tebi
   symbols:
   - latex: Ti
@@ -710,6 +794,10 @@ prefixes:
   - value: pebi
     lang: en
   power: 50
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Pebi
   short: pebi
   symbols:
   - latex: Pi
@@ -728,6 +816,10 @@ prefixes:
   - value: exbi
     lang: en
   power: 60
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Exbi
   short: exbi
   symbols:
   - latex: Ei
@@ -746,6 +838,10 @@ prefixes:
   - value: zebi
     lang: en
   power: 70
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Zebi
   short: zebi
   symbols:
   - latex: Zi
@@ -764,6 +860,10 @@ prefixes:
   - value: yobi
     lang: en
   power: 80
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/prefix/Yobi
   short: yobi
   symbols:
   - latex: Yi

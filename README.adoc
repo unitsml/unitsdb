@@ -252,13 +252,16 @@ names:
 
 ==== References
 
+===== General
+
 A reference object represents a link to an external resource or standard
 that provides additional context or information about the entity.
 
 Currently, UnitsDB units, quantities and prefixes link to:
 
-* the SI Digital Framework
-* UCUM
+* https://si-digital-framework.org[BIPM SI Digital Framework] (normative references)
+* https://ucum.org/[UCUM] (informative references)
+* https://qudt.org[QUDT] (informative references)
 
 A reference contains the following attributes:
 
@@ -271,33 +274,58 @@ A reference contains the following attributes:
 [source,yaml]
 ----
 references:
-- uri: http://si-digital-framework.org/SI/units/metre
-  type: normative
+- type: normative
+  uri: http://si-digital-framework.org/SI/units/metre
   authority: si-digital-framework
 - type: informative
-  authority: ucum
   uri: ucum:base-unit:code:m
+  authority: ucum
+- type: informative
+  uri: http://qudt.org/vocab/unit/M
+  authority: qudt
 ----
 ====
+
+
+===== SI Digital Framework
 
 The SI Digital Framework reference is a normative reference to the
 official SI unit definitions.
 
 SI references are added to:
 
-* units.yaml for units
-* quantities.yaml for quantities
-* prefixes.yaml for prefixes
-* dimensions.yaml for dimensions
+* `units.yaml` for units
+* `quantities.yaml` for quantities
+* `prefixes.yaml` for prefixes
+* `dimensions.yaml` for dimensions
 
+
+===== UCUM
 
 The UCUM URI format is a custom one used inside UnitsML with the pattern
 `ucum:{type}:{klass}:code:{unit_code}`, and is listed as informative.
 
 UCUM references are added to:
 
-* units.yaml for units
-* prefixes.yaml for prefixes
+* `units.yaml` for units
+* `prefixes.yaml` for prefixes
+
+The UCUM file is located at: `spec/fixtures/ucum/ucum-essence.xml`
+
+
+===== QUDT
+
+The QUDT URI format is a custom one used inside UnitsML with the pattern
+`http://qudt.org/{version}/vocab/{vocab_type}/{code}`, and is listed as informative.
+
+QUDT references are added to:
+
+* `units.yaml` for units (`http://qudt.org/{version}/vocab/unit`)
+* `quantities.yaml` for quantities (`http://qudt.org/{version}/vocab/quantitykind`)
+* `dimensions.yaml` for dimensions (`http://qudt.org/{version}/vocab/dimensionvector`)
+* `unit_systems.yaml` for unit systems (`http://qudt.org/{version}/vocab/sou`)
+
+The current version mapped to QUDT is `3.1.2`.
 
 
 === Dimensions
@@ -1060,6 +1088,17 @@ work with separate files.
 
 Both release formats include version information in their filenames (e.g.,
 `unitsdb-2.0.0.yaml` and `unitsdb-2.0.0.zip`).
+
+
+
+== Quick actions for maintainers
+
+=== Normalize database
+
+[source,sh]
+----
+bundle exec unitsdb _modify normalize --all --database=spec/fixtures/unitsdb
+----
 
 
 == Copyright and license

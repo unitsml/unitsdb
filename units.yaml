@@ -50,6 +50,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:m
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -163,6 +166,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:sr
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -198,6 +204,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq39
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/REM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -232,6 +242,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:a
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -258,6 +271,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT-PER-MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -293,6 +310,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -328,6 +349,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -372,6 +397,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:N
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -398,10 +426,10 @@ units:
   short: newton
   symbols:
   - latex: "\\ensuremath{\\mathrm{N}}"
-    unicode: "N"
-    ascii: "N"
-    html: "N"
-    id: "N"
+    unicode: N
+    ascii: N
+    html: N
+    id: N
     mathml: "<mi mathvariant='normal'>N</mi>"
 - identifiers:
   - type: nist
@@ -418,6 +446,10 @@ units:
     id: NISTq185
   - type: nist
     id: NISTq60
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -453,6 +485,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq133
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N-M-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -493,6 +529,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq61
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -528,6 +568,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq130
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N-M2-PER-KiloGM2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -571,6 +615,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq129
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/N-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -606,6 +654,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI-PER-HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -641,6 +693,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI-PER-MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -676,6 +732,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -715,6 +775,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:st
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/STR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -746,6 +809,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq14
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GAMMA
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -790,6 +857,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/THERM_EC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -820,6 +891,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:R
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/R
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -852,6 +926,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:G
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GAUSS
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -905,6 +982,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Pa
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PA
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -947,6 +1027,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq59
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PA-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -982,6 +1066,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq159
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PA-PER-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1021,6 +1109,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Ky
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KY
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1048,6 +1139,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq85
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CentiST
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1128,6 +1223,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[mil_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MilLength
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1172,6 +1270,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:sb
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/STILB
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1248,6 +1349,10 @@ units:
     id: NISTq185
   - type: nist
     id: NISTq60
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM_F-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1290,6 +1395,10 @@ units:
     id: NISTq20
   - type: nist
     id: NISTq21
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP_Electric
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1320,6 +1429,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:P
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/POISE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1346,6 +1458,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq91
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RHE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1428,6 +1544,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:J
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1470,6 +1589,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq67
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-M3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1505,6 +1628,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq65
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-KiloGM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1545,6 +1672,10 @@ units:
     id: NISTq64
   - type: nist
     id: NISTq80
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-KiloGM-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1588,6 +1719,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq154
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1625,6 +1760,10 @@ units:
     id: NISTq63
   - type: nist
     id: NISTq79
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1660,6 +1799,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq73
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-MOL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1697,6 +1840,10 @@ units:
     id: NISTq74
   - type: nist
     id: NISTq83
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/J-PER-MOL-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1740,6 +1887,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:l
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/L
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1778,6 +1928,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[nmi_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI_N
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1808,6 +1961,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:[degF]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DEG_F
   scale_reference:
     type: unitsml
     id: continuous_interval
@@ -1840,6 +1996,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:const:code:atm
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ATM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1872,6 +2031,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:att
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ATM_T
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1909,6 +2071,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:W
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1951,6 +2116,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq88
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-PER-SR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -1986,6 +2155,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq66
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-PER-M-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2020,6 +2193,10 @@ units:
     id: NISTq62
   - type: nist
     id: NISTq78
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-PER-M2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2055,6 +2232,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq89
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-PER-M2-SR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2106,6 +2287,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2145,6 +2330,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:St
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ST
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2175,6 +2363,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Gal
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GALILEO
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2205,6 +2396,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Oe
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OERSTED
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2242,6 +2436,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:'
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ARCMIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2282,6 +2479,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/arcsecond
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ARCSEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2363,6 +2563,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:C
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2400,6 +2603,10 @@ units:
     id: NISTq81
   - type: nist
     id: NISTq82
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C-PER-M2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2435,6 +2642,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq69
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C-PER-M3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2472,6 +2683,10 @@ units:
     id: NISTq197
   - type: nist
     id: NISTq75
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C-PER-KiloGM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2516,6 +2731,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[kn_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2557,6 +2775,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:levels:code:Np
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/NP
   scale_reference:
     type: unitsml
     id: logarithmic_field
@@ -2596,6 +2817,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:levels:code:B
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/B
   scale_reference:
     type: unitsml
     id: logarithmic_field
@@ -2623,6 +2847,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq90
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DeciB
   scale_reference:
     type: unitsml
     id: logarithmic_ratio
@@ -2663,6 +2891,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MilliM_HG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2695,6 +2927,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:d
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DARCY
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2731,6 +2966,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:gon
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GON
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2770,6 +3008,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:V
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/V
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2816,6 +3057,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq68
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/V-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2853,6 +3098,10 @@ units:
     id: NISTq107
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloM-PER-HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2891,6 +3140,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq120
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/NP-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2930,6 +3183,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[syd_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YD2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2965,6 +3221,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-lengths:code:[smi_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -2998,6 +3257,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq17
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TonEnergy
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3024,6 +3287,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq49
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT-PER-SEC2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3063,6 +3330,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[cin_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3098,6 +3368,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[cft_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3138,6 +3411,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:F
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3184,6 +3460,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq71
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FARAD-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3223,6 +3503,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[cyd_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YD3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3262,6 +3545,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:brit-volumes:code:[gal_br]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GAL_IMP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3294,6 +3580,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[pt_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PINT_UK
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3328,6 +3617,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[foz_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OZ_VOL_UK
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3458,6 +3750,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[bbl_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BBL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3490,6 +3785,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[bu_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BU_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3525,6 +3823,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Ohm
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OHM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3607,6 +3908,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:const:code:[ly]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LY
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3639,6 +3943,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/astronomicalunit
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/AU
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3669,6 +3976,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:pc
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PARSEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3697,6 +4007,10 @@ units:
     id: NISTq144
   - type: nist
     id: NISTq145
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M4
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3728,6 +4042,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq51
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-PER-L
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3766,6 +4084,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq51
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TONNE-PER-M3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3810,6 +4132,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:S
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/S
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -3860,6 +4185,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:const:code:gf
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GM_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4008,6 +4336,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq8
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4039,6 +4371,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq85
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M2-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4077,6 +4413,10 @@ units:
     id: NISTq10
   - type: nist
     id: NISTq146
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4147,6 +4487,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq151
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/M3-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4190,6 +4534,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/kilogram
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4233,6 +4580,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Wb
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/WB
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4321,6 +4671,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:avoirdupois:code:[oz_av]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OZ-FT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4375,6 +4728,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq51
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LB-PER-FT3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4416,6 +4773,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:const:code:[lbf_av]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LB_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4456,6 +4816,10 @@ units:
     id: NISTq60
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT-LB_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4495,6 +4859,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:[psi]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LB_F-PER-IN2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4536,6 +4903,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq155
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN4
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4567,6 +4938,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq146
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4607,6 +4982,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:T
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/T
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4649,6 +5027,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq85
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT2-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4685,6 +5067,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT-LB_F-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4733,6 +5119,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:[car_m]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CARAT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4763,6 +5152,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:tex
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TEX
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4789,6 +5181,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq15
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TORR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4874,6 +5270,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM_F-M-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4919,6 +5319,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP_Metric
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -4954,6 +5358,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:H
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/H
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5000,6 +5407,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq72
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/H-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5037,6 +5448,10 @@ units:
     id: NISTq180
   - type: nist
     id: NISTq181
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-PER-M2-K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5074,6 +5489,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Lmb
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LA
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5104,6 +5522,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Gb
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GI
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5130,6 +5551,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq162
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DEBYE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5182,6 +5607,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SLUG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5226,6 +5655,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:cal_th
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CAL_TH
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5264,6 +5696,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:avoirdupois:code:[ston_av]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TON_SHORT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5296,6 +5731,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:avoirdupois:code:[lton_av]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TON_LONG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5333,6 +5771,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Cel
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DEG_C
   scale_reference:
     type: unitsml
     id: continuous_interval
@@ -5405,6 +5846,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:avoirdupois:code:[oz_av]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OZ
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5469,6 +5913,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:troy:code:[pwt_tr]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PENNYWEIGHT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5563,6 +6010,10 @@ units:
     id: NISTq128
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PDL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5589,6 +6040,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq2
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KIP_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5643,6 +6098,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq15
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BARYE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5678,6 +6137,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:eV
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/EV
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5708,6 +6170,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:u
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/U
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5734,6 +6199,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq12
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5845,6 +6314,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq22
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/E
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -5958,6 +6431,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Bq
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BQ
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6258,6 +6734,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6435,6 +6915,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq28
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OHM_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6463,6 +6947,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq169
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FARAD_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6491,6 +6979,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq170
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/A_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6523,6 +7015,10 @@ units:
     id: NISTq24
   - type: nist
     id: NISTq26
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/V_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6551,6 +7047,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq171
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/H_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6586,6 +7086,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:g
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6594,11 +7097,11 @@ units:
     unit_reference:
       type: nist
       id: NISTu2
-  root: true
-  short: gram
   unit_system_reference:
   - type: unitsml
     id: si-base
+  root: true
+  short: gram
   symbols:
   - latex: "\\ensuremath{\\mathrm{g}}"
     unicode: g
@@ -6619,6 +7122,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq29
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MHO_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6649,6 +7156,10 @@ units:
     id: NISTq22
   - type: nist
     id: NISTq23
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C_Stat
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6843,6 +7354,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:pc
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PARSEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6873,6 +7387,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:pc
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PARSEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6942,6 +7459,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq126
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -6980,6 +7501,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq31
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-PER-M2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7058,6 +7583,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq127
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-M2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7099,6 +7628,10 @@ units:
     id: NISTq132
   - type: nist
     id: NISTq132
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-M2-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7143,6 +7676,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq150
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7194,6 +7731,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Gy
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GRAY
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7231,6 +7771,10 @@ units:
     id: NISTq194
   - type: nist
     id: NISTq76
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GRAY-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7268,6 +7812,10 @@ units:
     id: NISTq1
   - type: nist
     id: NISTq48
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7300,6 +7848,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-lengths:code:[rd_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ROD
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7332,6 +7883,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[fth_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FATH
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7362,6 +7916,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[cml_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MIL_Circ
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7392,6 +7949,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:[HP]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7420,6 +7980,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP_Boiler
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7448,6 +8012,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP_H2O
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7474,6 +8042,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7504,6 +8076,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:[degR]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DEG_R
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7536,6 +8111,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/dalton
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DA
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7576,6 +8154,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Sv
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SV
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7896,6 +8477,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:s
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7943,6 +8527,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:chemical:code:kat
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KAT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -7978,6 +8565,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq84
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KAT-PER-M3
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8019,6 +8610,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[qt_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/QT_UK
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8113,6 +8707,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[tsp_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TSP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8143,6 +8740,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[tbs_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TBSP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8175,6 +8775,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[tsp_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TBSP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8207,6 +8810,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[tsp_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TSP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8239,6 +8845,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[cup_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CUP
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8340,6 +8949,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:Hz
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HZ
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8381,6 +8993,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-lengths:code:[ch_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CH
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8445,6 +9060,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-lengths:code:[fur_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FUR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8479,6 +9097,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[mi_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8511,6 +9132,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[yd_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YD
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8545,6 +9169,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[ft_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8577,6 +9204,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[in_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8609,6 +9239,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-lengths:code:[acr_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/AC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8641,6 +9274,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CentiM_HG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8669,6 +9306,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CentiM_HG_0DEG_C
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8704,6 +9345,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:lm
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8803,6 +9447,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN_H2O
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8894,6 +9542,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT_H2O
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8952,6 +9604,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN_HG_32DEG_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -8992,6 +9648,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN_HG_60DEG_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9036,6 +9696,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN_HG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9083,6 +9747,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:lx
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/LUX
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9124,6 +9791,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT_HG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9172,6 +9843,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/THM_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9202,6 +9877,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:chemical:code:[pH]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PH
   scale_reference:
     type: unitsml
     id: logarithmic_ratio
@@ -9262,6 +9940,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq19
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BTU_MEAN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9374,6 +10056,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:a_t
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YR_TROPICAL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9408,6 +10093,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:a
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YR_Sidereal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9442,6 +10130,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:d
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DAY_Sidereal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9476,6 +10167,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:h
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HR_Sidereal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9510,6 +10204,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:'
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MIN_Sidereal
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9542,6 +10239,9 @@ units:
     id: NISTq3
   references:
   - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/S
+  - type: informative
     authority: ucum
     uri: ucum:base-unit:code:s
   scale_reference:
@@ -9570,6 +10270,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PT_BIG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9596,6 +10300,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq3
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SH
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9626,6 +10334,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:heat:code:[den]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DENIER
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9660,6 +10371,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[mil_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MilLength
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9688,6 +10402,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq6
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MOL_LB
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9718,6 +10436,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq20
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TON_FG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9748,6 +10470,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:infotech:code:bit_s
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BIT
   scale_reference:
     type: unitsml
     id: discrete
@@ -9778,6 +10503,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:infotech:code:By
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BYTE
   scale_reference:
     type: unitsml
     id: discrete
@@ -9838,6 +10566,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[min_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9870,6 +10601,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[cup_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CUP_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9936,6 +10670,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:us-volumes:code:[gil_us]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GI_US
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -9996,6 +10733,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq151
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT3-PER-MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10032,6 +10773,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq151
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT3-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10077,6 +10822,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:'
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10115,6 +10863,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq151
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN3-PER-MIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10152,6 +10904,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq1
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MicroIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10189,6 +10945,10 @@ units:
     id: NISTq15
   - type: nist
     id: NISTq16
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MilliBAR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10310,6 +11070,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MilliL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10350,6 +11114,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq55
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MOL-PER-L
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10400,6 +11168,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:h
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10539,6 +11310,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:d
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DAY
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10645,6 +11419,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq199
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PERCENT_RH
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10703,6 +11481,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq200
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DECADE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10729,6 +11511,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq201
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ERLANG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10759,6 +11545,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:infotech:code:Bd
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BAUD
   scale_reference:
     type: unitsml
     id: discrete
@@ -10785,6 +11574,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq203
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/SHANNON
   scale_reference:
     type: unitsml
     id: discrete
@@ -10811,6 +11604,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq203
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HART
   scale_reference:
     type: unitsml
     id: discrete
@@ -10843,6 +11640,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:Ao
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ANGSTROM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -10915,6 +11715,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:A
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/A
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11015,6 +11818,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:dimless:code:[ppm]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PPM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11096,6 +11902,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:ar
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ARE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11128,6 +11937,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:misc:code:b
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BARN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11160,6 +11972,9 @@ units:
   - type: normative
     authority: si-digital-framework
     uri: http://si-digital-framework.org/SI/units/hectare
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/HA
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11190,6 +12005,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[sft_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11225,6 +12043,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[sin_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11258,6 +12079,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq4
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/A_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11286,6 +12111,10 @@ units:
     id: NISTq22
   - type: nist
     id: NISTq23
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/C_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11314,6 +12143,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq27
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FARAD_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11353,6 +12186,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:K
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/K
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11387,6 +12223,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq32
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/H_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11441,6 +12281,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq28
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/OHM_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11473,6 +12317,10 @@ units:
     id: NISTq25
   - type: nist
     id: NISTq26
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/V_Ab
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11501,6 +12349,10 @@ units:
     id: NISTq22
   - type: nist
     id: NISTq23
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/A-HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11540,6 +12392,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Bi
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BIOT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11573,6 +12428,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq10
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/AC-FT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11612,6 +12471,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Mx
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MX
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11682,6 +12544,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:si:code:mol
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MOL
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11743,6 +12608,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq179
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MOL-PER-KiloGM
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11845,6 +12714,10 @@ units:
     id: NISTq93
   - type: nist
     id: NISTq94
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ONE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11885,6 +12758,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:erg
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ERG
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -11996,6 +12872,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloW-HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12044,6 +12924,10 @@ units:
     id: NISTq19
   - type: nist
     id: NISTq77
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/W-HR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12088,6 +12972,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:cd
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CD
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12153,6 +13040,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:dyn
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/DYN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12180,6 +13070,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloGM_F
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12214,6 +13108,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq13
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/KiloPOND
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12331,6 +13229,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[ft_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/FT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12375,6 +13276,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[in_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/IN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12419,6 +13323,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[mi_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/MI
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12451,6 +13358,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:intcust:code:[yd_i]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/YD
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12481,6 +13391,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:ph
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/PHOT
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12517,6 +13430,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:avoirdupois:code:[gr]
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/GRAIN
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12556,6 +13472,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:t
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/TON_Metric
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12584,6 +13503,10 @@ units:
     id: NISTq20
   - type: nist
     id: NISTq21
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/ERG-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12630,6 +13553,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:rad
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RAD
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12665,6 +13591,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq115
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RAD-PER-M
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12702,6 +13632,10 @@ units:
     id: NISTq113
   - type: nist
     id: NISTq57
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RAD-PER-SEC
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12737,6 +13671,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq58
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RAD-PER-SEC2
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -12778,6 +13716,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:iso1000:code:bar
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/BAR
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -13012,6 +13953,10 @@ units:
   quantity_references:
   - type: nist
     id: NISTq59
+  references:
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CentiPOISE
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -13050,6 +13995,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:unit:cgs:code:Ci
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/CI
   scale_reference:
     type: unitsml
     id: continuous_ratio
@@ -13082,6 +14030,9 @@ units:
   - type: informative
     authority: ucum
     uri: ucum:base-unit:code:rad
+  - type: informative
+    authority: qudt
+    uri: http://qudt.org/vocab/unit/RAD_R
   scale_reference:
     type: unitsml
     id: continuous_ratio
