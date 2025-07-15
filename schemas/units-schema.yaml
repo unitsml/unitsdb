@@ -200,11 +200,12 @@ definitions:
     properties:
       type:
         type: string
-        enum: ["normative", "informative"]
+        enum: ["informative", "normative"]
         description: "Type of reference"
       authority:
         type: string
         description: "Authoritative body or organization"
+        enum: ["si-digital-framework", "qudt", "ucum", "nist"]
       uri:
         type: string
         format: "uri"
@@ -212,8 +213,3 @@ definitions:
       title:
         type: string
         description: "Title of the reference"
-      year:
-        type: integer
-        minimum: 1000
-        maximum: 9999
-        description: "Publication year"
