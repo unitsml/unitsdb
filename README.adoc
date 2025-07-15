@@ -1091,15 +1091,158 @@ Both release formats include version information in their filenames (e.g.,
 
 
 
-== Quick actions for maintainers
+== Instructions for maintainers
 
-=== Normalize database
+=== Pre-publication
+
+Before publishing a new version of the UnitsDB, ensure that the following steps
+are completed:
+
+. Run the normalization command to ensure all YAML files are consistent and
+  properly formatted.
+. Run the validation commands to check for any issues with internal references,
+  identifiers and external references.
+
+=== Normalize dataset
 
 [source,sh]
 ----
-bundle exec unitsdb _modify normalize --all --database=spec/fixtures/unitsdb
+bundle exec unitsdb _modify normalize --all --database=spec/fixtures/unitsdb --sort=nist
 ----
 
+=== Validate dataset
+
+Check for duplicate identifiers:
+
+[source,sh]
+----
+bundle exec unitsdb validate identifiers --database=spec/fixtures/unitsdb
+----
+
+Check for duplicate internal references (e.g. units referencing quantities,
+quantities referencing dimensions):
+
+[source,sh]
+----
+bundle exec unitsdb validate references --database=spec/fixtures/unitsdb
+----
+
+Check for duplicate SI references:
+
+[source,sh]
+----
+bundle exec unitsdb validate si_references --database=spec/fixtures/unitsdb
+----
+
+Check for duplicate UCUM references:
+
+[source,sh]
+----
+bundle exec unitsdb validate ucum_references --database=spec/fixtures/unitsdb
+----
+
+
+Check for duplicate QUDT references:
+
+[source,sh]
+----
+bundle exec unitsdb validate qudt_references --database=spec/fixtures/unitsdb
+----
+
+QUDT references can be duplicated as some units do not uniquely map to a
+QUDT URI. This is acceptable as long as the duplicates are documented in the
+README file.
+
+These are the duplicated units:
+
+[source]
+----
+QUDT URI: http://qudt.org/vocab/unit/IN3
+Used by 2 entities:
+  - NISTu168 (cubic inch (en)) at index 81
+  - NISTu209 (inch cubed (en)) at index 122
+
+QUDT URI: http://qudt.org/vocab/unit/TSP
+Used by 3 entities:
+  - NISTu303 (teaspoon (en)) at index 234
+  - NISTu306 (teaspoon (FDA) (en)) at index 237
+
+QUDT URI: http://qudt.org/vocab/unit/YD
+Used by 2 entities:
+  - NISTu314 (yard (based on US survey foot) (en)) at index 246
+  - NISTu84 (yard (en)) at index 362
+
+QUDT URI: http://qudt.org/vocab/unit/IN
+Used by 2 entities:
+  - NISTu316 (inch (based on US survey foot) (en)) at index 248
+  - NISTu8 (inch (en)) at index 360
+----
+
+These are the duplicated quantities:
+
+[source]
+----
+QUDT URI: http://qudt.org/vocab/quantitykind/SecondAxialMomentOfArea
+Used by 2 entities:
+  - NISTq127 (mass moment of inertia (en)) at index 31
+  - NISTq144 (second axial moment of area (en)) at index 50
+
+QUDT URI: http://qudt.org/vocab/quantitykind/Capacitance
+Used by 2 entities:
+  - NISTq169 (electric capacitance (en)) at index 75
+  - NISTq27 (capacitance (en)) at index 120
+
+QUDT URI: http://qudt.org/vocab/quantitykind/Inductance
+Used by 2 entities:
+  - NISTq171 (electric inductance (en)) at index 78
+  - NISTq32 (inductance (en)) at index 126
+----
+
+UnitsDB and QUDT take a different approach to dimensions:
+
+* QUDT focuses on the exponents of the dimensions, allowing only for
+  a single dimension to have the same exponent combination.
+
+* UnitsDB allows for multiple dimensions to have the same exponent combination,
+  as long as they are associated with different quantities.
+
+Naturally, multiple UnitsDB Dimensions can be mapped to a single QUDT Dimension,
+hence there are no duplicate dimensions.
+
+The dimension mapping warnings are as follows (acceptable):
+
+[source]
+----
+QUDT URI: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D0
+Used by 12 entities:
+  - NISTd100 (traffic intensity (en)) at index 2
+  - NISTd102 (information content (en)) at index 4
+  - NISTd64 (solid angle (en)) at index 63
+  - NISTd67 (logarithmic ratio (en)) at index 66
+  - NISTd80 (ratio quantity (en)) at index 81
+  - NISTd83 (level of field quantity (en)) at index 82
+  - NISTd84 (field power level (en)) at index 83
+  - NISTd85 (mass mole fraction (en)) at index 84
+  - NISTd9 (plane angle (en)) at index 85
+  - NISTd94 (acidity index (en)) at index 86
+  - NISTd95 (storage capacity (en)) at index 87
+  - NISTd98 (phase (en)) at index 90
+
+QUDT URI: http://qudt.org/vocab/dimensionvector/A0E0L-0dot5I0M0dot5H0T-1D0
+Used by 2 entities:
+  - NISTd101 (symbol rate (en)) at index 3
+  - NISTd24 (frequency (en)) at index 19
+
+QUDT URI: http://qudt.org/vocab/dimensionvector/A0E0L1I0M-1H0T2D0
+Used by 2 entities:
+  - NISTd63 (compressibility (en)) at index 62
+  - NISTd70 (isothermal compressibility (en)) at index 70
+
+QUDT URI: http://qudt.org/vocab/dimensionvector/A0E0L-2I0M0H0T0D0
+Used by 2 entities:
+  - NISTd96 (fluence (en)) at index 88
+  - NISTd99 (fuel efficiency (en)) at index 91
+----
 
 == Copyright and license
 
