@@ -12,7 +12,9 @@ describe "Validate MathML in UnitsDB" do
       it "parses successfully" do
         symbols = unit_data["symbols"].flatten.compact
         symbols.each do |symbols_hash|
-          expect { Plurimath::Math.parse(symbols_hash["mathml"], :mathml) }.not_to raise_error
+          expect do
+            Plurimath::Math.parse(symbols_hash["mathml"], :mathml)
+          end.not_to raise_error
         end
       end
     end

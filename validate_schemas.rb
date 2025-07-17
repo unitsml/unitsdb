@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'yaml'
-require 'json-schema'
-require 'json'
-require 'pathname'
+require "yaml"
+require "json-schema"
+require "json"
+require "pathname"
 
 class SchemaValidator
   def initialize
-    @schemas_dir = Pathname.new('schemas')
+    @schemas_dir = Pathname.new("schemas")
     @errors_found = false
   end
 
@@ -17,19 +17,19 @@ class SchemaValidator
 
     # Define the mapping of YAML files to their schemas
     file_schema_map = {
-      'units.yaml' => 'units-schema.yaml',
-      'quantities.yaml' => 'quantities-schema.yaml',
-      'scales.yaml' => 'scales-schema.yaml',
-      'prefixes.yaml' => 'prefixes-schema.yaml',
-      'unit_systems.yaml' => 'unit_systems-schema.yaml',
-      'dimensions.yaml' => 'dimensions-schema.yaml'
+      "units.yaml" => "units-schema.yaml",
+      "quantities.yaml" => "quantities-schema.yaml",
+      "scales.yaml" => "scales-schema.yaml",
+      "prefixes.yaml" => "prefixes-schema.yaml",
+      "unit_systems.yaml" => "unit_systems-schema.yaml",
+      "dimensions.yaml" => "dimensions-schema.yaml",
     }
 
     file_schema_map.each do |yaml_file, schema_file|
       validate_file(yaml_file, schema_file)
     end
 
-    puts "\n" + "=" * 50
+    puts "\n#{'=' * 50}"
     if @errors_found
       puts "❌ Validation completed with errors"
       exit 1
@@ -68,8 +68,8 @@ class SchemaValidator
 
       # Validate
       errors = JSON::Validator.fully_validate(schema_json, yaml_data,
-                                             errors_as_objects: true,
-                                             validate_schema: true)
+                                              errors_as_objects: true,
+                                              validate_schema: true)
 
       if errors.empty?
         puts "✅ #{yaml_file} - Valid"
@@ -84,17 +84,16 @@ class SchemaValidator
 
           # Try to provide more context about the location
           if error[:fragment] && !error[:fragment].empty?
-            path_parts = error[:fragment].split('/')
+            path_parts = error[:fragment].split("/")
             puts "    Location: #{describe_path(path_parts, yaml_data)}"
           end
 
           # Show the failing value if available
-          if error[:failed_attribute] && error[:failed_attribute] != 'schema'
+          if error[:failed_attribute] && error[:failed_attribute] != "schema"
             puts "    Failed validation: #{error[:failed_attribute]}"
           end
         end
       end
-
     rescue YAML::SyntaxError => e
       puts "❌ YAML syntax error in #{yaml_file}:"
       puts "    Line #{e.line}: #{e.problem}"
@@ -114,9 +113,9 @@ class SchemaValidator
     description_parts = []
 
     path_parts.each do |part|
-      next if part.empty? || part == '#'
+      next if part.empty? || part == "#"
 
-      if part =~ /^\d+$/
+      if /^\d+$/.match?(part)
         # Array index
         index = part.to_i
         if current.is_a?(Array) && current[index]
@@ -126,45 +125,41 @@ class SchemaValidator
           description_parts << "index #{index} (out of bounds)"
           break
         end
-      else
+      elsif current.is_a?(Hash) && current.key?(part)
         # Object property
-        if current.is_a?(Hash) && current.key?(part)
-          description_parts << "property '#{part}'"
-          current = current[part]
-        else
-          description_parts << "missing property '#{part}'"
-          break
-        end
+        description_parts << "property '#{part}'"
+        current = current[part]
+      else
+        description_parts << "missing property '#{part}'"
+        break
       end
     end
 
-    description_parts.join(' -> ')
+    description_parts.join(" -> ")
   end
 end
 
 # Additional helper methods for detailed error reporting
 class SchemaValidator
   def self.check_dependencies
-    begin
-      require 'json-schema'
-    rescue LoadError
-      puts "❌ Missing required gem: json-schema"
-      puts "   Install with: gem install json-schema"
-      exit 1
-    end
+    require "json-schema"
+  rescue LoadError
+    puts "❌ Missing required gem: json-schema"
+    puts "   Install with: gem install json-schema"
+    exit 1
   end
 
   def self.run_with_options
     check_dependencies
 
-    if ARGV.include?('--help') || ARGV.include?('-h')
+    if ARGV.include?("--help") || ARGV.include?("-h")
       show_help
       exit 0
     end
 
     validator = new
 
-    if ARGV.include?('--verbose') || ARGV.include?('-v')
+    if ARGV.include?("--verbose") || ARGV.include?("-v")
       puts "Ruby version: #{RUBY_VERSION}"
       puts "JSON Schema gem version: #{JSON::Schema::VERSION}"
       puts "Working directory: #{Dir.pwd}"
