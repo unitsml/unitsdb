@@ -22,12 +22,17 @@ jobs:
       - name: Check YAML normalization
         id: check_yaml
         run: |
-          bundle exec unitsdb-utils normalize --all --dir ..
+          bundle exec unitsdb _modify normalize --all --database .
 
       - name: Check field uniqueness
         id: check_uniqueness
         run: |
-          bundle exec unitsdb-utils check_uniqueness --all --dir ..
+          bundle exec unitsdb validate identifiers --database .
+
+      - name: Validate references
+        id: check_references
+        run: |
+          bundle exec unitsdb validate references --database .
 
       - name: Comment on Normalization Issues
         if: failure() && steps.check_yaml.outputs.issues_found == 'true'
@@ -43,9 +48,28 @@ jobs:
             Please run the normalization script before submitting your PR:
 
             ```bash
-            cd scripts
             bundle install
-            bundle exec unitsdb-utils normalize --all --dir ..
+            bundle exec unitsdb _modify normalize --all --database .
+            ```
+
+            See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
+          reactions: 'eyes'
+
+      - name: Comment on Reference Issues
+        if: failure() && steps.check_references.conclusion == 'failure'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## Reference Validation Failed
+
+            The YAML files contain invalid references between entities.
+
+            Please ensure all references point to existing entities by running:
+
+            ```bash
+            bundle install
+            bundle exec unitsdb validate references --database .
             ```
 
             See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
@@ -69,9 +93,8 @@ jobs:
             You can check for duplicates by running:
 
             ```bash
-            cd scripts
             bundle install
-            bundle exec unitsdb-utils check_uniqueness --all --dir ..
+            bundle exec unitsdb validate identifiers --database .
             ```
 
             See the [contribution guidelines](../blob/main/README.adoc#contributing) for more information.
