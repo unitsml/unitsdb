@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-gem "unitsdb"
 gem "json-schema"
+gem "unitsdb"
