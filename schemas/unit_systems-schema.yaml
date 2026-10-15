@@ -106,7 +106,7 @@ definitions:
       authority:
         type: string
         description: "Authoritative body or organization"
-        enum: ["si-digital-framework", "qudt", "ucum", "nist"]
+        enum: ["si-digital-framework", "qudt", "ucum", "nist", "iso"]
       uri:
         type: string
         format: "uri"

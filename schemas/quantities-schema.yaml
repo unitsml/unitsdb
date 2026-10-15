@@ -79,7 +79,7 @@ definitions:
     properties:
       type:
         type: string
-        const: "nist"
+        enum: ["nist", "unitsml"]
         description: "Reference type indicator"
       id:
         type: string

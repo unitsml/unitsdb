@@ -1,5 +1,16 @@
 = UnitsDB release notes
 
+== Unreleased — iso-4217-currencies branch
+
+The ISO 4217 active currency codes join the database as a first-class
+`currencies.yaml` collection (158 codes, `cur:` namespace, minor-unit
+exponents, `status: active`), with the `d:currency` base dimension, the
+`q:monetary_value` base quantity, and the `us:iso-4217` unit system.
+Currency is a denomination, not a physical unit: every code is its own
+base, and no cross-currency conversion factors are ever carried because
+exchange rates float. Motivation and prior art (UCUM incorporates ISO
+4217; QUDT models a CurrencyUnit): `CURRENCY-PROPOSAL.md`.
+
 == v2.0.0
 
 === Introduction

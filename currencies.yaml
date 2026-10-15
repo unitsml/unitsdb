@@ -1,0 +1,2633 @@
+# yaml-language-server: $schema=schemas/currencies-schema.yaml
+---
+schema_version: 1.0.0
+# ISO 4217 active currency codes as first-class entities. Currency is a
+# denomination, not a physical unit: every entry is its own base (no
+# root_units, never a cross-currency conversion factor — exchange rates
+# float, and a unitsml-style factor table would silently compute wrong
+# money). All codes share the currency dimension (d:currency) so monetary
+# rates compose dimensionally (cur:EUR / u:liter = price per volume).
+# Bond-market unit codes (XBA..XBD), metals (XAU/XAG/XPT/XPD — those are
+# troy-mass units, not money), test (XTS) and no-currency (XXX) are out
+# of scope; historic codes land separately with status: historic.
+currencies:
+- identifiers:
+  - type: iso4217
+    id: AED
+  - type: unitsml
+    id: cur:AED
+  names:
+  - value: "UAE dirham"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AFN
+  - type: unitsml
+    id: cur:AFN
+  names:
+  - value: "Afghan afghani"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ALL
+  - type: unitsml
+    id: cur:ALL
+  names:
+  - value: "Albanian lek"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AMD
+  - type: unitsml
+    id: cur:AMD
+  names:
+  - value: "Armenian dram"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AOA
+  - type: unitsml
+    id: cur:AOA
+  names:
+  - value: "Angolan kwanza"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ARS
+  - type: unitsml
+    id: cur:ARS
+  names:
+  - value: "Argentine peso"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AUD
+  - type: unitsml
+    id: cur:AUD
+  names:
+  - value: "Australian dollar"
+    lang: en
+  symbols:
+  - unicode: "A$"
+    ascii: AUD
+    id: AUD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AWG
+  - type: unitsml
+    id: cur:AWG
+  names:
+  - value: "Aruban florin"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: AZN
+  - type: unitsml
+    id: cur:AZN
+  names:
+  - value: "Azerbaijani manat"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BAM
+  - type: unitsml
+    id: cur:BAM
+  names:
+  - value: "Bosnia and Herzegovina convertible mark"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BBD
+  - type: unitsml
+    id: cur:BBD
+  names:
+  - value: "Barbados dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BDT
+  - type: unitsml
+    id: cur:BDT
+  names:
+  - value: "Bangladeshi taka"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BGN
+  - type: unitsml
+    id: cur:BGN
+  names:
+  - value: "Bulgarian lev"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BHD
+  - type: unitsml
+    id: cur:BHD
+  names:
+  - value: "Bahraini dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BIF
+  - type: unitsml
+    id: cur:BIF
+  names:
+  - value: "Burundian franc"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BMD
+  - type: unitsml
+    id: cur:BMD
+  names:
+  - value: "Bermudian dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BND
+  - type: unitsml
+    id: cur:BND
+  names:
+  - value: "Brunei dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BOB
+  - type: unitsml
+    id: cur:BOB
+  names:
+  - value: "Boliviano"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BRL
+  - type: unitsml
+    id: cur:BRL
+  names:
+  - value: "Brazilian real"
+    lang: en
+  symbols:
+  - unicode: "R$"
+    ascii: BRL
+    id: BRL
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BSD
+  - type: unitsml
+    id: cur:BSD
+  names:
+  - value: "Bahamian dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BTN
+  - type: unitsml
+    id: cur:BTN
+  names:
+  - value: "Bhutanese ngultrum"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BWP
+  - type: unitsml
+    id: cur:BWP
+  names:
+  - value: "Botswana pula"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BYN
+  - type: unitsml
+    id: cur:BYN
+  names:
+  - value: "Belarusian ruble"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: BZD
+  - type: unitsml
+    id: cur:BZD
+  names:
+  - value: "Belize dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CAD
+  - type: unitsml
+    id: cur:CAD
+  names:
+  - value: "Canadian dollar"
+    lang: en
+  symbols:
+  - unicode: "CA$"
+    ascii: CAD
+    id: CAD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CDF
+  - type: unitsml
+    id: cur:CDF
+  names:
+  - value: "Congolese franc"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CHF
+  - type: unitsml
+    id: cur:CHF
+  names:
+  - value: "Swiss franc"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CLP
+  - type: unitsml
+    id: cur:CLP
+  names:
+  - value: "Chilean peso"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CNY
+  - type: unitsml
+    id: cur:CNY
+  names:
+  - value: "Chinese yuan renminbi"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: COP
+  - type: unitsml
+    id: cur:COP
+  names:
+  - value: "Colombian peso"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CRC
+  - type: unitsml
+    id: cur:CRC
+  names:
+  - value: "Costa Rican colon"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CUP
+  - type: unitsml
+    id: cur:CUP
+  names:
+  - value: "Cuban peso"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CVE
+  - type: unitsml
+    id: cur:CVE
+  names:
+  - value: "Cabo Verde escudo"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: CZK
+  - type: unitsml
+    id: cur:CZK
+  names:
+  - value: "Czech koruna"
+    lang: en
+  symbols:
+  - unicode: "Kč"
+    ascii: CZK
+    id: CZK
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: DJF
+  - type: unitsml
+    id: cur:DJF
+  names:
+  - value: "Djiboutian franc"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: DKK
+  - type: unitsml
+    id: cur:DKK
+  names:
+  - value: "Danish krone"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: DOP
+  - type: unitsml
+    id: cur:DOP
+  names:
+  - value: "Dominican peso"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: DZD
+  - type: unitsml
+    id: cur:DZD
+  names:
+  - value: "Algerian dinar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: EGP
+  - type: unitsml
+    id: cur:EGP
+  names:
+  - value: "Egyptian pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ERN
+  - type: unitsml
+    id: cur:ERN
+  names:
+  - value: "Eritrean nakfa"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ETB
+  - type: unitsml
+    id: cur:ETB
+  names:
+  - value: "Ethiopian birr"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: EUR
+  - type: unitsml
+    id: cur:EUR
+  names:
+  - value: "Euro"
+    lang: en
+  symbols:
+  - unicode: "€"
+    ascii: EUR
+    id: EUR
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: FJD
+  - type: unitsml
+    id: cur:FJD
+  names:
+  - value: "Fiji dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: FKP
+  - type: unitsml
+    id: cur:FKP
+  names:
+  - value: "Falkland Islands pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GBP
+  - type: unitsml
+    id: cur:GBP
+  names:
+  - value: "Pound sterling"
+    lang: en
+  symbols:
+  - unicode: "£"
+    ascii: GBP
+    id: GBP
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GEL
+  - type: unitsml
+    id: cur:GEL
+  names:
+  - value: "Georgian lari"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GHS
+  - type: unitsml
+    id: cur:GHS
+  names:
+  - value: "Ghanaian cedi"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GIP
+  - type: unitsml
+    id: cur:GIP
+  names:
+  - value: "Gibraltar pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GMD
+  - type: unitsml
+    id: cur:GMD
+  names:
+  - value: "Gambian dalasi"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GNF
+  - type: unitsml
+    id: cur:GNF
+  names:
+  - value: "Guinean franc"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GTQ
+  - type: unitsml
+    id: cur:GTQ
+  names:
+  - value: "Guatemalan quetzal"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: GYD
+  - type: unitsml
+    id: cur:GYD
+  names:
+  - value: "Guyanese dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: HKD
+  - type: unitsml
+    id: cur:HKD
+  names:
+  - value: "Hong Kong dollar"
+    lang: en
+  symbols:
+  - unicode: "HK$"
+    ascii: HKD
+    id: HKD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: HNL
+  - type: unitsml
+    id: cur:HNL
+  names:
+  - value: "Honduran lempira"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: HTG
+  - type: unitsml
+    id: cur:HTG
+  names:
+  - value: "Haitian gourde"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: HUF
+  - type: unitsml
+    id: cur:HUF
+  names:
+  - value: "Hungarian forint"
+    lang: en
+  symbols:
+  - unicode: "Ft"
+    ascii: HUF
+    id: HUF
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: IDR
+  - type: unitsml
+    id: cur:IDR
+  names:
+  - value: "Indonesian rupiah"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ILS
+  - type: unitsml
+    id: cur:ILS
+  names:
+  - value: "New Israeli sheqel"
+    lang: en
+  symbols:
+  - unicode: "₪"
+    ascii: ILS
+    id: ILS
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: INR
+  - type: unitsml
+    id: cur:INR
+  names:
+  - value: "Indian rupee"
+    lang: en
+  symbols:
+  - unicode: "₹"
+    ascii: INR
+    id: INR
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: IQD
+  - type: unitsml
+    id: cur:IQD
+  names:
+  - value: "Iraqi dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: IRR
+  - type: unitsml
+    id: cur:IRR
+  names:
+  - value: "Iranian rial"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ISK
+  - type: unitsml
+    id: cur:ISK
+  names:
+  - value: "Iceland krona"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: JMD
+  - type: unitsml
+    id: cur:JMD
+  names:
+  - value: "Jamaican dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: JOD
+  - type: unitsml
+    id: cur:JOD
+  names:
+  - value: "Jordanian dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: JPY
+  - type: unitsml
+    id: cur:JPY
+  names:
+  - value: "Japanese yen"
+    lang: en
+  symbols:
+  - unicode: "¥"
+    ascii: JPY
+    id: JPY
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KES
+  - type: unitsml
+    id: cur:KES
+  names:
+  - value: "Kenyan shilling"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KGS
+  - type: unitsml
+    id: cur:KGS
+  names:
+  - value: "Kyrgyzstani som"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KHR
+  - type: unitsml
+    id: cur:KHR
+  names:
+  - value: "Cambodian riel"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KMF
+  - type: unitsml
+    id: cur:KMF
+  names:
+  - value: "Comorian franc"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KPW
+  - type: unitsml
+    id: cur:KPW
+  names:
+  - value: "North Korean won"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KRW
+  - type: unitsml
+    id: cur:KRW
+  names:
+  - value: "South Korean won"
+    lang: en
+  symbols:
+  - unicode: "₩"
+    ascii: KRW
+    id: KRW
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KWD
+  - type: unitsml
+    id: cur:KWD
+  names:
+  - value: "Kuwaiti dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KYD
+  - type: unitsml
+    id: cur:KYD
+  names:
+  - value: "Cayman Islands dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: KZT
+  - type: unitsml
+    id: cur:KZT
+  names:
+  - value: "Kazakhstani tenge"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LAK
+  - type: unitsml
+    id: cur:LAK
+  names:
+  - value: "Lao kip"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LBP
+  - type: unitsml
+    id: cur:LBP
+  names:
+  - value: "Lebanese pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LKR
+  - type: unitsml
+    id: cur:LKR
+  names:
+  - value: "Sri Lanka rupee"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LRD
+  - type: unitsml
+    id: cur:LRD
+  names:
+  - value: "Liberian dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LSL
+  - type: unitsml
+    id: cur:LSL
+  names:
+  - value: "Loti"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: LYD
+  - type: unitsml
+    id: cur:LYD
+  names:
+  - value: "Libyan dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MAD
+  - type: unitsml
+    id: cur:MAD
+  names:
+  - value: "Moroccan dirham"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MDL
+  - type: unitsml
+    id: cur:MDL
+  names:
+  - value: "Moldovan leu"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MGA
+  - type: unitsml
+    id: cur:MGA
+  names:
+  - value: "Malagasy ariary"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MKD
+  - type: unitsml
+    id: cur:MKD
+  names:
+  - value: "Denar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MMK
+  - type: unitsml
+    id: cur:MMK
+  names:
+  - value: "Myanmar kyat"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MNT
+  - type: unitsml
+    id: cur:MNT
+  names:
+  - value: "Mongolian togrig"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MOP
+  - type: unitsml
+    id: cur:MOP
+  names:
+  - value: "Macanese pataca"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MRU
+  - type: unitsml
+    id: cur:MRU
+  names:
+  - value: "Mauritanian ouguiya"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MUR
+  - type: unitsml
+    id: cur:MUR
+  names:
+  - value: "Mauritian rupee"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MVR
+  - type: unitsml
+    id: cur:MVR
+  names:
+  - value: "Maldivian rufiyaa"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MWK
+  - type: unitsml
+    id: cur:MWK
+  names:
+  - value: "Malawi kwacha"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MXN
+  - type: unitsml
+    id: cur:MXN
+  names:
+  - value: "Mexican peso"
+    lang: en
+  symbols:
+  - unicode: "MX$"
+    ascii: MXN
+    id: MXN
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MYR
+  - type: unitsml
+    id: cur:MYR
+  names:
+  - value: "Malaysian ringgit"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: MZN
+  - type: unitsml
+    id: cur:MZN
+  names:
+  - value: "Mozambique metical"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NAD
+  - type: unitsml
+    id: cur:NAD
+  names:
+  - value: "Namibia dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NGN
+  - type: unitsml
+    id: cur:NGN
+  names:
+  - value: "Nigerian naira"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NIO
+  - type: unitsml
+    id: cur:NIO
+  names:
+  - value: "Nicaraguan cordoba oro"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NOK
+  - type: unitsml
+    id: cur:NOK
+  names:
+  - value: "Norwegian krone"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NPR
+  - type: unitsml
+    id: cur:NPR
+  names:
+  - value: "Nepalese rupee"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: NZD
+  - type: unitsml
+    id: cur:NZD
+  names:
+  - value: "New Zealand dollar"
+    lang: en
+  symbols:
+  - unicode: "NZ$"
+    ascii: NZD
+    id: NZD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: OMR
+  - type: unitsml
+    id: cur:OMR
+  names:
+  - value: "Rial Omani"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PAB
+  - type: unitsml
+    id: cur:PAB
+  names:
+  - value: "Balboa"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PEN
+  - type: unitsml
+    id: cur:PEN
+  names:
+  - value: "Sol"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PGK
+  - type: unitsml
+    id: cur:PGK
+  names:
+  - value: "Papua New Guinean kina"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PHP
+  - type: unitsml
+    id: cur:PHP
+  names:
+  - value: "Philippine peso"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PKR
+  - type: unitsml
+    id: cur:PKR
+  names:
+  - value: "Pakistan rupee"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PLN
+  - type: unitsml
+    id: cur:PLN
+  names:
+  - value: "Polish zloty"
+    lang: en
+  symbols:
+  - unicode: "zł"
+    ascii: PLN
+    id: PLN
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: PYG
+  - type: unitsml
+    id: cur:PYG
+  names:
+  - value: "Guarani"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: QAR
+  - type: unitsml
+    id: cur:QAR
+  names:
+  - value: "Qatari rial"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: RON
+  - type: unitsml
+    id: cur:RON
+  names:
+  - value: "Romanian leu"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: RSD
+  - type: unitsml
+    id: cur:RSD
+  names:
+  - value: "Serbian dinar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: RUB
+  - type: unitsml
+    id: cur:RUB
+  names:
+  - value: "Russian ruble"
+    lang: en
+  symbols:
+  - unicode: "₽"
+    ascii: RUB
+    id: RUB
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: RWF
+  - type: unitsml
+    id: cur:RWF
+  names:
+  - value: "Rwandan franc"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SAR
+  - type: unitsml
+    id: cur:SAR
+  names:
+  - value: "Saudi riyal"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SBD
+  - type: unitsml
+    id: cur:SBD
+  names:
+  - value: "Solomon Islands dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SCR
+  - type: unitsml
+    id: cur:SCR
+  names:
+  - value: "Seychelles rupee"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SDG
+  - type: unitsml
+    id: cur:SDG
+  names:
+  - value: "Sudanese pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SEK
+  - type: unitsml
+    id: cur:SEK
+  names:
+  - value: "Swedish krona"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SGD
+  - type: unitsml
+    id: cur:SGD
+  names:
+  - value: "Singapore dollar"
+    lang: en
+  symbols:
+  - unicode: "S$"
+    ascii: SGD
+    id: SGD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SHP
+  - type: unitsml
+    id: cur:SHP
+  names:
+  - value: "Saint Helena pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SLE
+  - type: unitsml
+    id: cur:SLE
+  names:
+  - value: "Sierra Leonean leone"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SOS
+  - type: unitsml
+    id: cur:SOS
+  names:
+  - value: "Somali shilling"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SRD
+  - type: unitsml
+    id: cur:SRD
+  names:
+  - value: "Surinamese dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SSP
+  - type: unitsml
+    id: cur:SSP
+  names:
+  - value: "South Sudanese pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: STN
+  - type: unitsml
+    id: cur:STN
+  names:
+  - value: "Sao Tome and Principe dobra"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SVC
+  - type: unitsml
+    id: cur:SVC
+  names:
+  - value: "El Salvador colon"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SYP
+  - type: unitsml
+    id: cur:SYP
+  names:
+  - value: "Syrian pound"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: SZL
+  - type: unitsml
+    id: cur:SZL
+  names:
+  - value: "Lilangeni"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: THB
+  - type: unitsml
+    id: cur:THB
+  names:
+  - value: "Baht"
+    lang: en
+  symbols:
+  - unicode: "฿"
+    ascii: THB
+    id: THB
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TJS
+  - type: unitsml
+    id: cur:TJS
+  names:
+  - value: "Tajikistani somoni"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TMT
+  - type: unitsml
+    id: cur:TMT
+  names:
+  - value: "Turkmenistani new manat"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TND
+  - type: unitsml
+    id: cur:TND
+  names:
+  - value: "Tunisian dinar"
+    lang: en
+  minor_unit_exponent: 3
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TOP
+  - type: unitsml
+    id: cur:TOP
+  names:
+  - value: "Tongan paanga"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TRY
+  - type: unitsml
+    id: cur:TRY
+  names:
+  - value: "Turkish lira"
+    lang: en
+  symbols:
+  - unicode: "₺"
+    ascii: TRY
+    id: TRY
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TTD
+  - type: unitsml
+    id: cur:TTD
+  names:
+  - value: "Trinidad and Tobago dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TWD
+  - type: unitsml
+    id: cur:TWD
+  names:
+  - value: "New Taiwan dollar"
+    lang: en
+  symbols:
+  - unicode: "NT$"
+    ascii: TWD
+    id: TWD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: TZS
+  - type: unitsml
+    id: cur:TZS
+  names:
+  - value: "Tanzanian shilling"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UAH
+  - type: unitsml
+    id: cur:UAH
+  names:
+  - value: "Hryvnia"
+    lang: en
+  symbols:
+  - unicode: "₴"
+    ascii: UAH
+    id: UAH
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UGX
+  - type: unitsml
+    id: cur:UGX
+  names:
+  - value: "Uganda shilling"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: USD
+  - type: unitsml
+    id: cur:USD
+  names:
+  - value: "United States dollar"
+    lang: en
+  symbols:
+  - unicode: "US$"
+    ascii: USD
+    id: USD
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UYU
+  - type: unitsml
+    id: cur:UYU
+  names:
+  - value: "Peso Uruguayo"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UYI
+  - type: unitsml
+    id: cur:UYI
+  names:
+  - value: "Uruguay Peso en Unidades Indexadas (UI)"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UYW
+  - type: unitsml
+    id: cur:UYW
+  names:
+  - value: "Unidad Previsional"
+    lang: en
+  minor_unit_exponent: 4
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: UZS
+  - type: unitsml
+    id: cur:UZS
+  names:
+  - value: "Uzbekistan sum"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: VES
+  - type: unitsml
+    id: cur:VES
+  names:
+  - value: "Bolivar Soberano"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: VND
+  - type: unitsml
+    id: cur:VND
+  names:
+  - value: "Vietnamese dong"
+    lang: en
+  symbols:
+  - unicode: "₫"
+    ascii: VND
+    id: VND
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: VUV
+  - type: unitsml
+    id: cur:VUV
+  names:
+  - value: "Vanuatu vatu"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: WST
+  - type: unitsml
+    id: cur:WST
+  names:
+  - value: "Samoa tala"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: XAF
+  - type: unitsml
+    id: cur:XAF
+  names:
+  - value: "CFA franc BEAC"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: XCD
+  - type: unitsml
+    id: cur:XCD
+  names:
+  - value: "East Caribbean dollar"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: XDR
+  - type: unitsml
+    id: cur:XDR
+  names:
+  - value: "SDR (Special Drawing Right)"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: XOF
+  - type: unitsml
+    id: cur:XOF
+  names:
+  - value: "CFA franc BCEAO"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: XPF
+  - type: unitsml
+    id: cur:XPF
+  names:
+  - value: "CFP franc"
+    lang: en
+  minor_unit_exponent: 0
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: YER
+  - type: unitsml
+    id: cur:YER
+  names:
+  - value: "Yemeni rial"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ZAR
+  - type: unitsml
+    id: cur:ZAR
+  names:
+  - value: "Rand"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ZMW
+  - type: unitsml
+    id: cur:ZMW
+  names:
+  - value: "Zambian kwacha"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ZWL
+  - type: unitsml
+    id: cur:ZWL
+  names:
+  - value: "Zimbabwe gold"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value
+- identifiers:
+  - type: iso4217
+    id: ANG
+  - type: unitsml
+    id: cur:ANG
+  names:
+  - value: "Netherlands Antillean guilder"
+    lang: en
+  minor_unit_exponent: 2
+  status: active
+  unit_system_reference:
+  - type: unitsml
+    id: us:iso-4217
+  quantity_references:
+  - type: unitsml
+    id: q:monetary_value

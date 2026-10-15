@@ -76,3 +76,15 @@ unit_systems:
   - value: non-SI and not acceptable
     lang: en
   short: nonsi-unacceptable
+- acceptable: false
+  identifiers:
+  - type: unitsml
+    id: us:iso-4217
+  names:
+  - value: ISO 4217 currency codes
+    lang: en
+  references:
+  - type: normative
+    authority: iso
+    uri: https://www.iso.org/iso-4217-currency-codes.html
+  short: iso-4217

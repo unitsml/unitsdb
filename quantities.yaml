@@ -3713,3 +3713,14 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/RadialDistance
   short: radial_distance
+- dimension_reference:
+    type: unitsml
+    id: d:currency
+  identifiers:
+  - type: unitsml
+    id: q:monetary_value
+  names:
+  - value: monetary value
+    lang: en
+  quantity_type: base
+  short: monetary_value

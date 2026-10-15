@@ -23,6 +23,7 @@ class SchemaValidator
       "prefixes.yaml" => "prefixes-schema.yaml",
       "unit_systems.yaml" => "unit_systems-schema.yaml",
       "dimensions.yaml" => "dimensions-schema.yaml",
+      "currencies.yaml" => "currencies-schema.yaml",
     }
 
     file_schema_map.each do |yaml_file, schema_file|

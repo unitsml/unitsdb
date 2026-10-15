@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-06/schema
+---
+$schema: "http://json-schema.org/draft-06/schema#"
+$id: "https://unitsml.org/schemas/currencies-schema.yaml"
+title: "Currencies Database Schema"
+description: "Schema for currencies.yaml - ISO 4217 currency codes as first-class entities"
+
+type: object
+required: ["schema_version", "currencies"]
+properties:
+  schema_version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of the schema"
+  currencies:
+    type: array
+    description: "Array of currency definitions"
+    items:
+      $ref: "#/definitions/Currency"
+
+definitions:
+  Currency:
+    type: object
+    required: ["identifiers", "names", "minor_unit_exponent", "status", "unit_system_reference", "quantity_references"]
+    properties:
+      identifiers:
+        type: array
+        description: "External identifiers for this currency (iso4217 + unitsml cur:)"
+        items:
+          $ref: "#/definitions/Identifier"
+      names:
+        type: array
+        description: "Multilingual names for this currency"
+        items:
+          $ref: "#/definitions/Name"
+      symbols:
+        type: array
+        description: "Symbol presentations (e.g. EUR carries the euro sign); the ascii form is always the ISO code"
+        items:
+          $ref: "#/definitions/SymbolPresentation"
+      minor_unit_exponent:
+        type: integer
+        minimum: 0
+        maximum: 4
+        description: "Decimal exponent of the minor unit (2 = cents, 0 = JPY/KRW class, 3 = BHD/KWD class, 4 = CLF class)"
+      status:
+        type: string
+        enum: ["active", "historic"]
+        description: "Whether the code is in the current ISO 4217 active list or withdrawn"
+      unit_system_reference:
+        type: array
+        description: "The ISO 4217 code list"
+        items:
+          $ref: "#/definitions/Reference"
+      quantity_references:
+        type: array
+        description: "The monetary-value quantity this currency denominates"
+        items:
+          $ref: "#/definitions/Reference"
+
+  Identifier:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        enum: ["iso4217", "unitsml"]
+        description: "Type of identifier system"
+      id:
+        type: string
+        description: "Identifier value within the system (unitsml ids are cur:-prefixed)"
+
+  Name:
+    type: object
+    required: ["value", "lang"]
+    properties:
+      value:
+        type: string
+        description: "Name in the specified language"
+      lang:
+        type: string
+        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        description: "Language code (ISO 639-1, optionally with ISO 3166-1 country)"
+
+  SymbolPresentation:
+    type: object
+    required: ["unicode", "ascii", "id"]
+    properties:
+      unicode:
+        type: string
+        description: "Unicode symbol presentation"
+      ascii:
+        type: string
+        description: "ASCII presentation (the ISO code)"
+      id:
+        type: string
+        description: "Stable symbol id"
+
+  Reference:
+    type: object
+    required: ["type", "id"]
+    properties:
+      type:
+        type: string
+        description: "Type of the referenced entity"
+      id:
+        type: string
+        description: "Identifier of the referenced entity"
