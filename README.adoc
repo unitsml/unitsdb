@@ -28,6 +28,13 @@ names. French translations come from BIPM.
 
 `unit_systems.yaml`:: Contains the unit systems and their symbols.
 
+`currencies.yaml`:: Contains the 178 active ISO 4217 codes (List One — national
+currencies, funds units of account, precious-metal codes, bond-market units,
+supranationals, and XXX/XTS) as first-class entities (`cur:` namespace, ISO
+numeric identifiers, minor-unit exponents). Currency is a denomination, not a
+physical unit: every code is its own base sharing the currency dimension — there
+are never cross-currency conversion factors, because exchange rates float.
+
 `quantities.yaml`:: Contains the quantities and their symbols, with English and
 French names. French translations come from BIPM.
 

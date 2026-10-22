@@ -63,6 +63,9 @@ definitions:
       plane_angle:
         $ref: "#/definitions/DimensionComponent"
         description: "Plane angle dimension component"
+      currency:
+        $ref: "#/definitions/DimensionComponent"
+        description: "Currency dimension component (ISO 4217 monetary values)"
       references:
         type: array
         description: "External references and citations"
