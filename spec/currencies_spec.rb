@@ -29,6 +29,17 @@ describe "currencies.yaml" do
     end
   end
 
+  it "carries unique ISO numeric codes in lockstep with the alpha codes" do
+    currencies.each do |c|
+      alpha = c["identifiers"].find { |i| i["type"] == "iso4217" }["id"]
+      numeric = c["identifiers"].find { |i| i["type"] == "iso4217_numeric" }["id"]
+      expect(numeric).to match(/\A\d{3}\z/)
+      expect(alpha).to be_a(String)
+    end
+    numerics = currencies.filter_map { |c| c["identifiers"].find { |i| i["type"] == "iso4217_numeric" }&.dig("id") }
+    expect(numerics.uniq.size).to eq(numerics.size)
+  end
+
   it "declares minor-unit exponents within ISO 4217 range" do
     expect(currencies.map { |c| c["minor_unit_exponent"] }).to all(be_between(0, 4))
   end

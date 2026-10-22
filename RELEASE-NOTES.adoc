@@ -3,8 +3,11 @@
 == Unreleased — iso-4217-currencies branch
 
 The ISO 4217 active currency codes join the database as a first-class
-`currencies.yaml` collection (158 codes, `cur:` namespace, minor-unit
-exponents, `status: active`), with the `d:currency` base dimension, the
+`currencies.yaml` collection (the 178 active codes of ISO 4217 List One —
+national currencies, funds units of account, precious metals, bond-market
+units, supranationals, XXX/XTS — with ISO numeric identifiers, `cur:`
+namespace, minor-unit exponents, `status: active`), with the `d:currency`
+base dimension, the
 `q:monetary_value` base quantity, and the `us:iso-4217` unit system.
 Currency is a denomination, not a physical unit: every code is its own
 base, and no cross-currency conversion factors are ever carried because

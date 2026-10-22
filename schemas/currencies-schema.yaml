@@ -57,6 +57,9 @@ definitions:
         description: "The monetary-value quantity this currency denominates"
         items:
           $ref: "#/definitions/Reference"
+      notes:
+        type: string
+        description: "Provenance note for special codes (metals, funds, test/no-currency)"
 
   Identifier:
     type: object
@@ -64,11 +67,11 @@ definitions:
     properties:
       type:
         type: string
-        enum: ["iso4217", "unitsml"]
+        enum: ["iso4217", "iso4217_numeric", "unitsml"]
         description: "Type of identifier system"
       id:
         type: string
-        description: "Identifier value within the system (unitsml ids are cur:-prefixed)"
+        description: "Identifier value within the system (unitsml ids are cur:-prefixed; iso4217_numeric ids are the three-digit ISO numbers)"
 
   Name:
     type: object
