@@ -190,6 +190,7 @@ class SchemaValidator
         - prefixes.yaml
         - unit_systems.yaml
         - dimensions.yaml
+        - currencies.yaml
 
       Exit codes:
         0 - All files passed validation
