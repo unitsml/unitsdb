@@ -21,7 +21,7 @@ properties:
 definitions:
   Currency:
     type: object
-    required: ["identifiers", "names", "minor_unit_exponent", "status", "unit_system_reference", "quantity_references"]
+    required: ["identifiers", "names", "status", "unit_system_reference", "quantity_references"]
     properties:
       identifiers:
         type: array
@@ -42,7 +42,7 @@ definitions:
         type: integer
         minimum: 0
         maximum: 4
-        description: "Decimal exponent of the minor unit (2 = cents, 0 = JPY/KRW class, 3 = BHD/KWD class, 4 = CLF class)"
+        description: "Decimal exponent of the minor unit (2 = cents, 0 = JPY/KRW class, 3 = BHD/KWD class, 4 = CLF class). Absent = ISO 4217 publishes N.A.: the entry defines no minor unit at all (precious metals XAU/XAG/XPT/XPD, bond-market and unit-of-account codes, XDR/XSU/XUA, test codes) — distinct from 0, which means the minor unit exists and equals the unit itself. Historic (list three) codes carry no exponent either."
       status:
         type: string
         enum: ["active", "historic"]

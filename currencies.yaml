@@ -2947,7 +2947,6 @@ currencies:
   names:
   - value: "Silver (one troy ounce)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -2966,7 +2965,6 @@ currencies:
   names:
   - value: "Gold (one troy ounce)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -2985,7 +2983,6 @@ currencies:
   names:
   - value: "European Composite Unit (EURCO) (bond market unit)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3004,7 +3001,6 @@ currencies:
   names:
   - value: "European Monetary Unit (E.M.U.-6) (bond market unit)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3023,7 +3019,6 @@ currencies:
   names:
   - value: "European Unit of Account 9 (E.U.A.-9) (bond market unit)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3042,7 +3037,6 @@ currencies:
   names:
   - value: "European Unit of Account 17 (E.U.A.-17) (bond market unit)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3097,7 +3091,6 @@ currencies:
   names:
   - value: "Special drawing rights"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3134,7 +3127,6 @@ currencies:
   names:
   - value: "Palladium (one troy ounce)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3171,7 +3163,6 @@ currencies:
   names:
   - value: "Platinum (one troy ounce)"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3190,7 +3181,6 @@ currencies:
   names:
   - value: "SUCRE"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3209,7 +3199,6 @@ currencies:
   names:
   - value: "Code reserved for testing"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3228,7 +3217,6 @@ currencies:
   names:
   - value: "ADB Unit of Account"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
@@ -3247,7 +3235,6 @@ currencies:
   names:
   - value: "No currency"
     lang: en
-  minor_unit_exponent: 0
   status: active
   unit_system_reference:
   - type: unitsml
