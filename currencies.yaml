@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=schemas/currencies-schema.yaml
 ---
-schema_version: 1.1.0
+schema_version: "2.0.0"
 # ISO 4217 active codes (List One) as first-class entities, verified against
 # the ISO 4217 list one (178 codes: national currencies, funds and units of
 # account, precious-metal codes, bond-market units, supranationals, and the
