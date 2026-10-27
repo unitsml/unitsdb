@@ -1,6 +1,4 @@
-# yaml-language-server: $schema=schemas/units-schema.yaml
----
-schema_version: 2.0.0
+schema_version: 2.1.0
 units:
 - identifiers:
   - type: nist
@@ -1911,6 +1909,13 @@ units:
     html: L
     id: L
     mathml: "<mi mathvariant='normal'>L</mi>"
+  canonical_conversion:
+    factor: '0.001'
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu131
@@ -1946,6 +1951,13 @@ units:
     html: M
     id: M
     mathml: "<mi mathvariant='normal'>M</mi>"
+  canonical_conversion:
+    factor: '1852'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu133
@@ -1979,6 +1991,14 @@ units:
     html: "&#176;F"
     id: degF
     mathml: "<mi mathvariant='normal'>&#176;F</mi>"
+  canonical_conversion:
+    factor: 5/9
+    offset: 229835/900
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu5
 - identifiers:
   - type: nist
     id: NISTu134
@@ -2263,8 +2283,7 @@ units:
     ascii: W*m^-2*sr^-1
     html: W/(m^2&#8201;&#183;&#8201;sr)
     id: W*m^-2*sr^-1
-    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
-      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>sr</mi><mo>)</mo></mrow></mrow>"
 - identifiers:
   - type: nist
@@ -5471,8 +5490,7 @@ units:
     ascii: W*m^-2*K^-1
     html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
     id: W*m^-2*K^-1
-    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
-      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
 - identifiers:
   - type: nist
@@ -5794,6 +5812,14 @@ units:
     html: "&#176;C"
     id: degC
     mathml: "<mi mathvariant='normal'>&#176;C</mi>"
+  canonical_conversion:
+    factor: '1'
+    offset: '273.15'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu5
 - identifiers:
   - type: nist
     id: NISTu230
@@ -6213,13 +6239,13 @@ units:
   short: natural_unit_of_velocity
   symbols:
   - latex: "\\ensuremath{\\mathit{c}_{0}}"
-    unicode: "\U0001D450₀"
+    unicode: "𝑐₀"
     ascii: c_0
     html: "<i>c</i><sub>0</sub>"
     id: c_0
     mathml: "<msub><mi mathvariant='italic'>c</mi><mn>0</mn></msub>"
   - latex: "\\ensuremath{\\mathit{c}}"
-    unicode: "\U0001D450"
+    unicode: "𝑐"
     ascii: c
     html: "<i>c</i>"
     id: c
@@ -6271,7 +6297,7 @@ units:
   short: natural_unit_of_mass
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_\\mathrm{e}}"
-    unicode: "\U0001D45Aₑ"
+    unicode: "𝑚ₑ"
     ascii: m_e
     html: "<i>m</i><sub>e</sub>"
     id: m_e
@@ -6297,7 +6323,7 @@ units:
   short: natural_unit_of_time
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/(\\mathit{m}_\\mathrm{e}\\mathit{c}^\\mathrm{2}})"
-    unicode: "ℏ/\U0001D45Aₑ\U0001D450²"
+    unicode: "ℏ/𝑚ₑ𝑐²"
     ascii: h-bar*(m_e*c^2)
     html: "<i>&#295;</i>/<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: h-bar*(m_e*c^2)
@@ -6328,7 +6354,7 @@ units:
   short: atomic_unit_of_charge
   symbols:
   - latex: "\\ensuremath{\\mathit{e}}"
-    unicode: "\U0001D452"
+    unicode: "𝑒"
     ascii: e
     html: "<i>e</i>"
     id: e
@@ -6354,7 +6380,7 @@ units:
   short: atomic_unit_of_mass
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_\\mathrm{e}}"
-    unicode: "\U0001D45Aₑ"
+    unicode: "𝑚ₑ"
     ascii: m_e
     html: "<i>m</i><sub>e</sub>"
     id: m_e_atomic
@@ -6406,7 +6432,7 @@ units:
   short: atomic_unit_of_length
   symbols:
   - latex: "\\ensuremath{\\mathit{a}_\\mathrm{0}}"
-    unicode: "\U0001D44E₀"
+    unicode: "𝑎₀"
     ascii: a_0
     html: "<i>a</i><sub>0</sub>"
     id: a_0
@@ -6475,7 +6501,7 @@ units:
   short: atomic_unit_of_energy
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_\\mathrm{h}}"
-    unicode: "\U0001D438ₕ"
+    unicode: "𝐸ₕ"
     ascii: E_h
     html: "<i>E</i><sub>h</sub>"
     id: E_h
@@ -6501,7 +6527,7 @@ units:
   short: atomic_unit_of_time
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{E}_\\mathrm{h}}"
-    unicode: "ℏ/\U0001D438ₕ"
+    unicode: "ℏ/𝐸ₕ"
     ascii: h-bar/E_h
     html: "<i>&#295;</i>/<i>E</i><sub>h</sub>"
     id: h-bar/E_h
@@ -6528,12 +6554,11 @@ units:
   short: atomic_unit_of_magnetizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^2\\mathit{a}_0^2/\\mathit{m}_\\mathrm{e}}"
-    unicode: "\U0001D452²\U0001D44E₀²/\U0001D45Aₑ"
+    unicode: "𝑒²𝑎₀²/𝑚ₑ"
     ascii: e^2*a_0^2*m_e-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>m</m><sub>e</sub>"
     id: e^2*a_0^2*m_e-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
-      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
 - identifiers:
   - type: nist
@@ -6556,7 +6581,7 @@ units:
   short: atomic_unit_of_magnetic_flux_density
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{e}a_0^2}"
-    unicode: "ℏ/\U0001D452\U0001D44E₀²"
+    unicode: "ℏ/𝑒𝑎₀²"
     ascii: h-bar*(e*a_0^2)-1
     html: "<i>&#295;</i>/<i>e</i><i>a</i><sub>0</sub><sup>2</sup>"
     id: h-bar*(e*a_0^2)-1
@@ -6583,7 +6608,7 @@ units:
   short: atomic_unit_of_magnetic_dipole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar e}/\\mathit{m}_\\mathrm{e}}"
-    unicode: "ℏ\U0001D452/\U0001D45Aₑ"
+    unicode: "ℏ𝑒/𝑚ₑ"
     ascii: h-bar*e*(m_e)-1
     html: "<i>&#295;e</i>/<i>m</i><sub>e</sub>"
     id: h-bar*e*(m_e)-1
@@ -6610,7 +6635,7 @@ units:
   short: atomic_unit_of_momentum
   symbols:
   - latex: "\\ensuremath{\\mathit{\\hbar}/\\mathit{a}_0}"
-    unicode: "ℏ/\U0001D44E₀"
+    unicode: "ℏ/𝑎₀"
     ascii: h-bar*(a_0)-1
     html: "<i>&#295;</i>/<i>a</i><sub>0</sub>"
     id: h-bar*(a_0)-1
@@ -6636,7 +6661,7 @@ units:
   short: atomic_unit_of_charge_density
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^{3}}"
-    unicode: "\U0001D452\U0001D44E₀³"
+    unicode: "𝑒𝑎₀³"
     ascii: e*(a_0^3)
     html: "<i>e</i><i>a</i><sub>0</sub><sup>3</sup>"
     id: e*(a_0^3)
@@ -6662,12 +6687,12 @@ units:
   short: atomic_unit_of_current
   symbols:
   - latex: "\\ensuremath{\\mathit{e}E_{h}/\\mathit{\\hbar}}"
-    unicode: "\U0001D452\U0001D438ₕ/ℏ"
+    unicode: "𝑒𝐸ₕ/ℏ"
     ascii: eE_h*h-bar^-1
     html: "<i>eE</i><sub>h</sub>/&#295;"
     id: eE_h*h-bar^-1
-    mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi
-      mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
+    mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
+      mathvariant='italic'>&#295;</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu258
@@ -6689,7 +6714,7 @@ units:
   short: atomic_unit_of_electric_dipole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0}"
-    unicode: "\U0001D452\U0001D44E₀"
+    unicode: "𝑒𝑎₀"
     ascii: e*a_0
     html: "<i>ea</i><sub>0</sub>"
     id: e*a_0
@@ -6715,7 +6740,7 @@ units:
   short: atomic_unit_of_electric_field
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}\\mathit{a}_0}"
-    unicode: "\U0001D438ₕ/\U0001D452\U0001D44E₀"
+    unicode: "𝐸ₕ/𝑒𝑎₀"
     ascii: E_h*(e*a_0)
     html: "<i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub>"
     id: E_h*(e*a_0)
@@ -6782,7 +6807,7 @@ units:
   short: atomic_unit_of_electric_field_gradient
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}\\mathit{a}_0^2}"
-    unicode: "\U0001D438ₕ/\U0001D452\U0001D44E₀²"
+    unicode: "𝐸ₕ/𝑒𝑎₀²"
     ascii: E_h*(e*a_0^2)
     html: "<i>E</i><sub>h</sub>/<i>ea</i><sub>0</sub><sup>2</sup>"
     id: E_h*(e*a_0^2)
@@ -6813,7 +6838,7 @@ units:
   short: atomic_unit_of_electric_potential
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{\\e}}"
-    unicode: "\U0001D438ₕ/\U0001D452"
+    unicode: "𝐸ₕ/𝑒"
     ascii: E_h*e-1
     html: "<i>E</i><sub>h</sub>/<i>e</i>"
     id: E_h*e-1
@@ -6842,7 +6867,7 @@ units:
   short: atomic_unit_of_force
   symbols:
   - latex: "\\ensuremath{\\mathit{E}_{h}/\\mathit{a}_0}"
-    unicode: "\U0001D438ₕ/\U0001D44E₀"
+    unicode: "𝐸ₕ/𝑎₀"
     ascii: E_h*(a_0)-1
     html: "<i>E</i><sub>h</sub>/<i>a</i><sub>0</sub>"
     id: E_h*(a_0)-1
@@ -6869,7 +6894,7 @@ units:
   short: atomic_unit_of_electric_quadrupole_moment
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^2}"
-    unicode: "\U0001D452\U0001D44E₀²"
+    unicode: "𝑒𝑎₀²"
     ascii: e*a_0^2
     html: "<i>e</i><i>a</i><sub>0</sub><sup>2</sup>"
     id: e*a_0^2
@@ -6895,12 +6920,11 @@ units:
   short: atomic_unit_of_electric_polarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}\\mathit{a}_0^2/\\mathit{E}_h}"
-    unicode: "\U0001D452²\U0001D44E₀²/\U0001D438ₕ"
+    unicode: "𝑒²𝑎₀²/𝐸ₕ"
     ascii: e^2*a_0^2*(E_h)^-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>E</i><sub>h</sub>"
     id: e^2*a_0^2*(E_h)^-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
-      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
 - identifiers:
   - type: nist
@@ -7613,8 +7637,7 @@ units:
     ascii: kg*m^2
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>
     id: kg*m^2
-    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
-      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
+    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
 - identifiers:
   - type: nist
     id: NISTu27p10'3.u1e2/1.u3e-1/1
@@ -7662,8 +7685,7 @@ units:
     ascii: kg*m^2*s^-1
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>/s
     id: kg*m^2*s^-1
-    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
-      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
 - identifiers:
   - type: nist
@@ -8094,6 +8116,13 @@ units:
     html: "&#176;R"
     id: degR
     mathml: "<mi mathvariant='normal'>&#176;R</mi>"
+  canonical_conversion:
+    factor: 5/9
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu5
 - identifiers:
   - type: nist
     id: NISTu289
@@ -8228,12 +8257,11 @@ units:
   short: atomic_unit_of_1st_hyperpolarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^3/\\mathit(a}_0^3\\mathit{E}_h^3}"
-    unicode: "\U0001D452³\U0001D44E₀³\U0001D438ₕ³"
+    unicode: "𝑒³𝑎₀³𝐸ₕ³"
     ascii: e^3a_0^3*(E_h^3)
     html: "<i>e</i><sup>3</sup><i>a</i><sub>0</sub><sup>3</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^3a_0^3*(E_h^3)
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi
-      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
 - identifiers:
   - type: nist
@@ -8256,12 +8284,11 @@ units:
   short: atomic_unit_of_2nd_hyperpolarizability
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^4/\\mathit(a}_0^4\\mathit{E}_h^3}"
-    unicode: "\U0001D452⁴\U0001D44E₀⁴\U0001D438ₕ⁴"
+    unicode: "𝑒⁴𝑎₀⁴𝐸ₕ⁴"
     ascii: e^4a_0^4*(E_h^3)
     html: "<i>e</i><sup>4</sup><i>a</i><sub>0</sub><sup>4</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^4a_0^4*(E_h^3)
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi
-      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
 - identifiers:
   - type: nist
@@ -8284,13 +8311,12 @@ units:
   short: atomic_unit_of_permittivity
   symbols:
   - latex: "\\ensuremath{\\mathit{e}^2/\\mathit(a}_0\\mathit{E}_h}"
-    unicode: "\U0001D452²/\U0001D44E₀\U0001D438ₕ"
+    unicode: "𝑒²/𝑎₀𝐸ₕ"
     ascii: e^2*(a_0*E_h)-1
     html: "<i>e</i><sup>2</sup>/<i>a</i><sub>0</sub><i>E</i><sub>h</sub>"
     id: e^2*(a_0*E_h)-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi
-      mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi
-      mathvariant='normal'>h</mi></msub></mrow>"
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi
+      mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
 - identifiers:
   - type: nist
     id: NISTu294
@@ -8312,13 +8338,12 @@ units:
   short: atomic_unit_of_velocity
   symbols:
   - latex: "\\ensuremath{\\mathit{a}_\\mathrm{0}\\mathit{E}_{h}/\\mathit{\\hbar}}"
-    unicode: "\U0001D44E₀\U0001D438ₕ/ℏ"
+    unicode: "𝑎₀𝐸ₕ/ℏ"
     ascii: a_0*E_h*h-bar-1
     html: "<i>a</i><sub>0</sub><i>E</i><sub>h</sub>/&#295;"
     id: a_0*E_h*h-bar-1
-    mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi
-      mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
-      mathvariant='italic'>&#295;</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi
+      mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu295
@@ -8340,7 +8365,7 @@ units:
   short: natural_unit_of_energy
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}^2}"
-    unicode: "\U0001D45Aₑ\U0001D450²"
+    unicode: "𝑚ₑ𝑐²"
     ascii: m_e*c^2
     html: "<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: m_e*c^2
@@ -8367,12 +8392,11 @@ units:
   short: natural_unit_of_momentum
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}}"
-    unicode: "\U0001D45Aₑ\U0001D450"
+    unicode: "𝑚ₑ𝑐"
     ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c
-    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
-      mathvariant='italic'>c</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu297
@@ -8420,7 +8444,7 @@ units:
   short: natural_unit_of_energy_in_MeV
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}^2}"
-    unicode: "\U0001D45Aₑ\U0001D450²"
+    unicode: "𝑚ₑ𝑐²"
     ascii: m_e*c^2
     html: "<i>m</i><sub>e</sub><i>c</i><sup>2</sup>"
     id: m_e*c^2_MeV
@@ -8447,12 +8471,11 @@ units:
   short: natural_unit_of_momentum_in_MeV_per_c
   symbols:
   - latex: "\\ensuremath{\\mathit{m}_e\\mathit{c}}"
-    unicode: "\U0001D45Aₑ\U0001D450"
+    unicode: "𝑚ₑ𝑐"
     ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c_MeV/C
-    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
-      mathvariant='italic'>c</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu3
@@ -10852,6 +10875,13 @@ units:
     html: "&#8242;"
     id: prime_min
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+  canonical_conversion:
+    factor: '60'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
 - identifiers:
   - type: nist
     id: NISTu360
@@ -11186,6 +11216,13 @@ units:
     html: h
     id: h
     mathml: "<mi mathvariant='normal'>h</mi>"
+  canonical_conversion:
+    factor: '3600'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
 - identifiers:
   - type: nist
     id: NISTu376
@@ -11328,6 +11365,13 @@ units:
     html: d
     id: d
     mathml: "<mi mathvariant='normal'>d</mi>"
+  canonical_conversion:
+    factor: '86400'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
 - identifiers:
   - type: nist
     id: NISTu380
@@ -13210,8 +13254,8 @@ units:
     ascii: kcal_th*s^-1
     html: kcal<sub>th</sub>/s
     id: kcal_th*s^-1
-    mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi
-      mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
+    mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi
+      mathvariant='normal'>s</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu78
@@ -13259,6 +13303,13 @@ units:
     html: "&#8242;"
     id: prime_ft
     mathml: "<mi mathvariant='normal'>&#8242;</mi>"
+  canonical_conversion:
+    factor: '0.3048'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu8
@@ -13306,6 +13357,13 @@ units:
     html: "&#8243;"
     id: dprime_in
     mathml: "<mi mathvariant='normal'>&#8243;</mi>"
+  canonical_conversion:
+    factor: '0.0254'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu83
@@ -13341,6 +13399,13 @@ units:
     html: mi
     id: mi
     mathml: "<mi mathvariant='normal'>mi</mi>"
+  canonical_conversion:
+    factor: '1609.344'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu84
@@ -13376,6 +13441,13 @@ units:
     html: yd
     id: yd
     mathml: "<mi mathvariant='normal'>yd</mi>"
+  canonical_conversion:
+    factor: '0.9144'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
 - identifiers:
   - type: nist
     id: NISTu85
@@ -13734,6 +13806,13 @@ units:
     html: bar
     id: bar
     mathml: "<mi mathvariant='normal'>bar</mi>"
+  canonical_conversion:
+    factor: '100000'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu12
 - identifiers:
   - type: nist
     id: NISTu92

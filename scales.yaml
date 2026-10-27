@@ -1,6 +1,4 @@
-# yaml-language-server: $schema=schemas/scales-schema.yaml
----
-schema_version: 2.0.0
+schema_version: 2.1.0
 scales:
 - identifiers:
   - id: continuous_ratio
@@ -12,8 +10,8 @@ scales:
     lang: en
   short: continuous_ratio
   description:
-  - value: A measurement scale with continuous values and a true zero point, allowing
-      for ratio comparisons
+  - value: A measurement scale with continuous values and a true zero point, allowing for ratio 
+      comparisons
     lang: en
   properties:
     continuous: true
@@ -21,6 +19,13 @@ scales:
     logarithmic: false
     interval: true
     ratio: true
+  operations:
+  - addition
+  - subtraction
+  - scaling
+  - multiplication
+  - division
+  - comparison
 - identifiers:
   - id: continuous_interval
     type: unitsml
@@ -31,8 +36,8 @@ scales:
     lang: en
   short: continuous_interval
   description:
-  - value: A measurement scale with continuous values but an arbitrary zero point,
-      allowing for interval but not ratio comparisons
+  - value: A measurement scale with continuous values but an arbitrary zero point, allowing for 
+      interval but not ratio comparisons
     lang: en
   properties:
     continuous: true
@@ -40,6 +45,10 @@ scales:
     logarithmic: false
     interval: true
     ratio: false
+  operations:
+  - addition
+  - subtraction
+  - comparison
 - identifiers:
   - id: logarithmic_ratio
     type: unitsml
@@ -50,8 +59,8 @@ scales:
     lang: en
   short: logarithmic_ratio
   description:
-  - value: A scale where equal ratios appear as equal intervals, with a zero point
-      representing a reference value
+  - value: A scale where equal ratios appear as equal intervals, with a zero point representing a 
+      reference value
     lang: en
   properties:
     continuous: true
@@ -59,6 +68,9 @@ scales:
     logarithmic: true
     interval: true
     ratio: true
+  operations:
+  - comparison
+  - scaling
 - identifiers:
   - id: logarithmic_field
     type: unitsml
@@ -77,6 +89,8 @@ scales:
     logarithmic: true
     interval: true
     ratio: false
+  operations:
+  - comparison
 - identifiers:
   - id: discrete
     type: unitsml
@@ -95,3 +109,7 @@ scales:
     logarithmic: false
     interval: true
     ratio: true
+  operations:
+  - addition
+  - subtraction
+  - comparison

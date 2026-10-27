@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=schemas/prefixes-schema.yaml
 ---
-schema_version: 2.0.0
+schema_version: 2.1.0
 prefixes:
 - base: 10
   identifiers:

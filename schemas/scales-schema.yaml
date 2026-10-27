@@ -33,6 +33,12 @@ definitions:
         description: "Multilingual names for this scale"
         items:
           $ref: "#/definitions/Name"
+      operations:
+        type: array
+        description: "Arithmetic and comparison operations this scale permits, per ISO 80000-1/VIM scale semantics. Absence means the operation is not defined on the scale."
+        items:
+          type: string
+          enum: ["addition", "subtraction", "scaling", "multiplication", "division", "comparison"]
       properties:
         $ref: "#/definitions/ScaleProperties"
         description: "Mathematical properties of the scale"

@@ -33,6 +33,24 @@ definitions:
         description: "Multilingual names for this unit"
         items:
           $ref: "#/definitions/Name"
+      canonical_conversion:
+        type: object
+        description: "Affine conversion to the canonical (SI-referenced) target: value_target = value * factor + offset. factor and offset are exact decimal or rational strings (e.g. \"5/9\"). Present only where the conversion is not derivable from si_derived_bases or prefix composition."
+        required: ["factor", "root_units"]
+        properties:
+          factor:
+            type: string
+            description: "Multiplicative factor, exact decimal or rational string"
+            pattern: "^-?\\d+(?:/\\d+)?(?:\\.\\d+)?$"
+          offset:
+            type: string
+            description: "Additive offset in target units, exact decimal or rational string"
+            pattern: "^-?\\d+(?:/\\d+)?(?:\\.\\d+)?$"
+          root_units:
+            type: array
+            description: "The canonical target unit composition"
+            items:
+              $ref: "#/definitions/RootUnit"
       scale_reference:
         $ref: "#/definitions/ScaleReference"
         description: "Reference to the measurement scale"
