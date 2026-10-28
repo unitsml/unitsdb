@@ -2283,7 +2283,8 @@ units:
     ascii: W*m^-2*sr^-1
     html: W/(m^2&#8201;&#183;&#8201;sr)
     id: W*m^-2*sr^-1
-    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
+      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>sr</mi><mo>)</mo></mrow></mrow>"
 - identifiers:
   - type: nist
@@ -5490,7 +5491,8 @@ units:
     ascii: W*m^-2*K^-1
     html: W/(m&nbsp;<sup>2</sup>&#8201;&#183;&#8201;K)
     id: W*m^-2*K^-1
-    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>W</mi><mo>/</mo><mrow><mo>(</mo><msup><mrow><mi
+      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#183;</mo><mi
       mathvariant='normal'>K</mi><mo>)</mo></mrow></mrow>"
 - identifiers:
   - type: nist
@@ -6558,7 +6560,8 @@ units:
     ascii: e^2*a_0^2*m_e-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>m</m><sub>e</sub>"
     id: e^2*a_0^2*m_e-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
+      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub></mrow>"
 - identifiers:
   - type: nist
@@ -6691,8 +6694,8 @@ units:
     ascii: eE_h*h-bar^-1
     html: "<i>eE</i><sub>h</sub>/&#295;"
     id: eE_h*h-bar^-1
-    mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
-      mathvariant='italic'>&#295;</mi></mrow>"
+    mathml: "<mrow><mi mathvariant='italic'>e</mi><msub><mi mathvariant='italic'>E</mi><mi
+      mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu258
@@ -6924,7 +6927,8 @@ units:
     ascii: e^2*a_0^2*(E_h)^-1
     html: "<i>e</i><sup>2</sup><i>a</i><sub>0</sub><sup>2</sup>/<i>E</i><sub>h</sub>"
     id: e^2*a_0^2*(E_h)^-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><msup><msub><mi
+      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>2</mn></msup><mo>/</mo><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
 - identifiers:
   - type: nist
@@ -7133,6 +7137,13 @@ units:
     html: g
     id: g
     mathml: "<mi mathvariant='normal'>g</mi>"
+  canonical_conversion:
+    factor: 1/1000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu2
 - identifiers:
   - type: nist
     id: NISTu270
@@ -7637,7 +7648,8 @@ units:
     ascii: kg*m^2
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>
     id: kg*m^2
-    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
+    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
+      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>"
 - identifiers:
   - type: nist
     id: NISTu27p10'3.u1e2/1.u3e-1/1
@@ -7685,7 +7697,8 @@ units:
     ascii: kg*m^2*s^-1
     html: kg&#8201;&#183;&#8201;m<sup>2</sup>/s
     id: kg*m^2*s^-1
-    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
+    mathml: "<mrow><mi mathvariant='normal'>kg</mi><mo>&#183;</mo><msup><mrow><mi
+      mathvariant='normal'>m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi
       mathvariant='normal'>s</mi></mrow>"
 - identifiers:
   - type: nist
@@ -8261,7 +8274,8 @@ units:
     ascii: e^3a_0^3*(E_h^3)
     html: "<i>e</i><sup>3</sup><i>a</i><sub>0</sub><sup>3</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^3a_0^3*(E_h^3)
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>3</mn></msup><msup><msub><mi
+      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>3</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
 - identifiers:
   - type: nist
@@ -8288,7 +8302,8 @@ units:
     ascii: e^4a_0^4*(E_h^3)
     html: "<i>e</i><sup>4</sup><i>a</i><sub>0</sub><sup>4</sup><i>E</i><sub>h</sub><sup>3</sup>"
     id: e^4a_0^4*(E_h^3)
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>4</mn></msup><msup><msub><mi
+      mathvariant='italic'>a</mi><mn>0</mn></msub><mn>4</mn></msup><msup><msub><mi
       mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mn>3</mn></msup></mrow>"
 - identifiers:
   - type: nist
@@ -8315,8 +8330,9 @@ units:
     ascii: e^2*(a_0*E_h)-1
     html: "<i>e</i><sup>2</sup>/<i>a</i><sub>0</sub><i>E</i><sub>h</sub>"
     id: e^2*(a_0*E_h)-1
-    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi
-      mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub></mrow>"
+    mathml: "<mrow><msup><mi mathvariant='italic'>e</mi><mn>2</mn></msup><mo>/</mo><msub><mi
+      mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi
+      mathvariant='normal'>h</mi></msub></mrow>"
 - identifiers:
   - type: nist
     id: NISTu294
@@ -8342,8 +8358,9 @@ units:
     ascii: a_0*E_h*h-bar-1
     html: "<i>a</i><sub>0</sub><i>E</i><sub>h</sub>/&#295;"
     id: a_0*E_h*h-bar-1
-    mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi mathvariant='italic'>E</mi><mi
-      mathvariant='normal'>h</mi></msub><mo>/</mo><mi mathvariant='italic'>&#295;</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>a</mi><mn>0</mn></msub><msub><mi
+      mathvariant='italic'>E</mi><mi mathvariant='normal'>h</mi></msub><mo>/</mo><mi
+      mathvariant='italic'>&#295;</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu295
@@ -8396,7 +8413,8 @@ units:
     ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c
-    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
+      mathvariant='italic'>c</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu297
@@ -8475,7 +8493,8 @@ units:
     ascii: m_e*c
     html: "<i>m</i><sub>e</sub><i>c</i>"
     id: m_e*c_MeV/C
-    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi mathvariant='italic'>c</mi></mrow>"
+    mathml: "<mrow><msub><mi mathvariant='italic'>m</mi><mi mathvariant='normal'>e</mi></msub><mi
+      mathvariant='italic'>c</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu3
@@ -13254,8 +13273,8 @@ units:
     ascii: kcal_th*s^-1
     html: kcal<sub>th</sub>/s
     id: kcal_th*s^-1
-    mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi
-      mathvariant='normal'>s</mi></mrow>"
+    mathml: "<mrow><msub><mrow><mi mathvariant='normal'>kcal</mi></mrow><mrow><mi
+      mathvariant='normal'>th</mi></mrow></msub><mo>/</mo><mi mathvariant='normal'>s</mi></mrow>"
 - identifiers:
   - type: nist
     id: NISTu78
