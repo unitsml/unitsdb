@@ -44,6 +44,9 @@ definitions:
       short:
         type: string
         description: "Short identifier for the quantity"
+      equivalence_class:
+        type: string
+        description: "L1 equivalence class: quantities in the same class are interchangeable for addition/subtraction arithmetic (work, energy and heat share the energy class). Absent means identity-only gating."
       references:
         type: array
         description: "External references and citations"
