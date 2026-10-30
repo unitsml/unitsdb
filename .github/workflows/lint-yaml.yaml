@@ -36,7 +36,7 @@ jobs:
 
       - name: Validate data against JSON schemas
         run: |
-          ruby validate_schemas.rb
+          bundle exec ruby validate_schemas.rb
 
       - name: Comment on Normalization Issues
         if: failure() && steps.check_yaml.outputs.issues_found == 'true'
