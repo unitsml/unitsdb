@@ -13,7 +13,12 @@ units:
   - value: mètre
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq1
@@ -78,7 +83,7 @@ units:
   - value: meter per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -131,7 +136,7 @@ units:
   - value: meter per second squared
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -182,7 +187,7 @@ units:
   - value: stéradian
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -457,7 +462,7 @@ units:
   - value: newton
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -524,7 +529,7 @@ units:
   - value: newton meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -579,7 +584,7 @@ units:
   - value: newton meter second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -638,7 +643,7 @@ units:
   - value: newton per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -688,7 +693,7 @@ units:
   - value: newton meter squared per kilogram squared
     lang: en
   canonical_conversion:
-    factor: 1000000000
+    factor: '1000000000'
     root_units:
     - power: 1
       unit_reference:
@@ -750,7 +755,7 @@ units:
   - value: newton second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -950,7 +955,7 @@ units:
   - value: stere
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 3
       unit_reference:
@@ -1157,7 +1162,7 @@ units:
   - value: pascal
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -1237,7 +1242,7 @@ units:
   - value: pascal second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -1287,7 +1292,7 @@ units:
   - value: pascal per kelvin
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -1738,7 +1743,7 @@ units:
   - value: pascal to the power minus one
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -1781,7 +1786,7 @@ units:
   - value: joule
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -1863,7 +1868,7 @@ units:
   - value: joule per cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -1913,7 +1918,7 @@ units:
   - value: joule per kilogram
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -1966,7 +1971,7 @@ units:
   - value: joule per kilogram kelvin
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -2031,7 +2036,7 @@ units:
   - value: joule second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2081,7 +2086,7 @@ units:
   - value: joule per kelvin
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2134,7 +2139,7 @@ units:
   - value: joule per mole
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2184,7 +2189,7 @@ units:
   - value: joule per mole kelvin
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -2441,7 +2446,7 @@ units:
   - value: watt
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -2511,7 +2516,7 @@ units:
   - value: watt per steradian
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2561,7 +2566,7 @@ units:
   - value: watt per meter kelvin
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -2604,7 +2609,7 @@ units:
   - value: watt per square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2657,7 +2662,7 @@ units:
   - value: watt per square meter steradian
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -2717,7 +2722,7 @@ units:
   - value: watt second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -3006,7 +3011,7 @@ units:
   - value: coulomb
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -3065,7 +3070,7 @@ units:
   - value: coulomb per square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -3118,7 +3123,7 @@ units:
   - value: coulomb per cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -3168,7 +3173,7 @@ units:
   - value: coulomb per kilogram
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -3500,7 +3505,7 @@ units:
   - value: volt
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -3580,7 +3585,7 @@ units:
   - value: volt per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -3989,7 +3994,7 @@ units:
   - value: farad
     lang: fr
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: -2
       unit_reference:
@@ -4064,7 +4069,7 @@ units:
   - value: farad per meter
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -4438,7 +4443,7 @@ units:
   - value: ohm
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -4646,7 +4651,7 @@ units:
   - value: meter to the power four
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 4
       unit_reference:
@@ -4691,7 +4696,7 @@ units:
   - value: kilogram per liter
     lang: en
   canonical_conversion:
-    factor: 1000
+    factor: '1000'
     root_units:
     - power: 1
       unit_reference:
@@ -4785,7 +4790,7 @@ units:
   - value: siemens
     lang: fr
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: -2
       unit_reference:
@@ -4903,7 +4908,7 @@ units:
   - value: reciprocal meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -4954,7 +4959,7 @@ units:
   - value: reciprocal square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -2
       unit_reference:
@@ -4994,7 +4999,7 @@ units:
   - value: reciprocal square meter per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -2
       unit_reference:
@@ -5041,7 +5046,7 @@ units:
   - value: square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -5083,7 +5088,7 @@ units:
   - value: meter squared per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -5134,7 +5139,7 @@ units:
   - value: cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 3
       unit_reference:
@@ -5179,7 +5184,7 @@ units:
   - value: cubic meter per kilogram
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 3
       unit_reference:
@@ -5229,7 +5234,7 @@ units:
   - value: cubic meter per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 3
       unit_reference:
@@ -5283,7 +5288,7 @@ units:
     lang: fr
   prefixed: true
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -5333,7 +5338,7 @@ units:
   - value: weber
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -5770,7 +5775,7 @@ units:
   - value: tesla
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -6172,7 +6177,7 @@ units:
   - value: henry
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -6247,7 +6252,7 @@ units:
   - value: henry per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -6297,7 +6302,7 @@ units:
   - value: watt per square meter kelvin
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -7295,7 +7300,7 @@ units:
   - value: becquerel
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -8314,7 +8319,7 @@ units:
   - value: kilogram meter per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8372,7 +8377,7 @@ units:
   - value: kilogram per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8425,7 +8430,7 @@ units:
   - value: kilogram per square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8478,7 +8483,7 @@ units:
   - value: kilogram per cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8530,7 +8535,7 @@ units:
   - value: kilogram meter squared
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8584,7 +8589,7 @@ units:
   - value: kilogram meter squared per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8648,7 +8653,7 @@ units:
   - value: kilogram per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -8703,7 +8708,7 @@ units:
   - value: gray
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -2
       unit_reference:
@@ -8764,7 +8769,7 @@ units:
   - value: gray per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -9162,7 +9167,7 @@ units:
   - value: sievert
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -9492,7 +9497,12 @@ units:
   - value: seconde
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq109
@@ -9549,7 +9559,7 @@ units:
   - value: katal
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -9605,7 +9615,7 @@ units:
   - value: katal per cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -9993,7 +10003,7 @@ units:
   - value: hertz
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -10398,7 +10408,7 @@ units:
   - value: lumen
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -10817,7 +10827,7 @@ units:
   - value: lux
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -2
       unit_reference:
@@ -12080,7 +12090,7 @@ units:
     lang: en
   prefixed: true
   canonical_conversion:
-    factor: 100
+    factor: '100'
     root_units:
     - power: 1
       unit_reference:
@@ -12266,7 +12276,7 @@ units:
   - value: mole per liter
     lang: en
   canonical_conversion:
-    factor: 1000
+    factor: '1000'
     root_units:
     - power: 1
       unit_reference:
@@ -12516,7 +12526,7 @@ units:
   - value: kilometer per liter
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -12858,7 +12868,7 @@ units:
   - value: second to the power minus one
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -12905,7 +12915,12 @@ units:
   - value: ampère
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq4
@@ -12943,7 +12958,7 @@ units:
   - value: ampere per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -12989,7 +13004,7 @@ units:
   - value: ampere per square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -13068,7 +13083,7 @@ units:
   - value: var
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -13426,7 +13441,12 @@ units:
   - value: kelvin
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq193
@@ -13602,7 +13622,7 @@ units:
   - value: ampere hour
     lang: en
   canonical_conversion:
-    factor: 3600
+    factor: '3600'
     root_units:
     - power: 1
       unit_reference:
@@ -13767,7 +13787,7 @@ units:
   - value: kelvin to the power minus one
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: -1
       unit_reference:
@@ -13812,7 +13832,12 @@ units:
   - value: mole
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu6
   quantity_references:
   - type: nist
     id: NISTq6
@@ -13850,7 +13875,7 @@ units:
   - value: mole per cubic meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -13896,7 +13921,7 @@ units:
   - value: mole per kilogram
     lang: en
   canonical_conversion:
-    factor: 1000000
+    factor: '1000000'
     root_units:
     - power: 1
       unit_reference:
@@ -14166,7 +14191,7 @@ units:
     lang: en
   prefixed: true
   canonical_conversion:
-    factor: 3600000
+    factor: '3600000'
     root_units:
     - power: 1
       unit_reference:
@@ -14230,7 +14255,7 @@ units:
   - value: watt hour
     lang: en
   canonical_conversion:
-    factor: 3600
+    factor: '3600'
     root_units:
     - power: 1
       unit_reference:
@@ -14293,7 +14318,12 @@ units:
   - value: candela
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu7
   quantity_references:
   - type: nist
     id: NISTq7
@@ -14331,7 +14361,7 @@ units:
   - value: candela per square meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -14920,7 +14950,7 @@ units:
   - value: radian
     lang: fr
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 2
       unit_reference:
@@ -14979,7 +15009,7 @@ units:
   - value: radian per meter
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -15029,7 +15059,7 @@ units:
   - value: radian per second
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
@@ -15082,7 +15112,7 @@ units:
   - value: radian per second squared
     lang: en
   canonical_conversion:
-    factor: 1
+    factor: '1'
     root_units:
     - power: 1
       unit_reference:
