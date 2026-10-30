@@ -144,6 +144,9 @@ definitions:
       id:
         type: string
         description: "Quantity identifier"
+      primary:
+        type: boolean
+        description: "True for the primary quantity of this unit (SI-definition-derived where the unit has an SI special name; otherwise the explicitly curated default). Consumers select this reference instead of positional order."
 
   RootUnit:
     type: object

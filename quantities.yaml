@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=schemas/quantities-schema.yaml
 ---
-schema_version: 2.1.0
+schema_version: "2.2.0"
 quantities:
 - dimension_reference:
     type: nist
@@ -1337,6 +1337,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/Energy
   short: energy
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd4
@@ -1497,6 +1498,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/Work
   short: work
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd71
@@ -1548,6 +1550,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/KineticEnergy
   short: kinetic_energy
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd15
@@ -1565,6 +1568,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/MechanicalEnergy
   short: mechanical_energy
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd15
@@ -1686,6 +1690,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/Heat
   short: amount_of_heat
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd96
@@ -3280,6 +3285,7 @@ quantities:
     authority: qudt
     uri: http://qudt.org/vocab/quantitykind/PotentialEnergy
   short: potential_energy
+  equivalence_class: energy
 - dimension_reference:
     type: nist
     id: NISTd38

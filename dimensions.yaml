@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=schemas/dimensions-schema.yaml
 ---
-schema_version: 2.1.0
+schema_version: "2.2.0"
 dimensions:
 - identifiers:
   - type: nist
