@@ -12,6 +12,8 @@ units:
     lang: en
   - value: mètre
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq1
@@ -75,6 +77,17 @@ units:
   names:
   - value: meter per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq107
@@ -117,6 +130,17 @@ units:
   names:
   - value: meter per second squared
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq108
@@ -157,6 +181,17 @@ units:
     lang: en
   - value: stéradian
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq11
@@ -269,6 +304,17 @@ units:
   names:
   - value: foot per minute
     lang: en
+  canonical_conversion:
+    factor: 127/25000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu36
   quantity_references:
   - type: nist
     id: NISTq12
@@ -308,6 +354,17 @@ units:
   names:
   - value: foot per second
     lang: en
+  canonical_conversion:
+    factor: 381/1250
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq12
@@ -347,6 +404,17 @@ units:
   names:
   - value: inch per second
     lang: en
+  canonical_conversion:
+    factor: 127/5000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu8
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq12
@@ -388,6 +456,21 @@ units:
     lang: en
   - value: newton
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq13
@@ -440,6 +523,17 @@ units:
   names:
   - value: newton meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq184
@@ -484,6 +578,21 @@ units:
   names:
   - value: newton meter second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq133
@@ -528,6 +637,17 @@ units:
   names:
   - value: newton per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq61
@@ -567,6 +687,21 @@ units:
   names:
   - value: newton meter squared per kilogram squared
     lang: en
+  canonical_conversion:
+    factor: 1000000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq130
@@ -614,6 +749,17 @@ units:
   names:
   - value: newton second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq129
@@ -653,6 +799,17 @@ units:
   names:
   - value: mile per hour
     lang: en
+  canonical_conversion:
+    factor: 1397/3125
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu83
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu37
   quantity_references:
   - type: nist
     id: NISTq12
@@ -692,6 +849,17 @@ units:
   names:
   - value: mile per minute
     lang: en
+  canonical_conversion:
+    factor: 16764/625
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu83
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu36
   quantity_references:
   - type: nist
     id: NISTq12
@@ -731,6 +899,17 @@ units:
   names:
   - value: mile per second
     lang: en
+  canonical_conversion:
+    factor: 201168/125
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu83
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq12
@@ -770,6 +949,13 @@ units:
   names:
   - value: stere
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq10
@@ -808,6 +994,13 @@ units:
   names:
   - value: gamma
     lang: en
+  canonical_conversion:
+    factor: 1/1000000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu21
   quantity_references:
   - type: nist
     id: NISTq14
@@ -963,6 +1156,21 @@ units:
     lang: en
   - value: pascal
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq134
@@ -1028,6 +1236,17 @@ units:
   names:
   - value: pascal second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu12
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq59
@@ -1067,6 +1286,17 @@ units:
   names:
   - value: pascal per kelvin
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu12
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq159
@@ -1178,6 +1408,13 @@ units:
   names:
   - value: micron
     lang: en
+  canonical_conversion:
+    factor: 1/1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq1
@@ -1219,6 +1456,13 @@ units:
     lang: en
   - value: thou
     lang: en
+  canonical_conversion:
+    factor: 127/5000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq1
@@ -1493,6 +1737,13 @@ units:
   names:
   - value: pascal to the power minus one
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu12
   quantity_references:
   - type: nist
     id: NISTq139
@@ -1529,6 +1780,21 @@ units:
     lang: en
   - value: joule
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq152
@@ -1596,6 +1862,17 @@ units:
   names:
   - value: joule per cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq67
@@ -1635,6 +1912,17 @@ units:
   names:
   - value: joule per kilogram
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq65
@@ -1677,6 +1965,21 @@ units:
   names:
   - value: joule per kilogram kelvin
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq64
@@ -1727,6 +2030,17 @@ units:
   names:
   - value: joule second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq154
@@ -1766,6 +2080,17 @@ units:
   names:
   - value: joule per kelvin
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq63
@@ -1808,6 +2133,17 @@ units:
   names:
   - value: joule per mole
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu13
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu6
   quantity_references:
   - type: nist
     id: NISTq73
@@ -1847,6 +2183,13 @@ units:
   names:
   - value: joule per mole kelvin
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq74
@@ -2097,6 +2440,21 @@ units:
     lang: en
   - value: watt
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq20
@@ -2152,6 +2510,17 @@ units:
   names:
   - value: watt per steradian
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu10
   quantity_references:
   - type: nist
     id: NISTq88
@@ -2191,6 +2560,13 @@ units:
   names:
   - value: watt per meter kelvin
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq66
@@ -2227,6 +2603,17 @@ units:
   names:
   - value: watt per square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq62
@@ -2269,6 +2656,21 @@ units:
   names:
   - value: watt per square meter steradian
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu10
   quantity_references:
   - type: nist
     id: NISTq89
@@ -2314,6 +2716,17 @@ units:
   names:
   - value: watt second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq17
@@ -2592,6 +3005,17 @@ units:
     lang: en
   - value: coulomb
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu2
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq22
@@ -2640,6 +3064,17 @@ units:
   names:
   - value: coulomb per square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu15
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq81
@@ -2682,6 +3117,17 @@ units:
   names:
   - value: coulomb per cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu15
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq69
@@ -2721,6 +3167,17 @@ units:
   names:
   - value: coulomb per kilogram
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu15
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq197
@@ -3042,6 +3499,25 @@ units:
     lang: en
   - value: volt
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq24
@@ -3103,6 +3579,17 @@ units:
   names:
   - value: volt per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu16
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq68
@@ -3142,6 +3629,17 @@ units:
   names:
   - value: kilometer per hour
     lang: en
+  canonical_conversion:
+    factor: 5/18
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu37
   quantity_references:
   - type: nist
     id: NISTq107
@@ -3226,6 +3724,13 @@ units:
   names:
   - value: square yard
     lang: en
+  canonical_conversion:
+    factor: 1306449/1562500
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu84
   quantity_references:
   - type: nist
     id: NISTq8
@@ -3264,6 +3769,13 @@ units:
   names:
   - value: square mile
     lang: en
+  canonical_conversion:
+    factor: 40468564224/15625
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu83
   quantity_references:
   - type: nist
     id: NISTq8
@@ -3334,6 +3846,17 @@ units:
   names:
   - value: foot per second squared
     lang: en
+  canonical_conversion:
+    factor: 381/1250
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq49
@@ -3373,6 +3896,13 @@ units:
   names:
   - value: cubic inch
     lang: en
+  canonical_conversion:
+    factor: 2048383/125000000000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq10
@@ -3411,6 +3941,13 @@ units:
   names:
   - value: cubic foot
     lang: en
+  canonical_conversion:
+    factor: 55306341/1953125000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu78
   quantity_references:
   - type: nist
     id: NISTq10
@@ -3451,6 +3988,25 @@ units:
     lang: en
   - value: farad
     lang: fr
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: 4
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq27
@@ -3507,6 +4063,17 @@ units:
   names:
   - value: farad per meter
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu17
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq71
@@ -3546,6 +4113,13 @@ units:
   names:
   - value: cubic yard
     lang: en
+  canonical_conversion:
+    factor: 1493271207/1953125000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu84
   quantity_references:
   - type: nist
     id: NISTq10
@@ -3863,6 +4437,25 @@ units:
     lang: en
   - value: ohm
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: 4
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq28
@@ -4052,6 +4645,13 @@ units:
   names:
   - value: meter to the power four
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 4
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq144
@@ -4090,6 +4690,17 @@ units:
   names:
   - value: kilogram per liter
     lang: en
+  canonical_conversion:
+    factor: 1000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu130
   quantity_references:
   - type: nist
     id: NISTq51
@@ -4173,6 +4784,25 @@ units:
     lang: en
   - value: siemens
     lang: fr
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq29
@@ -4272,6 +4902,13 @@ units:
     lang: en
   - value: reciprocal meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq106
@@ -4316,6 +4953,13 @@ units:
     lang: en
   - value: reciprocal square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq190
@@ -4349,6 +4993,17 @@ units:
     lang: en
   - value: reciprocal square meter per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq191
@@ -4385,6 +5040,13 @@ units:
   names:
   - value: square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq8
@@ -4420,6 +5082,17 @@ units:
   names:
   - value: meter squared per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq85
@@ -4460,6 +5133,13 @@ units:
   names:
   - value: cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq10
@@ -4498,6 +5178,17 @@ units:
   names:
   - value: cubic meter per kilogram
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq52
@@ -4537,6 +5228,17 @@ units:
   names:
   - value: cubic meter per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq151
@@ -4580,6 +5282,13 @@ units:
   - value: kilogramme
     lang: fr
   prefixed: true
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq2
@@ -4623,6 +5332,25 @@ units:
     lang: en
   - value: weber
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq30
@@ -4955,6 +5683,13 @@ units:
   names:
   - value: inch to the fourth power
     lang: en
+  canonical_conversion:
+    factor: 260144641/625000000000000
+    root_units:
+    - power: 4
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq155
@@ -4990,6 +5725,13 @@ units:
   names:
   - value: inch cubed
     lang: en
+  canonical_conversion:
+    factor: 2048383/125000000000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq146
@@ -5027,6 +5769,21 @@ units:
     lang: en
   - value: tesla
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq14
@@ -5079,6 +5836,17 @@ units:
   names:
   - value: foot squared per second
     lang: en
+  canonical_conversion:
+    factor: 145161/1562500
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq85
@@ -5403,6 +6171,25 @@ units:
     lang: en
   - value: henry
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu4
   quantity_references:
   - type: nist
     id: NISTq32
@@ -5459,6 +6246,17 @@ units:
   names:
   - value: henry per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu22
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq72
@@ -5498,6 +6296,13 @@ units:
   names:
   - value: watt per square meter kelvin
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq180
@@ -6489,6 +7294,13 @@ units:
     lang: en
   - value: becquerel
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq35
@@ -6797,6 +7609,13 @@ units:
   names:
   - value: fermi
     lang: en
+  canonical_conversion:
+    factor: 1/1000000000000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq1
@@ -7494,6 +8313,21 @@ units:
   names:
   - value: kilogram meter per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq131
@@ -7537,6 +8371,17 @@ units:
   names:
   - value: kilogram per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq126
@@ -7579,6 +8424,17 @@ units:
   names:
   - value: kilogram per square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq31
@@ -7621,6 +8477,17 @@ units:
   names:
   - value: kilogram per cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq33
@@ -7662,6 +8529,17 @@ units:
   names:
   - value: kilogram meter squared
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq127
@@ -7705,6 +8583,21 @@ units:
   names:
   - value: kilogram meter squared per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq132
@@ -7754,6 +8647,17 @@ units:
   names:
   - value: kilogram per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq150
@@ -7798,6 +8702,17 @@ units:
     lang: en
   - value: gray
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu7
   quantity_references:
   - type: nist
     id: NISTq36
@@ -7848,6 +8763,17 @@ units:
   names:
   - value: gray per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu28
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq194
@@ -8235,6 +9161,17 @@ units:
     lang: en
   - value: sievert
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq39
@@ -8554,6 +9491,8 @@ units:
     lang: en
   - value: seconde
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq109
@@ -8609,6 +9548,17 @@ units:
     lang: en
   - value: katal
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu6
   quantity_references:
   - type: nist
     id: NISTq44
@@ -8654,6 +9604,17 @@ units:
   names:
   - value: katal per cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu30
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq84
@@ -9031,6 +9992,13 @@ units:
     lang: en
   - value: hertz
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq45
@@ -9429,6 +10397,13 @@ units:
     lang: en
   - value: lumen
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu7
   quantity_references:
   - type: nist
     id: NISTq46
@@ -9841,6 +10816,17 @@ units:
     lang: en
   - value: lux
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu7
   quantity_references:
   - type: nist
     id: NISTq47
@@ -10836,6 +11822,17 @@ units:
   names:
   - value: cubic foot per minute
     lang: en
+  canonical_conversion:
+    factor: 18435447/39062500000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu36
   quantity_references:
   - type: nist
     id: NISTq151
@@ -10876,6 +11873,17 @@ units:
   names:
   - value: cubic foot per second
     lang: en
+  canonical_conversion:
+    factor: 55306341/1953125000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu78
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq151
@@ -10973,6 +11981,17 @@ units:
   names:
   - value: cubic inch per minute
     lang: en
+  canonical_conversion:
+    factor: 2048383/7500000000000
+    root_units:
+    - power: 3
+      unit_reference:
+        type: nist
+        id: NISTu8
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu36
   quantity_references:
   - type: nist
     id: NISTq151
@@ -11014,6 +12033,13 @@ units:
   - value: microinch
     lang: en
   prefixed: true
+  canonical_conversion:
+    factor: 127/5000000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq1
@@ -11053,6 +12079,13 @@ units:
   - value: millibar
     lang: en
   prefixed: true
+  canonical_conversion:
+    factor: 100
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu91
   quantity_references:
   - type: nist
     id: NISTq15
@@ -11181,6 +12214,13 @@ units:
   - value: milliliter
     lang: en
   prefixed: true
+  canonical_conversion:
+    factor: 1/1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu130
   quantity_references:
   - type: nist
     id: NISTq10
@@ -11225,6 +12265,17 @@ units:
   names:
   - value: mole per liter
     lang: en
+  canonical_conversion:
+    factor: 1000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu6
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu130
   quantity_references:
   - type: nist
     id: NISTq55
@@ -11464,6 +12515,17 @@ units:
   names:
   - value: kilometer per liter
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu130
   quantity_references:
   - type: nist
     id: NISTq198
@@ -11795,6 +12857,13 @@ units:
   names:
   - value: second to the power minus one
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq112
@@ -11835,6 +12904,8 @@ units:
     lang: en
   - value: ampère
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq4
@@ -11871,6 +12942,17 @@ units:
   names:
   - value: ampere per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu4
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq54
@@ -11906,6 +12988,17 @@ units:
   names:
   - value: ampere per square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu4
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq53
@@ -11974,6 +13067,21 @@ units:
   names:
   - value: var
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu27
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq187
@@ -12128,6 +13236,13 @@ units:
   names:
   - value: square foot
     lang: en
+  canonical_conversion:
+    factor: 145161/1562500
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu78
   quantity_references:
   - type: nist
     id: NISTq8
@@ -12166,6 +13281,13 @@ units:
   names:
   - value: square inch
     lang: en
+  canonical_conversion:
+    factor: 16129/25000000
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu8
   quantity_references:
   - type: nist
     id: NISTq8
@@ -12303,6 +13425,8 @@ units:
     lang: en
   - value: kelvin
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq193
@@ -12477,6 +13601,17 @@ units:
   names:
   - value: ampere hour
     lang: en
+  canonical_conversion:
+    factor: 3600
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu4
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu37
   quantity_references:
   - type: nist
     id: NISTq22
@@ -12631,6 +13766,13 @@ units:
   names:
   - value: kelvin to the power minus one
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu5
   quantity_references:
   - type: nist
     id: NISTq156
@@ -12669,6 +13811,8 @@ units:
     lang: en
   - value: mole
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq6
@@ -12705,6 +13849,17 @@ units:
   names:
   - value: mole per cubic meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu6
+    - power: -3
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq55
@@ -12740,6 +13895,17 @@ units:
   names:
   - value: mole per kilogram
     lang: en
+  canonical_conversion:
+    factor: 1000000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu6
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu27
   quantity_references:
   - type: nist
     id: NISTq179
@@ -12999,6 +14165,17 @@ units:
   - value: kilowatt hour
     lang: en
   prefixed: true
+  canonical_conversion:
+    factor: 3600000
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu37
   quantity_references:
   - type: nist
     id: NISTq17
@@ -13052,6 +14229,17 @@ units:
   names:
   - value: watt hour
     lang: en
+  canonical_conversion:
+    factor: 3600
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu14
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu37
   quantity_references:
   - type: nist
     id: NISTq17
@@ -13104,6 +14292,8 @@ units:
     lang: en
   - value: candela
     lang: fr
+  canonical_conversion:
+    factor: 1
   quantity_references:
   - type: nist
     id: NISTq7
@@ -13140,6 +14330,17 @@ units:
   names:
   - value: candela per square meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu7
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq56
@@ -13718,6 +14919,17 @@ units:
     lang: en
   - value: radian
     lang: fr
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 2
+      unit_reference:
+        type: nist
+        id: NISTu1
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq195
@@ -13766,6 +14978,17 @@ units:
   names:
   - value: radian per meter
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu9
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu1
   quantity_references:
   - type: nist
     id: NISTq115
@@ -13805,6 +15028,17 @@ units:
   names:
   - value: radian per second
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu9
+    - power: -1
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq113
@@ -13847,6 +15081,17 @@ units:
   names:
   - value: radian per second squared
     lang: en
+  canonical_conversion:
+    factor: 1
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu9
+    - power: -2
+      unit_reference:
+        type: nist
+        id: NISTu3
   quantity_references:
   - type: nist
     id: NISTq58
