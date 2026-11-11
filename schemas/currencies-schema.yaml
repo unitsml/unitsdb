@@ -98,6 +98,10 @@ definitions:
       id:
         type: string
         description: "Stable symbol id"
+      ambiguous:
+        type: boolean
+        default: false
+        description: "The presentation is shared across currencies (bare $, the bare yen sign, the franc Fr.) and therefore carries no unambiguous unit semantics; strict-unit consumers skip it, prose style-enforcement consumers match it"
 
   Reference:
     type: object
