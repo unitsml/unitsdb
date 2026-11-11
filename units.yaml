@@ -4881,14 +4881,6 @@ units:
   - type: nist
     id: non-SI_not_acceptable
   root: false
-  root_units:
-  - power: 1
-    prefix_reference:
-      type: nist
-      id: NISTp10_3
-    unit_reference:
-      type: nist
-      id: NISTu196
   short: gram_force
   symbols:
   - latex: "\\ensuremath{\\mathrm{gf}}"
@@ -4897,6 +4889,13 @@ units:
     html: gf
     id: gf
     mathml: "<mi mathvariant='normal'>gf</mi>"
+  canonical_conversion:
+    factor: '0.00980665'
+    root_units:
+    - power: 1
+      unit_reference:
+        type: nist
+        id: NISTu11
 - identifiers:
   - type: nist
     id: NISTu1e-1/1
