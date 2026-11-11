@@ -521,6 +521,11 @@ currencies:
   names:
   - value: "Swiss franc"
     lang: en
+  symbols:
+  - unicode: "Fr."
+    ascii: CHF
+    id: CHF-franc
+    ambiguous: true
   minor_unit_exponent: 2
   status: active
   unit_system_reference:
@@ -595,6 +600,14 @@ currencies:
   names:
   - value: "Renminbi"
     lang: en
+  symbols:
+  - unicode: "CN¥"
+    ascii: CNY
+    id: CNY-yuan
+  - unicode: "¥"
+    ascii: CNY
+    id: CNY-yuan-bare
+    ambiguous: true
   minor_unit_exponent: 2
   status: active
   unit_system_reference:
@@ -1294,6 +1307,7 @@ currencies:
   - unicode: "¥"
     ascii: JPY
     id: JPY
+    ambiguous: true
   minor_unit_exponent: 0
   status: active
   unit_system_reference:
@@ -2707,6 +2721,10 @@ currencies:
   - unicode: "US$"
     ascii: USD
     id: USD
+  - unicode: "$"
+    ascii: USD
+    id: USD-dollar
+    ambiguous: true
   minor_unit_exponent: 2
   status: active
   unit_system_reference:
