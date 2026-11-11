@@ -6692,9 +6692,12 @@ units:
   root: false
   root_units:
   - power: 1
+    prefix_reference:
+      type: nist
+      id: NISTp10_2
     unit_reference:
       type: nist
-      id: NISTu203
+      id: NISTu201
   short: hundredweight
   symbols:
   - latex: "\\ensuremath{\\mathrm{cwt (US)}}"
@@ -14494,6 +14497,9 @@ units:
   root: false
   root_units:
   - power: 1
+    prefix_reference:
+      type: nist
+      id: NISTp10_3
     unit_reference:
       type: nist
       id: NISTu196
